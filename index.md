@@ -12,9 +12,10 @@ Please check out our [ohi-news](http://groups.google.com/a/nceas.ucsb.edu/group/
 
 You can install the latest packages for the cross-platform, open-source [R](http://www.r-project.org) statistics software with the following:
 
-    install.packages('devtools')
     library(devtools)
     install_github('ohigui', 'OHI-Science')
+
+If you don't already have `devtools` installed, then run `install.packages('devtools')` first. Next steps...
 
 ## Tools
 We anticipate posting the following tools:
@@ -23,6 +24,8 @@ We anticipate posting the following tools:
 * **cumimpacts** - an ArcGIS toolbox for Cumulative Impacts Analysis.
 * **ohi-arcgis** - an ArcGIS toolbox and Python functions for assistance with geographic data preparation.
 * **ohi-opengis** - an open-source GIS toolbox and Python functions for assistance with geographic data preparation.
+
+You can view and download the latest files at our OHI-Science Github site: http://github.com/OHI-Science.
 
 ## Data
 The data layers to calculate OHI will be posted for the following case studies:
