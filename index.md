@@ -11,10 +11,10 @@ This website hosts the scientific tools and related products (such as manuals an
 Please check out our [ohi-news](http://groups.google.com/a/nceas.ucsb.edu/group/ohi-news) list serve for the latest news. You can subscribe for updates by sending an email to [ohi-news+subscribe@nceas.ucsb.edu](mailto:ohi-news+subscribe@nceas.ucsb.edu).
 
 You can install the latest packages for the cross-platform, open-source [R](http://www.r-project.org) statistics software with the following:
-
-    library(devtools)
-    install_github('ohigui', 'OHI-Science')
-
+```coffee
+library(devtools)
+install_github('ohigui', 'OHI-Science')
+```
 If you don't already have `devtools` installed, then run `install.packages('devtools')` first. Next steps...
 
 ## Tools
