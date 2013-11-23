@@ -1,15 +1,15 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+permalink : /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+exclude : [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+pygments : true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : OHI-Science
-tagline: scientific tools for the Ocean Health Index
+tagline : scientific tools for the Ocean Health Index
 author :
   name : Ocean Health Index
   email : bbest@nceas.ucsb.edu
@@ -69,7 +69,7 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
+  archive_path : /news.html
   categories_path : /categories.html
   tags_path : /tags.html
   atom_path : /atom.xml
