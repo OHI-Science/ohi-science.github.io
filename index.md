@@ -12,8 +12,10 @@ Please check out our [ohi-news](http://groups.google.com/a/nceas.ucsb.edu/group/
 
 You can install the latest packages for the cross-platform, open-source [R](http://www.r-project.org) statistics software with the following:
 
-    library(devtools)
-    install_github('ohigui', 'OHI-Science')
+{% highlight S %}
+library(devtools)
+install_github('ohigui', 'OHI-Science')
+{% endhighlight %}
 
 If you don't already have `devtools` installed, then run `install.packages('devtools')` first. Next steps...
 
