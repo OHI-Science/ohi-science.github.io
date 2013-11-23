@@ -12,7 +12,7 @@ Please check out our [ohi-news](http://groups.google.com/a/nceas.ucsb.edu/group/
 
 You can install the latest packages for the cross-platform, open-source [R](http://www.r-project.org) statistics software with the following:
 
-{% highlight S %}
+{% highlight R %}
 library(devtools)
 install_github('ohigui', 'OHI-Science')
 {% endhighlight %}
