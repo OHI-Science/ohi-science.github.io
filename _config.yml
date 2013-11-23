@@ -101,6 +101,7 @@ JB :
     provider : google 
     google : 
         tracking_id : 'UA-45974528-1'
+        default_url : 'ohi-science.org'
     getclicky :
       site_id : 
     mixpanel :
