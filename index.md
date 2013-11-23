@@ -2,6 +2,7 @@
 layout: page
 title: Home
 tagline: scientific tools and data for the Ocean Health Index
+comments: true
 ---
 {% include JB/setup %}
 
