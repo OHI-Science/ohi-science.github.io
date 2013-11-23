@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>Tools</title>
+
+
+
+
+
+<style type="text/css">
+
+</style>
+
+
+
+</head>
+
+<body>
+<p>{% include JB/setup %}</p>
+
+<p>This website hosts the scientific tools and related products (such as manuals and data) for calculating the <strong>Ocean Health Index</strong>, whereas the main site <a href="http://oceanhealthindex.org">OceanHealthIndex.org</a> delivers the public facing output of the Index.</p>
+
+<p>Please check out our <a href="http://groups.google.com/a/nceas.ucsb.edu/group/ohi-news">ohi-news</a> list serve for the latest news. You can subscribe for updates by sending an email to <a href="mailto:ohi-news+subscribe@nceas.ucsb.edu">ohi-news+subscribe@nceas.ucsb.edu</a>.</p>
+
+<p>You can install the latest packages for the cross-platform, open-source <a href="http://www.r-project.org">R</a> statistics software with the following:</p>
+
+<pre><code>install.packages(&#39;devtools&#39;)
+library(devtools)
+install_github(&#39;ohigui&#39;, &#39;OHI-Science&#39;)
+</code></pre>
+
+<h2>Tools</h2>
+
+<p>We anticipate posting the following tools:</p>
+
+<ul>
+<li><strong>ohicore</strong> - the R package of core functions for calculating the Index.</li>
+<li><strong>ohigui</strong> - the graphical user interface using a web browser to communicate with R.</li>
+<li><strong>cumimpacts</strong> - an ArcGIS toolbox for Cumulative Impacts Analysis.</li>
+<li><strong>ohi-arcgis</strong> - an ArcGIS toolbox and Python functions for assistance with geographic data preparation.</li>
+<li><strong>ohi-opengis</strong> - an open-source GIS toolbox and Python functions for assistance with geographic data preparation.</li>
+</ul>
+
+<h2>Data</h2>
+
+<p>The data layers to calculate OHI will be posted for the following case studies:</p>
+
+<ul>
+<li>Global Nature 2012</li>
+<li>Global Web 2013</li>
+<li>Brazil 2013</li>
+<li>US West Coast 2013</li>
+</ul>
+
+<h2>Publications</h2>
+
+<p>Here are a couple seminal publications:</p>
+
+<ul>
+<li>Halpern et al (2008) A Global Map of Human Impact on Marine Ecosystems. Science. (<a href="http://www.sciencemag.org/content/319/5865/948.abstract">article</a>, <a href="http://www.nceas.ucsb.edu/globalmarine">data</a>)</li>
+<li>Halpern et al (2012) An index to assess the health and benefits of the global ocean. Nature. (<a href="http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html">article</a>, <a href="ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html">data</a>)</li>
+</ul>
+
+<h2>News</h2>
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<p>Please direct any questions or comments to Ben Best (<a href="mailto:bbest@nceas.ucsb.edu">bbest@nceas.ucsb.edu</a>).</p>
+
+</body>
+
+</html>
