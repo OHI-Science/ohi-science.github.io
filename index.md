@@ -5,7 +5,7 @@ tagline: scientific tools and data for the Ocean Health Index
 ---
 {% include JB/setup %}
 
-This website hosts the scientific tools and related products (such as manuals and data) for calculating the [Ocean Health Index](http://oceanhealthindex.org), whereas the main site OceanHealthIndex.org delivers the public facing output of the Index.
+This website hosts the scientific tools and related products (such as manuals and data) for calculating the **Ocean Health Index**, whereas the main site [OceanHealthIndex.org](http://oceanhealthindex.org) delivers the public facing output of the Index.
 
 Please check out our [ohi-news](http://groups.google.com/a/nceas.ucsb.edu/group/ohi-news) list serve for the latest news. You can subscribe for updates by sending an email to [ohi-news+subscribe@nceas.ucsb.edu](mailto:ohi-news+subscribe@nceas.ucsb.edu).
 
