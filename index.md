@@ -25,7 +25,7 @@ We anticipate posting the following tools:
 * **ohi-arcgis** - an ArcGIS toolbox and Python functions for assistance with geographic data preparation.
 * **ohi-opengis** - an open-source GIS toolbox and Python functions for assistance with geographic data preparation.
 
-You can view and download the latest files at our OHI-Science Github site: http://github.com/OHI-Science.
+You can view and download the latest files at our OHI-Science Github site: [https://github.com/ohi-science](https://github.com/ohi-science).
 
 ## Data
 The data layers to calculate OHI will be posted for the following case studies:
