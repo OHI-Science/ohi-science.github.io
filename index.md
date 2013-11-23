@@ -1,46 +1,45 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Home
+tagline: scientific tools and data for the Ocean Health Index
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+This website hosts the scientific tools and related products (such as manuals and data) for calculating the [Ocean Health Index](http://oceanhealthindex.org), whereas the main site OceanHealthIndex.org delivers the public facing output of the Index.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+Please check out our [ohi-news](http://groups.google.com/a/nceas.ucsb.edu/group/ohi-news) list serve for the latest news. You can subscribe for updates by sending an email to [ohi-news+subscribe@nceas.ucsb.edu](mailto:ohi-news+subscribe@nceas.ucsb.edu).
 
-## Update Author Attributes
+You can install the latest `R packages` with the following:
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+    install.packages('devtools')
+    library(devtools)
+    install_github('ohigui', 'OHI-Science')
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+## Tools
+We anticipate posting the following tools:
+* **ohicore** - the R package of core functions for calculating the Index.
+* **ohigui** - the graphical user interface using a web browser to communicate with R.
+* **cumimpacts** - an ArcGIS toolbox for Cumulative Impacts Analysis.
+* **ohi-arcgis** - an ArcGIS toolbox and Python functions for assistance with geographic data preparation.
+* **ohi-opengis** - an open-source GIS toolbox and Python functions for assistance with geographic data preparation.
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+## Data
+The data layers to calculate OHI will be posted for the following case studies:
+* Global Nature 2012
+* Global Web 2013
+* Brazil 2013
+* US West Coast 2013
 
-    $ rm -rf _posts/core-samples
+## Publications
+Here are a couple seminal publications:
+* Halpern et al (2008) A Global Map of Human Impact on Marine Ecosystems. Science. ([article](http://www.sciencemag.org/content/319/5865/948.abstract), [data](http://www.nceas.ucsb.edu/globalmarine))
+* Halpern et al (2012) An index to assess the health and benefits of the global ocean. Nature. ([article](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html), [data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html))
 
-Here's a sample "posts list".
-
+## News
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
 
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+Please direct any questions or comments to Ben Best ([bbest@nceas.ucsb.edu](mailto:bbest@nceas.ucsb.edu)).
