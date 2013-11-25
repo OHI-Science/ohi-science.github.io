@@ -20,11 +20,11 @@ There are several technical issues in generating regions which need need to: 1) 
 
 ![raw data: GADM and EEZ](/figs/create_regions/gadm.png)
 
-The EEZ is in blue and the GADM is color coded by state. Notice finer subdivisions are included in the GADM. Now we just need to extend these subdivisions offshore to generate state-level waters. The typical [buffer](http://resources.arcgis.com/en/help/main/10.2/index.html#//000800000019000000) function in GIS does, however, does not handle distinct overlapping regions.
+The EEZ is in blue and the GADM is color coded by state. Notice finer subdivisions are included in the GADM. Now we just need to extend these subdivisions offshore to generate state-level waters. The typical [buffer](http://resources.arcgis.com/en/help/main/10.2/index.html#//000800000019000000) function in GIS, however, does not handle distinct overlapping regions.
 
 ![raw data: GADM and EEZ](/figs/create_regions/overlapping.png)
 
-As you can see from this simple buffer result, the buffers extend into each other so we need a solution to this overlap issue. We solve for this problem by generating [Thiessen polygons](http://resources.arcgis.com/en/help/main/10.2/index.html#//00080000001m000000) from the points on the outer edge of the land, which then gets intersected with the dissolved buffer. This is akin to the [method](http://marineregions.org/eezmethodology.php) used to originally create the EEZ boundaries. The result in this case with multiple buffers (at 3, 12, 50 and 100 nm) is unique and non-overlapping by state.
+As you can see from this simple buffer result, the buffers extend into each other. We solve for this overlap issue by generating [Thiessen polygons](http://resources.arcgis.com/en/help/main/10.2/index.html#//00080000001m000000) from the points on the outer edge of the land, which then gets intersected with the dissolved buffer. This is akin to the [method](http://marineregions.org/eezmethodology.php) used to originally create the EEZ boundaries. The result in this case with multiple buffers (at 3, 12, 50 and 100 nm) is unique and non-overlapping by state.
 
 ![raw data: GADM and EEZ](/figs/create_regions/buffers.png)
 
