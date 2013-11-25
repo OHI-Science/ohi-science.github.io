@@ -16,7 +16,7 @@ Here we provide a little recipe for creating these in ArcGIS using the following
 
 ## Issues
 
-There are several technical issues in generating regions which need need to: 1) not overlap with one another; and 2) cover the entire extent of the country without gaps, and . Here is the raw data displayed for our example country of Malaysia.
+There are several technical issues in generating regions which need need to: 1) not overlap with one another; and 2) cover the entire extent of the country without gaps. Here is the raw data displayed for our example country of Malaysia.
 
 ![raw data: GADM and EEZ](/figs/create_regions/gadm.png)
 
@@ -24,7 +24,7 @@ The EEZ is in blue and the GADM is color coded by state. Notice finer subdivisio
 
 ![raw data: GADM and EEZ](/figs/create_regions/overlapping.png)
 
-As you can see from this simple buffer result, the buffers extend into each other so we need a solution to this overlap issue. We solve for this problem by generating [Thiessen polygons](http://resources.arcgis.com/en/help/main/10.2/index.html#//00080000001m000000) from the points on the outer edge of the land, which then gets intersected with the dissolved buffer. This is [akin](http://marineregions.org/eezmethodology.php) to the method used for originally creating the EEZ boundaries. The result in this case with multiple buffers (at 3, 12, 50 and 100 nm) is unique and non-overlapping by state.
+As you can see from this simple buffer result, the buffers extend into each other so we need a solution to this overlap issue. We solve for this problem by generating [Thiessen polygons](http://resources.arcgis.com/en/help/main/10.2/index.html#//00080000001m000000) from the points on the outer edge of the land, which then gets intersected with the dissolved buffer. This is akin to the [method](http://marineregions.org/eezmethodology.php) used to originally create the EEZ boundaries. The result in this case with multiple buffers (at 3, 12, 50 and 100 nm) is unique and non-overlapping by state.
 
 ![raw data: GADM and EEZ](/figs/create_regions/buffers.png)
 
@@ -36,11 +36,11 @@ By extending the GADM provinces out with these Thiessen polygons to the full ext
 
 ![raw data: GADM and EEZ](/figs/create_regions/corrected.png)
 
-Some manual editing may be required beyond this recipe, since certain islands are not likely to be intersected by states and should instead by assigned wholly to one state. If the given country spans the international dateline (-180&deg; W or 180&deg; E), then a more complex analysis using geodetic distance should first be applied to the points (see [eg using geographiclib](http://code.env.duke.edu/projects/mget/ticket/549)) and probably a [Plate Carr&eacute;e](http://resources.arcgis.com/en/help/main/10.2/index.html#//003r0000003r000000) or other dateline spanning projection should be used. Finally, if the country's EEZ is extensive than this method could be replaced with a raster method ("raster is faster, but vector is corrector") using [Polygon to Raster](http://resources.arcgis.com/en/help/main/10.2/index.html#//001200000030000000) and [Euclidean Allocation](http://resources.arcgis.com/en/help/main/10.2/index.html#//009z0000001m000000) (alternate recipe forthcoming).  
+Some manual editing may be required beyond this recipe, since certain islands are not likely to be intersected by states and should instead by assigned wholly to one state. If the given country spans the international dateline (-180&deg; W or 180&deg; E), then a more complex analysis using geodetic distance should first be applied to the points (eg using [geographiclib](http://code.env.duke.edu/projects/mget/ticket/549)) and probably a [Plate Carr&eacute;e](http://resources.arcgis.com/en/help/main/10.2/index.html#//003r0000003r000000) or other dateline spanning projection should be used. Finally, if the country's EEZ is extensive than this method could be replaced with a raster method ("raster is faster, but vector is corrector") using [Polygon to Raster](http://resources.arcgis.com/en/help/main/10.2/index.html#//001200000030000000) and [Euclidean Allocation](http://resources.arcgis.com/en/help/main/10.2/index.html#//009z0000001m000000) (alternate recipe forthcoming).
 
 ## Script Recipe
 
-Here's a script which you can modify based on your local paths and desired buffer distances. It is recommended that each line be run sequentially in the [ArcGIS Python window of ArcMap](http://resources.arcgis.com/en/help/main/10.2/index.html#/What_is_the_Python_window/002100000017000000/) which will render the geographic outputs so you can visually inspect the process.
+Here's a script which you can modify based on your local paths and desired buffer distances. It is recommended that each line be run sequentially in the [Python window of ArcMap](http://resources.arcgis.com/en/help/main/10.2/index.html#/What_is_the_Python_window/002100000017000000/) which will render the geographic outputs so you can visually inspect the process.
 
 {% highlight python %}
 # create_regions.py - generate non-overlapping regions extending
