@@ -17,7 +17,7 @@ library(devtools)
 install_github('ohigui', 'OHI-Science')
 {% endhighlight %}
 
-If you don't already have `devtools` installed, then run `install.packages('devtools')` first. Next steps...
+If you don't already have `devtools` installed, then run `install.packages('devtools')` first. Additional steps to launch the browser are forthcoming. Meanwhile, you can [Create Regions](/pages/create_regions.html) specific to your country.
 
 ## Tools
 We anticipate posting the following tools:

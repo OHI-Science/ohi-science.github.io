@@ -24,7 +24,7 @@ The EEZ is in blue and the GADM is color coded by state. Notice finer subdivisio
 
 ![raw data: GADM and EEZ](/figs/create_regions/overlapping.png)
 
-As you can see from this simple buffer result, we need a solution to this overlap issue. We solve for this problem by generating [Thiessen polygons](http://resources.arcgis.com/en/help/main/10.2/index.html#//00080000001m000000) from the points on the outer edge of the land, which then gets intersected with the dissolved buffer. This is [akin](http://marineregions.org/eezmethodology.php) to the method used for originally creating the EEZ boundaries. The result in this case with multiple buffers (at 3, 12, 50 and 100 nm) is unique and non-overlapping by state.
+As you can see from this simple buffer result, the buffers extend into each other so we need a solution to this overlap issue. We solve for this problem by generating [Thiessen polygons](http://resources.arcgis.com/en/help/main/10.2/index.html#//00080000001m000000) from the points on the outer edge of the land, which then gets intersected with the dissolved buffer. This is [akin](http://marineregions.org/eezmethodology.php) to the method used for originally creating the EEZ boundaries. The result in this case with multiple buffers (at 3, 12, 50 and 100 nm) is unique and non-overlapping by state.
 
 ![raw data: GADM and EEZ](/figs/create_regions/buffers.png)
 
@@ -130,4 +130,4 @@ for fc in sorted(arcpy.ListFeatureClasses()):
 * Create a global base layer extending the finest GADM subdivision and desktop functions to operate on this layer, which will greatly reduce the processing time (by removing the Create Thiessen Polygons step).
 * Create a web service for extraction of any country and subdivision buffer offshore or inshore.
 * Create a custom [Albers Equal Area](http://resources.arcgis.com/en/help/main/10.2/index.html#//003r0000001n000000) projection assigning the parallels to 1/6th of the EEZ extent to minimize distortion (a la [project_optimal_albers.py](http://code.env.duke.edu/projects/mget/attachment/ticket/231/project_optimal_albers.py)).
-* generate [TopoJSON](https://github.com/mbostock/topojson) for display in the OHI Toolbox mapping interface which minimizes the storage size (by removal of redundant vertices of polygon shared borders).
+* generate [TopoJSON](https://github.com/mbostock/topojson) for display in the OHI Toolbox mapping interface which minimizes the storage size by removal of redundant vertices of polygon shared borders. (Bonus: [Github interactive map rendering](http://blog.thematicmapping.org/2013/06/converting-shapefiles-to-topojson.html).)
