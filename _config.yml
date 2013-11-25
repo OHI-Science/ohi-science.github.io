@@ -28,7 +28,10 @@ author :
 production_url : http://ohi-science.org
 
 # The number of posts per page
-paginate: 3
+# paginate: 3
+#
+# Commenting out pagination b/c getting this warning when running jekyll serve:
+#   Pagination: Pagination is enabled, but I couldn't findan index.html page to use as the pagination template. Skipping pagination.
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
