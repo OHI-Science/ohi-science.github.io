@@ -14,7 +14,10 @@ You can install the latest packages for the cross-platform, open-source [R](http
 
 {% highlight R %}
 library(devtools)
+install_github('ohicore', 'OHI-Science')
 install_github('ohigui', 'OHI-Science')
+source(config.Global2013.Web2013b.R)
+launchApp(config.R)
 {% endhighlight %}
 
 If you don't already have `devtools` installed, then run `install.packages('devtools')` first. Additional steps to launch the browser are forthcoming. Meanwhile, you can [Create Regions](/pages/create_regions.html) specific to your country.
