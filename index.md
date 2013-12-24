@@ -13,11 +13,14 @@ Please check out our [ohi-news](http://groups.google.com/a/nceas.ucsb.edu/group/
 You can install the latest packages for the cross-platform, open-source [R](http://www.r-project.org) statistics software with the following:
 
 {% highlight R %}
-library(devtools)
-install_github('ohicore', 'OHI-Science')
-install_github('ohigui', 'OHI-Science')
-source(config.Global2013.Web2013b.R)
-launchApp(config.R)
+if (!require(devtools)){
+  install.packages('devtools')
+  require(devtools)
+} 
+install_github('rCharts', 'bbest')
+install_github('ohicore', 'ohi-science')
+install_github('ohigui' , 'ohi-science')
+ohigui::launchApp()
 {% endhighlight %}
 
 If you don't already have `devtools` installed, then run `install.packages('devtools')` first. Additional steps to launch the browser are forthcoming. Meanwhile, you can [Create Regions](/pages/create_regions.html) specific to your country.
