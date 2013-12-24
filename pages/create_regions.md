@@ -45,7 +45,7 @@ Here's a script which you can modify based on your local paths and desired buffe
 {% gist 7650602 create_regions.py %}
 
 ## Future Work
-* Generate GeoJSON for storage as a shapes object. Easiest for now is to drag and drop *.shp files into [mapshaper.org/](http://mapshaper.org).
+* Generate GeoJSON for storage as a shapes object. Easiest for now is to drag and drop \*.shp files into [mapshaper.org](http://mapshaper.org).
 * Fold this script into a function as part of the ohi-arcgis and ohi-opengis modules.
 * Create a global base layer extending the finest GADM subdivision and desktop functions to operate on this layer, which will greatly reduce the processing time (by removing the Create Thiessen Polygons step).
 * Create a web service for extraction of any country and subdivision buffer offshore or inshore.
