@@ -38,7 +38,7 @@ You can view and download the latest files at [https://github.com/ohi-science](h
 ## Data
 The data layers to calculate OHI will be posted for the following case studies:
 * Global Nature 2012
-* Global Web 2013
+* Global Web 2013 ([layers.zip](http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/layers.Global2013.www2013.zip) or full [scenario.zip](http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/scenario.Global2013.www2013.zip))
 * Brazil 2013
 * US West Coast 2013
 
