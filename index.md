@@ -10,7 +10,7 @@ This website hosts the scientific tools and related products (such as manuals an
 
 Please check out our [ohi-news](http://groups.google.com/a/nceas.ucsb.edu/group/ohi-news) list serve for the latest news. You can subscribe for updates by sending an email to [ohi-news+subscribe@nceas.ucsb.edu](mailto:ohi-news+subscribe@nceas.ucsb.edu).
 
-You can install and launch the OHI libraries and application from the cross-platform, open-source [R](http://www.r-project.org) statistics software (install on [Windows](http://cran.rstudio.com/bin/windows/base/) or [Mac](http://cran.rstudio.com/bin/macosx/)) with the following:
+You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software (install R on [Windows](http://cran.rstudio.com/bin/windows/base/) or [Mac](http://cran.rstudio.com/bin/macosx/)) with the following:
 
 {% highlight R %}
 if (!require(devtools)){
