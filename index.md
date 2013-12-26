@@ -21,16 +21,19 @@ install_github('rCharts', 'bbest')
 install_github('ohicore', 'ohi-science')
 install_github('ohigui' , 'ohi-science')
 ohigui::launchApp()
+
 {% endhighlight %}
 
-If you don't already have `devtools` installed, then run `install.packages('devtools')` first. Additional steps to launch the browser are forthcoming. Meanwhile, you can [Create Regions](/pages/create_regions.html) specific to your country.
+While not necessary, we recommend using the [RStudio](http://www.rstudio.com/ide/) as your R interface for easier reading of R code in files and overall integrated development environment.
+
+Meanwhile, you can .
 
 ## Tools
 We anticipate posting the following tools:
-* **ohicore** - the R package of core functions for calculating the Index.
-* **ohigui** - the graphical user interface using a web browser to communicate with R.
+* **ohicore** - the R package of core functions for calculating the Index. Find the latest at [github.com/ohi-science/ohicore](http://github.com/ohi-science/ohicore).
+* **ohigui** - the graphical user interface using a web browser to communicate with R. Find the latest at [github.com/ohi-science/ohigui](http://github.com/ohi-science/ohigui).
 * **cumimpacts** - an ArcGIS toolbox for Cumulative Impacts Analysis.
-* **ohi-arcgis** - an ArcGIS toolbox and Python functions for assistance with geographic data preparation.
+* **ohi-arcgis** - an ArcGIS toolbox and Python functions for assistance with geographic data preparation. Here's an example script to [Create Regions](/pages/create_regions.html) specific to your country.
 * **ohi-opengis** - an open-source GIS toolbox and Python functions for assistance with geographic data preparation.
 
 You can view and download the latest files at [https://github.com/ohi-science](https://github.com/ohi-science).
