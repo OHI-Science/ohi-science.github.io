@@ -29,7 +29,7 @@ While not necessary, we recommend using the [RStudio](http://www.rstudio.com/ide
 Meanwhile, you can .
 
 ## Tools
-We anticipate posting the following tools:
+Here's an overview of the anticipated and current status of tools:
 * **ohicore** - the R package of core functions for calculating the Index. Find the latest at [github.com/ohi-science/ohicore](http://github.com/ohi-science/ohicore).
 * **ohigui** - the graphical user interface using a web browser to communicate with R. Find the latest at [github.com/ohi-science/ohigui](http://github.com/ohi-science/ohigui).
 * **cumimpacts** - an ArcGIS toolbox for Cumulative Impacts Analysis.
@@ -39,8 +39,8 @@ We anticipate posting the following tools:
 You can view and download the latest files at [https://github.com/ohi-science](https://github.com/ohi-science).
 
 ## Data
-The data layers to calculate OHI will be posted for the following case studies:
-* Global Nature 2012
+Here's the current status and anticipated OHI data packages by scenario:
+* Global Nature 2012 ([data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html))
 * Global Web 2013 ([layers.zip](http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/layers.Global2013.www2013.zip) or full [scenario.zip](http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/scenario.Global2013.www2013.zip))
 * Brazil 2013
 * US West Coast 2013
