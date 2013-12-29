@@ -10,27 +10,25 @@ This website hosts the scientific tools and related products (such as manuals an
 
 Please check out our [ohi-news](http://groups.google.com/a/nceas.ucsb.edu/group/ohi-news) list serve for the latest news. You can subscribe for updates by sending an email to [ohi-news+subscribe@nceas.ucsb.edu](mailto:ohi-news+subscribe@nceas.ucsb.edu).
 
-You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software (install R on [Windows](http://cran.rstudio.com/bin/windows/base/) or [Mac](http://cran.rstudio.com/bin/macosx/)) with the following:
+You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software (install R on [Windows](http://cran.rstudio.com/bin/windows/base/) or [Mac](http://cran.rstudio.com/bin/macosx/)) by running these lines of code in the R console one time only:
 
 {% gist 8173863 install_code.R %}
 
-While not necessary, we recommend using the [RStudio](http://www.rstudio.com/ide/) as your R interface for easier reading of R code in files and overall integrated development environment.
-
-If you are interested in creating a custom OHI analysis scenario specific to a country, you may want to start with these tips on how to [Create Regions](/pages/create_regions.html).
+If you don't already have `devtools` installed, then run `install.packages('devtools')` first. Additional steps to launch the browser are forthcoming. Meanwhile, you can [Create Regions](/pages/create_regions.html) specific to your country.
 
 ## Tools
-Here's an overview of the anticipated and current status of tools:
-* **ohicore** - the R package of core functions for calculating the Index. Find the latest at [github.com/ohi-science/ohicore](http://github.com/ohi-science/ohicore).
-* **ohigui** - the graphical user interface using a web browser to communicate with R. Find the latest at [github.com/ohi-science/ohigui](http://github.com/ohi-science/ohigui).
+We anticipate posting the following tools:
+* **ohicore** - the R package of core functions for calculating the Index.
+* **ohigui** - the graphical user interface using a web browser to communicate with R.
 * **cumimpacts** - an ArcGIS toolbox for Cumulative Impacts Analysis.
-* **ohi-arcgis** - an ArcGIS toolbox and Python functions for assistance with geographic data preparation. Here's an example script to [Create Regions](/pages/create_regions.html) specific to your country.
+* **ohi-arcgis** - an ArcGIS toolbox and Python functions for assistance with geographic data preparation.
 * **ohi-opengis** - an open-source GIS toolbox and Python functions for assistance with geographic data preparation.
 
 You can view and download the latest files at [https://github.com/ohi-science](https://github.com/ohi-science).
 
 ## Data
-Here's the current status and anticipated OHI data packages by scenario:
-* Global Nature 2012 ([data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html))
+The data layers to calculate OHI will be posted for the following case studies:
+* Global Nature 2012
 * Global Web 2013 ([layers.zip](http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/layers.Global2013.www2013.zip) or full [scenario.zip](http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/scenario.Global2013.www2013.zip))
 * Brazil 2013
 * US West Coast 2013
