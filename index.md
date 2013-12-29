@@ -14,7 +14,7 @@ You can install and launch the latest OHI application from the cross-platform, o
 
 {% gist 8173863 install_code.R %}
 
-While not necessary, we recommend using the [RStudio](http://www.rstudio.com/ide/) as your R interface for easier reading of R code in files and overall integrated development environment.
+While not necessary, we recommend using [RStudio](http://www.rstudio.com/ide/) as your R interface for syntax highlighting of code and overall integrated development environment.
 
 If you are interested in creating a custom OHI analysis scenario specific to a country, you may want to start with these tips on how to [Create Regions](/pages/create_regions.html).
 
