@@ -15,7 +15,7 @@ You can install and launch the latest OHI application from the cross-platform, o
 {% gist 8173863 install_code.R %}
 
 Here's a 10.5 minute video demonstrating how to [Install and Explore the Ocean Health Index Toolbox App](http://www.youtube.com/watch?v=v8Dtke2y2uE).
-[![Install and Explore the Ocean Health Index Toolbox App](http://img.youtube.com/vi/v8Dtke2y2uE/0.jpg)](http://www.youtube.com/watch?v=v8Dtke2y2uE)
+[![Install and Explore the Ocean Health Index Toolbox App](http://img.youtube.com/vi/v8Dtke2y2uE/mqdefault.jpg)](http://www.youtube.com/watch?v=v8Dtke2y2uE)
 
 While not necessary, we recommend using [RStudio](http://www.rstudio.com/ide/) as your R interface for syntax highlighting of code and overall integrated development environment.
 
