@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>Tools</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<p>{% include JB/setup %}</p>
+
+<p>This website hosts the scientific tools and related products (such as manuals and data) for calculating the <strong>Ocean Health Index</strong>, whereas the main site <a href="http://oceanhealthindex.org">OceanHealthIndex.org</a> delivers the public facing output of the Index.</p>
+
+<p>Please check out our <a href="http://groups.google.com/a/nceas.ucsb.edu/group/ohi-news">ohi-news</a> list serve for the latest news. You can subscribe for updates by sending an email to <a href="mailto:ohi-news+subscribe@nceas.ucsb.edu">ohi-news+subscribe@nceas.ucsb.edu</a>.</p>
+
+<p>You can install and launch the latest OHI application from the cross-platform, open-source <a href="http://www.r-project.org">R</a> statistics software (install R on <a href="http://cran.rstudio.com/bin/windows/base/">Windows</a> or <a href="http://cran.rstudio.com/bin/macosx/">Mac</a>) with the following:</p>
+
+<p>{% gist 8173863 install_code.R %}</p>
+
+<p>Here&#39;s a 10.5 minute video demonstrating how to<br>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=v8Dtke2y2uE" target="_blank">
+Install and Explore the Ocean Health Index Toolbox App<br>
+<img src="http://img.youtube.com/vi/v8Dtke2y2uE/mqdefault.jpg" 
+alt="Install and Explore the Ocean Health Index Toolbox App" border="2"/></a></p>
+
+<p>While not necessary, we recommend using <a href="http://www.rstudio.com/ide/">RStudio</a> as your R interface for syntax highlighting of code and overall integrated development environment.</p>
+
+<p>If you are interested in creating a custom OHI analysis scenario specific to a country, you may want to start with these tips on how to <a href="/pages/create_regions.html">Create Regions</a>.</p>
+
+<h2>Tools</h2>
+
+<p>Here&#39;s an overview of the anticipated and current status of tools:</p>
+
+<ul>
+<li><strong>ohicore</strong> - the R package of core functions for calculating the Index. Find the latest at <a href="http://github.com/ohi-science/ohicore">github.com/ohi-science/ohicore</a>.</li>
+<li><strong>ohigui</strong> - the graphical user interface using a web browser to communicate with R. Find the latest at <a href="http://github.com/ohi-science/ohigui">github.com/ohi-science/ohigui</a>.</li>
+<li><strong>cumimpacts</strong> - an ArcGIS toolbox for Cumulative Impacts Analysis.</li>
+<li><strong>ohi-arcgis</strong> - an ArcGIS toolbox and Python functions for assistance with geographic data preparation. Here&#39;s an example script to <a href="/pages/create_regions.html">Create Regions</a> specific to your country.</li>
+<li><strong>ohi-opengis</strong> - an open-source GIS toolbox and Python functions for assistance with geographic data preparation.</li>
+</ul>
+
+<p>You can view and download the latest files at <a href="https://github.com/ohi-science">https://github.com/ohi-science</a>.</p>
+
+<h2>Data</h2>
+
+<p>Here&#39;s the current status and anticipated OHI data packages by scenario:</p>
+
+<ul>
+<li>Global Nature 2012 (<a href="ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html">data</a>)</li>
+<li>Global Web 2013 (<a href="http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/layers.Global2013.www2013.zip">layers.zip</a> or full <a href="http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/scenario.Global2013.www2013.zip">scenario.zip</a>)</li>
+<li>Brazil 2013</li>
+<li>US West Coast 2013</li>
+</ul>
+
+<h2>Publications</h2>
+
+<p>Here are a couple seminal publications:</p>
+
+<ul>
+<li>Halpern et al (2008) A Global Map of Human Impact on Marine Ecosystems. Science. (<a href="http://www.sciencemag.org/content/319/5865/948.abstract">article</a>, <a href="http://www.nceas.ucsb.edu/globalmarine">data</a>)</li>
+<li>Halpern et al (2012) An index to assess the health and benefits of the global ocean. Nature. (<a href="http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html">article</a>, <a href="ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html">data</a>)</li>
+</ul>
+
+<h2>News</h2>
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<p>Please direct any questions or comments to Ben Best (<a href="mailto:bbest@nceas.ucsb.edu">bbest@nceas.ucsb.edu</a>).</p>
+
+</body>
+
+</html>
+
