@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Learning R"
+description: "resources for learning the R programming language"
+category: setup
+tags: [R, statistics, programming]
+---
+{% include JB/setup %}
 # Resources for Learning R
 
 There are many online materials for learning R. Here is just a small sample of free online resources.
