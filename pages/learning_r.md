@@ -18,6 +18,7 @@ There are many online materials for learning R. Here is just a small sample of f
 
 ## Packages worth extra exploration
   * [plyr](http://plyr.had.co.nz/) - split data, apply a function to each piece, and combine the results back together
+  * [reshape2](http://had.co.nz/reshape/) - melt your data into long format (few columns, many rows) format and cast it into wide format (few rows, many columns)
   * [ggplot2](http://docs.ggplot2.org/current/) - plotting using the "grammar of graphics" principles ([cookbook](http://www.cookbook-r.com/Graphs/))
 
 ## Compared to Matlab
