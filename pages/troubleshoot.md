@@ -6,7 +6,6 @@ category: setup
 tags: [R, statistics, programming]
 ---
 {% include JB/setup %}
-# Troubleshooting
 
 Here are some tips for common problems encountered when installing or using the OHI software.
 

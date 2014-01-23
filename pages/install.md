@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Home
-tagline: scientific tools and data for the Ocean Health Index
+title: Install
+tagline: instructions for installing the OHI software
 comments: true
 ---
 {% include JB/setup %}
