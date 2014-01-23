@@ -6,7 +6,7 @@ comments: true
 ---
 {% include JB/setup %}
 
-# Install OHI Software
+# Instructions
 
 You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software (install R on [Windows](http://cran.rstudio.com/bin/windows/base/) or [Mac](http://cran.rstudio.com/bin/macosx/)) with the following:
 
