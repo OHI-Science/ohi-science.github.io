@@ -11,10 +11,9 @@ tags: [R, statistics, programming]
 There are many online materials for learning R. Here is just a small sample of free online resources.
 
 ## Tutorials and manuals
+* [R manuals](http://cran.r-project.org/manuals.html) and [contributed documentation](http://cran.r-project.org/other-docs.html) (includes foreign language translations)
 * [Quick-R](http://www.statmethods.net) - menu driven tutorials
 * [TryR](http://tryr.codeschool.com/) - simple interactive sessions through the web (no R needed on desktop)
-* [UsingR.pdf](http://cran.r-project.org/doc/contrib/usingR.pdf) - easy to follow manual
-* [An Introduction to R](http://cran.r-project.org/doc/manuals/r-release/R-intro.html) - exhaustive manual
 
 ## Packages worth extra exploration
   * [plyr](http://plyr.had.co.nz/) - split data, apply a function to each piece, and combine the results back together
