@@ -8,6 +8,13 @@ comments: true
 
 This website hosts the scientific tools and related products (such as manuals and data) for calculating the **Ocean Health Index**, whereas the main site [OceanHealthIndex.org](http://oceanhealthindex.org) delivers the public facing output of the Index.
 
+
+## Install
+You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software by following the instructions at our [Install](/pages/install.html). For any problems with installation or running the app, please check our [Troubleshooting](/pages/troubleshoot.html) page.
+
+Here's a 10.5 minute video demonstrating how to **Install and Explore the Ocean Health Index Toolbox App** as a:
+<ul><li>online <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=v8Dtke2y2uE" target="_blank">YouTube video<br><img src="http://img.youtube.com/vi/v8Dtke2y2uE/mqdefault.jpg" alt="Install and Explore the Ocean Health Index Toolbox App" border="2"/></a></li><li>or downloadable <a href="http://ohi.nceas.ucsb.edu/video/ohi_app_install_explore.wmv">Windows media video</a> (29 MB)</li></ul>
+
 ## Supporting Documents
 These documents offer further information to those interested in understanding more about the Ocean Health Index conceptually or technically.  
 * **The Ocean Health Index Conceptual Guide** - the background and philosophy of creating the Ocean Health Index, with particular attention to development of goal models and direction for regional assessments.
@@ -16,12 +23,6 @@ These documents offer further information to those interested in understanding m
 * **How To Format Data** - short instruction on proper data formatting required by the OHI Toolbox.
 * **How To Calculate Pressures** - short instruction on pressures matrices.
 * **How To Calculate Resilience** - short instruction on resilience matrices.
-
-## Install
-You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software by following the instructions at our [Install](/pages/install.html). For any problems with installation or running the app, please check our [Troubleshooting](/pages/troubleshoot.html) page.
-
-Here's a 10.5 minute video demonstrating how to **Install and Explore the Ocean Health Index Toolbox App** as a:
-<ul><li>online <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=v8Dtke2y2uE" target="_blank">YouTube video<br><img src="http://img.youtube.com/vi/v8Dtke2y2uE/mqdefault.jpg" alt="Install and Explore the Ocean Health Index Toolbox App" border="2"/></a></li><li>or downloadable <a href="http://ohi.nceas.ucsb.edu/video/ohi_app_install_explore.wmv">Windows media video</a> (29 MB)</li></ul>
 
 ## Tools
 Here's an overview of the anticipated and current status of tools:
