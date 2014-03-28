@@ -8,6 +8,15 @@ comments: true
 
 This website hosts the scientific tools and related products (such as manuals and data) for calculating the **Ocean Health Index**, whereas the main site [OceanHealthIndex.org](http://oceanhealthindex.org) delivers the public facing output of the Index.
 
+## Supporting Documents
+These documents offer further information to those interested in understanding more about the Ocean Health Index conceptually or technically.  
+* **The Ocean Health Index Conceptual Guide** - the background and philosophy of creating the Ocean Health Index, with particular attention to development of goal models and direction for regional assessments.
+* **The Ocean Health Index Toolbox Manual** - technical instructions for running the Toolbox App and modifying contents in the file system for regional assessments.
+* **How To Gather Data** - short instruction on data discovery and acquisition for the OHI Toolbox.
+* **How To Format Data** - short instruction on proper data formatting required by the OHI Toolbox.
+* **How To Calculate Pressures** - short instruction on pressures matrices.
+* **How To Calculate Resilience** - short instruction on resilience matrices.
+
 ## Install
 You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software by following the instructions at our [Install](/pages/install.html). For any problems with installation or running the app, please check our [Troubleshooting](/pages/troubleshoot.html) page.
 
