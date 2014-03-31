@@ -16,13 +16,13 @@ Here's a 10.5 minute video demonstrating how to **Install and Explore the Ocean 
 <ul><li>online <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=v8Dtke2y2uE" target="_blank">YouTube video<br><img src="http://img.youtube.com/vi/v8Dtke2y2uE/mqdefault.jpg" alt="Install and Explore the Ocean Health Index Toolbox App" border="2"/></a></li><li>or downloadable <a href="http://ohi.nceas.ucsb.edu/video/ohi_app_install_explore.wmv">Windows media video</a> (29 MB)</li></ul>
 
 ## Supporting Documents
-These documents offer further information to those interested in understanding more about the Ocean Health Index conceptually or technically.  
-* **[The Ocean Health Index Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OceanHealthIndexGuide_v1.pdf)** - (version 1) - the background and philosophy of creating the Ocean Health Index, with particular attention to development of goal models and direction for regional assessments.
-* **[The Ocean Health Index Toolbox Manual](http://www.nceas.ucsb.edu/~jstewart/OHI_ToolboxManual_v2.pdf)** - technical instructions for running the Toolbox App and modifying contents in the file system for regional assessments.
-* **[How To Gather Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_GatherAppropriateData_v1.pdf)** - short instruction on data discovery and acquisition for the OHI Toolbox.
-* **[How To Format Data](http://www.nceas.ucsb.edu/~jstewart/)** - short instruction on proper data formatting required by the OHI Toolbox.
-* **[How To Calculate Pressures](http://www.nceas.ucsb.edu/~jstewart/)** - short instruction on pressures matrices.
-* **[How To Calculate Resilience](http://www.nceas.ucsb.edu/~jstewart/)** - short instruction on resilience matrices.
+These documents offer further information to those interested in understanding more about the Ocean Health Index (OHI) conceptually or technically.  
+* **[The Ocean Health Index Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OceanHealthIndexGuide_v1.pdf)** - (v1) - background and philosophy of creating the OHI, with particular attention to development of goal models and direction for regional assessments.
+* **[The Ocean Health Index Toolbox Manual](http://www.nceas.ucsb.edu/~jstewart/OHI_ToolboxManual_v2.pdf)** - (v2) - technical instructions for running the Toolbox App and modifying contents in the file system for regional assessments.
+* **[How To Gather Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_GatherAppropriateData_v1.pdf)** - (v1) - short instruction on data discovery and acquisition for the OHI Toolbox.
+* **[How To Format Data](http://www.nceas.ucsb.edu/~jstewart/)** - (v1) - short instruction on proper data formatting required by the OHI Toolbox.
+* **[How To Calculate Pressures](http://www.nceas.ucsb.edu/~jstewart/)** - (v1) - short instruction on pressures matrices.
+* **[How To Calculate Resilience](http://www.nceas.ucsb.edu/~jstewart/)** - (v1) - short instruction on resilience matrices.
 
 ## Tools
 Here's an overview of the anticipated and current status of tools:
