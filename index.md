@@ -21,8 +21,8 @@ These documents offer further information to those interested in understanding m
 * **[The Ocean Health Index Toolbox Manual](http://www.nceas.ucsb.edu/~jstewart/OHI_ToolboxManual_v2.pdf)** - technical instructions for running the Toolbox App and modifying contents in the file system for regional assessments.
 * **[How To Gather Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_GatherAppropriateData_v1.pdf)** - short instruction on data discovery and acquisition for the OHI Toolbox.
 * **[How To Format Data](http://www.nceas.ucsb.edu/~jstewart/)** - short instruction on proper data formatting required by the OHI Toolbox.
-* **[How To Calculate Pressures]()** - short instruction on pressures matrices.
-* **[How To Calculate Resilience]()** - short instruction on resilience matrices.
+* **[How To Calculate Pressures](http://www.nceas.ucsb.edu/~jstewart/)** - short instruction on pressures matrices.
+* **[How To Calculate Resilience](http://www.nceas.ucsb.edu/~jstewart/)** - short instruction on resilience matrices.
 
 ## Tools
 Here's an overview of the anticipated and current status of tools:
