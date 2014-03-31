@@ -17,12 +17,12 @@ Here's a 10.5 minute video demonstrating how to **Install and Explore the Ocean 
 
 ## Supporting Documents
 These documents offer further information to those interested in understanding more about the Ocean Health Index (OHI) conceptually or technically.  
-* **[The Ocean Health Index Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OceanHealthIndexGuide_v1.pdf)** - (v1) - background and philosophy of creating the OHI, with particular attention to development of goal models and direction for regional assessments.
-* **[The Ocean Health Index Toolbox Manual](http://www.nceas.ucsb.edu/~jstewart/OHI_ToolboxManual_v2.pdf)** - (v2) - technical instructions for running the Toolbox App and modifying contents in the file system for regional assessments.
-* **[How To Gather Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_GatherAppropriateData_v1.pdf)** - (v1) - short instruction on data discovery and acquisition for the OHI Toolbox.
+* **[The Ocean Health Index Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OceanHealthIndexGuide_v1.pdf)** - (v1) - background and philosophy of creating the OHI, with emphasis on goal model development and suggestions for conducting regional assessments.
+* **[The Ocean Health Index Toolbox Manual](http://www.nceas.ucsb.edu/~jstewart/OHI_ToolboxManual_v2.pdf)** - (v2) - technical instructions for running the Toolbox App and modifying contents in the file system.
+* **[How To Gather Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_GatherAppropriateData_v1.pdf)** - (v1) - short instruction on data discovery and acquisition for OHI.
 * **[How To Format Data](http://www.nceas.ucsb.edu/~jstewart/)** - (v1) - short instruction on proper data formatting required by the OHI Toolbox.
-* **[How To Calculate Pressures](http://www.nceas.ucsb.edu/~jstewart/)** - (v1) - short instruction on pressures matrices.
-* **[How To Calculate Resilience](http://www.nceas.ucsb.edu/~jstewart/)** - (v1) - short instruction on resilience matrices.
+* **[How To Calculate Pressures](http://www.nceas.ucsb.edu/~jstewart/)** - (v1) - short instruction on pressures matrices and calculations.
+* **[How To Calculate Resilience](http://www.nceas.ucsb.edu/~jstewart/)** - (v1) - short instruction on resilience matrices and calculations.
 
 ## Tools
 Here's an overview of the anticipated and current status of tools:
