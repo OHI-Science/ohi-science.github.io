@@ -17,7 +17,7 @@ Here's a 10.5 minute video demonstrating how to **Install and Explore the Ocean 
 
 ## Supporting Documents
 Further information about the Ocean Health Index conceptually and technically.  
-* **[The Ocean Health Index Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OceanHealthIndexGuide_v1.pdf)** - (v1) - OHI philosophy and goal model development, with suggestions for conducting regional assessments.
+* **[The Ocean Health Index Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OceanHealthIndexGuide_v1.pdf)** - (v1) - OHI philosophy and goal model development, at global and regional scales.
 * **[The Ocean Health Index Toolbox Manual](http://www.nceas.ucsb.edu/~jstewart/OHI_ToolboxManual_v2.pdf)** - (v2) - technical instructions for running the Toolbox App.
 * **[How To Gather Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_GatherAppropriateData_v1.pdf)** - (v1) - short instruction on data discovery and acquisition for OHI.
 * **[How To Format Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_FormatDataForToolbox_v1.xlsx)** - (v1) - short instruction on proper data formatting required by the OHI Toolbox.
