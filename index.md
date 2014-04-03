@@ -48,7 +48,7 @@ Here are some OHI publications:
 * Samhouri et al (2012) Sea Sick? Setting targets to assess ocean health and ecosystem services. Ecosphere. ([article](http://www.esajournals.org/doi/abs/10.1890/ES11-00366.1))
 * Selig et al (2013) Assessing Global Marine Biodiversity Status within a Coupled Socio-Ecological Perspective. PLoS ONE. ([article](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284))
 * Kleisner et al (2013) Exploring Patterns of Seafood Provision Revealed in the Global Ocean Health Index. AMBIO. ([article](http://link.springer.com/article/10.1007/s13280-013-0447-x))
-* Elfes et al (2014) A Regional-Scale Ocean Health Index for Brazil. PLoS ONE.  ([article](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0092589))
+* Elfes et al (2014) A Regional-Scale Ocean Health Index for Brazil. PLoS ONE.  ([article](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0092589), [data](http://ohi.nceas.ucsb.edu/data/br-2012/))
 
 ## News
 Please check out our [ohi-news](http://groups.google.com/a/nceas.ucsb.edu/group/ohi-news) list serve for the latest news. You can subscribe for updates by sending an email to [ohi-news+subscribe@nceas.ucsb.edu](mailto:ohi-news+subscribe@nceas.ucsb.edu).
