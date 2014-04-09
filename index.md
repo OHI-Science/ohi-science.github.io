@@ -31,7 +31,7 @@ Further information about the Ocean Health Index conceptually and technically.
 
 
 ## Install
-The OHI Toolbox App is under development and allows users to explore the data used to calculate the Global 2013 scores and conduct assessments at regional scales. You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software by following the instructions at our [Install](/pages/install.html). For any problems with installation or running the app, please check our [Troubleshooting](/pages/troubleshoot.html) page.
+The OHI Toolbox App enables users to explore the data involved in calculating Global 2013 scores and to conduct regional assessments. You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software by following the instructions at our [Install](/pages/install.html). The Toolbox App is under development; for any problems with installation or running the app, please check our [Troubleshooting](/pages/troubleshoot.html) page.
 
 Here's a 10.5 minute video demonstrating how to **Install and Explore the Ocean Health Index Toolbox App** as a:
 <ul><li>online <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=v8Dtke2y2uE" target="_blank">YouTube video<br><img src="http://img.youtube.com/vi/v8Dtke2y2uE/mqdefault.jpg" alt="Install and Explore the Ocean Health Index Toolbox App" border="2"/></a></li><li>or downloadable <a href="http://ohi.nceas.ucsb.edu/video/ohi_app_install_explore.wmv">Windows media video</a> (29 MB)</li></ul>
