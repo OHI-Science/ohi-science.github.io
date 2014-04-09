@@ -6,3 +6,4 @@ Here are a few notes about the site [ohi-science.github.io](ohi-science.github.i
 * [Disqus comments](http://ohi-science.disqus.com) (admin: bbest)
 * uses [jekyll-bootstrap](http://jekyllbootstrap.com)
 * markdown parsing checked with [Travis CI](https://travis-ci.org/OHI-Science/ohi-science.github.io) (admin: bbest)
+* [Zotero ohi group of references](https://www.zotero.org/groups/ohi/items)
