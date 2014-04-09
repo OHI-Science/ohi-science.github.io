@@ -41,7 +41,7 @@ Here's a 10.5 minute video demonstrating how to **Install and Explore the Ocean 
 Here's an overview of the anticipated and current status of tools:
 * **ohicore** - the R package of core functions for calculating the Index. Find the latest at [github.com/ohi-science/ohicore](http://github.com/ohi-science/ohicore).
 * **ohigui** - the graphical user interface using a web browser to communicate with R. Find the latest at [github.com/ohi-science/ohigui](http://github.com/ohi-science/ohigui).
-* **cumimpacts** - an ArcGIS toolbox for Cumulative Impacts Analysis.
+* **cumimpacts** - an ArcGIS toolbox for Cumulative Impacts Analysis. Find the latest at [github.com/ohi-science/cumimpacts](https://github.com/OHI-Science/cumimpacts)
 * **ohi-arcgis** - an ArcGIS toolbox and Python functions for assistance with geographic data preparation. Here's an example script to [Create Regions](/pages/create_regions.html) specific to your country.
 * **ohi-opengis** - an open-source GIS toolbox and Python functions for assistance with geographic data preparation.
 
