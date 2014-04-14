@@ -135,3 +135,7 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+  # avoid problems caused by the obsolete Markdown-interpreter Maraku
+  # see https://help.github.com/articles/migrating-your-pages-site-from-maruku
+  markdown: kramdown
+  
