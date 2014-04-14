@@ -11,12 +11,12 @@ This website hosts the scientific tools and related products (such as manuals an
 
 ## Publications
 Here are OHI publications:
-* **Halpern et al (2008) A Global Map of Human Impact on Marine Ecosystems. Science. ([article](http://www.sciencemag.org/content/319/5865/948.abstract), [data](http://www.nceas.ucsb.edu/globalmarine))
-* **Halpern et al (2012) An index to assess the health and benefits of the global ocean. Nature. ([article](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html), [data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html))
-* **Samhouri et al (2012) Sea Sick? Setting targets to assess ocean health and ecosystem services. Ecosphere. ([article](http://www.esajournals.org/doi/abs/10.1890/ES11-00366.1))
-* **Selig et al (2013) Assessing Global Marine Biodiversity Status within a Coupled Socio-Ecological Perspective. PLoS ONE. ([article](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284))
-* **Kleisner et al (2013) Exploring Patterns of Seafood Provision Revealed in the Global Ocean Health Index. AMBIO. ([article](http://link.springer.com/article/10.1007/s13280-013-0447-x))
-* **Elfes et al (2014) A Regional-Scale Ocean Health Index for Brazil. PLoS ONE.  ([article](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0092589), [data](http://ohi.nceas.ucsb.edu/data/br-2012/))
+* **Halpern et al (2008)** A Global Map of Human Impact on Marine Ecosystems. Science. ([article](http://www.sciencemag.org/content/319/5865/948.abstract), [data](http://www.nceas.ucsb.edu/globalmarine))
+* **Halpern et al (2012)** An index to assess the health and benefits of the global ocean. Nature. ([article](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html), [data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html))
+* **Samhouri et al (2012)** Sea Sick? Setting targets to assess ocean health and ecosystem services. Ecosphere. ([article](http://www.esajournals.org/doi/abs/10.1890/ES11-00366.1))
+* **Selig et al (2013)** Assessing Global Marine Biodiversity Status within a Coupled Socio-Ecological Perspective. PLoS ONE. ([article](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284))
+* **Kleisner et al (2013)** Exploring Patterns of Seafood Provision Revealed in the Global Ocean Health Index. AMBIO. ([article](http://link.springer.com/article/10.1007/s13280-013-0447-x))
+* **Elfes et al (2014)** A Regional-Scale Ocean Health Index for Brazil. PLoS ONE.  ([article](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0092589), [data](http://ohi.nceas.ucsb.edu/data/br-2012/))
 
 
 ## Supporting Documents
