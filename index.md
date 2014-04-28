@@ -21,6 +21,7 @@ Here are OHI publications:
 
 ## Supporting Documents
 Further information about the Ocean Health Index conceptually and technically.  
+* **[Global 2013 updated methods](http://www.nceas.ucsb.edu/~jstewart/Halpern_etal_SuppInfo_Global2013.pdf)** - Updated methods and data descriptions for the second annual OHI global assessment: 2013.
 * **[The Ocean Health Index Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OceanHealthIndexGuide_v2.pdf)** - (v2) - OHI philosophy and goal model development at global and regional scales.
 * **[The Ocean Health Index Conceptual Guide Highlights](http://www.nceas.ucsb.edu/~jstewart/OceanHealthIndexGuideHighlights_v2.pdf)** - (v2) - Highlights (excerpts) from the OHI Conceptual Guide.
 * **[How To Gather Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_GatherAppropriateData_v1.pdf)** - (v1) - short instruction on data discovery and acquisition for OHI.
