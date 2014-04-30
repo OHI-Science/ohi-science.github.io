@@ -16,7 +16,7 @@ While not necessary, we recommend using [RStudio](http://www.rstudio.com/ide/) a
 
 ## Upgrade
 
-The instructions are the same as for installation. Just be sure to run the commands in the R console after a fresh restart of R so that the `ohicore` library is not already loaded.
+As upgrades are available for the Toolbox, please simply rerun the install instructions above after ensuring that the `ohicore` library is not already loaded. This can be done by first restarting R or by typing `remove.packages('ohicore')` in the R console.
 
 ## Video
 Here's a 10.5 minute video demonstrating how to **Install and Explore the Ocean Health Index Toolbox App** as a:
