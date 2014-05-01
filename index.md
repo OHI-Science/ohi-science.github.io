@@ -24,7 +24,7 @@ Further information about the Ocean Health Index conceptually and technically.
 * **[Global 2013 updated methods](http://www.nceas.ucsb.edu/~jstewart/Halpern_etal_SuppInfo_Global2013.pdf)** - Updated methods and data descriptions for the second annual OHI global assessment: 2013.
 * **[The Ocean Health Index Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OceanHealthIndexGuide_v2.pdf)** - (v2) - OHI philosophy and goal model development at global and regional scales.
 * **[The Ocean Health Index Conceptual Guide Highlights](http://www.nceas.ucsb.edu/~jstewart/OceanHealthIndexGuideHighlights_v2.pdf)** - (v2) - Highlights (excerpts) from the OHI Conceptual Guide.
-* **[How To Gather Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_GatherAppropriateData_v1.pdf)** - (v1) - short instruction on data discovery and acquisition for OHI.
+* **[How To Gather Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_GatherAppropriateData_v2.pdf)** - (v2) - short instruction on data discovery and acquisition for OHI.
 * **[How To Format Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_FormatDataForToolbox_v1.xlsx)** - (v1) - short instruction on proper data formatting required by the OHI Toolbox.
 * **[How To Calculate Pressures](http://www.nceas.ucsb.edu/~jstewart/HowTo_CalculatePressures_v2.xlsx)** - (v2) - short instruction on pressures matrices and calculations.
 * **[How To Calculate Resilience](http://www.nceas.ucsb.edu/~jstewart/HowTo_CalculateResilience_v2.xlsx)** - (v2) - short instruction on resilience matrices and calculations.
