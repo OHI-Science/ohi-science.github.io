@@ -22,14 +22,15 @@ Here are OHI publications:
 ## Supporting Documents
 Further information about the Ocean Health Index conceptually and technically.  
 * **[Global 2013 updated methods](http://www.nceas.ucsb.edu/~jstewart/Halpern_etal_SuppInfo_Global2013.pdf)** - Updated methods and data descriptions for the second annual OHI global assessment: 2013.
-* **[The Ocean Health Index Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OceanHealthIndexGuide_v2.pdf)** - (v2) - OHI philosophy and goal model development at global and regional scales.
-* **[The Ocean Health Index Conceptual Guide Highlights](http://www.nceas.ucsb.edu/~jstewart/OceanHealthIndexGuideHighlights_v2.pdf)** - (v2) - Highlights (excerpts) from the OHI Conceptual Guide.
+* **[The OHI Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_v2.pdf)** - (v2) - OHI philosophy and goal model development at global and regional scales.
+* **[The OHI Conceptual Guide Philosophy Highlights](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_PhilosophyHighlights_v2.pdf)** - (v2) - Highlights (excerpts) from the OHI Conceptual Guide regarding OHI goal model philosophy.
+* **[The OHI Conceptual Guide Goal Model Highlights](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_ModelHighlights_v1.pdf)** - (v1) - Highlights (excerpts) from the OHI Conceptual Guide regarding OHI goal model structure.
 * **[How To Gather Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_GatherAppropriateData_v2.pdf)** - (v2) - short instruction on data discovery and acquisition for OHI.
 * **[How To Format Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_FormatDataForToolbox_v1.xlsx)** - (v1) - short instruction on proper data formatting required by the OHI Toolbox.
 * **[How To Calculate Pressures](http://www.nceas.ucsb.edu/~jstewart/HowTo_CalculatePressures_v2.xlsx)** - (v2) - short instruction on pressures matrices and calculations.
 * **[How To Calculate Resilience](http://www.nceas.ucsb.edu/~jstewart/HowTo_CalculateResilience_v2.xlsx)** - (v2) - short instruction on resilience matrices and calculations.
-* **[The Ocean Health Index Toolbox Manual](http://www.nceas.ucsb.edu/~jstewart/OHI_ToolboxManual_v2.pdf)** - (v2) - technical instructions for running the Toolbox App.
-
+* **[The OHI Toolbox Manual](http://www.nceas.ucsb.edu/~jstewart/OHI_ToolboxManual_v2.pdf)** - (v2) - technical instructions for running the Toolbox App.
+* **[Frequently Asked Questions](http://www.nceas.ucsb.edu/~jstewart/OHI_RegionalAssessments_FAQ_v1.pdf)** - (v1) - frequently asked questions regarding regional assessments.
 
 ## Install
 The OHI Toolbox App enables users to explore the data involved in calculating Global 2013 scores and to conduct regional assessments. You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software by following the instructions at our [Install](/pages/install.html). The Toolbox App is under development; for any problems with installation or running the app, please check our [Troubleshooting](/pages/troubleshoot.html) page.
