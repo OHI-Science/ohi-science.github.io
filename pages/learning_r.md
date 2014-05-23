@@ -17,6 +17,7 @@ There are many online materials for learning R. Here is just a small sample of f
 
 ## Packages worth extra exploration
   * [plyr](http://plyr.had.co.nz/) - split data, apply a function to each piece, and combine the results back together
+  * [dplyr](https://github.com/hadley/dplyr) - next generation of plyr, focused on tools for working with data frames (hence the d in the name) that chains performance enchanced common functions for the "grammar of data manipulation" across data sources
   * [reshape2](http://crantastic.org/packages/reshape2) - melt your data into long format (few columns, many rows) and cast it into wide format (few rows, many columns)
   * [ggplot2](http://docs.ggplot2.org/current/) - plotting using the "grammar of graphics" principles ([cookbook](http://www.cookbook-r.com/Graphs/))
 
