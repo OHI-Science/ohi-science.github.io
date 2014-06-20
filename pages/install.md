@@ -10,7 +10,7 @@ comments: true
 
 You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software (install R on [Windows](http://cran.rstudio.com/bin/windows/base/) or [Mac](http://cran.rstudio.com/bin/macosx/)) with the following:
 
-{% gist ed6a03258c3815a3e2ba install_code.R %}
+{% gist ed6a03258c3815a3e2ba install_ohicore.R %}
 
 While not necessary, we recommend using [RStudio](http://www.rstudio.com/ide/) as your R interface for syntax highlighting of code and overall integrated development environment. To learn more about R, we've compiled some resources on [Learning R](/pages/learning_r.html).
 
