@@ -137,5 +137,5 @@ JB :
   
   # avoid problems caused by the obsolete Markdown-interpreter Maraku
   # see https://help.github.com/articles/migrating-your-pages-site-from-maruku
-  #markdown: kramdown
+  markdown: kramdown
   
