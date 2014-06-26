@@ -10,7 +10,7 @@ This website hosts the scientific tools and related products (such as manuals an
 
 
 ## Publications
-Here are OHI publications:
+Here are Ocean Health Index publications:
 * **[Halpern et al. (2008)](http://www.sciencemag.org/content/319/5865/948.abstract)** A Global Map of Human Impact on Marine Ecosystems. *Science*. ([data](http://www.nceas.ucsb.edu/globalmarine))
 * **[Halpern et al. (2012)](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html)** An index to assess the health and benefits of the global ocean. *Nature*. ([data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html))
 * **[Samhouri et al. (2012)](http://www.esajournals.org/doi/abs/10.1890/ES11-00366.1)** Sea Sick? Setting targets to assess ocean health and ecosystem services. *Ecosphere*.
@@ -22,7 +22,7 @@ Here are OHI publications:
 
 
 ## Supporting Documents
-Further information about the Ocean Health Index conceptually and technically.  
+Here is further conceptual and technical information about the Ocean Health Index:  
 * **[Global 2013 updated methods](http://www.nceas.ucsb.edu/~jstewart/Halpern_etal_SuppInfo_Global2013.pdf)** - updated methods and data descriptions for the second annual OHI global assessment: 2013.
 * **[The OHI Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_v2.pdf)** - (v2) - OHI philosophy and goal model development at global and regional scales.
 * **[The OHI Conceptual Guide Philosophy Highlights](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_PhilosophyHighlights_v2.pdf)** - (v2) - Highlights from the Conceptual Guide regarding OHI goal philosophy.
