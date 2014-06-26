@@ -8,7 +8,17 @@ comments: true
 
 ## Instructions
 
-You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software (install R on [Windows](http://cran.rstudio.com/bin/windows/base/) or [Mac](http://cran.rstudio.com/bin/macosx/)) with the following:
+You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software (install R on [Windows](http://cran.rstudio.com/bin/windows/base/) or [Mac](http://cran.rstudio.com/bin/macosx/)) with the code below. To begin, do the following:
+
+1. **Update R.** Download the latest version [here](http://cran.r-project.org/)
+1. **Update RStudio.** RStudio is optional, but highly recommended. Download the latest version [here](http://www.rstudio.com/products/rstudio/download/)
+1. **Update all R packages.** This can be done from the 'packages' menu in R or RStudio
+1. **Uninstall ohicore.** Ensure you have no older copies of ohicore on your local machine. This can be done from the command line with `remove.packages('ohicore)`, or from the 'packages' menu in R or RStudio
+1. **Delete ohi-global folder.** Delete any folder named 'ohi-global' in your home directory
+
+
+Now, paste the following code into your R console:
+
 
 {% gist ed6a03258c3815a3e2ba install_ohicore.R %}
 
