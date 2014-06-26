@@ -8,7 +8,7 @@ comments: true
 
 ## Instructions
 
-You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software (install R on [Windows](http://cran.rstudio.com/bin/windows/base/) or [Mac](http://cran.rstudio.com/bin/macosx/)) with the code below. To begin, do the following:
+You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software (install R on [Windows](http://cran.rstudio.com/bin/windows/base/) or [Mac](http://cran.rstudio.com/bin/macosx/)) with the code below. To begin:
 
 1. **Update R.** Download the latest version [here](http://cran.r-project.org/)
 1. **Update RStudio.** RStudio is optional, but highly recommended. Download the latest version [here](http://www.rstudio.com/products/rstudio/download/)
