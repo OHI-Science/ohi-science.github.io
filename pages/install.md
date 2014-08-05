@@ -13,8 +13,6 @@ You can install and launch the latest OHI application from the cross-platform, o
 1. **Update R.** Download the latest version [here](http://cran.r-project.org/)
 1. **Update RStudio.** RStudio is optional, but highly recommended. Download the latest version [here](http://www.rstudio.com/products/rstudio/download/)
 1. **Update all R packages.** This can be done from the 'packages' menu in R or RStudio
-1. **Uninstall ohicore.** Ensure you have no older copies of ohicore on your local machine. This can be done from the command line with `remove.packages('ohicore)`, or from the 'packages' menu in R or RStudio
-1. **Delete ohi-global folder.** Delete any folder named 'ohi-global' in your home directory
 
 
 Now, paste the following code into your R console:
