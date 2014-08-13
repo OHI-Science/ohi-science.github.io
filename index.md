@@ -23,16 +23,16 @@ Here are Ocean Health Index publications:
 
 ## Supporting Documents
 Here is further conceptual and technical information about the Ocean Health Index:  
-* **[Global 2013 updated methods](http://www.nceas.ucsb.edu/~jstewart/Halpern_etal_SuppInfo_Global2013.pdf)** - updated methods and data descriptions for the second annual OHI global assessment: 2013.
-* **[The OHI Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_v2.pdf)** - (v2) - OHI philosophy and goal model development at global and regional scales.
-* **[The OHI Conceptual Guide Philosophy Highlights](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_PhilosophyHighlights_v2.pdf)** - (v2) - Highlights from the Conceptual Guide regarding OHI goal philosophy.
-* **[The OHI Conceptual Guide Goal Model Highlights](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_ModelHighlights_v1.pdf)** - (v1) - Highlights from the Conceptual Guide regarding OHI goal models.
-* **[How To Gather Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_GatherAppropriateData_v2.pdf)** - (v2) - short instruction on data discovery and acquisition for OHI.
-* **[How To Format Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_FormatDataForToolbox_v1.xlsx)** - (v1) - short instruction on proper data formatting required by the OHI Toolbox.
-* **[How To Calculate Pressures](http://www.nceas.ucsb.edu/~jstewart/HowTo_CalculatePressures_v2.xlsx)** - (v2) - short instruction on pressures matrices and calculations.
-* **[How To Calculate Resilience](http://www.nceas.ucsb.edu/~jstewart/HowTo_CalculateResilience_v2.xlsx)** - (v2) - short instruction on resilience matrices and calculations.
-* **[The OHI Toolbox Manual](http://www.nceas.ucsb.edu/~jstewart/OHI_ToolboxManual_v2.pdf)** - (v2) - technical instructions for running the Toolbox App.
-* **[Frequently Asked Questions](http://www.nceas.ucsb.edu/~jstewart/OHI_RegionalAssessments_FAQ_v1.pdf)** - (v1) - frequently asked questions regarding regional assessments.
+**[Global 2013 updated methods](http://www.nceas.ucsb.edu/~jstewart/Halpern_etal_SuppInfo_Global2013.pdf)** - updated methods and data descriptions for the second annual OHI global assessment: 2013.  
+**[The OHI Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_v2.pdf)** - (v2) - OHI philosophy and goal model development at global and regional scales.  
+**[The OHI Conceptual Guide Philosophy Highlights](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_PhilosophyHighlights_v2.pdf)** - (v2) - Highlights from the Conceptual Guide regarding OHI goal philosophy.  
+**[The OHI Conceptual Guide Goal Model Highlights](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_ModelHighlights_v1.pdf)** - (v1) - Highlights from the Conceptual Guide regarding OHI goal models.  
+**[How To Gather Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_GatherAppropriateData_v2.pdf)** - (v2) - short instruction on data discovery and acquisition for OHI.  
+**[How To Format Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_FormatDataForToolbox_v1.xlsx)** - (v1) - short instruction on proper data formatting required by the OHI Toolbox.  
+**[How To Calculate Pressures](http://www.nceas.ucsb.edu/~jstewart/HowTo_CalculatePressures_v2.xlsx)** - (v2) - short instruction on pressures matrices and calculations.  
+**[How To Calculate Resilience](http://www.nceas.ucsb.edu/~jstewart/HowTo_CalculateResilience_v2.xlsx)** - (v2) - short instruction on resilience matrices and calculations.  
+**[The OHI Toolbox Manual](http://www.nceas.ucsb.edu/~jstewart/OHI_ToolboxManual_v2.pdf)** - (v2) - technical instructions for running the Toolbox App.  
+**[Frequently Asked Questions](http://www.nceas.ucsb.edu/~jstewart/OHI_RegionalAssessments_FAQ_v1.pdf)** - (v1) - frequently asked questions regarding regional assessments.  
 
 ## Install
 The OHI Toolbox App enables users to explore the data involved in calculating Global 2013 scores and to conduct regional assessments. You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software by following the instructions at our [Install](/pages/install.html). The Toolbox App is under development; for any problems with installation or running the app, please check our [Troubleshooting](/pages/troubleshoot.html) page.
@@ -42,21 +42,21 @@ Here's a 10.5 minute video demonstrating how to **Install and Explore the Ocean 
 
 
 ## Tools
-Here's an overview of the anticipated and current status of tools:
-* **ohicore** - the R package of core functions for calculating the Index. Find the latest at [github.com/ohi-science/ohicore](http://github.com/ohi-science/ohicore).
-* **ohigui** - the graphical user interface using a web browser to communicate with R. Find the latest at [github.com/ohi-science/ohigui](http://github.com/ohi-science/ohigui).
-* **cumimpacts** - an ArcGIS toolbox for Cumulative Impacts Analysis. Find the latest at [github.com/ohi-science/cumimpacts](https://github.com/OHI-Science/cumimpacts).
-* **ohi-arcgis** - an ArcGIS toolbox and Python functions for assistance with geographic data preparation. Here's an example script to [Create Regions](/pages/create_regions.html) specific to your country.
-* **ohi-opengis** - an open-source GIS toolbox and Python functions for assistance with geographic data preparation.
+Here's an overview of the anticipated and current status of tools:  
+**ohicore** - the R package of core functions for calculating the Index. Find the latest at [github.com/ohi-science/ohicore](http://github.com/ohi-science/ohicore).  
+**ohigui** - the graphical user interface using a web browser to communicate with R. Find the latest at [github.com/ohi-science/ohigui](http://github.com/ohi-science/ohigui).  
+**cumimpacts** - an ArcGIS toolbox for Cumulative Impacts Analysis. Find the latest at [github.com/ohi-science/cumimpacts](https://github.com/OHI-Science/cumimpacts).  
+**ohi-arcgis** - an ArcGIS toolbox and Python functions for assistance with geographic data preparation. Here's an example script to [Create Regions](/pages/create_regions.html) specific to your country.  
+**ohi-opengis** - an open-source GIS toolbox and Python functions for assistance with geographic data preparation.
 
 You can view and download the latest files at [https://github.com/ohi-science](https://github.com/ohi-science).
 
 ## Data
-Here's the current status and anticipated OHI data packages by scenario:
-* Global Nature 2012 ([data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html))
-* Global Web 2013 ([layers.zip](http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/layers.Global2013.www2013.zip) or full [scenario.zip](http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/scenario.Global2013.www2013.zip))
-* Brazil 2013 ([data](http://ohi.nceas.ucsb.edu/data/br-2012/))
-* US West Coast 2013 ([data](https://github.com/ohi-science/ohi-uswest/))
+Here's the current status and anticipated OHI data packages by scenario:  
+Global Nature 2012 ([data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html))  
+Global Web 2013 ([layers.zip](http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/layers.Global2013.www2013.zip) or full [scenario.zip](http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/scenario.Global2013.www2013.zip))  
+Brazil 2013 ([data](http://ohi.nceas.ucsb.edu/data/br-2012/))  
+US West Coast 2013 ([data](https://github.com/ohi-science/ohi-uswest/))  
 
 
 ## News
