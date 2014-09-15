@@ -54,7 +54,7 @@ You can view and download the latest files at [https://github.com/ohi-science](h
 ## Data
 Here's the current status and anticipated OHI data packages by scenario:  
 Global Nature 2012 ([data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html))  
-Global Web 2013 ([layers.zip](http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/layers.Global2013.www2013.zip) or full [scenario.zip](http://github.com/OHI-Science/ohicore/raw/master/inst/extdata/scenario.Global2013.www2013.zip))  
+Global Web 2013 ([layers.zip](https://github.com/OHI-Science/ohicore/raw/86c30f2df7e7afe077fb55fab7babaeb9c54ddab/inst/extdata/layers.Global2013.www2013.zip) or full [scenario.zip](https://github.com/OHI-Science/ohicore/raw/86c30f2df7e7afe077fb55fab7babaeb9c54ddab/inst/extdata/scenario.Global2013.www2013.zip))  
 Brazil 2013 ([data](http://ohi.nceas.ucsb.edu/data/br-2012/))  
 US West Coast 2013 ([data](https://github.com/ohi-science/ohi-uswest/))  
 
