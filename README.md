@@ -1,3 +1,5 @@
+[![](https://travis-ci.org/OHI-Science/ohi-science.github.io.svg?branch=master)](https://travis-ci.org/OHI-Science/ohi-science.github.io)
+
 Here are a few notes about the site [ohi-science.github.io](ohi-science.github.io):
 
 * redirects to [ohi-science.org](ohi-science.org)
