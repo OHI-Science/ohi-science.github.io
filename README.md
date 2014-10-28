@@ -9,3 +9,4 @@ Here are a few notes about the site [ohi-science.github.io](ohi-science.github.i
 * uses [jekyll-bootstrap](http://jekyllbootstrap.com)
 * markdown parsing checked with [Travis CI](https://travis-ci.org/OHI-Science/ohi-science.github.io) (admin: bbest)
 * [Zotero ohi group of references](https://www.zotero.org/groups/ohi/items)
+* [Travis-CI continuous integration build results](https://travis-ci.org/OHI-Science/ohi-science.github.io)
