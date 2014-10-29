@@ -16,3 +16,5 @@ gem 'jekyll-mentions', '~> 0.1.3'
 gem 'jekyll-redirect-from', '~> 0.6.2'
 gem 'jekyll-sitemap', '~> 0.6.0'
 gem 'github-pages', '~> 28'
+
+gem 'html-proofer', '~> 1.3.3'
