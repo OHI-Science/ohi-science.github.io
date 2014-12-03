@@ -15,6 +15,7 @@
     <![endif]-->
 
     {% include JB/analytics %}
+    <meta name="google-translate-customization" content="47f381179a5facf3-96350382533ff336-gbdd3ba5670eecf51-f"></meta>
   </head>
   <body>
     <div class="wrapper">
@@ -26,6 +27,11 @@
           {% assign group = 'navigation' %}
           {% include JB/pages_list %}
         </ul>
+        <div id="google_translate_element"></div><script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         {% if site.ads.google %}
         <div class="misc ad">
           <script type="text/javascript"><!--
