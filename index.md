@@ -20,6 +20,7 @@ Here are Ocean Health Index publications:
 **[Halpern et al. (2014)](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995)** Assessing the health of the U.S. West Coast with a regional-scale application of the Ocean Health Index. *PLoS ONE*. ([data](https://github.com/ohi-science/ohi-uswest/))  
 
 
+
 ## Supporting Documents
 Here is further conceptual and technical information about the Ocean Health Index:  
 **[Global 2013 updated methods](http://www.nceas.ucsb.edu/~jstewart/Halpern_etal_SuppInfo_Global2013.pdf)** - updated methods and data descriptions for the second annual OHI global assessment: 2013.  
