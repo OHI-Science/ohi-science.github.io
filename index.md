@@ -18,7 +18,7 @@ Here are Ocean Health Index publications:
 **[Kleisner et al. (2013)](http://link.springer.com/article/10.1007/s13280-013-0447-x)** Exploring Patterns of Seafood Provision Revealed in the Global Ocean Health Index. *AMBIO*.  
 **[Elfes et al. (2014)](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0092589)** A Regional-Scale Ocean Health Index for Brazil. *PLoS ONE*. ([data](http://ohi.nceas.ucsb.edu/data/br-2012/))  
 **[Halpern et al. (2014)](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995)** Assessing the Health of the U.S. West Coast with a Regional-Scale Application of the Ocean Health Index. *PLoS ONE*. 
-
+[2013](https://github.com/OHI-Science/ohi-global/blob/master/global2014/OHI2013_PLOS.zip)
 
 
 ## Supporting Documents
