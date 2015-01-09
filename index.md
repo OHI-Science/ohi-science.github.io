@@ -21,7 +21,7 @@ Here are Ocean Health Index publications:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[data](http://ohi.nceas.ucsb.edu/data/br-2012/)  
 **[Halpern et al. (2014)](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995)** Assessing the health of the U.S. West Coast with a regional-scale application of the Ocean Health Index. *PLoS ONE*.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[data](https://github.com/OHI-Science/ohi-uswest/blob/master/USwest_PLOS.zip?raw=true)  
-Halpern et al. (2015) Patterns and emerging trends in global ocean health. In press.  
+**Halpern et al. (2015)** Patterns and emerging trends in global ocean health. In press.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2013 and updated 2012 global data](https://github.com/OHI-Science/ohi-global/blob/master/eez2013/OHI2013_PLOS.zip?raw=true)  
 
 
