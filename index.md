@@ -13,23 +13,21 @@ This website hosts the scientific tools and related products (such as manuals an
 Here are Ocean Health Index publications:  
 **[Halpern et al. (2008)](http://www.sciencemag.org/content/319/5865/948.abstract)** A global map of human impact on marine ecosystems. *Science*.  
 **[Halpern et al. (2012)](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html)** An index to assess the health and benefits of the global ocean. *Nature*.  
-> [original 2012 data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html)  
-> [2013 data](https://github.com/OHI-Science/ohicore/raw/86c30f2df7e7afe077fb55fab7babaeb9c54ddab/inst/extdata/layers.Global2013.www2013.zip)
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[original 2012 global data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html); updated in Halpern et al. 2015 below  
 **[Samhouri et al. (2012)](http://www.esajournals.org/doi/abs/10.1890/ES11-00366.1)** Sea Sick? Setting targets to assess ocean health and ecosystem services. *Ecosphere*.  
 **[Selig et al. (2013)](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284)** Assessing global marine biodiversity status within a coupled socio-ecological perspective. *PLoS ONE*.  
 **[Kleisner et al. (2013)](http://link.springer.com/article/10.1007/s13280-013-0447-x)** Exploring patterns of seafood provision revealed in the global Ocean Health Index. *AMBIO*.  
 **[Elfes et al. (2014)](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0092589)** A regional-scale Ocean Health Index for Brazil. *PLoS ONE*.  
-> [data](http://ohi.nceas.ucsb.edu/data/br-2012/)  
-
-**[Halpern et al. (2014)](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995)** Assessing the health of the U.S. West Coast with a regional-scale application of the Ocean Health Index. *PLoS ONE*.   
-> [data](https://github.com/OHI-Science/ohi-uswest/blob/master/USwest_PLOS.zip?raw=true)  
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[data](http://ohi.nceas.ucsb.edu/data/br-2012/)  
+**[Halpern et al. (2014)](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995)** Assessing the health of the U.S. West Coast with a regional-scale application of the Ocean Health Index. *PLoS ONE*.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[data](https://github.com/OHI-Science/ohi-uswest/blob/master/USwest_PLOS.zip?raw=true)  
+Halpern et al. (2015) Patterns and emerging trends in global ocean health. In press.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2013 and updated 2012 global data](https://github.com/OHI-Science/ohi-global/blob/master/eez2013/OHI2013_PLOS.zip?raw=true)  
 
 
 ## Supporting Documents
 Here is further conceptual and technical information about the Ocean Health Index:  
-**[Global 2013 updated methods](http://www.nceas.ucsb.edu/~jstewart/Halpern_etal_SuppInfo_Global2013.pdf)** - updated methods and data descriptions for the second annual OHI global assessment: 2013. 
+**[Global 2013 updated methods](http://www.nceas.ucsb.edu/~jstewart/Halpern_etal_SuppInfo_Global2013.pdf)** - updated methods and data descriptions for the second annual OHI global assessment: 2013.  
 **[The OHI Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_v2.pdf)** - (v2) - OHI philosophy and goal model development at global and regional scales.  
 **[The OHI Conceptual Guide Philosophy Highlights](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_PhilosophyHighlights_v2.pdf)** - (v2) - Highlights from the Conceptual Guide regarding OHI goal philosophy.  
 **[The OHI Conceptual Guide Goal Model Highlights](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_ModelHighlights_v1.pdf)** - (v1) - Highlights from the Conceptual Guide regarding OHI goal models.  
