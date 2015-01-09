@@ -14,7 +14,7 @@ Here are Ocean Health Index publications:
 **[Halpern et al. (2008)](http://www.sciencemag.org/content/319/5865/948.abstract)** A global map of human impact on marine ecosystems. *Science*.  
 **[Halpern et al. (2012)](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html)** An index to assess the health and benefits of the global ocean. *Nature*.  
 > [original 2012 data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html)  
-[2013 data](https://github.com/OHI-Science/ohicore/raw/86c30f2df7e7afe077fb55fab7babaeb9c54ddab/inst/extdata/layers.Global2013.www2013.zip)
+> [2013 data](https://github.com/OHI-Science/ohicore/raw/86c30f2df7e7afe077fb55fab7babaeb9c54ddab/inst/extdata/layers.Global2013.www2013.zip)
 
 **[Samhouri et al. (2012)](http://www.esajournals.org/doi/abs/10.1890/ES11-00366.1)** Sea Sick? Setting targets to assess ocean health and ecosystem services. *Ecosphere*.  
 **[Selig et al. (2013)](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284)** Assessing global marine biodiversity status within a coupled socio-ecological perspective. *PLoS ONE*.  
