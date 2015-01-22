@@ -10,7 +10,7 @@ This website hosts the scientific tools and related products (such as manuals an
 
 
 ## Publications and Data
-Here are Ocean Health Index publications:  
+Here are Ocean Health Index publications and data:  
 **[Halpern et al. (2008)](http://www.sciencemag.org/content/319/5865/948.abstract)** A global map of human impact on marine ecosystems. *Science*.  
 **[Halpern et al. (2012)](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html)** An index to assess the health and benefits of the global ocean. *Nature*.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[original 2012 global data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html); updated in Halpern et al. 2015 below  
@@ -21,6 +21,7 @@ Here are Ocean Health Index publications:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[data](http://ohi.nceas.ucsb.edu/data/br-2012/)  
 **[Halpern et al. (2014)](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995)** Assessing the health of the U.S. West Coast with a regional-scale application of the Ocean Health Index. *PLoS ONE*.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[data](https://github.com/OHI-Science/ohi-uswest/blob/master/USwest_PLOS.zip?raw=true)  
+**[Selig et al. (2015)](http://www.sciencedirect.com/science/article/pii/S2212041614001363)** Measuring indicators of ocean health for an island nation: The Ocean Health Index for Fiji. *Ecosystem Services*.  
 **Halpern et al. (2015)** Patterns and emerging trends in global ocean health. In press.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2013 and updated 2012 global data](https://github.com/OHI-Science/ohi-global/blob/master/eez2013/OHI2013_PLOS.zip?raw=true)  
 
@@ -35,7 +36,7 @@ Here is further conceptual and technical information about the Ocean Health Inde
 **[How To Format Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_FormatDataForToolbox_v1.xlsx)** - (v1) - short instruction on proper data formatting required by the OHI Toolbox.  
 **[How To Calculate Pressures](http://www.nceas.ucsb.edu/~jstewart/HowTo_CalculatePressures_v2.xlsx)** - (v2) - short instruction on pressures matrices and calculations.  
 **[How To Calculate Resilience](http://www.nceas.ucsb.edu/~jstewart/HowTo_CalculateResilience_v2.xlsx)** - (v2) - short instruction on resilience matrices and calculations.  
-**[The OHI Toolbox Manual](http://www.nceas.ucsb.edu/~jstewart/OHI_ToolboxManual_v2.pdf)** - (v2) - technical instructions for running the Toolbox App.  
+**The OHI Assessment Manual** The manual is available [online](http://ohi-science.org/manual/index.html) and can be translated using the Google Translate option. We are currently improving the manual: when an updated version is available, a downloadable *.pdf* version will be available here.  
 **[Frequently Asked Questions](http://www.nceas.ucsb.edu/~jstewart/OHI_RegionalAssessments_FAQ_v1.pdf)** - (v1) - frequently asked questions regarding regional assessments.  
 
 ## Install
