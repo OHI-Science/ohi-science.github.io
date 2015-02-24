@@ -12,6 +12,7 @@ This website hosts the scientific tools and related products (such as manuals an
 ## Publications and Data
 Here are Ocean Health Index publications and data:  
 **[Halpern et al. (2008)](http://www.sciencemag.org/content/319/5865/948.abstract)** A global map of human impact on marine ecosystems. *Science*.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[data](https://www.nceas.ucsb.edu/globalmarine/impacts)  
 **[Halpern et al. (2012)](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html)** An index to assess the health and benefits of the global ocean. *Nature*.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[original 2012 global data](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html); updated in Halpern et al. 2015 below  
 **[Samhouri et al. (2012)](http://www.esajournals.org/doi/abs/10.1890/ES11-00366.1)** Sea Sick? Setting targets to assess ocean health and ecosystem services. *Ecosphere*.  
