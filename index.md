@@ -18,6 +18,7 @@ Here are Ocean Health Index publications and data:
 **[Samhouri et al. (2012)](http://www.esajournals.org/doi/abs/10.1890/ES11-00366.1)** Sea Sick? Setting targets to assess ocean health and ecosystem services. *Ecosphere*.  
 **[Selig et al. (2013)](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284)** Assessing global marine biodiversity status within a coupled socio-ecological perspective. *PLoS ONE*.  
 **[Kleisner et al. (2013)](http://link.springer.com/article/10.1007/s13280-013-0447-x)** Exploring patterns of seafood provision revealed in the global Ocean Health Index. *AMBIO*.  
+**[Halpern et al. (2013)](http://www.sciencedirect.com/science/article/pii/S0308597X13000286)** Elicited preferences for components of ocean health in the California Current. *Marine Policy*.  
 **[Elfes et al. (2014)](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0092589)** A regional-scale Ocean Health Index for Brazil. *PLoS ONE*.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[data](http://ohi.nceas.ucsb.edu/data/br-2012/)  
 **[Halpern et al. (2014)](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995)** Assessing the health of the U.S. West Coast with a regional-scale application of the Ocean Health Index. *PLoS ONE*.  
@@ -27,18 +28,14 @@ Here are Ocean Health Index publications and data:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2013 and updated 2012 global data](https://github.com/OHI-Science/ohi-global/blob/master/eez2013/OHI2013_PLOS.zip?raw=true)  
 
 
-## Supporting Documents
+## Supporting Information
 Here is further conceptual and technical information about the Ocean Health Index:  
+**[Global 2014 data](https://github.com/OHI-Science/ohi-global/blob/dev/global2014/OHI%202014_website.zip?raw=true)** - data used in the third annual OHI global assessment: 2014. Methods are the same from the 2013 assessment. 
 **[Global 2013 updated methods](http://www.nceas.ucsb.edu/~jstewart/Halpern_etal_SuppInfo_Global2013.pdf)** - updated methods and data descriptions for the second annual OHI global assessment: 2013.  
 **[The OHI Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_v2.pdf)** - (v2) - OHI philosophy and goal model development at global and regional scales.  
 **[The OHI Conceptual Guide Philosophy Highlights](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_PhilosophyHighlights_v2.pdf)** - (v2) - Highlights from the Conceptual Guide regarding OHI goal philosophy.  
 **[The OHI Conceptual Guide Goal Model Highlights](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_ModelHighlights_v1.pdf)** - (v1) - Highlights from the Conceptual Guide regarding OHI goal models.  
-**[How To Gather Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_GatherAppropriateData_v2.pdf)** - (v2) - short instruction on data discovery and acquisition for OHI.  
-**[How To Format Data](http://www.nceas.ucsb.edu/~jstewart/HowTo_FormatDataForToolbox_v1.xlsx)** - (v1) - short instruction on proper data formatting required by the OHI Toolbox.  
-**[How To Calculate Pressures](http://www.nceas.ucsb.edu/~jstewart/HowTo_CalculatePressures_v2.xlsx)** - (v2) - short instruction on pressures matrices and calculations.  
-**[How To Calculate Resilience](http://www.nceas.ucsb.edu/~jstewart/HowTo_CalculateResilience_v2.xlsx)** - (v2) - short instruction on resilience matrices and calculations.  
 **The OHI Assessment Manual** The manual is available [online](http://ohi-science.org/manual/index.html) and can be translated using the Google Translate option. We are currently improving the manual: when an updated version is available, a downloadable *.pdf* version will be available here.  
-**[Frequently Asked Questions](http://www.nceas.ucsb.edu/~jstewart/OHI_RegionalAssessments_FAQ_v1.pdf)** - (v1) - frequently asked questions regarding regional assessments.  
 
 ## Install
 The OHI Toolbox App enables users to explore the data involved in calculating Global 2013 scores and to conduct regional assessments. You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software by following the instructions at our [Install](/pages/install.html). The Toolbox App is under development; for any problems with installation or running the app, please check our [Troubleshooting](/pages/troubleshoot.html) page.
