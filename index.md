@@ -30,7 +30,7 @@ Here are Ocean Health Index publications and data:
 
 ## Supporting Information
 Here is further conceptual and technical information about the Ocean Health Index:  
-**[Global 2014 data](https://github.com/OHI-Science/ohi-global/blob/dev/global2014/OHI%202014_website.zip?raw=true)** - data used in the third annual OHI global assessment: 2014. Methods are the same from the 2013 assessment. 
+**[Global 2014 data](https://github.com/OHI-Science/ohi-global/blob/dev/global2014/OHI%202014_website.zip?raw=true)** - data used in the third annual OHI global assessment: 2014. Methods are the same from the 2013 assessment.  
 **[Global 2013 updated methods](http://www.nceas.ucsb.edu/~jstewart/Halpern_etal_SuppInfo_Global2013.pdf)** - updated methods and data descriptions for the second annual OHI global assessment: 2013.  
 **[The OHI Conceptual Guide](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_v2.pdf)** - (v2) - OHI philosophy and goal model development at global and regional scales.  
 **[The OHI Conceptual Guide Philosophy Highlights](http://www.nceas.ucsb.edu/~jstewart/OHIGuide_PhilosophyHighlights_v2.pdf)** - (v2) - Highlights from the Conceptual Guide regarding OHI goal philosophy.  
