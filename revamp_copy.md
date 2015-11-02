@@ -1,4 +1,4 @@
-To think about: ohi-science list-serve to announce the revamp? resources?
+To think about: ohi-science list-serve to announce the revamp? 
 
 # HOME PAGE
 
