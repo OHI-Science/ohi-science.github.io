@@ -73,7 +73,12 @@ spatial
 educational
 data
 methods: chi, ohicore
+<<<<<<< HEAD
 eco-data-science*
+=======
+eco-data-science
+*
+>>>>>>> bc26e51d45c059a15cf845b9bd6ae4c7092ec747
 
 # PUBLICATIONS PAGE
 
@@ -88,7 +93,12 @@ eg:
 workshop materials
 presentations
 fliers ('marketing materials')
+<<<<<<< HEAD
 install_ohicore.r*
+=======
+install_ohicore.r
+*
+>>>>>>> bc26e51d45c059a15cf845b9bd6ae4c7092ec747
 
 # PROJECTS PAGE
 *Mel makes the map!*
