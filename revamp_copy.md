@@ -69,11 +69,11 @@ Also, quick links to portions of the manual: install toolbox, etc.*
 
 eg: 
 
-spatial
-educational
-data
-methods: chi, ohicore
-eco-data-science*
+- spatial
+- educational
+- data
+- methods: chi, ohicore
+- eco-data-science*
 
 # PUBLICATIONS PAGE
 
@@ -85,11 +85,14 @@ eco-data-science*
 *needs a new name, but essentially a list of mostly-downloadable resources with 1 sentence blurbs
 
 eg: 
-workshop materials--Erich
-presentations (pdfs and .htmls)--Erich
-archives of past manual versions
-fliers ('marketing materials')
-install_ohicore.r*
+
+- workshop materials--Erich
+- presentations (pdfs and .htmls)--Erich
+- archives of past manual versions
+- fliers ('marketing materials')
+- way to upload/embed videos
+- links to useful info/materials that we didn't create
+- install_ohicore.r*
 
 # PROJECTS PAGE
 *Mel makes the map!*
@@ -122,7 +125,7 @@ install_ohicore.r*
 # OHI+ PAGE
 
 ## Phases of an OHI+ assessment
-*3 sentence blurb*
+*3 sentence blurb: really emphasize this isn't a one-time thing*
 *Erich*
 
 ## Learn about the OHI
@@ -160,8 +163,9 @@ install_ohicore.r*
 *Julie*
 
 
-# GOAL DESCRIPTIONS AND APPROACHES
-*Essentially text goal-by-goal with icons. Highlighting OHI+ repos that are doing cool model approaches*
+# GOAL DESCRIPTIONS AND APPROACHES.
+*Essentially text goal-by-goal with icons. Highlighting OHI+ repos that are doing cool model approaches
+And also pressures and resilience*
 *Julie + Ning*
 
 
