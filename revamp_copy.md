@@ -85,8 +85,9 @@ eco-data-science*
 *needs a new name, but essentially a list of mostly-downloadable resources with 1 sentence blurbs
 
 eg: 
-workshop materials
-presentations
+workshop materials--Erich
+presentations (pdfs and .htmls)--Erich
+archives of past manual versions
 fliers ('marketing materials')
 install_ohicore.r*
 
