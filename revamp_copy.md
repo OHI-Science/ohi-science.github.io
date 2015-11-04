@@ -91,7 +91,7 @@ eg:
 eg: 
 
 - workshop materials--Erich
-- presentations (pdfs and .htmls)--Erich
+- presentations (pdfs and .htmls, and Mel's FIS presentation)--Erich
 - archives of past manual versions
 - fliers ('marketing materials')
 - way to upload/embed videos
@@ -174,6 +174,7 @@ eg:
 # GOAL DESCRIPTIONS AND APPROACHES.
 *Essentially text goal-by-goal with icons. Highlighting OHI+ repos that are doing cool model approaches
 And also pressures and resilience*
+*also include link to Mel's fisheries description ppt*
 *Julie + Ning*
 
 
