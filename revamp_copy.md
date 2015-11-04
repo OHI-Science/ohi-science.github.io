@@ -45,6 +45,10 @@ Also, quick links to portions of the manual: install toolbox, etc.*
 *1-2 sentence blurb*
 *Julie*
 
+## Citation policy
+*1-2 sentence blurb*
+*Julie*
+
 ## Goal descriptions and approaches
 *1-2 sentence blurb*
 *Julie*
@@ -157,6 +161,10 @@ eg:
 ## Who we are
 *3-4 short paragraphs*
 *Julie*
+
+## Citation Policy
+*Mel and Jamie*
+
 
 # FORUM PAGE
 *3 sentence blurb with instructions*
