@@ -3,7 +3,7 @@ To think about: ohi-science list-serve to announce the revamp?
 # HOME PAGE
 
 ## Tagline: Reproducible science with the Ocean Health Index
-*do we like this tagline?*
+*do we like this tagline?* 
 
 ## What is the Ocean Health Index? 
 *1-2 sentence blurb*
