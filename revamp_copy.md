@@ -91,7 +91,7 @@ eg:
 eg: 
 
 - workshop materials--Erich
-- presentations (pdfs and .htmls)--Erich
+- presentations (pdfs and .htmls, and Mel's FIS presentation)--Erich
 - archives of past manual versions
 - informal resources (e.g. Mel's FIS presentation)
 - fliers ('marketing materials')
