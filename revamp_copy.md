@@ -51,21 +51,49 @@ Downloadable resources and materials.
 ## Forum
 Connect with the OHI community through the OHI Forum.
 
+*** 
 
 # TOOLS PAGE
-*Jamie*
 
-## Introductory 1-2 sentences
+The Ocean Health Index relies on open-source datasets, tools and resources to ensure . You can find the most commonly used tools here, along with open-source tools and materials that the OHI team as developed themselves.
 
-*list of tools with 1 sentence blurbs
 
-eg: 
 
-- spatial
-- educational
-- data
-- methods: chi, ohicore
-- eco-data-science*
+###OHI developed tools
+
+- [ohicore](https://github.com/OHI-Science/ohicore): An R package of core functions for calculating the Ocean Health Index. This is a key element of conducting an [OHI+ assessment](link to OHI+?)
+
+
+Members of the OHI Science team have led workshops on different data science tools.  All materials including data, code and resources are held on GitHub and made freely available as part of the [eco-data-science](https://github.com/eco-data-science) GitHub organization.
+
+
+
+- [Introduction to Git and GitHub](https://github.com/eco-data-science/github-intro) by Julie Stewart-Lowndes  
+- [Introduction to spatial analysis in R](https://github.com/eco-data-science/spatial-analysis-R) by [Jamie Afflerbach](link to bio?)
+- [RMarkdown](https://github.com/eco-data-science/rmarkdown_R) by Casey O'Hara  
+- [Data Visualization](https://github.com/eco-data-science/VisualizingData) by Melanie Frazier    
+
+
+
+###Additional Resources   
+
+In addition to developing our own open-source tools to conduct annual assessments, the Ocean Health Index utilizes a variety of open-source tools and resources to find data, conduct analyses, document and share methods, and connect with the larger community.
+
+These tools and datasets are often used and referenced in the process of updating the global OHI assessments.
+
+**Data**  
+
+- [Cumulative Human Impacts](https://knb.ecoinformatics.org/#data/query=(Halpern Cumulative human impacts)/page/0) - all spatial data layers produced for the Cumulative Human Impacts work (Halpern et al. 2008, 2015) are available on KNB. Many of these are used for pressure layers in the global OHI assessment.
+- [Sea Around Us Project](http://www.seaaroundus.org)  
+
+**Resources**  
+
+- [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) are helpful 1-2 page documents that demonstrate core functionality of packages including ggplot2, dplyr, shiny and more.   
+- [Git and GitHub](http://r-pkgs.had.co.nz/git.html) by Hadley Wickham  
+
+
+***  
+
 
 # PUBLICATIONS PAGE
 
