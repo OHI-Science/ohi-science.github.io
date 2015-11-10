@@ -263,6 +263,11 @@ For more information, please see our sister website at [www.OceanHealthIndex.org
 
 ## What is OHI+?
 
+OHI+ are independently-led OHI assessments that are conducted by any group external to the OHI team. Groups have full responsibility of all aspects of the assessments, including all decisions and information involved, and the resulting scores. The OHI team provides the Toolbox software and guidance and can also provide feedback throughout the process.
+
+OHI+ assessments are often conducted at smaller, subnational spatial scales. This allows availability and use of higher quality information and better knowledge of system processes, which allow for models to be developed that better capture the philosophy of the goals in the local context. At the same time, targets (reference points) can be set with more refined knowledge of preferences or priorities of local people or governments at spatial scales where management decisions are made. 
+
+OHI+ assessments can be used as a marine planning tool. Resulting scores can help identify policy priorities and management cost-effectiveness, and can be used to simulate management scenarios. It is also possible to use the OHI framework as a marine planning tool even before final assessment scores have been calculated, since conducting an OHI+ assessment requires an inventory of information and knowledge that spans disciplines, space and time, and can be a useful process for understanding the current policy, information and knowledge landscape. 
 
 ## Who we are
 *Include a contact us if you're interested in an OHI+ assessment*
