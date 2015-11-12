@@ -194,13 +194,14 @@ eg:
 - fliers ('marketing materials')
 - way to upload/embed videos (or link to vimeo/youtube)
 - links to useful info/materials that we didn't create
+- download figures (eg framework workflow)
 - install_ohicore.r*
 
 # PROJECTS PAGE
 *Mel makes the map!*
 
 ## Introductory 1-2 sentences
-*Julie*
+*Julie--with disclaimer about OHI+ assessments being independently-led, and that we endorse the process but have no say in the final scores..*
 
 *Erich for the following:*
 ## Global
