@@ -189,7 +189,7 @@ eg:
 
 - workshop materials--Erich
 - presentations (pdfs and .htmls, and Mel's FIS presentation)--Erich
-- archives of past manual versions
+- archives of past manual versions; state that online is more current.
 - informal resources (e.g. Mel's FIS presentation)
 - fliers ('marketing materials')
 - way to upload/embed videos (or link to vimeo/youtube)
