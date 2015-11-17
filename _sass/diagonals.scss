@@ -1,0 +1,30 @@
+$diag-height: 100px;
+
+.diagonal-container{
+	width: 100%;
+	height: $diag-height;
+	display: block;
+}
+.diagonal-container.color-light-2 polygon{
+	fill: $color-light-2;
+}
+.diagonal-top{
+	position: relative;
+	top: $diag-height * -1;	
+}
+.diagonal-top + .stripe{
+	margin-top: $diag-height * -1;	
+}
+.diagonal-bottom + .stripe{
+	margin-top: $diag-height * -1;
+    padding-top: $diag-height + $pad-large;
+}
+.diagonal-container.white .diagonal{
+	fill: #FFFFFF;
+}
+.diagonal-container.dark .diagonal{
+	fill: $color-dark;
+}
+.stripe.extra-height{
+	padding-bottom: $diag-height + $pad-large;
+}

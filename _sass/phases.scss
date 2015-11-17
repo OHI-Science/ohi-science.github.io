@@ -1,0 +1,48 @@
+$learn-color: $color-light-2;
+$plan-color: #2897a5;
+$conduct-color: #2a7ea5;
+$inform-color: $primary-color;
+
+#phases-graphic{
+	max-width: 550px;
+}
+.learn,
+[phase='learn']{
+	h2{ color: $learn-color; }
+}
+.plan,
+[phase='plan']{ 
+	h2{	color: $plan-color; }
+}
+.conduct,
+[phase='conduct']{ 
+	h2{ color: $conduct-color; }
+}
+.inform,
+[phase='inform']{ 
+	h2{ color: $inform-color; }
+}
+
+.arc-container:hover .arc,
+.arc.selected{
+	stroke: #FFFFFF;
+	stroke-width: 3px;
+}
+
+.arc-container.selected.learn{
+	@extend .learn;
+}
+.arc-container.selected.plan{
+	@extend .plan;
+}
+.arc-container.selected.conduct{
+	@extend .conduct;
+}
+.arc-container.selected.inform{
+	@extend .inform;
+}
+
+.arc-container.unselected{
+	fill: #697484;
+	stroke: 0px;
+}

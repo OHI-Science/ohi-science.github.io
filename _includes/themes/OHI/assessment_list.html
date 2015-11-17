@@ -1,0 +1,19 @@
+{% assign continents = "Global,North America,South America,Europe,Asia,Africa,Australia,Antartica" | split: "," %}
+
+{% for continent in continents %}		
+	{% assign posts = site.tags[continent] %}
+	
+	{% if posts | size > 0 %}
+		<h6 class="subheading">{{ continent }}</h6>
+		
+		{% assign sortedPosts = posts | sort: "title" %}
+		
+		{% for post in sortedPosts %}
+			{% if post.categories contains "assessment" %}
+				<div class="container assessment">
+					{{ post.output }}
+				</div>
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+{% endfor %}

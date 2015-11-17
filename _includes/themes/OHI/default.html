@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!-- Fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  
+  	<!--  Styles -->
+	<link href="{{ ASSET_PATH }}OHI/fonts/LinearIcons/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="{{ ASSET_PATH }}OHI/css/style.css" rel="stylesheet" type="text/css" media="all">
+
+      <!-- atom & rss feed -->
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+    <meta name="google-translate-customization" content="47f381179a5facf3-96350382533ff336-gbdd3ba5670eecf51-f"></meta>
+  </head>
+
+  <body>
+    
+    {% include themes/OHI/nav.html %}
+
+    <div class="container">
+
+      <div class="content">
+        {{ content }}
+      </div>
+
+    </div> <!-- /container -->
+    
+    <footer>
+        footer here
+    </footer>
+
+    {% include JB/analytics %}
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="{{ ASSET_PATH }}OHI/js/nav.js"></script>
+    
+    <!--  
+    {% comment %} Add the 'js' variable to the page front matter to include a custom js script on that page only {% endcomment %}
+    -->
+    {% if page.js %}
+    	<script src="{{ ASSET_PATH }}OHI/js/{{ page.js }}.js"></script>
+    {% endif %}
+  </body>
+</html>

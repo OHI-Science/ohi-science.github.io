@@ -1,0 +1,17 @@
+$footer-height: 100px;
+
+footer{
+	background-color: #dedede;
+	padding: $pad-large;
+	width: 100%;
+	min-height: $footer-height;
+	position: absolute;
+	bottom: 0px;
+}
+body{
+	position: relative;
+}
+body > .container{
+	height: 100%;
+	padding-bottom: $footer-height + $pad-large * 2;
+}

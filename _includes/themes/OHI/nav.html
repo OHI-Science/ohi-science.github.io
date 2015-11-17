@@ -1,0 +1,27 @@
+<div class="topbar">
+  <a class="brand" href="{{ HOME_PATH }}"><img src="{{ ASSET_PATH }}OHI/img/{{ site.logo }}" /></a>
+  <nav class="fill" id="nav-main">
+      <ul class="nav">
+        
+        {% assign pages_list = site.pages %}
+        {% assign group = 'navigation' %}
+        {% include JB/pages_list %}
+        
+        <li id="google_translate_element">
+			<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+			<script type="text/javascript">
+				function googleTranslateElementInit() {
+				  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+				}
+		   </script>
+	     </li>
+	     <li>
+	     	<i class="icon search lnr lnr-magnifier"></i>
+	     </li>
+      </ul>
+  </nav>
+  <div id="nav-trigger">
+   	<i class="icon icon-large lnr lnr-menu pointer expand"></i>
+    <i class="icon icon-large lnr lnr-cross pointer collapse"></i>
+  </div>
+</div>

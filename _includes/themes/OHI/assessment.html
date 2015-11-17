@@ -1,0 +1,9 @@
+<div class="assessment">
+	<h4>
+		{{ page.title }}
+		{% if page.tags contains "OHI+" %}
+			<i class="icon plus lnr lnr-plus-circle icon-left icon-small"></i>
+		{% endif %}
+	</h4>
+	{{ content }}
+</div>
