@@ -117,6 +117,12 @@ code{
     max-width: 100%;
     display: inline-block;
 }
+blockquote {
+    border-left: 3px solid $color-light-2;
+    padding-left: $pad-small * 2;
+    background-color: #daedef;
+    padding: $pad-small;
+}
 img{
 	max-width: 100%;
 }

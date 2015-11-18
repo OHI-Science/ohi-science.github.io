@@ -4,11 +4,28 @@
 	    max-width: 100%;
 	    padding-top: $nav-height;
 	    
-	    .section[id],	        	
-    	.section div[id]{
+	    .section[id]{
     		padding-top: $nav-height;
     		margin-top: -$nav-height;
     	}
+    	
+    	.header-section-number {
+		    color: #999;
+		    margin-right: $pad-small;
+		    font-weight: lighter;
+		}
+	}
+	
+	h2{
+		font-family: $font-stack;
+	}
+	h1{
+		font-family: $header-font-stack;
+		color: $color-light;
+	}
+	h3{
+		font-family: $font-stack;
+		font-size: 1.2em;
 	}
 	
 	.section.level1 {
@@ -30,11 +47,50 @@
 	    float: left;
 	    margin-right: $pad-large;
 	    overflow-y: overlay;
-	    padding: $pad-large / 2;
+	    padding: $pad-small * 2;
 	    position: fixed;
 
 		ul {
 	 	   list-style: none;
+		}
+		
+		.active{
+			font-weight: bold;
+			color: $highlight-color;	
+		}
+		
+		.toc-section-number{
+			color: #999;
+		}
+		
+		& > ul {
+ 		   padding-left: 0px;
+ 		   
+ 		   & > li > a {
+			    font-weight: bold;
+			    font-size: 1em;
+			    font-family: $header-font-stack;
+			    line-height: 2em;
+			    margin-top: $pad-small * 2;
+			    display: inline-block;
+			}
+			
+			& > li > ul {
+    			padding-left: $pad-small;
+    			
+    			& > li > ul {
+				    padding-left: 23px;
+				    font-size: .9em;
+				    line-height: 1.5em;
+				    
+				    & > li{
+				    	margin-bottom: $pad-small;
+				    }
+				}
+    			
+			}
+			
+ 		   
 		}
 		
 		 code{   
