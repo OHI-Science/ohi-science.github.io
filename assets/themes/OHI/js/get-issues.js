@@ -1,8 +1,11 @@
-	function getIssues(){
+---
+---
+
+function getIssues(){
 		
 		var issuesHTML = "<ul class='forum-list'>";
 		
-		$.get("https://api.github.com/repos/nceas/open-science-codefest/issues", function(data){
+		$.get("{{ site.github }}/issues", function(data){
 			
 			var numSess = data.length,
 				session;
