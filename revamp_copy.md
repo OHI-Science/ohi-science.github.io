@@ -5,7 +5,6 @@ Notes to Lauren:
 # HOME PAGE
 
 ## Tagline: Open science with the Ocean Health Index
-*do we like this tagline?*
 
 ## What is the Ocean Health Index?
 The Ocean Health Index ('OHI') is a way to measure how healthy oceans are. Understanding the state of our oceans is a first step towards ensuring they can continue providing humans benefits now and in the future.
@@ -63,7 +62,8 @@ The Ocean Health Index relies on open-source datasets, tools and resources to pr
 
 The OHI Toolbox is used to calculate and visualize OHI assessment scores. The Toolbox has two parts: a personalized repository to organize and store information and write goal model equations specific to the local context, and the R package `ohicore`, which is the engine behind calculating and visualizing scores.
 
-![](https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=576&h=192)
+![](https://docs.google.com/drawings/d/1wGK68NRn5bmhZo_gC2A9sx-AcpIZHVp45ID5_HQKVJ0/pub?w=768&h=192
+  )
 
 You can explore [`ohicore`](https://github.com/OHI-Science/ohicore) and see existing OHI and OHI+ assessment repositories in [Projects](). To have a personal repository created for your assessment, please [contact us]().
 
@@ -111,141 +111,54 @@ These tools and datasets are often used and referenced in the process of updatin
 
 # PUBLICATIONS PAGE
 
-Publications by the OHI team are listed below along with downloadable data. OHI+ reports and publications are also listed. Open access articles are indicated with a *.
-
-## Peer-reviewed publications
-
-### OHI assessments
-
-**Global**
-
-[Halpern et al. 2012](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html), *Nature*.
-An index to assess the health and benefits of the global ocean.
-[(original 2012 global data)](ftp://ohi.nceas.ucsb.edu/pub/data/2012/layers.html)  
-[Halpern et al. 2015](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117863), *PLoS ONE*\*.
-Patterns and emerging trends in global ocean health.
-[(2013 and updated 2012 global data)](https://github.com/OHI-Science/ohi-global/blob/master/eez2013/OHI2013_PLOS.zip?raw=true)  
-
-**Brazil**
-
-[Elfes et al. 2014](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0092589), *PLoS ONE*\*. A regional-scale Ocean Health Index for Brazil. [(data)](http://ohi.nceas.ucsb.edu/data/br-2012/)  
-
-**Fiji**
-
-[Selig et al. 2015](http://www.sciencedirect.com/science/article/pii/S2212041614001363), *Ecosystem Services*.
-Measuring indicators of ocean health for an island nation: The Ocean Health Index for Fiji.   
-
-**U.S. West Coast**
-
-[Halpern et al. 2014](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995), *PLoS ONE*\*.
-Assessing the health of the U.S. West Coast with a regional-scale application of the Ocean Health Index.
-[(data)](https://github.com/OHI-Science/ohi-uswest/blob/master/USwest_PLOS.zip?raw=true)  
-
-### OHI supporting methods
-
-**Cumulative Human Impacts**
-
-[Halpern et al. 2008](http://www.sciencemag.org/content/319/5865/948.abstract), *Science*.
-A global map of human impact on marine ecosystems.
-[(data)](https://www.nceas.ucsb.edu/globalmarine/impacts)  
-[Halpern et al. 2015](http://www.nature.com/ncomms/2015/150714/ncomms8615/full/ncomms8615.html?message-global=remove&WT.ec_id=NCOMMS-20150715&spMailingID=49102925&spUserID=ODkwMTM2NjQyNgS2&spJobID=721894001&spReportId=NzIxODk0MDAxS0), *Nature Communications*\*.
-Spatial and temporal changes in cumulative human impacts on the world's ocean.     
-[(data)](https://knb.ecoinformatics.org/#view/doi:10.5063/F1S180FS)
-
-
-**Reference points**
-
-[Samhouri et al. 2012](http://www.esajournals.org/doi/abs/10.1890/ES11-00366.1), *Ecosphere*.
-Sea Sick? Setting targets to assess ocean health and ecosystem services.  
-
-**Goal weighting**
-
-[Halpern et al. 2013](http://www.sciencedirect.com/science/article/pii/S0308597X13000286), *Marine Policy*.
-Elicited preferences for components of ocean health in the California Current.   
-
-**Multipliers**
-
-[Jacobsen et al. 2014](http://www.sciencedirect.com/science/article/pii/S0308597X13002169), *Marine Policy*.
-A global synthesis of the economic multiplier effects of marine sectors.   
-
-
-**OHI goal models**
-
-[Kleisner et al. 2013](http://link.springer.com/article/10.1007/s13280-013-0447-x), *AMBIO*.
-Exploring patterns of seafood provision revealed in the global Ocean Health Index.  
-[Selig et al. 2013](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284), *PLoS ONE*\*. Assessing global marine biodiversity status within a coupled socio-ecological perspective.   
-
-## OHI+ documentation
-
-**Israel**
-
-Tsemel et al. 2014, *Ecology & Environment*. D Grade for the Mediterranean- Applying the Ocean Health Index to Israel. (in Hebrew).
-
+ohi-science.github.io/publications_list.md
 
 # DOWNLOADS PAGE
-*needs a new name, but essentially a list of mostly-downloadable resources with 1 sentence blurbs
 
-eg:
+Here you will find downloadable resources to help you organize a workshop, give presentations, distribute fact sheets, link to useful external resources, and more.
 
-- workshop materials--Erich
-- presentations (pdfs and .htmls, and Mel's FIS presentation)--Erich
-- archives of past manual versions; state that online is more current.
-- informal resources (e.g. Mel's FIS presentation)
-- fliers ('marketing materials')
-- way to upload/embed videos (or link to vimeo/youtube)
-- links to useful info/materials that we didn't create
-- download figures (eg framework workflow)
-- install_ohicore.r*
+**Workshop Materials** — lead and facilitate an OHI planning workshop with these resources
+
+**Presentations** - use these presentations to help communicate about the Ocean Health Index
+
+    - [The Ocean Health Index Project 2012-2015](https://cdn.rawgit.com/OHI-Science/ohimanual/master/tutorials/ohi_2012_2015/presentation_nceas.html#1)
+
+<!---**Communication materials**
+Templates of customizable factsheets, reports, and webpages so you can easily communicate your efforts with various audiences--->
+
+**Instruction Archive**: Instruction from Phases 1-4 (including the technical Manual). Please not that the most up-to-date version is online and not as a .pdf.
+
+**External resources** Here you can find useful tools and reading materials that might be helpful as you develop your OHI assessment
+
+    - [RStudio](https://www.rstudio.com)
 
 # PROJECTS PAGE
-*Mel makes the map!*
 
 ## Introductory 1-2 sentences
-*Julie--with disclaimer about OHI+ assessments being independently-led, and that we endorse the process but have no say in the final scores..*
 
-*Erich for the following:*
-## Global
-*1 sentence blurb*
+Here you will find a list of current and completed Ocean Health Index assessments. OHI+ assessments are led by independent groups, who receive technical guidance and support from the OHI team but are fully responsible for all decisions made and scores produced throughout the assessment process.
 
-## Canada
-*1 sentence blurb*
-
-## U.S. West Coast
-*1 sentence blurb*
-
-## Brazil
-*1 sentence blurb*
-
-## Colombia
-*1 sentence blurb*
-
-## Ecuador
-*1 sentence blurb*
-
-...
+ohi-science.github.io/projects_list.md
 
 
 # OHI+ PAGE
 
 ## Phases of an OHI+ assessment
-*3 sentence blurb: really emphasize this isn't a one-time thing*
-*Erich*
+OHI+ assessments have four iterative and repeated phases: 1) Learn about the Ocean Health Index and whether it is the right tool for the context; 2) Plan the assessment by building a team and developing a timeline; 3) Conduct the assessment by tailoring the OHI framework and calculating scores using the OHI Toolbox; 4) Inform policy and future assessments by sharing both scores and what was learned during the process. Assessments are most useful when they are repeated through time to understand changes in ocean health and integrated into continuous decision-making processes for adaptive management.
 
 ## Learn about the OHI
-*3 sentence blurb*
-*Erich*
+The Ocean Health Index is a comprehensive assessment tool that evaluates how a suite of goals is delivered to humans. It can be tailored to different contexts with effort to identify and capture what is important in these places. Learn whether the OHI is the right assessment tool for your area.
+
 
 ## Plan an OHI+ assessment
-*3 sentence blurb*
-*Erich*
+Plan an OHI+ assessment by understanding what is required, which includes identifying the need and spatial area of the assessment, establishing objectives and a timeline of activities, determining resources needed (human and financial), and aligning the assessment process with existing efforts and initiatives identifying objectives. Further, it is important to identify and include collaborators, including key stakeholders or decision-makers in the assessment process.
 
 ## Conduct an OHI+ assessment
-*3 sentence blurb*
-*Erich*
+Conducting an assessment requires tailoring the OHI framework to the local context and using the Toolbox software to calculate scores based on this framework. This requires conceptually identifying important characteristics and priorities in the area, and gathering existing information and developing models to represent the framework. An emphasis is on transparency and reproducible science.
 
 ## Inform using OHI+ assessment results
-*3 sentence blurb*
-*Erich*
+The scores produced from the assessment process, as well as what was learned through the process itself, should be shared. The final scores and methods are important to communicate transparently, but also the successes and challenges of the process (including information and knowledge gaps). These can help to prioritize policy decisions and can also make repeated assessment processes more efficent; both have the ultimate aim of improving ocean health. 
+
 
 # ABOUT PAGE
 
@@ -255,7 +168,7 @@ Determining ocean health requires an approach that integrates social, economic, 
 
 Originally developed by an interdisciplinary team of scientists let by Halpern *et al*. and published in the journal *Nature* in 2012, the OHI framework is standardized yet customizable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
 
-![](https://docs.google.com/drawings/d/17ICJ7W0nGfDUKJ2ggBjsQGCpQM2plF940NhvHVQOe5w/pub?w=960&h=540)
+![](https://docs.google.com/drawings/d/1XAx6M3Qh5EWEG8CIXykFr7dskVTttBdLOBPguIVZ-pk/pub?w=624&h=480)
 
 Assessments using the OHI framework are facilitated by the OHI Toolbox, a suite of collaborative, open-source tools and instruction that provides structure for data organization and storage, data processing and goal modeling. The Toolbox enables assessments to be transparent, reproducible through access to detailed methods and computational code, repeatable with the ability to modify methods and computational code, and communicable with distillation and visualization to a wide audience.
 
@@ -266,9 +179,9 @@ For more information, please see our sister website at [www.OceanHealthIndex.org
 
 OHI+ are independently-led OHI assessments that are conducted by any group external to the OHI team. Groups have full responsibility of all aspects of the assessments, including all decisions and information involved, and the resulting scores. The OHI team provides the Toolbox software and guidance and can also provide feedback throughout the process.
 
-OHI+ assessments are often conducted at smaller, subnational spatial scales. This allows availability and use of higher quality information and better knowledge of system processes, which allow for models to be developed that better capture the philosophy of the goals in the local context. At the same time, targets (reference points) can be set with more refined knowledge of preferences or priorities of local people or governments at spatial scales where management decisions are made. 
+OHI+ assessments are often conducted at smaller, subnational spatial scales. This allows availability and use of higher quality information and better knowledge of system processes, which allow for models to be developed that better capture the philosophy of the goals in the local context. At the same time, targets (reference points) can be set with more refined knowledge of preferences or priorities of local people or governments at spatial scales where management decisions are made.
 
-OHI+ assessments can be used as a marine planning tool. Resulting scores can help identify policy priorities and management cost-effectiveness, and can be used to simulate management scenarios. It is also possible to use the OHI framework as a marine planning tool even before final assessment scores have been calculated, since conducting an OHI+ assessment requires an inventory of information and knowledge that spans disciplines, space and time, and can be a useful process for understanding the current policy, information and knowledge landscape. 
+OHI+ assessments can be used as a marine planning tool. Resulting scores can help identify policy priorities and management cost-effectiveness, and can be used to simulate management scenarios. It is also possible to use the OHI framework as a marine planning tool even before final assessment scores have been calculated, since conducting an OHI+ assessment requires an inventory of information and knowledge that spans disciplines, space and time, and can be a useful process for understanding the current policy, information and knowledge landscape.
 
 ## Who we are
 *Include a contact us if you're interested in an OHI+ assessment*
@@ -284,7 +197,7 @@ OHI+ assessments can be used as a marine planning tool. Resulting scores can hel
 *Julie*
 
 
-# GOAL DESCRIPTIONS AND APPROACHES.
+# GOAL DESCRIPTIONS AND APPROACHES
 
 Global OHI assessments categorized and scored ten goals and eight sub-goals representing ocean-derived benefits to people. Most of the goals and sub-goals scored in global assessments will be relevant for OHI+ assessments, although it is important to critically evaluate this in each context. Once it is clear which goals should be assessed, it is important to develop a blueprint of how they would ideally be represented with models based on the knowledge the local system. These models will ultimately be developed with the information available and will likely differ from the ideal, but it is important to make the blueprint to highlight the intent of the goals and help identify the gaps in knowledge and information.
 
