@@ -66,4 +66,6 @@ Exploring patterns of seafood provision revealed in the global Ocean Health Inde
 
 **Israel**
 
-Tsemel et al. 2014, *Ecology & Environment*. D Grade for the Mediterranean- Applying the Ocean Health Index to Israel. (in Hebrew).
+[Tsemel et al. 2014, *Ecology & Environment*. D Grade for the Mediterranean- Applying the Ocean Health Index to Israel. (in Hebrew).](http://magazine.isees.org.il/ArticlePage.aspx?ArticleId=456)
+צמל, ע., א. שיינין, וי. סוארי. 2014. ציון “מספיק בקושי” לים התיכון – התאמת מדד בריאות הים העולמי לישראל. אקולוגיה וסביבה 3: 218–222
+[download supplementary information]() <!---ohi-science.github.io/downloads_pubs/Israeli_Med_2014_OHI+documentation_Tsemel_et_al.pdf. I'm not sure how to make this downloadable.---> 

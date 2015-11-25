@@ -1,7 +1,7 @@
 ### Global
 **Status**: Active (2012, 2013, 2014, 2015)  
 **Leading group**: National Center for Ecological Assessment and Synthesis at UC Santa Barbara and Conservation International  
-**Contact**: Melanie Frazier (frazier at nceas.ucsb.edu)  
+**Contact**: Dr. Ben Halpern (halpern at bren.ucsb.edu)  
 **Description**: Assessments at the global scale are repeated annually.Using the same goal models and reference points, scores are calculated for 221 coastal nations and territories.
 
 [publications]() <!---link to publication page, anchored to global --->
@@ -14,7 +14,7 @@
 ### Brazil
 **Status**: Completed (2014)  
 **Leading group**: National Center for Ecological Assessment and Synthesis at UC Santa Barbara and Conservation International  
-**Contact**: Julia Stewart Lowndes (lowndes at nceas.ucsb.edu), Erich J (epacheco at conservation.org)    
+**Contact**: Erich J Pacheco (epacheco at conservation.org)    
 **Description**: Test of the OHI framework for Brazil’s 17 coastal states, using ~50% local data and modified models for five goals.
 
 [publications]() <!---link to publication page, anchored to brazil --->
@@ -23,7 +23,7 @@
 ### U.S. West Coast
 **Status**: Completed (2014)  
 **Leading group**: National Center for Ecological Assessment and Synthesis at UC Santa Barbara and Conservation International  
-**Contact**: Julia Stewart Lowndes (lowndes at nceas.ucsb.edu), Erich J Pacheco (epacheco at conservation.org)  
+**Contact**: Dr. Julia Stewart Lowndes (lowndes at nceas.ucsb.edu)  
 **Description**: Test of the OHI framework for five coastal sub-regions, using ~80% local data and modified goal models.
 
 [publications]() <!---link to publication page, anchored to brazil --->
@@ -33,24 +33,24 @@
 ### Fiji
 **Status**: Completed (2015)  
 **Leading group**: National Center for Ecological Assessment and Synthesis at UC Santa Barbara and Conservation International  
-**Contact**: Elizabeth Selig (eselig at conservation.org), Melanie Frazier (frazier at nceas.ucsb.edu)  
+**Contact**: Erich J Pacheco (epacheco at conservation.org)  
 **Description**: Test of the OHI framework at the national scale, using available local data for five goals.
 
 [publications]() <!---link to publication page, anchored to fiji --->
 [github](https://github.com/OHI-Science/ohi-fiji/releases)
 [website](www.oceanhealthindex.org/ohi-plus/fiji-assessment)
 
-### Israel
-**Status**: Active (2014)  
+### Israel <!---tag=OHI+--->
+**Status**: Completed (2015)  
 **Leading group**: Hamaraag — Israel’s National Nature Assessment Program  
-**Contact**: Aviad Scheinin (aviad.scheinin at hamaarag.org.il), Anat Tsemel (anat.tsemel at hamaarag.org.il)  
+**Contact**: Yossi Mossel (Yossi Mosse at hamaarag.org.il)  
 **Description**: First indepently-led assessment, evaluated 6 regions of Israel’s Mediterranean coast.
 
 [publications]() <!---link to publication page, anchored to israel --->
 [github](https://github.com/OHI-Science/ohi-israel)
-[website](http://www.hamaarag.org.il/ocean-health-index) <!---is it possible to do two websites? hmm: www.hamaarag.org.il/node/3517)--->
+[website](http://www.hamaarag.org.il/ocean-health-index)
 
-### Ecuador
+### Ecuador <!---tag=OHI+--->
 **Status**: Active (2015)  
 **Leading group**: Ecuador's Technical Sea Secretariat (SETEMAR)  
 **Contact**: Santiago Torres Báez (storres at secretariamar.gob.ec)  
@@ -61,7 +61,7 @@
 [website](http://ohi-science.org/gye)
 [media]()
 
-### China
+### China <!---tag=OHI+--->
 **Status**: Active (2015)  
 **Leading group**: China State Oceanic Administration  
 **Contact**: Zhiguo Liu (liuzhiguo150 at 163.com), Wen Quan (qwen at nmemc.gov.cn)  
@@ -70,21 +70,11 @@
 [publications]()
 [github](https://github.com/OHI-Science/chn)
 
-### Colombia
-**Status**: Active  
-**Leading group**: Colombian Commission for the Oceans  
-**Contact**: Ivan Murillo (datos at cco.gov.co)  
-**Description**: National assessment of Colombia’s Pacific, Atlantic, and Caribbean Islands regions developed with 113 national indicators and through a multi-agency working group
 
-[github](https://github.com/OHI-Science/col)
-[data]()
-[map]()
-[media](http://www.oceanhealthindex.org/news/colombia-makes-strides-developing-independent-assessment)
-
-### Canada
+### Canada <!---tag=OHI+--->
 **Status**: Active (2014)
 **Leading group**: Canadian Healthy Oceans Network (CHONe)
-**Contact**: Remi Daigle (daigleremi at gmail.com)
+**Contact**: Remi Daigle (daigleremi at gmail.com)  
 **Description**: A pilot study to better represent Canada at the national level by incorporating public goals that are more relevant to Canadians.
 
 [publications]()
@@ -92,7 +82,7 @@
 [media]()
 
 
-### Baltic Sea
+### Baltic Sea <!---tag=OHI+--->
 **Status**: Active  
 **Leading group**: Stockholm Resilience Centre  
 **Contact**: Maria Schewenius (maria.schewenius at su.se)  
@@ -104,30 +94,43 @@
 ### British Columbia
 **Status**: Active  
 **Leading group**: National Center for Ecological Assessment and Synthesis at UC Santa Barbara  
-**Contact**: Ben Halpern (halpern at bren.ucsb.edu), Courtney Scarborough (scarborough at nceas.ucsb.edu), Casey O'Hara (ohara at nceas.ucsb.edu)
-**Description**:
+**Contact**: Ben Halpern (halpern at bren.ucsb.edu)
+**Description**: Working with local partners, we will capture characteristics that make British Columbia’s coastal ecosystems unique, and track change in the health of B.C.’s ocean during the past ten years and to describe how management may have contributed to these patterns.
+
 
 [github](https://github.com/OHI-Science/ohibc)
 [website](http://www.ohibc.org/)
 
-### Spain: Bay of Biscay
+
+### Colombia <!---tag=OHI+--->
+**Status**: Active  
+**Leading group**: Colombian Commission for the Oceans  
+**Contact**: Ivan Murillo (datos at cco.gov.co)  
+**Description**: National assessment of Colombia’s Pacific, Atlantic, and Caribbean Islands regions developed with 113 national indicators and through a multi-agency working group
+
+[github](https://github.com/OHI-Science/col)
+[data]()
+[map]()
+[media](http://www.oceanhealthindex.org/news/colombia-makes-strides-developing-independent-assessment)
+
+### Spain: Bay of Biscay <!---tag=OHI+--->
 **Status**: Active  
 **Leading group**: Azti Tecnalia  
 **Contact**: Angel Borja (aborja at azti.es)  
 This group will compare OHI process and scores with findings of other existing methodologies for assessing ocean health.
 
-### Spain: Galicia
+### Spain: Galicia <!---tag=OHI+--->
 **Status**: Active  
 **Leading group**: Campus do Mar  
 **Contact**: Sebastian Villasante (s.villasante.arg at gmail.com)  
 
 
-### Spain: Gulf of Cadiz
+### Spain: Gulf of Cadiz <!---tag=OHI+--->
 **Status**: Active  
 **Leading group**: Marcos Llope (marcos.llope at cd.ieo.es)  
 **Description**: Three separate assessments at each Autonomous Community.
 
-### Chile
+### Chile <!---tag=OHI+--->
 **Status**: Active  
 **Leading group**: University of California, Santa Barbara  
 **Contact**: Patricia Cecilia Faundez Baez (patriciafaundezbaez at gmail.com)
@@ -135,7 +138,7 @@ This group will compare OHI process and scores with findings of other existing m
 
 [github]()
 
-### Arctic
+### Arctic <!---tag=OHI+--->
 **Status**: Active  
 **Leading group**: Imperial College London  
 **Contact**: Michael Burgass (m.burgass14 at imperial.ac.uk)  
@@ -143,7 +146,7 @@ This group will compare OHI process and scores with findings of other existing m
 
 [github]()
 
-### Peru
+### Peru <!---tag=OHI+--->
 **Status**: Planned 2016  
 **Leading group**: Peru Ministry of Environment and Ministry of Production  
 **Contact**: Silvana Fajardo, Project Lead (silvanadfajardo at gmail.com)  
@@ -151,7 +154,7 @@ This group will compare OHI process and scores with findings of other existing m
 
 [github]()
 
-### Hawaii
+### Hawaii <!---tag=OHI+--->
 **Status**: Planned 2016  
 **Leading group**: Conservation International and the National Oceanic and Atmospheric Administration  
 **Contact**: Jack Kittinger (jkittinger at conservation.org)  
@@ -159,7 +162,7 @@ This group will compare OHI process and scores with findings of other existing m
 
 [github]()
 
-### Mexico
+### Mexico <!---tag=OHI+--->
 **Status**: Planned 2016  
 **Leading group**: Mexico Ministry of Environment
 **Contact**: Salomon Diaz (salomon.diaz at semarnat.gob.mx), Roberto Rosado, Manager (roberto.rosado@semarnat.gob.mx)
