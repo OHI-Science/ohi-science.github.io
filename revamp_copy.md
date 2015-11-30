@@ -24,7 +24,7 @@ We are a team from the University of California at Santa Barbara and Conservatio
 # RESOURCES PAGE
 
 ## (Introductory 1-2 sentences)
-*Julie*
+Here you will find resources that can help in OHI or related projects.
 
 ## Tools
 *1-2 sentence blurb*
@@ -42,9 +42,7 @@ Please refer to our Citation Policy to reference methods, scripts, and data.
 
 
 ## Goal descriptions and approaches
-*1-2 sentence blurb*
-*Julie*
-
+The goals included in an assessment depend on what is relevant and important in the area. Learn about what the goals identified for the global assessment mean and what previous approaches have been.
 
 ## Downloads
 Downloadable resources and materials.
@@ -157,7 +155,7 @@ Plan an OHI+ assessment by understanding what is required, which includes identi
 Conducting an assessment requires tailoring the OHI framework to the local context and using the Toolbox software to calculate scores based on this framework. This requires conceptually identifying important characteristics and priorities in the area, and gathering existing information and developing models to represent the framework. An emphasis is on transparency and reproducible science.
 
 ## Inform using OHI+ assessment results
-The scores produced from the assessment process, as well as what was learned through the process itself, should be shared. The final scores and methods are important to communicate transparently, but also the successes and challenges of the process (including information and knowledge gaps). These can help to prioritize policy decisions and can also make repeated assessment processes more efficent; both have the ultimate aim of improving ocean health. 
+The scores produced from the assessment process, as well as what was learned through the process itself, should be shared. The final scores and methods are important to communicate transparently, but also the successes and challenges of the process (including information and knowledge gaps). These can help to prioritize policy decisions and can also make repeated assessment processes more efficent; both have the ultimate aim of improving ocean health.
 
 
 # ABOUT PAGE
@@ -184,9 +182,23 @@ OHI+ assessments are often conducted at smaller, subnational spatial scales. Thi
 OHI+ assessments can be used as a marine planning tool. Resulting scores can help identify policy priorities and management cost-effectiveness, and can be used to simulate management scenarios. It is also possible to use the OHI framework as a marine planning tool even before final assessment scores have been calculated, since conducting an OHI+ assessment requires an inventory of information and knowledge that spans disciplines, space and time, and can be a useful process for understanding the current policy, information and knowledge landscape.
 
 ## Who we are
-*Include a contact us if you're interested in an OHI+ assessment*
-*Julie*
 
+We are excited to be a part of the open science community and helping make our oceans healthier. Our current team is based at the National Center for Ecological Analysis and Synthesis (NCEAS) at the University of California at Santa Barbara (UCSB) and Conservation International (but there have been many other important [contributors](http://www.oceanhealthindex.org/about/contributors)  throughout the years).
+
+**Ben Halpern, PhD**  
+**Steve Katona, PhD**  
+**Johanna Polsenberg, PhD**  
+
+**Jamie Afflerbach, MSc**  
+**Melanie Frazier, PhD**   
+**Julie Stewart Lowndes, PhD**  
+**Ning Jiang Mendes, MSc**  
+**Lindsay Mosher**  
+**Casey O'Hara, MSc**  
+**Courtney Scarborough, MSc**  
+
+If you are interested in beginning your own OHI+ assessment, please contact
+Erich (epacheco at conservation.org) or Julie (lowndes@nceas.ucsb.edu).
 
 ## Citation Policy
 *Mel and Jamie*
