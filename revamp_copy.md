@@ -134,7 +134,7 @@ Templates of customizable factsheets, reports, and webpages so you can easily co
 
 ## Introductory 1-2 sentences
 
-Here you will find a list of current and completed Ocean Health Index assessments. OHI+ assessments are led by independent groups, who receive technical guidance and support from the OHI team but are fully responsible for all decisions made and scores produced throughout the assessment process.
+Here you will find a list of current and completed Ocean Health Index assessments. OHI+ assessments are led by independent groups, who receive technical guidance and support from the OHI team but are fully responsible for all decisions made and scores produced throughout the assessment process. Note that the map below indicates where assessments are taking place although the spatial boundaries may change.
 
 ohi-science.github.io/projects_list.md
 
