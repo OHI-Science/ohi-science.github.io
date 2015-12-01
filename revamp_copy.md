@@ -183,7 +183,7 @@ OHI+ assessments can be used as a marine planning tool. Resulting scores can hel
 
 ## Who we are
 
-We are excited to be a part of the open science community and helping make our oceans healthier. Our current team is based at the National Center for Ecological Analysis and Synthesis (NCEAS) at the University of California at Santa Barbara (UCSB) and Conservation International (but there have been many other important [contributors](http://www.oceanhealthindex.org/about/contributors)  throughout the years).
+Our current team is based at the National Center for Ecological Analysis and Synthesis (NCEAS) at the University of California at Santa Barbara (UCSB), and at Conservation International (but there have been many other important [contributors](http://www.oceanhealthindex.org/about/contributors) throughout the years). We are excited to be a part of the open science community and helping make our oceans healthier. 
 
 **Ben Halpern, PhD**  
 **Steve Katona, PhD**  
@@ -198,7 +198,7 @@ We are excited to be a part of the open science community and helping make our o
 **Courtney Scarborough, MSc**  
 
 If you are interested in beginning your own OHI+ assessment, please contact
-Erich (epacheco at conservation.org) or Julie (lowndes@nceas.ucsb.edu).
+Erich (epacheco at conservation.org) or Julie (lowndes at nceas.ucsb.edu).
 
 ## Citation Policy
 *Mel and Jamie*

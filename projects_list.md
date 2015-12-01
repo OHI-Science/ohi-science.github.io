@@ -75,7 +75,7 @@
 **Status**: Active (2014)  
 **Leading group**: Canadian Healthy Oceans Network (CHONe)  
 **Contact**: Remi Daigle (daigleremi at gmail.com)  
-**Description**: A pilot study to better represent Canada at the national level by incorporating public goals that are more relevant to Canadians.
+**Description**: A pilot study to better represent Canada at the national level by incorporating public goals and goal weightings that are more relevant to Canadians.
 
 [publications]()
 [github](https://github.com/OHI-Science/ohi-canada)
@@ -106,7 +106,7 @@
 **Status**: Active  
 **Leading group**: Colombian Commission for the Oceans  
 **Contact**: Ivan Murillo (datos at cco.gov.co)  
-**Description**: National assessment of Colombia’s Pacific, Atlantic, and Caribbean Islands regions developed with 113 national indicators and through a multi-agency working group
+**Description**: National assessment of Colombia’s Pacific, Atlantic, and Caribbean Islands regions developed with 113 national indicators and through a multi-agency working group.
 
 [github](https://github.com/OHI-Science/col)
 [data]()
@@ -123,13 +123,13 @@
 **Status**: Active  
 **Leading group**: Campus do Mar  
 **Contact**: Sebastian Villasante (s.villasante.arg at gmail.com)  
-**Description:**
+**Description:** This assessment will evaluate the coast of Galicia and compare its health through time.
 
 ### Spain: Gulf of Cadiz <!---tag=OHI+--->
 **Status**: Active  
-**Leading group**: Spanish Oceanography Institute
+**Leading group**: Spanish Oceanography Institute  
 **Contact**: Marcos Llope (marcos.llope at cd.ieo.es)  
-**Description:**
+**Description:** This assessment will evaluate the Gulf of Cadiz and compare its health through time.
 
 ### Chile <!---tag=OHI+--->
 **Status**: Active  
