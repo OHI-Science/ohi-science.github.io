@@ -195,9 +195,10 @@ Our current team is based at the National Center for Ecological Analysis and Syn
 **Ning Jiang Mendes, MSc**  
 **Lindsay Mosher**  
 **Casey O'Hara, MSc**  
+**Erich Pacheco, MSc**  
 **Courtney Scarborough, MSc**  
 
-If you are interested in beginning your own OHI+ assessment, please contact
+If you are interested in beginning an OHI+ assessment, please contact
 Erich (epacheco at conservation.org) or Julie (lowndes at nceas.ucsb.edu).
 
 ## Citation Policy
