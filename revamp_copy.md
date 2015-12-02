@@ -30,6 +30,39 @@ Here you will find resources that can help in OHI or related projects.
 *1-2 sentence blurb*
 *Jamie*
 
+
+### Ocean Health Index
+
+Ocean Health Index framework to evaluate ocean health, first published in Nature 2012 and in PLoS one in 2015. The OHI team conducts annual asssessments globally. Here you will find tools used for OHI global assessments. Please see the [OHI+ page]() to learn about assessments at different scales, or jump to the [OHI Manual]() or [goal-by-goal page]() for technical instructions, and [presentations](Downspage)
+
+This is the OHI Toolbox for the global assessment: 
+
+![](fig of Tbx = ohicore + ohi-repo)
+
+the ohi-global repo has data used to calculate the scores, the goal models developed, and the final scores and figures. ohicore is an Rpackage that has core functions used to calculate 
+<link to repo, see releases for the publiblications. 
+
+### Cumulative Human Impacts 
+
+Cumulative Human Impacts is a framework to evaluate the comprehensive effect of human stressors on oceans, first published in Science in 2008 and Nature Communications in 2015. This framework has been used to assess global oceans and smaller scales. link to KNB. Some of these are used in global Ocean Health Index assessments as pressures. [Links and wording Mel!]
+
+
+### Data Science
+These are technical data science references that the OHI team uses to develop OHI assessments. 
+
+Intro to Github 
+Spatial Analysis 
+Data Vis
+Mel's cheatsheets
+
+
+Jamie/Mel will provide links for Ning and a sentence for practical goal-by-goal. 
+LSP/WDPA
+Fisheries
+Mangroves
+Artisanal Opportunities (SAUP)
+
+
 ## Manual
 The OHI Toolbox Manual, which provides instruction for the Conduct phase of the assessment process.
 *do we want quick links to portions of the manual: install toolbox, etc?*
@@ -148,6 +181,7 @@ Templates of customizable factsheets, reports, and webpages so you can easily co
 
 **Instruction Archive**: Instruction from Phases 1-4 (including the technical Manual). Please not that the most up-to-date version is online and not as a .pdf.
 
+link to ohimanual releases branch
 - Manual v1
 - Manual v2
 - Manual v3
