@@ -28,6 +28,11 @@ Measuring indicators of ocean health for an island nation: The Ocean Health Inde
 Assessing the health of the U.S. West Coast with a regional-scale application of the Ocean Health Index.
 [(data)](https://github.com/OHI-Science/ohi-uswest/blob/master/USwest_PLOS.zip?raw=true)
 
+**Best Practices**
+
+[Lowndes et al. 2015](10.7717/peerj.1503), *PeerJ*\*. Best practices for assessing ocean health in multiple contexts using tailorable frameworks.
+
+
 ### OHI supporting methods
 
 **Cumulative Human Impacts**
