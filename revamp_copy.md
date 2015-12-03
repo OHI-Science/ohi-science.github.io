@@ -73,34 +73,47 @@ You can explore [`ohicore`](https://github.com/OHI-Science/ohicore) and see exis
 <!---Julie note:
 I think we should have this earlier as its own thing. Feel free to edit...--->
 
-Cumulative Human Impacts studies provide high-resolution map layers of combined human stressors on the world's ocean (Halpern et al. 2008, 2015). Many of these are used as pressures in global OHI assessments. Explore the [input data maps](https://knb.ecoinformatics.org/#data/query=(Halpern Cumulative human impacts)/page/0) and methods by topic:
-  - <!---would be cool to list specific methods you've done, like for UV, OA, etc right from here--->
-  - <!---also we could provide Mel's general script for OHI+ people to clip their pressures using their own polygons--->
+Cumulative Human Impacts studies provide high-resolution map layers of human stressors on the world's ocean (Halpern et al. 2008, 2015). Many of these are used as pressures in global OHI assessments. Explore the [input data maps](https://knb.ecoinformatics.org/#data/query=(Halpern Cumulative human impacts)/page/0) and data processing methods by topic:  
+
+- [Ocean Acidification](https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_OceanAcidification/v2015)  
+- [Sea Level Rise](https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_SeaLevelRise/v2015)  
+- [Sea Surface Temperature](https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_SST)  
+- [Ultraviolet Radiation](https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_UV)  
+- [Commercial Fishing](https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_fishing)  
+- [Marine Plastics](https://github.com/OHI-Science/ohiprep/tree/master/globalprep/CW_pressure_trash)  
+  
+  
+These pressure layers are finalized as rasters with a resolution of 1km. They are freely available for download [here](https://knb.ecoinformatics.org/#view/doi:10.5063/F1S180FS). For global and regional OHI assessments, these spatial data layers can be extracted to pre-defined regions at any scale. This [Spatial Analysis in R](https://cdn.rawgit.com/eco-data-science/spatial-analysis-R/master/intro_spatial_data_R.html) tutorial is good resource for how to extract raster data by polygonal regions.
+  
 
 
+### Technical resources for working with Git, GitHub and R
 
 Members of the OHI Science team have led workshops on different data science tools.  All materials including data, code and resources are held on GitHub and made freely available as part of the [eco-data-science](https://github.com/eco-data-science) GitHub organization.
 
 
-<!---Julie note: I would recommend not putting our names: we don't attribute anything else by name and they can see who made the repo if they go to the link--->
-- [Introduction to Git and GitHub](https://github.com/eco-data-science/github-intro) by Julie Stewart-Lowndes  
-- [Introduction to spatial analysis in R](https://github.com/eco-data-science/spatial-analysis-R) by [Jamie Afflerbach](link to bio?)
-- [RMarkdown](https://github.com/eco-data-science/rmarkdown_R) by Casey O'Hara  
-- [Data Visualization](https://github.com/eco-data-science/VisualizingData) by Melanie Frazier    
+- [Introduction to Git and GitHub](https://github.com/eco-data-science/github-intro)   
+- [Introduction to spatial analysis in R](https://github.com/eco-data-science/spatial-analysis-R)  
+- [RMarkdown](https://github.com/eco-data-science/rmarkdown_R)  
+- [Data Visualization](https://github.com/eco-data-science/VisualizingData)   
 
 
+### Open source data sets
+
+<!---Jamie: not sure this should be in here at all...>
+
+The Ocean Health Index relies on freely accessible, open-source data that is consistently updated over time. atasets are often used and referenced in the process of updating the global OHI assessments. Here are some of the datasets used in the OHI, which could be also be useful for OHI+ assessments:
+
+- Fisheries catch over time from the [Sea Around Us Project](http://www.seaaroundus.org)  
+- Global fisheries landings over time from the [FAO](http://www.fao.org/fishery/statistics/en)
+- Global marine protected areas from the [WDPA](http://www.protectedplanet.net/)
+- Species ranges from [Aquamaps](http://www.aquamaps.org/) and the [IUCN](http://www.iucnredlist.org/technical-documents/spatial-data)
 
 ### Additional Resources   
 
 In addition to developing our own open-source tools to conduct annual assessments, the Ocean Health Index utilizes a variety of open-source tools and resources to find data, conduct analyses, document and share methods, and connect with the larger community.
 
 These tools and datasets are often used and referenced in the process of updating the global OHI assessments.
-
-**Data**  
-
-- [Sea Around Us Project](http://www.seaaroundus.org)  
-
-**Resources**  
 
 - [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) are helpful 1-2 page documents that demonstrate core functionality of packages including ggplot2, dplyr, shiny and more.   
 - [Git and GitHub](http://r-pkgs.had.co.nz/git.html) by Hadley Wickham  
