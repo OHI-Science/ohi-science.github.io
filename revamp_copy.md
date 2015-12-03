@@ -30,39 +30,6 @@ Here you will find resources that can help in OHI or related projects.
 *1-2 sentence blurb*
 *Jamie*
 
-
-### Ocean Health Index
-
-Ocean Health Index framework to evaluate ocean health, first published in Nature 2012 and in PLoS one in 2015. The OHI team conducts annual asssessments globally. Here you will find tools used for OHI global assessments. Please see the [OHI+ page]() to learn about assessments at different scales, or jump to the [OHI Manual]() or [goal-by-goal page]() for technical instructions, and [presentations](Downspage)
-
-This is the OHI Toolbox for the global assessment: 
-
-![](fig of Tbx = ohicore + ohi-repo)
-
-the ohi-global repo has data used to calculate the scores, the goal models developed, and the final scores and figures. ohicore is an Rpackage that has core functions used to calculate 
-<link to repo, see releases for the publiblications. 
-
-### Cumulative Human Impacts 
-
-Cumulative Human Impacts is a framework to evaluate the comprehensive effect of human stressors on oceans, first published in Science in 2008 and Nature Communications in 2015. This framework has been used to assess global oceans and smaller scales. link to KNB. Some of these are used in global Ocean Health Index assessments as pressures. [Links and wording Mel!]
-
-
-### Data Science
-These are technical data science references that the OHI team uses to develop OHI assessments. 
-
-Intro to Github 
-Spatial Analysis 
-Data Vis
-Mel's cheatsheets
-
-
-Jamie/Mel will provide links for Ning and a sentence for practical goal-by-goal. 
-LSP/WDPA
-Fisheries
-Mangroves
-Artisanal Opportunities (SAUP)
-
-
 ## Manual
 The OHI Toolbox Manual, which provides instruction for the Conduct phase of the assessment process.
 *do we want quick links to portions of the manual: install toolbox, etc?*
@@ -87,7 +54,16 @@ Connect with the OHI community through the OHI Forum.
 
 # TOOLS PAGE
 
-The Ocean Health Index relies on open-source datasets, tools and resources to promote transparency and reproducibility. We use open-source analytical and collaborative tools, particularly [R](https://cran.r-project.org/), [RStudio](https://www.rstudio.com/) and [GitHub](https://github.com/). We also develop our own tools, which you can find here.
+### Ocean Health Index
+
+The Ocean Health Index is a framework to evaluate ocean health, first published in [Nature 2012] and in [PLoS one in 2015]. The OHI Science team uses the framework to conduct global assessments of ocean health annually. Here you will find tools used for OHI global assessments. Please see the [OHI+ page]() to learn about assessments at different scales, or jump to the [OHI Manual]() or [goal-by-goal page]() for technical instructions, and [presentations](Downspage)
+
+This is the OHI Toolbox for the global assessment: 
+
+![](fig of Tbx = ohicore + ohi-repo)
+
+the ohi-global repo has data used to calculate the scores, the goal models developed, and the final scores and figures. ohicore is an Rpackage that has core functions used to calculate 
+<link to repo, see releases for the publiblications. 
 
 ### Ocean Health Index Toolbox
 
@@ -101,8 +77,8 @@ You can explore [`ohicore`](https://github.com/OHI-Science/ohicore) and see exis
 
 ### Cumulative Human Impacts
 
-<!---Julie note:
-I think we should have this earlier as its own thing. Feel free to edit...--->
+Cumulative Human Impacts is a framework to evaluate the comprehensive effect of human stressors on oceans, first published in Science in 2008 and Nature Communications in 2015. This framework has been used to assess global oceans and smaller scales. link to KNB. Some of these are used in global Ocean Health Index assessments as pressures. [Links and wording Mel!]
+
 
 Cumulative Human Impacts studies provide high-resolution map layers of human stressors on the world's ocean (Halpern et al. 2008, 2015). Many of these are used as pressures in global OHI assessments. Explore the [input data maps](https://knb.ecoinformatics.org/#data/query=(Halpern Cumulative human impacts)/page/0) and data processing methods by topic:  
 
@@ -116,20 +92,33 @@ Cumulative Human Impacts studies provide high-resolution map layers of human str
   
 These pressure layers are finalized as rasters with a resolution of 1km. They are freely available for download [here](https://knb.ecoinformatics.org/#view/doi:10.5063/F1S180FS). For global and regional OHI assessments, these spatial data layers can be extracted to pre-defined regions at any scale. This [Spatial Analysis in R](https://cdn.rawgit.com/eco-data-science/spatial-analysis-R/master/intro_spatial_data_R.html) tutorial is good resource for how to extract raster data by polygonal regions.
   
+### Data Science References
+These are technical data science references that the OHI team uses to develop OHI assessments. 
 
+**Git and Github**  
+- [Introduction to Git and Github](https://github.com/eco-data-science/github-intro)  
+- [Melanies git conflict/merge notecards]()  
 
-### Technical resources for working with Git, GitHub and R
+**R and RStudio**  
+- [RMarkdown](https://github.com/eco-data-science/rmarkdown_R)   
 
-Members of the OHI Science team have led workshops on different data science tools.  All materials including data, code and resources are held on GitHub and made freely available as part of the [eco-data-science](https://github.com/eco-data-science) GitHub organization.
+**Spatial Analysis**  
+- [Spatial Analysis in R: Rasters](https://github.com/eco-data-science/spatial-analysis-R)  
+- [Spatial Analysis in R: Vectors](https://github.com/eco-data-science/spatial_analysis2_R)
 
-
-- [Introduction to Git and GitHub](https://github.com/eco-data-science/github-intro)   
-- [Introduction to spatial analysis in R](https://github.com/eco-data-science/spatial-analysis-R)  
-- [RMarkdown](https://github.com/eco-data-science/rmarkdown_R)  
-- [Data Visualization](https://github.com/eco-data-science/VisualizingData)   
+**Data Visualization**  
+- [Data Visualization using ggplot2](https://github.com/eco-data-science/VisualizingData) 
+- [Mel's cheatsheet](https://github.com/OHI-Science/ohiprep/blob/master/Reference/ggplot2%20cheatsheet%20v2.pdf)
 
 
 ### Open source data sets
+
+
+Jamie/Mel will provide links for Ning and a sentence for practical goal-by-goal. 
+LSP/WDPA
+Fisheries
+Mangroves
+Artisanal Opportunities (SAUP)
 
 <!---Jamie: not sure this should be in here at all...>
 
