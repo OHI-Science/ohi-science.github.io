@@ -24,7 +24,10 @@ We are a team from the University of California at Santa Barbara and Conservatio
 # RESOURCES PAGE
 
 ## (Introductory 1-2 sentences)
-Here you will find resources that can help in OHI or related projects.
+Here you will find resources for OHI+ assessments or related projects.
+
+## News
+The latest about OHI tool development and OHI+ assessments. Also, check out our Twitter feed @ohiscience and @oceanhealthindx.
 
 ## Tools
 *1-2 sentence blurb*
@@ -32,14 +35,12 @@ Here you will find resources that can help in OHI or related projects.
 
 ## Manual
 The OHI Toolbox Manual, which provides instruction for the Conduct phase of the assessment process.
-*do we want quick links to portions of the manual: install toolbox, etc?*
 
 ## Publications
 A list of peer-reviewed publications by our OHI team plus reports and publications from OHI+ teams.
 
 ## Citation Policy
 Please refer to our Citation Policy to reference methods, scripts, and data.
-
 
 ## Goal descriptions and approaches
 The goals included in an assessment depend on what is relevant and important in the area. Learn about what the goals identified for the global assessment mean and what previous approaches have been.
@@ -50,7 +51,14 @@ Downloadable resources and materials.
 ## Forum
 Connect with the OHI community through the OHI Forum.
 
+## Links
+Other great resources from the marine science and data science communities. 
+
+
 ***
+
+# NEWS PAGE 
+*Julie*
 
 # TOOLS PAGE
 
@@ -97,7 +105,7 @@ These are technical data science references that the OHI team uses to develop OH
 
 **Git and Github**  
 - [Introduction to Git and Github](https://github.com/eco-data-science/github-intro)  
-- [Melanies git conflict/merge notecards]()  
+- [git cheatsheets]()  <!---melanie can you save this in assets/downloads? --->
 
 **R and RStudio**  
 - [RMarkdown](https://github.com/eco-data-science/rmarkdown_R)   
@@ -108,17 +116,8 @@ These are technical data science references that the OHI team uses to develop OH
 
 **Data Visualization**  
 - [Data Visualization using ggplot2](https://github.com/eco-data-science/VisualizingData) 
-- [Mel's cheatsheet](https://github.com/OHI-Science/ohiprep/blob/master/Reference/ggplot2%20cheatsheet%20v2.pdf)
+- [ggplot cheatsheet]() <!---melanie can you save this in assets/downloads? --->
 
-
-### Open source data sets
-
-
-Jamie/Mel will provide links for Ning and a sentence for practical goal-by-goal. 
-LSP/WDPA
-Fisheries
-Mangroves
-Artisanal Opportunities (SAUP)
 
 <!---Jamie: not sure this should be in here at all...>
 
@@ -127,17 +126,7 @@ The Ocean Health Index relies on freely accessible, open-source data that is con
 - Fisheries catch over time from the [Sea Around Us Project](http://www.seaaroundus.org)  
 - Global fisheries landings over time from the [FAO](http://www.fao.org/fishery/statistics/en)
 - Global marine protected areas from the [WDPA](http://www.protectedplanet.net/)
-- Species ranges from [Aquamaps](http://www.aquamaps.org/) and the [IUCN](http://www.iucnredlist.org/technical-documents/spatial-data)
-
-### Additional Resources   
-
-In addition to developing our own open-source tools to conduct annual assessments, the Ocean Health Index utilizes a variety of open-source tools and resources to find data, conduct analyses, document and share methods, and connect with the larger community.
-
-These tools and datasets are often used and referenced in the process of updating the global OHI assessments.
-
-- [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) are helpful 1-2 page documents that demonstrate core functionality of packages including ggplot2, dplyr, shiny and more.   
-- [Git and GitHub](http://r-pkgs.had.co.nz/git.html) by Hadley Wickham  
-
+- Species ranges from [Aquamaps](http://www.aquamaps.org/) and the [IUCN](http://www.iucnredlist.org/technical-documents/spatial-data) --->
 
 ***  
 
@@ -267,12 +256,24 @@ If you are interested in beginning an OHI+ assessment, please contact
 Erich (epacheco at conservation.org) or Julie (lowndes at nceas.ucsb.edu).
 
 ## Citation Policy
-*Mel and Jamie*
+
+ohi-science.github.io/citation_policy.md
 
 
 # FORUM PAGE
 *3 sentence blurb with instructions*
 *Julie*
+
+# LINKS PAGE
+
+Here are some great resources from the ocean science and open data science communities. 
+
+<!--- in progress, Julie will come back --->
+
+- [Natural Capital Project]
+
+- [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) are helpful 1-2 page documents that demonstrate core functionality of packages including ggplot2, dplyr, shiny and more.   
+- [Git and GitHub](http://r-pkgs.had.co.nz/git.html) by Hadley Wickham  
 
 
 # GOAL DESCRIPTIONS AND APPROACHES
