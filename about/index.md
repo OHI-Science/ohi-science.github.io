@@ -56,7 +56,7 @@ group: navigation
 		<p>
 			OHI+ assessments can be used as a marine planning tool. Resulting scores can help identify policy priorities and management cost-effectiveness, and can be used to simulate management scenarios. It is also possible to use the OHI framework as a marine planning tool even before final assessment scores have been calculated, since conducting an OHI+ assessment requires an inventory of information and knowledge that spans disciplines, space and time, and can be a useful process for understanding the current policy, information and knowledge landscape. 
 				</p>
-		<a href="phases" class="btn">View the Four Phases of the OHI Assessment</a>
+		<a href="/phases" class="btn">View the Four Phases of the OHI Assessment</a>
 	</div>
 </div>
 

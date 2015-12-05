@@ -1,0 +1,41 @@
+- text: OHI+
+  url: /phases/
+  subitems:
+    - text: Learn
+      url: /learn/
+    - text: Plan
+      url: /plan/
+    - text: Conduct
+      url: /conduct/
+    - text: Inform
+      url: /inform/
+- text: Resources
+  url: /tools/
+  subitems:
+    - text: Tools
+      url: /resources/tools/
+    - text: Manual
+      url: /manual/
+    - text: Publications
+      url: /resources/publications/
+    - text: Forum
+      url: /forum/
+- text: Projects
+  url: /projects/
+  subitems:
+    - text: Global
+      url: /projects/index.html#global
+    - text: OHI+
+      url: /projects/index.html#ohiplus
+- text: About
+  url: /about/  
+  subitems:
+    - text: What is OHI
+      url: /about/index.html#whatIsOHI
+    - text: What is OHI+?
+      url: /about/index.html#whatIsOHI+
+    - text: Who We Are
+      url: /about/index.html#who
+- text: Forum
+  url: /forum/
+  

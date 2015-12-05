@@ -26,7 +26,7 @@ $nav-height: $logo-height + $pad-small * 2;
 	}
 }	
 .nav{	
-	li {
+	> li {
 	    float: left;
 	    margin-right: 20px;
 	    list-style: none;
@@ -61,6 +61,21 @@ $nav-height: $logo-height + $pad-small * 2;
 		.goog-te-gadget,
 		.goog-logo-link{
 			color: white;
+		}
+	}
+	.sub-nav{
+		padding-left: 0px;
+		position: absolute;
+		display: none;
+	
+		> li{
+			display: block;
+			
+			a{
+				text-transform: capitalize;
+			    font-size: 1em;
+			    line-height: 2em;
+			}
 		}
 	}
 }

@@ -248,7 +248,7 @@ a[name]{
 }
 .content > *:first-child,
 .content > .container:first-child{
-	padding-top: $nav-height;
+	padding-top: $nav-height + $pad-large;
 }
 
 .stripe.light-font{

@@ -1,0 +1,17 @@
+{% for link in include.links %}
+    {% if page.url == link.url %}
+    	<li class="active">
+    {% else %}
+    	<li>
+	{% endif %}
+	
+		<a href="{{ link.url }}">{{ link.text }}</a>
+	
+	{% if link.subitems.size > 0 %}
+		<ul class="sub-nav">
+			{% include themes/OHI/nav links=link.subitems %}
+		</ul>
+	{% endif %}
+	
+	</li>
+{% endfor %}

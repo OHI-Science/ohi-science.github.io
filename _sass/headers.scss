@@ -10,6 +10,9 @@
 	@include respond-to(handhelds){ font-size: 1.8em; }
 	@include respond-to(medium-screens){ font-size: 3em; }
 }
+h1{
+	font-weight: normal;
+}
 h3{
 	font-family: $header-font-stack;
 	font-size: 2.3em;
