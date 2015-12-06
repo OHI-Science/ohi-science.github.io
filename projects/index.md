@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Projects
 description: A list of OHI+ projects
 comments: false

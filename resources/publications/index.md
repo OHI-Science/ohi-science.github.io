@@ -1,3 +1,8 @@
+---
+layout: page
+title: Publications
+---
+
 Publications by the OHI team are listed below along with downloadable data. OHI+ reports and publications are also listed. Open access articles are indicated with a *.
 
 ## Peer-reviewed publications
