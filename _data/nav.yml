@@ -2,13 +2,13 @@
   url: /phases/
   subitems:
     - text: Learn
-      url: /learn/
+      url: /phases#learn
     - text: Plan
-      url: /plan/
+      url: /phases#plan
     - text: Conduct
-      url: /conduct/
+      url: /phases#conduct
     - text: Inform
-      url: /inform/
+      url: /phases#inform
 - text: Resources
   url: /tools/
   subitems:
@@ -22,11 +22,6 @@
       url: /forum/
 - text: Projects
   url: /projects/
-  subitems:
-    - text: Global
-      url: /projects/index.html#global
-    - text: OHI+
-      url: /projects/index.html#ohiplus
 - text: About
   url: /about/  
   subitems:

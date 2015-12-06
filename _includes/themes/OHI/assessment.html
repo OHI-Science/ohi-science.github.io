@@ -1,4 +1,5 @@
-<div class="assessment">
+<div class="assessment container">
+	<h1>OHI Assessment : {{ page.title }}</h1>
 	<h4>
 		{{ page.title }}
 		{% if page.tags contains "OHI+" %}
@@ -6,4 +7,7 @@
 		{% endif %}
 	</h4>
 	{{ content }}
+</div>
+<div class="container">
+	<a href="/projects" class="btn">See all assessments</a>
 </div>

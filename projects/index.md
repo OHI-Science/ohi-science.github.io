@@ -18,7 +18,7 @@ group: navigation
 {% assign position = 'top-left' %}
 {% include themes/OHI/diagonal %}
 
-<div class="container diagonal-top">
+<div class="container diagonal-top assessments">
 	<hgroup class="inline">
 		<h1>OHI Assessments</h1>
 		<h5><i class="icon icon-med icon-right plus lnr lnr-plus-circle"></i> Indicates an OHI+ assessment</h5>

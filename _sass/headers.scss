@@ -49,3 +49,9 @@ hgroup.inline > *{
 hgroup.inline > *:nth-child(1){
 	margin-right: $pad-large;
 }
+.assessments .subheading{
+	font-size: 1.2em;
+	margin-bottom: 0px;
+    border-top: 1px solid #CCC;
+    padding-top: 20px;
+}

@@ -242,6 +242,9 @@ a[name]{
 	margin-right: auto;
 	max-width: 1000px;
 }
+.content > .container:first-child{
+	margin-top: 0px;
+}
 .content > .container,
 {
 	padding: $pad-large;
@@ -316,7 +319,29 @@ a[name]{
 		}
 	}
 }
-
+.container.assessment{
+	margin-bottom: $pad-large;
+	margin-top: $pad-large / 2;
+	a{
+		@extend .btn;
+	}
+	h4{
+		margin-bottom: 0px;
+		font-size: 1.2em;
+		font-family: $font-stack;
+		line-height: 1em;
+		
+		a{
+			border: 0px;
+			padding: 0px;
+			color: inherit;
+		}
+		a:hover{
+			background-color: transparent;
+			color: $primary-color;
+		}
+	}
+}
 
 /* Specifically-styled containers */
 .stripe.tagline{
@@ -325,12 +350,6 @@ a[name]{
 }
 .stripe.where-assessments{
 	background-image: url('../img/map-background.png');
-}
-.container.assessment{
-	margin-bottom: $pad-large;
-	a{
-		@extend .btn;
-	}
 }
 .stripe.about{
 	background-image: url('../img/whales.jpg');

@@ -1,4 +1,4 @@
-{% assign continents = "Global,North America,South America,Europe,Asia,Africa,Australia,Antartica" | split: "," %}
+{% assign continents = "Global,North America,South America,Europe,Asia,Africa,Australia,Antartica,Arctic,Oceania" | split: "," %}
 
 {% for continent in continents %}		
 	{% assign posts = site.tags[continent] %}
@@ -11,7 +11,13 @@
 		{% for post in sortedPosts %}
 			{% if post.categories contains "assessment" %}
 				<div class="container assessment">
-					{{ post.output }}
+					<h4>
+						<a href="{{ post.url }}">{{ post.title }}</a>
+						{% if post.tags contains "OHI+" %}
+							<i class="icon plus lnr lnr-plus-circle icon-left icon-small"></i>
+						{% endif %}
+					</h4>
+					{{ post.content }}
 				</div>
 			{% endif %}
 		{% endfor %}
