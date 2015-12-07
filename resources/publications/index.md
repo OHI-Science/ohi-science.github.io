@@ -84,4 +84,4 @@ Exploring patterns of seafood provision revealed in the global Ocean Health Inde
 **Ecuador**
 
 - [Download OHI+ Gulf of Guayaquil 2015 Final Report (in Spanish)](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_InformeFinal.pdf)
-- [Download OHI+ Gulf of Guayaquil 2015 Goal details (in Spanish)]()
+- [Download OHI+ Gulf of Guayaquil 2015 Goal details (in Spanish)](https://github.com/OHI-Science/ohi-science.github.io/raw/3c6babb40348e62b322abadad086ece565411adf/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_Metas.zip)
