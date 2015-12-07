@@ -11,7 +11,7 @@ Here you will find resources for OHI+ assessments or related projects.
 ## [News](/news)
 See the latest about OHI tool development and OHI+ assessments. 
 
-Also, check out our Twitter feed @ohiscience and [@oceanhealthindx](https://twitter.com/oceanhealthindx).
+Also, check out our Twitter feed [@ohiscience](https://twitter.com/ohiscience) and [@oceanhealthindx](https://twitter.com/oceanhealthindx).
 
 ## [Tools](/resources/tools)
 *1-2 sentence blurb*
