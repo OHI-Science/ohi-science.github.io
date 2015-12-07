@@ -4,282 +4,70 @@ Notes to Lauren:
 
 # HOME PAGE
 
-## Tagline: Open science with the Ocean Health Index
+Please update the home page in /index.html
 
-## What is the Ocean Health Index?
-The Ocean Health Index ('OHI') is a way to measure how healthy oceans are. Understanding the state of our oceans is a first step towards ensuring they can continue providing humans benefits now and in the future.
-
-## What are OHI+ assessments?
-OHI+ assessments use the OHI framework and are independently-led by anyone interested. OHI+ assessments are often conducted at smaller spatial scales with the purpose of informing marine policy.
-
-## Where have assessments been done?
-Assessments at the global scale have been completed from 2012-2015. Assessments have also been completed or are underway at smaller scales within coastal countries or groups of countries around the world.
-
-## How do I get started?
-We provide free instruction and software so you can conduct your own OHI+ assessment. There are four phases to the assessment process: Learn, Plan, Conduct, and Inform.
-
-## Who we are
-We are a team from the University of California at Santa Barbara and Conservation International that has been completing annual global assessments and developing a program to support OHI+ assessments.
 
 # RESOURCES PAGE
 
-## (Introductory 1-2 sentences)
-Here you will find resources for OHI+ assessments or related projects.
+Please update the Resources page at /resources/index.md
 
-## News
-The latest about OHI tool development and OHI+ assessments. Also, check out our Twitter feed @ohiscience and @oceanhealthindx.
-
-## Tools
-*1-2 sentence blurb*
-*Jamie*
-
-## Manual
-The OHI Toolbox Manual, which provides instruction for the Conduct phase of the assessment process.
-
-## Publications
-A list of peer-reviewed publications by our OHI team plus reports and publications from OHI+ teams.
-
-## Citation Policy
-Please refer to our Citation Policy to reference methods, scripts, and data.
-
-## Goal descriptions and approaches
-The goals included in an assessment depend on what is relevant and important in the area. Learn about what the goals identified for the global assessment mean and what previous approaches have been.
-
-## Downloads
-Downloadable resources and materials.
-
-## Forum
-Connect with the OHI community through the OHI Forum.
-
-## Links
-Other great resources from the marine science and data science communities. 
-
-
-***
 
 # NEWS PAGE 
-*Julie*
+
+Please update the News page at /news/index.md
+
 
 # TOOLS PAGE
 
-### Ocean Health Index
-
-The Ocean Health Index is a framework to evaluate ocean health, first published in [Nature 2012] and in [PLoS one in 2015]. The OHI Science team uses the framework to conduct global assessments of ocean health annually. Here you will find tools used for OHI global assessments. Please see the [OHI+ page]() to learn about assessments at different scales, or jump to the [OHI Manual]() or [goal-by-goal page]() for technical instructions, and [presentations](Downspage)
-
-This is the OHI Toolbox for the global assessment: 
-
-![](fig of Tbx = ohicore + ohi-repo)
-
-the ohi-global repo has data used to calculate the scores, the goal models developed, and the final scores and figures. ohicore is an Rpackage that has core functions used to calculate 
-<link to repo, see releases for the publiblications. 
-
-### Ocean Health Index Toolbox
-
-The OHI Toolbox is used to calculate and visualize OHI assessment scores. The Toolbox has two parts: a personalized repository to organize and store information and write goal model equations specific to the local context, and the R package `ohicore`, which is the engine behind calculating and visualizing scores.
-
-![](https://docs.google.com/drawings/d/1wGK68NRn5bmhZo_gC2A9sx-AcpIZHVp45ID5_HQKVJ0/pub?w=768&h=192
-  )
-
-You can explore [`ohicore`](https://github.com/OHI-Science/ohicore) and see existing OHI and OHI+ assessment repositories in [Projects](). To have a personal repository created for your assessment, please [contact us]().
-
-
-### Cumulative Human Impacts
-
-Cumulative Human Impacts is a framework to evaluate the comprehensive effect of human stressors on oceans, first published in Science in 2008 and Nature Communications in 2015. This framework has been used to assess global oceans and smaller scales. link to KNB. Some of these are used in global Ocean Health Index assessments as pressures. [Links and wording Mel!]
-
-
-Cumulative Human Impacts studies provide high-resolution map layers of human stressors on the world's ocean (Halpern et al. 2008, 2015). Many of these are used as pressures in global OHI assessments. Explore the [input data maps](https://knb.ecoinformatics.org/#data/query=(Halpern Cumulative human impacts)/page/0) and data processing methods by topic:  
-
-- [Ocean Acidification](https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_OceanAcidification/v2015)  
-- [Sea Level Rise](https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_SeaLevelRise/v2015)  
-- [Sea Surface Temperature](https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_SST)  
-- [Ultraviolet Radiation](https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_UV)  
-- [Commercial Fishing](https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_fishing)  
-- [Marine Plastics](https://github.com/OHI-Science/ohiprep/tree/master/globalprep/CW_pressure_trash)  
-  
-  
-These pressure layers are finalized as rasters with a resolution of 1km. They are freely available for download [here](https://knb.ecoinformatics.org/#view/doi:10.5063/F1S180FS). For global and regional OHI assessments, these spatial data layers can be extracted to pre-defined regions at any scale. This [Spatial Analysis in R](https://cdn.rawgit.com/eco-data-science/spatial-analysis-R/master/intro_spatial_data_R.html) tutorial is good resource for how to extract raster data by polygonal regions.
-  
-### Data Science References
-These are technical data science references that the OHI team uses to develop OHI assessments. 
-
-**Git and Github**  
-- [Introduction to Git and Github](https://github.com/eco-data-science/github-intro)  
-- [git cheatsheets]()  <!---melanie can you save this in assets/downloads? --->
-
-**R and RStudio**  
-- [RMarkdown](https://github.com/eco-data-science/rmarkdown_R)   
-
-**Spatial Analysis**  
-- [Spatial Analysis in R: Rasters](https://github.com/eco-data-science/spatial-analysis-R)  
-- [Spatial Analysis in R: Vectors](https://github.com/eco-data-science/spatial_analysis2_R)
-
-**Data Visualization**  
-- [Data Visualization using ggplot2](https://github.com/eco-data-science/VisualizingData) 
-- [ggplot cheatsheet]() <!---melanie can you save this in assets/downloads? --->
-
-
-<!---Jamie: not sure this should be in here at all...>
-
-The Ocean Health Index relies on freely accessible, open-source data that is consistently updated over time. atasets are often used and referenced in the process of updating the global OHI assessments. Here are some of the datasets used in the OHI, which could be also be useful for OHI+ assessments:
-
-- Fisheries catch over time from the [Sea Around Us Project](http://www.seaaroundus.org)  
-- Global fisheries landings over time from the [FAO](http://www.fao.org/fishery/statistics/en)
-- Global marine protected areas from the [WDPA](http://www.protectedplanet.net/)
-- Species ranges from [Aquamaps](http://www.aquamaps.org/) and the [IUCN](http://www.iucnredlist.org/technical-documents/spatial-data) --->
-
-***  
+Please update the Tools page at /resources/tools/index.md 
 
 
 # PUBLICATIONS PAGE
 
-ohi-science.github.io/publications_list.md
+Please update the ublications page at /resources/publications/index.md
+
+
 
 # DOWNLOADS PAGE
 
-Here you will find downloadable resources to help you organize a workshop, give presentations, distribute fact sheets, link to useful external resources, and more.
+Please update the Downloads page at /resources/downloads/index.md 
 
-**Workshop Materials** — lead and facilitate an OHI planning workshop with these resources
-
-- Workshop 1
-- Workshop 2
-- Workshop 3
-- Workshop 4
-- Workshop 5
-- Workshop 6
-- Workshop 7
-- Workshop 8
-- Workshop 9
-- Workshop 10
-
-**Presentations** - use these presentations to help communicate about the Ocean Health Index
-
-- Presentation 1
-- Presentation 2
-- Presentation 3
-- Presentation 4
-- Presentation 5
-- Presentation 6
-- Presentation 7
-- Presentation 8
-- Presentation 9
-- Presentation 10
-
-    - [The Ocean Health Index Project 2012-2015](https://cdn.rawgit.com/OHI-Science/ohimanual/master/tutorials/ohi_2012_2015/presentation_nceas.html#1)
-
-<!---**Communication materials**
-Templates of customizable factsheets, reports, and webpages so you can easily communicate your efforts with various audiences--->
-
-**Instruction Archive**: Instruction from Phases 1-4 (including the technical Manual). Please not that the most up-to-date version is online and not as a .pdf.
-
-link to ohimanual releases branch
-- Manual v1
-- Manual v2
-- Manual v3
-
-**External resources** Here you can find useful tools and reading materials that might be helpful as you develop your OHI assessment
-
-- [RStudio](https://www.rstudio.com)
-- [RStudio](https://www.rstudio.com)
-- [RStudio](https://www.rstudio.com)
-- [RStudio](https://www.rstudio.com)
 
 # PROJECTS PAGE
 
-## Introductory 1-2 sentences
+Please update the Projects page at /projects/index.md
 
-Here you will find a list of current and completed Ocean Health Index assessments. OHI+ assessments are led by independent groups, who receive technical guidance and support from the OHI team but are fully responsible for all decisions made and scores produced throughout the assessment process. Note that the map below indicates where assessments are taking place although the spatial boundaries may change.
-
-ohi-science.github.io/projects_list.md
 
 
 # OHI+ PAGE
 
-## Phases of an OHI+ assessment
-OHI+ assessments have four iterative and repeated phases: 1) Learn about the Ocean Health Index and whether it is the right tool for the context; 2) Plan the assessment by building a team and developing a timeline; 3) Conduct the assessment by tailoring the OHI framework and calculating scores using the OHI Toolbox; 4) Inform policy and future assessments by sharing both scores and what was learned during the process. Assessments are most useful when they are repeated through time to understand changes in ocean health and integrated into continuous decision-making processes for adaptive management.
+Please update the OHI+ page at /phases/index.html
 
-## Learn about the OHI
-The Ocean Health Index is a comprehensive assessment tool that evaluates how a suite of goals is delivered to humans. It can be tailored to different contexts with effort to identify and capture what is important in these places. Learn whether the OHI is the right assessment tool for your area.
-
-
-## Plan an OHI+ assessment
-Plan an OHI+ assessment by understanding what is required, which includes identifying the need and spatial area of the assessment, establishing objectives and a timeline of activities, determining resources needed (human and financial), and aligning the assessment process with existing efforts and initiatives identifying objectives. Further, it is important to identify and include collaborators, including key stakeholders or decision-makers in the assessment process.
-
-## Conduct an OHI+ assessment
-Conducting an assessment requires tailoring the OHI framework to the local context and using the Toolbox software to calculate scores based on this framework. This requires conceptually identifying important characteristics and priorities in the area, and gathering existing information and developing models to represent the framework. An emphasis is on transparency and reproducible science.
-
-## Inform using OHI+ assessment results
-The scores produced from the assessment process, as well as what was learned through the process itself, should be shared. The final scores and methods are important to communicate transparently, but also the successes and challenges of the process (including information and knowledge gaps). These can help to prioritize policy decisions and can also make repeated assessment processes more efficent; both have the ultimate aim of improving ocean health.
 
 
 # ABOUT PAGE
 
-## What is the Ocean Health Index?
-
-Determining ocean health requires an approach that integrates social, economic, and environmental information. The Ocean Health Index (OHI) is an assessment framework that does this by measuring progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide. By analyzing these goals together and scoring them from 0-100, OHI assessments result in a comprehensive picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
-
-Originally developed by an interdisciplinary team of scientists let by Halpern *et al*. and published in the journal *Nature* in 2012, the OHI framework is standardized yet customizable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
-
-![](https://docs.google.com/drawings/d/1XAx6M3Qh5EWEG8CIXykFr7dskVTttBdLOBPguIVZ-pk/pub?w=624&h=480)
-
-Assessments using the OHI framework are facilitated by the OHI Toolbox, a suite of collaborative, open-source tools and instruction that provides structure for data organization and storage, data processing and goal modeling. The Toolbox enables assessments to be transparent, reproducible through access to detailed methods and computational code, repeatable with the ability to modify methods and computational code, and communicable with distillation and visualization to a wide audience.
-
-For more information, please see our sister website at [www.OceanHealthIndex.org](www.OceanHealthIndex.org).
+Please update the About page at /about/index.md
 
 
-## What is OHI+?
-
-OHI+ are independently-led OHI assessments that are conducted by any group external to the OHI team. Groups have full responsibility of all aspects of the assessments, including all decisions and information involved, and the resulting scores. The OHI team provides the Toolbox software and guidance and can also provide feedback throughout the process.
-
-OHI+ assessments are often conducted at smaller, subnational spatial scales. This allows availability and use of higher quality information and better knowledge of system processes, which allow for models to be developed that better capture the philosophy of the goals in the local context. At the same time, targets (reference points) can be set with more refined knowledge of preferences or priorities of local people or governments at spatial scales where management decisions are made.
-
-OHI+ assessments can be used as a marine planning tool. Resulting scores can help identify policy priorities and management cost-effectiveness, and can be used to simulate management scenarios. It is also possible to use the OHI framework as a marine planning tool even before final assessment scores have been calculated, since conducting an OHI+ assessment requires an inventory of information and knowledge that spans disciplines, space and time, and can be a useful process for understanding the current policy, information and knowledge landscape.
-
-## Who we are
-
-Our current team is based at the National Center for Ecological Analysis and Synthesis (NCEAS) at the University of California at Santa Barbara (UCSB), and at Conservation International (but there have been many other important [contributors](http://www.oceanhealthindex.org/about/contributors) throughout the years). We are excited to be a part of the open science community and helping make our oceans healthier. 
-
-**Ben Halpern, PhD**  
-**Steve Katona, PhD**  
-**Johanna Polsenberg, PhD**  
-
-**Jamie Afflerbach, MSc**  
-**Melanie Frazier, PhD**   
-**Julie Stewart Lowndes, PhD**  
-**Ning Jiang Mendes, MSc**  
-**Lindsay Mosher**  
-**Casey O'Hara, MSc**  
-**Erich Pacheco, MSc**  
-**Courtney Scarborough, MSc**  
-
-If you are interested in beginning an OHI+ assessment, please contact
-Erich (epacheco at conservation.org) or Julie (lowndes at nceas.ucsb.edu).
 
 ## Citation Policy
 
-ohi-science.github.io/citation_policy.md
+Please update the Citation Policy page at /resources/citation-policy/index.md
+
 
 
 # FORUM PAGE
-*3 sentence blurb with instructions*
-*Julie*
+
+Please update the Forum page at /forum/index.md
+
+
 
 # LINKS PAGE
 
-Here are some great resources from the ocean science and open data science communities. 
-
-<!--- in progress, Julie will come back --->
-
-- [Natural Capital Project]
-
-- [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) are helpful 1-2 page documents that demonstrate core functionality of packages including ggplot2, dplyr, shiny and more.   
-- [Git and GitHub](http://r-pkgs.had.co.nz/git.html) by Hadley Wickham  
+Please update the Links page at /resources/links/index.md
 
 
 # GOAL DESCRIPTIONS AND APPROACHES
 
-Global OHI assessments categorized and scored ten goals and eight sub-goals representing ocean-derived benefits to people. Most of the goals and sub-goals scored in global assessments will be relevant for OHI+ assessments, although it is important to critically evaluate this in each context. Once it is clear which goals should be assessed, it is important to develop a blueprint of how they would ideally be represented with models based on the knowledge the local system. These models will ultimately be developed with the information available and will likely differ from the ideal, but it is important to make the blueprint to highlight the intent of the goals and help identify the gaps in knowledge and information.
-
-To help inform this process, below is information for each goal and sub-goal included in the global assessments. Along with the philosophy and how 'ideally' they might be modeled are descriptions of the approaches from completed assessments.
-
-*Julie + Ning*
+Please update the goals page at /goals/index.md
