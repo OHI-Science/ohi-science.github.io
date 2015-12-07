@@ -78,9 +78,10 @@ Exploring patterns of seafood provision revealed in the global Ocean Health Inde
 
 - [Tsemel et al. 2014, *Ecology & Environment*. D Grade for the Mediterranean- Applying the Ocean Health Index to Israel. (in Hebrew).](http://magazine.isees.org.il/ArticlePage.aspx?ArticleId=456)
 צמל, ע., א. שיינין, וי. סוארי. 2014. ציון “מספיק בקושי” לים התיכון – התאמת מדד בריאות הים העולמי לישראל. אקולוגיה וסביבה 3: 218–222 
-- [Download OHI+ Israel 2014 Supplementary Information (in English)]() <!---ohi-science.github.io/downloads_pubs/Israeli_Med_2014_OHI+documentation_Tsemel_et_al.pdf. I'm not sure how to make this downloadable.---> 
+- [Download OHI+ Israel 2014 Supplementary Information (in English)](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BIsrael_2014.pdf)  
+  
 
 **Ecuador**
 
-- [Download OHI+ Gulf of Guayaquil 2015 Final Report (in Spanish)]()
+- [Download OHI+ Gulf of Guayaquil 2015 Final Report (in Spanish)](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_InformeFinal.pdf)
 - [Download OHI+ Gulf of Guayaquil 2015 Goal details (in Spanish)]()
