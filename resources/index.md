@@ -14,8 +14,7 @@ See the latest about OHI tool development and OHI+ assessments.
 Also, check out our Twitter feed [@ohiscience](https://twitter.com/ohiscience) and [@oceanhealthindx](https://twitter.com/oceanhealthindx).
 
 ## [Tools](/resources/tools)
-*1-2 sentence blurb*
-*Jamie*
+Marine science and data science tools that can be useful in OHI+ assessments.
 
 ## [Manual](/manual)
 The OHI Toolbox Manual, which provides instruction for the Conduct phase of the assessment process.

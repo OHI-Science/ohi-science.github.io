@@ -6,13 +6,13 @@ description: Tools
 
 ### Ocean Health Index
 
-The Ocean Health Index is a framework to evaluate ocean health, first published in [Nature 2012] and in [PLoS one in 2015]. The OHI Science team uses the framework to conduct global assessments of ocean health annually. Here you will find tools used for OHI global assessments. Please see the [OHI+ page](/phases) to learn about assessments at different scales, or jump to the [OHI Manual](/manual) or [goal-by-goal page](/goals) for technical instructions, and [presentations](/resources/downloads)
+The Ocean Health Index is a framework to evaluate ocean health, first published in [Nature 2012] and in [PLoS one in 2015]. The OHI Science team uses the framework to conduct global assessments of ocean health annually. Here you will find tools used for OHI global assessments. Please see the [OHI+ page](/phases) to learn about assessments at different scales, or jump to the [OHI Manual](/manual) or [goal-by-goal page](/goals) for technical instructions, and [presentations](/resources/downloads).
 
 This is the OHI Toolbox for the global assessment: 
 
 ![](fig of Tbx = ohicore + ohi-repo)
 
-the ohi-global repo has data used to calculate the scores, the goal models developed, and the final scores and figures. ohicore is an Rpackage that has core functions used to calculate 
+The ohi-global repo has data used to calculate the scores, the goal models developed, and the final scores and figures. ohicore is an Rpackage that has core functions used to calculate 
 <link to repo, see releases for the publiblications. 
 
 ### Ocean Health Index Toolbox
@@ -59,15 +59,3 @@ These are technical data science references that the OHI team uses to develop OH
 - [Data Visualization using ggplot2](https://github.com/eco-data-science/VisualizingData) 
 - [ggplot cheatsheet](https://github.com/OHI-Science/ohi-science.github.io/raw/3c6babb40348e62b322abadad086ece565411adf/assets/downloads/other/ggmapCheatsheet.pdf) 
 
-
-### External resources
-Here you can find useful tools, instruction, and data that have been useful to the OHI team.
-
-- [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) and [webinars](https://www.rstudio.com/resources/webinars/)
-- [R packages book by Hadley Wickham](http://r-pkgs.had.co.nz/)
-- [ROpenSci](https://ropensci.org/)
-- [Natural Capital Project](http://www.naturalcapitalproject.org/)
-- Fisheries catch over time from the [Sea Around Us Project](http://www.seaaroundus.org)  
-- Global fisheries landings over time from the [FAO](http://www.fao.org/fishery/statistics/en)
-- Global marine protected areas from the [WDPA](http://www.protectedplanet.net/)
-- Species ranges from [Aquamaps](http://www.aquamaps.org/) and the [IUCN](http://www.iucnredlist.org/technical-documents/spatial-data) --->
