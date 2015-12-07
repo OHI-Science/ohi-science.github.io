@@ -19,10 +19,9 @@ the ohi-global repo has data used to calculate the scores, the goal models devel
 
 The OHI Toolbox is used to calculate and visualize OHI assessment scores. The Toolbox has two parts: a personalized repository to organize and store information and write goal model equations specific to the local context, and the R package `ohicore`, which is the engine behind calculating and visualizing scores.
 
-![](https://docs.google.com/drawings/d/1wGK68NRn5bmhZo_gC2A9sx-AcpIZHVp45ID5_HQKVJ0/pub?w=768&h=192
-  )
+![](https://docs.google.com/drawings/d/1wGK68NRn5bmhZo_gC2A9sx-AcpIZHVp45ID5_HQKVJ0/pub?w=768&h=192)
 
-You can explore [`ohicore`](https://github.com/OHI-Science/ohicore) and see existing OHI and OHI+ assessment repositories in [Projects](). To have a personal repository created for your assessment, please [contact us]().
+You can explore [`ohicore`](https://github.com/OHI-Science/ohicore) and see existing OHI and OHI+ assessment repositories in [Projects](). To have a personal repository created for your assessment, please [contact us](info@ohi-science.org).
 
 
 ### Cumulative Human Impacts
@@ -58,13 +57,16 @@ These are technical data science references that the OHI team uses to develop OH
 
 **Data Visualization**  
 - [Data Visualization using ggplot2](https://github.com/eco-data-science/VisualizingData) 
-- [ggplot cheatsheet]() <!---melanie can you save this in assets/downloads? --->
+- [ggplot cheatsheet](https://github.com/OHI-Science/ohi-science.github.io/raw/3c6babb40348e62b322abadad086ece565411adf/assets/downloads/other/ggmapCheatsheet.pdf) 
 
 
-<!---Jamie: not sure this should be in here at all...>
+### External resources
+Here you can find useful tools, instruction, and data that have been useful to the OHI team.
 
-The Ocean Health Index relies on freely accessible, open-source data that is consistently updated over time. atasets are often used and referenced in the process of updating the global OHI assessments. Here are some of the datasets used in the OHI, which could be also be useful for OHI+ assessments:
-
+- [RStudio Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) and [webinars](https://www.rstudio.com/resources/webinars/)
+- [R packages book by Hadley Wickham](http://r-pkgs.had.co.nz/)
+- [ROpenSci](https://ropensci.org/)
+- [Natural Capital Project](http://www.naturalcapitalproject.org/)
 - Fisheries catch over time from the [Sea Around Us Project](http://www.seaaroundus.org)  
 - Global fisheries landings over time from the [FAO](http://www.fao.org/fishery/statistics/en)
 - Global marine protected areas from the [WDPA](http://www.protectedplanet.net/)
