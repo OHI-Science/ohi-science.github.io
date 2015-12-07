@@ -18,23 +18,14 @@ Here you will find downloadable resources to help you organize a workshop, give 
 - Workshop 9
 - Workshop 10
 
+
 **Presentations** - use these presentations to help communicate about the Ocean Health Index
 
-- Presentation 1
-- Presentation 2
-- Presentation 3
-- Presentation 4
-- Presentation 5
-- Presentation 6
-- Presentation 7
-- Presentation 8
-- Presentation 9
-- Presentation 10
+- Download **Introduction to the OHI Framework** presentation in [English)](), [Spanish](), or [French]()
+- Download **Introduction to OHI+ Assessments** presentation in [English)](), [Spanish](), or [French]()
+- Download **Plan a OHI+ Assessment** presentation in [English)](), [Spanish](), or [French]()
+- View [The Ocean Health Index Project 2012-2015](https://cdn.rawgit.com/OHI-Science/ohimanual/master/tutorials/ohi_2012_2015/presentation_nceas.html#1) presentation or download in [English]()
 
-    - [The Ocean Health Index Project 2012-2015](https://cdn.rawgit.com/OHI-Science/ohimanual/master/tutorials/ohi_2012_2015/presentation_nceas.html#1)
-
-<!---**Communication materials**
-Templates of customizable factsheets, reports, and webpages so you can easily communicate your efforts with various audiences--->
 
 **Instruction Archive**: Instruction from Phases 1-4 (including the technical Manual). Please not that the most up-to-date version is online and not as a .pdf.
 
