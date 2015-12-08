@@ -39,14 +39,6 @@ Use these presentations to help communicate about the Ocean Health Index. Click 
 ([or view online)](https://cdn.rawgit.com/OHI-Science/ohi-science.github.io/dev/assets/downloads/pres/tutorial_tbx_modifications_SPANISH.html) 
 
 
-### Ocean Health Index Materials
-These resources are available for download to help you communicate about the Ocean Health Index:
-
-
-- **OHI+ Factsheet** in [English]() or [Spanish]() or [French]()
-- **OHI logo** in [English]() or [Spanish]() or [French]()
-
-
 ### OHI+ Instruction Archive
 Instruction from Phases 1-4 (including the technical Manual). Please not that the most up-to-date version is online and not as a .pdf.
 
