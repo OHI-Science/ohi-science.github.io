@@ -39,15 +39,12 @@ Use these presentations to help communicate about the Ocean Health Index. Click 
 ([or view online)](https://cdn.rawgit.com/OHI-Science/ohi-science.github.io/dev/assets/downloads/pres/tutorial_tbx_modifications_SPANISH.html) 
 
 
-### Workshop Materials
-Lead and facilitate an OHI assessment planning workshop with these resources.
+### Ocean Health Index Materials
+These resources are available for download to help you communicate about the Ocean Health Index:
 
-- Workshop 1
-- Workshop 2
-- Workshop 3
-- Workshop 4
-- Workshop 5
-- Workshop 6
+
+- **OHI+ Factsheet** in [English]() or [Spanish]() or [French]()
+- **OHI logo** in [English]() or [Spanish]() or [French]()
 
 
 ### OHI+ Instruction Archive
