@@ -34,7 +34,7 @@ The high resolution spatial data from the 2015 analysis are currently available 
 
 This figure describes the workflow for calculating Cumulative Human Impacts and the data that is available from KNB: 
 
-figure here....
+![](https://drive.google.com/open?id=0B1niUgccnOn5UE9SX2lBakJPWmM)
 
 
 #### Relationship to OHI analyses
