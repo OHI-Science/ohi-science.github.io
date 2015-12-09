@@ -24,7 +24,7 @@ You can explore these repositories on GitHub. Core functions are in  [`ohicore`]
 
 ### Cumulative Human Impacts
 
-Cumulative Human Impacts is a framework to evaluate the comprehensive effect of human stressors on global oceans, first published in Science in [2008](http://imedea.uib-csic.es/master/cambioglobal/Modulo_V_cod101624/Documentos%20Sesi%C3%B3n%201/Halpern%20et%20al%20(Science,%202008) and then Nature Communications in [2015](http://www.nature.com/ncomms/2015/150714/ncomms8615/full/ncomms8615.html). This framework has been used to assess cumulative impacts on global oceans and at smaller spatial scales.
+Cumulative Human Impacts is a framework to evaluate the comprehensive effect of human stressors on global oceans, first published in Science in [2008](http://www.sciencemag.org/content/319/5865/948.short) and then Nature Communications in [2015](http://www.nature.com/ncomms/2015/150714/ncomms8615/full/ncomms8615.html). This framework has been used to assess cumulative impacts on global oceans and at smaller spatial scales.
 
 The high resolution spatial data from the 2015 analysis are currently available from the [Knowledge Base Network (KNB)](https://knb.ecoinformatics.org/#data/query=(Halpern Cumulative human impacts)/page/0) as `.tif` global rasters (Mollweide wgs84 coordinate reference system at ~ 1km resolution). This figure describes the workflow for calculating Cumulative Human Impacts and the data that is available from KNB:
 

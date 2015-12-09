@@ -3,23 +3,23 @@ layout: page
 title: Downloads
 ---
 
-Here you will find downloadable resources to help you organize a workshop, give presentations, distribute fact sheets, link to useful external resources, and more.
+Here you will find downloadable resources to help you learn adn communicate about the Ocean Health Index.
 
 ### Presentations
 Use these presentations to help communicate about the Ocean Health Index. Click to download:
 
-- **Introduction to the OHI Framework** presentation in 
-[English)](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/OHI_Framework.pdf), 
+- **Introduction to the OHI Framework** in 
+[English](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/OHI_Framework.pdf), 
 [Spanish](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/Marco_General_IdSO.pdf), or 
 [French](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/Cadre_General_IdSO.pdf)
 
-- **Introduction to OHI+ Assessments** presentation in 
-[English)](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/OHIplus_Assessments.pdf), 
+- **Introduction to OHI+ Assessments** in 
+[English](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/OHIplus_Assessments.pdf), 
 [Spanish](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/Evaluaciones_IdSOplus.pdf), or 
 [French](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/Evaluations_IdSOplus.pdf)
 
-- **Plan a OHI+ Assessment** presentation in 
-[English)](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/Plan_an_OHIplus.pdf), 
+- **Plan a OHI+ Assessment** in 
+[English](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/Plan_an_OHIplus.pdf), 
 [Spanish](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/Planificación_de_un_IdSO.pdf), or
 [French](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/Planification_d'une_IdSOplus.pdf)
 
@@ -40,10 +40,16 @@ Use these presentations to help communicate about the Ocean Health Index. Click 
 
 
 ### OHI+ Instruction Archive
-Instruction from Phases 1-4 (including the technical Manual). Please not that the most up-to-date version is online and not as a .pdf.
+Instruction from Phases 1-4 (including the technical Manual). Please note that the most up-to-date versions of these documents are on online.
 
-- [**Phase 1: Learn**]()
+Click to download: 
+
+- [**Phase 1: Learn**]() 
+([or view online)](/learn)
 - [**Phase 2: Plan**]()
+([or view online)](/plan)
 - [**Phase 3: Conduct**]()
+([or view online)](/manual)
 - [**Phase 4: Inform**]()
+([or view online)](/inform)
 
