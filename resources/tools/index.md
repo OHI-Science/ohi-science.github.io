@@ -4,7 +4,7 @@ title: Tools
 description: Tools
 ---
 
-### Ocean Health Index
+### Ocean Health Index 
 
 The Ocean Health Index is a framework to evaluate ocean health, first published in Nature [2012](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html) and in PLoS ONE in [2015](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117863). The OHI Science team uses the framework to conduct global assessments of ocean health annually. Here you will find tools used for OHI global assessments. Please see the [OHI+ page](/phases) to learn about assessments at different scales, [presentations](/resources/downloads) for general information about the framework, or jump to the [OHI Manual](/manual) or [goal-by-goal page](/goals) for technical instructions.
 
