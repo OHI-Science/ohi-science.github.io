@@ -26,13 +26,13 @@ You can explore these repositories on GitHub. Core functions are in  [`ohicore`]
 
 Cumulative Human Impacts is a framework to evaluate the comprehensive effect of human stressors on global oceans, first published in Science in [2008](http://www.sciencemag.org/content/319/5865/948.short) and then Nature Communications in [2015](http://www.nature.com/ncomms/2015/150714/ncomms8615/full/ncomms8615.html). This framework has been used to assess cumulative impacts on global oceans and at smaller spatial scales.
 
-The high resolution spatial data from the 2015 analysis are currently available from the [Knowledge Base Network (KNB)](https://knb.ecoinformatics.org/#data/query=(Halpern Cumulative human impacts)/page/0) as `.tif` global rasters (Mollweide wgs84 coordinate reference system at ~ 1km resolution). This figure describes the workflow for calculating Cumulative Human Impacts and the data that is available from KNB:
+![](https://docs.google.com/drawings/d/1kfkfZ6wcRalYYsd5bzIcp7jk2B9TmQMnom1ySwUMVZQ/pub?w=576&h=96)
+
+The high resolution spatial data from the 2015 analysis are currently available from the [Knowledge Base Network (KNB)](https://knb.ecoinformatics.org/#data/query=(Halpern Cumulative human impacts)/page/0) as `.tif` global rasters (Mollweide wgs84 coordinate reference system at ~ 1km resolution). [Download a figure]() that describes the workflow for calculating Cumulative Human Impacts and the data that is available from KNB.
 
 
 #### Use in OHI analyses
 Cumulative Human Impacts "raw stressor data" was used to obtain pressure information for the global OHI 2014 assessment, and these data can be similarly used at other spatial scales. For OHI+ assessments, these data can be extracted based on pre-defined Regions within the Assessment Area. This [Spatial Analysis in R](https://cdn.rawgit.com/eco-data-science/spatial-analysis-R/master/intro_spatial_data_R.html) tutorial is good resource for how to extract raster data by polygonal regions.
-
-![](https://docs.google.com/drawings/d/1Coh9NxZ2zRfx-MdtRTS6ilwidfj011xldtOQTKq9-Ms/pub?w=1440&h=1080)
 
 Some of the stressor data (and, in some cases, methods) has been updated since the publication of the 2015 Cumulative Human Impacts data. The updated data was used in the global OHI 2015 analysis to generate pressures data. The data sources and methods used to process these data are available from GitHub for the following stressors:  
 
