@@ -16,4 +16,4 @@ In addition to the best practices, we stress that the process of conducting asse
 
 *Citation*: Lowndes JSS, Pacheco EJ, Best BD, Scarborough C, Longo C, Katona SK, and Halpern BS. Best practices for assessing ocean health in multiple contexts using tailorable frameworks. 2015. PeerJ 3:e1503; DOI 10.7717/peerj.1503
 
-See other Ocean Health Index [Publications]((/resources/publications/index.md). 
+See other Ocean Health Index [Publications](/resources/publications/index.md). 
