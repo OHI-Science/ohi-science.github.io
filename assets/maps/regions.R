@@ -163,7 +163,7 @@ regionAll <- regionAll[regionAll@data$Region %in% regions$Region, ]
 
 ## Add color data
 colors <- data.frame(Status = c("conduct", "inform", "plan", "learn"), 
-                     color= c('#5079A6', '#464EA7', '#5794A5', '#93CBDF'))
+                     color= c('#0257A5', '#0014A5', '#0083A3', '#00ADDD'))
 regionAll@data <- regionAll@data %>%
   left_join(regions, by="Region") %>%
   left_join(colors, by="Status")
