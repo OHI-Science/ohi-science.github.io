@@ -69,7 +69,8 @@ A global synthesis of the economic multiplier effects of marine sectors.
 #### OHI goal models
 
 [Kleisner et al. 2013](http://link.springer.com/article/10.1007/s13280-013-0447-x), *AMBIO*.
-Exploring patterns of seafood provision revealed in the global Ocean Health Index.
+Exploring patterns of seafood provision revealed in the global Ocean Health Index.  
+
 [Selig et al. 2013](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284), *PLoS ONE*\*. Assessing global marine biodiversity status within a coupled socio-ecological perspective.
 
 ## OHI+ documentation
