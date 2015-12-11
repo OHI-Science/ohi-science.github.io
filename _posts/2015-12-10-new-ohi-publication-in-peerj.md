@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New OHI publication in PeerJ"
-category : 
+category : news
 tags : [news]
 ---
 
