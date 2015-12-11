@@ -118,16 +118,6 @@ These are technical data science references that the OHI team uses to develop OH
 - [Data Visualization using ggplot2](https://github.com/eco-data-science/VisualizingData) 
 - [ggplot cheatsheet]() <!---melanie can you save this in assets/downloads? --->
 
-
-<!---Jamie: not sure this should be in here at all...>
-
-The Ocean Health Index relies on freely accessible, open-source data that is consistently updated over time. atasets are often used and referenced in the process of updating the global OHI assessments. Here are some of the datasets used in the OHI, which could be also be useful for OHI+ assessments:
-
-- Fisheries catch over time from the [Sea Around Us Project](http://www.seaaroundus.org)  
-- Global fisheries landings over time from the [FAO](http://www.fao.org/fishery/statistics/en)
-- Global marine protected areas from the [WDPA](http://www.protectedplanet.net/)
-- Species ranges from [Aquamaps](http://www.aquamaps.org/) and the [IUCN](http://www.iucnredlist.org/technical-documents/spatial-data) --->
-
 ***  
 
 
