@@ -163,7 +163,7 @@ regionAll <- regionAll[regionAll@data$Region %in% regions$Region, ]
 
 ## Add color data
 colors <- data.frame(Status = c("conduct", "inform", "plan", "learn"), 
-                     color= c('#5079A6', '#464EA7', '#5794A5', '#93CBDF'))
+                     color= c('#0257A5', '#0014A5', '#0083A3', '#00ADDD'))
 regionAll@data <- regionAll@data %>%
   left_join(regions, by="Region") %>%
   left_join(colors, by="Status")
@@ -174,8 +174,9 @@ popup1 <- paste0('<b>', regionAll@data$Region, '</b>',
 # myPalette <- colorRampPalette(c("#9E0142", "#D53E4F", "#F46D43", "#FDAE61", "#3288BD", "#5E4FA2"))
 # myPalette <- topo.colors(nrow(regionAll@data), alpha=NULL)
 
-m <- leaflet() %>%
-   addTiles() %>%
+m <- leaflet(width="100%", height="600px") %>%
+      setView(m, -30, 30, 3) %>%
+      addTiles(options=tileOptions(minZoom=3, noWrap=TRUE)) %>%
   #addProviderTiles("OpenStreetMap.BlackAndWhite") %>%
   #   addTiles(options = tileOptions(noWrap = TRUE)) %>%  
   #   fitBounds(-180, -70, 180, 80) %>%

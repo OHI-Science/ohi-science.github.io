@@ -362,3 +362,23 @@ a[name]{
 	background-size: cover;
 	background-position-y: 33%;
 }
+.stripe.map{
+	min-height: auto;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#869999+0,b5d0d0+99 */
+	background: rgb(134,153,153); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(134,153,153,1) 0%, rgba(181,208,208,1) 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(134,153,153,1) 0%,rgba(181,208,208,1) 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(134,153,153,1) 0%,rgba(181,208,208,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#869999', endColorstr='#b5d0d0',GradientType=0 ); /* IE6-9 */
+	
+	> p:last-child{
+		margin-bottom: 0px;
+	}
+}
+.stripe.map ~ #htmlwidget_container{
+	.leaflet-container{
+		background-color: #B5D0D0;
+	}
+}
