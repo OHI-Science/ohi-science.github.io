@@ -3,7 +3,7 @@ layout: page
 title: Downloads
 ---
 
-Here you will find downloadable resources to help you learn adn communicate about the Ocean Health Index.
+Here you will find downloadable resources to help you learn and communicate about the Ocean Health Index.
 
 ### Presentations
 Use these presentations to help communicate about the Ocean Health Index. Click to download:
