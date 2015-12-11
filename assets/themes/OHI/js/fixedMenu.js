@@ -6,9 +6,9 @@ function setMaxHeight(){
 }
 
 //Will listen for scrolling and highlight the corresponding menu item in the TOC (#TOC)
-function listenScroll(){
+function listenForScroll(){
     var sectionHts = [],
-    	sections =  $(".section[id]");
+    	sections =  $(".section[id]").not(".level4");
    
     $(sections).each(function(){
     	sectionHts.push($(this).position().top);
@@ -32,17 +32,21 @@ function listenScroll(){
 		highlightTOC($(this).attr('href').replace("#", ""));
 		
 	});
+}
+
+function highlightTOC(sectionID){
+	var highlightThis = $("#TOC [href='#" + sectionID + "']");
+	if(!highlightThis.length) return;
 	
-	function highlightTOC(sectionID){
-		$("#TOC a").removeClass("active");
-		$("#TOC [href='#" + sectionID + "']").addClass("active");
-	}
+	$("#TOC a").removeClass("active");
+	highlightThis.addClass("active");
 }
 	
 $(document).ready(function(){
 	setMaxHeight();
 	$(window).resize(setMaxHeight);
-	listenScroll();
+	listenForScroll();
+	highlightTOC(window.location.hash.replace("#", ""));
 });
 	
 	

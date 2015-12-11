@@ -9,13 +9,13 @@ description: Tools
 The Ocean Health Index is a framework to evaluate ocean health, first published in Nature [2012](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html) and in PLoS ONE in [2015](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117863). The OHI Science team uses the framework to conduct global assessments of ocean health annually. Here you will find tools used for OHI global assessments. Please see the [OHI+ page](/phases) to learn about assessments at different scales, [presentations](/resources/downloads) for general information about the framework, or jump to the [OHI Manual](/manual) or [goal-by-goal page](/goals) for technical instructions.
 
 
-<p align = 'center'>![](https://docs.google.com/drawings/d/1lDG36M2pBJ-7cQ4qwp2KB8lETIJtMjeqQPst20z8n6M/pub?w=576&h=96)
+![](https://docs.google.com/drawings/d/1lDG36M2pBJ-7cQ4qwp2KB8lETIJtMjeqQPst20z8n6M/pub?w=576&h=96)
 
 #### Ocean Health Index Toolbox
 
 The Ocean Health Index Toolbox is used to calculate and visualize OHI assessment scores. The Toolbox has two parts: the core engine behind calculating and visualizing scores, which is an `R` package called `ohicore`, and a tailored repository to organize and store information and write goal model equations specific to the local context,.
 
-<p align = 'center'>![](https://docs.google.com/drawings/d/1wGK68NRn5bmhZo_gC2A9sx-AcpIZHVp45ID5_HQKVJ0/pub?w=576&h=96)
+![](https://docs.google.com/drawings/d/1wGK68NRn5bmhZo_gC2A9sx-AcpIZHVp45ID5_HQKVJ0/pub?w=576&h=96)
 
 You can explore these repositories on GitHub. Core functions are in  [`ohicore`](https://github.com/OHI-Science/ohicore).  For examples of the tailored repositories, explore the global analyses at [ohi-global](https://github.com/OHI-Science/ohi-global), which includes the data used to calculate OHI scores, the goal models, and the final scores and figures. Other OHI+ assessment repositories are available in [Projects](/projects/index.md). Published assessments are listed in [Publications](/resources/publications/index.md).
 
@@ -26,7 +26,7 @@ You can explore these repositories on GitHub. Core functions are in  [`ohicore`]
 
 Cumulative Human Impacts is a framework to evaluate the comprehensive effect of human stressors on global oceans, first published in Science in [2008](http://www.sciencemag.org/content/319/5865/948.short) and then Nature Communications in [2015](http://www.nature.com/ncomms/2015/150714/ncomms8615/full/ncomms8615.html). This framework has been used to assess cumulative impacts on global oceans and at smaller spatial scales.
 
-<p align = 'center'>![](https://docs.google.com/drawings/d/1kfkfZ6wcRalYYsd5bzIcp7jk2B9TmQMnom1ySwUMVZQ/pub?w=576&h=96)
+![](https://docs.google.com/drawings/d/1kfkfZ6wcRalYYsd5bzIcp7jk2B9TmQMnom1ySwUMVZQ/pub?w=576&h=96)
 
 The high resolution spatial data from the 2015 analysis are currently available from the [Knowledge Base Network (KNB)](https://knb.ecoinformatics.org/#data/query=(Halpern Cumulative human impacts)/page/0) as `.tif` global rasters (Mollweide wgs84 coordinate reference system at ~ 1km resolution). [Download a figure](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/CHI_workflow.pdf) that illustrates the workflow for calculating Cumulative Human Impacts and the data that is available from KNB.
 

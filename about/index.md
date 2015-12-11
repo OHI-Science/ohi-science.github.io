@@ -25,7 +25,7 @@ group: navigation
 		</p>
 		
 		<p>
-			Originally developed by an interdisciplinary team of scientists let by Halpern *et al*. and published in the journal *Nature* in 2012, the OHI framework is standardized yet customizable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
+			Originally developed by an interdisciplinary team of scientists let by Halpern <em>et al</em>. and published in the journal <em>Nature</em> in 2012, the OHI framework is standardized yet customizable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
 		</p>
 
 		<img src='https://docs.google.com/drawings/d/17ICJ7W0nGfDUKJ2ggBjsQGCpQM2plF940NhvHVQOe5w/pub?w=960&h=540' />

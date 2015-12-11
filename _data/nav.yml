@@ -10,7 +10,7 @@
     - text: Inform
       url: /phases#inform
 - text: Resources
-  url: /tools/
+  url: /resources/
   subitems:
     - text: Tools
       url: /resources/tools/
