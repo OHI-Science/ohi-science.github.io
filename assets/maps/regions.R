@@ -156,7 +156,7 @@ write.csv(regionAll@data, 'global2015/geojson/regions.csv', row.names=FALSE)
 # uses leaflet and htmlwidgets to save html file
 regionAll <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
                      layer="allRegions")
-regions <- read.csv('global2015/geojson/regions.csv')
+regions <- read.csv('assets/maps/regions.csv')
 
 ## Not including Arctic, file is messed up (fix later):
 regionAll <- regionAll[regionAll@data$Region %in% regions$Region, ]
@@ -175,8 +175,9 @@ popup1 <- paste0('<b>', regionAll@data$Region, '</b>',
 # myPalette <- topo.colors(nrow(regionAll@data), alpha=NULL)
 
 m <- leaflet(width="100%", height="600px") %>%
-      setView(m, -30, 30, 3) %>%
-      addTiles(options=tileOptions(minZoom=3, noWrap=TRUE)) %>%
+#      setView(-180, -35, 30, 180) %>%
+  addTiles(options=tileOptions(noWrap=TRUE)) %>%
+#      addTiles(options=tileOptions(minZoom=3, noWrap=TRUE)) %>%
   #addProviderTiles("OpenStreetMap.BlackAndWhite") %>%
   #   addTiles(options = tileOptions(noWrap = TRUE)) %>%  
   #   fitBounds(-180, -70, 180, 80) %>%
