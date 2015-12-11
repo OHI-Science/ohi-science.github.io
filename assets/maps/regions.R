@@ -174,8 +174,9 @@ popup1 <- paste0('<b>', regionAll@data$Region, '</b>',
 # myPalette <- colorRampPalette(c("#9E0142", "#D53E4F", "#F46D43", "#FDAE61", "#3288BD", "#5E4FA2"))
 # myPalette <- topo.colors(nrow(regionAll@data), alpha=NULL)
 
-m <- leaflet() %>%
-   addTiles() %>%
+m <- leaflet(width="100%", height="600px") %>%
+      setView(m, -30, 30, 3) %>%
+      addTiles(options=tileOptions(minZoom=3, noWrap=TRUE)) %>%
   #addProviderTiles("OpenStreetMap.BlackAndWhite") %>%
   #   addTiles(options = tileOptions(noWrap = TRUE)) %>%  
   #   fitBounds(-180, -70, 180, 80) %>%
