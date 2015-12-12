@@ -1,7 +1,7 @@
 ---
 layout: page
 title : News
-header : News
+header : news
 ---
 {% include JB/setup %}
 
@@ -11,6 +11,3 @@ See the lastest news about the Ocean Health Index. Also, follow us on twitter: [
 
 
 
-<!-- Below is an example of what a 'news feed' can look like - this is just the standard Jekyll news feed and we will customize it for our needs -->
-{% assign posts_collate = site.posts %}
-{% include JB/posts_collate %}

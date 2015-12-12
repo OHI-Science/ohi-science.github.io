@@ -1,20 +1,12 @@
 ---
-layout: default
+layout: stripes
 title: About
-description: About OHI+
+description: About Ocean Health Index
 comments: false
 group: navigation
+header: whale
 ---
 {% include JB/setup %}
-
-
-<div class="about stripe light-font header">
-	<h1> About Ocean Health Index </h1>
-</div>
-
-{% assign color = 'white' %}
-{% assign position = 'top-left' %}
-{% include themes/OHI/diagonal %}
 
 <div class="stripe">
 	<a name="whatIsOHI" id="whatIsOHI"></a>

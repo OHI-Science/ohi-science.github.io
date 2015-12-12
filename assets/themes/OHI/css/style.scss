@@ -357,10 +357,22 @@ a[name]{
 .stripe.where-assessments{
 	background-image: url('../img/map-background.png');
 }
-.stripe.about{
+.header.whale{
 	background-image: url('../img/whales.jpg');
 	background-size: cover;
 	background-position-y: 33%;
+	color: #FFF;
+}
+.header.resources{
+	background-image: url("../img/sealion.jpg");
+	background-size: cover;
+	background-position-y: 18%;
+	color: #FFF;
+}
+.header.news{
+	background-image: url("../img/fish.jpg");
+	background-size: cover;
+	color: #FFF;
 }
 .stripe.map{
 	min-height: auto;
