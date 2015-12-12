@@ -341,6 +341,7 @@ a[name]{
 			border: 0px;
 			padding: 0px;
 			color: inherit;
+			text-transform: capitalize;
 		}
 		a:hover{
 			background-color: transparent;
@@ -387,6 +388,10 @@ a[name]{
 	
 	> p:last-child{
 		margin-bottom: 0px;
+	}
+	
+	+ p{
+		display: none;
 	}
 }
 .stripe.map ~ #htmlwidget_container{
