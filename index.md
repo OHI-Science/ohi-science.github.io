@@ -9,7 +9,8 @@ comments: true
 
 This website hosts the scientific tools and related products (such as manuals and data) for calculating the **Ocean Health Index (OHI)**, whereas the main site [OceanHealthIndex.org](http://oceanhealthindex.org) delivers the public facing output of the Index.
 
-### Update, December 2015
+<span style="color:red">**Update, December 2015**</span>  
+
 This website is under renovation and will be relaunched in January 2016. If you would like to join the email announcement list, please email info at ohi-science.org. 
 
 ## Publications and Data
