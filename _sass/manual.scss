@@ -14,6 +14,11 @@
 		    margin-right: $pad-small;
 		    font-weight: lighter;
 		}
+		
+		.section.level1,
+		> p {
+	    	margin-left: 27%;
+		}
 	}
 	
 	h2{
@@ -26,10 +31,6 @@
 	h3{
 		font-family: $font-stack;
 		font-size: 1.2em;
-	}
-	
-	.section.level1 {
-    	margin-left: 27%;
 	}
 	
 	footer {

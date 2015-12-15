@@ -341,12 +341,14 @@ a[name]{
 			border: 0px;
 			padding: 0px;
 			color: inherit;
-			text-transform: capitalize;
 		}
 		a:hover{
 			background-color: transparent;
 			color: $primary-color;
 		}
+	}
+	a{
+		text-transform: capitalize;
 	}
 }
 
@@ -378,7 +380,6 @@ a[name]{
 .stripe.map{
 	min-height: auto;
 	margin-bottom: 0px;
-	padding-bottom: 0px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#869999+0,b5d0d0+99 */
 	background: rgb(134,153,153); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(134,153,153,1) 0%, rgba(181,208,208,1) 99%); /* FF3.6-15 */
