@@ -1,0 +1,16 @@
+
+{% if page.header %}
+	{% capture headerClasses %}
+		{% for class in page.header %}
+			{{ class }}{{ " " }}
+		{% endfor %}
+	{% endcapture %}
+	
+	<div class="stripe header {{ headerClasses }}">
+		<h1>{% if page.description %} {{ page.description }} {% else %} {{ page.title }} {% endif %}</h1>
+	</div>
+	
+	{% assign color = 'white' %}
+	{% assign position = 'top-left' %}
+	{% include themes/OHI/diagonal %}
+{% endif %}
