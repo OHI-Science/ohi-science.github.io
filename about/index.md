@@ -32,6 +32,10 @@ header: whale
 	</div>
 </div>
 
+{% assign color = 'color-light-2' %}
+{% assign position = 'top-left' %}
+{% include themes/OHI/diagonal %}
+
 <div class="stripe color-light-2">
 	<a name="whatIsOHI+" id="whatIsOHI+"></a>
 	<h2> What is OHI+?</h2>
@@ -77,5 +81,17 @@ header: whale
 	</ul>
 	<p>
 	If you are interested in beginning an OHI+ assessment, please contact Erich (epacheco at conservation.org) or Julie (lowndes at nceas.ucsb.edu).
+	</p>
+</div>
+
+{% assign color = 'color-light-2' %}
+{% assign position = 'top-left' %}
+{% include themes/OHI/diagonal %}
+
+<div class="stripe">
+	<a name="thanks" id="thanks"></a>
+	<h2>Thanks to our supporters</h2>
+	<p>
+		Our work is possible due to generous support for nearly eight years. We currently operate with the generous support from the Pacific Life Foundation's grant to Conservation International and the Gordon and Betty Moore Foundation's grant to NCEAS.  We also thank our [sustaining partners and past supporters](http://www.oceanhealthindex.org/about/sustaining-partners).  
 	</p>
 </div>
