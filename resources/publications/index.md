@@ -44,7 +44,7 @@ Assessing the health of the U.S. West Coast with a regional-scale application of
 
 [Halpern et al. 2008](http://www.sciencemag.org/content/319/5865/948.abstract), *Science*.
 A global map of human impact on marine ecosystems.
-[(data)](https://www.nceas.ucsb.edu/globalmarine/impacts)
+[(data)](https://www.nceas.ucsb.edu/globalmarine/impacts)  
 [Halpern et al. 2015](http://www.nature.com/ncomms/2015/150714/ncomms8615/full/ncomms8615.html), *Nature Communications*\*.
 Spatial and temporal changes in cumulative human impacts on the world's ocean.
 [(data)](https://knb.ecoinformatics.org/#view/doi:10.5063/F1S180FS)
