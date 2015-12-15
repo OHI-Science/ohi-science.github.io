@@ -9,6 +9,8 @@ comments: true
 
 This website hosts the scientific tools and related products (such as manuals and data) for calculating the **Ocean Health Index (OHI)**, whereas the main site [OceanHealthIndex.org](http://oceanhealthindex.org) delivers the public facing output of the Index.
 
+### Update, December 2015
+This website is under renovation and will be relaunched in January 2016. If you would like to join the email announcement list, please email info at ohi-science.org. 
 
 ## Publications and Data
 Here are Ocean Health Index publications and data:  
@@ -28,6 +30,7 @@ Here are Ocean Health Index publications and data:
 **[Selig et al. (2015)](http://www.sciencedirect.com/science/article/pii/S2212041614001363)** Measuring indicators of ocean health for an island nation: The Ocean Health Index for Fiji. *Ecosystem Services*.  
 **[Halpern et al. (2015)](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117863)** Patterns and emerging trends in global ocean health. *PLoS ONE*.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2013 and updated 2012 global data](https://github.com/OHI-Science/ohi-global/blob/master/eez2013/OHI2013_PLOS.zip?raw=true)  
+**[Lowndes et al. (2015)](https://peerj.com/articles/1503/)** Best practices for assessing ocean health in multiple contexts using tailorable frameworks. *PeerJ*.
 
 
 ## Supporting Information
