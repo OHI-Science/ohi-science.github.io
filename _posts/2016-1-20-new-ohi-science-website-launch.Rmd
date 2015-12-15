@@ -7,7 +7,14 @@ tags: [news]
 
 We are pleased to announce the launch of our new [ohi-science.org](http://ohi-science.org/) website! It has been redesigned to improve user-friendliness and appeal. In addition to a fresh look, it also incoporated more comprehensive information for our visitors who are interested in learning the science of Ocean Health Index or wanting to conduct your own OHI assessment. 
 
-The new website gives better access to completed and on-going independent OHI assessments (OHI+), detailed explanations of the steps of an OHI+ assessment, the updated Manual, goal-by-goal guidance, and downloadable brochures and presentations. Amongst the new features the site sets up an OHI+ Forum where OHI+ conductors (?) could ask questions and share your collective wisdom to learn and improve OHI assessments.  We will be constantly updating our contents with helpful information, news letters, and updated Manual.  
+The new website gives better access to:
+
+* completed and on-going independent OHI assessments (OHI+)
+* detailed explanations of the four phases of an OHI+ assessment
+* resources for conducting an OHI+ (eg. tools, manual, goal-by-goal guidance)
+* downloadable brochures and presentations
+
+Amongst the new features the site sets up an **OHI+ Forum** where OHI+ participants could ask questions and share your collective wisdom to learn and improve OHI assessments.  We will be constantly updating our contents with helpful information, news letters, and updated Manual.  
 
 [paste a snapshot of the homepage here ...]
 
