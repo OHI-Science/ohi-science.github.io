@@ -341,6 +341,7 @@ a[name]{
 			border: 0px;
 			padding: 0px;
 			color: inherit;
+			text-transform: capitalize;
 		}
 		a:hover{
 			background-color: transparent;
@@ -357,8 +358,44 @@ a[name]{
 .stripe.where-assessments{
 	background-image: url('../img/map-background.png');
 }
-.stripe.about{
+.header.whale{
 	background-image: url('../img/whales.jpg');
 	background-size: cover;
 	background-position-y: 33%;
+	color: #FFF;
+}
+.header.resources{
+	background-image: url("../img/sealion.jpg");
+	background-size: cover;
+	background-position-y: 18%;
+	color: #FFF;
+}
+.header.news{
+	background-image: url("../img/fish.jpg");
+	background-size: cover;
+	color: #FFF;
+}
+.stripe.map{
+	min-height: auto;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#869999+0,b5d0d0+99 */
+	background: rgb(134,153,153); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(134,153,153,1) 0%, rgba(181,208,208,1) 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(134,153,153,1) 0%,rgba(181,208,208,1) 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(134,153,153,1) 0%,rgba(181,208,208,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#869999', endColorstr='#b5d0d0',GradientType=0 ); /* IE6-9 */
+	
+	> p:last-child{
+		margin-bottom: 0px;
+	}
+	
+	+ p{
+		display: none;
+	}
+}
+.stripe.map ~ #htmlwidget_container{
+	.leaflet-container{
+		background-color: #B5D0D0;
+	}
 }

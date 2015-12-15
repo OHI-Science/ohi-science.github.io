@@ -15,6 +15,9 @@ $diag-height: 100px;
 .diagonal-top + .stripe{
 	margin-top: $diag-height * -1;	
 }
+.diagonal-top + .container{
+	margin-top: -$diag-height;
+}
 .diagonal-bottom + .stripe{
 	margin-top: $diag-height * -1;
     padding-top: $diag-height + $pad-large;

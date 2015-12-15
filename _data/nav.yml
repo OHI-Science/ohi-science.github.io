@@ -18,13 +18,13 @@
       url: /manual/
     - text: Publications
       url: /resources/publications/
-    - text: Forum
-      url: /forum/
 - text: Projects
   url: /projects/
 - text: About
   url: /about/  
   subitems:
+    - text: News
+      url: /news
     - text: What is OHI
       url: /about/index.html#whatIsOHI
     - text: What is OHI+?

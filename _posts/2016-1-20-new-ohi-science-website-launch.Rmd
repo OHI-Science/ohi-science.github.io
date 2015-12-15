@@ -1,5 +1,5 @@
 ---
-title: "New ohi-science website launched"
+title: "New ohi-science website launched on (date)"
 output: html_document
 category: news
 tags: [news]

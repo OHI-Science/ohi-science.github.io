@@ -10,6 +10,6 @@ tags : [North America]
 **Contact**: Dr. Julia Stewart Lowndes (lowndes at nceas.ucsb.edu)  
 **Description**: Test of the OHI framework for five coastal sub-regions, using ~80% local data and modified goal models.
 
-[publications]() <!---link to publication page, anchored to brazil --->
+[publication](/resources/publications#us-west-coast) 
 [github](https://github.com/OHI-Science/ohi-uswest/releases)
 [website](www.oceanhealthindex.org/ohi-plus/us-west-coast-assessment)

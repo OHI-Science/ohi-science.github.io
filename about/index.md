@@ -1,20 +1,12 @@
 ---
-layout: default
+layout: stripes
 title: About
-description: About OHI+
+description: About Ocean Health Index
 comments: false
 group: navigation
+header: whale
 ---
 {% include JB/setup %}
-
-
-<div class="about stripe light-font header">
-	<h1> About Ocean Health Index </h1>
-</div>
-
-{% assign color = 'white' %}
-{% assign position = 'top-left' %}
-{% include themes/OHI/diagonal %}
 
 <div class="stripe">
 	<a name="whatIsOHI" id="whatIsOHI"></a>
@@ -28,7 +20,7 @@ group: navigation
 			Originally developed by an interdisciplinary team of scientists let by Halpern <em>et al</em>. and published in the journal <em>Nature</em> in 2012, the OHI framework is standardized yet customizable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
 		</p>
 
-		<img src='https://docs.google.com/drawings/d/17ICJ7W0nGfDUKJ2ggBjsQGCpQM2plF940NhvHVQOe5w/pub?w=960&h=540' />
+		<img src='https://docs.google.com/drawings/d/1Ar8Zzs94zLOy-NxwCgHOiMAfvz69Ab-APZDsoE5_M6I/pub?w=624&h=480' />
 
 		<p>
 			Assessments using the OHI framework are facilitated by the OHI Toolbox, a suite of collaborative, open-source tools and instruction that provides structure for data organization and storage, data processing and goal modeling. The Toolbox enables assessments to be transparent, reproducible through access to detailed methods and computational code, repeatable with the ability to modify methods and computational code, and communicable with distillation and visualization to a wide audience.
