@@ -2,7 +2,7 @@
 layout: stripes
 title: Tools
 description: Tools
-header: tools
+header: jellyfish
 ---
 
 ## Ocean Health Index 

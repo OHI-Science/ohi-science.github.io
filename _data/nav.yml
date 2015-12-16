@@ -2,11 +2,11 @@
   url: /phases/
   subitems:
     - text: Learn
-      url: /phases#learn
+      url: /phases/#learn
     - text: Plan
-      url: /phases#plan
+      url: /phases/#plan
     - text: Conduct
-      url: /phases#conduct
+      url: /phases/#conduct
     - text: Inform
       url: /phases#inform
 - text: Resources
@@ -26,11 +26,11 @@
     - text: News
       url: /news
     - text: What is OHI
-      url: /about/index.html#whatIsOHI
+      url: /about/#what-is-the-ocean-health-index
     - text: What is OHI+?
-      url: /about/index.html#whatIsOHI+
+      url: /about/#what-is-ohi
     - text: Who We Are
-      url: /about/index.html#who
+      url: /about/#who-we-are
 - text: Forum
   url: /forum/
   

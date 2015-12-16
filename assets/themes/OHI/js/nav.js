@@ -1,6 +1,7 @@
 /* A simple responsive menu */
 
 $(document).ready(function(){    
+	//***Mobile menu***
     $("#nav-trigger").click(function(){
     	//On close
         if ($("#nav-main").hasClass("expanded")) {
@@ -18,8 +19,8 @@ $(document).ready(function(){
         }
     });
     
-    var topBarStartingHeight = $(".topbar").outerHeight();
-    
+    //***Dropdown menu***
+    var topBarStartingHeight = $(".topbar").outerHeight();    
     //Show the selected sub-navigation menu on hover
     $(".nav > li a").mouseover(function(e){
     	var link = e.target,
@@ -33,11 +34,20 @@ $(document).ready(function(){
         	subnav.slideDown();
     	}
     	
-    });
-    
-    //
+    });    
     $(".topbar").on("mouseleave", function(e){
     	$(".topbar .sub-nav").slideUp();
     	$(".topbar").animate({ height: topBarStartingHeight }, 100);
     });
+    
 });
+
+//*** Anchor tag offset for fixed menu ***
+var anchorOffset = function(force){
+	if((window.location.hash && !$("body").is(".manual")) || force){
+		var offset = $(".topbar").length? $(".topbar").outerHeight() + 20 : 100;
+		
+		$(window).scrollTop($(window.location.hash).offset().top - offset);
+	}
+}
+$(window).load(anchorOffset);

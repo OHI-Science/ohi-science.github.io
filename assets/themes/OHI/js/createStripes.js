@@ -6,9 +6,9 @@ function createStripes(){
 		var content = $(this).nextUntil("h2").not(".diagonal-container").not(".stripe");
 				
 		var allContent =  content.add(this);
-		allContent.wrapAll(stripe.clone().addClass("stripe-" + i));
+		allContent.wrapAll(stripe.clone().addClass("stripe-" + (i+1)));
 		
-	});
+	});	
 }
 
 $(document).ready(createStripes);

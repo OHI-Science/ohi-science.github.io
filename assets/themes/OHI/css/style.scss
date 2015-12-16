@@ -65,6 +65,7 @@ $break-large: 1024px;
 @import 'buttons';
 @import 'phases';
 @import 'manual';
+@import 'stripes';
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,300);
 @font-face {
@@ -138,6 +139,13 @@ img{
   border-radius: $radius;
   background-clip: padding-box;  /* stops bg color from leaking outside the border: */
 }
+.content li{
+	list-style: none;
+    margin-bottom: .5em;
+}
+.content ul{
+	padding-left: 20px;
+}
 
 
 /* Links and buttons */
@@ -145,19 +153,6 @@ a {
     text-decoration: none;
     color: $primary-color;
 }
-/* Inner-page anchors move up a little to accomodate for the fixed header */
-a[name]{
-	top: $nav-height * -1;
-    position: relative;
-    display: block;
-    visibility: hidden;
-
-	/* anchor tags are moved up in mobile devices because the nav-bar is shorter */
-    @include respond-to(all-mobiles){	
-		top: -50px;
-	}
-}
-
 
 /* Icons */
 .icon-large{
@@ -187,65 +182,6 @@ a[name]{
 		margin-top: $pad-large * 2;
 	}	
 }
-.stripe{
-	padding: $pad-large;
-	width: 100%;
-	
-	&.display{
-		min-height: 768px;
-		@include respond-to(handhelds){ 
-			min-height: 480px; 
-		}
-		@include respond-to(handhelds-landscape){
-			height: 360px;
-		}
-		.scroll-for-more{
-		    color: #FFF;
-			margin-top: 270px;
-			display: block;
-			
-			@include respond-to(handhelds){ 
-				margin-top: 100px; 
-			}
-			@include respond-to(medium-screens){
-				margin-top: 200px;
-			}
-			@include respond-to(handhelds-landscape){
-				margin-top: -20px;
-				font-size: 2em;
-			}
-		}
-	}
-	&.dark{
-		@extend .light-font;
-		background-color: $color-dark;
-		svg .label{
-			fill: #FFF;
-		}
-		a{
-			color: #FFF;
-		}
-	}
-	&.crossword-pattern{
-		@extend .dark;
-		background-image: url('../img/crossword-pattern.png');
-		background-repeat: repeat;
-		
-		h5{
-			color: #CCC;
-		}
-		p{
-			font-weight: lighter;
-		}
-	}
-	&.header{
-		min-height: 300px;
-		
-		~ .stripes-container{
-			margin-top: -$diag-height;
-		}
-	}
-}
 .content > .stripe > *,
 .content > .container{
 	display: block;
@@ -265,26 +201,6 @@ a[name]{
 	padding-top: $nav-height + $pad-large;
 }
 
-.stripe.light-font{
-	color: #FFF;
-}
-.stripe.color-light-2{
-	background-color: $color-light-2;
-	
-	h2{
-		color: #FFFFFF;	
-	}
-	h4{
-		color: $color-dark;	
-	}
-}
-.stripe.primary-color{
-	background-color: $primary-color;
-	@extend .light-font;
-}
-.stripe.color-light-background{
-	background-color: $color-light-background;
-}
 
 .forum-list{
 	list-style: none;
@@ -360,65 +276,3 @@ a[name]{
 	}
 }
 
-/* Specifically-styled containers */
-.stripe.tagline{
-	background-image: url('../img/school_fish_NOAA_DavidBurdick.jpg');
-	background-size: cover;
-}
-.stripe.where-assessments{
-	background-image: url('../img/map-background.png');
-}
-.header.whale{
-	background-image: url('../img/whales.jpg');
-	background-size: cover;
-	background-position-y: 33%;
-	color: #FFF;
-}
-.header.resources{
-	background-image: url("../img/sealion.jpg");
-	background-size: cover;
-	background-position-y: 18%;
-	color: #FFF;
-}
-.header.news{
-	background-image: url("../img/fish.jpg");
-	background-size: cover;
-	color: #FFF;
-}
-.header.tools{
-	background-image: url("../img/jellyfish.jpg");
-	background-size: cover;
-	background-position: 100% 91%;
-	color: white;
-}
-.stripe.map{
-	min-height: auto;
-	margin-bottom: 0px;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#869999+0,b5d0d0+99 */
-	background: rgb(134,153,153); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(134,153,153,1) 0%, rgba(181,208,208,1) 99%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(134,153,153,1) 0%,rgba(181,208,208,1) 99%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(134,153,153,1) 0%,rgba(181,208,208,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#869999', endColorstr='#b5d0d0',GradientType=0 ); /* IE6-9 */
-	
-	> p:last-child{
-		margin-bottom: 0px;
-	}
-	
-	+ p{
-		display: none;
-	}
-}
-.stripe.map ~ #htmlwidget_container{
-	.leaflet-container{
-		background-color: #B5D0D0;
-	}
-}
-body[data-url='/resources/tools/index.html'] .stripes-container .stripe-1{
-	background-color: $color-light-2;
-}
-body[data-url='/resources/tools/index.html'] .stripes-container .stripe-2{
-}
-body[data-url='/resources/tools/index.html'] .stripes-container .stripe-3{
-	background-color: $color-light-background;
-}
