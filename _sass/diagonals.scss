@@ -4,13 +4,27 @@ $diag-height: 100px;
 	width: 100%;
 	height: $diag-height;
 	display: block;
-}
-.diagonal-container.color-light-2 polygon{
-	fill: $color-light-2;
+	
+	polygon{
+		fill: #FFF;
+	}
+	
+	&.color-light-2 polygon{
+		fill: $color-light-2;
+	}
+	&.color-light-background polygon{
+		fill: $color-light-background;
+	}
 }
 .diagonal-top{
 	position: relative;
 	top: $diag-height * -1;	
+	margin-top: $diag-height;
+}
+.stripe.header + .diagonal-top,
+.stripe.tagline + .diagonal-top,
+.diagonal-top.top-both{
+	margin-top: 0px;
 }
 .diagonal-top + .stripe{
 	margin-top: $diag-height * -1;	

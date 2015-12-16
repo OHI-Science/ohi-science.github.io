@@ -7,7 +7,9 @@
 	{% endcapture %}
 	
 	<div class="stripe header {{ headerClasses }}">
-		<h1>{% if page.description %} {{ page.description }} {% else %} {{ page.title }} {% endif %}</h1>
+		<div class="header-inner">
+			<h1>{% if page.description %} {{ page.description }} {% else %} {{ page.title }} {% endif %}</h1>
+		</div>
 	</div>
 	
 	{% assign color = 'white' %}
