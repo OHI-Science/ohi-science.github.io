@@ -92,6 +92,6 @@ header: whale
 	<a name="thanks" id="thanks"></a>
 	<h2>Thanks to our supporters</h2>
 	<p>
-		Our work is possible due to generous support for nearly eight years. We currently operate with the generous support from the Pacific Life Foundation to Conservation International and the Gordon and Betty Moore Foundation to NCEAS.  We also thank our [past supporters](http://www.oceanhealthindex.org/about/sustaining-partners).  
+		We are grateful for the generous support from the Pacific Life Foundation to Conservation International and the Gordon and Betty Moore Foundation to NCEAS.  We also thank our [past supporters](http://www.oceanhealthindex.org/about/sustaining-partners) for helping us build the Ocean Health Index over the past eight years.  
 	</p>
 </div>
