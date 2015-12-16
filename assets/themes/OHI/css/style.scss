@@ -146,6 +146,9 @@ img{
 .content ul{
 	padding-left: 20px;
 }
+ul{
+	list-style: none;
+}
 
 
 /* Links and buttons */
@@ -202,6 +205,7 @@ a {
 }
 
 
+/* The forum list */
 .forum-list{
 	list-style: none;
 	padding-left: 0px;
@@ -249,6 +253,8 @@ a {
 		}
 	}
 }
+
+/* The OHI+ assessment list */
 .container.assessment{
 	margin-bottom: $pad-large;
 	margin-top: $pad-large / 2;
