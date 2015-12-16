@@ -1,8 +1,8 @@
-$footer-height: 313px;
+$footer-height: 311px;
 
 footer{
 	background-color: #dedede;
-	padding: $pad-large;
+	padding: #{$pad-large/2} $pad-large 0px $pad-small;
 	width: 100%;
 	min-height: $footer-height;
 	position: absolute;
@@ -53,6 +53,24 @@ footer{
 		
 		&:hover{
 			color: $primary-color;
+		}
+	}
+	
+	.links{
+	    background-color: #D2CFCF;
+	    padding: $pad-small $pad-small #{$pad-small*2} $pad-small;
+	    margin-bottom: 0px;
+	    width: calc(100% + #{$pad-large*2});
+	    margin-left: -$pad-large;
+		
+		 a{
+			color: $primary-color;
+			text-align: center;
+			margin-right: 2%;
+			
+			&:not(:last-child){
+				border-right: 1px solid #555;
+			}
 		}
 	}
 	

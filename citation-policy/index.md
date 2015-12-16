@@ -3,7 +3,6 @@ layout: page
 title: Citation Policy
 ---
 
-# Citation Policy
 You may freely download and use any data, code, or instructional guides created for the Ocean Health Index project.  In exchange, please credit our work as described below.
 
 #### General references to the Ocean Health Index
