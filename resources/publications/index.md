@@ -44,8 +44,8 @@ Assessing the health of the U.S. West Coast with a regional-scale application of
 
 [Halpern et al. 2008](http://www.sciencemag.org/content/319/5865/948.abstract), *Science*.
 A global map of human impact on marine ecosystems.
-[(data)](https://www.nceas.ucsb.edu/globalmarine/impacts)
-[Halpern et al. 2015](http://www.nature.com/ncomms/2015/150714/ncomms8615/full/ncomms8615.html?message-global=remove&WT.ec_id=NCOMMS-20150715&spMailingID=49102925&spUserID=ODkwMTM2NjQyNgS2&spJobID=721894001&spReportId=NzIxODk0MDAxS0), *Nature Communications*\*.
+[(data)](https://www.nceas.ucsb.edu/globalmarine/impacts)  
+[Halpern et al. 2015](http://www.nature.com/ncomms/2015/150714/ncomms8615/full/ncomms8615.html), *Nature Communications*\*.
 Spatial and temporal changes in cumulative human impacts on the world's ocean.
 [(data)](https://knb.ecoinformatics.org/#view/doi:10.5063/F1S180FS)
 
@@ -70,7 +70,6 @@ A global synthesis of the economic multiplier effects of marine sectors.
 
 [Kleisner et al. 2013](http://link.springer.com/article/10.1007/s13280-013-0447-x), *AMBIO*.
 Exploring patterns of seafood provision revealed in the global Ocean Health Index.  
-
 [Selig et al. 2013](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284), *PLoS ONE*\*. Assessing global marine biodiversity status within a coupled socio-ecological perspective.
 
 ## OHI+ documentation
