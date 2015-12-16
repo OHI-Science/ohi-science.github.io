@@ -23,6 +23,7 @@ $primary-color-transparent: rgba(43, 89, 164, .85);
 $highlight-color: #f26c25; /* orange */
 $color-dark: #40476c;      /* purple-blue */
 $color-light: #50b1a5;     /* light teal */
+$color-light-background: hsla(173,26%,74%,1);
 $color-light-2: #9ACED8;   /* light blue */
 
 $pad-small: 10px;
@@ -239,6 +240,10 @@ a[name]{
 	}
 	&.header{
 		min-height: 300px;
+		
+		~ .stripes-container{
+			margin-top: -$diag-height;
+		}
 	}
 }
 .content > .stripe > *,
@@ -276,6 +281,9 @@ a[name]{
 .stripe.primary-color{
 	background-color: $primary-color;
 	@extend .light-font;
+}
+.stripe.color-light-background{
+	background-color: $color-light-background;
 }
 
 .forum-list{
@@ -377,6 +385,12 @@ a[name]{
 	background-size: cover;
 	color: #FFF;
 }
+.header.tools{
+	background-image: url("../img/jellyfish.jpg");
+	background-size: cover;
+	background-position: 100% 91%;
+	color: white;
+}
 .stripe.map{
 	min-height: auto;
 	margin-bottom: 0px;
@@ -399,4 +413,12 @@ a[name]{
 	.leaflet-container{
 		background-color: #B5D0D0;
 	}
+}
+body[data-url='/resources/tools/index.html'] .stripes-container .stripe-1{
+	background-color: $color-light-2;
+}
+body[data-url='/resources/tools/index.html'] .stripes-container .stripe-2{
+}
+body[data-url='/resources/tools/index.html'] .stripes-container .stripe-3{
+	background-color: $color-light-background;
 }

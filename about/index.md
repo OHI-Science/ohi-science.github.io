@@ -84,11 +84,11 @@ header: whale
 	</p>
 </div>
 
-{% assign color = 'color-light-2' %}
+{% assign color = 'color-light-background' %}
 {% assign position = 'top-left' %}
 {% include themes/OHI/diagonal %}
 
-<div class="stripe">
+<div class="stripe color-light-background">
 	<a name="thanks" id="thanks"></a>
 	<h2>Thanks to our supporters</h2>
 	<p>
