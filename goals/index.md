@@ -7,4 +7,4 @@ Global OHI assessments categorized and scored ten goals and eight sub-goals repr
 
 To help inform this process, below is information for each goal and sub-goal included in the global assessments. Along with the philosophy and how 'ideally' they might be modeled are descriptions of the approaches from completed assessments.
 
-*Julie + Ning*
+{% include /goals/practical_AO.md %}
