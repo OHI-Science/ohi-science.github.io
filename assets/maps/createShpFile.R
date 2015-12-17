@@ -1,20 +1,8 @@
-###########################################
-## This script is used to create a geojson map
-## with regions that have OHI assessments
+### This is the script used to gather region shapefiles to describe the local
+### OHI+ analyses
 
-### NOTE: I just realized that I need to clip out the bci portion of the canada map...so it doesn't get two overlapping polygons
+### NOTE: I need to clip out the bci portion of the canada map...so it doesn't get two overlapping polygons
 
-## need to update script due to package updates:
-## Following needs to be replaced (see Arctic example):
-# data <- data.frame(id = getSpPPolygonsIDSlots(bhi))
-# row.names(data) <- getSpPPolygonsIDSlots(bhi)
-## Srs <- slot(arctic, "polygons")
-## data <- data.frame(id = sapply(Srs, function(i) slot(i, "ID")))
-## row.names(data) <- data.frame(id = sapply(Srs, function(i) slot(i, "ID")))
-
-# For more information: http://zevross.com/blog/2014/04/11/using-r-to-quickly-create-an-interactive-online-map-using-the-leafletr-package/
-# http://stackoverflow.com/questions/26435861/how-to-read-a-geojson-file-containing-feature-collections-to-leaflet-shiny-direc
-# http://www.tuicode.com/article/5637dded499808840885af68
 
 ### Need to read in the shape files for each of these regions:
 library(dplyr)
@@ -43,7 +31,7 @@ writeOGR(Hawaii, dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/we
          layer="Hawaii", driver="ESRI Shapefile")
 
 Hawaii <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
-         layer="Hawaii")
+                  layer="Hawaii")
 Hawaii <- spChFIDs(Hawaii, as.character(Hawaii@data$Region))
 
 ## US Pacific Coast----
@@ -149,96 +137,5 @@ regionAll <- rbind(all, ?????)
 writeOGR(regionAll, dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
          layer="allRegions", driver = "ESRI Shapefile", overwrite=TRUE)
 write.csv(regionAll@data, 'global2015/geojson/regions.csv', row.names=FALSE)
-
-
-
-####################
-# uses leaflet and htmlwidgets to save html file
-regionAll <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
-                     layer="allRegions")
-regions <- read.csv('assets/maps/regions.csv')
-
-## Not including Arctic, file is messed up (fix later):
-regionAll <- regionAll[regionAll@data$Region %in% regions$Region, ]
-
-## Add color data
-colors <- data.frame(Status = c("conduct", "inform", "plan", "learn"), 
-                     color= c('#0257A5', '#0014A5', '#0083A3', '#00ADDD'))
-regionAll@data <- regionAll@data %>%
-  left_join(regions, by="Region") %>%
-  left_join(colors, by="Status")
-
-popup1 <- paste0('<b>', regionAll@data$Region, '</b>',
-                 '<br/>', "status: ", regionAll@data$Status) # use this for new line: , "<br/>")
-# myPalette <- colorRampPalette(brewer.pal(11, "Spectral"))
-# myPalette <- colorRampPalette(c("#9E0142", "#D53E4F", "#F46D43", "#FDAE61", "#3288BD", "#5E4FA2"))
-# myPalette <- topo.colors(nrow(regionAll@data), alpha=NULL)
-
-m <- leaflet(width="100%", height="600px") %>%
-      setView(m, -30, 30, 3) %>%
-      addTiles(options=tileOptions(noWrap=TRUE)) %>%
-#      addTiles(options=tileOptions(minZoom=3, noWrap=TRUE)) %>%
-  #addProviderTiles("OpenStreetMap.BlackAndWhite") %>%
-  #   addTiles(options = tileOptions(noWrap = TRUE)) %>%  
-  #   fitBounds(-180, -70, 180, 80) %>%
-  addPolygons(data = regionAll, 
-              #fillColor = myPalette(nrow(regionAll)), 
-              fillColor = regionAll@data$color,
-              popup=popup1, 
-              #stroke=FALSE,
-              color = "#A8A8A8",
-              weight = 1,
-              opacity = 0.5,
-              fillOpacity = 0.4)
-saveWidget(m, file="allRegions.html", selfcontained=TRUE)
-
-
-
-############## NOT sure if anything down here is necessary anymore
-## save as geojson:
-writeOGR(map1, 'global2015/geojson/test/map1.geojson', layer = '', driver='GeoJSON')  # layer is needed, but doesn't make a difference what is included
-# dat <- toGeoJSON(map1) # another way of saving
-
-## REading a geojson file:
-# # From http://data.okfn.org/data/datasets/geo-boundaries-world-110m
-geojson <- readLines('global2015/geojson/test/map1.geojson', warn = FALSE) %>%
-  paste(collapse = "\n") %>%
-  fromJSON(simplifyVector = FALSE)
-
-geojson$style = list(
-  weight = 1,
-  color = "#F7FCF5",
-  opacity = 1,
-  fillOpacity = 0.8
-)
-
-
-pal <- colorBin("Greens", 1:nrow(map1))
-
-geojson$features <- lapply(geojson$features, function(feat){
-  feat$properties$style <- list(
-    fillColor = pal(as.numeric(feat$properties$country))
-  )
-  feat
-})
-
-leaflet() %>% addGeoJSON(geojson)
-exportJSON <- toJSON(geojson)
-write(exportJSON, "global2015/geojson/test/map2.geojson")
-
-
-## make html using leafletR
-sty <- styleCat(prop="country", val=1:nrow(map1@data), style.val = heat.colors(nrow(map1@data)))
-map <- leafletR::leaflet(dat, incl.data=TRUE, popup = c('rgn_nam'), style=sty,
-                         controls = c("zoom", "scale", "layer"))
-browseURL(map) # this doesn't seem to work on Neptune...need to download html file
-
-# don't think this is needed, but Ben creates this...so keeping code here in case I need it
-fw = file('global2015/geojson/test/map1.js', 'wb')
-cat('var regions = ', file=fw)
-cat(readLines('global2015/geojson/test/map1.geojson', n = -1), file=fw)
-close(fw)
-
-
 
 

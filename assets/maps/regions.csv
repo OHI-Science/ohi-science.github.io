@@ -1,15 +1,15 @@
-Region,Status
-[Colombia](#colombia),conduct
-[Ecuador](#ecuador),inform
-[Peru](#peru),plan
-[Brazil](#brazil,inform
-[Fiji](#fiji),inform
-[Spain](#spain),conduct
-[China](#china),inform
-[Canada](#canada),conduct
-[Chile](#chile),conduct
-[Israel](#israel),inform
-["United States, Pacific Coast"](#us-west-coast),inform
-["United States, Hawaii"](#hawaii),plan
-[Baltic](#baltic),conduct
-[British Columbia](#british-columbia),conduct
+Region,Display,Status
+Colombia,[Colombia](#colombia),conduct
+Ecuador,[Ecuador](#ecuador),inform
+Peru,[Peru](#peru),plan
+Brazil,[Brazil](#brazil),inform
+Fiji,[Fiji](#fiji),inform
+Spain,[Spain](#spain),conduct
+China,[China](#china),inform
+Canada,[Canada](#canada),conduct
+Chile,[Chile](#chile),conduct
+Israel,[Israel](#israel),inform
+"United States, Pacific Coast","[United States, Pacific Coast](#us-west-coast)",inform
+"United States, Hawaii","[United States, Hawaii](#hawaii)",plan
+Baltic,[Baltic](#baltic),conduct
+British Columbia,[British Columbia](#british-columbia),conduct
