@@ -1,15 +1,15 @@
 Region,Display,Status
-Colombia,[Colombia](#colombia),conduct
-Ecuador,[Ecuador](#ecuador),inform
-Peru,[Peru](#peru),plan
-Brazil,[Brazil](#brazil),inform
-Fiji,[Fiji](#fiji),inform
-Spain,[Spain](#spain),conduct
-China,[China](#china),inform
-Canada,[Canada](#canada),conduct
-Chile,[Chile](#chile),conduct
-Israel,[Israel](#israel),inform
-"United States, Pacific Coast","[United States, Pacific Coast](#us-west-coast)",inform
-"United States, Hawaii","[United States, Hawaii](#hawaii)",plan
-Baltic,[Baltic](#baltic),conduct
-British Columbia,[British Columbia](#british-columbia),conduct
+Colombia,"<a href=""#colombia"">Colombia</a>",conduct
+Ecuador,"<a href=""#ecuador"">Ecuador</a>",inform
+Peru,"<a href=""#peru"">Peru</a>",plan
+Brazil,"<a href=""#brazil"">Brazil</a>",inform
+Fiji,"<a href=""#fiji"">Fiji</a>",inform
+Spain,"<a href=""#spain"">Spain</a>",conduct
+China,"<a href=""#china"">China</a>",inform
+Canada,"<a href=""#canada"">Canada</a>",conduct
+Chile,"<a href=""#chile"">Chile</a>",conduct
+Israel,"<a href=""#israel"">Israel</a>",inform
+"United States, Pacific Coast","<a href=""#us-west-coast"">United States, Pacific Coast</a>",inform
+"United States, Hawaii","<a href=""#hawaii"">United States, Hawaii</a>",plan
+Baltic,"<a href=""#baltic"">Baltic</a>",conduct
+British Columbia,"<a href=""#british-columbia"">British Columbia</a>",conduct
