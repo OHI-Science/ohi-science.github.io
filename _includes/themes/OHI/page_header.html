@@ -6,11 +6,11 @@
 		{% endfor %}
 	{% endcapture %}
 	
-	<div class="stripe header {{ headerClasses }}">
+	<header class="stripe header {{ headerClasses }}">
 		<div class="header-inner">
 			<h1>{% if page.description %} {{ page.description }} {% else %} {{ page.title }} {% endif %}</h1>
 		</div>
-	</div>
+	</header>
 	
 	{% assign color = 'white' %}
 	{% assign position = 'top-left' %}

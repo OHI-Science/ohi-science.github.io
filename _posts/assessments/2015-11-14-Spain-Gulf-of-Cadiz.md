@@ -1,6 +1,7 @@
 ---
 layout: assessment
 title: "Spain: Gulf of Cadiz"
+hidden: true
 category : assessment
 tags : [Europe, OHI+]
 ---

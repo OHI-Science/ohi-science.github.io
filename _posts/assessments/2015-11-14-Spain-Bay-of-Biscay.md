@@ -1,6 +1,7 @@
 ---
 layout: assessment
 title: "Spain: Bay of Biscay"
+hidden: true
 category : assessment
 tags : [Europe, OHI+]
 ---
