@@ -3,7 +3,17 @@ layout: default
 ---
 {% include JB/setup %}
 
-<div class="container" data-title="{{ page.title }}">
-	<h1>{{ page.title }}</h1>
+<div class="container post" data-title="{{ page.title }}">
+	<hgroup>
+		<h1>{{ page.title }}</h1>
+		<time class="post-date" datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+	</hgroup>
+	
 	{{ content }}
+	
 </div>
+{% if page.categories contains 'news' %}
+<div class="container post-footer">
+	<a href="/news" class="btn">See more news from OHI Science</a> 
+</div>
+{% endif %}

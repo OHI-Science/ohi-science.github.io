@@ -1,0 +1,25 @@
+{% assign newsPosts = site.categories.news %}
+
+<section class="posts-list">
+
+	
+	{% for post in newsPosts limit:site.paginate %}
+		
+		{% if post.hidden %} {% continue %} {% endif %}
+		
+		<article class="post">
+			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<time class="post-date" datetime="{{ post.date }}">{{ post.date | date: "%B %d, %Y" }}</time>
+			<div>
+				{{ post.excerpt }}
+				<a href="{{ post.url }}" class="more-link">Read More...</a>
+			</div>
+		</article>
+		
+	{% endfor %}
+	
+</section>
+
+{% if newsPosts.size > 5 %}
+	<a class="right btn" href="/archives/page2">Older posts <i class="lnr lnr-chevron-right icon"></i></a> 
+{% endif %}

@@ -282,3 +282,16 @@ a {
 	}
 }
 
+.posts-list article{
+	padding-bottom: $pad-large;
+	padding-top: $pad-large;
+	
+	&:not(:last-child){
+		border-bottom: 1px solid $color-light;
+	}
+}
+.post hgroup{
+	border-bottom: 1px solid $color-light;
+	padding-bottom: $pad-large;
+	margin-bottom: $pad-large;
+}
