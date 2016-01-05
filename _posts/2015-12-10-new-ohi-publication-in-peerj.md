@@ -11,7 +11,7 @@ From our experience leading and supporting eleven completed assessments, in this
 
 ![](https://docs.google.com/drawings/d/1dUFAOVa2JfbKHyaq98yDYdtcDuEPyr10uNB_auz_Pdc/pub?w=768&h=480)
 
-In addition to the best practices, we stress that the process of conducting assessments can be as valuable as the final results, and that any assessment process must be *transparent* about which decisions were made and why, *reproducible* through access to detailed methods and computational code, *repeatable* via the ability to modify methods and computational code, and *easily communicated* to wide audiences. When assessments can easily build from past approaches, the more time and resources can be directed towards management action.
+These best practices can be applied beyond Ocean Health to all open science projects. We stress that the process of conducting assessments can be as valuable as the final results and that any assessment process must be *transparent* about which decisions were made and why, *reproducible* through access to detailed methods and computational code, *repeatable* via the ability to modify methods and computational code, and *easily communicated* to wide audiences. When assessments can easily build from past approaches, the more time and resources can be directed towards management action.
 
 *Citation*: [Lowndes JSS, Pacheco EJ, Best BD, Scarborough C, Longo C, Katona SK, and Halpern BS. Best practices for assessing ocean health in multiple contexts using tailorable frameworks. 2015. PeerJ 3:e1503; DOI 10.7717/peerj.1503](https://peerj.com/articles/1503/)
 
