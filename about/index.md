@@ -10,7 +10,7 @@ header: whale
 
 ## What is the Ocean Health Index?
 
-Determining ocean health requires an approach that integrates social, economic, and environmental information. The Ocean Health Index (OHI) is an assessment framework that does this by measuring progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide. By analyzing these goals together and scoring them from 0-100, OHI assessments result in a comprehensive picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
+Determining ocean health requires an approach that integrates social, economic, and environmental information. The Ocean Health Index (OHI) is an assessment framework that does this by measuring progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide. By analyzing these goals together and scoring them from 0-100, OHI assessments provide a comprehensive picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
 
 Originally developed by an interdisciplinary team of scientists let by Halpern *et al*. and published in the journal *Nature* in 2012, the OHI framework is standardized yet customizable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
 
@@ -30,11 +30,11 @@ For more information, please see our sister website at [www.OceanHealthIndex.org
 
 #### Independent assessment at any scale.
 
-OHI+ are independently-led OHI assessments that are conducted by any group external to the OHI team. Groups have full responsibility of all aspects of the assessments, including all decisions and information involved, and the resulting scores. The OHI team provides the Toolbox software and guidance and can also provide feedback throughout the process.
+OHI+ are independently-led OHI assessments that are conducted by any group external to the OHI team. Groups have full responsibility of all aspects of the assessments, including decisions, information collection, analysis, and reporting. The OHI team provides Toolbox software as well as technical support and general guidance.
 
-OHI+ assessments are often conducted at smaller, subnational spatial scales. This allows availability and use of higher quality information and better knowledge of system processes, which allow for models to be developed that better capture the philosophy of the goals in the local context. At the same time, targets (reference points) can be set with more refined knowledge of preferences or priorities of local people or governments at spatial scales where management decisions are made.
+OHI+ assessments are often conducted at smaller, subnational spatial scales. An advantage of working at this scale is the availability of higher quality information and a better knowledge of system processes, which allows models to better capture the philosophy of the goals in the local context. At the same time, targets (reference points) can be set with more refined knowledge of preferences or priorities of local people or governments at spatial scales where management decisions are made.
 
-OHI+ assessments can be used as a marine planning tool. Resulting scores can help identify policy priorities and management cost-effectiveness, and can be used to simulate management scenarios. It is also possible to use the OHI framework as a marine planning tool even before final assessment scores have been calculated, since conducting an OHI+ assessment requires an inventory of information and knowledge that spans disciplines, space and time, and can be a useful process for understanding the current policy, information and knowledge landscape.
+Resulting scores can be used to identify policy priorities, maximize cost-effectiveness, and explore management scenarios. It is also possible to use the OHI framework as a planning tool even before final assessment scores have been calculated. The process of planning an OHI+ assessment is useful because it provides a framework to evaluate and understand current policy and requires creating an inventory of information and knowledge that spans disciplines, space and time.
 
 <a href="/phases" class="btn">View the Four Phases of the OHI Assessment</a>
 
