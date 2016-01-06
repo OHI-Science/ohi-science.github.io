@@ -60,7 +60,7 @@ Our current team is based at the National Center for Ecological Analysis and Syn
 - Erich Pacheco, MSc  
 - Courtney Scarborough, MSc
 
-If you are interested in beginning an OHI+ assessment, please contact Erich (epacheco at conservation.org) or Julie (lowndes at nceas.ucsb.edu).
+If you are interested in beginning an OHI+ assessment, please contact Erich, Julie, or Ning at info at ohi-science.org.
 
 
 {% assign color = 'color-light-background' %}
