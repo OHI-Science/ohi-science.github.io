@@ -2,13 +2,13 @@
   url: /phases/
   subitems:
     - text: Learn
-      url: /phases/#learn
+      url: /learn
     - text: Plan
-      url: /phases/#plan
+      url: /plan
     - text: Conduct
-      url: /phases/#conduct
+      url: /manual
     - text: Inform
-      url: /phases#inform
+      url: /inform
 - text: Resources
   url: /resources/
   subitems:
