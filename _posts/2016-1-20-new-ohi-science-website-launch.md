@@ -7,23 +7,25 @@ category: news
 tags: [news]
 ---
 
-The Ocean Health Index team is pleased to announce the launch of our redesigned [OHI-Science](http://ohi-science.org/) website! This site details/presents the Github-based, open science of the Ocean Health Index, and provides guides for conducting independent OHI assessments, called **OHI+ assessments**. 
+The Ocean Health Index team is proud to announce the launch of our redesigned [**OHI-Science.org**](http://ohi-science.org/) website! This site houses the science of the Ocean Health Index (OHI), and provides instruction for conducting independently-led OHI assessments, called OHI+ assessments. 
 
-Since the OHI framework was developed in 2012, eleven assessments have been completed at global, national, and regional scales, four of which are OHI+ assessments led by independent academic or government groups. The processes and wisdom of conducting those assessments are recorded on our redesigned website, which gives better access to: 
+As the sister website to [OceanHealthIndex.org](http://oceanhealthindex.org), [**OHI-Science.org**](http://ohi-science.org/) allows visitors to easily access our freely-available data and methods and explore completed and ongoing assessments. 
 
-* [completed and on-going independent OHI+ assessments](/projects)
-* [detailed instruction on the four phases of the OHI+ assessment process](/phases)
-* [access to data, methods, documentation, and publications)](/resources)
-* [a forum of OHI+ community experiences and Q&A](/forum)
+Since the OHI framework was developed in 2012 ([Halpern et al., 2012, *Nature*](/resources/publications#global)), eleven assessments have been completed, four of which are OHI+ assessments independently led by academic or government groups. [**OHI-Science.org**](http://ohi-science.org/)  provides acess to information about these assessments, as well as the knowledge and experience gained through the process. 
 
-Redesigned with a fresh look, [OHI-Science](http://ohi-science.org/) allows visitors to easily navigate through the most up-to-date information on active assessments and methods. It is the sister website to [OceanHealthIndex.org](http://oceanhealthindex.org), which focuses on OHI assessments at the global scale. 
+[**OHI-Science.org**](http://ohi-science.org/) is a platform for tools used and developed by a very active open science and OHI+ community, and will be updating constantly. To receive updates, please email info@ohi-science.org or follow us on Twitter: @ohiscience. 
 
-[OHI-Science](http://ohi-science.org/) is a platform for tools used and developed by a very active open science and OHI+ community, and will be updating constantly. To receive updates, please email info at ohi-science.org. 
+**Quick links**: 
 
-[paste a snapshot of the homepage here ...]
+* [OHI-Science.org](http://ohi-science.org/)
+* [Completed and on-going assessments](/projects)
+* [OHI+ assessment process](/phases)
+* [Data, methods, documentation, and publications](/resources)
+* [OHI+ community forum](/forum)
 
-Special Thanks for Lauren Walker, our NCEAS-based designer and coder who gave our website the beautiful new look (facelift?).  
 
-To add: 
-- nod to github, maybe 'fork me on github' banner? ning: not sure how a banner would look. would it distract from the homepage image? 
-- designed and coded by lauren walker
+
+*Special Thanks for Lauren Walker, our NCEAS-based designer and coder who gave our website the beautiful new look.*  
+
+
+Tags: open science, open data, ocean health, OHI+
