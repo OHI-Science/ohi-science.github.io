@@ -25,7 +25,7 @@ Since the OHI framework was developed in 2012 ([Halpern et al., 2012, *Nature*](
 
 
 
-*Special Thanks for Lauren Walker, our NCEAS-based designer and coder who gave our website the beautiful new look.*  
+*This website is hosted by GitHub. Many thanks to Lauren Walker, an NCEAS-based designer and coder who redesigned our website with its beautiful new look.*  
 
 
 Tags: open science, open data, ocean health, OHI+
