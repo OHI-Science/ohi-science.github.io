@@ -13,7 +13,7 @@ Ideally you will have information on the relative potential of habitats to provi
 
 To see how to obtain data on habitat _extent_ and _condition_, read the section on **Biodiversity sub-goal: Habitats**.
 
-There can be many _habitat types_ included in Coastal Protection goal. In global assessments, coral, mangroves, saltmarshes, seagrasses, and seaice were included. Habitats were _weighted_ based on their protective ability identified by [Natural Capital Project](www.naturalcapitalproject.org). Depending on the habitats you include, you will need to find additional weights.
+There can be many _habitat types_ included in Coastal Protection goal. In global assessments, coral, mangroves, saltmarshes, seagrasses, and seaice were included. Habitats were _weighted_ based on their protective ability identified by <a href="www.naturalcapitalproject.org" target="_blank">Natural Capital Project</a>. Depending on the habitats you include, you will need to find additional weights.
 
 <!-- I didn't find information on how to rank on the supplemental paper or natural capital... -->
 

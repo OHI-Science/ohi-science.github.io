@@ -18,7 +18,7 @@ Originally developed by an interdisciplinary team of scientists let by Halpern *
 
 Assessments using the OHI framework are facilitated by the OHI Toolbox, a suite of collaborative, open-source tools and instruction that provides structure for data organization and storage, data processing and goal modeling. The Toolbox enables assessments to be transparent, reproducible through access to detailed methods and computational code, repeatable with the ability to modify methods and computational code, and communicable with distillation and visualization to a wide audience.
 
-For more information, please see our sister website at [www.OceanHealthIndex.org <i class="icon icon-right lnr lnr-exit"></i>](https://www.oceanhealthindex.org)
+For more information, please see our sister website at <a href="https://www.oceanhealthindex.org" target="_blank"> <i class="icon icon-right lnr lnr-exit"></i> www.OceanHealthIndex.org</a>
 
 
 {% assign color = 'color-light-2' %}
@@ -46,7 +46,7 @@ OHI+ assessments can be used as a marine planning tool. Resulting scores can hel
 
 ## Who we are
 	
-Our current team is based at the National Center for Ecological Analysis and Synthesis (NCEAS) at the University of California at Santa Barbara (UCSB), and at Conservation International (but there have been many other important [contributors](http://www.oceanhealthindex.org/about/contributors) throughout the years). We are excited to be a part of the open science community and helping make our oceans healthier. 
+Our current team is based at the National Center for Ecological Analysis and Synthesis (NCEAS) at the University of California at Santa Barbara (UCSB), and at Conservation International (but there have been many other important <a href="http://www.oceanhealthindex.org/about/contributors" target="_blank">contributors</a> throughout the years). We are excited to be a part of the open science community and helping make our oceans healthier. 
 
 - Ben Halpern, PhD  
 - Steve Katona, PhD  
@@ -70,4 +70,4 @@ If you are interested in beginning an OHI+ assessment, please contact Erich, Jul
 
 ## Thanks to our supporters
 
-We are grateful for the generous support from the Pacific Life Foundation to Conservation International and the Gordon and Betty Moore Foundation to NCEAS.  We also thank our [past supporters](http://www.oceanhealthindex.org/about/sustaining-partners) for helping us build the Ocean Health Index over the past eight years.  
+We are grateful for the generous support from the Pacific Life Foundation to Conservation International and the Gordon and Betty Moore Foundation to NCEAS.  We also thank our <a href="http://www.oceanhealthindex.org/about/sustaining-partners" target="_blank">past supporters</a> for helping us build the Ocean Health Index over the past eight years.  
