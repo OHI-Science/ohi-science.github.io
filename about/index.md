@@ -1,7 +1,7 @@
 ---
 layout: stripes
 title: About
-description: About Ocean Health Index
+description: About The Ocean Health Index
 comments: false
 group: navigation
 header: whale
