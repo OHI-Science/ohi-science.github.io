@@ -28,7 +28,7 @@
 	<link href="/new-site/assets/themes/OHI/css/style.css" rel="stylesheet" type="text/css" media="all">
 
       <!-- atom & rss feed -->
-    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/new-site/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="/new-site/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
     <meta name="google-translate-customization" content="47f381179a5facf3-96350382533ff336-gbdd3ba5670eecf51-f"></meta>
@@ -37,7 +37,7 @@
   <body class="" data-url="/pages/create_regions.html">
     
     <div class="topbar">
-  <a class="brand" href="/new-site"><img src="/new-site/assets/themes/OHI/img/OHI-Science-logo.png" /></a>
+  <a class="brand" href="/new-site/"><img src="/new-site/assets/themes/OHI/img/OHI-Science-logo.png" /></a>
   <nav class="fill" id="nav-main">
       <ul class="nav">
         
@@ -55,7 +55,7 @@
     	<li>
 	
 	
-		<a href="/new-site/phases/#learn">Learn</a>
+		<a href="/new-site/learn">Learn</a>
 	
 	
 	
@@ -65,7 +65,7 @@
     	<li>
 	
 	
-		<a href="/new-site/phases/#plan">Plan</a>
+		<a href="/new-site/plan">Plan</a>
 	
 	
 	
@@ -75,7 +75,7 @@
     	<li>
 	
 	
-		<a href="/new-site/phases/#conduct">Conduct</a>
+		<a href="/new-site/manual">Conduct</a>
 	
 	
 	
@@ -85,7 +85,7 @@
     	<li>
 	
 	
-		<a href="/new-site/phases#inform">Inform</a>
+		<a href="/new-site/inform">Inform</a>
 	
 	
 	
@@ -220,7 +220,7 @@
 
         
         <li id="google_translate_element">
-			<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+			<script type="text/javascript" src="/new-site//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 			<script type="text/javascript">
 				function googleTranslateElementInit() {
 				  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
@@ -256,37 +256,37 @@
 <p>The first step in a custom Ocean Health Index analysis is creating the reporting units for which you will summarize. For a country level analysis, this is most likely to be the states or provinces, i.e. the first administrative level below country.</p>
 
 <p>Here we provide a little recipe for creating these in ArcGIS using the following data:
-* <strong>GADM</strong> - the Global Administrative Areas (<a href="http://gadm.org">gadm.org</a>) contain the geography up to 5 political levels for all countries globally. 
-* <strong>EEZ</strong> - the Exclusive Economic Zones (<a href="http://marineregions.org">marineregions.org</a>) describe the 200 nautical mile (nm) extent of all countries.
-* <strong>EEZ and land</strong> - with inclusion of the land and EEZ (<a href="http://marineregions.org">marineregions.org</a>), we can fill in any gaps between GADM and the EEZ.</p>
+* <strong>GADM</strong> - the Global Administrative Areas (<a href="http://gadm.org" target="_blank">gadm.org</a>) contain the geography up to 5 political levels for all countries globally. 
+* <strong>EEZ</strong> - the Exclusive Economic Zones ()<a href="http://marineregions.org" target="_blank">marineregions.org</a>) describe the 200 nautical mile (nm) extent of all countries.
+* <strong>EEZ and land</strong> - with inclusion of the land and EEZ (<a href="http://marineregions.org" target="_blank">marineregions.org</a>), we can fill in any gaps between GADM and the EEZ.</p>
 
 <h2 id="issues">Issues</h2>
 
 <p>There are several technical issues in generating regions which need need to: 1) not overlap with one another; and 2) cover the entire extent of the country without gaps. Here is the raw data displayed for our example country of Malaysia.</p>
 
-<p><img src="/figs/create_regions/gadm.png" alt="raw data: GADM and EEZ" /></p>
+<p><img src="/new-site/figs/create_regions/gadm.png" alt="raw data: GADM and EEZ" /></p>
 
-<p>The EEZ is in blue and the GADM is color coded by state. Notice finer subdivisions are included in the GADM. Now we just need to extend these subdivisions offshore to generate state-level waters. The typical <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//000800000019000000">buffer</a> function in GIS, however, does not handle distinct overlapping regions.</p>
+<p>The EEZ is in blue and the GADM is color coded by state. Notice finer subdivisions are included in the GADM. Now we just need to extend these subdivisions offshore to generate state-level waters. The typical <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//000800000019000000" target="_blank">buffer</a> function in GIS, however, does not handle distinct overlapping regions.</p>
 
-<p><img src="/figs/create_regions/overlapping.png" alt="raw data: GADM and EEZ" /></p>
+<p><img src="/new-site/figs/create_regions/overlapping.png" alt="raw data: GADM and EEZ" /></p>
 
-<p>As you can see from this simple buffer result, the buffers extend into each other. We solve for this overlap issue by generating <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//00080000001m000000">Thiessen polygons</a> from the points on the outer edge of the land, which then gets intersected with the dissolved buffer. This is akin to the <a href="http://marineregions.org/eezmethodology.php">method</a> used to originally create the EEZ boundaries. The result in this case with multiple buffers (at 3, 12, 50 and 100 nm) is unique and non-overlapping by state.</p>
+<p>As you can see from this simple buffer result, the buffers extend into each other. We solve for this overlap issue by generating <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//00080000001m000000" target="_blank">Thiessen polygons</a> from the points on the outer edge of the land, which then gets intersected with the dissolved buffer. This is akin to the <a href="http://marineregions.org/eezmethodology.php" target="_blank">method</a> used to originally create the EEZ boundaries. The result in this case with multiple buffers (at 3, 12, 50 and 100 nm) is unique and non-overlapping by state.</p>
 
-<p><img src="/figs/create_regions/buffers.png" alt="raw data: GADM and EEZ" /></p>
+<p><img src="/new-site/figs/create_regions/buffers.png" alt="raw data: GADM and EEZ" /></p>
 
 <p>Other issues become apparent if we zoom in. There is a clear mismatch in the land described by GADM versus assumed by the EEZ. We presume that the EEZ is authoritative and therefore need to correct for the land.</p>
 
-<p><img src="/figs/create_regions/issues.png" alt="raw data: GADM and EEZ" /></p>
+<p><img src="/new-site/figs/create_regions/issues.png" alt="raw data: GADM and EEZ" /></p>
 
 <p>By extending the GADM provinces out with these Thiessen polygons to the full extent of the EEZ and intersecting with the missing EEZ land, hitherto missing land can be attributed to a state.</p>
 
-<p><img src="/figs/create_regions/corrected.png" alt="raw data: GADM and EEZ" /></p>
+<p><img src="/new-site/figs/create_regions/corrected.png" alt="raw data: GADM and EEZ" /></p>
 
-<p>Some manual editing may be required beyond this recipe, since certain islands are not likely to be intersected by states and should instead by assigned wholly to one state. If the given country spans the international dateline (-180° W or 180° E), then a more complex analysis using geodetic distance should first be applied to the points (eg using <a href="http://code.env.duke.edu/projects/mget/ticket/549">geographiclib</a>) and probably a <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//003r0000003r000000">Plate Carrée</a> or other dateline spanning projection should be used. Finally, if the country’s EEZ is extensive than this method could be replaced with a raster method (“raster is faster, but vector is corrector”) using <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//001200000030000000">Polygon to Raster</a> and <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z0000001m000000">Euclidean Allocation</a> (alternate recipe forthcoming).</p>
+<p>Some manual editing may be required beyond this recipe, since certain islands are not likely to be intersected by states and should instead by assigned wholly to one state. If the given country spans the international dateline (-180° W or 180° E), then a more complex analysis using geodetic distance should first be applied to the points (eg using <a href="http://code.env.duke.edu/projects/mget/ticket/549">geographiclib</a>) and probably a <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//003r0000003r000000" target="_blank">Plate Carrée</a> or other dateline spanning projection should be used. Finally, if the country’s EEZ is extensive than this method could be replaced with a raster method (“raster is faster, but vector is corrector”) using <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//001200000030000000">Polygon to Raster</a> and <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//009z0000001m000000">Euclidean Allocation</a> (alternate recipe forthcoming).</p>
 
 <h2 id="script-recipe">Script Recipe</h2>
 
-<p>Here’s a script which you can modify based on your local paths and desired buffer distances. It is recommended that each line be run sequentially in the <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/What_is_the_Python_window/002100000017000000/">Python window of ArcMap</a> which will render the geographic outputs so you can visually inspect the process.</p>
+<p>Here’s a script which you can modify based on your local paths and desired buffer distances. It is recommended that each line be run sequentially in the <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#/What_is_the_Python_window/002100000017000000/" target="_blank">Python window of ArcMap</a> which will render the geographic outputs so you can visually inspect the process.</p>
 
 <noscript><pre>400: Invalid request
 </pre></noscript>
@@ -294,12 +294,12 @@
 
 <h2 id="future-work">Future Work</h2>
 <ul>
-  <li>Generate GeoJSON for storage as a shapes object. Easiest for now is to drag and drop *.shp files into <a href="http://mapshaper.org">mapshaper.org</a>.</li>
+  <li>Generate GeoJSON for storage as a shapes object. Easiest for now is to drag and drop *.shp files into <a href="http://mapshaper.org" target="_blank">mapshaper.org</a>.</li>
   <li>Fold this script into a function as part of the ohi-arcgis and ohi-opengis modules.</li>
   <li>Create a global base layer extending the finest GADM subdivision and desktop functions to operate on this layer, which will greatly reduce the processing time (by removing the Create Thiessen Polygons step).</li>
   <li>Create a web service for extraction of any country and subdivision buffer offshore or inshore.</li>
-  <li>Create a custom <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//003r0000001n000000">Albers Equal Area</a> projection assigning the parallels to 1/6th of the EEZ extent to minimize distortion (a la <a href="http://code.env.duke.edu/projects/mget/attachment/ticket/231/project_optimal_albers.py">project_optimal_albers.py</a>).</li>
-  <li>generate <a href="https://github.com/mbostock/topojson">TopoJSON</a> for display in the OHI Toolbox mapping interface which minimizes the storage size by removal of redundant vertices of polygon shared borders. (Bonus: <a href="http://blog.thematicmapping.org/2013/06/converting-shapefiles-to-topojson.html">Github rendering</a>. <a href="http://bost.ocks.org/mike/map/">How</a>: <a href="https://github.com/mbostock/topojson/wiki/Command-Line-Reference">topojson cmd</a> or <a href="http://www.mapshaper.org">MapShaper.org</a> )</li>
+  <li>Create a custom <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//003r0000001n000000" target="_blank">Albers Equal Area</a> projection assigning the parallels to 1/6th of the EEZ extent to minimize distortion (a la <a href="http://code.env.duke.edu/projects/mget/attachment/ticket/231/project_optimal_albers.py">project_optimal_albers.py</a>).</li>
+  <li>generate <a href="https://github.com/mbostock/topojson" target="_blank">TopoJSON</a> for display in the OHI Toolbox mapping interface which minimizes the storage size by removal of redundant vertices of polygon shared borders. (Bonus: <a href="http://blog.thematicmapping.org/2013/06/converting-shapefiles-to-topojson.html" target="_blank">Github rendering</a>. <a href="http://bost.ocks.org/mike/map/" target="_blank">How</a>: <a href="https://github.com/mbostock/topojson/wiki/Command-Line-Reference" target="_blank">topojson cmd</a> or <a href="http://www.mapshaper.org" target="_blank">MapShaper.org</a> )</li>
 </ul>
 
 	</div>
@@ -310,203 +310,27 @@
     <footer>
     	<div class="footer-inner">
     		<div class="grid">
-	    		<div class="col-1-8">
-	        		<a class="brand" href="/new-site"><img src="/new-site/assets/themes/OHI/img/OHI-Science-logo-BW.png" /></a>
+	    		<div class="col-1-3">
+	        		<a class="brand" href="/new-site/"><img src="/new-site/assets/themes/OHI/img/OHI-Science-logo-BW.png" /></a>
 	        	</div>
-	        	<nav class="col-7-8">
-	        		<ul>
-	        		        
-    
-    	<li>
-	
-	
-		<a href="/new-site/phases/">OHI+</a>
-	
-	
-		<ul class="sub-nav">
-			
-    
-    	<li>
-	
-	
-		<a href="/new-site/phases/#learn">Learn</a>
-	
-	
-	
-	</li>
-
-    
-    	<li>
-	
-	
-		<a href="/new-site/phases/#plan">Plan</a>
-	
-	
-	
-	</li>
-
-    
-    	<li>
-	
-	
-		<a href="/new-site/phases/#conduct">Conduct</a>
-	
-	
-	
-	</li>
-
-    
-    	<li>
-	
-	
-		<a href="/new-site/phases#inform">Inform</a>
-	
-	
-	
-	</li>
-
-
-		</ul>
-	
-	
-	</li>
-
-    
-    	<li>
-	
-	
-		<a href="/new-site/resources/">Resources</a>
-	
-	
-		<ul class="sub-nav">
-			
-    
-    	<li>
-	
-	
-		<a href="/new-site/resources/tools/">Tools</a>
-	
-	
-	
-	</li>
-
-    
-    	<li>
-	
-	
-		<a href="/new-site/manual/">Manual</a>
-	
-	
-	
-	</li>
-
-    
-    	<li>
-	
-	
-		<a href="/new-site/resources/publications/">Publications</a>
-	
-	
-	
-	</li>
-
-
-		</ul>
-	
-	
-	</li>
-
-    
-    	<li>
-	
-	
-		<a href="/new-site/projects/">Projects</a>
-	
-	
-	
-	</li>
-
-    
-    	<li>
-	
-	
-		<a href="/new-site/about/">About</a>
-	
-	
-		<ul class="sub-nav">
-			
-    
-    	<li>
-	
-	
-		<a href="/new-site/news">News</a>
-	
-	
-	
-	</li>
-
-    
-    	<li>
-	
-	
-		<a href="/new-site/about/#what-is-the-ocean-health-index">What is OHI</a>
-	
-	
-	
-	</li>
-
-    
-    	<li>
-	
-	
-		<a href="/new-site/about/#what-is-ohi">What is OHI+?</a>
-	
-	
-	
-	</li>
-
-    
-    	<li>
-	
-	
-		<a href="/new-site/about/#who-we-are">Who We Are</a>
-	
-	
-	
-	</li>
-
-
-		</ul>
-	
-	
-	</li>
-
-    
-    	<li>
-	
-	
-		<a href="/new-site/forum/">Forum</a>
-	
-	
-	
-	</li>
-
-
-	        		</ul>
-	        	</nav>
-	        	<div class="col-1-4 right contact">
-	        		<h4>Contact Us</h4>
+	        	<div class="col-1-2 contact right">
 	        		<ul>
 	        			<li><a href="/new-site/forum"><img src="/new-site/assets/themes/OHI/img/forum-icon.png" class="icon" /><span>Forum</span></a></li>
-	        			<li><a href="http://www.twitter.com/OHIScience"><img src="/new-site/assets/themes/OHI/img/twitter-icon.png" class="icon" /> <span>@OHIScience</span></a></li>
+	        			<li><a href="http://www.twitter.com/OHIScience" target="_blank"><img src="/new-site/assets/themes/OHI/img/twitter-icon.png" class="icon" /> <span>@OHIScience</span></a></li>
 	        			<li><a href="mailto:lowndes@nceas.ucsb.edu"><img src="/new-site/assets/themes/OHI/img/email-icon.png" class="icon" /><span>lowndes@nceas.ucsb.edu</span></a></li>        			
 	        		</ul>
 	        	</div>
 	        </div>
-	        <div class="grid links">
-	        	<a href="/new-site/citation-policy" class="col-1-4 offset-1-4">Our Citation Policy</a>
-	        	<a href="https://oceanhealthindex.org" class="col-1-4" target="_blank">OceanHealthIndex.org</a>
-	        </div>
+        	<div class="links">
+        		<div class="links-inner">
+	        		<a href="/new-site/manual/#appendix-6-frequently-asked-questions-faqs">FAQ</a>
+	        		<a href="/new-site/manual">Manual</a>
+	        		<a href="/new-site/resources/publications">Publications</a>
+	        		<a href="/new-site/citation-policy">Our Citation Policy</a>
+	        		<a href="https://oceanhealthindex.org" target="_blank">OceanHealthIndex.org</a>
+	        		<a href="/new-site/about#who-we-are">Contact</a>
+	        	</div>
+        	</div>
         </div>
     </footer>
 
