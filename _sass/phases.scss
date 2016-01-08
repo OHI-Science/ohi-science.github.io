@@ -21,6 +21,11 @@ $inform-color: $primary-color;
 .inform,
 [phase='inform']{ 
 	h2{ color: $inform-color; }
+	
+}
+
+.crossword-pattern [phase='inform'] h2{
+	color: #4C86E6;
 }
 
 .arc-container:hover .arc,

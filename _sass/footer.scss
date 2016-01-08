@@ -1,15 +1,17 @@
-$footer-height: 311px;
+$footer-height: 137px;
 
 footer{
-	background-color: #dedede;
+	background-color: #D2CFCF;
 	padding: #{$pad-large/2} $pad-large 0px $pad-small;
 	width: 100%;
 	min-height: $footer-height;
 	position: absolute;
 	bottom: 0px;
 	
-	> .grid{
-		margin-bottom: 0px;
+	.footer-inner{
+		> .grid{
+			margin-bottom: $pad-small;	
+		}
 	}
 	
 	h4{
@@ -56,17 +58,27 @@ footer{
 		}
 	}
 	
+	.brand > img{
+		max-height: 65px;
+	}
+	
 	.links{
-	    background-color: #D2CFCF;
 	    padding: $pad-small $pad-small #{$pad-small*2} $pad-small;
 	    margin-bottom: 0px;
 	    width: calc(100% + #{$pad-large*2});
 	    margin-left: -$pad-large;
+	    
+	    .links-inner{
+	    	max-width: 800px;
+	    	margin-left: auto;
+	    	margin-right: auto;
+	    }
 		
 		 a{
 			color: $primary-color;
 			text-align: center;
 			margin-right: 2%;
+			padding-right: $pad-small;
 			
 			&:not(:last-child){
 				border-right: 1px solid #555;
@@ -83,6 +95,8 @@ footer{
 		
 		li{
 			margin-bottom: $pad-small;
+			display: inline;
+			margin-right: $pad-large / 2;
 		}
 		
 		a{
