@@ -2,7 +2,7 @@ function getIssues(){
 		
 		var issuesHTML = "<ul class='forum-list'>";
 		
-		$.get("https://github.com/OHI-Science/ohi-science.github.io/issues", function(data){
+		$.get("https://api.github.com/repos/OHI-Science/ohi-science.github.io/issues", function(data){
 			
 			var numSess = data.length,
 				session;
