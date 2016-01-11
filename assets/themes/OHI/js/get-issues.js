@@ -1,11 +1,8 @@
----
----
-
 function getIssues(){
 		
 		var issuesHTML = "<ul class='forum-list'>";
 		
-		$.get("{{ site.github }}/issues", function(data){
+		$.get("https://api.github.com/repos/OHI-Science/ohi-science.github.io/issues", function(data){
 			
 			var numSess = data.length,
 				session;
@@ -16,12 +13,12 @@ function getIssues(){
 				
 				var labels = session.labels.length;
 				for(var x=0; x<labels; x++){
-					issuesHTML += "<span class='label label-info' style='background-color:#" + session.labels[x].color + "'><a href='https://github.com/NCEAS/open-science-codefest/labels/" + session.labels[x].name + "'>" + session.labels[x].name + "</a></span>";
+					issuesHTML += "<span class='label label-info' style='background-color:#" + session.labels[x].color + "'><a href='https://github.com/NCEAS/open-science-codefest/labels/" + session.labels[x].name + "' target='_blank'>" + session.labels[x].name + "</a></span>";
 				}
 				
-				issuesHTML += "<span class='user subtle'> Posted by <a href='" + session.user.html_url + "'>" + session.user.login + "</a></span>";
+				issuesHTML += "<span class='user subtle'> Posted by <a href='" + session.user.html_url + "' target='_blank'>" + session.user.login + "</a></span>";
 	
-				issuesHTML += "</span><a class='btn' href='" + session.html_url + "'>View or Reply <i class='icon icon-right lnr lnr-arrow-right-circle'></i></a>";
+				issuesHTML += "</span><a class='btn' href='" + session.html_url + "' target='_blank'>View or Reply <i class='icon icon-right lnr lnr-arrow-right-circle'></i></a>";
 	
 				issuesHTML += "<div class='clear'></div></li>";
 			}
