@@ -7,7 +7,7 @@ category: news
 tags: [news]
 ---
 
-The Ocean Health Index team is proud to announce the launch of our redesigned [**OHI-Science.org**](http://ohi-science.org/) website. [**OHI-Science.org**](http://ohi-science.org/) is the primary source of the Ocean Health Index (OHI)’s scientific information and tools and provides instruction for conducting independently-led OHI assessments, called OHI+.
+The Ocean Health Index team is proud to announce the launch of our redesigned [**OHI-Science.org**](http://ohi-science.org/) website. [**OHI-Science.org**](http://ohi-science.org/) is the primary source of the Ocean Health Index (OHI)’s scientific information and tools and provides instruction for conducting independently led OHI assessments, called OHI+.
 
 Since the OHI framework was developed in 2012 ([Halpern et al., 2012, *Nature*](/resources/publications#global)), eleven assessments have been completed, four of which are OHI+ assessments independently led by academic or government groups. The redesigned website incorporates knowledge and experience gained through these assessments to provide the best possible information and methodology for conducting an OHI+.
 
