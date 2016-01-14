@@ -7,6 +7,8 @@ $(document).ready(function(){
 		inform: "#2a58a5"
 	}
 	
+	var startingHTML = $("#summary-container").html();
+	
 	$(".arc-container *").on("mouseover", function(e){
 		var node = e.target,
 			container;
@@ -24,11 +26,19 @@ $(document).ready(function(){
 			
 		$("#summary-container .summary").html(summary).attr("phase", phase);
 		
-		//Make the other arcs look unselected
-		
+		//Make the other arcs look unselected		
 		$(".arc-container .arc").attr("fill", "#697484").attr("stroke", "0px");
 		$(path).attr("fill", phaseColors[phase]).attr("stroke", "3px");
 	});
 
+	$("svg .reset").on("mouseover", function(e){
+		//Reset the graphic
+		$("#summary-container").html(startingHTML).attr("phase", "");
+		$(".arc-container").each(function(i, arc){
+			var phase = $(arc).attr("phase");
+			var path = $(arc).find(".arc");
+			path.first().attr("fill", phaseColors[phase]);
+		});
+	});
 	     
 });
