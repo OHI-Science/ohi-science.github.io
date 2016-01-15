@@ -14,15 +14,12 @@ Ideal indicators mentioned above are often scarce, especially percent poverty or
 
 > In the U.S. West Coast Assessment (2014), three metrics were used to define **Artisanal Opportunity** that you can use to study:
 
-<span style="font-size=0.9em">
-
 | Type of Access | Data Used | Reference Point |
 |-----|------|-------|
 | Physical | Number of coastal access points per mile | 1 coastal access point per mile |
 | Economic | Change in gas price over time | No change in gas price |
 | Resource | Condition of fish stocks through NOAA Fish Stock Index | Perfect sustainability score on FSI |
 
-</span>
 
 You should include data that are distinct from the catch data used in other areas of **Food Provision**. So once you find catch data and access data, you should think about which goals to use it in. For instance, if you find tonnage of artisanally-caught fish, you should include that elsewhere. In any case, you will likely modify the default Global Assessment model using different and better-resolved data.
 
@@ -33,7 +30,6 @@ The **reference point for this goal** would likely be a metric of having full ac
 
 **_Examples of the Approach_**
 
-<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------|
@@ -43,4 +39,3 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **U.S. West Coast (2014)** | This study developed a model using three key variables of physical and economic access to coastal areas, and access to biological resources. The physical accesses was shore-based fishing measured by percent of coastline within a mile coastal access points. Economic access was no increase in fuel price compared to income. Biological access was the health of the fish stocks. | The target here is to maximize the amount of public access along the coast, therefore a perfect score results when each part of a region’s coastline has a coastal access point within 1 mile. The study calculated these scores using a raster map allocation. | This approach did not model demand or have species-specific information. It assumed that as long as there are no obstacles to pursuing artisanal fishing, the goal was fully achieved. These data better capture the nature of small-scale fisheries in the study area than the Global model.
 **China (2015)** | Status model is rewritten and is similar to the 2014 U.S. West Coast assessment. It is based on the three indicators: <br />  &nbsp;&nbsp;&nbsp;- capacity for exports, measured by the number of portsk <br />  &nbsp;&nbsp;&nbsp;- the need for artisanal fishing opportunities, represented by the number of artisanal fishermen <br />  &nbsp;&nbsp;&nbsp;- economic capacity, measured by the ratio of diesel price and disposable income. | The spatial reference point is the maximum value across all region and all years.
 
-</span>

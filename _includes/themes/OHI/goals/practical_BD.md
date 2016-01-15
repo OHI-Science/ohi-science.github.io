@@ -28,7 +28,6 @@ If spatial distribution information for individual species is not available, the
 
 You should also think about the **reference point** for scores that signal poor Biodiversity status. You can use the same threshold as the Global Assessments which say that _places with extinction risk scores greater than seventy-five percent will get scores of zero_. This is an estimation based on the literature of mass extinctions (e.g., Barnosky *et al*., 2011) and could be applied across scales. You don’t need all species extinct for there to be a zero, so you will have to choose how to rescale it, and whether the risk effects are linear or nonlinear.  
 
-<span style="font-size:0.9em">
 
 **_Additional Note: Defining spatial regions and map considerations_**
 
@@ -47,12 +46,10 @@ Scientific name | IUCN Category | Trend | Map Cells
 *Conus roeckeli* | Least Concern | Unknown | 1
 *Acropora palmata* | Critically Endangered | Stable | 1158
 
-</span>
 
 
 **_Examples of the Approach_**
 
-<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
@@ -61,7 +58,6 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **Brazil (2014)** | The status of 504 assessed species was calculated as the threat status-weighted average of species occurring in the Brazilian EEZ. The sub-goal was calculated at the national level, giving equal weight to all species occurring in Brazilian waters. Threat weights were assigned based on the IUCN threat categories status of each species. | The reference point was the same was Global 2012. | This study substituted global assessment data for regional data whenever available. This study did not weight by area of occurrence as in Global 2012 because distribution maps were not available for all species.
 **U.S. West Coast (2014)** | The model description and reference point were the same as Global 2012, with regional data available for threat categories. | The same reference point was used as the Global model | This followed the Global model, but used local data. This study did not weigh by area.
 
-</span>
 
 #### Sub-goal: Habitats
 The Habitats sub-goal includes all habitats in the study area, and assess their health condition and coverage area.
