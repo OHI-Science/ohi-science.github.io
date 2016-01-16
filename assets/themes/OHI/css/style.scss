@@ -296,3 +296,9 @@ a {
 	padding-bottom: $pad-large;
 	margin-bottom: $pad-large;
 }
+.search-result{
+	border-bottom: 1px solid #999;
+	padding-bottom: $pad-small;
+	 
+	 a { font-size: 1.3em; }
+}

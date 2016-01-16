@@ -5,6 +5,7 @@ description: About The Ocean Health Index
 comments: false
 group: navigation
 header: whale
+search-terms: about contact email about us
 ---
 {% include JB/setup %}
 
