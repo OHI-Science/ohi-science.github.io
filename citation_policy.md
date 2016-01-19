@@ -17,7 +17,7 @@ For references to updated models or the 2013 (and, updated 2012) country scores,
   *Ocean Health Index. 2015. ohicore v2015.1: core Ocean Health Index functions, [date downloaded]. National Center for Ecological Analysis and Synthesis, University of California, Santa Barbara. Available at: https://github.com/OHI-Science/ohicore/releases/edit/v2015.1*
 
 - **OHI manual** This resource describes how to conduct an assessment:
-*Ocean Health Index. 2015. Ocean Health Index Toolbox Manual [date]. National Center for Ecological Analysis and Synthesis, University of California, Santa Barbara. Available at: http://ohi-science.org/manual* 
+*Ocean Health Index. 2016. Ocean Health Index Assessment Manual. National Center for Ecological Analysis and Synthesis, University of California, Santa Barbara. Available at: http://ohi-science.org/manual* 
 
 
 #### If you are diving deeper and using the most recent global datasets or methods, please cite:
