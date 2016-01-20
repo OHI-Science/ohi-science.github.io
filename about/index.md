@@ -15,7 +15,7 @@ Determining ocean health requires an approach that integrates social, economic, 
 
 Originally developed by an interdisciplinary team of scientists let by Halpern *et al*. and published in the journal *Nature* in 2012, the OHI framework is standardized yet customizable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
 
-![](https://docs.google.com/drawings/d/1Ar8Zzs94zLOy-NxwCgHOiMAfvz69Ab-APZDsoE5_M6I/pub?w=624&h=480)
+![](https://docs.google.com/drawings/d/1cv0dUUwHjCFVxw7fZTpnuHZEgRO1LX6nHMCOCra-ZhQ/pub?w=960&h=500)
 
 Assessments using the OHI framework are facilitated by the OHI Toolbox, a suite of collaborative, open-source tools and instruction that provides structure for data organization and storage, data processing and goal modeling. The Toolbox enables assessments to be transparent, reproducible through access to detailed methods and computational code, repeatable with the ability to modify methods and computational code, and communicable with distillation and visualization to a wide audience.
 
