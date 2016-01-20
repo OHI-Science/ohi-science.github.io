@@ -11,7 +11,7 @@ search-terms: about contact email about us
 
 ## What is the Ocean Health Index?
 
-Determining ocean health requires an approach that integrates social, economic, and environmental information. **The Ocean Health Index (OHI) is an assessment framework that does this by measuring progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide**. By analyzing these goals together and scoring them from 0-100, OHI assessments provide a comprehensive picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
+**Determining ocean health requires an approach that integrates social, economic, and environmental information. The Ocean Health Index (OHI) is an assessment framework that does this by measuring progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide**. By analyzing these goals together and scoring them from 0-100, OHI assessments provide a comprehensive picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
 
 Originally developed by an interdisciplinary team of scientists let by Halpern *et al*. and published in the journal *Nature* in 2012, the OHI framework is standardized yet customizable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
 
