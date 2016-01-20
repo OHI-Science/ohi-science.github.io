@@ -66,6 +66,7 @@ $break-large: 1024px;
 @import 'phases';
 @import 'manual';
 @import 'stripes';
+@import 'goals';
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,300);
 @font-face {
@@ -294,4 +295,10 @@ a {
 	border-bottom: 1px solid $color-light;
 	padding-bottom: $pad-large;
 	margin-bottom: $pad-large;
+}
+.search-result{
+	border-bottom: 1px solid #999;
+	padding-bottom: $pad-small;
+	 
+	 a { font-size: 1.3em; }
 }

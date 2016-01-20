@@ -23,60 +23,89 @@ $nav-height: $logo-height + $pad-small * 2;
 	}
 	.icon{
 		color: #FFF;
-	}
-}	
-.nav{	
-	> li {
-	    float: left;
-	    margin-right: 20px;
-	    list-style: none;
-	}
-	li a,
-	li .icon{
-		font-size: 1.2em;
-	    text-transform: uppercase;
-	    font-weight: lighter;
-	    color: white;
-	    line-height: $logo-height;
-	}
-	li a:hover,
-	li .icon:hover{
-		color: $color-light;
-	}
-	#google_translate_element{ 
-		a{
-			line-height: 1em;
+	}	
+	.nav{	
+		> li {
+		    float: left;
+		    margin-right: 20px;
+		    list-style: none;
 		}
-		
-		.goog-te-combo{
-			    border: 1px solid white;
-		    background-image: none;
-		    background-color: transparent;
+		li a,
+		li .icon{
+			font-size: 1.2em;
+		    text-transform: uppercase;
+		    font-weight: lighter;
 		    color: white;
-		    font-family: $font-stack;
-		    font-size: 1em;
-		    height: 2em;
+		    line-height: $logo-height;
 		}
-		
-		.goog-te-gadget,
-		.goog-logo-link{
-			color: white;
+		li a:hover,
+		li .icon:hover{
+			color: $color-light;
 		}
-	}
-	.sub-nav{
-		padding-left: 0px;
-		position: absolute;
-		display: none;
-	
-		> li{
-			display: block;
-			
+		#google_translate_element{ 
 			a{
-				text-transform: capitalize;
+				line-height: 1em;
+			}
+			
+			.goog-te-combo{
+				    border: 1px solid white;
+			    background-image: none;
+			    background-color: transparent;
+			    color: white;
+			    font-family: $font-stack;
 			    font-size: 1em;
-			    line-height: 2em;
+			    height: 2em;
+			}
+			
+			.goog-te-gadget,
+			.goog-logo-link{
+				color: white;
 			}
 		}
+		.sub-nav{
+			padding-left: 0px;
+			position: absolute;
+			display: none;
+		
+			> li{
+				display: block;
+				
+				a{
+					text-transform: capitalize;
+				    font-size: 1em;
+				    line-height: 2em;
+				}
+			}
+		}
+		.icon.search{
+			cursor: pointer;
+		}
+		
+			
+		input[type="text"]{
+			background-color: transparent;
+		    -webkit-appearance: none;
+		    text-shadow: none;
+		    border: 1px solid white;
+		    border-radius: 4px;
+		    height: 25px;
+		    color: white;
+		    font-size: 1em;
+		    padding: 5px;
+		}
+		input[type="submit"]{
+		   background-color: transparent;
+		   border: 1px solid white;
+		   border-radius: 5px;
+		   color: white;
+		   font-size: 1em;
+		}
+				
+		.hidden-input{
+			display: none;
+		}
+		
+		
 	}
 }
 #nav-trigger{

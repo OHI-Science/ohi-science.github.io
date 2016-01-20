@@ -40,11 +40,20 @@ $(document).ready(function(){
     	$(".topbar").animate({ height: topBarStartingHeight }, 100);
     });
     
+    //*** Search icon ****
+    $(".topbar .icon.search").on("mouseover", function(e){
+    	e.preventDefault();
+    	var icon = $(".topbar .icon.search");
+    	
+    	$(icon).parent("form").find(".hidden-input").toggle(300);
+    	
+    });
+    
 });
 
 //*** Anchor tag offset for fixed menu ***
 var anchorOffset = function(force){
-	if((window.location.hash && !$("body").is(".manual")) || force){
+	if((window.location.hash && !$("body").is(".manual")) || (force && !force.target)){
 		var offset = $(".topbar").length? $(".topbar").outerHeight() + 20 : 100;
 		
 		$(window).scrollTop($(window.location.hash).offset().top - offset);

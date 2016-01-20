@@ -5,18 +5,19 @@ description: About The Ocean Health Index
 comments: false
 group: navigation
 header: whale
+search-terms: about contact email about us
 ---
 {% include JB/setup %}
 
 ## What is the Ocean Health Index?
 
-Determining ocean health requires an approach that integrates social, economic, and environmental information. The Ocean Health Index (OHI) is an assessment framework that does this by measuring progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide. By analyzing these goals together and scoring them from 0-100, OHI assessments provide a comprehensive picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
+**Determining ocean health requires an approach that integrates social, economic, and environmental information. The Ocean Health Index (OHI) is an assessment framework that does this by measuring progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide**. By analyzing these goals together and scoring them from 0-100, OHI assessments provide a comprehensive picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
 
 Originally developed by an interdisciplinary team of scientists let by Halpern *et al*. and published in the journal *Nature* in 2012, the OHI framework is standardized yet customizable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
 
-![](https://docs.google.com/drawings/d/1Ar8Zzs94zLOy-NxwCgHOiMAfvz69Ab-APZDsoE5_M6I/pub?w=624&h=480)
+![](https://docs.google.com/drawings/d/1cv0dUUwHjCFVxw7fZTpnuHZEgRO1LX6nHMCOCra-ZhQ/pub?w=960&h=500)
 
-Assessments using the OHI framework are facilitated by the OHI Toolbox, a suite of collaborative, open-source tools and instruction that provides structure for data organization and storage, data processing and goal modeling. The Toolbox enables assessments to be transparent, reproducible through access to detailed methods and computational code, repeatable with the ability to modify methods and computational code, and communicable with distillation and visualization to a wide audience.
+Assessments using the OHI framework are facilitated by the OHI Toolbox, a suite of collaborative, open-source tools and instruction that provides structure for data organization and storage, data processing and goal modeling. The Toolbox enables assessments to be **transparent**, **reproducible** through access to detailed methods and computational code, and **repeatable** with the ability to modify methods and computational code. The results are visualized in a _Flower Plot_ for **easy communication** with a wide audience - each petal represents one goal and its length is with the score of the goal. 
 
 For more information, please see our sister website at <a href="https://www.oceanhealthindex.org" target="_blank"> <i class="icon icon-right lnr lnr-exit"></i> www.OceanHealthIndex.org</a>
 
