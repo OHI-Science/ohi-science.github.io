@@ -17,7 +17,7 @@ Originally developed by an interdisciplinary team of scientists let by Halpern *
 
 ![](https://docs.google.com/drawings/d/1cv0dUUwHjCFVxw7fZTpnuHZEgRO1LX6nHMCOCra-ZhQ/pub?w=960&h=500)
 
-Assessments using the OHI framework are facilitated by the OHI Toolbox, a suite of collaborative, open-source tools and instruction that provides structure for data organization and storage, data processing and goal modeling. The Toolbox enables assessments to be transparent, reproducible through access to detailed methods and computational code, repeatable with the ability to modify methods and computational code. The results are visualized in a Flower Plot for easy communication with a wide audience. 
+Assessments using the OHI framework are facilitated by the OHI Toolbox, a suite of collaborative, open-source tools and instruction that provides structure for data organization and storage, data processing and goal modeling. The Toolbox enables assessments to be transparent, reproducible through access to detailed methods and computational code, repeatable with the ability to modify methods and computational code. The results are visualized in a _Flower Plot_ for easy communication with a wide audience - each pedal represents one goal and its size correlates with the score of that goal. 
 
 For more information, please see our sister website at <a href="https://www.oceanhealthindex.org" target="_blank"> <i class="icon icon-right lnr lnr-exit"></i> www.OceanHealthIndex.org</a>
 
