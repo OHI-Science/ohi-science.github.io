@@ -26,7 +26,7 @@ After identifying the list of iconic species, you need to find a matrix to refle
 
 **_Examples of the Approach_**
 
-<span style="font-size:0.9em">
+
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
@@ -36,7 +36,7 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **U.S. West Coast (2014)** | This study replaced the global IUCN risk assessments with regionally-specific species assessments provided by NatureServe. | The reference point was the same as Global 2012. | Same as Global 2012, with regional data for the threat categories.
 **China (2015)** |Status model is similar to global assessments. However, average extinction risk of all assessed species was only calculated as the weighted sum of the number of species in each threat category, since habitat area per species is not obtainable. |The reference point was the same as Global 2012.|
 
-</span>
+
 
 #### Sub-goal: Lasting Special Places
 This sub-goal focuses on those geographic locations that hold particular value for aesthetic, spiritual, cultural, recreational or existence reasons, and assesses how well they are protected.
@@ -63,7 +63,7 @@ Global assessment incorporated both marine and terrestrial protected areas. Howe
 
 **_Examples of the Approach_**
 
-<span style="font-size:0.9em">
+
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
@@ -73,4 +73,4 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **U.S. West Coast (2014)** | The model was the same as Global 2012. | The reference point was the same as Global 2012. |  The study used assumptions to define 'special.'
 **China (2015)** |Status model is similar to global assessments | The reference point is only 5% protection, a target set by national marine protection policies to achieve by 2020.| Only coastal marine protected areas was considered, since protected coastline information is not available.
 
-</span>
+

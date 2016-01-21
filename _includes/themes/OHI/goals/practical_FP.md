@@ -213,7 +213,7 @@ produced have credibility.
 
 #### Examples of the Approach
 
-<span style="font-size:0.9em">
+
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------|
@@ -222,7 +222,7 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **Brazil (2014)** | The status was calculated in the same manner as Global 2012, with a modified sustainability term. | As in Global 2012, the reference point is based on an estimate mMSY. | This was calculated in the same manner as Global 2012 using local-scale data on exploitation category of species caught within Brazil’s EEZ as a catch-based sustainability index.
 **U.S. West Coast (2014)** | The status was based on B/B<sub>MSY</sub> for each landed stock and fishing mortality that can deliver maximum sustainable yield (F/FMSY). There were stock assessments for 41 species with historical data available. Estimates were extracted for each species and then assigned to each region based on the contribution of each species in each region to the overall catch in that region, along with weighting factors. |  The reference point was a functional relationship that accounted for fishing pressure. The approach produced lower scores for species where both under-fishing and overfishing are occurring, but did not punish as much for under-fishing of stocks. | This study used formal stock assessments rather than data-poor estimates from catch data. The use of historical information was useful in creating sub-regional scores for this goal. This study also tested the use of a recently published data-poor approach (Costello *et al.* 2012) to obtain B/ B<sub>MSY</sub> values for the remaining stocks.
 
-</span>
+
 
 #### Mariculture sub-goal
 
@@ -323,4 +323,4 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **U.S. West Coast (2014)** | The status was calculated as the sustainable production density of shellfish biomass from mariculture relative to a target level of production density for each state within the region. | The reference point was a target level of production increase as proposed by NOAA | The approach was similar to the Global but the reference point was made using better information about physical and social limitations on mariculture allotments.
 **China (2015)** | Status model is similar to the 2012 global assessment. But the status model was based on tonnes of mariculture species per habitat identified as suitable area by the Chinese government.| The spatial reference point was the region with the highest value. | Using designated mariculture area for calculations provides a more realistic picture of the status of mariculture. Currently Maricutlure Sustainability Index (MSI) values were obtained from the global study. More data on water quality standards and food sources (eg. species, origin, etc) will help determine the sustainability of mariculture.
 
-</span>
+

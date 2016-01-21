@@ -114,7 +114,7 @@ will have to account for that.
 
 **_Examples of the Approach_**
 
-<span style="font-size:0.9em">
+
 
 Assessment | Developing the Model  | Setting the Reference Point | Other considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
@@ -124,4 +124,4 @@ Assessment | Developing the Model  | Setting the Reference Point | Other conside
 **U.S. West Coast (2014)** | This goal was not included in this assessment due to lack of data availability. | N/A | There were too few data available on local-scale harvest, and in the past had occurred mostly in one Californian region. Including this goal in the assessment would have lowered the overall Index score.
 **China (2015)** | Status model is the same as in global assessments. Three natural products were assessed: sea salt, chemical products, and bio-pharmaceuticals. | The reference point was the 5-year production average due to large disparities in production among provinces.| The set reference point resulted in high scores since it is easy to achieve a 5-year average.
 
-</span>
+
