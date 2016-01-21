@@ -8,7 +8,7 @@ tags : [North America]
 
 **Status**: Completed (2014)  
 **Leading group**: National Center for Ecological Assessment and Synthesis at UC Santa Barbara and Conservation International  
-**Contact**: Dr. Julia Stewart Lowndes (lowndes at nceas.ucsb.edu)  
+**Contact**: Dr. Julia Stewart Lowndes (lowndes @ nceas.ucsb.edu)  
 **Description**: Test of the OHI framework for five coastal sub-regions, using ~80% local data and modified goal models.
 
 [publication](/resources/publications#us-west-coast) 
