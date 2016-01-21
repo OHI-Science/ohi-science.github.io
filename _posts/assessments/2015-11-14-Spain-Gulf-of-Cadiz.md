@@ -8,5 +8,5 @@ tags : [Europe, OHI+]
 
 **Status**: Active  
 **Leading group**: Spanish Oceanography Institute  
-**Contact**: Marcos Llope (marcos.llope at cd.ieo.es)  
+**Contact**: Marcos Llope (marcos.llope @ cd.ieo.es)  
 **Description:** This assessment will evaluate the Gulf of Cadiz and compare its health through time.
