@@ -3,6 +3,7 @@ function setMaxHeight(){
 	var height = $(window).outerHeight(true) - $(".topbar").outerHeight(true);
 	
 	$("#TOC").css("max-height", height);
+	$(".fixed-side-nav").css("height", height);
 }
 
 //Will listen for scrolling and highlight the corresponding menu item in the TOC (#TOC)
@@ -43,10 +44,12 @@ function highlightTOC(sectionID){
 }
 	
 $(document).ready(function(){
-	setMaxHeight();
-	$(window).resize(setMaxHeight);
-	listenForScroll();
-	highlightTOC(window.location.hash.replace("#", ""));
+	if($("body").is(".fixed-side-nav-page")){
+		setMaxHeight();
+		$(window).resize(setMaxHeight);
+		listenForScroll();		
+		highlightTOC(window.location.hash.replace("#", ""));
+	}
 });
 	
 	

@@ -53,34 +53,36 @@ $CW-color: #904E9E;
 	}
 
 }
-.fixed-side-nav.goals{
-   	width: 20%;
-   	min-width: 280px;
-    position: fixed;
-   	
+.fixed-side-nav.goals{	   	
    	.nav .nav-item{
    		margin-bottom: $pad-small;
+   		height: 57px;
+	    height: calc(10% - 10px);
+	    min-height: 40px;
+	    clear: both;
 	   	
+	   	a{
+	   		height: 100%;
+	   	}
 	   	img{
-		    width: 70px;
+			height: 100%;
+			max-height: 90px;
 		    margin-right: 20px;
 		    float: left;
 	   	}
    	
-	   	a{
+	   	span{
 	   		font-size: 1.1em;
 	   		font-weight: bold;
-	   		line-height: 1.5em;
 	   		float: left;
-	   		width: calc(100% - 90px);	   		
+	   		width: calc(100% - 124px);
 	   	}
 	}
+	
+	.nav .nav-item.AO span,
+	.nav .nav-item.LE span{
+	}
 }
-.fixed-side-nav ~ .side-content{
-	margin-left: 22%;
-	padding-top: $nav-height;
-}
-
 .goals-container{
 	
 	> h3{

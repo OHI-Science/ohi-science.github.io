@@ -28,7 +28,7 @@ $(document).ready(function(){
     	
     	if(subnav.length > 0){
     		var height = subnav.length * 40 + topBarStartingHeight;
-        	$(".topbar").animate({ height: "200px" }, 100);
+        	$(".topbar").animate({ height: "230px" }, 100);
         	
         	$(".topbar .sub-nav").slideUp();
         	subnav.slideDown();
