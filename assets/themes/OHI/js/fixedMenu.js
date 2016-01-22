@@ -8,25 +8,27 @@ function setMaxHeight(){
 
 //Will listen for scrolling and highlight the corresponding menu item in the TOC (#TOC)
 function listenForScroll(){
-    var sectionHts = [],
+    var navHeight = $(".topbar").length ? $(".topbar").outerHeight() : 0, //Start cumulative height at the navbar height
     	sections =  $(".section[id]").not(".level4");
-   
-    $(sections).each(function(){
-    	sectionHts.push($(this).position().top);
-    });
-    
-    var middle = sectionHts.length / 2;
     
 	$(document).scroll(function() {
-	    var scrollTop = $(document).scrollTop() + 100,
-	    	start = scrollTop >= sectionHts[middle] ? middle : 0;
-	    	
-	    for(var i=start; i < sectionHts.length; i++){
-	    	if((scrollTop >= sectionHts[i]) && (scrollTop <= sectionHts[i+1])){
-	    		highlightTOC($(sections[i]).attr("id"));
-	    		break;
-	    	}
-	    }
+		var scrollTop = $(window).scrollTop() + navHeight,
+			found = false;
+		
+		$(sections).each(function(i){ 
+			if(found) return;
+			
+			var sectionHeader = $(this).children("h1, h2, h3"),
+				nextSectionHeader = $(sections[i+1]).children("h1, h2, h3"),
+				top = sectionHeader.length ? sectionHeader.offset().top : 99999999,
+				nextTop = nextSectionHeader.length ? nextSectionHeader.offset().top : 9999999;
+			
+			if((scrollTop >= top) && (scrollTop <= nextTop)){
+				highlightTOC( $(this).attr("id") );
+				found = true;
+			}
+						
+		});
 	});
 	
 	$("#TOC a").click(function(){
