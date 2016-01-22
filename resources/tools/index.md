@@ -11,9 +11,9 @@ Our team has developed tools for quantifying human impacts on and benefits from 
 
 The Ocean Health Index (OHI) is a framework to comprehensively and quantitatively evaluate ocean health. A healthy ocean is defined as one that sustainably delivers a range of benefits to people now and in the future. The framework was first published in *Nature* in 2012 and has two parts: a core part that is the same for all assessments and a tailored part that details what is assessed and how it will be represented for any specific assessment. 
 
-![](https://docs.google.com/drawings/d/1lDG36M2pBJ-7cQ4qwp2KB8lETIJtMjeqQPst20z8n6M/pub?w=576&h=96)
+![](https://docs.google.com/drawings/d/1lDG36M2pBJ-7cQ4qwp2KB8lETIJtMjeqQPst20z8n6M/pub?h=200)
 
-Assessments using the OHI framework can be conducted at different spatial scales and contexts. The OHI Science team uses the framework to conduct global assessments of ocean health annually from 2012-2015, with the 2016 assessment underway. The first global assessment was published accompanying the OHI framework in *Nature* 2012, and certain methods were improved for the second annual assessment published in *PLoS ONE* in 2015. With each annual assessment, models incoporate the most updated input information and processing techniques are evaluated and improved. Explore the <a href="https://github.com/OHI-Science/ohi-global/releases" target="_blank">data and methods used for OHI global assessments</a>, stored on GitHub. 
+Assessments using the OHI framework can be conducted at different spatial scales and contexts. The OHI Science team uses the framework to conduct global assessments of ocean health annually from 2012-2015, with the 2016 assessment underway. The first global assessment was published accompanying the OHI framework in *Nature* 2012, and certain methods were improved for the second annual assessment published in *PLoS ONE* in 2015. With each annual assessment, models incoporate the most updated input information and processing techniques are evaluated and improved. Explore the <a href="https://github.com/OHI-Science/ohi-global/releases" target="_blank">data and methods used for OHI global assessments (including Antarctica and the High Seas)</a>, stored on GitHub. 
 
 For more information, please see [publications](/resources/publications) about the OHI framework, assessments and supporting research, view [presentations](/resources/downloads) describing the framework, explore [current and on-going assessments](/projects), and learn more about [OHI goals](/goals).
 
@@ -75,8 +75,8 @@ These are technical data science references that are helpful for many uses, incl
 **Spatial Analysis**  
 - <a href="https://github.com/eco-data-science/spatial-analysis-R#introduction-to-spatial-analysis-in-r" target="_blank">Spatial analysis in R: Rasters</a>  
 - <a href="https://github.com/eco-data-science/spatial_analysis2_R#r-spatial-analysis-workshop-vectors-polygons-and-shapefiles" target="_blank">Spatial analysis in R: Vectors</a>
-- [Data visualization using ggmap - cheatsheet](https://github.com/OHI-Science/ohi-science.github.io/raw/3c6babb40348e62b322abadad086ece565411adf/assets/downloads/other/ggmapCheatsheet.pdf)
-- [A primer on coordinate reference systems](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/CRS.pdf)
+- [Data visualization using ggmap - cheatsheet](https://github.com/OHI-Science/ohi-science.github.io/raw/3c6babb40348e62b322abadad086ece565411adf/assets/downloads/other/ggmapCheatsheet.pdf)  
+- [A primer on coordinate reference systems](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/CRS.pdf)  
 - [Dealing with color in R](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/ColorDec82015.pdf)
 
 

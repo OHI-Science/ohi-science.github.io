@@ -19,7 +19,7 @@ The **reference point** used will depend upon the types of data. Does your count
 
 **_Examples of the Approach_**
 
-<span style="font-size:0.9em">
+
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
@@ -29,4 +29,4 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **U.S. West Coast (2014)** | There were data available for changes in participation in 19 different marine and coastal specific recreational activities over time. These observations were used to produce a predictive model that was employed to estimate participation rates in recent years. | The reference point was temporal, compared to 2000. | The approach took advantage of  time-series data. Participation rates more closely matched the intent of this goal and were a more robust proxy than international tourist arrivals data, and the reference point was spatial instead of temporal.
 **China (2015)** |Status model is based on the ratio of visitors and coastal area. | The spatial reference point was the region with the highest ratio across all years. |The number of visitors included both domestic and international visitors. Travel and Tourism Competitive Index (TTCI) was also incorporated.
 
-</span>
+

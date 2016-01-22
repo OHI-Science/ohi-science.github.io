@@ -153,3 +153,36 @@ $nav-height: $logo-height + $pad-small * 2;
 	}
 }
 
+.fixed-side-nav-page{
+	.fixed-side-nav{
+	   	width: 20%;
+   		min-width: 280px;
+    	position: fixed;	
+		height: #{ 768 - $nav-height - 10 };
+		background-color: #FFF;
+		
+		.nav{
+			height: 100%;
+			
+			.nav-item{
+				text-align: left;
+			}
+		}
+	}
+	.fixed-side-nav ~ .side-content{
+		margin-left: 22%;
+		padding-top: $nav-height;
+	}
+	.content > .fixed-side-nav:first-child{
+		padding-top: #{ $nav-height - 2 };	
+	}
+	footer{
+		margin-left: 22%;
+		width: 78%;
+	}
+	&.manual footer{
+		margin-left: 25%;
+		width: 75%;
+	}	
+}
+
