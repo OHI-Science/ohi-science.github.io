@@ -100,6 +100,11 @@ p > img{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+@include respond-to(handhelds){
+	p > img{
+		max-width: 100%;
+	}
+}
 .pointer{
 	cursor: pointer;
 }

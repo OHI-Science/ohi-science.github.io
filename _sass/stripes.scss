@@ -83,12 +83,20 @@ $header-height: 300px;
 		    	margin-left: auto;
 		    	margin-right: auto;
 		    	font-size: 3em;
+		    	
+		    	@include respond-to(handhelds){
+		    		font-size: 2em;
+		    	}
 		    }
 		}
 	}
 }
 .content > .stripe.header{
 	padding-top: $nav-height;
+	
+	@include respond-to(handhelds){
+		padding-top: 50px;
+	}
 }
 
 /* Stripe colors */

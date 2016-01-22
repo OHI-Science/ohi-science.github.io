@@ -3,11 +3,6 @@
 	.content {
 	    max-width: 100%;
 	    padding-top: $nav-height;
-	    
-	    .section[id]{
-    		padding-top: $nav-height;
-    		margin-top: -$nav-height;
-    	}
     	
     	.header-section-number {
 		    color: #999;
@@ -101,6 +96,33 @@
 		    color: inherit;
 		    padding: 0px;
 		}
+	}
+}
+
+@include respond-to(all-mobiles){
+	.manual #TOC{
+		width: 100%;
+	    position: relative;
+	    float: none;
+	    margin-right: 0px;
+	    overflow-y: scroll;
+	    max-height: 300px !important;
+	    border-bottom: 1px dashed #999;
+	    
+	    &:before{
+			content: "Table of Contents";
+		}
+	}
+	
+	.manual .content .section.level1, .manual .content > .section.level2, .manual .content > p{
+		margin-left: 0px;
+		padding: $pad-small;
+		overflow-x: overlay;
+	}
+	
+	.fixed-side-nav-page.manual footer{
+		width: 100%;
+		margin-left: 0px;
 	}
 }
 
