@@ -9,18 +9,18 @@ Our team has developed tools for quantifying human impacts on and benefits from 
 
 ## Ocean Health Index 
 
-The Ocean Health Index (OHI) is a framework to comprehensively and quantitatively evaluate ocean health. A healthy ocean is defined as one that sustainably delivers a range of benefits to people now and in the future. The framework was first published in *Nature* in 2012 and has two parts: a core part that is the same for all assessments and a tailored part that details what is assessed and how it will be represented for any specific assessment. 
+**The Ocean Health Index (OHI) is a framework** to comprehensively and quantitatively evaluate ocean health. A healthy ocean is defined as one that sustainably delivers a range of benefits to people now and in the future. The framework was first published in *Nature* in 2012 and has two parts: a core part that is the same for all assessments and a tailored part that details what is assessed and how it will be represented for any specific assessment. 
 
 ![](https://docs.google.com/drawings/d/1lDG36M2pBJ-7cQ4qwp2KB8lETIJtMjeqQPst20z8n6M/pub?h=150)
 
-Assessments using the OHI framework can be conducted at different spatial scales and contexts. The OHI Science team uses the framework to conduct global assessments of ocean health annually from 2012-2015, with the 2016 assessment underway. The first global assessment was published accompanying the OHI framework in *Nature* 2012, and certain methods were improved for the second annual assessment published in *PLoS ONE* in 2015. With each annual assessment, models incoporate the most updated input information and processing techniques are evaluated and improved. Explore the <a href="https://github.com/OHI-Science/ohi-global/releases" target="_blank">data and methods used for OHI global assessments (including Antarctica and the High Seas)</a>, stored on GitHub. 
+**Assessments using the OHI framework** can be conducted at different spatial scales and contexts. The OHI Science team uses the framework to conduct global assessments of ocean health annually from 2012-2015, with the 2016 assessment underway. The first global assessment was published accompanying the OHI framework in *Nature* 2012, and certain methods were improved for the second annual assessment published in *PLoS ONE* in 2015. With each annual assessment, models incoporate the most updated input information and processing techniques are evaluated and improved. Explore the <a href="https://github.com/OHI-Science/ohi-global/releases" target="_blank">data and methods used for OHI global assessments (including Antarctica and the High Seas)</a>, stored on GitHub. 
 
 For more information, please see [publications](/resources/publications) about the OHI framework, assessments and supporting research, view [presentations](/resources/downloads) describing the framework, explore [current and on-going assessments](/projects), and learn more about [OHI goals](/goals).
 
 
 ## OHI Toolbox
 
-The OHI Toolbox is used to calculate and visualize scores for assessments using the OHI framework. Like the framework, the Toolbox has two parts: the core engine behind calculating and visualizing scores, which is an <font face="courier">R</font> package called <font face="courier">ohicore</font>, and a tailored repository to organize, store, and share information and write goal model equations specific to the local context.
+**The OHI Toolbox** is used to calculate and visualize scores for assessments using the OHI framework. Like the framework, the Toolbox has two parts: the core engine behind calculating and visualizing scores, which is an <font face="courier">R</font> package called <font face="courier">ohicore</font>, and a tailored repository to organize, store, and share information and write goal model equations specific to the local context.
 
 ![](https://docs.google.com/drawings/d/1wGK68NRn5bmhZo_gC2A9sx-AcpIZHVp45ID5_HQKVJ0/pub?h=150)
 
@@ -35,7 +35,7 @@ The [OHI+ page](/phases) provides instruction for leading OHI+ assessments. If y
 
 ## Cumulative Human Impacts
 
-Cumulative Human Impacts is a framework to evaluate the comprehensive effect of human stressors on global oceans. The framework and analysis at the global scale was first published in *Science* in 2008 and a five-year comparison of the global analysis was published in *Nature Communications* in 2015. In addition to global scales, this framework has been used to assess cumulative impacts at smaller spatial scales.
+**Cumulative Human Impacts is a framework** to evaluate the comprehensive effect of human stressors on global oceans. The framework and analysis at the global scale was first published in *Science* in 2008 and a five-year comparison of the global analysis was published in *Nature Communications* in 2015. In addition to global scales, this framework has been used to assess cumulative impacts at smaller spatial scales.
 
 ![](https://docs.google.com/drawings/d/1kfkfZ6wcRalYYsd5bzIcp7jk2B9TmQMnom1ySwUMVZQ/pub?w=576&h=96)
 
