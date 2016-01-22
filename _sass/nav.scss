@@ -186,3 +186,11 @@ $nav-height: $logo-height + $pad-small * 2;
 	}	
 }
 
+.horizontal-nav{
+	margin-top: $pad-large;
+	
+	a{
+		padding-right: $pad-large;
+	}
+}
+

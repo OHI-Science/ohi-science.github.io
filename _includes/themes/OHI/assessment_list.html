@@ -1,5 +1,16 @@
 {% assign continents = "Global,North America,South America,Europe,Asia,Africa,Australia,Antartica,Arctic,Oceania" | split: "," %}
 
+<nav class="horizontal-nav">
+{% for continent in continents %}		
+	{% assign posts = site.tags[continent] %}
+	
+	{% if posts | size > 0 %}
+		<a href="#{{ continent | replace:' ','-' }} ">{{ continent }}</a>
+	{% endif %}
+
+{% endfor %}
+</nav>
+
 {% for continent in continents %}		
 	{% assign posts = site.tags[continent] %}
 	
