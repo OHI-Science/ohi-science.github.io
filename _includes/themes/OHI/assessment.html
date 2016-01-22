@@ -1,6 +1,6 @@
 <div class="assessment container">
 	<h1>OHI Assessment : {{ page.title }}</h1>
-	<h4>
+	<h4 id="{{ page.title | replace:' ','-' }}">
 		{{ page.title }}
 		{% if page.tags contains "OHI+" %}
 			<i class="icon plus lnr lnr-plus-circle icon-left icon-small"></i>

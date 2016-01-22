@@ -4,7 +4,7 @@
 	{% assign posts = site.tags[continent] %}
 	
 	{% if posts | size > 0 %}
-		<h6 class="subheading">{{ continent }}</h6>
+		<h6 class="subheading" id="{{ continent | replace:' ','-' }}">{{ continent }}</h6>
 		
 		{% assign sortedPosts = posts | sort: "title" %}
 		
@@ -12,7 +12,7 @@
 			{% if post.categories contains "assessment" %}
 				<div class="container assessment">
 					<h4>
-						<a href="{{ post.url }}">{{ post.title }}</a>
+						<a href="{{ post.url }}" id="{{ post.title | replace:' ','-' }}">{{ post.title }}</a>
 						{% if post.tags contains "OHI+" %}
 							<i class="icon plus lnr lnr-plus-circle icon-left icon-small"></i>
 						{% endif %}
