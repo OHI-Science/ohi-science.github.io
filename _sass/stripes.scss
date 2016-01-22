@@ -144,6 +144,16 @@ body[data-url='/about/index.html'] .stripes-container .stripe-4{
 	h2{
 		color: $color-dark;
 	}
+	
+	.subtle{
+		color: #486966;
+		margin-top: $pad-large;
+		font-size: 1em;
+	}
+	
+	.subtle ~ p em{
+		font-size: .9em;
+	}
 }
 
 /* Stripe background images */

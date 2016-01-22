@@ -74,14 +74,12 @@ Learn more about us at [www.oceanhealthindex.org/about](www.oceanhealthindex.org
 
 We are grateful for the generous support from the Pacific Life Foundation to Conservation International and the Gordon and Betty Moore Foundation to NCEAS.  We also thank our <a href="http://www.oceanhealthindex.org/about/sustaining-partners" target="_blank">past supporters</a> for helping us build the Ocean Health Index over the past eight years.
 
-### Photo credits
-NOAA Photo Library, Image ID: reef0934, NOAA's Coral Kingdom Collection, Photographer: David Burdick
 
-Jellyfish.jpg - NOAA Photo Library, Image ID: expn2406, Voyage To Inner Space - Exploring the Seas With NOAA Collect, Credit: NOAA OKEANOS EXPLORER Program, Gulf of Mexico 2014 Expedition
-https://www.flickr.com/photos/noaaphotolib/19156820554/
+<h3 class="subtle">Photo credits</h3>
 
-Coral.jpg - NOAA Photo Library, Image ID: expl9332, Voyage To Inner Space - Exploring the Seas With NOAA Collect, Credit: NOAA OKEANOS Explorer Program , 2013 Northeast U. S. Canyons Expedition
-https://www.flickr.com/photos/noaaphotolib/14504256242/
 
-whales.jpg - NOAA Photo Library, Image ID: sanc0612, NOAA's Sanctuaries Collection, Location: Hawaii, Maui, Hawaiian Is. Humpback Whale NMS
-https://www.flickr.com/photos/noaaphotolib/19156085084/
+*NOAA Photo Library, Image ID: reef0934, NOAA's Coral Kingdom Collection, Photographer: David Burdick*
+
+*NOAA Photo Library, Image ID: expn2406, Voyage To Inner Space - Exploring the Seas With NOAA Collect, Credit: NOAA OKEANOS EXPLORER Program, Gulf of Mexico 2014 Expedition*
+
+*NOAA Photo Library, Image ID: sanc0612, NOAA's Sanctuaries Collection, Location: Hawaii, Maui, Hawaiian Is. Humpback Whale NMS*
