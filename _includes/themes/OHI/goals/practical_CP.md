@@ -21,7 +21,7 @@ The goal status model for Coastal Protection developed for global assessments wi
 
 **_Examples of the Approaches_**
 
-<span style="font-size:0.9em">
+
 
 Assessment | Model Description and Reference Point | Evolution of Approach | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
@@ -30,4 +30,4 @@ Assessment | Model Description and Reference Point | Evolution of Approach | Oth
 **Brazil (2014)** | The 12 nmi boundary was used for each habitat type for mangroves, seagrasses, coral reefs, and salt marshes. Only costal portions were used for mangroves. The total reported extent divided by the coastal area of each state was used for seagrasses. For coral reefs we calculated the extent per coastal waters of each state using maps of coral reef distribution. The salt marsh extents for some states were from national statistics. | The reference condition was the mean of the predicted values for 1985-1987 using regional estimations for coral reefs. The ‘current’ condition or health was the mean of the predicted values for 2008-2010.  | Same goal model as Global 2012, while using local data.
 **U.S. West Coast (2014)** | Salt marshes, seagrasses, and sand dunes were included. | Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s.  | Same as Global 2012, with more ambitious reference points for target habitat coverage.
 
-</span>
+

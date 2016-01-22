@@ -9,13 +9,17 @@ comments: false
 {% include themes/OHI/site_tagline.html %}
 
 <div class="stripe">
-	<a name="more" id="more"></a>
-	<h2> What is the OHI? </h2>
-	<div class="container">
-		<p>
-		The Ocean Health Index ('OHI') is a way to measure how healthy oceans are. Understanding the state of our oceans is a first step towards ensuring they can continue providing humans benefits now and in the future.
-		</p>
-		<a class="btn" href="/about">Learn More</a>
+	<div class="container grid">
+		<div class="col-1-3">
+			<h2 id="more"> What is the OHI? </h2>
+			<p>
+				The Ocean Health Index ('OHI') is a way to measure how healthy oceans are. Understanding the state of our oceans is a first step towards ensuring they can continue providing humans benefits now and in the future.
+			</p>
+			<a class="btn" href="/about">Learn More</a>
+		</div>
+		<div class="col-2-3">
+			<img src="{{ ASSET_PATH }}OHI/img/flower_plot.png" alt="OHI Flower plot" />
+		</div>
 	</div>
 </div>
 
@@ -72,11 +76,10 @@ comments: false
 
 <div class="stripe">
 	<div class="container">
-		<h2>Who We Are</h2>
+		<h2 id="news">News</h2>
 		<p>
-			We are a team from the University of California at Santa Barbara and Conservation International that has been completing annual global assessments and developing a program to support OHI+ assessments.
+			See the latest news about OHI and OHI+ methods, tools, and assessments. 
 		</p>
-		<a href="about" class="btn">Learn More</a>
-		<a href="forum" class="btn">Connect with the Community</a>
+		<a href="news" class="btn">View all OHI Science news</a>
 	</div>
 </div>

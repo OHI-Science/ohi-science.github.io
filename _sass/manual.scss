@@ -34,11 +34,6 @@
 		font-size: 1.2em;
 	}
 	
-	footer {
-    	margin-left: 25%;
-    	width: 75%;
-	}
-	
 	#header{
 		display: none;
 	}
@@ -54,6 +49,7 @@
 
 		ul {
 	 	   list-style: none;
+	 	   margin-top: 7px;
 		}
 		
 		.active{
@@ -74,7 +70,11 @@
 			    font-family: $header-font-stack;
 			    line-height: 2em;
 			    margin-top: $pad-small * 2;
-			    display: inline-block;
+			    display: inline-block;			
+			}
+			
+			& > li:first-child > a{
+				margin-top: 0px;
 			}
 			
 			& > li > ul {

@@ -4,8 +4,6 @@ title: Forum
 js: get-issues
 ---
 
-This OHI+ Community Forum is a place to share questions and answers during the OHI+ process. It is a venue to connect directly with other groups conducting OHI+ assessments (see [Projects](/projects)).
+The **OHI+ Community Forum** is a place to share questions and answers during the Conduct Phase of the OHI+ process. It is a venue to connect directly with other groups conducting OHI+ assessments (see this list of ongoing [Projects](/projects)). The [OHI Assessment Manual](/manual) contains instruction on experiences from OHI and OHI+ assessments, and will be frequently updated based on questions and answers posted here.
 
-The [OHI Manual](/manual) contains a lot of instruction based on experiences conducting OHI and OHI+ assessments. The manual will be frequently updated with instruction and troubleshooting advice based on questions and answers posted here.
-
-#### From the <a href="https://github.com/OHI-Science/ohi-science.github.io" target="_blank">ohi-science.github.io</a> Github issue page
+**To post on the forum**, add an issue <a href="https://github.com/OHI-Science/ohi-science.github.io/issues" target="_blank">here</a>. You must have a GitHub username and permission to an OHI+ assessment repository.
