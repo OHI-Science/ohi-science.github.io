@@ -62,6 +62,8 @@ Our current team is based at the National Center for Ecological Analysis and Syn
 - Courtney Scarborough, MSc
 
 Learn more about us at [www.oceanhealthindex.org/about](www.oceanhealthindex.org/about).  
+  
+  
 **If you are interested in beginning an OHI+ assessment**, please contact Erich, Julie, or Ning at info @ ohi-science.org.
 
 
@@ -72,4 +74,14 @@ Learn more about us at [www.oceanhealthindex.org/about](www.oceanhealthindex.org
 
 ## Thanks to our supporters
 
-We are grateful for the generous support from the Pacific Life Foundation to Conservation International and the Gordon and Betty Moore Foundation to NCEAS.  We also thank our <a href="http://www.oceanhealthindex.org/about/sustaining-partners" target="_blank">past supporters</a> for helping us build the Ocean Health Index over the past eight years.  
+We are grateful for the generous support from the Pacific Life Foundation to Conservation International and the Gordon and Betty Moore Foundation to NCEAS.  We also thank our <a href="http://www.oceanhealthindex.org/about/sustaining-partners" target="_blank">past supporters</a> for helping us build the Ocean Health Index over the past eight years.
+
+
+<h3 class="subtle">Photo credits</h3>
+
+
+*NOAA Photo Library, Image ID: reef0934, NOAA's Coral Kingdom Collection, Photographer: David Burdick*
+
+*NOAA Photo Library, Image ID: expn2406, Voyage To Inner Space - Exploring the Seas With NOAA Collect, Credit: NOAA OKEANOS EXPLORER Program, Gulf of Mexico 2014 Expedition*
+
+*NOAA Photo Library, Image ID: sanc0612, NOAA's Sanctuaries Collection, Location: Hawaii, Maui, Hawaiian Is. Humpback Whale NMS*

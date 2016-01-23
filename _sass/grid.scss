@@ -59,6 +59,10 @@ $grid-pad: 40px;
     	padding-right: 0px;
     	clear: both;
     }
+    
+    .col-1-3 ~ .col-1-2{
+    	width: 100%;
+    }
 }
 
 /* Opt-in outside padding */
