@@ -11,9 +11,11 @@ search-terms: about contact email about us
 
 ## What is the Ocean Health Index?
 
-**Determining ocean health requires an approach that integrates social, economic, and environmental information. The Ocean Health Index (OHI) is an assessment framework that does this by measuring progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide**. By analyzing these goals together and scoring them from 0-100, OHI assessments provide a comprehensive picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
+#### A tailorable marine assessment framework.
 
-Originally developed by an interdisciplinary team of scientists let by Halpern *et al*. and published in the journal *Nature* in 2012, the OHI framework is standardized yet customizable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
+Determining how healthy oceans are and managing for the future requires an assesssment approach that evaluates current conditions comprehensively from social, economic, and environmental perspectives. **The Ocean Health Index (OHI) is an assessment framework that measures progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide**. By analyzing these goals together and scoring them from 0-100, OHI assessments provide an integrated picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
+
+Originally developed by an interdisciplinary team of scientists (**Halpern *et al*., *Nature* 2012**), the OHI framework is standardized yet tailorable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
 
 ![](https://docs.google.com/drawings/d/1cv0dUUwHjCFVxw7fZTpnuHZEgRO1LX6nHMCOCra-ZhQ/pub?w=960&h=500)
 
@@ -27,11 +29,11 @@ For more information, please see our sister website at <a href="https://www.ocea
 {% include themes/OHI/diagonal %}
 
 
-## What is OHI+?
+## What are OHI+ assessments?
 
-#### Independent assessment at any scale.
+#### Independent assessments at any scale.
 
-OHI+ are independently-led OHI assessments that are conducted by any group external to the OHI team. Groups have full responsibility of all aspects of the assessments, including decisions, information collection, analysis, and reporting. The OHI team provides Toolbox software as well as technical support and general guidance.
+**OHI+ assessments** are independently-led assessments using the OHI framework that are conducted by any group external to the OHI team. Groups have full responsibility of all aspects of the assessments, including decisions, information collection, analysis, and reporting. The OHI team provides Toolbox software as well as technical support and general guidance.
 
 OHI+ assessments are often conducted at smaller, subnational spatial scales. An advantage of working at this scale is the availability of higher quality information and a better knowledge of system processes, which allows models to better capture the philosophy of the goals in the local context. At the same time, targets (reference points) can be set with more refined knowledge of preferences or priorities of local people or governments at spatial scales where management decisions are made.
 
@@ -47,7 +49,7 @@ Resulting scores can be used to identify policy priorities, maximize cost-effect
 
 ## Who we are
 	
-Our current team is based at the National Center for Ecological Analysis and Synthesis (NCEAS) at the University of California at Santa Barbara (UCSB), and at Conservation International (but there have been many other important <a href="http://www.oceanhealthindex.org/about/contributors" target="_blank">contributors</a> throughout the years). We are excited to be a part of the open science community and helping make our oceans healthier. 
+Our current team is based at the **National Center for Ecological Analysis and Synthesis (NCEAS) at the University of California at Santa Barbara (UCSB)**, and at **Conservation International**, but there have been many other important <a href="http://www.oceanhealthindex.org/about/contributors" target="_blank">contributors</a> throughout the years. We are excited to be a part of the open science community and helping make our oceans healthier. 
 
 - Ben Halpern, PhD  
 - Steve Katona, PhD  
