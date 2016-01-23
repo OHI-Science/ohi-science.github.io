@@ -5,7 +5,8 @@ category : news
 tags : [news]
 ---
 
-We are proud to announce our new publication in the open-access online peer-reviewed journal *PeerJ*: <a href="https://peerj.com/articles/1503/" target="_blank"><strong>'Best practices for assessing ocean health in multiple contexts using tailorable frameworks'</strong></a>.  
+We are proud to announce our new publication in the open-access online peer-reviewed journal *PeerJ*:  
+<a href="https://peerj.com/articles/1503/" target="_blank"><strong>'Best practices for assessing ocean health in multiple contexts using tailorable frameworks'</strong></a>.  
 
 From our experience leading and supporting eleven completed assessments, in this paper we discuss how the Ocean Health Index framework can be tailored for use in different contexts and we identify four best practices for conducting assessments using any integrated framework. The best practices are general enough to be used in any assessment process, but are also accompanied by specific guidance and examples from assessments using the Ocean Health Index framework.
 
