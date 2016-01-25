@@ -27,7 +27,7 @@ Use these presentations to help communicate about the Ocean Health Index. Click 
 <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/Planification_d'une_IdSOplus.pdf" target="_blank">French</a>
 
 - **Introduction to the OHI+ Conduct Phase** in [English](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/conduct_phase_intro.pdf) or 
-<a href="https://cdn.rawgit.com/OHI-Science/ohi-science.github.io/dev/assets/downloads/pres/OHI_Overview_2012_2015.html" target="_blank">view online</a>
+<a href="https://cdn.rawgit.com/OHI-Science/ohi-science.github.io/dev/assets/downloads/pres/conduct_phase_intro.html" target="_blank">view online</a>
 
 - **Introduction to the OHI Toolbox** in 
 <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/tutorial_tbx_intro.pdf" target="_blank">English</a>
