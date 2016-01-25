@@ -29,7 +29,7 @@ For more information, please see our sister website at <a href="https://www.ocea
 {% include themes/OHI/diagonal %}
 
 
-## What are OHI+ assessments?
+## What is OHI+?
 
 #### Independent assessments at any scale.
 
