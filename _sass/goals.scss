@@ -69,6 +69,10 @@ $CW-color: #904E9E;
 			max-height: 90px;
 		    margin-right: 20px;
 		    float: left;
+		    
+		    @include respond-to(all-mobiles){
+	   			height: auto;
+	   		}
 	   	}
    	
 	   	span{
@@ -77,11 +81,37 @@ $CW-color: #904E9E;
 	   		float: left;
 	   		width: calc(100% - 124px);
 	   	}
+	   	
+	   	@include respond-to(all-mobiles){
+			width: 48%;
+			float: left;
+			clear: none;
+	    }
+	    
+	    @include respond-to(handhelds){
+	    	a img{
+	    		float: none;
+	    	}
+	    	a span{
+	    		display: block;
+	    		float: none;
+	    		width: 100%;
+	    	}
+	    	
+	    	&:nth-child(odd){
+	    		clear: left;
+	    	}
+	    	&:nth-child(even){
+	    		clear: right;
+	    	}
+	    }
 	}
 	
 	.nav .nav-item.AO span,
 	.nav .nav-item.LE span{
 	}
+	
+	
 }
 .goals-container{
 	
