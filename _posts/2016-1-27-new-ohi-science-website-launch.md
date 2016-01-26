@@ -22,7 +22,7 @@ As the sister website to [OceanHealthIndex.org](http://oceanhealthindex.org), [*
 [**OHI-Science.org**](http://ohi-science.org/) is a platform for tools used and developed by a very active open science and OHI+ community, and will be constantly updated. To receive updates, please email info@ohi-science.org or follow us on Twitter: @ohiscience. 
 
 
-*This website is hosted by GitHub. Many thanks to [Lauren Walker](https://laurenwalker.me), an NCEAS-based designer and coder who redesigned our website with its beautiful new look.*  
+*This website is hosted by GitHub. Many thanks to Lauren Walker, an NCEAS-based designer and coder who redesigned our website with its beautiful new look.*  
 
 
 Tags: open science, open data, ocean health, OHI+
