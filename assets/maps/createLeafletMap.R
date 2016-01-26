@@ -30,8 +30,8 @@ regions <- read.csv('assets/maps/regions.csv')
 regionAll <- regionAll[regionAll@data$Region %in% regions$Region, ]
 
 ## Add color data
-colors <- data.frame(Status = c("conduct", "inform", "plan", "learn"), 
-                     color= c('#0257A5', '#0014A5', '#0083A3', '#00ADDD'))
+colors <- data.frame(Status = c("active", "completed"), 
+                     color= c('#0083A3', '#00ADDD'))
 regionAll@data <- regionAll@data %>%
   left_join(regions, by="Region") %>%
   left_join(colors, by="Status")

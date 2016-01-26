@@ -43,18 +43,22 @@ Use these presentations to help communicate about the Ocean Health Index. Click 
 
 *when viewing online, type* <font face="courier">p</font> *for presenter notes*
 
+### Workshop Materials
+Specificly designed to assist you to conduct an OHI+ workshop, in addtion to the presentations listed above. 
+
+- **OHI+ Workshop Agenda** in [English](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/workshop_training_%20agenda.pdf)
 
 ### OHI+ Instruction Archive
-Instruction from Phases 1-4 (including the technical Manual). Please note that the most up-to-date versions of these documents are on online.
+Instruction from Phases 1-4 (including the Technical Manual). Please note that the most _up-to-date_ versions of these documents are on the [OHI+ Phases page](http://ohi-science.org/new-site/phases/).
 
 Click to download: 
 
-- [**Phase 1: Learn**]() 
-([or view online)](/learn)
-- [**Phase 2: Plan**]()
-([or view online)](/plan)
-- [**Phase 3: Conduct**]()
-([or view online)](/manual)
-- [**Phase 4: Inform**]()
-([or view online)](/inform)
+- [**Phase 1: Learn**](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/ohi-concguide.pdf) 
+
+- [**Phase 2: Plan**](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/ohi-plan.pdf)
+
+- [**Phase 3: Conduct**](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/3_conduct_manual.pdf)
+
+- [**Phase 4: Inform**](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/ohi-inform.pdf)
+
 
