@@ -2,14 +2,26 @@
 
 /** The big display area at the top of a page **/
 /* For the home page */
-.tagline h1{
-	font-size: $display-size;
-	font-family: $display-font-stack;
-	font-weight: $display-weight;
-	line-height: 1.5em;
-	padding-top: $pad-large;
-	@include respond-to(handhelds){ font-size: 1.8em; }
-	@include respond-to(medium-screens){ font-size: 3em; }
+.tagline{
+	h1{
+		font-size: $display-size;
+		font-family: $display-font-stack;
+		font-weight: $display-weight;
+		line-height: 1.5em;
+		padding-top: $pad-large;
+		@include respond-to(handhelds){ font-size: 1.8em; }
+		@include respond-to(medium-screens){ font-size: 3em; }
+	}
+	
+	h2{
+		opacity: .8;
+	    font-size: 3em;
+	    font-family: $font-stack;
+	    font-weight: lighter;
+	    margin-top: -25px;	    
+	    @include respond-to(handhelds){ font-size: 1.8em; }
+		@include respond-to(medium-screens){ font-size: 2.5em; }
+	}
 }
 
 h1{

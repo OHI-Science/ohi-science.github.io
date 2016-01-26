@@ -214,7 +214,11 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, #TOC a{
 .content > .container:first-child{
 	padding-top: $nav-height + $pad-large;
 }
-
+.content > .tagline{
+	@include respond-to(handhelds){
+		padding-top: 20px;
+	}
+}
 
 /* The forum list */
 .forum-list{

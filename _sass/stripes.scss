@@ -15,14 +15,14 @@ $header-height: 300px;
 		}
 		.scroll-for-more{
 		    color: #FFF;
-			margin-top: 200px;
+			margin-top: 150px;
 			display: block;
 			
 			@include respond-to(handhelds){ 
-				margin-top: 100px; 
+				margin-top: 75px; 
 			}
 			@include respond-to(medium-screens){
-				margin-top: 200px;
+				margin-top: 150px;
 			}
 			@include respond-to(handhelds-landscape){
 				margin-top: -20px;
