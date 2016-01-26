@@ -43,9 +43,13 @@ Use these presentations to help communicate about the Ocean Health Index. Click 
 
 *when viewing online, type* <font face="courier">p</font> *for presenter notes*
 
+### Workshop Materials
+Specificly designed to assist you to conduct an OHI+ workshop, in addtion to the presentations listed above. 
+
+- OHI+ Workshop Agenda in [English](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/workshop_training_%20agenda.pdf)
 
 ### OHI+ Instruction Archive
-Instruction from Phases 1-4 (including the technical Manual). Please note that the most up-to-date versions of these documents are on the [OHI+ Phases page](http://ohi-science.org/new-site/phases/)
+Instruction from Phases 1-4 (including the Technical Manual). Please note that the most _up-to-date_ versions of these documents are on the [OHI+ Phases page](http://ohi-science.org/new-site/phases/).
 
 Click to download: 
 
