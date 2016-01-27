@@ -2,7 +2,6 @@
 layout: post
 title: "OHI-Science website redesigned!"
 output: html_document
-hidden: true
 category: news
 tags: [news]
 ---
