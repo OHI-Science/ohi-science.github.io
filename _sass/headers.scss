@@ -51,9 +51,6 @@ h5 + h2,
 .assessment h4{
 	margin-top: -10px;
 }
-h1 + h4{
-	@extend .subheading;
-}
 h1.center, h2.center, h3.center, h4.center, h5.center, h6.center, p.center, a.center{
 	text-align: center;
 }
@@ -63,9 +60,14 @@ hgroup.inline > *{
 hgroup.inline > *:nth-child(1){
 	margin-right: $pad-large;
 }
-.assessments .subheading{
-	font-size: 1.2em;
-	margin-bottom: 0px;
-    border-top: 1px solid #CCC;
-    padding-top: 20px;
+.assessments{ 
+	.subheading{
+		font-size: 1.2em;
+		margin-bottom: 0px;
+	    border-top: 1px solid #CCC;
+	    padding-top: 20px;
+	}
+	h1 + h4{
+		@extend .subheading;
+	}
 }

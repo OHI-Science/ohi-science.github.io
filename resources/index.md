@@ -5,7 +5,7 @@ description: Resources
 tagline: Resources for OHI+
 comments: false
 group: navigation
-header: fish
+header: fish.jpg
 ---
 
 Here you will find resources for OHI+ assessments or related projects.

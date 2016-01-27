@@ -1,7 +1,7 @@
 ---
 layout: page
 title : News
-header : sealions
+header : sealion.jpg
 ---
 {% include JB/setup %}
 

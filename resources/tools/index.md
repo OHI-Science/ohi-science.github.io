@@ -2,7 +2,7 @@
 layout: stripes
 title: Tools
 description: Tools
-header: jellyfish
+header: jellyfish.jpg
 ---
 
 Our team has developed tools for quantifying human impacts on and benefits from marine systems, including conceptual frameworks, computational code, data products, and training materials. We believe stongly in open science, using open-source tools such as <font face="courier">R</font> and share our work on GitHub as much as possible. These tools are constantly being used, evaluated, improved and updated. 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Downloads
+header: shells.jpg
 ---
 
 Here you will find downloadable resources to help you learn and communicate about the Ocean Health Index.

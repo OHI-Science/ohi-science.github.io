@@ -59,6 +59,9 @@ $header-height: 300px;
 		overflow-y: hidden;
 		padding-left: 0px;
 		padding-top: $nav-height;
+		color: #FFF;
+		background-size: cover;
+		background-position: 50% 50%;
 		
 		~ .stripes-container{
 			margin-top: -$diag-height;
@@ -95,7 +98,7 @@ $header-height: 300px;
 .content > .stripe.header{
 	padding-top: $nav-height;
 	
-	@include respond-to(handhelds){
+	@include respond-to(all-mobiles){
 		padding-top: 50px;
 	}
 }
@@ -168,33 +171,9 @@ body[data-url='/about/index.html'] .stripes-container .stripe-4{
 /* Stripe background images */
 .stripe.tagline{
 	background-image: url('../img/school_fish_NOAA_DavidBurdick.jpg');
-	background-size: cover;
 }
 .stripe.where-assessments{
 	background-image: url('../img/map-background.png');
-}
-.header.whale{
-	background-image: url('../img/whales.jpg');
-	background-size: cover;
-	background-position-y: 33%;
-	color: #FFF;
-}
-.header.sealions{
-	background-image: url("../img/sealion.jpg");
-	background-size: cover;
-	background-position-y: 10%;
-	color: #FFF;
-}
-.header.fish{
-	background-image: url("../img/fish.jpg");
-	background-size: cover;
-	color: #FFF;
-}
-.header.jellyfish{
-	background-image: url("../img/jellyfish.jpg");
-	background-size: cover;
-	background-position: 100% 91%;
-	color: white;
 }
 .stripe.map{
 	min-height: auto;

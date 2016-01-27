@@ -4,7 +4,7 @@ title: About
 description: About The Ocean Health Index
 comments: false
 group: navigation
-header: whale
+header: whales.jpg
 search-terms: about contact email about us
 ---
 {% include JB/setup %}
