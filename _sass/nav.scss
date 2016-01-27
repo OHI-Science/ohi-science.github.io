@@ -43,6 +43,8 @@ $nav-height: $logo-height + $pad-small * 2;
 			color: $color-light;
 		}
 		#google_translate_element{ 
+			width: 175px;
+			
 			a{
 				line-height: 1em;
 			}

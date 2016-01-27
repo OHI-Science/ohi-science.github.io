@@ -9,11 +9,17 @@ function setMaxHeight(){
 //Will listen for scrolling and highlight the corresponding menu item in the TOC (#TOC)
 function listenForScroll(){
     var navHeight = $(".topbar").length ? $(".topbar").outerHeight() : 0, //Start cumulative height at the navbar height
-    	sections =  $(".section[id]").not(".level4");
+    	sections =  $(".section[id]").not(".level4"),
+    	ignoreNextScroll = false;
     
 	$(document).scroll(function() {
 		var scrollTop = $(window).scrollTop() + navHeight,
 			found = false;
+		
+		if(ignoreNextScroll){
+			ignoreNextScroll = false;
+			return;
+		}
 		
 		$(sections).each(function(i){ 
 			if(found) return;
@@ -32,8 +38,8 @@ function listenForScroll(){
 	});
 	
 	$("#TOC a").click(function(){
+		ignoreNextScroll = true;
 		highlightTOC($(this).attr('href').replace("#", ""));
-		
 	});
 }
 

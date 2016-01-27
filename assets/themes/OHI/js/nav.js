@@ -20,22 +20,38 @@ $(document).ready(function(){
     });
     
     //***Dropdown menu***
-    var topBarStartingHeight = $(".topbar").outerHeight();    
+    var topBarStartingHeight = $(".topbar").outerHeight(),
+    	slideDownInProgress = false;    
+    
     //Show the selected sub-navigation menu on hover
-    $(".nav > li a").mouseover(function(e){
+    $(".nav > li a").mouseover(function(e){    	
+    	console.log("link mouseover");
     	var link = e.target,
     		subnav = $(link).parent().children(".sub-nav");
     	
     	if(subnav.length > 0){
+    		if(subnav.is(":visible")) return;
+    		
+    		slideDownInProgress = true;
+    		
     		var height = subnav.length * 40 + topBarStartingHeight;
-        	$(".topbar").animate({ height: "230px" }, 100);
+    		
+        	$(".topbar").animate({ height: "230px" }, {
+        		duration: 100,
+        		complete: function(){
+        			slideDownInProgress = false;
+        		}
+        	});
         	
-        	$(".topbar .sub-nav").slideUp();
+        	
+        	$(".topbar .sub-nav").hide();
         	subnav.slideDown();
     	}
     	
     });    
     $(".topbar").on("mouseleave", function(e){
+    	if(slideDownInProgress) return;
+    	
     	$(".topbar .sub-nav").slideUp();
     	$(".topbar").animate({ height: topBarStartingHeight }, 100);
     });

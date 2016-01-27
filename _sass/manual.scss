@@ -12,8 +12,13 @@
 		
 		.section.level1,
 		> .section.level2,
-		> p {
+		> p,
+		> font {
 	    	margin-left: 27%;
+		}
+		
+		> font{
+			display: inline-block;
 		}
 		
 		.figure img{
