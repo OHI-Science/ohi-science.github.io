@@ -57,7 +57,7 @@ Click to download:
 
 - [**Phase 2: Plan**](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/ohi-plan.pdf)
 
-- [**Phase 3: Conduct**](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/3_conduct_manual.pdf)
+- [**Phase 3: Conduct**](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/ohi-manual.pdf)
 
 - [**Phase 4: Inform**](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/ohi-inform.pdf)
 
