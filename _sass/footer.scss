@@ -1,4 +1,5 @@
 $footer-height: 137px;
+$footer-height-mobile: 180px;
 
 footer{
 	background-color: #D2CFCF;
@@ -65,8 +66,7 @@ footer{
 	.links{
 	    padding: $pad-small $pad-small #{$pad-small*2} $pad-small;
 	    margin-bottom: 0px;
-	    width: calc(100% + #{$pad-large*2});
-	    margin-left: -$pad-large;
+	    width: 100%;
 	    
 	    .links-inner{
 	    	max-width: 800px;
@@ -122,17 +122,19 @@ body > .container{
 	padding-bottom: $footer-height;
 }
 
+@include respond-to(all-mobiles){
+	body > .container {
+		padding-bottom: $footer-height-mobile;
+	}
+}
+
 @include respond-to(handhelds){
 	body > .container{
 		padding-bottom: 350px;
-	}
-	
-	footer .links{
-		width: 100%;
-		margin-left: 0px;
 	}
 	
 	footer .contact li{
 		display: block;
 	}
 }
+
