@@ -10,7 +10,7 @@ Here you will find downloadable resources to help you learn and communicate abou
 Use these presentations to help communicate about the Ocean Health Index. Click to download:
 
 - **Introduction to the OHI Framework** in 
-<a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/OHI_Framework.pdf" target="_blank">English</a>, 
+<a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/OHI_Core_Framework.pdf" target="_blank">English</a>, 
 <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/Marco_General_IdSO.pdf" target="_blank">Spanish</a>, or 
 <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/Cadre_General_IdSO.pdf" target="_blank">French</a>
 
@@ -41,6 +41,9 @@ Use these presentations to help communicate about the Ocean Health Index. Click 
 <a href="https://cdn.rawgit.com/OHI-Science/ohi-science.github.io/dev/assets/downloads/pres/tutorial_tbx_modifications.html" target="_blank">(or view online)</a> or
 <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/tutorial_tbx_modifications_SPANISH.pdf" target="_blank">Spanish</a>
 <a href="https://cdn.rawgit.com/OHI-Science/ohi-science.github.io/dev/assets/downloads/pres/tutorial_tbx_modifications_SPANISH.html" target="_blank">(or view online)</a>  
+
+- **Inform and support decision-making** in 
+<a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/Inform_OHI.pdf" target="_blank">English</a>
 
 *when viewing online, type* <font face="courier">p</font> *for presenter notes*
 
