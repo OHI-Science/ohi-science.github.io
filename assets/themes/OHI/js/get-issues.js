@@ -13,7 +13,7 @@ function getIssues(){
 				
 				var labels = session.labels.length;
 				for(var x=0; x<labels; x++){
-					issuesHTML += "<span class='label label-info' style='background-color:#" + session.labels[x].color + "'><a href='https://github.com/NCEAS/open-science-codefest/labels/" + session.labels[x].name + "' target='_blank'>" + session.labels[x].name + "</a></span>";
+					issuesHTML += "<span class='label label-info' style='background-color:#" + session.labels[x].color + "'><a href='https://github.com/OHI-Science/ohi-science.github.io/labels/" + session.labels[x].name + "' target='_blank'>" + session.labels[x].name + "</a></span>";
 				}
 				
 				issuesHTML += "<span class='user subtle'> Posted by <a href='" + session.user.html_url + "' target='_blank'>" + session.user.login + "</a></span>";
