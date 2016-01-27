@@ -128,7 +128,8 @@ $CW-color: #904E9E;
 			float: left;
 			margin-right: 20px;
 		}
-		+ h3{
+		+ h3,
+		+ h4{
 			border-bottom-width: 4px;
 			border-bottom-style: solid;
 			line-height: 3em;
@@ -139,34 +140,44 @@ $CW-color: #904E9E;
 			}
 		}
 		
-		&.AO + h3{
+		&.AO + h3,
+		&.AO + h4{
 			border-color: $AO-color;
 		}
-		&.NP + h3{
+		&.NP + h3,
+		&.NP + h4{
 			border-color: $NP-color;
 		}
-		&.CS + h3{
+		&.CS + h3,
+		&.CS + h4{
 			border-color: $CS-color;
 		}
-		&.CW + h3{
+		&.CW + h3,
+		&.CW + h4{
 			border-color: $CW-color;
 		}
-		&.TR + h3{
+		&.TR + h3,
+		&.TR + h4{
 			border-color: $TR-color;
 		}
-		&.CP + h3{
+		&.CP + h3,
+		&.CP + h4{
 			border-color: $CP-color;
 		}
-		&.LE + h3{
+		&.LE + h3,
+		&.LE + h4{
 			border-color: $LE-color;
 		}
-		&.BD + h3{
+		&.BD + h3,
+		&.BD + h4{
 			border-color: $BD-color;
 		}
-		&.SP + h3{
+		&.SP + h3,
+		&.SP + h4{
 			border-color: $SP-color;
 		}
-		&.FP + h3{
+		&.FP + h3,
+		&.FP + h4{
 			border-color: $FP-color;
 		}
 	}
