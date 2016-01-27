@@ -115,64 +115,58 @@ $CW-color: #904E9E;
 }
 .goals-container{
 	
-	> h3{
-		visibility: hidden;
-		height: 0px;
-		margin: 0px;
-	}
-	
 	table{
 		font-size: .9em;
 	}
 
 	
-	.goals-section-header{
-		width: 100%;
-		display: block;
-		border-bottom-width: 4px;
-		border-bottom-style: solid;
-		margin-top: #{$pad-large * 2};
-		padding-bottom: $pad-small;
-		
+	div.icon{
 		img{
-			width: 100px;
-			margin-right: $pad-small;
-		}
-		
-		h3{
+			height: 70px;
+			width: auto;
 			display: inline;
-			line-height: 100px;
-			vertical-align: top;
+			float: left;
+			margin-right: 20px;
+		}
+		+ h3{
+			border-bottom-width: 4px;
+			border-bottom-style: solid;
+			line-height: 3em;
+			clear: right;
+			
+			+ *{
+				clear: both;
+			}
 		}
 		
-		&.AO{
+		&.AO + h3{
 			border-color: $AO-color;
 		}
-		&.NP{
+		&.NP + h3{
 			border-color: $NP-color;
 		}
-		&.CS{
+		&.CS + h3{
 			border-color: $CS-color;
 		}
-		&.CW{
+		&.CW + h3{
 			border-color: $CW-color;
 		}
-		&.TR{
+		&.TR + h3{
 			border-color: $TR-color;
 		}
-		&.CP{
+		&.CP + h3{
 			border-color: $CP-color;
 		}
-		&.LE{
+		&.LE + h3{
 			border-color: $LE-color;
 		}
-		&.BD{
+		&.BD + h3{
 			border-color: $BD-color;
 		}
-		&.SP{
+		&.SP + h3{
 			border-color: $SP-color;
 		}
-		&.FP{
+		&.FP + h3{
 			border-color: $FP-color;
 		}
 	}

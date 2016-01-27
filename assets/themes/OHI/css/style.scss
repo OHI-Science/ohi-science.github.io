@@ -166,7 +166,7 @@ a {
 :target:before {
   content:"";
   display:block;
-  height:#{$nav-height + 10}; /* fixed header height*/
+  height: #{$nav-height + 10}; /* fixed header height*/
   margin: -#{$nav-height + 10} 0 0; /* negative fixed header height */
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, #TOC a{
