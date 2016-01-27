@@ -1,0 +1,23 @@
+
+{% if position == "top-left" %}
+	{% assign points = '0,0 1000,100 0,100 0,0' %}
+{% elsif position == "bottom-left" %}
+	{% assign points = '0,0 1000,0 0,100' %}
+{% elsif position == "top-both" %}
+	{% assign points = '0,0 500,100 1000,0 1000,100 0,100' %}
+{% elsif position == "bottom-right" %}
+	{% assign points = '0,0 1000,0 1000,100 0,0' %}
+{% endif %}
+
+{% if position contains "top" %}
+	{% assign position-class = "top" %}
+{% elsif position contains "bottom" %}
+	{% assign position-class = "bottom" %}	
+{% endif %}
+
+
+
+<svg class="diagonal-container diagonal-{{ position-class }} {{position }} {{ color }}" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 100" preserveAspectRatio="none">
+  <polygon points="{{ points }}" class="diagonal" />
+</svg>

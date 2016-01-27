@@ -1,0 +1,40 @@
+- text: OHI+
+  url: /phases/
+  subitems:
+    - text: Learn
+      url: /learn
+    - text: Plan
+      url: /plan
+    - text: Conduct
+      url: /manual
+    - text: Inform
+      url: /inform
+- text: Resources
+  url: /resources/
+  subitems:
+    - text: Tools
+      url: /resources/tools/
+    - text: Manual
+      url: /manual/
+    - text: Publications
+      url: /resources/publications/
+    - text: Goals
+      url: /goals
+    - text: Downloads
+      url: /resources/downloads
+- text: Projects
+  url: /projects/
+- text: About
+  url: /about/  
+  subitems:
+    - text: What is OHI
+      url: /about/#what-is-the-ocean-health-index
+    - text: What is OHI+?
+      url: /about/#what-is-ohi
+    - text: Who We Are
+      url: /about/#who-we-are
+    - text: Supporters
+      url: /about/#thanks-to-our-supporters
+- text: Forum
+  url: /forum/
+  

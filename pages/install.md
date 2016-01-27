@@ -8,10 +8,10 @@ comments: true
 
 ## Instructions 
 
-You can install and launch the latest OHI application from the cross-platform, open-source [R](http://www.r-project.org) statistics software (install R on [Windows](http://cran.rstudio.com/bin/windows/base/) or [Mac](http://cran.rstudio.com/bin/macosx/)) with the code below. To begin:
+You can install and launch the latest OHI application from the cross-platform, open-source <a href="http://www.r-project.org" target="_blank">MapShaper.org</a> statistics software (install R on <a href="http://cran.rstudio.com/bin/windows/base/" target="_blank">Windows</a> or <a href="http://cran.rstudio.com/bin/macosx/" target="_blank">Mac</a> with the code below. To begin:
 
-1. **Update R.** Download the latest version [here](http://cran.r-project.org/)
-1. **Update RStudio.** RStudio is optional, but highly recommended. Download the latest version [here](http://www.rstudio.com/products/rstudio/download/)
+1. **Update R.** Download the latest version <a href="http://cran.r-project.org/" target="_blank">here</a>
+1. **Update RStudio.** RStudio is optional, but highly recommended. Download the latest version <a href="http://www.rstudio.com/products/rstudio/download/" target="_blank">here</a>.
 1. **Update all R packages.** This can be done from the 'packages' menu in R or RStudio
 
 

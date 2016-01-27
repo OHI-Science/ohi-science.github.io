@@ -1,0 +1,88 @@
+---
+layout: default
+bodyClass: "fixed-side-nav-page"
+js: fixedMenu
+---
+
+{% include JB/setup %}
+
+<nav id="goals-menu" class="goals fixed-side-nav">
+	<ul class="nav">
+		<li class="nav-item goal FP">
+			<a href="#food-provision">
+				<img src="{{ ASSET_PATH }}OHI/img/goals/FP.png" />
+				<span>Food Provision</span>
+			</a>
+			<div class="clear"></div>
+		</li>
+		<li class="nav-item goal AO">
+			<a href="#artisanal-fishing-opportunities">
+				<img src="{{ ASSET_PATH }}OHI/img/goals/AO.png" />
+				<span>Artisanal Fishing Opportunities</span>
+			</a>
+			<div class="clear"></div>
+		</li>
+		<li class="nav-item goal NP">
+			<a href="#natural-products">
+				<img src="{{ ASSET_PATH }}OHI/img/goals/NP.png" />
+				<span>Natural Products</span>
+			</a>
+			<div class="clear"></div>
+		</li>
+		<li class="nav-item goal CS">
+			<a href="#carbon-storage">
+				<img src="{{ ASSET_PATH }}OHI/img/goals/CS.png" />
+				<span>Carbon Storage</span>
+			</a>
+			<div class="clear"></div>
+		</li>
+		<li class="nav-item goal CP">
+			<a href="#coastal-protection">
+				<img src="{{ ASSET_PATH }}OHI/img/goals/CP.png" />
+				<span>Coastal Protection</span>
+			</a>
+			<div class="clear"></div>
+		</li>	
+		<li class="nav-item goal SP">
+			<a href="#sense-of-place">
+				<img src="{{ ASSET_PATH }}OHI/img/goals/SP.png" />
+				<span>Sense of Place</span>
+			</a>
+			<div class="clear"></div>
+		</li>
+		<li class="nav-item goal LE">
+			<a href="#livelihoods-and-economies">
+				<img src="{{ ASSET_PATH }}OHI/img/goals/LE.png" />
+				<span>Livelihoods and Economies</span>
+			</a>
+			<div class="clear"></div>
+		</li>	
+		<li class="nav-item goal TR">
+			<a href="#tourism-and-recreation">
+				<img src="{{ ASSET_PATH }}OHI/img/goals/TR.png" />
+				<span>Tourism and Recreation</span>
+			</a>
+			<div class="clear"></div>
+		</li>
+		<li class="nav-item goal CW">
+			<a href="#clean-waters">
+				<img src="{{ ASSET_PATH }}OHI/img/goals/CW.png" />
+				<span>Clean Waters</span>
+			</a>
+			<div class="clear"></div>
+		</li>
+		<li class="nav-item goal BD">
+			<a href="#biodiversity">
+				<img src="{{ ASSET_PATH }}OHI/img/goals/BD.png" />
+				<span>Biodiversity</span>
+			</a>
+			<div class="clear"></div>
+		</li>
+	</ul>
+	<div class="clear"></div>
+</nav>
+
+<div class="goals-container side-content">
+	<h1>{{ page.title }}</h1>
+	{{ content }}
+</div>

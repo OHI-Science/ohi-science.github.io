@@ -1,0 +1,36 @@
+{% assign newsPosts = site.categories.news %}
+
+
+{% if include.max != null %}
+	{% assign maxPosts = include.max %}
+{% else %}
+	{% assign maxPosts = site.paginate %} 
+{% endif %}
+
+{% assign total = 0 %}
+
+<section class="posts-list">	
+	{% for post in newsPosts %}
+		
+		{% if post.hidden or total == maxPosts %} 
+			{% continue %} 
+		{% endif %}
+		
+		<article class="post">
+			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<time class="post-date" datetime="{{ post.date }}">{{ post.date | date: "%B %d, %Y" }}</time>
+			<div>
+				{{ post.excerpt }}
+				<a href="{{ post.url }}" class="more-link">Read More...</a>
+			</div>
+		</article>
+		
+		{% assign total = {{ total | plus:1 }} %}
+		
+	{% endfor %}
+	
+</section>
+
+{% if newsPosts.size > site.paginate %}
+	<a class="right btn" href="/archives/page2">Older posts <i class="lnr lnr-chevron-right icon"></i></a> 
+{% endif %}

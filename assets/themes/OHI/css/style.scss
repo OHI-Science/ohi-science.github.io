@@ -1,0 +1,325 @@
+---
+# Main Sass file
+---
+
+/** Sass variables **/
+$font-stack: Lato, sans-serif;
+$font-weight: normal;
+$font-color: #222;
+
+$display-font-stack: Lato, sans-serif;
+$display-weight: bold;
+$display-size: 4em;
+
+$header-font-stack: Andada, serif;
+$header-weight: bold;
+
+$subheading-font-stack: Lato, sans-serif;
+$subheading-weight: lighter;
+$subheading-color: #777;
+
+$primary-color: #2a58a5;   /* blue */
+$primary-color-transparent: rgba(43, 89, 164, .85);
+$highlight-color: #f26c25; /* orange */
+$color-dark: #40476c;      /* purple-blue */
+$color-light: #50b1a5;     /* light teal */
+$color-light-background: hsla(173,26%,74%,1);
+$color-light-2: #9ACED8;   /* light blue */
+
+$pad-small: 10px;
+$pad-large: 40px;
+
+$icon-large: 3em;
+
+/* Responsive variables */
+$break-x-small: 320px;
+$break-small: 480px;
+$break-med: 760px;
+$break-large: 1024px;
+
+@mixin respond-to($media) {
+  @if $media == handhelds {
+    @media only screen and (max-width: $break-small) { @content; }
+  }
+  @else if $media == handhelds-landscape {
+    @media only screen and (min-width: $break-small + 1) and (max-width: $break-med - 1) and (orientation: landscape) { @content; }
+  }
+  @else if $media == medium-screens {
+    @media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1) { @content; }
+  }
+  @else if $media == wide-screens {
+    @media only screen and (min-width: $break-large) { @content; }
+  }
+  @else if $media == all-mobiles {
+  	@media all and (max-width: 900px) { @content; }
+  }
+}
+
+
+/*** Imports ***/
+@import 'grid';
+@import 'nav';
+@import 'footer';
+@import 'headers';
+@import 'diagonals';
+@import 'buttons';
+@import 'phases';
+@import 'manual';
+@import 'stripes';
+@import 'goals';
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,300);
+@font-face {
+  font-family: 'Andada';
+  src: url('../fonts/Andada/Andada-Bold.otf');
+  }
+  
+/*** SCSS ***/  
+html, body{
+	font-family: $font-stack;
+	color: $font-color;
+	font-weight: $font-weight;
+	padding: 0px;
+	margin: 0px;
+}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* General styles */
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+p > img{
+	@extend .center;
+	max-width: 70%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+@include respond-to(handhelds){
+	p > img{
+		max-width: 100%;
+	}
+}
+.pointer{
+	cursor: pointer;
+}
+.plus{
+	color: $highlight-color;
+	.icon{
+		vertical-align: super;
+	}
+}
+.clear{
+	clear: both;
+}
+.subtle{
+	color: #999;
+	font-weight: normal;
+}
+code{
+	font-size: 1.2em;
+    background-color: #EAEAEA;
+    padding: 2px 10px;
+    border-radius: 2px;
+    color: #36776F;
+    word-wrap: break-word;
+    max-width: 100%;
+    display: inline-block;
+}
+blockquote {
+    border-left: 3px solid $color-light-2;
+    padding-left: $pad-small * 2;
+    background-color: #daedef;
+    padding: $pad-small;
+}
+img{
+	max-width: 100%;
+}
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+.content li{
+	list-style: none;
+    margin-bottom: .5em;
+}
+.content ul{
+	padding-left: 20px;
+}
+ul{
+	list-style: none;
+}
+
+
+/* Links and buttons */
+a {
+    text-decoration: none;
+    color: #3C6CF5;
+}
+/* Fixes issue with fixed navigation bar covering up anchors */
+:target:before {
+  content:"";
+  display:block;
+  height:#{$nav-height + 10}; /* fixed header height*/
+  margin: -#{$nav-height + 10} 0 0; /* negative fixed header height */
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, #TOC a{
+	color: $primary-color;
+}
+
+/* Icons */
+.icon-large{
+	font-size: $icon-large;
+}
+.icon-med{
+	font-size: 1.5em;
+	vertical-align: middle;
+}
+.icon-large.center{
+	width: 1em;
+}
+.icon-right{
+	margin-left: 5px;
+}
+.icon-left{
+	margin-right: 5px;
+}
+
+
+/* Containers */
+.container{
+	clear: both;
+	float: none;
+	
+	&.break-above{
+		margin-top: $pad-large * 2;
+	}	
+}
+.content > .stripe > *,
+.content > .container,
+.content > .stripes-container > .stripe > *,
+.content > .stripes-container > p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+}
+.content > .container:first-child{
+	margin-top: 0px;
+}
+.content > .container,
+{
+	padding: $pad-large;
+}
+.content > *:first-child,
+.content > .container:first-child{
+	padding-top: $nav-height + $pad-large;
+}
+.content > .tagline{
+	@include respond-to(handhelds){
+		padding-top: 20px;
+	}
+}
+
+/* The forum list */
+.forum-list{
+	list-style: none;
+	padding-left: 0px;
+	
+	li{
+		border: 1px solid #999;
+		margin-bottom: $pad-small * 2;
+
+		.label{
+			margin-left: $pad-small;
+			padding: #{$pad-small / 2} $pad-small;
+			display: inline-block;
+			@include border-radius(4px);
+			
+			a{
+				color: #FFF;
+			}
+			
+			.btn{
+				float: right;
+				width: 150px;
+			}
+			
+			&:hover{
+				background-color: $highlight-color !important;
+			}
+		}
+		
+		.user{
+			margin-left: $pad-large / 2;
+		}
+	}
+	
+	li > span{
+		float: left;
+		width: 85%;
+		width: calc(100% - 150px - #{$pad-small * 2});
+		padding: $pad-small;
+		
+		a{
+			color: #222;			
+			&:hover{
+				color: $primary-color;
+			}
+		}
+	}
+}
+
+/* The OHI+ assessment list */
+.container.assessment{
+	margin-bottom: 60px;
+	margin-top: $pad-large / 2;
+	a{
+		padding-right: $pad-small;
+	}
+	h4{
+		margin-bottom: 0px;
+		font-size: 1.2em;
+		font-family: $font-stack;
+		line-height: 1em;
+		
+		a{
+			border: 0px;
+			padding: 0px;
+			color: inherit;
+		}
+		a:hover{
+			background-color: transparent;
+			color: $primary-color;
+		}
+	}
+	a{
+		text-transform: capitalize;
+	}
+}
+
+.posts-list article{
+	padding-bottom: $pad-large;
+	padding-top: $pad-large;
+	
+	&:not(:last-child){
+		border-bottom: 1px solid $color-light;
+	}
+}
+.post hgroup{
+	border-bottom: 1px solid $color-light;
+	padding-bottom: $pad-large;
+	margin-bottom: $pad-large;
+}
+.search-result{
+	border-bottom: 1px solid #999;
+	padding-bottom: $pad-small;
+	 
+	 a { font-size: 1.3em; }
+}

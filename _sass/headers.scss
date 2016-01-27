@@ -1,0 +1,73 @@
+/* Headers */
+
+/** The big display area at the top of a page **/
+/* For the home page */
+.tagline{
+	h1{
+		font-size: $display-size;
+		font-family: $display-font-stack;
+		font-weight: $display-weight;
+		line-height: 1.5em;
+		padding-top: $pad-large;
+		@include respond-to(handhelds){ font-size: 1.8em; }
+		@include respond-to(medium-screens){ font-size: 3em; }
+	}
+	
+	h2{
+		opacity: .8;
+	    font-size: 3em;
+	    font-family: $font-stack;
+	    font-weight: lighter;
+	    margin-top: -25px;	    
+	    @include respond-to(handhelds){ font-size: 1.8em; }
+		@include respond-to(medium-screens){ font-size: 2.5em; }
+	}
+}
+
+h1{
+	font-weight: normal;
+}
+h3{
+	font-family: $font-stack;
+	font-size: 1.5em;
+}
+h2{
+	font-family: $header-font-stack;
+	font-size: 1.7em;
+}
+.subheading,
+h5 {
+    font-family: $subheading-font-stack;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1em;
+    color: #999;
+}
+h4{
+	font-size: 1.5em;
+    font-weight: normal;
+}
+h5 + h2,
+.assessment h4{
+	margin-top: -10px;
+}
+h1.center, h2.center, h3.center, h4.center, h5.center, h6.center, p.center, a.center{
+	text-align: center;
+}
+hgroup.inline > *{
+	display: inline;
+}
+hgroup.inline > *:nth-child(1){
+	margin-right: $pad-large;
+}
+.assessments{ 
+	.subheading{
+		font-size: 1.2em;
+		margin-bottom: 0px;
+	    border-top: 1px solid #CCC;
+	    padding-top: 20px;
+	}
+	h1 + h4{
+		@extend .subheading;
+	}
+}

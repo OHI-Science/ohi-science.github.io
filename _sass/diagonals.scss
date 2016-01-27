@@ -1,0 +1,47 @@
+$diag-height: 100px;
+
+.diagonal-container{
+	width: 100%;
+	height: $diag-height;
+	display: block;
+	
+	polygon{
+		fill: #FFF;
+	}
+	
+	&.color-light-2 polygon{
+		fill: $color-light-2;
+	}
+	&.color-light-background polygon{
+		fill: $color-light-background;
+	}
+}
+.diagonal-top{
+	position: relative;
+	top: $diag-height * -1;	
+	margin-top: $diag-height;
+}
+.stripe.header + .diagonal-top,
+.stripe.tagline + .diagonal-top,
+.diagonal-top.top-both{
+	margin-top: 0px;
+}
+.diagonal-top + .stripe{
+	margin-top: $diag-height * -1;	
+}
+.diagonal-top + .container{
+	margin-top: -$diag-height;
+}
+.diagonal-bottom + .stripe{
+	margin-top: $diag-height * -1;
+    padding-top: $diag-height + $pad-large;
+}
+.diagonal-container.white .diagonal{
+	fill: #FFFFFF;
+}
+.diagonal-container.dark .diagonal{
+	fill: $color-dark;
+}
+.stripe.extra-height{
+	padding-bottom: $diag-height + $pad-large;
+}
