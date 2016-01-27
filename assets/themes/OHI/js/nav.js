@@ -50,13 +50,3 @@ $(document).ready(function(){
     });
     
 });
-
-//*** Anchor tag offset for fixed menu ***
-var anchorOffset = function(force){
-	if((window.location.hash && !$("body").is(".manual")) || (force && !force.target)){
-		var offset = $(".topbar").length? $(".topbar").outerHeight() + 20 : 100;
-		
-		$(window).scrollTop($(window.location.hash).offset().top - offset);
-	}
-}
-$(window).load(anchorOffset);

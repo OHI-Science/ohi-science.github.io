@@ -162,6 +162,13 @@ a {
     text-decoration: none;
     color: #3C6CF5;
 }
+/* Fixes issue with fixed navigation bar covering up anchors */
+:target:before {
+  content:"";
+  display:block;
+  height:#{$nav-height + 10}; /* fixed header height*/
+  margin: -#{$nav-height + 10} 0 0; /* negative fixed header height */
+}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, #TOC a{
 	color: $primary-color;
 }
