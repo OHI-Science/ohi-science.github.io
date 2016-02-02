@@ -1,0 +1,140 @@
+$footer-height: 137px;
+$footer-height-mobile: 180px;
+
+footer{
+	background-color: #D2CFCF;
+	padding: #{$pad-large/2} $pad-large 0px $pad-small;
+	width: 100%;
+	min-height: $footer-height;
+	position: absolute;
+	bottom: 0px;
+	
+	.footer-inner{
+		> .grid{
+			margin-bottom: $pad-small;	
+		}
+	}
+	
+	h4{
+		font-weight: bold;
+		font-size: 1em;
+	}
+	
+	nav > ul{
+		padding-left: 0px;
+		
+		> li{
+			float: left;
+			margin-right: $pad-small * 2;
+			font-weight: bold;
+			min-width: 100px;
+			
+			> a{
+				text-align: center;
+			}
+			
+			> .sub-nav{
+				padding-left: 0px;
+				margin-top: $pad-small * 2;
+			
+				li{
+					font-weight: normal;
+					display: block;
+					margin-bottom: $pad-small;
+				}
+			}
+		}
+	}
+	
+	ul{
+		padding-left: 0px;
+	}
+	
+	a{
+		color: #555;
+		transition: color 500ms;
+		
+		&:hover{
+			color: $primary-color;
+		}
+	}
+	
+	.brand > img{
+		max-height: 65px;
+	}
+	
+	.links{
+	    padding: $pad-small $pad-small #{$pad-small*2} $pad-small;
+	    margin-bottom: 0px;
+	    width: 100%;
+	    
+	    .links-inner{
+	    	max-width: 800px;
+	    	margin-left: auto;
+	    	margin-right: auto;
+	    }
+		
+		 a{
+			color: $primary-color;
+			text-align: center;
+			margin-right: 2%;
+			padding-right: $pad-small;
+			
+			&:not(:last-child){
+				border-right: 1px solid #555;
+			}
+		}
+	}
+	
+	.contact{
+		img.icon{
+			height: 2em;
+			width: auto;
+			margin-right: $pad-small;
+		}
+		
+		li{
+			margin-bottom: $pad-small;
+			display: inline;
+			margin-right: $pad-large / 2;
+		}
+		
+		a{
+			height: 2em;
+			display: inline-block;
+			
+			span{
+				vertical-align: top;
+				font-weight: bold;
+			}
+		}
+	}
+	
+	.right{
+		float: right;
+	}
+}
+body{
+	position: relative;
+}
+body > .container{
+	height: 100%;
+	padding-bottom: $footer-height;
+}
+
+@include respond-to(all-mobiles){
+	body > .container {
+		padding-bottom: $footer-height-mobile;
+	}
+}
+
+@include respond-to(handhelds){
+	body > .container{
+		padding-bottom: 350px;
+	}
+	
+	footer .contact li{
+		display: block;
+	}
+}
+

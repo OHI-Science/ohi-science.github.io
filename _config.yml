@@ -1,21 +1,28 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink : /:categories/:year/:month/:day/:title 
+permalink : /:categories/:title 
 
 exclude : [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Rmd"]
-highlighter : pygments
+highlighter : rouge
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : OHI-Science
-tagline : scientific tools for the Ocean Health Index
+tagline : Open Science with the Ocean Health Index
+logo : OHI-Science-logo.png
 author :
   name : Ocean Health Index
-  email : bbest@nceas.ucsb.edu
+  email : info@ohi-science.org
   github : OHI-Science
-  twitter : bbest
+  twitter : OHIScience
   feedburner : bbest
+github: https://github.com/OHI-Science/ohi-science.github.io
+paginate: 5
+paginate_path: "/archives/page:num"
+gems :
+  - jekyll-gist
+  - jekyll-paginator
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

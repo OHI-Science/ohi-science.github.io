@@ -1,0 +1,15 @@
+---
+layout: default
+js: createStripes
+---
+{% include JB/setup %}
+
+{% if page.header %}
+	{% include themes/OHI/page_header.html %}
+{% else %}
+	<h1>{{ page.title }}</h1>
+{% endif %}
+
+<div class="stripes-container">
+	{{ content }}
+</div>

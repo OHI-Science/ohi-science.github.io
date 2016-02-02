@@ -1,0 +1,26 @@
+{% include JB/setup %}
+{% include themes/OHI/default.html %}
+
+
+<div class="display stripe crossword-pattern">
+	<div class="grid">
+		<div class="col-1-2">
+			{% include themes/OHI/phases.html %}
+		</div>
+		<div class="col-1-2" id="phases-text-container">
+			<h3>Phases of an OHI+ Assessment</h3>
+			<p>
+				Intro text to the assessments goes here
+			</p>
+		</div>
+	</div>
+	<div class="container">
+		<a href="#more" class="scroll-for-more"><i class="icon icon-large center icon-left lnr lnr-arrow-down-circle"></i> View in list form</a> 
+	</div>
+</div>
+
+<div class="container">	
+	<a name="more" id="more"></a>
+
+	{{ content }}
+</div>

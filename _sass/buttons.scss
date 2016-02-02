@@ -1,0 +1,52 @@
+.btn{
+	color: $primary-color;
+	border: 1px solid $primary-color;
+	padding: $pad-small;
+	font-size: 1em;
+	display: inline-block;
+	margin-right: $pad-small;
+	margin-top: $pad-small;
+	margin-bottom: $pad-small;
+	
+	&:hover{
+	    background-color: $primary-color;
+	    color: #FFF;
+	    transition: color 500ms, background 500ms;
+	}
+}
+.btn.primary,
+.dark .btn.primary{
+	background-color: $color-light;
+	color: #FFF;
+	border-color: $color-light;
+	font-weight: bold;
+	
+	&:hover{
+		background-color: $highlight-color;
+		border-color: $highlight-color;
+	    transition: background-color 500ms, border-color 500ms;
+	}
+}
+.btn.primary .icon{
+	font-size: 2em;
+	vertical-align: middle;
+}
+.dark .btn{
+	color: #FFF;
+	border-color: #FFF;
+}
+
+/* When on handheld devices, buttons inside smaller columns (i.e. 2/3 width column) will be narrower */
+.col-2-3 .btn{
+	@include respond-to(handhelds){
+		text-align: center;
+	}
+	
+	.icon{
+		@include respond-to(handhelds){
+			display: block;
+			text-align: center;
+			margin-top: $pad-small;
+		}
+	}
+}

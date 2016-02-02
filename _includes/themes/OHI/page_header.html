@@ -1,0 +1,16 @@
+
+{% include JB/setup %}
+
+{% if page.header %}
+	{% capture headerClasses %}{% for class in page.header %}{{ class | remove:"." | remove:"jpg" | remove:"gif" | remove:"png" | remove:"svg" | remove:"jpeg"  }}{{ " " }}{% endfor %}{% endcapture %}
+	
+	<header class="stripe header {{ headerClasses }}" style="background-image: url('{{ ASSET_PATH }}OHI/img/{{ page.header }}')">
+		<div class="header-inner">
+			<h1>{% if page.description %} {{ page.description }} {% else %} {{ page.title }} {% endif %}</h1>
+		</div>
+	</header>
+	
+	{% assign color = 'white' %}
+	{% assign position = 'top-left' %}
+	{% include themes/OHI/diagonal %}
+{% endif %}

@@ -1,0 +1,207 @@
+.manual{
+	
+	.content {
+	    max-width: 100%;
+	    padding-top: $nav-height;
+    	
+    	.header-section-number {
+		    color: #999;
+		    margin-right: $pad-small;
+		    font-weight: lighter;
+		}
+		
+		.section.level1,
+		> .section.level2,
+		> p,
+		> font {
+	    	margin-left: 27%;
+		}
+		
+		> font{
+			display: inline-block;
+		}
+		
+		.figure img{
+			max-width: 80%;
+		    margin-left: auto;
+		    margin-right: auto;
+		    display: block;
+		    
+		    .caption{
+		    	text-align: center;
+		    	margin-bottom: 20px;
+		    }
+		}
+	}
+	
+	h2{
+		font-family: $font-stack;
+	}
+	h1{
+		font-family: $header-font-stack;
+		color: $color-light;
+	}
+	h3{
+		font-family: $font-stack;
+		font-size: 1.2em;
+	}
+	
+	#header{
+		display: none;
+	}
+	
+	#TOC {
+		max-height: 600px;
+	    width: 25%;
+	    float: left;
+	    margin-right: $pad-large;
+	    overflow-y: overlay;
+	    padding: $pad-small * 2;
+	    position: fixed;
+
+		ul {
+	 	   list-style: none;
+	 	   margin-top: 7px;
+		}
+		
+		.active{
+			font-weight: bold;
+			color: $highlight-color;	
+		}
+		
+		.toc-section-number{
+			color: #999;
+		}
+		
+		& > ul {
+ 		   padding-left: 0px;
+ 		   
+ 		   & > li > a {
+			    font-weight: bold;
+			    font-size: 1em;
+			    font-family: $header-font-stack;
+			    line-height: 2em;
+			    margin-top: $pad-small * 2;
+			    display: inline-block;			
+			}
+			
+			& > li:first-child > a{
+				margin-top: 0px;
+			}
+			
+			& > li > ul {
+    			padding-left: $pad-small;
+    			
+    			& > li > ul {
+				    padding-left: 23px;
+				    font-size: .9em;
+				    line-height: 1.5em;
+				    
+				    & > li{
+				    	margin-bottom: $pad-small;
+				    }
+				}
+    			
+			}
+			
+ 		   
+		}
+		
+		 code{   
+		 	font-size: 1em;
+		    background-color: transparent;
+		    color: inherit;
+		    padding: 0px;
+		}
+	}
+}
+
+@include respond-to(all-mobiles){
+	.manual #TOC{
+		width: 100%;
+	    position: relative;
+	    float: none;
+	    margin-right: 0px;
+	    overflow-y: scroll;
+	    max-height: 300px !important;
+	    border-bottom: 1px dashed #999;
+	    
+	    &:before{
+			content: "Table of Contents";
+		}
+	}
+	
+	.manual .content .section.level1, .manual .content > .section.level2, .manual .content > p{
+		margin-left: 0px;
+		padding: $pad-small;
+		overflow-x: overlay;
+	}
+	
+	.fixed-side-nav-page.manual footer{
+		width: 100%;
+		margin-left: 0px;
+	}
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+    background-color: transparent;
+  
+}
+td,
+th {
+  padding: 0;
+}
+th {
+  text-align: left;
+}
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+table table {
+  background-color: #ffffff;
+}
+table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+table col[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-column;
+}
+table td[class*="col-"],
+table th[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-cell;
+}
+

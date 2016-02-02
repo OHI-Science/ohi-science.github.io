@@ -1,0 +1,184 @@
+$NP-color: #DE6625;
+$FP-color: #D73A26;
+$AO-color: #AD293A;
+$CS-color: #D58F33;
+$CP-color: #D5C827;
+$CP-color-darker: #BFB106;
+$TR-color: #C5D92E;
+$TR-color-darker: #ACBD27;
+$LE-color: #7C9F3E;
+$SP-color: #3DBB9D;
+$BD-color: #3C7ABE;
+$CW-color: #904E9E;
+
+.goals{
+	.AO{
+		a{ color: $AO-color; } 
+	}
+	
+	.FP{
+		a{ 	color: $FP-color; }
+	}
+	
+	.CS{
+		a{ color: $CS-color; }
+	}
+	
+	.CP{
+		a{ color: $CP-color-darker; }
+	}
+	
+	.TR{
+		a{ color: $TR-color-darker; }
+	}
+	
+	.LE{
+		a{ color: $LE-color; }
+	}
+		
+	.SP{
+		a{ color: $SP-color; }
+	}
+	
+	.BD{
+		a{ color: $BD-color; }
+	}
+	
+	.CW{
+		a{ color: $CW-color; }
+	}
+	
+	.NP{
+		a{ color: $NP-color; }
+	}
+
+}
+.fixed-side-nav.goals{	   	
+   	.nav .nav-item{
+   		margin-bottom: $pad-small;
+   		height: 57px;
+	    height: calc(10% - 10px);
+	    min-height: 40px;
+	    clear: both;
+	   	
+	   	a{
+	   		height: 100%;
+	   	}
+	   	img{
+			height: 100%;
+			max-height: 90px;
+		    margin-right: 20px;
+		    float: left;
+		    
+		    @include respond-to(all-mobiles){
+	   			height: auto;
+	   		}
+	   	}
+   	
+	   	span{
+	   		font-size: 1.1em;
+	   		font-weight: bold;
+	   		float: left;
+	   		width: calc(100% - 124px);
+	   	}
+	   	
+	   	@include respond-to(all-mobiles){
+			width: 48%;
+			float: left;
+			clear: none;
+	    }
+	    
+	    @include respond-to(handhelds){
+	    	a img{
+	    		float: none;
+	    	}
+	    	a span{
+	    		display: block;
+	    		float: none;
+	    		width: 100%;
+	    	}
+	    	
+	    	&:nth-child(odd){
+	    		clear: left;
+	    	}
+	    	&:nth-child(even){
+	    		clear: right;
+	    	}
+	    }
+	}
+	
+	.nav .nav-item.AO span,
+	.nav .nav-item.LE span{
+	}
+	
+	
+}
+.goals-container{
+	
+	table{
+		font-size: .9em;
+	}
+
+	
+	div.icon{
+		img{
+			height: 70px;
+			width: auto;
+			display: inline;
+			float: left;
+			margin-right: 20px;
+		}
+		+ h3,
+		+ h4{
+			border-bottom-width: 4px;
+			border-bottom-style: solid;
+			line-height: 3em;
+			clear: right;
+			
+			+ *{
+				clear: both;
+			}
+		}
+		
+		&.AO + h3,
+		&.AO + h4{
+			border-color: $AO-color;
+		}
+		&.NP + h3,
+		&.NP + h4{
+			border-color: $NP-color;
+		}
+		&.CS + h3,
+		&.CS + h4{
+			border-color: $CS-color;
+		}
+		&.CW + h3,
+		&.CW + h4{
+			border-color: $CW-color;
+		}
+		&.TR + h3,
+		&.TR + h4{
+			border-color: $TR-color;
+		}
+		&.CP + h3,
+		&.CP + h4{
+			border-color: $CP-color;
+		}
+		&.LE + h3,
+		&.LE + h4{
+			border-color: $LE-color;
+		}
+		&.BD + h3,
+		&.BD + h4{
+			border-color: $BD-color;
+		}
+		&.SP + h3,
+		&.SP + h4{
+			border-color: $SP-color;
+		}
+		&.FP + h3,
+		&.FP + h4{
+			border-color: $FP-color;
+		}
+	}
+}

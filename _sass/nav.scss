@@ -1,0 +1,209 @@
+$logo-height: 55px;
+$nav-height: $logo-height + $pad-small * 2;
+
+.topbar{
+	background-color: $primary-color-transparent;
+	float: right;
+	list-style: none;
+	width: 100%;
+	padding: $pad-small $pad-large;
+	position: fixed;
+	z-index: 1;
+	
+	.brand{
+		float: left;
+	}
+	.brand > img{
+		max-height: $logo-height;
+		width: auto;
+	}
+	.nav{
+		float: right;
+		margin: 0px;
+	}
+	.icon{
+		color: #FFF;
+	}	
+	.nav{	
+		> li {
+		    float: left;
+		    margin-right: 20px;
+		    list-style: none;
+		}
+		li a,
+		li .icon{
+			font-size: 1.2em;
+		    text-transform: uppercase;
+		    font-weight: lighter;
+		    color: white;
+		    line-height: $logo-height;
+		}
+		li a:hover,
+		li .icon:hover{
+			color: $color-light;
+		}
+		#google_translate_element{ 
+			width: 175px;
+			
+			a{
+				line-height: 1em;
+			}
+			
+			.goog-te-combo{
+				    border: 1px solid white;
+			    background-image: none;
+			    background-color: transparent;
+			    color: white;
+			    font-family: $font-stack;
+			    font-size: 1em;
+			    height: 2em;
+			}
+			
+			.goog-te-gadget,
+			.goog-logo-link{
+				color: white;
+			}
+		}
+		.sub-nav{
+			padding-left: 0px;
+			position: absolute;
+			display: none;
+		
+			> li{
+				display: block;
+				
+				a{
+					text-transform: capitalize;
+				    font-size: 1em;
+				    line-height: 2em;
+				}
+			}
+		}
+		.icon.search{
+			cursor: pointer;
+		}
+		
+			
+		input[type="text"]{
+			background-color: transparent;
+		    -webkit-appearance: none;
+		    text-shadow: none;
+		    border: 1px solid white;
+		    border-radius: 4px;
+		    height: 25px;
+		    color: white;
+		    font-size: 1em;
+		    padding: 5px;
+		}
+		input[type="submit"]{
+		   background-color: transparent;
+		   border: 1px solid white;
+		   border-radius: 5px;
+		   color: white;
+		   font-size: 1em;
+		}
+				
+		.hidden-input{
+			display: none;
+		}
+		
+		
+	}
+}
+#nav-trigger{
+	position: absolute;
+	top: $pad-small;
+	right: $pad-small;
+}
+#nav-trigger,
+#nav-trigger .collapse{
+	display: none;
+}
+
+@include respond-to(all-mobiles) {
+  #nav-trigger {
+    display: block; 
+   	
+   	.icon{
+   		font-size: 2em;
+   	} 
+   }
+
+  #nav-main {
+    display: none; }
+    
+  .nav{
+  	float: none;
+    text-align: center;
+    
+    li{
+    	width: 100%;    }
+	}
+	
+	.topbar{
+		min-height: 50px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		
+		.brand img{
+			height: 40px;
+			margin-top: 5px;
+		}
+	}
+	.content > *:first-child{
+		padding-top: 80px;
+	}
+}
+
+.fixed-side-nav-page{
+	.fixed-side-nav{
+	   	width: 25%;
+    	position: fixed;	
+		height: #{ 768 - $nav-height - 10 };
+		background-color: #FFF;
+		
+		@include respond-to(all-mobiles){
+			position: relative;
+			width: 100%;	
+			height: auto !important;		
+		}
+		
+		.nav{
+			height: 100%;
+			
+			.nav-item{
+				text-align: left;
+			}
+		}
+	}
+	.fixed-side-nav ~ .side-content{
+		margin-left: 27%;
+		padding-top: $nav-height;
+		
+		@include respond-to(all-mobiles){
+			width: 100%;
+			margin-left: 0px;
+			padding: $pad-large;
+		}
+	}
+	.content > .fixed-side-nav:first-child{
+		padding-top: #{ $nav-height - 2 };	
+	}
+	footer{
+		margin-left: 22%;
+		width: 78%;
+	}
+	&.manual footer{
+		margin-left: 25%;
+		width: 75%;
+	}	
+}
+
+.horizontal-nav{
+	margin-top: $pad-large;
+	
+	a{
+		padding-right: $pad-large;
+	}
+}
+

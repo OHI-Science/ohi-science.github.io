@@ -1,0 +1,33 @@
+---
+layout: null
+---
+{
+  {% for post in site.posts %}
+
+    "{{ post.url | slugify }}": {
+      "title": "{{ post.title | xml_escape }}",
+      "url": " {{ post.url | xml_escape }}",
+      "category": "{{ post.category | xml_escape }}",
+      "description" : "{{ post.description | xml_escape }}",
+      "search-terms" : "{{ post.search-terms | xml_escape }}",
+      "excerpt" : "{{ post.excerpt | strip_html | strip_newlines }}"
+    }
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  
+  ,
+  
+  {% for post in site.pages %}
+
+    "{{ post.url | slugify }}": {
+      "title": "{{ post.title | xml_escape }}",
+      "url": " {{ post.url | xml_escape }}",
+      "category": "{{ post.category | xml_escape }}",
+      "description" : "{{ post.description | xml_escape }}",
+      "search-terms" : "{{ post.search-terms | xml_escape }}",
+      "excerpt" : "{{ post.excerpt | strip_html | strip_newlines }}"
+    }
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}
+
