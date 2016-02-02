@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Learning R</title>
+    <meta name="description" content="resources for learning the R programming language">
+    <meta name="author" content="Ocean Health Index">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!-- Fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  
+  	<!--  Styles -->
+	<link href="/new-site/assets/themes/OHI/fonts/LinearIcons/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/new-site/assets/themes/OHI/css/style.css" rel="stylesheet" type="text/css" media="all">
+
+      <!-- atom & rss feed -->
+    <link href="/new-site/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/new-site/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+    <meta name="google-translate-customization" content="47f381179a5facf3-96350382533ff336-gbdd3ba5670eecf51-f"></meta>
+  </head>
+
+  <body class=" " data-url="/pages/learning_r.html">
+    
+    <div class="topbar">
+  <a class="brand" href="/new-site/"><img src="/new-site/assets/themes/OHI/img/OHI-Science-logo.png" /></a>
+  <nav class="fill" id="nav-main">
+      <ul class="nav">
+        
+        
+    
+    	<li>
+	
+	
+		<a href="/new-site/phases/">OHI+</a>
+	
+	
+		<ul class="sub-nav">
+			
+    
+    	<li>
+	
+	
+		<a href="/new-site/learn">Learn</a>
+	
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/plan">Plan</a>
+	
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/manual">Conduct</a>
+	
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/inform">Inform</a>
+	
+	
+	
+	</li>
+
+
+		</ul>
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/resources/">Resources</a>
+	
+	
+		<ul class="sub-nav">
+			
+    
+    	<li>
+	
+	
+		<a href="/new-site/resources/tools/">Tools</a>
+	
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/manual/">Manual</a>
+	
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/resources/publications/">Publications</a>
+	
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/goals">Goals</a>
+	
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/resources/downloads">Downloads</a>
+	
+	
+	
+	</li>
+
+
+		</ul>
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/projects/">Projects</a>
+	
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/about/">About</a>
+	
+	
+		<ul class="sub-nav">
+			
+    
+    	<li>
+	
+	
+		<a href="/new-site/about/#what-is-the-ocean-health-index">What is OHI</a>
+	
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/about/#what-is-ohi">What is OHI+?</a>
+	
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/about/#who-we-are">Who We Are</a>
+	
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/about/#thanks-to-our-supporters">Supporters</a>
+	
+	
+	
+	</li>
+
+
+		</ul>
+	
+	
+	</li>
+
+    
+    	<li>
+	
+	
+		<a href="/new-site/forum/">Forum</a>
+	
+	
+	
+	</li>
+
+
+        
+        <li id="google_translate_element">
+			<script type="text/javascript" src="/new-site//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+			<script type="text/javascript">
+				function googleTranslateElementInit() {
+				  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+				}
+		   </script>	
+	     </li>
+	    <!--  <li>
+	     	<i class="icon search lnr lnr-magnifier"></i>
+	     </li>-->
+		   <li>  
+				<form action="get" id="site_search" class="show-input">
+	<span class="input-container"><input type="text" id="search_box" class="hidden-input" placeholder="Search ..."></span>
+  	<input type="submit" value="Go" class="hidden-input">
+	<i class="icon search lnr lnr-magnifier" alt="Search"></i>
+</form>
+			
+<script src="/new-site/assets/themes/OHI/js/lunr.min.js"></script>
+
+			</li>
+      </ul>
+  </nav>
+  <div id="nav-trigger">
+   	<i class="icon icon-large lnr lnr-menu pointer expand"></i>
+    <i class="icon icon-large lnr lnr-cross pointer collapse"></i>
+  </div>
+</div>
+
+<script type="text/javascript">
+</script>
+
+    <div class="container">
+
+      <div class="content">
+        
+
+
+	<div class="container" data-title="Learning R">
+		<h1> resources for learning the R programming language </h1>
+		
+
+
+		
+<h1 id="resources-for-learning-r">Resources for Learning R</h1>
+
+<p>There are many online materials for learning R. Here is just a small sample of free online resources.</p>
+
+<h2 id="tutorials-and-manuals">Tutorials and manuals</h2>
+<ul>
+  <li><a href="http://cran.r-project.org/manuals.html" target="_blank">R manuals</a> and <a href="http://cran.r-project.org/other-docs.html" target="_blank">contributed documentation</a> (includes foreign language translations)</li>
+  <li><a href="http://www.statmethods.net" target="_blank">Quick-R</a> - menu driven tutorials</li>
+  <li><a href="http://tryr.codeschool.com/" target="_blank">TryR</a> - simple interactive sessions through the web (no R needed on desktop)</li>
+</ul>
+
+<h2 id="packages-worth-extra-exploration">Packages worth extra exploration</h2>
+<ul>
+  <li><a href="http://plyr.had.co.nz/" target="_blank">plyr</a> - split data, apply a function to each piece, and combine the results back together</li>
+  <li><a href="https://github.com/hadley/dplyr" target="_blank">dplyr</a> - next generation of plyr, focused on tools for working with data frames (hence the d in the name) that chains performance enchanced common functions for the “grammar of data manipulation” across data sources</li>
+  <li><a href="http://crantastic.org/packages/reshape2" target="_blank">reshape2</a> - melt your data into long format (few columns, many rows) and cast it into wide format (few rows, many columns)</li>
+  <li><a href="http://docs.ggplot2.org/current/" target="_blank">ggplot2</a> - plotting using the “grammar of graphics” principles (<a href="http://www.cookbook-r.com/Graphs/">cookbook</a>)</li>
+</ul>
+
+<h2 id="compared-to-matlab">Compared to Matlab</h2>
+<ul>
+  <li><a href="http://www.math.umaine.edu/~hiebeler/comp/matlabR.pdf" target="_blank">matlabR.pdf</a> - syntax and function differences</li>
+  <li><a href="http://mathesaurus.sourceforge.net/octave-r.html" target="_blank">R for Matlab Users</a> - quick cheat sheet of similar functions</li>
+</ul>
+
+<h2 id="other-lists-of-r-learning-resources-by-source">Other lists of R learning resources by source</h2>
+<ul>
+  <li><a href="http://www.rstudio.com/ide/docs/help_with_r" target="_blank">RStudio</a></li>
+  <li><a href="http://www.ats.ucla.edu/stat/r/" target="_blank">UCLA</a></li>
+  <li><a href="http://andrewgelman.com/2010/06/03/how_best_to_lea/" target="_blank">Andrew Gelman</a></li>
+</ul>
+
+	</div>
+      </div>
+
+    </div> <!-- /container -->
+    
+    <footer>
+    	<div class="footer-inner">
+    		<div class="grid">
+	    		<div class="col-1-3">
+	        		<a class="brand" href="/new-site/"><img src="/new-site/assets/themes/OHI/img/OHI-Science-logo-BW.png" /></a>
+	        	</div>
+	        	<div class="col-1-2 contact right">
+	        		<ul>
+	        			<li><a href="/new-site/forum"><img src="/new-site/assets/themes/OHI/img/forum-icon.png" class="icon" /><span>Forum</span></a></li>
+	        			<li><a href="http://www.twitter.com/OHIScience" target="_blank"><img src="/new-site/assets/themes/OHI/img/twitter-icon.png" class="icon" /> <span>@OHIScience</span></a></li>
+	        			<li><a href="mailto:info@ohi-science.org"><img src="/new-site/assets/themes/OHI/img/email-icon.png" class="icon" /><span>info@ohi-science.org</span></a></li>        			
+	        		</ul>
+	        	</div>
+	        </div>
+        	<div class="links">
+        		<div class="links-inner">
+	        		<a href="/new-site/manual/#appendix-6-frequently-asked-questions-faqs">FAQ</a>
+	        		<a href="/new-site/manual">Manual</a>
+	        		<a href="/new-site/resources/publications">Publications</a>
+	        		<a href="/new-site/news">News</a>
+	        		<a href="/new-site/citation-policy">Our Citation Policy</a>
+	        		<a href="https://www.oceanhealthindex.org" target="_blank">OceanHealthIndex.org</a>
+	        		<a href="/new-site/about#who-we-are">Contact</a>
+	        	</div>
+        	</div>
+        </div>
+    </footer>
+
+    
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45974528-1', 'ohi-science.org');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="/new-site/assets/themes/OHI/js/nav.js"></script>
+    <script src="/new-site/assets/themes/OHI/js/search.js"></script>
+    
+    <!--  
+    
+    -->
+    
+  </body>
+</html>
+

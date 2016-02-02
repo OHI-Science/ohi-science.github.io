@@ -115,64 +115,69 @@ $CW-color: #904E9E;
 }
 .goals-container{
 	
-	> h3{
-		visibility: hidden;
-		height: 0px;
-		margin: 0px;
-	}
-	
 	table{
 		font-size: .9em;
 	}
 
 	
-	.goals-section-header{
-		width: 100%;
-		display: block;
-		border-bottom-width: 4px;
-		border-bottom-style: solid;
-		margin-top: #{$pad-large * 2};
-		padding-bottom: $pad-small;
-		
+	div.icon{
 		img{
-			width: 100px;
-			margin-right: $pad-small;
-		}
-		
-		h3{
+			height: 70px;
+			width: auto;
 			display: inline;
-			line-height: 100px;
-			vertical-align: top;
+			float: left;
+			margin-right: 20px;
+		}
+		+ h3,
+		+ h4{
+			border-bottom-width: 4px;
+			border-bottom-style: solid;
+			line-height: 3em;
+			clear: right;
+			
+			+ *{
+				clear: both;
+			}
 		}
 		
-		&.AO{
+		&.AO + h3,
+		&.AO + h4{
 			border-color: $AO-color;
 		}
-		&.NP{
+		&.NP + h3,
+		&.NP + h4{
 			border-color: $NP-color;
 		}
-		&.CS{
+		&.CS + h3,
+		&.CS + h4{
 			border-color: $CS-color;
 		}
-		&.CW{
+		&.CW + h3,
+		&.CW + h4{
 			border-color: $CW-color;
 		}
-		&.TR{
+		&.TR + h3,
+		&.TR + h4{
 			border-color: $TR-color;
 		}
-		&.CP{
+		&.CP + h3,
+		&.CP + h4{
 			border-color: $CP-color;
 		}
-		&.LE{
+		&.LE + h3,
+		&.LE + h4{
 			border-color: $LE-color;
 		}
-		&.BD{
+		&.BD + h3,
+		&.BD + h4{
 			border-color: $BD-color;
 		}
-		&.SP{
+		&.SP + h3,
+		&.SP + h4{
 			border-color: $SP-color;
 		}
-		&.FP{
+		&.FP + h3,
+		&.FP + h4{
 			border-color: $FP-color;
 		}
 	}
