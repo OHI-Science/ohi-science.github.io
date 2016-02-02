@@ -24,7 +24,7 @@ Assessments using the OHI framework are facilitated by the OHI Toolbox, a suite 
 For more information, please see our sister website at <a href="https://www.oceanhealthindex.org" target="_blank"> <i class="icon icon-right lnr lnr-exit"></i> www.OceanHealthIndex.org</a>
 
 
-{% assign color = 'color-light-2' %}
+{% assign color = 'blue' %}
 {% assign position = 'top-left' %}
 {% include themes/OHI/diagonal %}
 
@@ -42,7 +42,7 @@ Resulting scores can be used to identify policy priorities, maximize cost-effect
 <a href="/phases" class="btn">View the Four Phases of the OHI Assessment</a>
 
 
-{% assign color = 'color-light-2' %}
+{% assign color = 'blue' %}
 {% assign position = 'bottom-left' %}
 {% include themes/OHI/diagonal %}
 
@@ -69,7 +69,7 @@ Learn more about us at [www.oceanhealthindex.org/about](www.oceanhealthindex.org
 **If you are interested in beginning an OHI+ assessment**, please contact Erich, Julie, or Ning at info @ ohi-science.org.
 
 
-{% assign color = 'color-light-background' %}
+{% assign color = 'teal' %}
 {% assign position = 'top-left' %}
 {% include themes/OHI/diagonal %}
 
@@ -87,3 +87,4 @@ We are grateful for the generous support from the Pacific Life Foundation to Con
 *NOAA Photo Library, Image ID: expn2406, Voyage To Inner Space - Exploring the Seas With NOAA Collect, Credit: NOAA OKEANOS EXPLORER Program, Gulf of Mexico 2014 Expedition*
 
 *NOAA Photo Library, Image ID: sanc0612, NOAA's Sanctuaries Collection, Location: Hawaii, Maui, Hawaiian Is. Humpback Whale NMS*
+

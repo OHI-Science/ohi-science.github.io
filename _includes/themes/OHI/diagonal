@@ -1,10 +1,14 @@
 
 {% if position == "top-left" %}
 	{% assign points = '0,0 1000,100 0,100 0,0' %}
+{% elsif position == "top-right" %}
+	{% assign points = '0,100 1000,0 1000,100 0,100' %}
 {% elsif position == "bottom-left" %}
 	{% assign points = '0,0 1000,0 0,100' %}
 {% elsif position == "top-both" %}
 	{% assign points = '0,0 500,100 1000,0 1000,100 0,100' %}
+{% elsif position == "bottom-both" %}
+	{% assign points = '0,0 1000,0 1000,100 500,0 0,100' %}
 {% elsif position == "bottom-right" %}
 	{% assign points = '0,0 1000,0 1000,100 0,0' %}
 {% endif %}

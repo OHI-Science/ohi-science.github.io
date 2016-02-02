@@ -9,10 +9,12 @@ $diag-height: 100px;
 		fill: #FFF;
 	}
 	
-	&.color-light-2 polygon{
+	&.color-light-2 polygon,
+	&.blue polygon{
 		fill: $color-light-2;
 	}
-	&.color-light-background polygon{
+	&.color-light-background polygon,
+	&.teal polygon{
 		fill: $color-light-background;
 	}
 }
@@ -39,7 +41,8 @@ $diag-height: 100px;
 .diagonal-container.white .diagonal{
 	fill: #FFFFFF;
 }
-.diagonal-container.dark .diagonal{
+.diagonal-container.dark .diagonal,
+.diagonal-container.purple .diagonal{
 	fill: $color-dark;
 }
 .stripe.extra-height{

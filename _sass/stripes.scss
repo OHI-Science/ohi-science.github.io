@@ -30,7 +30,8 @@ $header-height: 300px;
 			}
 		}
 	}
-	&.dark{
+	&.dark,
+	&.purple{
 		@extend .light-font;
 		background-color: $color-dark;
 		svg .label{
@@ -107,7 +108,8 @@ $header-height: 300px;
 .stripe.light-font{
 	color: #FFF;
 }
-.stripe.color-light-2{
+.stripe.color-light-2,
+.stripe.blue{
 	background-color: $color-light-2;
 	
 	h2{
@@ -121,7 +123,8 @@ $header-height: 300px;
 	background-color: $primary-color;
 	@extend .light-font;
 }
-.stripe.color-light-background{
+.stripe.color-light-background,
+.stripe.teal{
 	background-color: $color-light-background;
 }
 
