@@ -129,20 +129,26 @@ $header-height: 300px;
 }
 
 /** The Tools page **/
-body[data-url='/resources/tools/index.html'] .stripes-container .stripe-1{
+body[data-url='/resources/tools/index.html'] .stripes-container .stripe-1,
+body[data-url='/resources/tools/'] .stripes-container .stripe-1{
 }
-body[data-url='/resources/tools/index.html'] .stripes-container .stripe-2{
+body[data-url='/resources/tools/index.html'] .stripes-container .stripe-2,
+body[data-url='/resources/tools/'] .stripes-container .stripe-2{
 	background-color: $color-light-2;
 }
-body[data-url='/resources/tools/index.html'] .stripes-container .stripe-3{
+body[data-url='/resources/tools/index.html'] .stripes-container .stripe-3,
+body[data-url='/resources/tools/'] .stripes-container .stripe-3{
 }
-body[data-url='/resources/tools/index.html'] .stripes-container .stripe-4{
+body[data-url='/resources/tools/index.html'] .stripes-container .stripe-4,
+body[data-url='/resources/tools/'] .stripes-container .stripe-4{
 	background-color: $color-light-background;
 }
 /*** The About page ***/
-body[data-url='/about/index.html'] .stripes-container .stripe-1{
+body[data-url='/about/index.html'] .stripes-container .stripe-1,
+body[data-url='/about/'] .stripes-container .stripe-1{
 }
-body[data-url='/about/index.html'] .stripes-container .stripe-2{
+body[data-url='/about/index.html'] .stripes-container .stripe-2,
+body[data-url='/about/'] .stripes-container .stripe-2{
 	background-color: $color-light-2;
 	h2{
 		color: white;
@@ -151,9 +157,11 @@ body[data-url='/about/index.html'] .stripes-container .stripe-2{
 		color: $color-dark;
 	}
 }
-body[data-url='/about/index.html'] .stripes-container .stripe-3{
+body[data-url='/about/index.html'] .stripes-container .stripe-3,
+body[data-url='/about/'] .stripes-container .stripe-3{
 }
-body[data-url='/about/index.html'] .stripes-container .stripe-4{
+body[data-url='/about/index.html'] .stripes-container .stripe-4,
+body[data-url='/about/'] .stripes-container .stripe-4{
 	background-color: $color-light-background;
 	
 	h2{
