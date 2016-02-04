@@ -55,6 +55,7 @@
 	    width: 25%;
 	    float: left;
 	    margin-right: $pad-large;
+	    overflow-y: scroll;
 	    overflow-y: overlay;
 	    padding: $pad-small * 2;
 	    position: fixed;
