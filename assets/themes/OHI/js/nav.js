@@ -1,6 +1,9 @@
 /* A simple responsive menu */
 
-$(document).ready(function(){    
+$(document).ready(function(){   
+    var topBarStartingHeight = $(".topbar").outerHeight(),
+    	slideDownInProgress = false;  
+    
 	//***Mobile menu***
     $("#nav-trigger").click(function(){
     	//On close
@@ -8,6 +11,7 @@ $(document).ready(function(){
             $("#nav-main.expanded").removeClass("expanded").slideUp();
             $("#nav-trigger .collapse").hide();
             $("#nav-trigger .expand").show();
+            $(".topbar").removeClass("open").animate({ height: topBarStartingHeight });
             $(this).removeClass("open");
         }
         //On open
@@ -15,16 +19,16 @@ $(document).ready(function(){
             $("#nav-main").addClass("expanded").slideDown();
             $("#nav-trigger .expand").hide();
             $("#nav-trigger .collapse").show();
+            $(".topbar").addClass("open").animate({ height: "450px" });
             $(this).addClass("open");
         }
-    });
+    });  
     
     //***Dropdown menu***
-    var topBarStartingHeight = $(".topbar").outerHeight(),
-    	slideDownInProgress = false;    
-    
     //Show the selected sub-navigation menu on hover
     $(".nav > li a").mouseover(function(e){    	
+    	if($("#nav-trigger").is(".open")) return;
+    	
     	var link = e.target,
     		subnav = $(link).parent().children(".sub-nav");
     	
@@ -59,7 +63,7 @@ $(document).ready(function(){
     //When the users mouse leaves the topbar, hide it
     $(".topbar").on("mouseleave", function(e){
     	//If the nav bar is still in the animation process of displaying
-    	if(slideDownInProgress){
+    	if(slideDownInProgress || $(".topbar").is(".open")){
     		
     		//We want to set a timeout of 2 seconds so we can check if the user really meant to leave the navbar or not
     		var navTimeout = setTimeout(function(){
