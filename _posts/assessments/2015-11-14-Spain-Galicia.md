@@ -1,7 +1,7 @@
 ---
 layout: assessment
 title: "Spain: Galicia"
-hidden: true
+excerpt_separator: <!--more-->
 category : assessment
 tags : [Europe, OHI+]
 ---

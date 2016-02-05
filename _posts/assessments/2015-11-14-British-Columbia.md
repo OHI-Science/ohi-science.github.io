@@ -1,8 +1,8 @@
 ---
 layout: assessment
 title: "British Columbia"
-hidden: true
 category : assessment
+excerpt_separator: <!--more-->
 tags : [North America]
 ---
 

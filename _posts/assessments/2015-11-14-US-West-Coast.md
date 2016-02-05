@@ -1,7 +1,7 @@
 ---
 layout: assessment
 title: "U.S. West Coast"
-hidden: true
+excerpt_separator: <!--more-->
 category : assessment
 tags : [North America]
 ---
