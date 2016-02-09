@@ -93,25 +93,28 @@
 <li><a href="#install-ohicore"><span class="toc-section-number">5.4</span> Install <code>ohicore</code></a></li>
 </ul></li>
 <li><a href="#using-the-toolbox"><span class="toc-section-number">6</span> Using the Toolbox</a><ul>
-<li><a href="#layer-preparation-workflow"><span class="toc-section-number">6.1</span> Layer preparation workflow</a></li>
-<li><a href="#modifying-and-creating-data-layers"><span class="toc-section-number">6.2</span> Modifying and creating data layers</a><ul>
+<li><a href="#check-pre-loaded-template-data-and-models"><span class="toc-section-number">6.1</span> Check pre-loaded, template data and models</a></li>
+<li><a href="#data-layer-preparation"><span class="toc-section-number">6.2</span> Data layer preparation</a><ul>
 <li><a href="#create-data-layers-with-proper-formatting"><span class="toc-section-number">6.2.1</span> Create data layers with proper formatting</a></li>
 <li><a href="#save-data-layers-in-the-layers-folder"><span class="toc-section-number">6.2.2</span> Save data layers in the <em>layers</em> folder</a></li>
 <li><a href="#register-data-layers-in-layers.csv"><span class="toc-section-number">6.2.3</span> Register data layers in <code>layers.csv</code></a></li>
-<li><a href="#check-pressures-and-resilience-matrices"><span class="toc-section-number">6.2.4</span> Check pressures and resilience matrices</a></li>
 </ul></li>
-<li><a href="#modifying-pressures-matrices"><span class="toc-section-number">6.3</span> Modifying pressures matrices</a><ul>
-<li><a href="#create-the-new-pressure-layers-and-save-in-the-layers-folder"><span class="toc-section-number">6.3.1</span> Create the new pressure layers and save in the <code>layers</code> folder</a></li>
-<li><a href="#register-the-new-pressure-layers-in-layers.csv"><span class="toc-section-number">6.3.2</span> Register the new pressure layers in <code>layers.csv</code></a></li>
-<li><a href="#register-the-new-layers-in-pressure_matrix.csv"><span class="toc-section-number">6.3.3</span> Register the new layers in <code>pressure_matrix.csv</code></a></li>
-<li><a href="#modify-the-resilience-matrix-if-necessary"><span class="toc-section-number">6.3.4</span> Modify the resilience matrix (if necessary)</a></li>
+<li><a href="#modify-goal-models"><span class="toc-section-number">6.3</span> Modify goal models</a><ul>
+<li><a href="#load-ohicore-and-check-data-layers"><span class="toc-section-number">6.3.1</span> Load ohicore and check data layers</a></li>
+<li><a href="#load-data"><span class="toc-section-number">6.3.2</span> Load data</a></li>
+<li><a href="#status-calculation"><span class="toc-section-number">6.3.3</span> Status Calculation</a></li>
+<li><a href="#trend-calculation"><span class="toc-section-number">6.3.4</span> Trend Calculation</a></li>
+<li><a href="#combine-status-and-trend-scores"><span class="toc-section-number">6.3.5</span> Combine Status and Trend Scores</a></li>
+<li><a href="#update-goal-call-in-goals.csv"><span class="toc-section-number">6.3.6</span> Update goal call in <code>goals.csv</code></a></li>
 </ul></li>
-<li><a href="#modifying-resilience-matrices"><span class="toc-section-number">6.4</span> Modifying resilience matrices</a><ul>
-<li><a href="#updating-resilience-matrix-with-local-habitat-information"><span class="toc-section-number">6.4.1</span> Updating resilience matrix with local habitat information</a></li>
+<li><a href="#modifying-pressures-matrices"><span class="toc-section-number">6.4</span> Modifying pressures matrices</a><ul>
+<li><a href="#create-the-new-pressure-layers-and-save-in-the-layers-folder"><span class="toc-section-number">6.4.1</span> Create the new pressure layers and save in the <code>layers</code> folder</a></li>
+<li><a href="#register-the-new-pressure-layers-in-layers.csv"><span class="toc-section-number">6.4.2</span> Register the new pressure layers in <code>layers.csv</code></a></li>
+<li><a href="#register-the-new-layers-in-pressure_matrix.csv"><span class="toc-section-number">6.4.3</span> Register the new layers in <code>pressure_matrix.csv</code></a></li>
+<li><a href="#modify-the-resilience-matrix-if-necessary"><span class="toc-section-number">6.4.4</span> Modify the resilience matrix (if necessary)</a></li>
 </ul></li>
-<li><a href="#modify-goal-models"><span class="toc-section-number">6.5</span> Modify goal models</a><ul>
-<li><a href="#setup"><span class="toc-section-number">6.5.1</span> Setup</a></li>
-<li><a href="#model-modification"><span class="toc-section-number">6.5.2</span> Model modification</a></li>
+<li><a href="#modifying-resilience-matrices"><span class="toc-section-number">6.5</span> Modifying resilience matrices</a><ul>
+<li><a href="#updating-resilience-matrix-with-local-habitat-information"><span class="toc-section-number">6.5.1</span> Updating resilience matrix with local habitat information</a></li>
 </ul></li>
 <li><a href="#removing-goals"><span class="toc-section-number">6.6</span> Removing goals</a></li>
 <li><a href="#modifying-the-pressures-matrix-for-goals-with-categories"><span class="toc-section-number">6.7</span> Modifying the pressures matrix for goals with categories</a><ul>
@@ -1076,21 +1079,28 @@ There are several options to clone your repository to your local machine. When g
 <div id="using-the-toolbox" class="section level1">
 <h1><span class="header-section-number">6</span> Using the Toolbox</h1>
 <blockquote>
-<p>In this section, you will learn about the most common modifications made to repositories. You will be given examples to follow to help with your own assessment. The most common modifications are changing the pressures and resilience matrices, changing or creating data layers, and changing or removing goals models.</p>
+<p>In this section, you will learn about the most common modifications made to repositories. You will be given examples to follow to help with your own assessment. The most common modifications are changing or creating data layers, changing or removing goals models, and changing the pressures and resilience matrices. All the work will be contained within your <code>subcountry201x</code> folder.</p>
 </blockquote>
-<p>We recommend that you work on one goal at a time as data becomes available and goal model established. The general workflow for calculating score</p>
-<p>As your team finalizes which data should be included in the assessment and begins developing goal models, you can incorporate this information into your repository. Input information must be properly formatted into <strong>layers</strong>, which are registered with the Toolbox for use. Layers for the Toolbox can be prepared with any software that handles <em>.csv</em> files, but goal models must be updated in R. It is recommended that layer preparation occurs within your repository’s <code>prep</code> folder as much as possible, as it will also be archived by GitHub. Calculations can be done locally and offline by running <code>subcountry2014/calculate_scores.R</code>.</p>
-<div id="layer-preparation-workflow" class="section level2">
-<h2><span class="header-section-number">6.1</span> Layer preparation workflow</h2>
-<p>It is recommended that you construct a useful workflow with your team to incorporate local information into the Toolbox. Adding layers to the Toolbox will require working with GitHub and the Toolbox file system structure. The overall process involves preparing the layers (which can be done in the <code>prep</code> folder), saving them in the <code>layers</code> folder, and registering the layers. The layer preparation process can occur in tandem with the model modification process.</p>
+<p>We recommend that you work on one goal at a time as data becomes available and goal model created. For each goal and sub-goal, there are multiple dimensions of the OHI scores: <em>status, trend, pressures, resilience, likely future state,</em> and the <em>goal score</em>. Goal and sub-goal index scores are then combined to calculate the <em>overall OHI index score</em>. The general workflow is to:</p>
+<ol style="list-style-type: decimal">
+<li>check that the functions within pre-loaded, template scenario folder work well by running <code>subcountry201x/calculate_scores.R</code></li>
+<li>prepare and register data for a goal</li>
+<li>modify goal models with R to calcualte <em>status</em> and <em>trend</em> (in functions.R and pre_scores.R)</li>
+<li>update pressures and resilience matrix and data layers</li>
+<li>calculate the other dimensions (pressures, resilience, likely future state, goal score, and overall OHI index score) with ohicore</li>
+</ol>
+<p>Step 2-5 can occur simultaneously. Below are instructions for each step.</p>
+<div id="check-pre-loaded-template-data-and-models" class="section level2">
+<h2><span class="header-section-number">6.1</span> Check pre-loaded, template data and models</h2>
+<p>As a starting point, your tailored repository is populated with data and functions based on global 2014 OHI study, which you can then modify directly. To check that your repository is set up properly, you can check by running <code>subcountry2014/calculate_scores.R</code>. It will produce scores for each dimension in <code>subcountry2014/scores.csv</code>. When it’s all set up, you can begin adding your own data and goal models.</p>
+</div>
+<div id="data-layer-preparation" class="section level2">
+<h2><span class="header-section-number">6.2</span> Data layer preparation</h2>
+<p>It is recommended that you construct a useful workflow with your team to incorporate local information into the Toolbox. Adding data to the Toolbox will require working with GitHub and the <a href="http://ohi-science.org/manual/#file-system-organization">Toolbox file system structure</a>. The overall process involves preparing the layers (which can be done in the <code>prep</code> folder), saving them in the <code>layers</code> folder, and registering the layers. The layer preparation process can occur in tandem with the model modification process.</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1-WB84qsupe4yeqKzeBnOSm9iIW-G7N3EYW0VqqGXORs/pub?w=1116&amp;h=641" alt="Diagram of OHI Toolbox data preparation workflow. You should start by prepping the files, loading them into the layers folder when they’re ready for the Toolbox, and then registering them in layers.csv" />
 <p class="caption">Diagram of OHI Toolbox data preparation workflow. You should start by prepping the files, loading them into the <code>layers</code> folder when they’re ready for the Toolbox, and then registering them in <code>layers.csv</code></p>
 </div>
-</div>
-<div id="modifying-and-creating-data-layers" class="section level2">
-<h2><span class="header-section-number">6.2</span> Modifying and creating data layers</h2>
-<!---OM: this is an optional new figure; drafts are commented like so in these Tbx sections. Remove this comment if you want to make it public: ![A figure showing key steps in the process of creating and preparing your data layers.](https://docs.google.com/drawings/d/1faQjNMY3Z_R2X2U53hQ9ChqhxlyEa3xRe8jz5FnXsbU/pub?w=960&h=859)--->
 <p>Data layers are <em>.csv</em> files and are located in the <code>[assessment]/subcountry.year/layers</code> folder (example: gye/subcountry2014/layers). Remember that all data layers provided in your repository are extracted from the global 2014 assessment.</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1ztC3Warw_qWkxJsbPFcdrKRqPBmG-EqYzxHCK6RUQ8I/pub?w=1150&amp;h=818" alt="This figure shows the location of your data layers. Mac navigation is shown above and Windows is shown below." />
@@ -1101,7 +1111,7 @@ There are several options to clone your repository to your local machine. When g
 <li>Layers with the suffix <code>_sc2014.csv</code> (<em>sc</em> for <em>subcountry</em>) have been spatially-extracted from global data or adjusted with spatially-extracted data so that each region in your assessment has a unique value. For example, gross domestic product (GDP) used in the global assessment was reported at the national (most often country) level. Instead of being applied equally across all subcountry regions (which would incorrectly increase the nation’s GDP several times), national GDP was down-weighted by the proportion of coastal population in each region compared with the total coastal population.</li>
 </ul>
 <p>Both types of default data layers are of coarse-resolution and should be replaced with local, high-resolution data when possible. The priority should be to replace as much of the <code>_gl2014.csv</code> data as possible.</p>
-<p><strong>There are several steps to follow when working with data layers:</strong></p>
+<p><strong>There are several steps to follow when creating with your own data layers:</strong></p>
 <ol style="list-style-type: decimal">
 <li>Modify or create data layer with proper formatting</li>
 <li>Save the layer in the <code>layers</code> folder</li>
@@ -1110,7 +1120,9 @@ There are several options to clone your repository to your local machine. When g
 </ol>
 <div id="create-data-layers-with-proper-formatting" class="section level3">
 <h3><span class="header-section-number">6.2.1</span> Create data layers with proper formatting</h3>
-<p>The OHI Toolbox expects each data layer to be in its own <em>.csv</em> file and to be in a specific format, with data available for every region within the study area, with data organized in ‘long’ format (as few columns as possible), and with a unique region identifier (<em>rgn_id</em>) associated with a single score or value. See the <strong>‘Formatting data for the Toolbox’</strong> section for more information.</p>
+<p>The OHI Toolbox expects each data layer to be in its own <em>.csv</em> file and to be in a specific format, with data available for every region within the study area, with data organized in ‘long’ format (as few columns as possible), and with a unique region identifier (<em>rgn_id</em>) associated with a single score or value. See the <a href="http://ohi-science.org/manual/#formatting-data-for-the-toolbox">Formatting data for the Toolbox</a> section for more information.</p>
+<p>It is highly recommended that layer preparation occurs in your repository’s <code>prep</code> folder as much as possible, as it will also be archived by GitHub for future refrence. The folder is divided into sub-folders for each goal and sub-goal, where you will upload the raw data and manipulate the data in <code>data_prep.R</code> scripts.</p>
+<p>Note that you can upload raw data as <em>.xls</em> or <em>.xlsx</em> files to Github, but they must be converted to <em>.csv</em> for toolbox calculations.</p>
 </div>
 <div id="save-data-layers-in-the-layers-folder" class="section level3">
 <h3><span class="header-section-number">6.2.2</span> Save data layers in the <em>layers</em> folder</h3>
@@ -1139,36 +1151,173 @@ There are several options to clone your repository to your local machine. When g
 <li><strong>fld_id_num:</strong> Area designation that applies to the newly created data layer, such as: <em>rgn_id</em> and <em>fao_id</em>.</li>
 </ul>
 <p>It is important to check that you have filled you the fields correctly, for instance, if “fld_value” does not match the header of the source data layer, you will see an error message when you try to calculate scores. Other columns are generated later by the Toolbox as it confirms data formatting and content.</p>
-<p><!-- Ning: where/how to incorporate the template? It is a bit long, and repeats some of the information above. But I think it's good to include as a concrete example for the goal keepers/toolbox person. Should we set this in an Appendix and just reference it in the text here?
+<!-- ### Check pressures and resilience matrices
 
- Template:
- 1. Filename of the data layer: cw_pathogen_trend_gl2014.csv
-
-2. Identify the target for this data layer: goal, sub-goal, pressures, or resilience: CW
-
-3. Short title of the data layer (for the 'name' column in `layers.csv`): Trends in access to improved sanitation
-
-4. One-sentence explanation of the data layer (for the 'description' column in `layers.csv`): Trends in percent of population with access to improved sanitation facilities.
-
-
-5. Long description of the data layer (that includes any data manipulation that has occurred, how to interpret it, and why; any further data manipulation required, how to interpret it, and why): Trends in percent of population with access to improved sanitation facilities. Scores range from 0 to 1, with 0 being the poorest santiation trend and 1 being the best sanitation trend. We updated percent of population with access to improved sanitation facilities data that were available from 1990-2011 from the World Health Organization and United Nations Children's Fund's Joint Monitoring Programme. Processing included the function na.locf from the zoo package in R, and rescaling the data from 0 - 1 with the highest possible score as a reference. This was chosen as was chosen as a proxy for pathogen pollution trend due to lack of better data. If time-series data were available for monitoring of point pollution sources, we could use that data instead in future assessments.
-
-
-6. The data source ( institution that collected the original data, or the institution providing the data if different from the original, the year it was accessed, the URL or publication reference): World Health Organization and United Nations Children's Fund's Joint Monitoring Programme (WHO/UNICEF's JMP). Accessed April 2015. (http://www.wssinfo.org/data-estimates/table)
-
-7. The years of data available: 1990 - 2011
-
-8. The units of data: Trend score (unitless)
-
-9. Any other observations or explanations about the data:Processing included the function na.locf from the zoo package in R (Zeileis & Grothendieck 2005)  --></p>
+If the new or modified layer is a pressures layer, check that `pressures_matrix.csv` and `resilience_matrix.csv` have been properly modified to register the new data layers. -->
 </div>
-<div id="check-pressures-and-resilience-matrices" class="section level3">
-<h3><span class="header-section-number">6.2.4</span> Check pressures and resilience matrices</h3>
-<p>If the new or modified layer is a pressures layer, check that <code>pressures_matrix.csv</code> and <code>resilience_matrix.csv</code> have been properly modified to register the new data layers.</p>
+</div>
+<div id="modify-goal-models" class="section level2">
+<h2><span class="header-section-number">6.3</span> Modify goal models</h2>
+<p>After you have registered the data layers for a goal and created a goal model, you are ready calculate the <em>status</em> and <em>trend</em> of this goal. The basic sequence of events are as follows:</p>
+<ol style="list-style-type: decimal">
+<li>load ohicore and check data layers</li>
+<li>load and combine data layers for this goal</li>
+<li>calculate status</li>
+<li>calculate trend</li>
+<li>combine status and trend</li>
+<li>update <code>goals.csv</code></li>
+</ol>
+<blockquote>
+<p>Tip: Check that you have installed the latest versions of R and RStudio before starting. If an unexplained error occurs during calculation, it could be due to a software update, which could happen every month or so. Sometimes simply updating your software could fix the error.</p>
+</blockquote>
+<div id="load-ohicore-and-check-data-layers" class="section level3">
+<h3><span class="header-section-number">6.3.1</span> Load ohicore and check data layers</h3>
+<p>These steps will help you set up for goal modifications:</p>
+<ol style="list-style-type: decimal">
+<li>Run <code>pre_scores.R</code> <em>This will load ohicore, check data layers, and call the R functions for your next step</em>.</li>
+<li>In <code>conf</code> sub-folder, open <code>functions.R</code>. <em>This is where all the status and trend calculations occur.</em></li>
+<li>Go to the appropriate goal section.</li>
+</ol>
+<p><code>functions.R</code> is pre-loaded with r codes for calculations from the 2014 Global assessment as a reference. Each goal is set up as a function (eg. <code>HAB = functions(layers) {...}</code>) and you will make modifications for each goal within its function (ie. the { }).</p>
+</div>
+<div id="load-data" class="section level3">
+<h3><span class="header-section-number">6.3.2</span> Load data</h3>
+<ol style="list-style-type: decimal">
+<li><strong>Identify and select the data layers</strong> we need. <em>(Note that the layer names are what was set up in layers.csv. Now the toolbox will look for those layers)</em></li>
+</ol>
+<pre><code>lyrs = c(&#39;cs_condition&#39;,
+           &#39;cs_contribution&#39;,
+           &#39;cs_extent&#39;,
+           &#39;cs_extent_trend&#39;)
+
+  D = SelectLayersData(layers, layers=lyrs)
+  # SelectLayersData is an `ohicore` function that will call the layers from layers folder you just named
+
+  head(D); summary(D)</code></pre>
+<p>It is good practice to use <em><strong>head()</strong></em> and <em><strong>summary()</strong></em> after each step to make sure the data looks the way it is supposed to. Alternatively, you can click the file name in Rstudio <code>Environment</code> to see the entire dataset you just created. Here is what the <em>head</em> and <em>summary</em> look like:</p>
+<pre><code>  id_num    category val_num        layer id_name val_name category_name                      
+       1 saltmarshes     0.8 cs_condition  rgn_id    value       habitat id_num | category | val_num
+       2 saltmarshes     0.8 cs_condition  rgn_id    value       habitat id_num | category | val_num
+... ...
+
+     id_num              category     val_num             layer             id_name            val_name         category_name          flds                year
+ Min.   : 1.000   mangroves  :20   Min.   :     -0.1   Length:84          Length:84          Length:84          Length:84          Length:84          Min.   :2007  
+ 1st Qu.: 4.000   saltmarshes:44   1st Qu.:      0.4   Class :character   Class :character   Class :character   Class :character   Class :character   1st Qu.:2007  
+ Median : 8.000   seagrasses :20   Median :      0.7   Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character   Median :2010  
+ Mean   : 6.952                    Mean   :  70215.0                                                                                                  Mean   :2010  
+ 3rd Qu.:10.000                    3rd Qu.:     25.8                                                                                                  3rd Qu.:2012  
+ Max.   :11.000                    Max.   :2513980.0                                                                                                  Max.   :2013                                                                                                                                                        NA&#39;s   :63</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Combine all the data layers into one formatted data file</strong>. Select only the columns we need with <em>select</em>, change the row format to columns with <em>spread</em>, and change the column names to something easier to use with <em>rename</em>.</li>
+</ol>
+<pre><code>rk = D %&gt;%
+    select(region_id = id_num,
+           layer,
+           habitat = category,
+           val_num) %&gt;%
+    spread(layer, val_num) %&gt;%  # spread is a tidyr funtion
+    rename(contribution = cs_contribution, # rename is a dplyr function
+                  condition    = cs_condition,
+                  extent       = cs_extent,
+                  extent_trend = cs_extent_trend); head(rk)</code></pre>
+<p><em>This is what head(rk) looks like:</em></p>
+<pre><code>    region_id     habitat contribution condition  extent extent_trend
+            1 saltmarshes          1.0       0.8 1188600         -0.1
+            1  seagrasses          0.5       0.8     100          0.0
+            2 saltmarshes          1.0       0.8   81551         -0.1
+...</code></pre>
+<p><em>Note: the %&gt;% is a chain operator from dplyr used to simplify coding writing. To read more about it: <a href="http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html" class="uri">http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html</a> on chaining</em></p>
+<!-- narrative for video: we select only the columns we need: the province id, layer, habitat, and values. note that those names have been written differently in github than the original data file, as shown in the summary (point to summary). we’ll change the names to something we can easily recognize. and we can do so in the select command (region_id to id_num, etc)
+right now, the data are in rows, and we want to make each layer into a column (show data on R of what this means). We use spread in the tidyr package to do that. (note that we wrote tidyr:: spread, to show that the command spread comes from tidyr package). in this command, the key= variable to become column headers, which is layer. value= data, which is val_num. for more info on spread, see cheat sheet, and ?spread
+now the data is in a nice and clean format in one table, we can do the status calculation. The model is written out according to the data description file. -->
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Select only the habitats that contribute to CS</strong> (Not all habitats included in the raw data files are used for carbon storage). You can select specific rows with <em>filter</em>.</li>
+</ol>
+<pre><code>rk = rk %&gt;%
+  filter(habitat %in% c(&#39;mangroves&#39;,&#39;saltmarshes&#39;,&#39;seagrasses&#39;))</code></pre>
+</div>
+<div id="status-calculation" class="section level3">
+<h3><span class="header-section-number">6.3.3</span> Status Calculation</h3>
+<p>For easy reference, write down the equation as a comment before calculations.</p>
+<pre><code>## status model calculations
+ #  xCS = sum(ck           * Cc/Cr     * Ak) / At
+ #      = sum(contribution * condition * extent_per_habitat) / total_extent_all_habitats</code></pre>
+<ol style="list-style-type: decimal">
+<li><strong>Calculate status for all reported years</strong>. Most frequently used functions are <em>mutate</em>, <em>group_by</em>, and <em>summarize</em>. To learn more, see Appendix 5.</li>
+</ol>
+<pre><code>StatusData = rk %&gt;%
+    mutate(c_c_a = contribution * condition * extent) %&gt;%  # mutate adds a new column
+    group_by(region_id) %&gt;%                     # signifies the following calculations are done within each region
+    summarize(sum_c_c_a  = sum(c_c_a),          # summarize also adds a new column, but gives one aggregated result
+              total_extent = sum(extent)) %&gt;%   # for each region
+    ungroup() %&gt;%                               # always a good practice to ungroup before next operation
+    mutate(xCS_calc = sum_c_c_a/total_extent,
+           score = pmax(-1, pmin(1, xCS_calc)) * 100)     #score can&#39;t exceed 100</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Select only the status of the most recent year, and add a column for dimension “status”</strong>. For final reporting, the toolbox will need four pieces of information: <em>goal, region_id, dimension, and score</em>, although they don’t need to be listed in a certain order at this step.</li>
+</ol>
+<pre><code>status &lt;-  StatusData %&gt;%
+   filter(year==status_year) %&gt;%
+   mutate(score     = round(Status*100),                # score is 0-100
+          dimension = &#39;status&#39;) %&gt;%
+   select(region_id=rgn_id, dimension, score) %&gt;%       # select the correct columns
+   data.frame()</code></pre>
+</div>
+<div id="trend-calculation" class="section level3">
+<h3><span class="header-section-number">6.3.4</span> Trend Calculation</h3>
+<p>For CS, a variable <code>extent-trend</code> has been prepared to calculate the trend:</p>
+<pre><code>trend = rk %&gt;%
+  group_by(region_id) %&gt;%
+  summarize(trend_raw = sum(extent * extent_trend) / sum(extent),
+            score = max(min(trend_raw, 1), -1)) %&gt;%
+  mutate(dimension = &quot;trend&quot;)</code></pre>
+<p>However, for most other goals, <strong>trends are calculated in a regression model based on the most recent 5 years of status</strong>:</p>
+<pre><code>trend = StatusData %&gt;%
+   filter(year &gt; (max(year)-5)) %&gt;%                  # select the most recent 5 years of data
+   group_by(rgn_id) %&gt;%
+   do(mdl = lm(Status ~ year, data = .)) %&gt;%         # regression model
+   summarize(region_id = rgn_id,
+             score = coef(mdl)[&#39;year&#39;] * 5) %&gt;%      # trend is the coefficient of year x 5
+   ungroup() %&gt;%
+   mutate(score = round(score, 2),
+          dimension = &quot;trend&quot;) %&gt;%
+   select(region_id, dimension, score) %&gt;%
+   data.frame()</code></pre>
+</div>
+<div id="combine-status-and-trend-scores" class="section level3">
+<h3><span class="header-section-number">6.3.5</span> Combine Status and Trend Scores</h3>
+<p>To report the results, you’ll assemble status and trend scores you just calculated above into one data frame. Now the your results would contain region_id, score, dimension, and goal, which will be combined with the results of other goals and produce one results table:</p>
+<pre><code>scores = rbind(status, trend) %&gt;% mutate(goal=&#39;CS&#39;)</code></pre>
+</div>
+<div id="update-goal-call-in-goals.csv" class="section level3">
+<h3><span class="header-section-number">6.3.6</span> Update goal call in <code>goals.csv</code></h3>
+<p><code>goals.csv</code> in the <code>conf</code> folder provides input information for <code>functions.R</code>, particularly about function calls. These are indicated by two columns: <em>preindex_function</em> (functions for all goals that do not have sub-goals, and functions for all sub-goals) and <em>postindex_function</em> (functions for goals with sub-goals).</p>
+<p>In the <code>preindex_fuction</code>, you could specify variables such as <em>status_year</em> and <em>trend_year</em>, which you can call in your goal function. Note that it is not necessary to specify those variables. If you do not use them in your function as in the CS example, you could delete those variables in <code>preindex_fuction</code>.</p>
+<blockquote>
+<p>Changing goal weights will be done here by editing the value in the <em>weight</em> column. Weights do not need to be 0-1 or add up to 10; weights will be scaled as a proportion of the number of goals assessed. The ten goals are weighted equally by default.</p>
+</blockquote>
+<blockquote>
+<p><code>goals.csv</code> also includes descriptions about goals and sub-goals, which is presented on the WebApp.</p>
+</blockquote>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/17BgYSw2sHbZvHNjUqBlTG-kCOAAn7o6a65O37s0S_es/pub?w=1052&amp;h=719" alt="Check the information in goals.csv. It provides input information for functions.R." />
+<p class="caption">Check the information in <code>goals.csv</code>. It provides input information for <code>functions.R</code>.</p>
+</div>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/1o2wtJ9KCPDyGPH9Y4unmALG6BlxX9lmJ_PakDDiQrLo/pub?w=700&amp;h=524" alt="A screenshot of goals.csv, used to modify goal model" />
+<p class="caption">A screenshot of <code>goals.csv</code>, used to modify goal model</p>
+</div>
+<!-- eventually we want a score for each region. to do so, we group the data by region, with group_by, by rgn_id (show new data table grouped by region)
+next we calculate the sum of extent*condition*contribution in each region, and the sum of all extents. we use summarize this time, which adds a new column automatically, and aggregate different habitats in each region into one combined score. note that summarize acts based on the group_by command we just did. then we ungroup before the next command, which is always a good practice.
+now we have calculated the sum of extent*condition*contribution, and the sum of extents (point to the model equation), we can calculate the final score for each region. again, to add a new column, we use mutate. since the score can’t exceed 100, we’ll use the function min(1, xCS_calc), which takes the minimum of the two numbers.
+after we calculate the score, there is one more step to create a new table for the status score called r.status and format the it to match the style of the other goals. (show the outcome table in green). again we’ll use the mutate function to add in two new columns: goal and dimension. Then we select only the columns we need, with the select function. now, the status calculation is done!
+in addition to status, we also need to calculate trend. we use the first table we made today, rk, which contains the raw data for all habitats in all regions. we first aggregate the data by region using group_by, then add two new columns for the trend calculation and the score, using summarize.
+similar to status, trend scores need to be properly formatted to match the rest of the goal trends. we’ll create a new table called r.trend with the scores we just calculated. again, we use mutate and select, as shown here.
+now we’ve successfully calculated status and trend, the last thing we need to do is combine them into one table called scores. we combine r.status and r.trend by first binding by rows (rbind). -->
 </div>
 </div>
 <div id="modifying-pressures-matrices" class="section level2">
-<h2><span class="header-section-number">6.3</span> Modifying pressures matrices</h2>
+<h2><span class="header-section-number">6.4</span> Modifying pressures matrices</h2>
 <p>Your team will identify if any pressures layers should be added to the pressures matrices, and if so, which goals the pressure affects and what weight they should have (see Appendix 6 for guidance on Pressure and Resilience). You can transfer this information in <code>pressures_matrix.csv</code> (located in the <code>[assessment]/subcountry2014/conf</code> folder). It is important to note that the matrix identifies the pressures relevant to each goal, and which weight will be applied in the calculation. Each pressure is a data layer, located in the <code>subcountry2014/layers</code> folder. This means that pressure layers need information for each region in the study area, and some layers will need to be updated with local data. In modifying pressures, you will need to consider whether data layers can be updated or added, and whether data layers map onto goals appropriately in the local context.</p>
 <p>Adding a new pressure to the pressures matrix requires the following steps:</p>
 <blockquote>
@@ -1191,7 +1340,7 @@ There are several options to clone your repository to your local machine. When g
 </blockquote>
 <p>The following is an example of adding two new pressures layers.</p>
 <div id="create-the-new-pressure-layers-and-save-in-the-layers-folder" class="section level3">
-<h3><span class="header-section-number">6.3.1</span> Create the new pressure layers and save in the <code>layers</code> folder</h3>
+<h3><span class="header-section-number">6.4.1</span> Create the new pressure layers and save in the <code>layers</code> folder</h3>
 <p>If you create a new data layer, give it a short but descriptive name that also includes a prefix that signifies the pressure category (for example: <em>po_</em> for the pollution category). There are five physical categories and one social category:</p>
 <ul>
 <li><em>po_</em> = pollution</li>
@@ -1206,7 +1355,7 @@ There are several options to clone your repository to your local machine. When g
 <p>These new layers will have scores from 0 to 1, with values for each region in your study area, and will be saved in the <code>layers</code> folder.</p>
 </div>
 <div id="register-the-new-pressure-layers-in-layers.csv" class="section level3">
-<h3><span class="header-section-number">6.3.2</span> Register the new pressure layers in <code>layers.csv</code></h3>
+<h3><span class="header-section-number">6.4.2</span> Register the new pressure layers in <code>layers.csv</code></h3>
 <p>Add two new rows in <code>layers.csv</code>, and register the new pressure layers by filling out the first eight columns for <em>po_desal_in</em>, and <em>po_desal_out</em>.</p>
 <div class="figure">
 <img src="fig/register_pressure.png" />
@@ -1214,14 +1363,14 @@ There are several options to clone your repository to your local machine. When g
 </div>
 </div>
 <div id="register-the-new-layers-in-pressure_matrix.csv" class="section level3">
-<h3><span class="header-section-number">6.3.3</span> Register the new layers in <code>pressure_matrix.csv</code></h3>
+<h3><span class="header-section-number">6.4.3</span> Register the new layers in <code>pressure_matrix.csv</code></h3>
 <p><code>pressures_matrix.csv</code> identifies the different types of ocean pressures (columns) with the goals that they affect (rows). Adding a new pressures layer to <code>pressures_matrix.csv</code> requires adding a new column with the pressure layer name.</p>
 <div id="set-the-pressure-category" class="section level4">
-<h4><span class="header-section-number">6.3.3.1</span> Set the pressure category</h4>
+<h4><span class="header-section-number">6.4.3.1</span> Set the pressure category</h4>
 <p>This step requires transferring previous decisions made by your team into <code>pressures_matrix.csv</code>. Each pressure category is calculated separately before being combined with the others, so it is important to register the new pressure with the appropriate category prefix decided by your regional assessment team.</p>
 </div>
 <div id="identify-the-goals-affected-and-set-the-weighting" class="section level4">
-<h4><span class="header-section-number">6.3.3.2</span> Identify the goals affected and set the weighting</h4>
+<h4><span class="header-section-number">6.4.3.2</span> Identify the goals affected and set the weighting</h4>
 <p>This step also requires transferring prior decisions into <code>pressures_matrix.csv</code>. Mark which goals are affected by this new pressure, and then set the weighting. Pressures weighting by goal should be based on scientific literature and expert opinion (3 = highly influential pressure, 2 = moderately influential pressure, 1 = not very influential pressure). Remember that the rankings in the pressures matrix are separate from the actual data within the pressures data layers. The rankings ensure that within a particular goal (e.g. within a row of the pressures matrix), the stressors that more strongly influence the goal’s delivery have a larger contribution to that goal’s overall pressure score. Therefore, the rankings are assigned independently of the actual pressure scores, and only determine their importance within the calculations.</p>
 <div class="figure">
 <img src="fig/register_new_pressures.png" />
@@ -1230,12 +1379,12 @@ There are several options to clone your repository to your local machine. When g
 </div>
 </div>
 <div id="modify-the-resilience-matrix-if-necessary" class="section level3">
-<h3><span class="header-section-number">6.3.4</span> Modify the resilience matrix (if necessary)</h3>
+<h3><span class="header-section-number">6.4.4</span> Modify the resilience matrix (if necessary)</h3>
 <p>Resilience is included in OHI as the sum of the ecological factors and social initiatives (policies, laws, etc.) that can positively affect goal scores by reducing or eliminating pressures. The addition of new pressure layers may therefore warrant the addition of new resilience layers that were not previously relevant. Similarly, the removal of pressure layers may warrant the removal of now irrelevant resilience layers.</p>
 </div>
 </div>
 <div id="modifying-resilience-matrices" class="section level2">
-<h2><span class="header-section-number">6.4</span> Modifying resilience matrices</h2>
+<h2><span class="header-section-number">6.5</span> Modifying resilience matrices</h2>
 <p>Previous decisions made with your team will identify if any resilience layers should be added to the resilience matrices, and if so, which goals and/or pressures the resilience affects and what weight they should have. You can then transfer this information into <code>resilience_matrix.csv</code> (located in the <code>[assessment]/subcountry2014/conf</code> folder).</p>
 <p><code>resilience_matrix.csv</code> maps the different types of resilience (columns) with the goals that they affect (rows). New resilience layers may be added to <code>resilience_matrix.csv</code> based on finer-scale local information either in response to a new pressures layer, or as a new independent measure. Any added layer must be associated with a pressures layer that has a weight of 2 or 3 in the OHI framework so that resilience measures can mitigate pressures in each region.</p>
 <p>Each goal must have a resilience measure associated with it. In the figure below, the Toolbox would give an error because there are no resilience layers indicated for the natural products (NP) goal.</p>
@@ -1244,7 +1393,7 @@ There are several options to clone your repository to your local machine. When g
 
 </div>
 <div id="updating-resilience-matrix-with-local-habitat-information" class="section level3">
-<h3><span class="header-section-number">6.4.1</span> Updating resilience matrix with local habitat information</h3>
+<h3><span class="header-section-number">6.5.1</span> Updating resilience matrix with local habitat information</h3>
 <p>In this example we will borrow from the experience of <code>ohi-israel</code>, where they assessed habitats in the Habitats (HAB) sub-goal that were not included in global assessments <code>ohi-global</code>. Therefore, the resilience matrix needed some revision.</p>
 <p>The habitats assessed for <code>ohi-israel</code> are:</p>
 <blockquote>
@@ -1257,7 +1406,7 @@ There are several options to clone your repository to your local machine. When g
 <li><em>resilience_weights.csv</em> (only if adding new resilience layers)</li>
 </ul>
 <div id="global-resilience-layers" class="section level4">
-<h4><span class="header-section-number">6.4.1.1</span> Global resilience layers</h4>
+<h4><span class="header-section-number">6.5.1.1</span> Global resilience layers</h4>
 <p>The first step is to determine which resilience layers from the global assessment are relevant to your assessment, and whether others need to be added. The full list of layers included in the global resilience matrix are:</p>
 <blockquote>
 <p><code>alien_species</code>, <code>cites</code>, <code>fishing_v1</code>, <code>fishing_v1_eez</code>, <code>fishing_v2_eez</code>, <code>fishing_v3</code>, <code>fishing_v3_eez</code>, <code>habitat</code>, <code>habitat_combo</code>, <code>habitat_combo_eez</code>, <code>li_gci</code>, <code>li_sector_evenness</code>, <code>mariculture</code>, <code>msi_gov</code>, <code>species_diversity</code>, <code>species_diversity_3nm</code>, <code>tourism</code>, <code>water</code>, <code>wgi_all</code></p>
@@ -1276,7 +1425,7 @@ There are several options to clone your repository to your local machine. When g
 </blockquote>
 </div>
 <div id="determining-how-to-modify-these-resilience-layers" class="section level4">
-<h4><span class="header-section-number">6.4.1.2</span> Determining how to modify these resilience layers</h4>
+<h4><span class="header-section-number">6.5.1.2</span> Determining how to modify these resilience layers</h4>
 <ul>
 <li>To determine whether <code>species_diversity_3nm</code> or <code>species_diversity</code> should be used:
 <ul>
@@ -1409,165 +1558,6 @@ There are several options to clone your repository to your local machine. When g
 <ul>
 <li>write the complete list of layers you want to use for each habitat. Based on the above, for example, <code>soft bottom</code> in Israel matches the combination of layers called <em>soft bottom, with corals</em> in the default <code>resilience_matrix.csv</code>. But the <code>rocky_reef</code> and <code>sand_dunes</code> don’t seem to match any existing combination, so you’ll probably need to delete some of the rows, e.g. the <em>coral only</em>, and replace with new ad-hoc rows.</li>
 </ul>
-</div>
-</div>
-</div>
-<div id="modify-goal-models" class="section level2">
-<h2><span class="header-section-number">6.5</span> Modify goal models</h2>
-<p>Before getting started on the R codes, make sure that you have finished these steps:</p>
-<ul>
-<li>Check that you have installed the latest versions of R, RStudio, and GitHub</li>
-<li>Synchronize GitHub and Rstudio</li>
-<li>Update data layers, pressure, and resilience in both layers folder and layers.csv</li>
-</ul>
-<div id="setup" class="section level3">
-<h3><span class="header-section-number">6.5.1</span> Setup</h3>
-<p>Now you are ready to modify your goal models and calculate scores. Here are a few steps to set it up. We will use CHN Carbon Storage goal as an example:</p>
-<ol style="list-style-type: decimal">
-<li>Open your project (eg. CHN) in RStudio, and open the folder of your specific assessment (eg. province2015).</li>
-<li>Run <code>install_ohicore.R</code>. <em>This only needs to be done once to load all the background functions for OHI.</em></li>
-<li>Run <code>calculate.scores.R</code> from line 1 all the way through <code>Load Scenario Layers</code> section. <em>This will load all the data layers and call the background functions for your next step</em>.</li>
-<li>In <code>conf</code> sub-folder, open <code>functions.R</code>. <em>This is where all the status and trend calculations occur.</em></li>
-<li>Go to the appropriate goal section.</li>
-</ol>
-</div>
-<div id="model-modification" class="section level3">
-<h3><span class="header-section-number">6.5.2</span> Model modification</h3>
-<p>Your repository is pre-loaded with r codes for calculations from the 2014 Global assessment. Regardless of how you have changed your models, the basic sequence of events are similar for all goals. In <code>functions.R</code>, each goal is set up as a function (eg. <code>HAB = functions(layers) {...}</code>) and you will make modifications for each goal within its function (ie. the { }). Below is the step-by-step instruction on how to modify CS goal model and calculate its status and trend, as an example.</p>
-<div id="load-data" class="section level4">
-<h4><span class="header-section-number">6.5.2.1</span> Load data</h4>
-<ol style="list-style-type: decimal">
-<li><strong>Identify and select the data layers</strong> we need. <em>(Note that the layer names are what was set up in layers.csv. Now the toolbox will look for those layers)</em></li>
-</ol>
-<pre><code>lyrs = c(&#39;cs_condition&#39;,
-           &#39;cs_contribution&#39;,
-           &#39;cs_extent&#39;,
-           &#39;cs_extent_trend&#39;)
-
-  D = SelectLayersData(layers, layers=lyrs)
-  # SelectLayersData is an `ohicore` function that will call the layers from layers folder you just named
-
-  head(D); summary(D)</code></pre>
-<p>It is good practice to use <em><strong>head()</strong></em> and <em><strong>summary()</strong></em> after each step to make sure the data looks the way it is supposed to. Alternatively, you can click the file name in Rstudio <code>Environment</code> to see the entire dataset you just created. Here is what the <em>head</em> and <em>summary</em> look like:</p>
-<pre><code>  id_num    category val_num        layer id_name val_name category_name                      
-       1 saltmarshes     0.8 cs_condition  rgn_id    value       habitat id_num | category | val_num
-       2 saltmarshes     0.8 cs_condition  rgn_id    value       habitat id_num | category | val_num
-... ...
-
-     id_num              category     val_num             layer             id_name            val_name         category_name          flds                year
- Min.   : 1.000   mangroves  :20   Min.   :     -0.1   Length:84          Length:84          Length:84          Length:84          Length:84          Min.   :2007  
- 1st Qu.: 4.000   saltmarshes:44   1st Qu.:      0.4   Class :character   Class :character   Class :character   Class :character   Class :character   1st Qu.:2007  
- Median : 8.000   seagrasses :20   Median :      0.7   Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character   Median :2010  
- Mean   : 6.952                    Mean   :  70215.0                                                                                                  Mean   :2010  
- 3rd Qu.:10.000                    3rd Qu.:     25.8                                                                                                  3rd Qu.:2012  
- Max.   :11.000                    Max.   :2513980.0                                                                                                  Max.   :2013                                                                                                                                                        NA&#39;s   :63</code></pre>
-<ol start="2" style="list-style-type: decimal">
-<li><strong>Combine all the data layers into one formatted data file</strong>. Select only the columns we need with <em>select</em>, change the row format to columns with <em>spread</em>, and change the column names to something easier to use with <em>rename</em>.</li>
-</ol>
-<pre><code>rk = D %&gt;%
-    select(region_id = id_num,
-           layer,
-           habitat = category,
-           val_num) %&gt;%
-    spread(layer, val_num) %&gt;%  # spread is a tidyr funtion
-    rename(contribution = cs_contribution, # rename is a dplyr function
-                  condition    = cs_condition,
-                  extent       = cs_extent,
-                  extent_trend = cs_extent_trend); head(rk)</code></pre>
-<p><em>This is what head(rk) looks like:</em></p>
-<pre><code>    region_id     habitat contribution condition  extent extent_trend
-            1 saltmarshes          1.0       0.8 1188600         -0.1
-            1  seagrasses          0.5       0.8     100          0.0
-            2 saltmarshes          1.0       0.8   81551         -0.1
-...</code></pre>
-<p><em>Note: the %&gt;% is a chain operator from dplyr used to simplify coding writing. To read more about it: <a href="http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html" class="uri">http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html</a> on chaining</em></p>
-<!-- narrative for video: we select only the columns we need: the province id, layer, habitat, and values. note that those names have been written differently in github than the original data file, as shown in the summary (point to summary). we’ll change the names to something we can easily recognize. and we can do so in the select command (region_id to id_num, etc)
-right now, the data are in rows, and we want to make each layer into a column (show data on R of what this means). We use spread in the tidyr package to do that. (note that we wrote tidyr:: spread, to show that the command spread comes from tidyr package). in this command, the key= variable to become column headers, which is layer. value= data, which is val_num. for more info on spread, see cheat sheet, and ?spread
-now the data is in a nice and clean format in one table, we can do the status calculation. The model is written out according to the data description file. -->
-<ol start="3" style="list-style-type: decimal">
-<li><strong>Select only the habitats that contribute to CS</strong> (Not all habitats included in the raw data files are used for carbon storage). You can select specific rows with <em>filter</em>.</li>
-</ol>
-<pre><code>rk = rk %&gt;%
-  filter(habitat %in% c(&#39;mangroves&#39;,&#39;saltmarshes&#39;,&#39;seagrasses&#39;))</code></pre>
-</div>
-<div id="status-calculation" class="section level4">
-<h4><span class="header-section-number">6.5.2.2</span> Status Calculation</h4>
-<p>For easy reference, write down the equation as a comment before calculations.</p>
-<pre><code>## status model calculations
- #  xCS = sum(ck           * Cc/Cr     * Ak) / At
- #      = sum(contribution * condition * extent_per_habitat) / total_extent_all_habitats</code></pre>
-<ol style="list-style-type: decimal">
-<li><strong>Calculate status for all reported years</strong>. Most frequently used functions are <em>mutate</em>, <em>group_by</em>, and <em>summarize</em>. To learn more, see Appendix 5.</li>
-</ol>
-<pre><code>StatusData = rk %&gt;%
-    mutate(c_c_a = contribution * condition * extent) %&gt;%  # mutate adds a new column
-    group_by(region_id) %&gt;%                     # signifies the following calculations are done within each region
-    summarize(sum_c_c_a  = sum(c_c_a),          # summarize also adds a new column, but gives one aggregated result
-              total_extent = sum(extent)) %&gt;%   # for each region
-    ungroup() %&gt;%                               # always a good practice to ungroup before next operation
-    mutate(xCS_calc = sum_c_c_a/total_extent,
-           score = pmax(-1, pmin(1, xCS_calc)) * 100)     #score can&#39;t exceed 100</code></pre>
-<ol start="2" style="list-style-type: decimal">
-<li><strong>Select only the status of the most recent year, and add a column for dimension “status”</strong>. For final reporting, the toolbox will need four pieces of information: <em>goal, region_id, dimension, and score</em>, although they don’t need to be listed in a certain order at this step.</li>
-</ol>
-<pre><code>status &lt;-  StatusData %&gt;%
-   filter(year==status_year) %&gt;%
-   mutate(score     = round(Status*100),                # score is 0-100
-          dimension = &#39;status&#39;) %&gt;%
-   select(region_id=rgn_id, dimension, score) %&gt;%       # select the correct columns
-   data.frame()</code></pre>
-</div>
-<div id="trend-calculation" class="section level4">
-<h4><span class="header-section-number">6.5.2.3</span> Trend Calculation</h4>
-<p>For CS, a variable <code>extent-trend</code> has been prepared to calculate the trend:</p>
-<pre><code>trend = rk %&gt;%
-  group_by(region_id) %&gt;%
-  summarize(trend_raw = sum(extent * extent_trend) / sum(extent),
-            score = max(min(trend_raw, 1), -1)) %&gt;%
-  mutate(dimension = &quot;trend&quot;)</code></pre>
-<p>However, for most other goals, <strong>trends are calculated in a regression model based on the most recent 5 years of status</strong>:</p>
-<pre><code>trend = StatusData %&gt;%
-   filter(year &gt; (max(year)-5)) %&gt;%                  # select the most recent 5 years of data
-   group_by(rgn_id) %&gt;%
-   do(mdl = lm(Status ~ year, data = .)) %&gt;%         # regression model
-   summarize(region_id = rgn_id,
-             score = coef(mdl)[&#39;year&#39;] * 5) %&gt;%      # trend is the coefficient of year x 5
-   ungroup() %&gt;%
-   mutate(score = round(score, 2),
-          dimension = &quot;trend&quot;) %&gt;%
-   select(region_id, dimension, score) %&gt;%
-   data.frame()</code></pre>
-</div>
-<div id="combine-status-and-trend-scores" class="section level4">
-<h4><span class="header-section-number">6.5.2.4</span> Combine Status and Trend Scores</h4>
-<p>To report the results, you’ll assemble status and trend scores you just calculated above into one data frame. Now the your results would contain region_id, score, dimension, and goal, which will be combined with the results of other goals and produce one results table:</p>
-<pre><code>scores = rbind(status, trend) %&gt;% mutate(goal=&#39;CS&#39;)</code></pre>
-</div>
-<div id="update-goal-call-in-goals.csv" class="section level4">
-<h4><span class="header-section-number">6.5.2.5</span> Update goal call in <code>goals.csv</code></h4>
-<p><code>goals.csv</code> in the <code>conf</code> folder provides input information for <code>functions.R</code>, particularly about function calls. These are indicated by two columns: <em>preindex_function</em> (functions for all goals that do not have sub-goals, and functions for all sub-goals) and <em>postindex_function</em> (functions for goals with sub-goals).</p>
-<p>In the <code>preindex_fuction</code>, you could specify variables such as <em>status_year</em> and <em>trend_year</em>, which you can call in your goal function. Note that it is not necessary to specify those variables. If you do not use them in your function as in the CS example, you could delete those variables in <code>preindex_fuction</code>.</p>
-<blockquote>
-<p>Changing goal weights will be done here by editing the value in the <em>weight</em> column. Weights do not need to be 0-1 or add up to 10; weights will be scaled as a proportion of the number of goals assessed. The ten goals are weighted equally by default.</p>
-</blockquote>
-<blockquote>
-<p><code>goals.csv</code> also includes descriptions about goals and sub-goals, which is presented on the WebApp.</p>
-</blockquote>
-<div class="figure">
-<img src="https://docs.google.com/drawings/d/17BgYSw2sHbZvHNjUqBlTG-kCOAAn7o6a65O37s0S_es/pub?w=1052&amp;h=719" alt="Check the information in goals.csv. It provides input information for functions.R." />
-<p class="caption">Check the information in <code>goals.csv</code>. It provides input information for <code>functions.R</code>.</p>
-</div>
-<div class="figure">
-<img src="https://docs.google.com/drawings/d/1o2wtJ9KCPDyGPH9Y4unmALG6BlxX9lmJ_PakDDiQrLo/pub?w=700&amp;h=524" alt="A screenshot of goals.csv, used to modify goal model" />
-<p class="caption">A screenshot of <code>goals.csv</code>, used to modify goal model</p>
-</div>
-<!-- eventually we want a score for each region. to do so, we group the data by region, with group_by, by rgn_id (show new data table grouped by region)
-next we calculate the sum of extent*condition*contribution in each region, and the sum of all extents. we use summarize this time, which adds a new column automatically, and aggregate different habitats in each region into one combined score. note that summarize acts based on the group_by command we just did. then we ungroup before the next command, which is always a good practice.
-now we have calculated the sum of extent*condition*contribution, and the sum of extents (point to the model equation), we can calculate the final score for each region. again, to add a new column, we use mutate. since the score can’t exceed 100, we’ll use the function min(1, xCS_calc), which takes the minimum of the two numbers.
-after we calculate the score, there is one more step to create a new table for the status score called r.status and format the it to match the style of the other goals. (show the outcome table in green). again we’ll use the mutate function to add in two new columns: goal and dimension. Then we select only the columns we need, with the select function. now, the status calculation is done!
-in addition to status, we also need to calculate trend. we use the first table we made today, rk, which contains the raw data for all habitats in all regions. we first aggregate the data by region using group_by, then add two new columns for the trend calculation and the score, using summarize.
-similar to status, trend scores need to be properly formatted to match the rest of the goal trends. we’ll create a new table called r.trend with the scores we just calculated. again, we use mutate and select, as shown here.
-now we’ve successfully calculated status and trend, the last thing we need to do is combine them into one table called scores. we combine r.status and r.trend by first binding by rows (rbind). -->
 </div>
 </div>
 </div>
