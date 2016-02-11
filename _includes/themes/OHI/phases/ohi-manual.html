@@ -70,16 +70,17 @@
 <li><a href="#obtaining-a-tailored-repository"><span class="toc-section-number">4.1</span> Obtaining a Tailored Repository</a></li>
 <li><a href="#whats-in-your-tailored-repository"><span class="toc-section-number">4.2</span> What’s in your Tailored Repository</a></li>
 <li><a href="#file-system-organization"><span class="toc-section-number">4.3</span> File system organization</a><ul>
-<li><a href="#assessment-repositories"><span class="toc-section-number">4.3.1</span> Assessment repositories</a></li>
-<li><a href="#scenario-folders"><span class="toc-section-number">4.3.2</span> Scenario folders</a></li>
-<li><a href="#subcountry2014-contents"><span class="toc-section-number">4.3.3</span> <code>subcountry2014</code> contents</a></li>
+<li><a href="#main-folders-within-your-tailored-repository"><span class="toc-section-number">4.3.1</span> Main folders within your tailored repository</a></li>
+<li><a href="#r-scripts"><span class="toc-section-number">4.3.2</span> R scripts</a></li>
+<li><a href="#data-layers"><span class="toc-section-number">4.3.3</span> Data layers</a></li>
 </ul></li>
-<li><a href="#toolbox-software"><span class="toc-section-number">4.4</span> Toolbox Software</a><ul>
-<li><a href="#github-and-git"><span class="toc-section-number">4.4.1</span> GitHub and git</a></li>
-<li><a href="#r-and-rstudio"><span class="toc-section-number">4.4.2</span> R and RStudio</a></li>
-<li><a href="#syncing-github-and-rstudio"><span class="toc-section-number">4.4.3</span> Syncing Github and RStudio</a></li>
+<li><a href="#other"><span class="toc-section-number">4.4</span> * Other</a></li>
+<li><a href="#toolbox-software"><span class="toc-section-number">4.5</span> Toolbox Software</a><ul>
+<li><a href="#github-and-git"><span class="toc-section-number">4.5.1</span> GitHub and git</a></li>
+<li><a href="#r-and-rstudio"><span class="toc-section-number">4.5.2</span> R and RStudio</a></li>
+<li><a href="#syncing-github-and-rstudio"><span class="toc-section-number">4.5.3</span> Syncing Github and RStudio</a></li>
 </ul></li>
-<li><a href="#github-repository-architecture"><span class="toc-section-number">4.5</span> GitHub repository architecture</a></li>
+<li><a href="#github-repository-architecture"><span class="toc-section-number">4.6</span> GitHub repository architecture</a></li>
 </ul></li>
 <li><a href="#installing-the-toolbox"><span class="toc-section-number">5</span> Installing the Toolbox</a><ul>
 <li><a href="#set-up-a-github-account-and-git"><span class="toc-section-number">5.1</span> Set up a Github Account and git</a><ul>
@@ -220,8 +221,8 @@
 <h2><span class="header-section-number">1.1</span> Where you are in the OHI+ process</h2>
 <p>The OHI+ process consists of four phases. In the first phase, you <strong>learned</strong> about the OHI to understand the philosophy behind the goals and the motivation for conducting a study. In the second phase, you actively <strong>planned</strong> to conduct your OHI+ assessment. Now you will actively <strong>conduct</strong> the assessment by engaging with the work of finding the data, preparing the goal models, and taking the necessary steps to learn how to use the <strong>OHI Toolbox</strong> and related software to produce the final results. This is where the science of data discovery and goal model development comes in. In the final phase, you will <strong>communicate</strong> the findings and results of your assessment with others.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=700&amp;h=600" alt="four phases of OHI Assessments" />
-<p class="caption">four phases of OHI Assessments</p>
+<img src="https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=700&amp;h=600" />
+
 </div>
 <p><strong>The OHI framework</strong> allows you to synthesize the information and priorities relevant to your local context and produce comparable scores. Because the methods of the framework are repeatable, transparent, quantitative, and goal-driven, the process of a carrying out an OHI+ assessment is as valuable as the final results.</p>
 <p>The first completed assessment for a study area is valuable because it establishes a baseline and highlights the state of information quality and availability in an area. Any subsequent assessments carried out through time are also valuable because they can be used to track and monitor changes in ocean health. Your assessment will require careful thought and consideration along the way, and we encourage documentation and scripting to be done within the OHI Toolbox to facilitate collaboration and transparency, as well as the reproducibility for future assessments.</p>
@@ -568,10 +569,10 @@ So I am guessing that is all that is really needed.--->
 </div>
 <div id="the-ocean-health-index-toolbox" class="section level1">
 <h1><span class="header-section-number">4</span> The Ocean Health Index Toolbox</h1>
-<p><strong>The OHI Toolbox</strong> is an ecosystem of small files and scripts that are the tools needed to calculate OHI scores. These files and scripts are stored in two Github ‘<em>repositories</em>’: folders that are synchronized with collaborators. The first folder is your <strong>tailored repository</strong> that has a three-letter code, such as <em>esp</em> for Spain or <em>ecu</em> for Ecuador. You will edit this repository with your data, goal models, and updated pressures and resilience matrix tables. The second repository is called <strong>ohicore</strong> and it contains core functions for combining your data and goal models to calculate OHI scores. You will not edit <code>ohicore</code>, but you are able to explore it to understand the calculations.</p>
+<p><strong>The OHI Toolbox</strong> is an ecosystem of small files and scripts that are the tools needed to calculate OHI scores. These files and scripts are stored in two Github ‘<em>repositories</em>’: folders that are synchronized with collaborators. The first repository is your <strong>tailored repository</strong> identified by a three-letter code, such as <em>esp</em> for Spain or <em>ecu</em> for Ecuador. You will edit this repository with your data, goal models, and updated pressures and resilience matrix tables. The second repository is called <strong>ohicore</strong> and it contains core functions for combining your data and goal models to calculate OHI scores. You will not edit <code>ohicore</code>, but you are able to explore it to understand the calculations.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=768&amp;h=192" alt="Toolbox = your repo + ohicore" />
-<p class="caption">Toolbox = your repo + ohicore</p>
+<img src="https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=768&amp;h=192" />
+
 </div>
 <div id="obtaining-a-tailored-repository" class="section level2">
 <h2><span class="header-section-number">4.1</span> Obtaining a Tailored Repository</h2>
@@ -587,11 +588,10 @@ So I am guessing that is all that is really needed.--->
 <h2><span class="header-section-number">4.3</span> File system organization</h2>
 <p>This section is an orientation to the files within your <em>tailored</em> assessment repository. The file system organization is the same for all assessment repositories, and can be viewed at <code>github.com/OHI-Science</code> or on your computer. While reading this section it is helpful to explore a repository at the same time to become familiar with its contents and structure. The following uses the assessment repository for Ecuador (<em>ecu</em>) as an example, available at www.github.com/OHI-Science/ecu.</p>
 <p><strong>Most of your time will be spent preparing input layers and developing goal models</strong>. You will also register prepared layers to be used in the goal models. This all will be an iterative process, but generally speaking you will work goal-by-goal, preparing the layers first, registering them, and then developing the goal models in <em>R</em>. to calculate the scores.</p>
-<div id="assessment-repositories" class="section level3">
-<h3><span class="header-section-number">4.3.1</span> Assessment repositories</h3>
-<p><strong>Assessment repositories</strong> are identified by a three-letter code; Ecuador’s assessment repository is called ‘<em>ecu</em>’. Assessment repositories contain several things:</p>
+<div id="main-folders-within-your-tailored-repository" class="section level3">
+<h3><span class="header-section-number">4.3.1</span> Main folders within your tailored repository</h3>
 <ul>
-<li>The <strong>scenario folder</strong> is the most important folder within the repository; by default it is named <code>subcountry2014</code>. It contains all of the inputs needed to calculate OHI scores, and you will modify these inputs when conducting your assessment. The scenario folder is explained in detail in this section.</li>
+<li>The <strong>scenario folder</strong> is the most important folder within the repository; by default it is named <code>subcountry2014</code> to indicate that the assessment is conducted at the subcountry scale (province, state, district, etc.), based on input layers and goal models used in the 2014 global assessment. It contains all of the inputs needed to calculate OHI scores, and you will modify these inputs when conducting your assessment. The scenario folder is explained in detail in this section.</li>
 <li>All other files in the assessment repository are accessory files. Files with names beginning with a ‘.’ are required for versioning capabilities by GitHub and do not appear when the assessment repository is viewed on your computer.</li>
 </ul>
 <div class="figure">
@@ -602,86 +602,103 @@ So I am guessing that is all that is really needed.--->
 <img src="https://docs.google.com/drawings/d/13536h0d6hahYCBrxIItlG_q-r9FmezfN1lcpf-5BMHc/pub?w=692&amp;h=820" alt="Navigating the assessment repository. The figure shows Mac folder navigation above and Windows navigation below." />
 <p class="caption">Navigating the assessment repository. The figure shows Mac folder navigation above and Windows navigation below.</p>
 </div>
-</div>
-<div id="scenario-folders" class="section level3">
-<h3><span class="header-section-number">4.3.2</span> Scenario folders</h3>
-<p>Scenario folders contain all files and scripts necessary to calculate OHI scores. There are two file types:</p>
-<ul>
-<li>** <em>.csv</em> files** contain data inputs or configuration information.</li>
-<li>** <em>.R</em> scripts** are written in the programming language R and use data inputs for processing and calculations.</li>
-</ul>
-<p>There is one scenario folder in your assessment repository and it is called <code>subcountry2014</code> to indicate that the assessment is conducted at the subcountry scale (province, state, district, etc.), based on input layers and goal models used in the 2014 global assessment. When conducting your assessment, you can rename your scenario folder to reflect the subcountry regions in your study area and year the assessment was completed. For example, <code>province2015</code> would indicate the assessment was conducted for coastal provinces in the year 2015.</p>
+<p>When conducting your assessment, you can rename your scenario folder to reflect the subcountry regions in your study area and year the assessment was completed. For example, <code>province2015</code> would indicate the assessment was conducted for coastal provinces in the year 2015.</p>
 <p>Once you complete your assessment with the <code>subcountry2014</code> (or equivalent) scenario, further assessments can be done simply by copying the <code>subcountry2014</code> folder and renaming it. This can be done for future assessments, for example <code>subcountry2016</code> or <code>subcountry2018</code>, which eventually would enable you to track changes in ocean health over time. You can also copy scenario folders to explore different policy and management scenarios, for example <code>subcountry2014_policy1</code>.</p>
-</div>
-<div id="subcountry2014-contents" class="section level3">
-<h3><span class="header-section-number">4.3.3</span> <code>subcountry2014</code> contents</h3>
 <p>This figure illustrates the files contained within the assessment repository’s <code>subcountry2014</code> scenario folder. Important files are either <em>.csv</em> text files or <em>.R</em> script files. Files are organized into different folders within the <code>subcountry2014</code> folder, and you will modify some of these files while leaving others as they are.</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1YKN2J3HCkw3r8QMFSEHkZhu__YQqOTeWxhSqJ1pHYrI/pub?w=1481&amp;h=1010" alt="File system organization of the Ocean Health Index Toolbox" />
 <p class="caption">File system organization of the Ocean Health Index Toolbox</p>
 </div>
-<p>Files and folders are presented here in alphabetical order. See the <strong>Using the Toolbox</strong> section for the workflow of how you will use the files.</p>
-<div id="calculate_scores.r" class="section level4">
-<h4><span class="header-section-number">4.3.3.1</span> <em>calculate_scores.R</em></h4>
-<p><code>calculate_scores.R</code> is a script that runs everything required to calculate OHI scores using the prepared layers the <code>layers</code> folder that are registered in <code>layers.csv</code>. Scores will be saved in <code>scores.csv</code>.</p>
-</div>
-<div id="conf-folder" class="section level4">
-<h4><span class="header-section-number">4.3.3.2</span> <em>conf</em> folder</h4>
-<p>The <code>conf</code> folder includes important configuration files required to calculate OHI scores. There are both <em>.R</em> scripts (<code>config.R</code> and <code>functions.R</code>) and <em>.csv</em> files (<code>goals.csv</code>, <code>pressures_matrix.csv</code>, <code>resilience_matrix.csv</code>, and <code>resilience_weights.csv</code>).</p>
+<p>The <strong>conf</strong> folder within the <code>subcountry2015</code> scenario folder, the <code>conf</code> folder includes important configuration files required to calculate OHI scores. There are both <em>.R</em> scripts (<code>config.R</code> and <code>functions.R</code>) and <em>.csv</em> files (<code>goals.csv</code>, <code>pressures_matrix.csv</code>, <code>resilience_matrix.csv</code>, and <code>resilience_weights.csv</code>). They will be introduced individually in the next section.</p>
 <div class="figure">
 <img src="fig/layers_folder_location_conf.png" alt="The conf folder contains important R functions and .csv files." />
 <p class="caption">The <code>conf</code> folder contains important R functions and <em>.csv</em> files.</p>
 </div>
+<p>The <strong>prep</strong> folder is important in the beginning of your assessment, as it is where you will store and manipulate raw data to get them ready for calculations.</p>
+<p>Over all, all files in the scenario folder are either of the two file types:</p>
+<ul>
+<li>** <em>.csv</em> files** contain data inputs or configuration information.</li>
+<li>** <em>.R</em> scripts** are written in the programming language R and use data inputs for processing and calculations.</li>
+</ul>
+<p>We will introduce those files below:</p>
 </div>
-<div id="config.r" class="section level4">
-<h4><span class="header-section-number">4.3.3.3</span> <em>config.R</em></h4>
-<p><code>config.R</code> is an R script that configures labeling and constants appropriately. You will only need to modify this file when working with goals that have categories (example: habitat types or economy sectors) that are affected differently by pressures and resilience measures.</p>
+<div id="r-scripts" class="section level3">
+<h3><span class="header-section-number">4.3.2</span> R scripts</h3>
+<ul>
+<li>install_ohicore.R</li>
+<li>pre_scores.R</li>
+<li>calculate_scores.R</li>
+<li>data_prep.R in prep folders</li>
+<li>functions.R</li>
+<li>config.R</li>
+<li>report.R?? when we add the template to reports folder</li>
+<li>launch_app_code.R</li>
+</ul>
 </div>
-<div id="install_ohicore.r" class="section level4">
-<h4><span class="header-section-number">4.3.3.4</span> <em>install_ohicore.R</em></h4>
-<p><code>install_ohicore.R</code> is a script that will install <code>ohicore</code>, which is the second repository required for the Toolbox and is the engine behind all OHI calculations. You will need to run this script only once when you begin.</p>
+<div id="data-layers" class="section level3">
+<h3><span class="header-section-number">4.3.3</span> Data layers</h3>
+<ul>
+<li>raw data folders in prep folder</li>
+<li>layers folder</li>
+<li>layers.csv</li>
+<li>layers-empty_swampping-global-mean.csv</li>
+<li>pressures_matrix.csv</li>
+<li>resilience_matrix.csv</li>
+<li>resilience_weights.csv</li>
+<li>scores.csv</li>
+</ul>
 </div>
-<div id="functions.r" class="section level4">
-<h4><span class="header-section-number">4.3.3.5</span> <em>functions.R</em></h4>
-<p><code>functions.R</code> is an R script containing the equations for each goal and sub-goal model. Each goal and sub-goal equation is stored as a separate function within the script. These functions calculate the status and trend using prepared layers saved in the ‘layers’ folder and registered in <code>layers.csv</code>. You will need to code in R to modify or develop new models, and it is best to work on one goal at a time.</p>
 </div>
-<div id="goals.csv" class="section level4">
-<h4><span class="header-section-number">4.3.3.6</span> <em>goals.csv</em></h4>
+<div id="other" class="section level2">
+<h2><span class="header-section-number">4.4</span> * Other</h2>
+<ul>
+<li>session.txt</li>
+<li>spatial</li>
+<li>temp</li>
+<li>reports</li>
+</ul>
+<p><strong><code>install_ohicore.R</code></strong></p>
+<p>This script installs <code>ohicore</code>, which is the second repository required for the Toolbox and is the engine behind all OHI calculations. You will need to run this script only once when you <a href="http://ohi-science.org/manual/#install-ohicore">first install the toolbox</a>.</p>
+<p><strong><code>pre_scores.R</code></strong> This script does the pre-checks before running goal models and calculate dimension scores. It loads “ohicore”, calls all goal functions and data layers in the “conf” folder, and check that all data layers are registered properly. You are encouraged to use this script when you’re working on individual goal models. After you register data layers for a goal, or make any changes to the data layers, source this script before running model-specific functions in functions.R.</p>
+<p><strong><code>calculate_scores.R</code></strong></p>
+<p>It runs everything required to calculate OHI scores using the prepared layers the <code>layers</code> folder that are registered in <code>layers.csv</code>. Scores will be saved in <code>scores.csv</code>.</p>
+<p><strong><code>functions.R</code></strong></p>
+<p>This script contains the equations for each goal and sub-goal model. Each goal and sub-goal equation is stored as a separate function within the script. These functions calculate the <em>status</em> and <em>trend</em> using prepared layers saved in the ‘layers’ folder and registered in <code>layers.csv</code>. You will need to code in R to modify or develop new models, and it is best to work on one goal at a time.</p>
+<p>**<code>config.R</code> in “conf” folder*</p>
+<p>It configures labeling and constants appropriately. You will only need to modify this file when working with goals that have categories (example: habitat types or economy sectors) that are affected differently by pressures and resilience measures.</p>
+<p><strong><code>launch_app_code.R</code></strong></p>
+<p>It will launch a version of the App on your computer so that you can visualize any edits you make before synching to <em>github.com</em>.</p>
+<p><strong>raw data layers in “prep” folder</strong></p>
+<p>This is where you will store (and manipulate) raw data files.</p>
+<p><em>goals.csv</em></p>
 <p><code>goals.csv</code> is a table with information about goals and sub-goals. This includes the weight of each goal that is used to calculate the final Index scores when all goals are combined. Other information includes the goal description that is also presented in the WebApp. <code>goals.csv</code> also indicates the arguments passed to <code>functions.R</code>. These are indicated by two columns: <em>preindex_function</em> (functions for all goals that do not have sub-goals, and functions for all sub-goals) and <em>postindex_function</em> (functions for goals with sub-goals).</p>
 <blockquote>
 <p>TIP: It’s important to check <code>goals.csv</code>’s weightings and preindex functions when you change goal or sub-goal model equations in <code>functions.r</code>.</p>
 </blockquote>
-</div>
-<div id="launch_app_code.r" class="section level4">
-<h4><span class="header-section-number">4.3.3.7</span> <em>launch_app_code.R</em></h4>
-<p><code>launch_app_code.R</code> will launch a version of the App on your computer so that you can visualize any edits you make before synching to <em>github.com</em>.</p>
-</div>
-<div id="layers-folder" class="section level4">
-<h4><span class="header-section-number">4.3.3.8</span> <em>layers</em> folder</h4>
+<p><em>layers</em> folder</p>
 <p>The <code>layers</code> folder contains all layers required to calculate goal scores, and each layer is an individual <em>.csv</em> file. The names of the <em>.csv</em> files within the layers folder correspond to those listed in the <em>filename</em> column of the <code>layers.csv</code>. All <em>.csv</em> files can be read in R, or with text editors or spreadsheet editors like Microsoft Excel.</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/151Hw1Eb13T4KgndEKXM31BDjvdbB5JO7VGneqdUwGQU/pub?w=1702&amp;h=476" alt="The layers folder contains every data layer as an individual .csv file. Mac navigation is shown on the left and Windows navigation is shown on the right." />
 <p class="caption">The <code>layers</code> folder contains every data layer as an individual <em>.csv</em> file. Mac navigation is shown on the left and Windows navigation is shown on the right.</p>
 </div>
-<p>Note that each <em>.csv</em> file within the <code>layers</code> folder has been formatted consistently. The Toolbox expects all data layers to be in the correct ‘long format’ and in separate files (see <strong>Using the Toolbox</strong>). Each file also has a column with unique region identifier (<em>rgn_id</em>). These numeric region identifiers have region names associated with them, that are set in <code>rgn_labels.csv</code> and can be modified.</p>
+<p>Note that each <em>.csv</em> file within the <code>layers</code> folder has been formatted consistently. The Toolbox expects all data layers to be in the correct <a href="http://ohi-science.org/manual/#long-formatting">‘long format’</a> and in separate files. Each file also has a column with unique region identifier (<em>rgn_id</em>). These numeric region identifiers have region names associated with them, that are set in <code>rgn_labels.csv</code> and can be modified.</p>
 <blockquote>
 <p>TIP: You can check your region identifiers (<em>rgn_id</em>) in the <code>rgn_labels.csv</code> file in the <code>layers</code> folder.</p>
 </blockquote>
 <div id="gl2014-and-_sc2014-suffixes" class="section level5">
-<h5><span class="header-section-number">4.3.3.8.1</span> *_gl2014* and *_sc2014* suffixes</h5>
+<h5><span class="header-section-number">4.4.0.0.1</span> *_gl2014* and *_sc2014* suffixes</h5>
 <p>In your repository, layers are provided for your country based on input information from the 2014 global assessment. The global assessment had information for your country at the the spatial scale of the entire country, whereas your assessment has information for each subcountry region within your country. In most cases, layers from the global assessment was allocated equally to all regions in your study area (country). When this occurred, the layer was given a suffix of <code>_gl2014</code> to indicate that information is equal across all regions in the study area. While these layers may not provide much useful information to your assessment, the proper input structure is provided in these layers. Some layers contain information such as km2 of habitat that could not be equally allocated across all regions since this would provide a sum much greater than reality. In these cases, layers were down-weighted based on the proportion of offshore area or coastal population density. These layers have the suffix <code>_sc2014</code> with an indication of what was used to downweight. While this method removes any error of inflated sums and provides the Toolbox with functioning layers, the allocation of these values may not be sensical to your study (i.e. if corals are only present in some regions of your study area but they are allocated to all).</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1QlpBKXfBZFPROK5Xvexkj6ABwsUMQQT52uhIKdVd7iI/pub?w=576&amp;h=288" alt="Differences in input layers with equal information for each region (suffixed with _gl2014) and weighted information for each region (suffixed with _sc2014)." />
 <p class="caption">Differences in input layers with equal information for each region (suffixed with <code>_gl2014</code>) and weighted information for each region (suffixed with <code>_sc2014</code>).</p>
 </div>
 </div>
-</div>
 <div id="layers-empty_swapping-global-mean.csv" class="section level4">
-<h4><span class="header-section-number">4.3.3.9</span> <em>layers-empty_swapping-global-mean.csv</em></h4>
+<h4><span class="header-section-number">4.4.0.1</span> <em>layers-empty_swapping-global-mean.csv</em></h4>
 <p><code>layers-empty_swapping-global-mean.csv</code> contains a list of layers where information for your country was not available for the global assessment. For the Toolbox to be able to run, these layers were filled with averages from all other countries included in the global assessment. This file is not used anywhere by the Toolbox but is a registry of layers that should prioritized to be replaced with your own local layers if you require these layers for the models you develop.</p>
 </div>
 <div id="layers.csv" class="section level4">
-<h4><span class="header-section-number">4.3.3.10</span> <em>layers.csv</em></h4>
+<h4><span class="header-section-number">4.4.0.2</span> <em>layers.csv</em></h4>
 <p>The <code>layers.csv</code> file is the registry and directory that manages all data required for you assessment. All relevant input information is prepared as individual data layers and then registered in this file. The Toolbox uses <code>layers.csv</code> to access the proper input information and display information on the WebApp. You will update some of the columns in <code>layers.csv</code>, and some of them will be auto-generated by the Toolbox code when it is running.</p>
 <blockquote>
 <p>TIP: <code>layers.csv</code> is a very useful reference throughout the assessment process.</p>
@@ -804,47 +821,46 @@ So I am guessing that is all that is really needed.--->
 </table>
 </div>
 <div id="prep-folder" class="section level4">
-<h4><span class="header-section-number">4.3.3.11</span> <em>prep</em> folder</h4>
+<h4><span class="header-section-number">4.4.0.3</span> <em>prep</em> folder</h4>
 <p>The <code>prep</code> folder is included in your repository so that layer preparation can be collaborative and version controlled. It is not necessary to use this folder but you may find it useful as other assessments have.</p>
 </div>
 <div id="pressures_matrix.csv" class="section level4">
-<h4><span class="header-section-number">4.3.3.12</span> <em>pressures_matrix.csv</em></h4>
+<h4><span class="header-section-number">4.4.0.4</span> <em>pressures_matrix.csv</em></h4>
 <p><code>pressures_matrix.csv</code> is a table that indicates which individual pressures (stressors) affect which goal, sub-goals, or components, and weights them from 1-3 (a weight of 0 is shown as a blank). These weights are relative to each row of the matrix (goal, sub-goal, or component). These weights are used in global assessments based on scientific literature and expert opinion, and you can modify the weightings if necessary for your assessment. The pressures matrix is the same as Table S25 in the Supplementary Information for Halpern <em>et al.</em> 2012.</p>
 <p>Each pressure (column) of the pressures matrix is the layer name of the pressures layer file that is saved in the <code>layers</code> folder and is registered in <code>layers.csv</code>. Pressures layers have values for every region in the study area and the filenames have prefixes to indicate the pressure category (for example: <code>po_</code> for the pollution category). Pressures values are scaled such that all values range from 0-1.</p>
 </div>
 <div id="reports-folder" class="section level4">
-<h4><span class="header-section-number">4.3.3.13</span> <em>reports</em> folder</h4>
+<h4><span class="header-section-number">4.4.0.5</span> <em>reports</em> folder</h4>
 <p>The <code>reports</code> folder contains flower plots and tables for every region in the study area and for the study area itself, which by convention is called ‘GLOBAL’ in these files.</p>
 </div>
 <div id="resilience_matrix.csv" class="section level4">
-<h4><span class="header-section-number">4.3.3.14</span> <em>resilience_matrix.csv</em></h4>
+<h4><span class="header-section-number">4.4.0.6</span> <em>resilience_matrix.csv</em></h4>
 <p><code>resilience_matrix.csv</code> is a table that indicates which individual resilience measures affect which goal, sub-goals, or components. Like the pressures matrix, the resilience matrix also has weights, but these weights depend on the level of information available. These weights are stored in a separate file in the <code>conf</code> folder: <code>resilience_weights.csv</code>. The resilience matrix is the same as Table S26 in the Supplementary Information for Halpern <em>et al.</em> 2012.</p>
 <p>Each resilience measure (column) of the resilience matrix is the layer name of the resilience layer file that is saved in the <code>layers</code> folder and is registered in <code>layers.csv</code>. Resilience layers have values for every region in the study area. Resilience values are scaled such that all values range from 0-1.</p>
 </div>
 <div id="resilience_weights.csv" class="section level4">
-<h4><span class="header-section-number">4.3.3.15</span> <em>resilience_weights.csv</em></h4>
+<h4><span class="header-section-number">4.4.0.7</span> <em>resilience_weights.csv</em></h4>
 <p><code>resilience_weights.csv</code> is a table that indicates the weight of each resilience layer based on the level of information available.</p>
 </div>
 <div id="scores.csv" class="section level4">
-<h4><span class="header-section-number">4.3.3.16</span> <em>scores.csv</em></h4>
+<h4><span class="header-section-number">4.4.0.8</span> <em>scores.csv</em></h4>
 <p><code>scores.csv</code> is a text file containing the calculated scores for each dimension (future, pressures, resilience, score, status, trend) for each region in the study area. Regions have the numeric identifiers set in <code>subcountry2014/layers/rgn_labels.csv</code> and the study area has the numeric identifier of 0. Scores are calculated with registered layers in <code>layers.csv</code>: when you begin an assessment this will be information for your country from the global 2014 assessment and goal models from the global 2014 assessment. Scores from <code>scores.csv</code> are viewed through the WebApp using the ‘Output Score’ pulldown menu on the ‘App’ page.</p>
 </div>
 <div id="session.txt" class="section level4">
-<h4><span class="header-section-number">4.3.3.17</span> <em>session.txt</em></h4>
+<h4><span class="header-section-number">4.4.0.9</span> <em>session.txt</em></h4>
 <p><code>session.txt</code> is not used in OHI calculations but stores information about how the Toolbox was installed which may be useful for debugging purposes.</p>
 </div>
 <div id="spatial-folder" class="section level4">
-<h4><span class="header-section-number">4.3.3.18</span> <em>spatial</em> folder</h4>
+<h4><span class="header-section-number">4.4.0.10</span> <em>spatial</em> folder</h4>
 <p>The <code>spatial</code> folder contains two spatial files: <code>regions_gcs.geojson</code> and <code>regions_gcs.js</code>. These files spatially identifies the study area and regions for the assessment and are stored in the JSON and GeoJSON formats that can be displayed by the App. If you plan to redefine the spatial boundaries for your assessment, you will need to provide a shapefile to the OHI+ development team and we will create the proper <code>regions_gcs.geojson</code> and <code>regions_gcs.js</code> files for you. You will need a spatial analyst to do this: see the <strong>Defining spatial boundaries</strong> section for instruction.</p>
 </div>
 <div id="temp-or-tmp-folders" class="section level4">
-<h4><span class="header-section-number">4.3.3.19</span> <em>temp</em> or <em>tmp</em> folders</h4>
+<h4><span class="header-section-number">4.4.0.11</span> <em>temp</em> or <em>tmp</em> folders</h4>
 <p>Contents within the <code>temp</code> or <code>tmp</code> folders are not used to calculate scores but can be used for temporary organization for your assessment.</p>
 </div>
 </div>
-</div>
 <div id="toolbox-software" class="section level2">
-<h2><span class="header-section-number">4.4</span> Toolbox Software</h2>
+<h2><span class="header-section-number">4.5</span> Toolbox Software</h2>
 <p>The Toolbox is open-source and can be downloaded and installed for free. It is comprised of several software systems:</p>
 <!-- You are able to navigate through these files both at `www.github.com/OHI-Science` and on your own computer once you have cloned the repository to your computer. Your assessment repository is located at *github.com/OHI-Science* and we recommend saving it to your computer so that you can sync changes back online to save versions and facilitate collaboration. Conducting an OHI assessment using GitHub enables collaboration and transparency, and will provide access to the latest developments in the Toolbox software, allowing the OHI team to provide support remotely if necessary. 
 This section explains the GitHub workflow and how to access and setup required software. You can use GitHub to upload any modifications you make so that you can work collaboratively with your team.  -->
@@ -863,7 +879,7 @@ This section explains the GitHub workflow and how to access and setup required s
 </blockquote>
 <p>The Tailored Assessment Repository and <code>ohicore</code> are stored and managed with all the above software systems. Here is a quick introduction to the software and how they work together.</p>
 <div id="github-and-git" class="section level3">
-<h3><span class="header-section-number">4.4.1</span> GitHub and git</h3>
+<h3><span class="header-section-number">4.5.1</span> GitHub and git</h3>
 <p>GitHub has an online interface and a desktop application for the version-control software called ** git**, where your project repository and any changes done to it are kept and recorded. It is an open-source development platform that enables easy collaboration and versioning, which means that all saved versions are archived and attributed to each user. It can be accessed remotely by all members of your team and enables team members to synchronize their work together. Because all versions are saved, you can return to previous work and also compare different points in history to track how changes you make affect the output scores.</p>
 <p>To allow multiple users to work on the same repository at the same time, there are steps involved to ‘check in’ your modifications so they can merge with the work of others without problems. GitHub has specific words for each of these steps.</p>
 <p><strong>GitHub Vocabulary:</strong></p>
@@ -890,7 +906,7 @@ This section explains the GitHub workflow and how to access and setup required s
 </ul>
 </div>
 <div id="r-and-rstudio" class="section level3">
-<h3><span class="header-section-number">4.4.2</span> R and RStudio</h3>
+<h3><span class="header-section-number">4.5.2</span> R and RStudio</h3>
 <p><strong>R and RStudio allow you to work locally on your own computer</strong>, modifying the files in the repository to reflect the desired modifications your team has identified for your assessment. All changes within your local repository will be tracked by GitHub regardless of the software you use to make the changes. This means that you can delete or paste files in the Mac Finder or Windows Explorer and edit <em>.csv</em> files in Excel or a text editor, and still sync these changes with the online repository. We recommend doing as much data manipulation as possible in a programming language like R, to maximize transparency and reproducibility.</p>
 <ul>
 <li><p><strong>R</strong> is a free computing and graphical software where all the modifications to your OHI repository are done.</p></li>
@@ -899,7 +915,7 @@ This section explains the GitHub workflow and how to access and setup required s
 <p>Through RStudio, you can perform all the steps mentioned before (<em>clone, commit, push, and pull</em>) and <em>sync</em> with the online Github repository.</p>
 </div>
 <div id="syncing-github-and-rstudio" class="section level3">
-<h3><span class="header-section-number">4.4.3</span> Syncing Github and RStudio</h3>
+<h3><span class="header-section-number">4.5.3</span> Syncing Github and RStudio</h3>
 <p>RStudio can sync files with Github directly. It will capture the changes made to any files within the repository, no matter which software was used to modify them. In RStudio, you sync by first pulling and then pushing (separately).</p>
 <p>Launch your project in RStudio by double-clicking the <code>.Rproj</code> file in the assessment folder on your local hard drive.</p>
 <div class="figure">
@@ -932,7 +948,7 @@ This section explains the GitHub workflow and how to access and setup required s
 </div>
 </div>
 <div id="github-repository-architecture" class="section level2">
-<h2><span class="header-section-number">4.5</span> GitHub repository architecture</h2>
+<h2><span class="header-section-number">4.6</span> GitHub repository architecture</h2>
 <p>GitHub stores all data files and scripts for your assessment in a repository (a folder). Different copies or complements to these folders, called <em>branches</em> can also exist, which aid with versioning and drafting. Your repository has four branches, two of which are displayed on your website (e.g., ohi-science.org/ecu):</p>
 <ol style="list-style-type: decimal">
 <li><p><strong>draft</strong> branch is for editing. This is the default branch and the main working area where existing scenario data files can be edited and new scenarios added.</p></li>
@@ -4071,8 +4087,22 @@ x_{CW} = \sqrt[4]{a * u * l * d}
 <h1><span class="header-section-number">12</span> Appendix 4: Develop a record-keeping spreadsheet</h1>
 <p>If you are a toolbox master responsible for indexing all the data and modifying all the goal models, it is helpful to keep a master record-keeping spreadsheet from the start. This will allow to note who to contact for each goal and whether the key items for calculations are received, as well as to track your own progress. Goal keepers might be at different stages of data gathering and model development, and might send you pieces of information at different times. When you are updating multiple goal models, it is easy to lose track where you are in the progress for each goal.</p>
 <p>If you are a goal keeper, having a record-keeping place to remind you where you are in the process and record all the important decisions may also be helpful. Here are some suggestions on what to and how to keep track of the progress.</p>
-<p><strong>Key items</strong> for each goal: * Goal keeper and their contact information * Data * Data layer description (see template) * Model description (see template) * Pressure * Resilience * Reference point</p>
-<p>To track your own progress on coding, you can also include columns such as: * Coded? * Questions * Additional notes &gt;It is important to record all the decision makings regarding data and models along the way. You can record those questions, the date when you contact the responsible perso(s), and the responses. If there is too much information, you can also keep this section on a separate document.</p>
+<p><strong>Key items</strong> for each goal:</p>
+<ul>
+<li>Goal keeper and their contact information</li>
+<li>Data</li>
+<li>Data layer description (see template)</li>
+<li>Model description (see template)</li>
+<li>Pressure</li>
+<li>Resilience</li>
+<li>Reference point</li>
+</ul>
+<p>To track your own progress on coding, you can also include columns such as:</p>
+<ul>
+<li>Coded?</li>
+<li>Questions</li>
+<li>Additional notes &gt;It is important to record all the decision makings regarding data and models along the way. You can record those questions, the date when you contact the responsible perso(s), and the responses. If there is too much information, you can also keep this section on a separate document.</li>
+</ul>
 <p>Here is an example of the spreadsheet:</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1GaLkcZQkOcxlf4F7P7u2_FQXAKbqs1SuYzrCFhdBQKI/pub?w=960&amp;h=720" alt="Example spreadsheet" />
