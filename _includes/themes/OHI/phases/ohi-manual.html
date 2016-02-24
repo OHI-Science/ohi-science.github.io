@@ -72,9 +72,8 @@
 <li><a href="#file-system-organization"><span class="toc-section-number">4.3</span> File system organization</a><ul>
 <li><a href="#main-folders-within-your-tailored-repository"><span class="toc-section-number">4.3.1</span> Main folders within your tailored repository</a></li>
 <li><a href="#data-layers"><span class="toc-section-number">4.3.2</span> Data layers</a></li>
-<li><a href="#other"><span class="toc-section-number">4.3.3</span> Other</a></li>
-<li><a href="#r-scripts"><span class="toc-section-number">4.3.4</span> R scripts</a></li>
-<li><a href="#others"><span class="toc-section-number">4.3.5</span> others</a></li>
+<li><a href="#r-scripts"><span class="toc-section-number">4.3.3</span> R scripts</a></li>
+<li><a href="#other"><span class="toc-section-number">4.3.4</span> Other</a></li>
 </ul></li>
 <li><a href="#toolbox-software"><span class="toc-section-number">4.4</span> Toolbox Software</a><ul>
 <li><a href="#github-and-git"><span class="toc-section-number">4.4.1</span> GitHub and git</a></li>
@@ -626,19 +625,17 @@ So I am guessing that is all that is really needed.--->
 <li>raw data files in <code>prep</code> folder</li>
 <li><code>layers</code> folder</li>
 <li><code>layers.csv</code></li>
+<li><code>goals.csv</code></li>
 <li><code>layers-empty_swampping-global-mean.csv</code></li>
 <li><code>pressures_matrix.csv</code></li>
 <li><code>resilience_matrix.csv</code></li>
 <li><code>resilience_weights.csv</code></li>
 <li><code>scores.csv</code></li>
 </ul>
-<p><strong>goals.csv</strong></p>
-<p><code>goals.csv</code> is a table with information about goals and sub-goals. This includes the weight of each goal that is used to calculate the final Index scores when all goals are combined. Other information includes the goal description that is also presented in the WebApp. <code>goals.csv</code> also indicates the arguments passed to <code>functions.R</code>. These are indicated by two columns: <em>preindex_function</em> (functions for all goals that do not have sub-goals, and functions for all sub-goals) and <em>postindex_function</em> (functions for goals with sub-goals).</p>
-<blockquote>
-<p>TIP: It’s important to check <code>goals.csv</code>’s weightings and preindex functions when you change goal or sub-goal model equations in <code>functions.r</code>.</p>
-</blockquote>
+<p><strong>raw data layers in “prep” folder</strong></p>
+<p>This is where you will store (and manipulate) raw data files before modifying goal models. We recommend separating data layers into different folders by goal.</p>
 <p><em>layers</em> folder</p>
-<p>The <code>layers</code> folder contains all layers required to calculate goal scores, and each layer is an individual <em>.csv</em> file. The names of the <em>.csv</em> files within the layers folder correspond to those listed in the <em>filename</em> column of the <code>layers.csv</code>. All <em>.csv</em> files can be read in R, or with text editors or spreadsheet editors like Microsoft Excel.</p>
+<p>This folder contains all layers required to calculate goal scores, and each layer is an individual <em>.csv</em> file. <em>The names of the <em>.csv</em> files within the layers folder correspond to those listed in the <em>filename</em> column of the <code>layers.csv</code>.</em> All <em>.csv</em> files can be read in R, or with text editors or spreadsheet editors like Microsoft Excel.</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/151Hw1Eb13T4KgndEKXM31BDjvdbB5JO7VGneqdUwGQU/pub?w=1702&amp;h=476" alt="The layers folder contains every data layer as an individual .csv file. Mac navigation is shown on the left and Windows navigation is shown on the right." />
 <p class="caption">The <code>layers</code> folder contains every data layer as an individual <em>.csv</em> file. Mac navigation is shown on the left and Windows navigation is shown on the right.</p>
@@ -653,53 +650,9 @@ So I am guessing that is all that is really needed.--->
 <img src="https://docs.google.com/drawings/d/1QlpBKXfBZFPROK5Xvexkj6ABwsUMQQT52uhIKdVd7iI/pub?w=576&amp;h=288" alt="Differences in input layers with equal information for each region (suffixed with _gl2014) and weighted information for each region (suffixed with _sc2014)." />
 <p class="caption">Differences in input layers with equal information for each region (suffixed with <code>_gl2014</code>) and weighted information for each region (suffixed with <code>_sc2014</code>).</p>
 </div>
-<p><strong>layers-empty_swapping-global-mean.csv</strong> <code>layers-empty_swapping-global-mean.csv</code> contains a list of layers where information for your country was not available for the global assessment. For the Toolbox to be able to run, these layers were filled with averages from all other countries included in the global assessment. This file is not used anywhere by the Toolbox but is a registry of layers that should prioritized to be replaced with your own local layers if you require these layers for the models you develop.</p>
 <p><strong>layers.csv</strong></p>
-<p>The <code>layers.csv</code> file is the registry and directory that manages all data required for you assessment. All relevant input information is prepared as individual data layers and then registered in this file. The Toolbox uses <code>layers.csv</code> to access the proper input information and display information on the WebApp. You will update some of the columns in <code>layers.csv</code>, and some of them will be auto-generated by the Toolbox code when it is running.</p>
-<blockquote>
-<p>TIP: <code>layers.csv</code> is a very useful reference throughout the assessment process.</p>
-</blockquote>
-<p><code>layers.csv</code> is easiest to view in spreadsheet software (i.e. Microsoft Excel). When you open it, you will see that each row of information represents an individual input layer that has been prepared for the Toolbox. The first columns contain information that will be updated by your team as you incorporate modified or new layers; all other columns are generated later by the Toolbox as it confirms data formatting and content and alerts you of any formatting inconsistencies. The columns you will update are: <em>targets, layer, name, description, fld_value, units, filename</em>.</p>
-<div class="figure">
-<img src="fig/layers_csv_registry.png" />
-
-</div>
-</div>
-<div id="other" class="section level3">
-<h3><span class="header-section-number">4.3.3</span> Other</h3>
-<ul>
-<li>session.txt</li>
-<li>spatial</li>
-<li>temp</li>
-<li>reports</li>
-</ul>
-</div>
-<div id="r-scripts" class="section level3">
-<h3><span class="header-section-number">4.3.4</span> R scripts</h3>
-<ul>
-<li>install_ohicore.R</li>
-<li>pre_scores.R</li>
-<li>calculate_scores.R</li>
-<li>data_prep.R in prep folders</li>
-<li>functions.R</li>
-<li>config.R</li>
-<li>report.R?? when we add the template to reports folder</li>
-<li>launch_app_code.R</li>
-</ul>
-<p><strong><code>install_ohicore.R</code></strong></p>
-<p>This script installs <code>ohicore</code>, which is the second repository required for the Toolbox and is the engine behind all OHI calculations. You will need to run this script only once when you <a href="http://ohi-science.org/manual/#install-ohicore">first install the toolbox</a>.</p>
-<p><strong><code>pre_scores.R</code></strong> This script does the pre-checks before running goal models and calculate dimension scores. It loads “ohicore”, calls all goal functions and data layers in the “conf” folder, and check that all data layers are registered properly. You are encouraged to use this script when you’re working on individual goal models. After you register data layers for a goal, or make any changes to the data layers, source this script before running model-specific functions in functions.R.</p>
-<p><strong><code>calculate_scores.R</code></strong></p>
-<p>It runs everything required to calculate OHI scores using the prepared layers the <code>layers</code> folder that are registered in <code>layers.csv</code>. Scores will be saved in <code>scores.csv</code>.</p>
-<p><strong><code>functions.R</code></strong></p>
-<p>This script contains the equations for each goal and sub-goal model. Each goal and sub-goal equation is stored as a separate function within the script. These functions calculate the <em>status</em> and <em>trend</em> using prepared layers saved in the ‘layers’ folder and registered in <code>layers.csv</code>. You will need to code in R to modify or develop new models, and it is best to work on one goal at a time.</p>
-<p>**<code>config.R</code> in “conf” folder*</p>
-<p>It configures labeling and constants appropriately. You will only need to modify this file when working with goals that have categories (example: habitat types or economy sectors) that are affected differently by pressures and resilience measures.</p>
-<p><strong><code>launch_app_code.R</code></strong></p>
-<p>It will launch a version of the App on your computer so that you can visualize any edits you make before synching to <em>github.com</em>.</p>
-<p><strong>raw data layers in “prep” folder</strong></p>
-<p>This is where you will store (and manipulate) raw data files.</p>
-<p><strong>Columns you will update</strong></p>
+<p>The <code>layers.csv</code> file is the registry and directory that manages all data required for you assessment. All relevant input information is prepared as individual data layers and then registered in this file. The Toolbox uses <code>layers.csv</code> to access the proper input information and display information on the WebApp.</p>
+<p><code>layers.csv</code> is easiest to view in spreadsheet software (i.e. Microsoft Excel). When you open it, you will see that each row of information represents an individual input layer that has been prepared for the Toolbox. The first columns contain information that will be updated by your team as you <a href="http://ohi-science.org/manual/#register-data-layers-in-layers.csv">incorporate modified or new layers</a>: <em>targets, layer, name, description, fld_value, units, filename</em>.; all other columns are generated later by the Toolbox as it confirms data formatting and content and alerts you of any formatting inconsistencies.</p>
 <ul>
 <li><strong>targets</strong> indicates which goal or dimension uses the layer. Goals are indicated with two-letter codes and sub-goals are indicated with three-letter codes (see the table just below). Pressures, resilience, and spatial layers indicated separately.</li>
 <li><strong>layer</strong> is the identifying name of the input layer that will be used in R scripts like <code>functions.R</code> and <em>.csv</em> files like <code>pressures_matrix.csv</code> and <code>resilience_matrix.csv</code>. This is also displayed on the WebApp under the drop-down menu when the variable type is ‘input layer’.</li>
@@ -709,6 +662,7 @@ So I am guessing that is all that is really needed.--->
 <li><strong>units</strong> the values’ units in the input layer. This differs from <em>fld_value</em> above as the <em>units</em> column is displayed on the WebApp and can have more descriptive naming.</li>
 <li><strong>filename</strong> is the input layer itself. This file has input information for each region within the study area, and is located in the <code>subcountry2014/layers</code> folder.</li>
 </ul>
+<p><span style="font-size:0.8em"></p>
 <table>
 <thead>
 <tr class="header">
@@ -810,26 +764,63 @@ So I am guessing that is all that is really needed.--->
 </tr>
 </tbody>
 </table>
-<p><em>pressures_matrix.csv</em></p>
-<p><code>pressures_matrix.csv</code> is a table that indicates which individual pressures (stressors) affect which goal, sub-goals, or components, and weights them from 1-3 (a weight of 0 is shown as a blank). These weights are relative to each row of the matrix (goal, sub-goal, or component). These weights are used in global assessments based on scientific literature and expert opinion, and you can modify the weightings if necessary for your assessment. The pressures matrix is the same as Table S25 in the Supplementary Information for Halpern <em>et al.</em> 2012.</p>
+<p></span></p>
+<p><strong>goals.csv</strong></p>
+<p><code>goals.csv</code> is a table with information about goals and sub-goals. This includes the weight of each goal that is used to calculate the final Index scores when all goals are combined. Other information includes the goal description that is also presented in the WebApp. <code>goals.csv</code> also indicates the arguments passed to <code>functions.R</code>. These are indicated by two columns: <em>preindex_function</em> (functions for all goals that do not have sub-goals, and functions for all sub-goals) and <em>postindex_function</em> (functions for goals with sub-goals).</p>
+<blockquote>
+<p>TIP: It’s important to check <code>goals.csv</code>’s weightings and preindex functions when you change goal or sub-goal model equations in <code>functions.r</code>.</p>
+</blockquote>
+<p><strong>pressures_matrix.csv</strong></p>
+<p>It is a table that indicates which individual pressures (stressors) affect which goal, sub-goals, or components, and weights them from 1-3 (a weight of 0 is shown as a blank). These weights are relative to each row of the matrix (goal, sub-goal, or component). These weights are used in global assessments based on scientific literature and expert opinion, and you can modify the weightings if necessary for your assessment. The pressures matrix is the same as Table S25 in the Supplementary Information for Halpern <em>et al.</em> 2012.</p>
 <p>Each pressure (column) of the pressures matrix is the layer name of the pressures layer file that is saved in the <code>layers</code> folder and is registered in <code>layers.csv</code>. Pressures layers have values for every region in the study area and the filenames have prefixes to indicate the pressure category (for example: <code>po_</code> for the pollution category). Pressures values are scaled such that all values range from 0-1.</p>
-<p><em>resilience_matrix.csv</em></p>
-<p><code>resilience_matrix.csv</code> is a table that indicates which individual resilience measures affect which goal, sub-goals, or components. Like the pressures matrix, the resilience matrix also has weights, but these weights depend on the level of information available. These weights are stored in a separate file in the <code>conf</code> folder: <code>resilience_weights.csv</code>. The resilience matrix is the same as Table S26 in the Supplementary Information for Halpern <em>et al.</em> 2012.</p>
+<p><strong>resilience_matrix.csv</strong></p>
+<p>It is a table that indicates which individual resilience measures affect which goal, sub-goals, or components. Like the pressures matrix, the resilience matrix also has weights, but these weights depend on the level of information available. These weights are stored in a separate file in the <code>conf</code> folder: <code>resilience_weights.csv</code>. The resilience matrix is the same as Table S26 in the Supplementary Information for Halpern <em>et al.</em> 2012.</p>
 <p>Each resilience measure (column) of the resilience matrix is the layer name of the resilience layer file that is saved in the <code>layers</code> folder and is registered in <code>layers.csv</code>. Resilience layers have values for every region in the study area. Resilience values are scaled such that all values range from 0-1.</p>
-<p><em>resilience_weights.csv</em></p>
+<p><strong>resilience_weights.csv</strong></p>
 <p><code>resilience_weights.csv</code> is a table that indicates the weight of each resilience layer based on the level of information available.</p>
-<p><em>scores.csv</em></p>
+<p><strong>scores.csv</strong></p>
 <p><code>scores.csv</code> is a text file containing the calculated scores for each dimension (future, pressures, resilience, score, status, trend) for each region in the study area. Regions have the numeric identifiers set in <code>subcountry2014/layers/rgn_labels.csv</code> and the study area has the numeric identifier of 0. Scores are calculated with registered layers in <code>layers.csv</code>: when you begin an assessment this will be information for your country from the global 2014 assessment and goal models from the global 2014 assessment. Scores from <code>scores.csv</code> are viewed through the WebApp using the ‘Output Score’ pulldown menu on the ‘App’ page.</p>
-<p><em>session.txt</em></p>
-<p><code>session.txt</code> is not used in OHI calculations but stores information about how the Toolbox was installed which may be useful for debugging purposes.</p>
+<p><strong>layers-empty_swapping-global-mean.csv</strong> <code>layers-empty_swapping-global-mean.csv</code> contains a list of layers where information for your country was not available for the global assessment. For the Toolbox to be able to run, these layers were filled with averages from all other countries included in the global assessment. This file is not used anywhere by the Toolbox but is a registry of layers that should prioritized to be replaced with your own local layers if you require these layers for the models you develop.</p>
 </div>
-<div id="others" class="section level3">
-<h3><span class="header-section-number">4.3.5</span> others</h3>
-<p><em>spatial</em> folder The <code>spatial</code> folder contains two spatial files: <code>regions_gcs.geojson</code> and <code>regions_gcs.js</code>. These files spatially identifies the study area and regions for the assessment and are stored in the JSON and GeoJSON formats that can be displayed by the App. If you plan to redefine the spatial boundaries for your assessment, you will need to provide a shapefile to the OHI+ development team and we will create the proper <code>regions_gcs.geojson</code> and <code>regions_gcs.js</code> files for you. You will need a spatial analyst to do this: see the <strong>Defining spatial boundaries</strong> section for instruction.</p>
-<p><em>temp</em> or <em>tmp</em> folders</p>
-<p>Contents within the <code>temp</code> or <code>tmp</code> folders are not used to calculate scores but can be used for temporary organization for your assessment.</p>
-<p><em>reports</em> folder</p>
+<div id="r-scripts" class="section level3">
+<h3><span class="header-section-number">4.3.3</span> R scripts</h3>
+<ul>
+<li><code>install_ohicore.R</code></li>
+<li><code>pre_scores.R</code></li>
+<li><code>calculate_scores.R</code></li>
+<li><code>data_prep.R</code> in prep folders</li>
+<li><code>functions.R</code></li>
+<li><code>config.R</code></li>
+<li><code>launch_app_code.R</code></li>
+</ul>
+<p><strong>install_ohicore.R</strong></p>
+<p>This script installs <code>ohicore</code>, which is the second repository required for the Toolbox and is the engine behind all OHI calculations. You will need to run this script only once when you <a href="http://ohi-science.org/manual/#install-ohicore">first install the toolbox</a>.</p>
+<p><strong>pre_scores.R</strong></p>
+<p>This script does the pre-checks before running goal models and calculate dimension scores. It loads “ohicore”, calls all goal functions and data layers in the “conf” folder, and check that all data layers are registered properly. You are encouraged to use this script when you’re working on individual goal models. After you register data layers for a goal, or make any changes to the data layers, source this script before running model-specific functions in functions.R.</p>
+<p><strong>calculate_scores.R</strong></p>
+<p>It runs everything required to calculate OHI scores using the prepared layers the <code>layers</code> folder that are registered in <code>layers.csv</code>. Scores will be saved in <code>scores.csv</code>.</p>
+<p><strong>functions.R`</strong></p>
+<p>This script contains the equations for each goal and sub-goal model. Each goal and sub-goal equation is stored as a separate function within the script. These functions calculate the <em>status</em> and <em>trend</em> using prepared layers saved in the ‘layers’ folder and registered in <code>layers.csv</code>. You will need to code in R to modify or develop new models, and it is best to work on one goal at a time.</p>
+<p><strong>config.R</strong> in “conf” folder</p>
+<p>It configures labeling and constants appropriately. You will only need to modify this file when working with goals that have categories (example: habitat types or economy sectors) that are affected differently by pressures and resilience measures.</p>
+<p><strong>launch_app_code.R</strong></p>
+<p>It will launch a version of the App on your computer so that you can visualize any edits you make before synching to <em>github.com</em>.</p>
+</div>
+<div id="other" class="section level3">
+<h3><span class="header-section-number">4.3.4</span> Other</h3>
+<ul>
+<li>reports</li>
+<li>session.txt</li>
+<li>spatial</li>
+<li>temp</li>
+</ul>
+<p><strong>reports</strong> folder</p>
 <p>The <code>reports</code> folder contains flower plots and tables for every region in the study area and for the study area itself, which by convention is called ‘GLOBAL’ in these files.</p>
+<p><strong>session.txt</strong></p>
+<p><code>session.txt</code> is not used in OHI calculations but stores information about how the Toolbox was installed which may be useful for debugging purposes.</p>
+<p><strong>spatial</strong> folder The <code>spatial</code> folder contains two spatial files: <code>regions_gcs.geojson</code> and <code>regions_gcs.js</code>. These files spatially identifies the study area and regions for the assessment and are stored in the JSON and GeoJSON formats that can be displayed by the App. If you plan to redefine the spatial boundaries for your assessment, you will need to provide a shapefile to the OHI+ development team and we will create the proper <code>regions_gcs.geojson</code> and <code>regions_gcs.js</code> files for you. You will need a spatial analyst to do this: see the <strong>Defining spatial boundaries</strong> section for instruction.</p>
+<p><strong>temp</strong> or <strong>tmp</strong> folders</p>
+<p>Contents within the <code>temp</code> or <code>tmp</code> folders are not used to calculate scores but can be used for temporary organization for your assessment.</p>
 </div>
 </div>
 <div id="toolbox-software" class="section level2">
@@ -2463,35 +2454,6 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 <p>Ideally, this goal would include some measure of of how easy or hard it is for fishermen to <em>access</em> ocean resources when they <em>need</em> them and the <em>sustainability</em> of harvest of all nearshore stocks used by artisanal fishers. The need for artisanal fishing is most directly tied to the percent of population below the poverty line. Access, or ability to meet this need, are institutional permits or encouragements for small fisheries. Sustainability of artisanal fisheries refers to the sustainability of fishing gears. Sustainable gears are traditional hook and line, as opposed to unsustainable practices such as dynamite and gill net fishing. Sustainability can also be estimated by assessing the health of targeted species. The type of reference point you use will depend on the data available.</p>
 <p><strong><em>Practical Guidance</em></strong></p>
 <p>Ideal indicators mentioned above are often scarce, especially percent poverty or the sustainability of fishing gears. You will want to find proxy data for <em>access</em> in whatever way best suits your areas. This could be drawn from physical, economic, regulatory, or stock condition data as an indication of availability. A combination of all of these would be best to more accurately speak to the philosophy, but is is usually limited by data.</p>
-<p>For example, in the U.S. West Coast Assessment (2014), three metrics were used to define <strong>Artisanal Opportunity</strong> that you can use to study:</p>
-<p><span style="font-size=0.9em"></p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Type of Access</th>
-<th align="left">Data Used</th>
-<th align="left">Reference Point</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Physical</td>
-<td align="left">Number of coastal access points per mile</td>
-<td align="left">1 coastal access point per mile</td>
-</tr>
-<tr class="even">
-<td align="left">Economic</td>
-<td align="left">Change in gas price over time</td>
-<td align="left">No change in gas price</td>
-</tr>
-<tr class="odd">
-<td align="left">Resource</td>
-<td align="left">Condition of fish stocks through NOAA Fish Stock Index</td>
-<td align="left">Perfect sustainability score on FSI</td>
-</tr>
-</tbody>
-</table>
-<p></span></p>
 <p>You should include data that are distinct from the catch data used in other areas of <strong>Food Provision</strong>. So once you find catch data and access data, you should think about which goals to use it in. For instance, if you find tonnage of artisanally-caught fish, you should include that elsewhere. In any case, you will likely modify the default Global Assessment model using different and better-resolved data.</p>
 <blockquote>
 <p>For example, in the Baltic Sea region, <strong>Artisanal Opportunities</strong> is very closely connected to <strong>Tourism and Recreation</strong> since there are a lot of locals and tourists using the shared sea for enjoyment. You will have to decide how to apportion the data.</p>
@@ -2529,9 +2491,9 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 </tr>
 <tr class="even">
 <td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">This study developed a model using three key variables of physical and economic access to coastal areas, and access to biological resources. The physical accesses was shore-based fishing measured by percent of coastline within a mile coastal access points. Economic access was no increase in fuel price compared to income. Biological access was the health of the fish stocks.</td>
-<td align="left">The target here is to maximize the amount of public access along the coast, therefore a perfect score results when each part of a region’s coastline has a coastal access point within 1 mile. The study calculated these scores using a raster map allocation.</td>
-<td align="left">This approach did not model demand or have species-specific information. It assumed that as long as there are no obstacles to pursuing artisanal fishing, the goal was fully achieved. These data better capture the nature of small-scale fisheries in the study area than the Global model.</td>
+<td align="left">This study developed a model using three key variables of physical and economic access to coastal areas, and access to biological resources: <br />     - Physical accesses: shore-based fishing measured by percent of coastline within a mile coastal access points. <br />     -Economic access: no increase in fuel price compared to income. <br />    - Biological access: condition of fish stocks through NOAA Fish Stock Index.</td>
+<td align="left">- Physical: 1 coastal access point per mile. <br /> - Economic: No change in gas price. <br /> - Perfect sustainability score on FSI.</td>
+<td align="left">This approach did not model demand or have species-specific information. It assumed that as long as there are no obstacles to pursuing artisanal fishing, the goal was fully achieved. These data better capture the nature of small-scale fisheries in the study area than the Global model. The study calculated these scores using a raster map allocation.</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
