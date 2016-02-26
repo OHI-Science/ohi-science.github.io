@@ -11,7 +11,4 @@ Goals, the categorized ocean benefits delivered to humans in the Ocean Health In
 
 This page should prove useful for any stage of an OHI+ assessment, and will be constantly updated. Plus, check out these adorable icons for each goal! 
 
-![ ](https://docs.google.com/drawings/d/1VPiUFRBThv1P65bn4ZCEP53B-_OSIAujQPLOx4yOMK0/pub?w=768&h=480)
-
-or: 
-![ ](https://docs.google.com/drawings/d/1EjfzhbXXanl3ZdBd1hAhLOUpuMNfhDHDTgYRT8EwQaE/pub?w=960&h=500)
+![ ](https://docs.google.com/drawings/d/1ywUCXv_ejw7h_CquboAy2Q03gJC-7WL9Mg8E993i8RM/pub?w=960&h=600)
