@@ -12,18 +12,6 @@ Ideally, this goal would include some measure of of how easy or hard it is for f
 
 Ideal indicators mentioned above are often scarce, especially percent poverty or the sustainability of fishing gears. You will want to find proxy data for *access* in whatever way best suits your areas. This could be drawn from physical, economic, regulatory, or stock condition data as an indication of availability. A combination of all of these would be best to more accurately speak to the philosophy, but is is usually limited by data.
 
-For example, in the U.S. West Coast Assessment (2014), three metrics were used to define **Artisanal Opportunity** that you can use to study:
-
-<span style="font-size=0.9em">
-
-| Type of Access | Data Used | Reference Point |
-|-----|------|-------|
-| Physical | Number of coastal access points per mile | 1 coastal access point per mile |
-| Economic | Change in gas price over time | No change in gas price |
-| Resource | Condition of fish stocks through NOAA Fish Stock Index | Perfect sustainability score on FSI |
-
-</span>
-
 You should include data that are distinct from the catch data used in other areas of **Food Provision**. So once you find catch data and access data, you should think about which goals to use it in. For instance, if you find tonnage of artisanally-caught fish, you should include that elsewhere. In any case, you will likely modify the default Global Assessment model using different and better-resolved data.
 
 >For example, in the Baltic Sea region, **Artisanal Opportunities** is very closely connected to **Tourism and Recreation** since there are a lot of locals and tourists using the shared sea for enjoyment. You will have to decide how to apportion the data.
