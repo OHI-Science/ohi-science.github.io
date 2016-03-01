@@ -118,6 +118,9 @@ $CW-color: #4EA09F;
 	table{
 		font-size: .8em;
 		
+		> colgroup > col{
+			width: 0px;
+		}
 		> tbody > tr > td{
 			width: 30%;
 		}
