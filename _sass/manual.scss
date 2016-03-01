@@ -32,6 +32,13 @@
 		    	margin-bottom: 20px;
 		    }
 		}
+		
+		table > tbody > tr > td{
+			width: 30%;
+		}
+		table > tbody > tr > td:nth-child(1){
+			width: 10%;
+		}
 	}
 	
 	h2{
