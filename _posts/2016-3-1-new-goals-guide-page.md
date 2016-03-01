@@ -5,7 +5,7 @@ category : news
 tags : [news]
 ---
 
-Looking for guidance on how to develop a goal model? Or just curious about what an OHI goal represents? We have created this ["Goals" page on ohi-science.org](http://ohi-science.org/goals/) to provide this information and answer your questions. 
+Looking for guidance on how to develop a goal model? Or just curious about what an OHI goal represents? We have created this [**Goals** page on ohi-science.org](http://ohi-science.org/goals/) to provide this information and answer your questions. 
 
 Goals, the categorized ocean benefits delivered to humans in the Ocean Health Index, are widely recognized for supporting human well-being and sustainable ocean ecosystems. They are the building blocks of an OHI assessment and assessed individually and combined to produce an OHI score. On the [Goals page](http://ohi-science.org/goals/), you will find the **philosophy** of the goal, an **ideal approach** of how it would be represented, **practical guidance** for modelling, and **examples from completed assessments**. 
 
