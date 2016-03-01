@@ -116,7 +116,14 @@ $CW-color: #904E9E;
 .goals-container{
 	
 	table{
-		font-size: .9em;
+		font-size: .8em;
+		
+		> tbody > tr > td{
+			width: 30%;
+		}
+		> tbody > tr > td:nth-child(1){
+			width: 10%;
+		}
 	}
 
 	

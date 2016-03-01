@@ -114,7 +114,6 @@ will have to account for that.
 
 **_Examples of the Approach_**
 
-<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other considerations
 -----------|----------------------|-------------------|--------------------|
@@ -126,4 +125,3 @@ Assessment | Developing the Model  | Setting the Reference Point | Other conside
 [**Ecuador - Gulf of Guayaquil 2015**](http://ohi-science.org/assessment/Ecuador) | The approach is the same as the Global assessment. Four natural products were considered: corals, fish oil, ornamental fish and seaweed. | A temporal reference point was used for each natural product: the maximum historical value achieved for each product in each study area. |
 [**China 2015**](http://ohi-science.org/assessment/China) | Status model is the same as in global assessments. Three natural products were assessed: sea salt, chemical products, and bio-pharmaceuticals. | The reference point was the 5-year production average due to large disparities in production among provinces.| The set reference point resulted in high scores since it is easy to achieve a 5-year average.
 
-</span>

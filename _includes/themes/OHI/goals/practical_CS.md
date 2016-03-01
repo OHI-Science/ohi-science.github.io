@@ -23,7 +23,6 @@ _Contribution_ is relative contribution of each habitat to total carbon storage,
 
 **_Examples of the Approach_**
 
-<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ----------|------------------------|----------------------|-------------------|
@@ -35,4 +34,3 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 [**Ecuador - Gulf of Guayaquil 2015**](http://ohi-science.org/assessment/Ecuador) | The modeling approach is the same as Global 2012. But only mangrove was calculated here because of its importance for carbon storage relative to other types of habitats. |  Reference point is the existing mangrove coverage for 1991. | Values are measured in units of area (km2). |
 [**China 2015**](http://ohi-science.org/assessment/China) | The approach is the same as Global 2012. But China's model included a new variable, relative carbon sequestration rate of each habitat. | A temporal reference point for each habitat is set to its condition in 1980’s. Time-series data on condition of each habitat was not obtainable. However, rough estimate of relative change in coverage areas since the 1980’s was found in literature. | Relative carbon sequestration rate, together with habitat extent, provide a more complete picture of how habitats contribute to CS than extent alone could do.
 
-</span>

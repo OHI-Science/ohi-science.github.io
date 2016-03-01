@@ -21,7 +21,6 @@ The **reference point for this goal** would likely be a metric of having full ac
 
 **_Examples of the Approach_**
 
-<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ----------|------------------------|---------------|--------------------|
@@ -33,4 +32,3 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 [**Ecuador - Gulf of Guayaquil 2015**](http://ohi-science.org/assessment/Ecuador) | The approach was the same was Global 2012 | The reference point was the same as Global 2012. | Local information was included for need and sustainability variables.
 [**China 2015**](http://ohi-science.org/assessment/China) | Status model is rewritten and is similar to the 2014 U.S. West Coast assessment. It is based on the three indicators: <br />  &nbsp;&nbsp;&nbsp;- capacity for exports, measured by the number of ports <br />  &nbsp;&nbsp;&nbsp;- the need for artisanal fishing opportunities, represented by the number of artisanal fishermen <br />  &nbsp;&nbsp;&nbsp;- economic capacity, measured by the ratio of diesel price and disposable income. | The spatial reference point is the maximum value across all region and all years.| 
 
-</span>

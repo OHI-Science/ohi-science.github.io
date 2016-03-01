@@ -21,7 +21,6 @@ The goal status model for Coastal Protection developed for global assessments wi
 
 **_Examples of the Approaches_**
 
-<span style="font-size:0.9em">
 
 Assessment | Model Description and Reference Point | Evolution of Approach | Other Considerations
 -----------|-----------------------|--------------------------|-------------------
@@ -33,4 +32,3 @@ Assessment | Model Description and Reference Point | Evolution of Approach | Oth
 [**Ecuador - Gulf of Guayaquil 2015**](http://ohi-science.org/assessment/Ecuador) | The status is calculated in the same manner as in the Global assessment. Mangroves in the coastal strip (1 Km offshore and inland) were considered the main source of coastal protection, and was used for calculations. | The reference condition was the existing mangrove coverage in the protective area for 1991. | Values are measured in units of area (km2).
 [**China 2015**](http://ohi-science.org/assessment/China) | The approach is the same as in global assessments. Four habitats are measured: mangroves, seagrasses, salt marshes, and coral reef. | A temporal reference point for each habitat is set to its condition in 1980’s. | These four habitats provide the most coastal protection and have available data. Not all habitat exist in all provinces and time-series data of extent is poor for some. Time-series data on the condition of each habitat is not obtainable. However, rough estimate of relative change in coverage areas since the 1980’s was found in literature.
 
-</span>

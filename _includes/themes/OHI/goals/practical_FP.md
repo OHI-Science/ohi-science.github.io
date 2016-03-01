@@ -213,7 +213,6 @@ produced have credibility.
 
 #### Examples of the Approach
 
-<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ------------|--------------------|-------------------|------------------|
@@ -225,7 +224,6 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 [**Ecuador-Gulf of Guayaquil 2015**](http://ohi-science.org/assessment/Ecuador) | The approach is the same as Global 2013-2015. |	The same as Global 2013-2015. | Mean catch-per-taxon values come from FAO data updated with local data from Instituto Nacional de Pesca (INP).
 [**China 2015**](http://ohi-science.org/assessment/China) | See Global 2012 assessment. | See Global 2012 assessment. | Data sources were poor for this assessment. Harvest data were reported by each fishing boat, which often fishes across provincial boundaries and outside of the EEZ. Current data thus might not reflect the best regional differences, and may exceed actual harvest levels within the EEZ.
 
-</span>
 
 #### sub-goal: Mariculture 
 
@@ -316,7 +314,6 @@ as Canada, to be unduly penalized.--->
 
 ##### Examples of the Approach
 
-<span style="font-size=0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 -----------|---------------------|----------------|--------------------|
@@ -328,4 +325,3 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 [**Ecuador-Gulf of Guayaquil 2015**](http://ohi-science.org/assessment/Ecuador) | Two relevant species were assessed: shrimp and tilapia. Status was calculated as an average of the two species' production in four recent years. This value is multiplied by a sustainability index for mariculture locally, and divided by the number of inhabitants in the coastal zone for each region. | A spatial reference point was used here, ie. region with the highest production. | 
 [**China 2015**](http://ohi-science.org/assessment/China) | Status model is similar to the 2012 global assessment. But the status model was based on tonnes of mariculture species per habitat identified as suitable area by the Chinese government.| The spatial reference point was the region with the highest value. | Using designated mariculture area for calculations provides a more realistic picture of the status of mariculture. Currently Mariculture Sustainability Index (MSI) values were obtained from the global study. More data on water quality standards and food sources (eg. species, origin, etc) will help determine the sustainability of mariculture.
 
-</span>
