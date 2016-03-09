@@ -5,7 +5,7 @@ category : news
 tags : [news]
 ---
 
-Our redesigned [ohi-science.org](http://ohi-science.org) website has all the open-science resources our team offers. But so many new pages and features might seem a bit overwhelming. Not to worry, here is a quick guide on how to find the resources you need to start your own OHI+ assessment. 
+Our redesigned [ohi-science.org](http://ohi-science.org) website has all the open-science resources our team offers. But so many new pages and features might seem a bit overwhelming. Not to worry, here is a quick guide on how to find the resources you need to start your own OHI+ assessment.  
 
 - [**Manual**](http://ohi-science.org/manual/). The Assessment Manual of the Conduct Phase offers information about how to conceptually think about what goals to include and how to set up spatial boundaries, as well as technical step-by-step guide about using the Toolbox to calculate goal scores. It also includes frequently asked quesitons, R troubleshooting examples, and templates on data reporting in the Appendices. 
 
