@@ -17,4 +17,4 @@ Our redesigned [ohi-science.org](http://ohi-science.org) website has all the ope
 
 - **Error messages**. Navigating through error messages can be tricky. You'll encounter error messages because of the Toolbox, but also in response to commands in R or GitHub. When you encounter an error message, it's best to check in the [Manual](http://ohi-science.org/manual/), then the [Forum](http://ohi-science.org/forum/): if it is a Toolbox error you will find solutions to navigating around those errors. If you don't find an answer on ohi-science.org, copy-and-paste the entire error message into a search engine (example: Google). Look for responses from **StackOverflow** or **Github** where people encounter and troubleshoot the same errors you have seen. If you don't find a good solution, post to the [Forum](http://ohi-science.org/forum/)!
 
-
+![ ](https://docs.google.com/drawings/d/1zY0hPFzmptLKwLC2mNhXBPHYopneaJ4owZDDZM2km6c/pub?w=960&h=720)
