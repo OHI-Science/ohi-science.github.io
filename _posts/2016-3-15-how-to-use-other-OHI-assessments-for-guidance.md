@@ -2,7 +2,7 @@
 layout: post
 title: "How to utilize other OHI+ projects for guidance"
 category : news
-tags : [news]
+tags : [news] 
 ---
 
 As the Ocean Health Index is an open-science tool used by inspired scientists and researchers all over the world, we can all benefit from the collective wisdom of an amazing OHI+ community. [**ohi-science.org**](http://ohi-science.org/) aims to facilitate sharing between OHI+ experiences. Here are a few tips on how to learn from and connect with other OHI+ groups: 
