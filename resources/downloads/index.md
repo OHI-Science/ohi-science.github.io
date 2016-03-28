@@ -15,7 +15,7 @@ Use these presentations to help communicate about the Ocean Health Index. Click 
 <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/Cadre_General_IdSO.pdf" target="_blank">French</a>
 
 - **Overview of the Ocean Health Index: 2012-2015** in [English](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/OHI_Overview_2012_2015.pdf) or 
-<a href="https://cdn.rawgit.com/OHI-Science/ohi-science.github.io/dev/assets/downloads/pres/conduct_phase_intro.html#1" target="_blank">view online</a>
+<a href="https://rawgit.com/OHI-Science/ohi-science.github.io/master/assets/downloads/pres/OHI_Overview_2012_2015.html#1" target="_blank">view online</a>
 
 - **Introduction to OHI+ Assessments** in 
 <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pres/OHIplus_Assessments.pdf" target="_blank">English</a>, 
