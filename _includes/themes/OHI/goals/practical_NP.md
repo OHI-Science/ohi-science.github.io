@@ -52,17 +52,6 @@ be reflected in the score.
 > If natural products are all produced through on-land aquaculture, you would probably have good reason to exclude the natural product goal. This would also depend on the origin of these natural products--are they from the region’s waters? You should consult with experts and any reports/papers on the topic. In addition, this goal does NOT include non-living items such as oil, gas, and mining products, because these practices are not considered to be sustainable. They are also done at such large scales that including them would essentially make OHI an index for oil and mining--and they are not truly an ocean product.
 
 The second task is to think about **where these products are harvested and how
-much of them are harvested** in these areas through a period of time. You should
-find spatial representation of these products, which can be done by knowing
-where they are derived from. Do they come from certain habitats (in the case of
-coral) or animals (in the case of fish oil)? This information will help
-calculate the sustainability of the harvest of the natural product.  Harvest
-amounts and the spatial data are used to calculate _exposure_ further on, and
-can also be used to set the _relative weighting_ between the products. These
-spatial data may have already been used in other goals, or they may lead you to
-find useful data that can be used in other parts of the assessment.
-
-The second task is to think about **where these products are harvested and how
 much of them are harvested** in these areas through a period of time. You will
 have to assign geographic representation of these products, which can be done by
 knowing where they are derived from, ideally, or by assigning relative
