@@ -19,7 +19,7 @@ Our team has developed tools for quantifying human impacts on and benefits from 
 
 Data and scripts from OHI global assessments are available for 2012, 2013, 2014, and 2015. Explore the <a href="https://github.com/OHI-Science/ohi-global/releases" target="_blank">data and methods used for these assessments (including Antarctica and the High Seas)</a>, stored on GitHub. 
 
-### For more information, 
+### For more information 
 
 Please see [publications](/resources/publications) about the OHI framework, assessments and supporting research, view [presentations](/resources/downloads) describing the framework, explore [current and on-going assessments](/projects), and learn more about [OHI goals](/goals).
 
