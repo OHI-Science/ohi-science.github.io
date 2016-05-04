@@ -22,25 +22,41 @@ library(rgeos)
 
 ####################
 # uses leaflet and htmlwidgets to save html file
-regionAll <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
+region_poly <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
                      layer="allRegions")
-regions <- read.csv('assets/maps/regions.csv')
+region_poly_data <- read.csv('assets/maps/regions_shape.csv')
 
-## Not including Arctic, file is messed up (fix later):
-regionAll <- regionAll[regionAll@data$Region %in% regions$Region, ]
+## This is run in case there are polygons in the shapefile that are no longer included:
+region_poly <- region_poly[region_poly@data$country %in% region_poly_data$country, ]
 
 ## Add color data
-colors <- data.frame(Status = c("active", "completed"), 
+colors <- data.frame(phase = c("active", "completed"), 
                      color= c('#0083A3', '#00ADDD'))
-regionAll@data <- regionAll@data %>%
-  left_join(regions, by="Region") %>%
-  left_join(colors, by="Status")
+region_poly@data <- region_poly@data %>%
+  left_join(region_poly_data, by="country") %>%
+  left_join(colors, by="phase")
 
-popup1 <- paste0('<b>', regionAll@data$Display, '</b>',
-                 '<br/>', "status: ", regionAll@data$Status) # use this for new line: , "<br/>")
+popup_poly <- paste0('<b>', region_poly@data$display, '</b>',
+                 '<br/>', "status: ", region_poly@data$phase) # use this for new line: , "<br/>")
 # myPalette <- colorRampPalette(brewer.pal(11, "Spectral"))
 # myPalette <- colorRampPalette(c("#9E0142", "#D53E4F", "#F46D43", "#FDAE61", "#3288BD", "#5E4FA2"))
 # myPalette <- topo.colors(nrow(regionAll@data), alpha=NULL)
+
+## The data we want to display as points:
+points <- read.csv("assets/maps/regions_point.csv")
+popup_points <- paste0('<b>', points$display, '</b>',
+                     '<br/>', "status: ", points$phase) # use this for new line: , "<br/>")
+
+## point ideas:
+##https://sites.google.com/site/gmapsdevelopment/
+icon_new <- makeIcon(
+  iconUrl = "http://maps.google.com/mapfiles/ms/micons/red-dot.png",
+  iconWidth = 25, iconHeight = 27,
+  iconAnchorX = 15, iconAnchorY =27
+#   shadowUrl = "http://leafletjs.com/docs/images/leaf-shadow.png",
+#   shadowWidth = 50, shadowHeight = 64,
+#   shadowAnchorX = 4, shadowAnchorY = 62
+)
 
 m <- leaflet(width="100%", height="600px") %>%
   setView(-30, 30, 2) %>%
@@ -49,14 +65,19 @@ m <- leaflet(width="100%", height="600px") %>%
   #addProviderTiles("OpenStreetMap.BlackAndWhite") %>%
   #   addTiles(options = tileOptions(noWrap = TRUE)) %>%  
   #   fitBounds(-180, -70, 180, 80) %>%
-  addPolygons(data = regionAll, 
+  addPolygons(data = region_poly, 
               #fillColor = myPalette(nrow(regionAll)), 
-              fillColor = regionAll@data$color,
-              popup=popup1, 
+              fillColor = region_poly@data$color,
+              popup=popup_poly, 
               #stroke=FALSE,
               color = "#A8A8A8",
               weight = 1,
               opacity = 0.5,
-              fillOpacity = 0.4)
+              fillOpacity = 0.4) %>%
+  addMarkers(data=points, ~lon, ~lat, popup = ~as.character(popup_points), icon=icon_new)
 saveWidget(m, file="allRegions.html", selfcontained=FALSE)
+
+### move the files to the correct places
+# file.copy("allRegions.html", to, overwrite = recursive, recursive = FALSE,
+#           copy.mode = TRUE, copy.date = FALSE)
 
