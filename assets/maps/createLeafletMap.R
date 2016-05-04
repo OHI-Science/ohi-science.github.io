@@ -50,7 +50,7 @@ popup_points <- paste0('<b>', points$display, '</b>',
 ## point ideas:
 ##https://sites.google.com/site/gmapsdevelopment/
 icon_new <- makeIcon(
-  iconUrl = "http://maps.google.com/mapfiles/ms/micons/red-dot.png",
+  iconUrl = "http://maps.google.com/mapfiles/ms/micons/blue-dot.png",
   iconWidth = 25, iconHeight = 27,
   iconAnchorX = 15, iconAnchorY =27
 #   shadowUrl = "http://leafletjs.com/docs/images/leaf-shadow.png",
