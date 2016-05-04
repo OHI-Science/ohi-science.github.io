@@ -1,6 +1,6 @@
 ---
 layout: assessment
-title: "Ecuador"
+title: "Ecuador - Gulf of Guayaquil"
 excerpt_separator: <!--more-->
 category : assessment
 tags : [OHI+, South America]

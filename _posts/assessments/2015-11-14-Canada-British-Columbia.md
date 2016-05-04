@@ -1,6 +1,6 @@
 ---
 layout: assessment
-title: "British Columbia"
+title: "Canada - British Columbia"
 category : assessment
 excerpt_separator: <!--more-->
 tags : [North America]

@@ -1,6 +1,6 @@
 ---
 layout: assessment
-title: "Spain: Gulf of Cadiz"
+title: "Spain - Gulf of Cadiz"
 excerpt_separator: <!--more-->
 category : assessment
 tags : [Europe, OHI+]
