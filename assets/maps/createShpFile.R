@@ -1,8 +1,8 @@
 ### This is the script used to gather region shapefiles to describe the local
 ### OHI+ analyses
 
-### NOTE: I need to clip out the bci portion of the canada map...so it doesn't get two overlapping polygons
-
+### NOTE: I need to clip out the bci portion of the canada map...
+## so it doesn't get two overlapping polygons
 
 ### Need to read in the shape files for each of these regions:
 library(dplyr)
@@ -16,36 +16,39 @@ library(jsonlite)
 library(RColorBrewer)
 library(rgeos)
 
+source('../ohiprep/src/R/common.R')
+
 ## Hawaii----
-map2 <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data', layer= 'sp_gcs')
-map2 <- map2[map2@data$sp_type == "eez", ]
-Hawaii <- map2[map2@data$sp_name %in% c('Hawaii'), ]
-
-Hawaii@data <- Hawaii@data %>%
-  dplyr::select(Region = sp_name) %>%
-  mutate(Region = "United States, Hawaii")
-
-Hawaii <- spChFIDs(Hawaii, Hawaii@data$Region)
-
-writeOGR(Hawaii, dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
-         layer="Hawaii", driver="ESRI Shapefile")
-
-Hawaii <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
-                  layer="Hawaii")
-Hawaii <- spChFIDs(Hawaii, as.character(Hawaii@data$Region))
+# Update May 3 2016: not including Hawaii at this time
+# map2 <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data', layer= 'sp_gcs')
+# map2 <- map2[map2@data$sp_type == "eez", ]
+# Hawaii <- map2[map2@data$sp_name %in% c('Hawaii'), ]
+# 
+# Hawaii@data <- Hawaii@data %>%
+#   dplyr::select(Region = sp_name) %>%
+#   mutate(Region = "United States, Hawaii")
+# 
+# Hawaii <- spChFIDs(Hawaii, Hawaii@data$Region)
+# 
+# writeOGR(Hawaii, dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
+#          layer="Hawaii", driver="ESRI Shapefile")
+# 
+# Hawaii <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
+#                   layer="Hawaii")
+# Hawaii <- spChFIDs(Hawaii, as.character(Hawaii@data$Region))
 
 ## US Pacific Coast----
 ## Identifying the US West Coast: don't need to run this again
-US <- map2[map2@data$sp_name %in% c('United States'), ]
-#locator(2)
-USWC <- crop(US, extent(-135, -112, 50, 30))
+# US <- map2[map2@data$sp_name %in% c('United States'), ]
+# #locator(2)
+# USWC <- crop(US, extent(-135, -112, 50, 30))
+# 
+# USWC@data <- USWC@data %>%
+#   dplyr::select(Region = sp_name) %>%
+#   mutate(Region = "United States, Pacific Coast")
+# writeOGR(USWC, dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data', layer= 'USWestCoast_gcs', driver="ESRI Shapefile", overwrite=TRUE)
 
-USWC@data <- USWC@data %>%
-  dplyr::select(Region = sp_name) %>%
-  mutate(Region = "United States, Pacific Coast")
-writeOGR(USWC, dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data', layer= 'USWestCoast_gcs', driver="ESRI Shapefile", overwrite=TRUE)
-
-USWC <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data', layer= 'USWestCoast_gcs')
+USWC <- readOGR(dsn=file.path(dir_M, 'git-annex/Global/NCEAS-Regions_v2014/data'), layer= 'USWestCoast_gcs')
 
 USWC <- spChFIDs(USWC, USWC@data$Region)
 
@@ -53,10 +56,10 @@ USWC <- spChFIDs(USWC, USWC@data$Region)
 ## Several countries----
 map1 <- readOGR('../ohiprep/globalprep/spatial/downres', layer="rgn_eez_gcs_low_res")
 
-map1 <- map1[map1@data$rgn_nam %in% c('Brazil', 'Canada', 'British Virgin Islands', 'Ecuador', 'Colombia',
-                                      'China', 'Mexico', 'Peru', 'South Korea', 'Japan',
-                                      'Israel', 'Panama', 'Spain', 'Chile', 'Fiji'), ]
-proj4string(map1) <- CRS(proj4string(Hawaii))
+map1 <- map1[map1@data$rgn_nam %in% c('Brazil', 'Ecuador', 'Colombia',
+                                      'China', 'Canada',
+                                      'Israel', 'Spain', 'Chile', 'Fiji'), ]
+proj4string(map1) <- CRS(proj4string(USWC))
 
 #map1@data$country <- 1:nrow(map1@data) # don't think I need this anymore.
 map1@data <- map1@data %>%

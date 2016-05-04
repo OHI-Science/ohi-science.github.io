@@ -38,15 +38,28 @@ display_list <- master_list %>%
 display_shp <-  display_list %>%
   filter(map_display == 'shapefile')
 
+## determine whether any shapefiles have been added:
+old <- read.csv("assets/maps/regions_shape.csv")
+if(length(setdiff(display_shp$country, old$country))>0){
+  warning('Countries with shapefiles have been added, will need to update the shapefile map')
+}
+
+
 ## filter point data to display
 display_pt <-  display_list %>%
   filter(map_display == 'point')
 
+old <- read.csv("assets/maps/regions_point.csv")
+if(length(setdiff(display_pt$country, old$country))>0){
+  warning('Countries with points have been added, will need to update the point map')
+}
+
+
 if (nrow(display_pt) + nrow(display_shp) != nrow(display_list)) {
   warning('please make sure all the countries to display have either shapefiles or lat/longs')
 }
-         
-
+ write.csv(display_shp, "assets/maps/regions_shape.csv", row.names=FALSE)        
+ write.csv(display_pt, "assets/maps/regions_point.csv", row.names=FALSE)        
          
          
          

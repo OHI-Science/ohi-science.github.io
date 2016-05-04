@@ -13,4 +13,4 @@ tags : [North America]
 
 [publication](/resources/publications#us-west-coast) 
 <a href="https://github.com/OHI-Science/ohi-uswest/releases" target="_blank">github</a>
-<a href="www.oceanhealthindex.org/ohi-plus/us-west-coast-assessment" target="_blank">website</a>
+<a href="http://www.oceanhealthindex.org/ohi-plus/us-west-coast-assessment" target="_blank">website</a>
