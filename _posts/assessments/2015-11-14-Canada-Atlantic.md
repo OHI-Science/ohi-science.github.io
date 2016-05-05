@@ -1,6 +1,6 @@
 ---
 layout: assessment
-title: "Canada - Atlantic"
+title: "Canada-Atlantic"
 category : assessment
 excerpt_separator: <!--more-->
 tags : [OHI+, North America]
