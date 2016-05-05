@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OHI+ Workshop in Indonesia"
-category : news
+category : news 
 tags : [news]
 ---
 
