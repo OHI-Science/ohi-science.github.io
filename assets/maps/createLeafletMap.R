@@ -1,4 +1,4 @@
-### This creates the leaflet map for the website using the shapefile created in createShpFile.R
+### This script creates the leaflet map for the website
 
 ### NOTE: The two files created by leaflet must be moved after creation
 ## allRegions_files folder goes to: /projects
@@ -37,10 +37,7 @@ region_poly@data <- region_poly@data %>%
   left_join(colors, by="phase")
 
 popup_poly <- paste0('<b>', region_poly@data$display, '</b>',
-                 '<br/>', "status: ", region_poly@data$phase) # use this for new line: , "<br/>")
-# myPalette <- colorRampPalette(brewer.pal(11, "Spectral"))
-# myPalette <- colorRampPalette(c("#9E0142", "#D53E4F", "#F46D43", "#FDAE61", "#3288BD", "#5E4FA2"))
-# myPalette <- topo.colors(nrow(regionAll@data), alpha=NULL)
+                 '<br/>', "status: ", region_poly@data$phase) 
 
 ## The data we want to display as points:
 points <- read.csv("assets/maps/regions_point.csv")
@@ -52,11 +49,7 @@ popup_points <- paste0('<b>', points$display, '</b>',
 icon_new <- makeIcon(
   iconUrl = "http://maps.google.com/mapfiles/ms/micons/blue-dot.png",
   iconWidth = 25, iconHeight = 27,
-  iconAnchorX = 15, iconAnchorY =27
-#   shadowUrl = "http://leafletjs.com/docs/images/leaf-shadow.png",
-#   shadowWidth = 50, shadowHeight = 64,
-#   shadowAnchorX = 4, shadowAnchorY = 62
-)
+  iconAnchorX = 15, iconAnchorY =27)
 
 m <- leaflet(width="100%", height="600px") %>%
   setView(-30, 30, 2) %>%
@@ -78,6 +71,7 @@ m <- leaflet(width="100%", height="600px") %>%
 saveWidget(m, file="allRegions.html", selfcontained=FALSE)
 
 ### move the files to the correct places
-# file.copy("allRegions.html", to, overwrite = recursive, recursive = FALSE,
-#           copy.mode = TRUE, copy.date = FALSE)
-
+file.copy("allRegions.html", "_includes/themes/OHI/maps/allRegions.html", overwrite = TRUE,
+          copy.mode = TRUE, copy.date = FALSE)
+file.remove("allRegions.html")
+unlink("allRegions_files", recursive=TRUE)
