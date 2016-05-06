@@ -1,8 +1,8 @@
 ### This script creates the leaflet map for the website
 
-### NOTE: The two files created by leaflet must be moved after creation
-## allRegions_files folder goes to: /projects
-### allRegions.html goes to: _includes/themes/OHI/maps
+### NOTE: The two things created by leaflet must be moved after creation
+## allRegions_files folder goes to: /projects. BY HAND! (for now). But do each time. 
+## allRegions.html         goes to: _includes/themes/OHI/maps
 
 # For more information: http://zevross.com/blog/2014/04/11/using-r-to-quickly-create-an-interactive-online-map-using-the-leafletr-package/
 # http://stackoverflow.com/questions/26435861/how-to-read-a-geojson-file-containing-feature-collections-to-leaflet-shiny-direc
@@ -36,8 +36,6 @@ region_poly <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/d
 # region_poly <- readOGR(dsn=file.path(dir_M, 'git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions'),                        
 #                        layer="allRegions")
 
-# region_poly@data <- region_poly@data %>%
-#   dplyr::rename(country = Region)
 
 region_poly_data <- read.csv('assets/maps/regions_shape.csv')
 
@@ -85,9 +83,18 @@ m <- leaflet(width="100%", height="600px") %>%
   addMarkers(data=points, ~lon, ~lat, popup = ~as.character(popup_points), icon=icon_new)
 saveWidget(m, file="allRegions.html", selfcontained=FALSE)
 
-### move the files to the correct places
+### move allRegions.html to the correct place in _includes subdirectory
 unlink("_includes/themes/OHI/maps/allRegions.html", recursive=TRUE)
 file.rename(from="allRegions.html", to="_includes/themes/OHI/maps/allRegions.html")
-#file.remove("allRegions.html")
-unlink("allRegions_files", recursive=TRUE)
+unlink("allRegions.html")
+
+
+### move allRegions_files folder to the correct place in /projects
+### although this seems overkill, the map won't display if these packages have been updated and there's a mismatch; see https://github.com/OHI-Science/issues/issues/625
+unlink("projects/allRegions_files", recursive=TRUE) # delete old folder
+warning('Now move `/allRegions_files` to `/projects/allRegions_files`!')
+warning('Seriously, did you move `/allRegions_files` to `/projects/allRegions_files`!?')
+# we should script this someday but actually a pain to loop through subdirectories and copy
+
+
 

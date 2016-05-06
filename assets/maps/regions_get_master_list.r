@@ -49,6 +49,12 @@ if(length(setdiff(display_shp$country, old$country))>0){
 display_pt <-  display_list %>%
   filter(map_display == 'point')
 
+# error if not all fields have lat/lon data. See https://github.com/OHI-Science/issues/issues/625#issuecomment-217511758
+if (NA %in% display_pt$lat | NA %in% display_pt$lon){
+  stop(sprintf('Missing lat or lon field for region to be displayed. Must fix or will not map proplerly.\n'))
+}
+
+
 old <- read.csv("assets/maps/regions_point.csv")
 if(length(setdiff(display_pt$country, old$country))>0){
   warning('Countries with points have been added, will need to update the point map')
