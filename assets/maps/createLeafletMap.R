@@ -21,9 +21,21 @@ library(RColorBrewer)
 library(rgeos)
 
 ####################
+# set directories
+dir_M <- c('Windows' = '//mazu.nceas.ucsb.edu/ohi',
+           'Darwin'  = '/Volumes/ohi',    ### connect (cmd-K) to smb://mazu/ohi
+           'Linux'   = '/home/shares/ohi')[[ Sys.info()[['sysname']] ]]
+if (Sys.info()[['sysname']] != 'Linux' & !file.exists(dir_M)){
+  warning(sprintf("The Mazu directory dir_M set in src/R/common.R does not exist. Do you need to mount Mazu: %s?", dir_M))
+}
+
+####################
 # uses leaflet and htmlwidgets to save html file
-region_poly <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
+region_poly <- readOGR(dsn=file.path(dir_M, 'git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions'), 
                      layer="allRegions")
+region_poly@data <- region_poly@data %>%
+  dplyr::rename(country = Region)
+
 region_poly_data <- read.csv('assets/maps/regions_shape.csv')
 
 ## This is run in case there are polygons in the shapefile that are no longer included:
