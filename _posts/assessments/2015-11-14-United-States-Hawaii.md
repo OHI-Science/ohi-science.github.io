@@ -1,6 +1,6 @@
 ---
 layout: assessment
-title: "U.S. Hawaii"
+title: "United States-Hawaii"
 excerpt_separator: <!--more-->
 category : assessment
 tags : [OHI+, Oceania]
