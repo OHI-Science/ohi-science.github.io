@@ -31,10 +31,13 @@ if (Sys.info()[['sysname']] != 'Linux' & !file.exists(dir_M)){
 
 ####################
 # uses leaflet and htmlwidgets to save html file
-region_poly <- readOGR(dsn=file.path(dir_M, 'git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions'), 
-                     layer="allRegions")
-region_poly@data <- region_poly@data %>%
-  dplyr::rename(country = Region)
+region_poly <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions',
+                       layer="allRegions")
+# region_poly <- readOGR(dsn=file.path(dir_M, 'git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions'),                        
+#                        layer="allRegions")
+
+# region_poly@data <- region_poly@data %>%
+#   dplyr::rename(country = Region)
 
 region_poly_data <- read.csv('assets/maps/regions_shape.csv')
 
@@ -83,7 +86,8 @@ m <- leaflet(width="100%", height="600px") %>%
 saveWidget(m, file="allRegions.html", selfcontained=FALSE)
 
 ### move the files to the correct places
-file.copy("allRegions.html", "_includes/themes/OHI/maps/allRegions.html", overwrite = TRUE,
-          copy.mode = TRUE, copy.date = FALSE)
-file.remove("allRegions.html")
+unlink("_includes/themes/OHI/maps/allRegions.html", recursive=TRUE)
+file.rename(from="allRegions.html", to="_includes/themes/OHI/maps/allRegions.html")
+#file.remove("allRegions.html")
 unlink("allRegions_files", recursive=TRUE)
+
