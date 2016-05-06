@@ -12,8 +12,8 @@ To redo the basemap, run createBaseMap.R
 ### STEP 4: createLeafletMap.R
 The shapefile and point data are added in two separate steps.
 
-Two files are created when this script is run: allRegions.html and a folder called allRegions_files
+Two things are created when this script is run, and need to be moved to the correct places. 
 
-The allRegions_files is currently deleted.  However, if there are changes made to how the leaflet map is displayed 
-(e.g., different centering or size) then this must be moved to /projects
-(I'm not sure if additional changes need to be made to these files for the map to display properly)
+- allRegions.html         -> move to `_includes/themes/OHI/maps` (scripted)
+- allRegions_files folder -> move to `/projects` (BY HAND!) (do this each time; if libraries get out of sync then the map will not display). 
+
