@@ -13,12 +13,6 @@ At the conference we were selected to give a short presentation focused on how w
 
 We were among a small group of diverse participants using Shiny in many different ways. In addition to our group from the Ocean Health Index, there were data scientists from groups including AirBnB, Genentech, Friss Analytics, Stanford University and the University of British Columbia. It was really inspiring to learn how Shiny is being used across all these disciplines. Check out all talks by RStudio and other users <a href="https://www.rstudio.com/resources/webinars/shiny-developer-conference/" target="blank">here</a>.
 
-So what is Shiny? Shiny is an R package developed by RStudio that enables you to turn analyses into interactive web applications without knowing web-development. This is an incredibly powerful tool for data exploration, data visualization, and communication. We are using what we learned at the Shiny Developer's Conference to upgrade our Shiny interactive map for the Ocean Health Index, stay tuned!
+**So what is Shiny?** <a href="http://shiny.rstudio.com/"target="_blank">Shiny is an R package developed by RStudio</a> that enables you to turn analyses into interactive web applications without knowing web-development. This is an incredibly powerful tool for data exploration, data visualization, and communication to different audiences. We are using what we learned at the Shiny Developer's Conference to upgrade our Shiny interactive map for the Ocean Health Index, so please stay tuned!
 
-For more information, please see: 
-
-- <a href="http://shiny.rstudio.com/"target="_blank">shiny.rstudio.com</a>
-- <a href="https://blog.rstudio.org/2016/05/05/shinydevcon-videos-now-available/" target="_blank">
-RStudio Blog: ShinyDevCon videos now available</a>
-- <a href="https://www.rstudio.com/resources/webinars/shiny-developer-conference/" target="blank">RStudio's Shiny Developer's Conference webinars</a>
 
