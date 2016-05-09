@@ -7,7 +7,10 @@ tags : [news]
 
 Colombia has been working on OHI+ over the past 2.5 years and the process is beginning to yield positive policy and management changes. The Colombian Ocean Commission (CCO), in partnership with the National Administrative Department of Statistics (DANE), has created Colombia's Ocean Indicator Framework, which establishes measurements for 113 components relevant to the management of social, economic and ecological features. Colombia has also determined the spatial boundaries it will use to assess ocean health, separating the country into three main regions: Pacific Ocean, Atlantic Ocean, and Caribbean Islands. 
 
-![](https://drive.google.com/file/d/0BzrZTod-pGCWOG8xUXp6WlJpRVU/view?usp=sharing)
+
+![](https://docs.google.com/drawings/d/1qQNIYCRKIiTGbXgdlo35DSd3QBABe8WUOuGJ19cRDlY/pub?w=960&h=319)
+
+**OHI Colombia Indicators Workshop Doodle - September 2015**
 
 In 2016, the CCO and DANE will be partnering with key government agencies, both at national and regional levels, to create methodological sheets for each indicator, a step aimed at establishing consistent protocols for data gathering at the various scales of management. These methodological sheets will indicate the measurement, the frequency of data collection, which agency is responsible for collecting it, and which methodology should be employed. The indicator framework centralizes all of Colombia’s information relevant to ocean management and facilitates the efforts to develop a comprehensive ocean knowledge baseline upon which changes can be compared to. This system will make it easier for Colombia to continually update its OHI scores when new information becomes available, simplifying the effort of data gathering, and ensuring assessments are repeated frequently to guarantee decisions are made with the most up to date information. In an effort to align national and regional policies for ocean information management, CCO is also holding regional workshops within the country to build regional capacity in terms of ocean data collection procedures.
 
