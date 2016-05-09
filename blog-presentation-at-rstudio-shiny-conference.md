@@ -5,11 +5,17 @@ category: news
 tags: [news]
 ---
 
-In January three of our OHI science team (Ben Best, Jamie Afflerbach, and Julie Lowndes) went to <a href="https://www.rstudio.com/resources/webinars/shiny-developer-conference/" target="blank">RStudio's Shiny Developer's Conference in San Francisco</a>. This was a really exciting opportunity to talk with our heroes at RStudio and learn more from them and other conference participants about how to use Shiny. 
+*I think it'd be good to provide a clickable link up top if no one wants to read the post...*
 
-There, we presented about how we use Shiny for the Ocean Health Index: it is how we display OHI inputs and scores on interactive maps. Our presentation is now online: you can view our five-minute presentation "Ocean Health Index and Shiny" <a href="https://www.rstudio.com/resources/videos/ocean-health-index-analysis-with-shiny/" target="blank">here</a>. 
+**Video presentation:  <a href="https://www.rstudio.com/resources/videos/ocean-health-index-analysis-with-shiny/" target="blank">"The Ocean Health Index and Shiny"</a>**
 
-So what is Shiny? Shiny is an R package developed by RStudio that enables you to turn analyses into interactive web applications without knowing web-development. This is an incredibly powerful tool for data exploration and visualization, and communication. We are using what we learned at the Shiny Developer's Conference to upgrade our Shiny interactive map for the Ocean Health Index, stay tuned!
+In January three members of our OHI science team (Ben Best, Jamie Afflerbach, and Julie Lowndes) went to <a href="https://www.rstudio.com/resources/webinars/shiny-developer-conference/" target="blank">RStudio's Shiny Developer's Conference in San Francisco</a>. The conference was an exciting opportunity to meet with some of our data science heroes at RStudio, learn about the newest features of Shiny and discuss our work at OHI and how Shiny fits into the index.
+
+At the conference we were selected to give a short presentation focused on how we use Shiny for the Ocean Health Index. Shiny is the tool we use to display OHI inputs and scores on interactive maps and is a key tool for communicating results to a wider audience. Our presentation is now online: you can view our five-minute presentation <a href="https://www.rstudio.com/resources/videos/ocean-health-index-analysis-with-shiny/" target="blank">"The Ocean Health Index and Shiny"</a>**. 
+
+We were among an elite group of participants that came from the tech industry (AirBnB, Genentech), government agencies (canadian guy?), academia (UBC, Stanford) and more to learn and share how Shiny is being used across all these disciplines.
+
+So what is Shiny? Shiny is an R package developed by RStudio that enables you to turn analyses into interactive web applications without knowing web-development. This is an incredibly powerful tool for data exploration, data visualization, and communication. We are using what we learned at the Shiny Developer's Conference to upgrade our Shiny interactive map for the Ocean Health Index, stay tuned!
 
 For more information, please see: 
 
