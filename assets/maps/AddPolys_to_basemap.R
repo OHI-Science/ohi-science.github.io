@@ -24,7 +24,7 @@ library(rgeos)
 source('../ohiprep/src/R/common.R')
 
 # read in the basemap
-bm <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
+bm <- readOGR(dsn=file.path(dir_M, 'git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions'), 
                layer="allRegions")
 
 ################################################################################
@@ -81,7 +81,7 @@ new_rgn <- spChFIDs(new_rgn, as.character(new_rgn@data$country))
 ## merge the polygons into one file
 regionAll <- rbind(bm, new_rgn)
 
-writeOGR(regionAll, dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
+writeOGR(regionAll, dsn= file.path(dir_M, 'git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions'), 
          layer="allRegions", driver = "ESRI Shapefile", overwrite=TRUE)
 
 
