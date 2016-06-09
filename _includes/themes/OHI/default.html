@@ -45,7 +45,7 @@
 	</script>
   </head>
 
-  <body class="{{ bodyClass }} {{ page.bodyClass }}" data-url="{{ page.url }}">
+  <body class="{{ bodyClass }} {{ layout.bodyClass }}" data-url="{{ page.url }}">
     
     {% include themes/OHI/header.html %}
 
@@ -93,8 +93,8 @@
     <!--  
     {% comment %} Add the 'js' variable to the page front matter to include a custom js script on that page only {% endcomment %}
     -->
-    {% if page.js %}
-    	<script src="{{ ASSET_PATH }}OHI/js/{{ page.js }}.js"></script>
+    {% if layout.js %}
+    	<script src="{{ ASSET_PATH }}OHI/js/{{ layout.js }}.js"></script>
     {% endif %}
   </body>
 </html>
