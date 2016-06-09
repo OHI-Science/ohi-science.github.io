@@ -4,10 +4,10 @@ js: createStripes
 ---
 {% include JB/setup %}
 
-{% if page.header %}
+{% if layout.header %}
 	{% include themes/OHI/page_header.html %}
 {% else %}
-	<h1>{{ page.title }}</h1>
+	<h1>{{ layout.title }}</h1>
 {% endif %}
 
 <div class="stripes-container">
