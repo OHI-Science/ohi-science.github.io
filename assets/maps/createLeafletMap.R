@@ -1,8 +1,8 @@
-### This creates the leaflet map for the website using the shapefile created in createShpFile.R
+### This script creates the leaflet map for the website
 
-### NOTE: The two files created by leaflet must be moved after creation
-## allRegions_files folder goes to: /projects
-### allRegions.html goes to: _includes/themes/OHI/maps
+### NOTE: The two things created by leaflet must be moved after creation
+## allRegions_files folder goes to: /projects. BY HAND! (for now). But do each time. 
+## allRegions.html         goes to: _includes/themes/OHI/maps
 
 # For more information: http://zevross.com/blog/2014/04/11/using-r-to-quickly-create-an-interactive-online-map-using-the-leafletr-package/
 # http://stackoverflow.com/questions/26435861/how-to-read-a-geojson-file-containing-feature-collections-to-leaflet-shiny-direc
@@ -21,9 +21,22 @@ library(RColorBrewer)
 library(rgeos)
 
 ####################
+# set directories
+dir_M <- c('Windows' = '//mazu.nceas.ucsb.edu/ohi',
+           'Darwin'  = '/Volumes/ohi',    ### connect (cmd-K) to smb://mazu/ohi
+           'Linux'   = '/home/shares/ohi')[[ Sys.info()[['sysname']] ]]
+if (Sys.info()[['sysname']] != 'Linux' & !file.exists(dir_M)){
+  warning(sprintf("The Mazu directory dir_M set in src/R/common.R does not exist. Do you need to mount Mazu: %s?", dir_M))
+}
+
+####################
 # uses leaflet and htmlwidgets to save html file
-region_poly <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions', 
-                     layer="allRegions")
+region_poly <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions',
+                       layer="allRegions")
+# region_poly <- readOGR(dsn=file.path(dir_M, 'git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions'),                        
+#                        layer="allRegions")
+
+
 region_poly_data <- read.csv('assets/maps/regions_shape.csv')
 
 ## This is run in case there are polygons in the shapefile that are no longer included:
@@ -37,10 +50,7 @@ region_poly@data <- region_poly@data %>%
   left_join(colors, by="phase")
 
 popup_poly <- paste0('<b>', region_poly@data$display, '</b>',
-                 '<br/>', "status: ", region_poly@data$phase) # use this for new line: , "<br/>")
-# myPalette <- colorRampPalette(brewer.pal(11, "Spectral"))
-# myPalette <- colorRampPalette(c("#9E0142", "#D53E4F", "#F46D43", "#FDAE61", "#3288BD", "#5E4FA2"))
-# myPalette <- topo.colors(nrow(regionAll@data), alpha=NULL)
+                 '<br/>', "status: ", region_poly@data$phase) 
 
 ## The data we want to display as points:
 points <- read.csv("assets/maps/regions_point.csv")
@@ -52,11 +62,7 @@ popup_points <- paste0('<b>', points$display, '</b>',
 icon_new <- makeIcon(
   iconUrl = "http://maps.google.com/mapfiles/ms/micons/blue-dot.png",
   iconWidth = 25, iconHeight = 27,
-  iconAnchorX = 15, iconAnchorY =27
-#   shadowUrl = "http://leafletjs.com/docs/images/leaf-shadow.png",
-#   shadowWidth = 50, shadowHeight = 64,
-#   shadowAnchorX = 4, shadowAnchorY = 62
-)
+  iconAnchorX = 15, iconAnchorY =27)
 
 m <- leaflet(width="100%", height="600px") %>%
   setView(-30, 30, 2) %>%
@@ -77,7 +83,18 @@ m <- leaflet(width="100%", height="600px") %>%
   addMarkers(data=points, ~lon, ~lat, popup = ~as.character(popup_points), icon=icon_new)
 saveWidget(m, file="allRegions.html", selfcontained=FALSE)
 
-### move the files to the correct places
-# file.copy("allRegions.html", to, overwrite = recursive, recursive = FALSE,
-#           copy.mode = TRUE, copy.date = FALSE)
+### move allRegions.html to the correct place in _includes subdirectory
+unlink("_includes/themes/OHI/maps/allRegions.html", recursive=TRUE)
+file.rename(from="allRegions.html", to="_includes/themes/OHI/maps/allRegions.html")
+unlink("allRegions.html")
+
+
+### move allRegions_files folder to the correct place in /projects
+### although this seems overkill, the map won't display if these packages have been updated and there's a mismatch; see https://github.com/OHI-Science/issues/issues/625
+unlink("projects/allRegions_files", recursive=TRUE) # delete old folder
+warning('Now move `/allRegions_files` to `/projects/allRegions_files`!')
+warning('Seriously, did you move `/allRegions_files` to `/projects/allRegions_files`!?')
+# we should script this someday but actually a pain to loop through subdirectories and copy
+
+
 

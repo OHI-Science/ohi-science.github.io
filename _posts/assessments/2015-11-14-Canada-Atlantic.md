@@ -1,9 +1,9 @@
 ---
 layout: assessment
-title: "Canada - Atlantic"
+title: "Canada-Atlantic"
 category : assessment
 excerpt_separator: <!--more-->
-tags : [North America]
+tags : [OHI+, North America]
 ---
 
 **Status**: Active  

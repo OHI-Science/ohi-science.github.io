@@ -1,6 +1,6 @@
 ---
 layout: assessment
-title: "Spain - Bay of Biscay"
+title: "Spain-Bay of Biscay"
 excerpt_separator: <!--more-->
 category : assessment
 tags : [Europe, OHI+]

@@ -10,7 +10,15 @@
 <section class="posts-list">	
 	{% for post in newsPosts %}
 		
-		{% if post.hidden or forloop.index > maxPosts %}
+		{% if paginator.page != null %}
+			{% assign lastPostNum = paginator.page | times: maxPosts %} 
+			{% assign lastPageNum = paginator.page | minus: 1 %}
+			{% assign firstPostNum = lastPageNum | times: maxPosts %}
+						
+			{% if forloop.index < firstPostNum or forloop.index > lastPostNum or post.hidden %}
+				{% continue %}
+			{% endif %}  
+		{% elsif post.hidden or forloop.index > maxPosts %}
 			{% continue %}
 		{% endif %}
 		
@@ -27,6 +35,6 @@
 	
 </section>
 
-{% if newsPosts.size > site.paginate %}
-	<a class="right btn" href="/archives/page2">Older posts <i class="lnr lnr-chevron-right icon"></i></a> 
+{% if newsPosts.size > site.paginate and paginator.page == null %}
+  <a class="right btn" href="/archives/page2">Older posts <i class="lnr lnr-chevron-right icon"></i></a> 
 {% endif %}

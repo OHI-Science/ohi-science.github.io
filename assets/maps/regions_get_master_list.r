@@ -8,6 +8,7 @@
 #### setup ----
 library(googlesheets) # install.packages('googlesheets') # by Jenny Bryan
 library(dplyr)
+library(readr)
 
 ## authorize googledocs -- requires user interaction with default browser
 gs_auth(new_user = TRUE) 
@@ -18,6 +19,9 @@ master_list <-  googlesheets::gs_title('OHI_CountriesMaster') %>%
   googlesheets::gs_read()   
 head(master_list)
 
+### archive copy of the Google Sheet in PRIVATE ohidev repo (not here); will need to push that repo too. 
+write.csv(master_list, 
+          paste0('~/github/ohidev/OHI_CountriesMaster/OHI_CountriesMaster_', Sys.Date(), '.csv'))
 
 #### parse information for display ----
 ## to be displayed, `display` column must have either 'point' or 'shapefile'
@@ -25,6 +29,7 @@ head(master_list)
 
 display_list <- master_list %>%
   select(country     = Country, 
+         ohi_plus    = OHI_plus,
          phase       = Phase,
          map_display = Map_Display,
          display     = Display,
@@ -32,6 +37,18 @@ display_list <- master_list %>%
          lon         = Longitude) %>%
   filter(!is.na(display)) # remove rows that don't have point/shapefile
 # tail(display_list)
+
+## count number of active and completed OHI+ countries and
+n_ohi_plus <- display_list %>%
+  filter(ohi_plus == 'YES')
+
+n_ohi_plus_active <- n_ohi_plus %>%
+  filter(phase == 'active')
+
+cat(sprintf('Total count of OHI+ assessments is %s!', dim(n_ohi_plus)[1]))
+cat(sprintf('And %s are active, %s are completed.', 
+            dim(n_ohi_plus_active)[1], 
+            dim(n_ohi_plus)[1]- dim(n_ohi_plus_active)[1]))
 
 
 ## filter shapefiles to display
@@ -48,6 +65,12 @@ if(length(setdiff(display_shp$country, old$country))>0){
 ## filter point data to display
 display_pt <-  display_list %>%
   filter(map_display == 'point')
+
+# error if not all fields have lat/lon data. See https://github.com/OHI-Science/issues/issues/625#issuecomment-217511758
+if (NA %in% display_pt$lat | NA %in% display_pt$lon){
+  stop(sprintf('Missing lat or lon field for region to be displayed. Must fix or will not map proplerly.\n'))
+}
+
 
 old <- read.csv("assets/maps/regions_point.csv")
 if(length(setdiff(display_pt$country, old$country))>0){

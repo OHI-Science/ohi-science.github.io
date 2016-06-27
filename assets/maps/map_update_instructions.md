@@ -4,10 +4,16 @@
 ### STEP 2: regions_get_master_list.R 
 This reads in the OHI_CountriesMaster Google document and saves the data into two csv files that reflect differences in how the data will be displayed (polygons vs points).
 
-### STEP 3: createShpFile.R
-If any of the countries being displayed using polygons have changed, it will be necessary to walk through this script and update the map that combines the polygons for all the regions.
+### STEP 3: AddPolys_to_basemap.R
+Follow this general script to update the Basemap with new region polygons. This does not need to be run if there are no updates to the polygon features on the map.
 
-NOTE: if you just need to add a polygon without changing any of the existing polygons then skip to "Adding new layers" section below (that way you don't have to go through the slow process of recreating the basemap).  And follow the general instructions.
+To redo the basemap, run createBaseMap.R
 
 ### STEP 4: createLeafletMap.R
 The shapefile and point data are added in two separate steps.
+
+Two things are created when this script is run, and need to be moved to the correct places. 
+
+- allRegions.html         -> move to `_includes/themes/OHI/maps` (scripted)
+- allRegions_files folder -> move to `/projects` (BY HAND!) (do this each time; if libraries get out of sync then the map will not display). 
+
