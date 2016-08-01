@@ -8,9 +8,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 
 
 <title>The Ocean Health Index Conduct Phase</title>
+
+
 
 
 
@@ -22,9 +26,9 @@
 
 
 
-<div id="header">
-<h1 class="title">The Ocean Health Index Conduct Phase</h1>
-</div>
+
+<h1 class="title toc-ignore">The Ocean Health Index Conduct Phase</h1>
+
 
 <div id="TOC">
 <ul>
@@ -108,15 +112,16 @@
 <li><a href="#combine-status-and-trend-scores"><span class="toc-section-number">6.3.5</span> Combine Status and Trend Scores</a></li>
 <li><a href="#update-goal-call-in-goals.csv"><span class="toc-section-number">6.3.6</span> Update goal call in <code>goals.csv</code></a></li>
 </ul></li>
-<li><a href="#modifying-pressures-matrices"><span class="toc-section-number">6.4</span> Modifying pressures matrices</a><ul>
+<li><a href="#modifying-pressures-categories-and-matrix"><span class="toc-section-number">6.4</span> Modifying Pressures Categories and Matrix</a><ul>
 <li><a href="#create-the-new-pressure-layers-and-save-in-the-layers-folder"><span class="toc-section-number">6.4.1</span> Create the new pressure layers and save in the <code>layers</code> folder</a></li>
 <li><a href="#register-the-new-pressure-layers-in-layers.csv"><span class="toc-section-number">6.4.2</span> Register the new pressure layers in <code>layers.csv</code></a></li>
 <li><a href="#register-the-new-layers-in-pressure_matrix.csv"><span class="toc-section-number">6.4.3</span> Register the new layers in <code>pressure_matrix.csv</code></a></li>
 </ul></li>
-<li><a href="#modify-the-resilience-matrix-if-necessary"><span class="toc-section-number">6.5</span> Modify the resilience matrix (if necessary)</a><ul>
-<li><a href="#updating-resilience-matrix-with-local-habitat-information"><span class="toc-section-number">6.5.1</span> Updating resilience matrix with local habitat information</a></li>
-<li><a href="#global-resilience-layers"><span class="toc-section-number">6.5.2</span> Global resilience layers</a></li>
-<li><a href="#determining-how-to-modify-these-resilience-layers"><span class="toc-section-number">6.5.3</span> Determining how to modify these resilience layers</a></li>
+<li><a href="#modify-resilience-categories-and-matrix"><span class="toc-section-number">6.5</span> Modify Resilience Categories and Matrix</a><ul>
+<li><a href="#steps-involved-in-modifying-resilience-information"><span class="toc-section-number">6.5.1</span> Steps involved in modifying resilience information</a></li>
+<li><a href="#understanding-resilience-categories"><span class="toc-section-number">6.5.2</span> Understanding resilience Categories</a></li>
+<li><a href="#understanding-resilience-matrix"><span class="toc-section-number">6.5.3</span> Understanding resilience Matrix</a></li>
+<li><a href="#how-to-modify-config.r"><span class="toc-section-number">6.5.4</span> How to modify Config.R</a></li>
 </ul></li>
 <li><a href="#modifying-the-pressures-matrix-for-goals-with-categories"><span class="toc-section-number">6.6</span> Modifying the pressures matrix for goals with categories</a><ul>
 <li><a href="#background"><span class="toc-section-number">6.6.1</span> Background</a></li>
@@ -127,9 +132,6 @@
 <li><a href="#calculate-overall-ohi-index-scores"><span class="toc-section-number">6.8</span> Calculate overall OHI Index Scores</a><ul>
 <li><a href="#additional-data-layers-for-pressures-and-resilience-calculations"><span class="toc-section-number">6.8.1</span> Additional data layers for pressures and resilience calculations</a></li>
 <li><a href="#final-calculation"><span class="toc-section-number">6.8.2</span> Final calculation</a></li>
-</ul></li>
-<li><a href="#other-example-modifications"><span class="toc-section-number">6.9</span> Other example modifications</a><ul>
-<li><a href="#preparing-the-fisheries-sub-goal"><span class="toc-section-number">6.9.1</span> Preparing the fisheries sub-goal</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#toolbox-troubleshooting"><span class="toc-section-number">7</span> Toolbox Troubleshooting</a><ul>
@@ -213,7 +215,9 @@
 <p>This manual should be used in conjuction with our other web materials, including <a href="http://ohi-science.org/new-site/phases/">Four Phases of OHI+</a>, <a href="http://ohi-science.org/new-site/resources/downloads/">Presentations</a>, and our community <a href="http://ohi-science.org/new-site/forum/">Forum</a>.</p>
 <p><font size = "2"></p>
 <p><em><strong>Citation</strong></em>: Ocean Health Index. 2016. Ocean Health Index Assessment Manual. National Center for Ecological Analysis and Synthesis, University of California, Santa Barbara. <em>Available at: ohi-science.org/manual</em></p>
-<p><em><strong>Download PDF version</strong></em>: <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/3_conduct_manual.pdf" class="uri">https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/3_conduct_manual.pdf</a></p>
+<p><em><strong>Download PDF version</strong></em>: <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/ohi-manual.pdf" class="uri">https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/ohi-manual.pdf</a></p>
+<p><em>NOTE: If you are conducting an OHI+ assessment and/or have downloaded the OHI repository prior to 2016, please cite:</em></p>
+<p>Ocean Health Index. 2015. Ocean Health Index Toolbox Manual [date]. National Center for Ecological Analysis and Synthesis, University of California, Santa Barbara. Available at: <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/master/assets/downloads/other/ohi-manual-2015.pdf" class="uri">https://github.com/OHI-Science/ohi-science.github.io/raw/master/assets/downloads/other/ohi-manual-2015.pdf</a></p>
 <p></font></p>
 <div id="introduction" class="section level1">
 <h1><span class="header-section-number">1</span> Introduction</h1>
@@ -221,7 +225,7 @@
 <h2><span class="header-section-number">1.1</span> Where you are in the OHI+ process</h2>
 <p>The OHI+ process consists of four phases. In the first phase, you <strong>learned</strong> about the OHI to understand the philosophy behind the goals and the motivation for conducting a study. In the second phase, you actively <strong>planned</strong> to conduct your OHI+ assessment. Now you will actively <strong>conduct</strong> the assessment by engaging with the work of finding the data, preparing the goal models, and taking the necessary steps to learn how to use the <strong>OHI Toolbox</strong> and related software to produce the final results. This is where the science of data discovery and goal model development comes in. In the final phase, you will <strong>communicate</strong> the findings and results of your assessment with others.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=700&amp;h=600" />
+<img src="https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=700&amp;h=600" alt="" />
 
 </div>
 <p><strong>The OHI framework</strong> allows you to synthesize the information and priorities relevant to your local context and produce comparable scores. Because the methods of the framework are repeatable, transparent, quantitative, and goal-driven, the process of a carrying out an OHI+ assessment is as valuable as the final results.</p>
@@ -311,7 +315,8 @@ There are many decisions to be made when searching for and gathering data, and s
 <p>Regions must be unique (non-overlapping), and boundaries must be drawn offshore, extending to the exclusive economic zone (EEZ) edge in most cases. Offshore boundaries should be made with spatial methods in order to extend boundaries from those designated on land. One possible method is to create boundaries with Thiessen Polygons, and we provide a Python script that can be used, but it requires ArcGIS. The Python script and further details can be found at <a href="http://ohi-science.org/pages/create_regions.html" class="uri">http://ohi-science.org/pages/create_regions.html</a>. Using Thiessen Polygons, offshore boundaries are created with the following steps.</p>
 <ol style="list-style-type: decimal">
 <li>Start with land-based boundaries</li>
-<li>Draw offshore buffers for each region<br /></li>
+<li>Draw offshore buffers for each region<br />
+</li>
 <li>But the buffers overlap</li>
 <li>For the Thiessen Polygon approach, the overlap is divided</li>
 <li>To produce the borders between the regions <img src="https://docs.google.com/drawings/d/17qXZ8Ah6WPYhP1_RQOsIA5gHBNlP8mGAFcDIxkizM58/pub?w=960&amp;h=720" alt="image" /></li>
@@ -407,7 +412,7 @@ So I am guessing that is all that is really needed.--->
 <p>You should begin by understanding and comparing the best approaches used in assessments that have been completed, including the global assessments (Halpern <em>et al</em>, 2012; 2013), Brazil (Elfes <em>et al</em>. 2014), Fiji (Selig <em>et al</em>., 2014), and the U.S. West Coast Assessment (Halpern <em>et al</em>., 2014). For OHI+ assessments, if finer-resolution local data were available in the study area, these data were either incorporated into modified goal models that used locally appropriate and informed approaches or into the existing global goal model. When local data were not available, the global-scale data and global goal models were used, which is least desirable because it does not provide more information than the global study.</p>
 <p>When looking for data, the following decision tree may be useful when going goal-by-goal for discovering data and developing models:</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1bJ3lk0stX78YM_VVR8VDAmdVUcMv4riSZk-0L2x8ybw/pub?w=700&amp;h=500" />
+<img src="https://docs.google.com/drawings/d/1bJ3lk0stX78YM_VVR8VDAmdVUcMv4riSZk-0L2x8ybw/pub?w=700&amp;h=500" alt="" />
 
 </div>
 </div>
@@ -444,7 +449,7 @@ So I am guessing that is all that is really needed.--->
 <p>In addition to <code>pre-proc</code>, a <code>prep</code> folder has been set up for data formatting. Inside the folder: - several sub-folders exist to house formatted data files for each goal/sub-goal - <code>prep.r</code> is where formatting occurs for each goal/sub-goal. - <code>README</code> is where you can record information on raw data files and processing for future reference</p>
 <p><strong>Example of data in the appropriate format:</strong></p>
 <div class="figure">
-<img src="fig/formatting_data_example.png" />
+<img src="fig/formatting_data_example.png" alt="" />
 
 </div>
 </div>
@@ -457,7 +462,7 @@ So I am guessing that is all that is really needed.--->
 <h4><span class="header-section-number">3.5.3.1</span> Temporal gapfilling</h4>
 <p>Temporal gaps occur when a region is missing data for some years. The Toolbox requires data for each year for every region. It is important to make an informed decision about how to temporally gapfill data.</p>
 <div class="figure">
-<img src="fig/temporal_gaps.png" />
+<img src="fig/temporal_gaps.png" alt="" />
 
 </div>
 <p>Often, regression models are the best way to estimate data and fill temporal gaps. Here we give an example that assumes a linear relationship between the year and value variables within a region. If data do not fit a linear framework, other models may be fit to help with gapfilling. Here we give an example assuming linearity.</p>
@@ -467,19 +472,19 @@ So I am guessing that is all that is really needed.--->
 <p><strong>1. Calculate the slope for each region</strong></p>
 <p>The first step is to calculate the slope of the line that is fitted through the available data points. This can be done in Excel using the <strong>SLOPE(known_y’s,known_x’s)</strong> function as highlighted in the figure below. In this case, the x-axis is <em>years</em> (2005, 2006, etc…), the y-axis is <em>count</em>, and the Excel function automatically plots and fits a line through the known values (177.14 in 2005, 212.99 in 2008, and 228.81 in 2009), and subsequently calculates the slope (12.69).</p>
 <div class="figure">
-<img src="fig/filling_temporal_gaps_slope.png" />
+<img src="fig/filling_temporal_gaps_slope.png" alt="" />
 
 </div>
 <p><strong>2. Calculate the y-intercept for each region</strong></p>
 <p>The next step is to calculate the intercept of the line that is fitted through the available data points. This can be done in Excel similarly as for the slope calculation, using the the <strong>INTERCEPT(known_y’s,known_x’s)</strong> function that calculates the y-intercept (-25273.89) of the fitted line.</p>
 <div class="figure">
-<img src="fig/filling_temporal_gaps_intercept.png" />
+<img src="fig/filling_temporal_gaps_intercept.png" alt="" />
 
 </div>
 <p><strong>3. Calculate y for all years</strong></p>
 <p>The slope and y-intercept that were calculated in steps 1 and 2 can then be used along with the year (independent variable) to calculate the unknown ‘y-values’. To do so, simply replace the known three values into the <strong>y = mx + b</strong> equation (m=slope, x=year, b=intercept), to calculate the unknown ‘count’ for a given year (189.39 in 2006, and 202.08 in 2007).</p>
 <div class="figure">
-<img src="fig/filling_temporal_gaps_value.png" />
+<img src="fig/filling_temporal_gaps_value.png" alt="" />
 
 </div>
 <p><strong>4. Replace modeled values into original data where gaps had occurred</strong></p>
@@ -489,7 +494,7 @@ So I am guessing that is all that is really needed.--->
 <h4><span class="header-section-number">3.5.3.2</span> Spatial gapfilling</h4>
 <p>Spatial gaps are when no data are available for a particular region. The Toolbox requires data for each region. It is important to make an informed decision about how to spatially gapfilling data.</p>
 <div class="figure">
-<img src="fig/gapfilling_spatial.png" />
+<img src="fig/gapfilling_spatial.png" alt="" />
 
 </div>
 <p>To fill gaps spatially, you must assume that one region is like another, and data from another region is adequate to be substituted in place of the missing data. This will depend on the type of data and the properties of the regions requiring gapfilling. For example, if a region is missing data but has similar properties to a different region that does have data, the missing data could be ‘borrowed’ from the region with information. Each data layer can be gapfilled using a different approach when necessary.</p>
@@ -518,7 +523,7 @@ So I am guessing that is all that is really needed.--->
 </ul>
 <p>Suppose the decision was made to gapfill <em>rgn_id 2</em> using the mean of <em>rgn_id 1</em> and <em>3</em> since this would use a combination of both of those regions. Again, other possibilities could be equally correct. But some form of spatial gapfilling is required so a decision must be made. The image below illustrates this in Excel.</p>
 <div class="figure">
-<img src="fig/gapfilling_spatial_example.png" />
+<img src="fig/gapfilling_spatial_example.png" alt="" />
 
 </div>
 <p>The data layer is now ready for the Toolbox, gapfilled and in the appropriate format.</p>
@@ -529,7 +534,7 @@ So I am guessing that is all that is really needed.--->
 <p>The Toolbox expects data to be in ‘long’ or ‘narrow’ format. Below are examples of correct and incorrect formatting, and tips on how to transform data into the appropriate format.</p>
 <p><strong>Example of data in an incorrect format:</strong></p>
 <div class="figure">
-<img src="fig/formatting_long_example.png" />
+<img src="fig/formatting_long_example.png" alt="" />
 
 </div>
 <p>With ‘wide’ format, data layers are more difficult to combine with others and more difficult to read and to analyze.</p>
@@ -543,14 +548,14 @@ So I am guessing that is all that is really needed.--->
 <!-- Change the example to gather:  -->
 <p>Example code using the <em>melt</em> command in the <em>reshape2</em> library. Assume the data above is in a variable called <em>data_wide</em>:</p>
 <div class="figure">
-<img src="fig/melt_code.png" />
+<img src="fig/melt_code.png" alt="" />
 
 </div>
 <p>This will melt everything except any identified columns (<em>Region</em> and <em>DataLayer</em>), and put all other column headers into a new column named <em>Year</em>. Data values will then be found in a new column called <em>value</em>.</p>
 <p>The final step is optional: ordering the data will make it easier for humans to read (R and the Toolbox can read these data without this final step):</p>
 <p><strong>Example of data in the appropriate (long) format:</strong></p>
 <div class="figure">
-<img src="fig/formatting_long_example_2.png" />
+<img src="fig/formatting_long_example_2.png" alt="" />
 
 </div>
 </div>
@@ -571,7 +576,7 @@ So I am guessing that is all that is really needed.--->
 <h1><span class="header-section-number">4</span> The Ocean Health Index Toolbox</h1>
 <p><strong>The OHI Toolbox</strong> is an ecosystem of small files and scripts that are the tools needed to calculate OHI scores. These files and scripts are stored in two Github ‘<em>repositories</em>’: folders that are synchronized with collaborators. The first repository is your <strong>tailored repository</strong> identified by a three-letter code, such as <em>esp</em> for Spain or <em>ecu</em> for Ecuador. You will edit this repository with your data, goal models, and updated pressures and resilience matrix tables. The second repository is called <strong>ohicore</strong> and it contains core functions for combining your data and goal models to calculate OHI scores. You will not edit <code>ohicore</code>, but you are able to explore it to understand the calculations.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=768&amp;h=192" />
+<img src="https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=768&amp;h=192" alt="" />
 
 </div>
 <div id="obtaining-a-tailored-repository" class="section level2">
@@ -592,7 +597,7 @@ So I am guessing that is all that is really needed.--->
 <h3><span class="header-section-number">4.3.1</span> Main folders within your tailored repository</h3>
 <p>The <strong>scenario folder</strong> is the most important folder within the repository; by default it is named <code>subcountry2014</code> to indicate that the assessment is conducted at the subcountry scale (province, state, district, etc.), based on input layers and goal models used in the 2014 global assessment. It contains all of the inputs needed to calculate OHI scores, and you will modify these inputs when conducting your assessment. The scenario folder is explained in detail in this section. <!-- * All other files in the assessment repository are accessory files. Files with names beginning with a ‘.’ are required for versioning capabilities by GitHub and do not appear when the assessment repository is viewed on your computer. --></p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1eHViTehnAuxSDw1fYI54C3X5YgBktGtaVt71R3OXYeE/pub?w=600&amp;h=500" />
+<img src="https://docs.google.com/drawings/d/1eHViTehnAuxSDw1fYI54C3X5YgBktGtaVt71R3OXYeE/pub?w=600&amp;h=500" alt="" />
 
 </div>
 <div class="figure">
@@ -603,7 +608,7 @@ So I am guessing that is all that is really needed.--->
 <p>Once you complete your assessment with the <code>subcountry2014</code> (or equivalent) scenario, further assessments can be done simply by copying the <code>subcountry2014</code> folder and renaming it. This can be done for future assessments, for example <code>subcountry2016</code> or <code>subcountry2018</code>, which eventually would enable you to track changes in ocean health over time. You can also copy scenario folders to explore different policy and management scenarios, for example <code>subcountry2014_policy1</code>.</p>
 <p>This figure illustrates the files contained within the assessment repository’s <code>subcountry2014</code> scenario folder, and in which step of the Toolbox workflow they are associated with. Important files are either <em>.csv</em> text files or <em>.R</em> script files. Files are organized into different folders within the <code>subcountry2014</code> folder, and you will modify some of these files while leaving others as they are.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1zHe1Gp2L7xN04w3NO_uQvOrl47Ug_oogyj2E338J90U/pub?w=1150" />
+<img src="https://docs.google.com/drawings/d/1zHe1Gp2L7xN04w3NO_uQvOrl47Ug_oogyj2E338J90U/pub?w=1150" alt="" />
 
 </div>
 <p>The <strong>conf</strong> folder within the <code>subcountry2015</code> scenario folder, the <code>conf</code> folder includes important configuration files required to calculate OHI scores. Most of the maneuvering in this phase is done within this folder. There are both <em>.R</em> scripts (<code>config.R</code> and <code>functions.R</code>) and <em>.csv</em> files (<code>goals.csv</code>, <code>pressures_matrix.csv</code>, <code>resilience_matrix.csv</code>, and <code>resilience_weights.csv</code>), which will be introduced individually in the next section.</p>
@@ -837,7 +842,7 @@ This section explains the GitHub workflow and how to access and setup required s
 </ol>
 <blockquote>
 <div class="figure">
-<img src="fig/overview_requirements_1.png" />
+<img src="fig/overview_requirements_1.png" alt="" />
 
 </div>
 </blockquote>
@@ -859,7 +864,7 @@ This section explains the GitHub workflow and how to access and setup required s
 </blockquote>
 <p>The example below illustrates GitHub’s collaborative workflow:</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1_LegC8-1eH7Ed_0iIXcUhPCKPdKSw7vQIfuQGOXQHnA/pub?w=768&amp;h=480" />
+<img src="https://docs.google.com/drawings/d/1_LegC8-1eH7Ed_0iIXcUhPCKPdKSw7vQIfuQGOXQHnA/pub?w=768&amp;h=480" alt="" />
 
 </div>
 <p>There are also many great resources available online with more in-depth information:</p>
@@ -883,7 +888,7 @@ This section explains the GitHub workflow and how to access and setup required s
 <p>RStudio can sync files with Github directly. It will capture the changes made to any files within the repository, no matter which software was used to modify them. In RStudio, you sync by first pulling and then pushing (separately).</p>
 <p>Launch your project in RStudio by double-clicking the <code>.Rproj</code> file in the assessment folder on your local hard drive.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/11F2lbB1S56ccZK5CbCxga4SEiRoE6E0-3QtZO99p37A/pub?w=500&amp;h=400" />
+<img src="https://docs.google.com/drawings/d/11F2lbB1S56ccZK5CbCxga4SEiRoE6E0-3QtZO99p37A/pub?w=500&amp;h=400" alt="" />
 
 </div>
 <p>When you modify or add a file, the file will appear in the ‘Git’ window once it has been saved. In the example below, the file <code>test.R</code> was created.</p>
@@ -945,7 +950,7 @@ This section explains the GitHub workflow and how to access and setup required s
 <p>You can create a GitHub account at <a href="http://github.com" class="uri">http://github.com</a>. Choose a username and password. You will use this username and password when you install and set up <em>git</em> on your computer.</p>
 <div id="install-git-software" class="section level3">
 <h3><span class="header-section-number">5.1.1</span> Install <em>git</em> software</h3>
-<p><strong>git</strong> is available for download at <a href="https://git-scm.com/downloads"><a href="https://git-scm.com/downloads" class="uri">https://git-scm.com/downloads</a></a>. How you install <em>git</em> will depend on whether you are working on a Windows or Mac computer. It will also depend on your operating system version. If you have problems following these instructions, it is likely because your operating system requires a previous version of <em>git</em>. Previous versions are available from <a href="http://www.wandisco.com/git/download" class="uri">http://www.wandisco.com/git/download</a> (you will need to provide your email address).</p>
+<p><strong>git</strong> is available for download at <a href="https://git-scm.com/downloads" class="uri">https://git-scm.com/downloads</a>. How you install <em>git</em> will depend on whether you are working on a Windows or Mac computer. It will also depend on your operating system version. If you have problems following these instructions, it is likely because your operating system requires a previous version of <em>git</em>. Previous versions are available from <a href="http://www.wandisco.com/git/download" class="uri">http://www.wandisco.com/git/download</a> (you will need to provide your email address).</p>
 <p><strong>For Windows:</strong></p>
 <ul>
 <li><p>Download <em>git</em> at <a href="http://git-scm.com/downloads" class="uri">http://git-scm.com/downloads</a> and follow the install instructions.</p></li>
@@ -953,7 +958,7 @@ This section explains the GitHub workflow and how to access and setup required s
 </ul>
 <blockquote>
 <div class="figure">
-<img src="fig/git_install_win_option.png" />
+<img src="fig/git_install_win_option.png" alt="" />
 
 </div>
 </blockquote>
@@ -968,7 +973,7 @@ This section explains the GitHub workflow and how to access and setup required s
 <p>You are now able to edit your ‘bash profile’ and your screen will change; it will look like this:</p>
 <blockquote>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1TfDXXGrIptvQKX1W5Ym3S4Se2U5a_g8x31Z4ct0-HVQ/pub?w=576&amp;h=384" />
+<img src="https://docs.google.com/drawings/d/1TfDXXGrIptvQKX1W5Ym3S4Se2U5a_g8x31Z4ct0-HVQ/pub?w=576&amp;h=384" alt="" />
 
 </div>
 </blockquote>
@@ -976,13 +981,15 @@ This section explains the GitHub workflow and how to access and setup required s
 <pre><code>export PATH=/usr/local/git/bin:$PATH</code></pre>
 <p>Exit pico by entering:</p>
 <blockquote>
-<p>control-X<br />y<br />return/enter</p>
+<p>control-X<br />
+y<br />
+return/enter</p>
 </blockquote>
 <p>Exit Terminal by typing:</p>
 <pre><code>exit</code></pre>
 <p>Finally, quit Terminal.</p>
 <div class="figure">
-<img src="fig/terminal_pico.png" />
+<img src="fig/terminal_pico.png" alt="" />
 
 </div>
 </div>
@@ -1032,8 +1039,8 @@ There are several options to clone your repository to your local machine. When g
 <div id="download-r-and-rstudio" class="section level2">
 <h2><span class="header-section-number">5.2</span> Download R and RStudio</h2>
 <p>You can download R, and RStudio for free from their perspective websites and install the latest versions allowed by your operating system on your computer:</p>
-<p><strong>R</strong>: <a href="http://cran.r-project.org/"><a href="http://cran.r-project.org/" class="uri">http://cran.r-project.org/</a></a></p>
-<p><strong>RStudio</strong>: <a href="https://www.rstudio.com/"><a href="https://www.rstudio.com/" class="uri">https://www.rstudio.com/</a></a></p>
+<p><strong>R</strong>: <a href="http://cran.r-project.org/" class="uri">http://cran.r-project.org/</a></p>
+<p><strong>RStudio</strong>: <a href="https://www.rstudio.com/" class="uri">https://www.rstudio.com/</a></p>
 <p><strong>R and RStudio update frequently</strong>. If you already have those softwares installed, check on the websites for the most recent version. In general, it’s good practice to check periodically for updates. When you run into unexplained errors while modifying contents in RStudio, check first if your versions of R or Rstudio are out-of-date. For R, you can see what you already have on your computer by typing “sessionInfo( )” into your R console.</p>
 <p><strong>If you are working on a <em>Mac</em>,</strong> you will need to tell RStudio to use the proper version of Git by doing the updating the preferences for ‘Git executable’:</p>
 <p><strong>RStudio &gt; Preferences… &gt; Git/SVN &gt; Git executable: /usr/local/git/bin/git</strong></p>
@@ -1298,8 +1305,8 @@ similar to status, trend scores need to be properly formatted to match the rest 
 now we’ve successfully calculated status and trend, the last thing we need to do is combine them into one table called scores. we combine r.status and r.trend by first binding by rows (rbind). -->
 </div>
 </div>
-<div id="modifying-pressures-matrices" class="section level2">
-<h2><span class="header-section-number">6.4</span> Modifying pressures matrices</h2>
+<div id="modifying-pressures-categories-and-matrix" class="section level2">
+<h2><span class="header-section-number">6.4</span> Modifying Pressures Categories and Matrix</h2>
 <p>Your team will identify if any pressures layers should be added to the pressures matrices, and if so, which goals the pressure affects and what weight they should have (see Appendix 6 for guidance on Pressure and Resilience). You can transfer this information in <code>pressures_matrix.csv</code> (located in the <code>[assessment]/subcountry2014/conf</code> folder). It is important to note that the matrix identifies the pressures relevant to each goal, and which weight will be applied in the calculation. Each pressure is a data layer, located in the <code>subcountry2014/layers</code> folder. This means that pressure layers need information for each region in the study area, and some layers will need to be updated with local data. In modifying pressures, you will need to consider whether data layers can be updated or added, and whether data layers map onto goals appropriately in the local context.</p>
 <p>Adding a new pressure to the pressures matrix requires the following steps:</p>
 <blockquote>
@@ -1310,7 +1317,8 @@ now we’ve successfully calculated status and trend, the last thing we need to 
 </ol>
 <ul>
 <li><ol style="list-style-type: lower-alpha">
-<li>Set the pressure category<br /></li>
+<li>Set the pressure category<br />
+</li>
 </ol></li>
 <li><ol start="2" style="list-style-type: lower-alpha">
 <li>Identify the goals affected and set the weighting</li>
@@ -1319,6 +1327,9 @@ now we’ve successfully calculated status and trend, the last thing we need to 
 <li>Modify the resilience matrix (if necessary)</li>
 </ol></li>
 </ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Modify Config.R for goals that have elements</li>
+</ol>
 </blockquote>
 <p>The following is an example of adding two new pressures layers.</p>
 <div id="create-the-new-pressure-layers-and-save-in-the-layers-folder" class="section level3">
@@ -1340,7 +1351,7 @@ now we’ve successfully calculated status and trend, the last thing we need to 
 <h3><span class="header-section-number">6.4.2</span> Register the new pressure layers in <code>layers.csv</code></h3>
 <p>Add two new rows in <code>layers.csv</code>, and register the new pressure layers by filling out the first eight columns for <em>po_desal_in</em>, and <em>po_desal_out</em>.</p>
 <div class="figure">
-<img src="fig/register_pressure.png" />
+<img src="fig/register_pressure.png" alt="" />
 
 </div>
 </div>
@@ -1354,189 +1365,138 @@ now we’ve successfully calculated status and trend, the last thing we need to 
 <div id="identify-the-goals-affected-and-set-the-weighting" class="section level4">
 <h4><span class="header-section-number">6.4.3.2</span> Identify the goals affected and set the weighting</h4>
 <p>This step also requires transferring prior decisions into <code>pressures_matrix.csv</code>. Mark which goals are affected by this new pressure, and then set the weighting. Pressures weighting by goal should be based on scientific literature and expert opinion (3 = highly influential pressure, 2 = moderately influential pressure, 1 = not very influential pressure). Remember that the rankings in the pressures matrix are separate from the actual data within the pressures data layers. The rankings ensure that within a particular goal (e.g. within a row of the pressures matrix), the stressors that more strongly influence the goal’s delivery have a larger contribution to that goal’s overall pressure score. Therefore, the rankings are assigned independently of the actual pressure scores, and only determine their importance within the calculations.</p>
+</div>
+<div id="modify-config.r" class="section level4">
+<h4><span class="header-section-number">6.4.3.3</span> Modify Config.R</h4>
 <div class="figure">
-<img src="fig/register_new_pressures.png" />
+<img src="https://cloud.githubusercontent.com/assets/5685517/15717970/233025f8-27de-11e6-9ac6-a96d4e16483d.png" alt="Pressure Matrix" />
+<p class="caption">Pressure Matrix</p>
+</div>
+<div class="figure">
+<img src="https://cloud.githubusercontent.com/assets/5685517/15717944/045e03d4-27de-11e6-9968-f4bf83cb1168.png" alt="config.R" />
+<p class="caption">config.R</p>
+</div>
+<div class="figure">
+<img src="fig/register_new_pressures.png" alt="" />
 
 </div>
 </div>
 </div>
 </div>
-<div id="modify-the-resilience-matrix-if-necessary" class="section level2">
-<h2><span class="header-section-number">6.5</span> Modify the resilience matrix (if necessary)</h2>
-<p>Resilience is included in OHI as the sum of the ecological factors and social initiatives (policies, laws, etc.) that can positively affect goal scores by reducing or eliminating pressures. The addition of new pressure layers may therefore warrant the addition of new resilience layers that were not previously relevant. Similarly, the removal of pressure layers may warrant the removal of now irrelevant resilience layers. You can then transfer this information into <code>resilience_matrix.csv</code> (located in the <code>[assessment]/subcountry2014/conf</code> folder).</p>
-<p><code>resilience_matrix.csv</code> maps the different types of resilience (columns) with the goals that they affect (rows). New resilience layers may be added to <code>resilience_matrix.csv</code> based on finer-scale local information either in response to a new pressures layer, or as a new independent measure. Any added layer must be associated with a pressures layer that has a weight of 2 or 3 in the OHI framework so that resilience measures can mitigate pressures in each region.</p>
-<p>Each goal must have a resilience measure associated with it. In the figure below, the Toolbox would give an error because there are no resilience layers indicated for the natural products (NP) goal.</p>
-<div class="figure">
-<img src="fig/resil_mtx_bad.png" />
+<div id="modify-resilience-categories-and-matrix" class="section level2">
+<h2><span class="header-section-number">6.5</span> Modify Resilience Categories and Matrix</h2>
+<p>Resilience is included in OHI as the sum of the ecological factors and social initiatives (policies, laws, etc.) that can positively affect goal scores by reducing or eliminating pressures. The addition of new pressure layers may therefore warrant the addition of new resilience layers that were not previously relevant. Similarly, the removal of pressure layers may warrant the removal of now irrelevant resilience layers. You can then transfer this information into <code>resilience_matrix.csv</code>and <code>resilience_categories.csv</code> (located in the <code>[assessment]/subcountry2014/conf</code> folder).</p>
+<!-- Each goal must have a resilience measure associated with it. In the figure below, the Toolbox would give an error because there are no resilience layers indicated for the natural products (NP) goal.
 
-</div>
-<div id="updating-resilience-matrix-with-local-habitat-information" class="section level3">
-<h3><span class="header-section-number">6.5.1</span> Updating resilience matrix with local habitat information</h3>
-<p>In this example we will borrow from the experience of <code>ohi-israel</code>, where they assessed habitats in the Habitats (HAB) sub-goal that were not included in global assessments <code>ohi-global</code>. Therefore, the resilience matrix needed some revision.</p>
-<p>The habitats assessed for <code>ohi-israel</code> are:</p>
+![](./fig/resil_mtx_bad.png) -->
+<div id="steps-involved-in-modifying-resilience-information" class="section level3">
+<h3><span class="header-section-number">6.5.1</span> Steps involved in modifying resilience information</h3>
+<p>Adding a new resilience to the resiliences matrix requires the following steps:</p>
 <blockquote>
-<p><code>rocky_reef</code>, <code>sand_dunes</code>, <code>soft_bottom</code></p>
-</blockquote>
-<p>Updates are required for the following files:</p>
-<ul>
-<li><em>layers.csv</em></li>
-<li><em>resilience_matrix.csv</em></li>
-<li><em>resilience_weights.csv</em> (only if adding new resilience layers)</li>
-</ul>
-</div>
-<div id="global-resilience-layers" class="section level3">
-<h3><span class="header-section-number">6.5.2</span> Global resilience layers</h3>
-<p>The first step is to determine which resilience layers from the global assessment are relevant to your assessment, and whether others need to be added. The full list of layers included in the global resilience matrix are:</p>
-<blockquote>
-<p><code>alien_species</code>, <code>cites</code>, <code>fishing_v1</code>, <code>fishing_v1_eez</code>, <code>fishing_v2_eez</code>, <code>fishing_v3</code>, <code>fishing_v3_eez</code>, <code>habitat</code>, <code>habitat_combo</code>, <code>habitat_combo_eez</code>, <code>li_gci</code>, <code>li_sector_evenness</code>, <code>mariculture</code>, <code>msi_gov</code>, <code>species_diversity</code>, <code>species_diversity_3nm</code>, <code>tourism</code>, <code>water</code>, <code>wgi_all</code></p>
-</blockquote>
-<p>Some of these layers capture general aspects of governance that apply to the protection of any habitat. These are:</p>
-<blockquote>
-<p><code>alien_species</code>, <code>cites</code>, <code>msi_gov</code>, <code>water</code>, <code>wgi_all</code></p>
-</blockquote>
-<p>Two layers only apply to the livelihoods and economies goal (LE), so they should be excluded from HAB resilience:</p>
-<blockquote>
-<p><code>li_gci</code>, <code>li_sector_evenness</code></p>
-</blockquote>
-<p>The remaining layers apply to certain habitats, but not others. We focus on these to determine how to adapt the HAB resilience calculation for <code>ohi-israel</code>. They are:</p>
-<blockquote>
-<p><code>fishing_v1</code>, <code>fishing_v1_eez</code>, <code>fishing_v2_eez</code>, <code>fishing_v3</code>, <code>fishing_v3_eez</code>, <code>habitat</code>, <code>habitat_combo</code>, <code>habitat_combo_eez</code>, <code>mariculture</code>, <code>species_diversity</code>, <code>species_diversity_3nm</code>, <code>tourism</code></p>
-</blockquote>
-</div>
-<div id="determining-how-to-modify-these-resilience-layers" class="section level3">
-<h3><span class="header-section-number">6.5.3</span> Determining how to modify these resilience layers</h3>
-<ul>
-<li>To determine whether <code>species_diversity_3nm</code> or <code>species_diversity</code> should be used:
-<ul>
-<li><code>sand_dunes</code> should use <code>species_diversity_3nm</code>,</li>
-<li><code>soft_bottom</code> should use <code>species_diversity</code>,</li>
-<li>is <code>rocky_reef</code> mainly coastal? if so it should use <code>tourism</code> and <code>species_diversity_3nm</code>.</li>
-</ul></li>
-<li>If the habitats can be affected by mariculture plants (e.g. eutrophication and decreased water quality can occur if mariculture plants are close by and have poor wastewater treatment), then the <code>mariculture</code> resilience score should be added.
-<ul>
-<li>are there any mariculture plants in Israel? If yes, on which habitats do they occur?</li>
-</ul></li>
-<li>The remaining layers are the <code>fishing_v...</code> and <code>habitat..</code> layers, which are composite indicators obtained from different combinations of the following indicators:</li>
-</ul>
-<blockquote>
-<p><code>Mora, Mora_s4, CBD_hab, MPA_coast, MPA_eez</code>,</p>
-</blockquote>
-<p>where:</p>
-<ul>
-<li><code>Mora</code> is a fisheries governance effectiveness indicator by Mora <em>et al</em> (2009)</li>
-<li><code>Mora_s4</code> is another indicator from Figure S4 of the supplementary material of the same publication that focuses on regulations of artisanal and recreational fisheries</li>
-<li><code>CBD_hab</code> is a score assigned based on answers to a questionnaire compiled by countries that committed to Rio’s Convention on Biological Diversity (CBD) to establish their progress towards habitat biodiversity protection</li>
-<li><code>MPA_coast</code> is an indicator obtained as the proportion of coastal (3nm) waters that are in a marine protected area (MPA), with the maximum being 30% of coastal waters</li>
-<li><code>MPA_eez</code> is an indicator obtained as the proportion of the whole EEZ that is in a marine protected area, with the maximum being 30% of the whole EEZ.</li>
-</ul>
-<p>This table shows which indicators are used by each combo layer:</p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Layer</th>
-<th align="left">Mora</th>
-<th align="left">Mora_s4</th>
-<th align="left">CBD_hab</th>
-<th align="left">MPA_coast</th>
-<th align="left">MPA_eez</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">fishing_v1</td>
-<td align="left">Mora</td>
-<td align="left"></td>
-<td align="left">CBD_hab</td>
-<td align="left">MPA_coast</td>
-</tr>
-<tr class="even">
-<td align="left">fishing_v1_eez</td>
-<td align="left">Mora</td>
-<td align="left"></td>
-<td align="left">CBD_hab</td>
-<td align="left"></td>
-<td align="left">MPA_eez</td>
-</tr>
-<tr class="odd">
-<td align="left">fishing_v2_eez</td>
-<td align="left">Mora</td>
-<td align="left">Mora_s4</td>
-<td align="left">CBD_hab</td>
-<td align="left"></td>
-<td align="left">MPA_eez</td>
-</tr>
-<tr class="even">
-<td align="left">fishing_v3</td>
-<td align="left"></td>
-<td align="left">Mora_s4</td>
-<td align="left">CBD_hab</td>
-<td align="left">MPA_coast</td>
-</tr>
-<tr class="odd">
-<td align="left">fishing_v3_eez</td>
-<td align="left"></td>
-<td align="left">Mora_s4</td>
-<td align="left">CBD_hab</td>
-<td align="left"></td>
-<td align="left">MPA_eez</td>
-</tr>
-<tr class="even">
-<td align="left">habitat</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">CBD_hab</td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">habitat_combo</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">CBD_hab</td>
-<td align="left">MPA_coast</td>
-</tr>
-<tr class="even">
-<td align="left">habitat_combo_eez</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">CBD_hab</td>
-<td align="left"></td>
-<td align="left">MPA_eez</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Questions to consider</strong>:</p>
-<p>The first objective is to determine whether the general <code>fishing_v..</code> or <code>habitat_...</code> categories are relevant to each of the habitats. For example, fisheries regulations do not affect the conservation of sand dunes, so this habitat should not use any of the fisheries combos. If the general resilience categories are relevant to the habitat, the next step is to select one resilience layer within the <code>fishing_v…</code> and <code>habitat...</code> categories that most adequately captures the suite of combined resilience variables that affect the habitat. For example, the sand dune habitat is a strictly coastal habitat, so the most appropriate resilience layer would be the one that uses the MPA_coast (i.e., <code>habitat_combo</code>). The rocky reef and soft bottom, on the other hand, should definitely include fisheries and habitat regulations. So, you’ll need to choose a fisheries and a habitat combo for these two habitats. To do so, consider:</p>
 <ol style="list-style-type: decimal">
-<li>For which habitats should you use both a fishery and a habitat combo, or just use a habitat combo?</li>
+<li>Create new resilience layer(s) and save in the <code>layers</code> folder</li>
+<li>Register resilience layer(s) in <code>layers.csv</code></li>
+<li>Register resilience layer(s) in <code>resiliences_categories.csv</code></li>
 </ol>
 <ul>
-<li>fisheries regulations do not affect the conservation of sand-dunes, so this habitat should not use any of the fisheries combos. Also, this is a strictly coastal habitat, so choose the habitat layer that uses the <code>MPA_coast</code> instead of the <code>MPA_eez</code>, i.e. <code>habitat_combo</code> (and, as mentioned above, choose the coastal version of biodiversity, i.e. <code>species_diversity_3nm</code>).</li>
-<li>The rocky reef and soft bottom, on the other hand, should definitely include fisheries regulations. So you’ll need to choose a fisheries and a habitat combo for these two habitats.</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li>Which fisheries and habitat combos for <code>rocky_reef</code> and <code>soft_bottom</code>? The choice depends on two things:</li>
-</ol>
-<ul>
-<li>whether they are coastal habitats (within 3nm of the coast) or EEZ-wide habitats
-<ul>
-<li>if coastal, use the fisheries and habitat combos with <code>MPA_coast</code> (<code>fishing_v1</code>, <code>fishing_v3</code>, <code>habitat_combo</code>), and the <code>species_diversity_3nm</code> layer</li>
-<li>if EEZ-wide, use the fisheries and habitat combos with <code>MPA_eez</code> (<code>fishing_v1_eez</code>, <code>fishing_v2_eez</code>, <code>fishing_v3_eez</code>, <code>habitat_combo_eez</code>), and the <code>species_diversity</code> layer</li>
-</ul></li>
-<li>whether the fisheries occurring on that habitat are mainly artisanal, mainly commercial, or both
-<ul>
-<li>if only commercial fisheries, use a layer that only uses the <code>Mora</code> data <code>fishing_v1..</code>)</li>
-<li>if only artisanal/small-scale fisheries, use a layer that only uses the <code>Mora_s4</code> data (<code>fishing_v3..</code>)</li>
-<li>if both, use a layer that uses both <code>Mora</code> and <code>Mora_s4</code> data (<code>fishing_v2..</code>)</li>
-</ul></li>
+<li><ol style="list-style-type: lower-alpha">
+<li>Set the resilience category<br />
+</li>
+</ol></li>
+<li><ol start="2" style="list-style-type: lower-alpha">
+<li>Set the weighting</li>
+</ol></li>
 </ul>
 <ol start="3" style="list-style-type: decimal">
-<li>It may also be that the existing global combo layers are not appropriate for your habitats. For example, if rocky reef is mainly coastal, and it is fished by both commercial and artisanal methods, then we need a new combo that uses <code>Mora</code>, <code>Mora_s4</code>, <code>CBD_hab</code>, and <code>MPA_coast</code> (this is the same as <code>fishing_v2_eez</code>, but we use the <code>MPA_coast</code> layer instead of the <code>MPA_eez</code>). All other combinations are already present.</li>
-<li><p>Another issue to consider is whether local data are available to improve the pressure layers (that are based on global data). For example, if there are local data on Marine Protected Areas (MPAs) and any areas with special regulations, this should be used to generate the <code>MPA_coast</code> and <code>MPA_eez</code> layers.You may know that only certain types of protected areas are closed to fisheries, and may want to only include those. Also, local datasets may be more accurate and regularly updated. **NOTE: in the global study, these are the same datasets used to calculate the status of Lasting Special Places (LSP).</p></li>
-<li>How to update <code>resilience_matrix.csv</code>?</li>
+<li>Register resilience layer(s) in <code>resiliences_matrix.csv</code></li>
 </ol>
 <ul>
-<li>write the complete list of layers you want to use for each habitat. Based on the above, for example, <code>soft bottom</code> in Israel matches the combination of layers called <em>soft bottom, with corals</em> in the default <code>resilience_matrix.csv</code>. But the <code>rocky_reef</code> and <code>sand_dunes</code> don’t seem to match any existing combination, so you’ll probably need to delete some of the rows, e.g. the <em>coral only</em>, and replace with new ad-hoc rows.</li>
+<li>Identify the goals affected</li>
 </ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Modify Config.R for goals that have elements</li>
+</ol>
+</blockquote>
+</div>
+<div id="understanding-resilience-categories" class="section level3">
+<h3><span class="header-section-number">6.5.2</span> Understanding resilience Categories</h3>
+<!-- The first step is to determine which resilience layers from the global assessment are relevant to your assessment, and whether others need to be added. -->
+<p><code>resilience_categories.csv</code> records general information on each resilience data layer. The full list of layers included in the global resilience matrix are shown in the <code>resilience_matrix.csv</code>:</p>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/1FrIvhMdWO6M2Ri3CO2gdEY9vfSpfKfzJnNkE-T8rce4/pub?w=960&amp;h=720" alt="" />
+
+</div>
+<p>Each <em>resilience layer</em> indicated in the table is a data layer just like all the other data layers you have formatted, saved in the layers folder, and registered on layers.csv. Each layer falls under a <code>category</code> of resilience - ecological or social, and one of three <code>category-type</code>s - ecosystem, regulatory, or social. The <code>Subcategory</code> column indicates what specific pressure each layer of resilience is targered at. The prefix of each data layer corresponds to its Subcategory (eg. po, li, g, etc).</p>
+<p>In addition, the <code>Weight</code> column respresents level of institutional governnace. Governance is a function of 1) institutional structures that address the intended objective (eg. wheter appropriate laws/regulations exist, etc), 2) a clear process for <em>implementing</em> the institution is in place, and 3) whether the institution has been <em>effective</em> at meeting stated objectives. At global scales it is very difficult to assess these three elements; we usually only had information on whether institutions exist. However, in some cases we had detailed information on institutions that enabled us to assess whether they would contribute to effective management, and thus, increased ocean health. In those latter cases, we gave more weight to those measures. In the <code>resilience_categories.csv</code> pre-loaded from OHI-Global 2016 to your repository, there are two weights assigned to each layer:</p>
+<ul>
+<li><em>0.5</em> means that a law or regulation exists, or a country has signed an appropriate treaty</li>
+<li><em>1</em> means that there are evidence of implementation of the laws and regulations.</li>
+</ul>
+<p>However, you can redefine how the weights are set to available information in your regions.</p>
+</div>
+<div id="understanding-resilience-matrix" class="section level3">
+<h3><span class="header-section-number">6.5.3</span> Understanding resilience Matrix</h3>
+<p><code>resilience_matrix.csv</code> maps the different types of resilience (columns) with the goals that they affect (rows). Whether a resilience layer has any influence on a goal, or an element of the goal, is represented by an <em>x</em>, or its absence. For example, <code>po_water</code> layer is relevant to the <em>salt marsh</em> element of <em>CP</em> goal, as shown by the <em>x</em> in the cell. On the other hand, that data layer does not apply to the <em>mangrove</em> element of the same goal, hence the absence of an <em>x</em>.</p>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/1zMxIbz_a0FixyKmFpsh81ztMe24EfeXgHwPUnI-lopc/pub?w=960&amp;h=720" alt="" />
+
+</div>
+<p>New resilience layers may be added to <code>resilience_matrix.csv</code> based on finer-scale local information either in response to a new pressures layer, or as a new independent measure. Any added layer must be associated with a pressures layer that has a weight of 2 or 3 in the OHI framework so that resilience measures can mitigate pressures in each region.</p>
+<!-- ### Updating resilience matrix with local habitat information
+
+In this example we will borrow from the experience of `ohi-israel`, where they assessed habitats in the Habitats (HAB) sub-goal that were not included in global assessments `ohi-global`. Therefore, the resilience matrix needed some revision.  
+
+The habitats assessed for `ohi-israel` are:
+
+> `rocky_reef`, `sand_dunes`, `soft_bottom` -->
+</div>
+<div id="how-to-modify-config.r" class="section level3">
+<h3><span class="header-section-number">6.5.4</span> How to modify Config.R</h3>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/183rvzM21mq018TiHEEzqMmoUEeime1W700ebW3iAEbw/pub?w=960&amp;h=540" alt="" />
+
+</div>
+<div class="figure">
+<img src="https://cloud.githubusercontent.com/assets/5685517/15717997/3d7ff8e8-27de-11e6-99d0-520ff3d9323b.png" alt="Resilience Matrix" />
+<p class="caption">Resilience Matrix</p>
+</div>
+<div class="figure">
+<img src="https://cloud.githubusercontent.com/assets/5685517/15717944/045e03d4-27de-11e6-9968-f4bf83cb1168.png" alt="config.R" />
+<p class="caption">config.R</p>
+</div>
+<!-- ### Determining how to modify these resilience layers
+
+* To determine whether `species_diversity_3nm` or `species_diversity_eez` should be used:
+    + `sand_dunes` should use `species_diversity_3nm`,
+    + `soft_bottom` should use `species_diversity`,
+    + is `rocky_reef` mainly coastal? if so it should use `tourism` and `species_diversity_3nm`.
+* If the habitats can be affected by mariculture plants (e.g. eutrophication and decreased water quality can occur if mariculture plants are close by and have poor wastewater treatment), then the `mariculture` resilience score should be added.
+    + are there any mariculture plants in Israel? If yes, on which habitats do they occur?
+* The remaining layers are the `fishing_v...` and `habitat..` layers, which are composite indicators obtained from different combinations of the following indicators:
+
+
+**Questions to consider**:
+
+The first objective is to determine whether the general `fishing_v..` or `habitat_...` categories are relevant to each of the habitats.  For example, fisheries regulations do not affect the conservation of sand dunes, so this habitat should not use any of the fisheries combos.
+If the general resilience categories are relevant to the habitat, the next step is to select one resilience layer within the `fishing_v…` and `habitat...` categories that most adequately captures the suite of combined resilience variables that affect the habitat.  For example, the sand dune habitat is a strictly coastal habitat, so the most appropriate resilience layer would be the one that uses the MPA_coast (i.e., `habitat_combo`). The rocky reef and soft bottom, on the other hand, should definitely include fisheries and habitat regulations. So, you'll need to choose a fisheries and a habitat combo for these two habitats.  To do so, consider:
+
+1) For which habitats should you use both a fishery and a habitat combo, or just use a habitat combo?
+* fisheries regulations do not affect the conservation of sand-dunes, so this habitat should not use any of the fisheries combos. Also, this is a strictly coastal habitat, so choose the habitat layer that uses the `MPA_coast` instead of the `MPA_eez`, i.e. `habitat_combo` (and, as mentioned above, choose the coastal version of biodiversity, i.e. `species_diversity_3nm`).
+* The rocky reef and soft bottom, on the other hand, should definitely include fisheries regulations. So you'll need to choose a fisheries and a habitat combo for these two habitats.
+2) Which fisheries and habitat combos for `rocky_reef` and `soft_bottom`? The choice depends on two things:
+* whether they are coastal habitats (within 3nm of the coast) or EEZ-wide habitats
+      + if coastal, use the fisheries and habitat combos with `MPA_coast` (`fishing_v1`, `fishing_v3`, `habitat_combo`), and the `species_diversity_3nm` layer
+      + if EEZ-wide, use the fisheries and habitat combos with `MPA_eez` (`fishing_v1_eez`, `fishing_v2_eez`, `fishing_v3_eez`, `habitat_combo_eez`), and the `species_diversity` layer
+* whether the fisheries occurring on that habitat are mainly artisanal, mainly commercial, or both
+    + if only commercial fisheries, use a layer that only uses the `Mora` data `fishing_v1..`)
+    + if only artisanal/small-scale fisheries, use a layer that only uses the `Mora_s4` data (`fishing_v3..`)
+    + if both, use a layer that uses both `Mora` and `Mora_s4` data (`fishing_v2..`)
+3) It may also be that the existing global combo layers are not appropriate for your habitats.  For example, if rocky reef is mainly coastal, and it is fished by both commercial and artisanal methods, then we need a new combo that uses `Mora`, `Mora_s4`, `CBD_hab`, and `MPA_coast` (this is the same as `fishing_v2_eez`, but we use the `MPA_coast` layer instead of the `MPA_eez`). All other combinations are already present.
+4) Another issue to consider is whether local data are available to improve the pressure layers (that are based on global data).  For example, if  there are local data on Marine Protected Areas (MPAs) and any areas with special regulations, this should be used to generate the `MPA_coast` and `MPA_eez` layers.You may know that only certain types of protected areas are closed to fisheries, and may want to only include those. Also, local datasets may be more accurate and regularly updated. **NOTE: in the global study, these are the same datasets used to calculate the status of Lasting Special Places (LSP).
+
+5) How to update `resilience_matrix.csv`?
+* write the complete list of layers you want to use for each habitat. Based on the above, for example, `soft bottom` in Israel matches the combination of layers called *soft bottom, with corals* in the default `resilience_matrix.csv`. But the `rocky_reef` and `sand_dunes` don't seem to match any existing combination, so you'll probably need to delete some of the rows, e.g. the *coral only*, and replace with new ad-hoc rows.
+-->
 </div>
 </div>
 <div id="modifying-the-pressures-matrix-for-goals-with-categories" class="section level2">
@@ -1650,7 +1610,7 @@ In addition: Warning messages:
 <li>Remove the goal’s row from <code>resilience_matrix.csv</code></li>
 </ol>
 <div class="figure">
-<img src="fig/remove_goal.png" />
+<img src="fig/remove_goal.png" alt="" />
 
 </div>
 <p><strong>Example: Removing carbon storage (CS) goal</strong></p>
@@ -1659,28 +1619,28 @@ In addition: Warning messages:
 <li>Remove the carbon storage (CS) goal model from <code>functions.R</code>. Delete the highlighted text in the figure below that references the CS layers and calculates CS goal status, trend, and scores.</li>
 </ol>
 <div class="figure">
-<img src="fig/functions_delete.png" />
+<img src="fig/functions_delete.png" alt="" />
 
 </div>
 <ol start="2" style="list-style-type: decimal">
 <li>Remove the CS row from <code>goals.csv</code>. Delete the highlighted row in the figure below that contains the CS goal.</li>
 </ol>
 <div class="figure">
-<img src="fig/goals_delete.png" />
+<img src="fig/goals_delete.png" alt="" />
 
 </div>
 <ol start="3" style="list-style-type: decimal">
 <li>Remove all CS rows from <code>pressures_matrix.csv</code>. Delete the highlighted rows in the figure below that contain CS pressures.</li>
 </ol>
 <div class="figure">
-<img src="fig/delete_pressures.png" />
+<img src="fig/delete_pressures.png" alt="" />
 
 </div>
 <ol start="4" style="list-style-type: decimal">
 <li>Remove all CS rows from <code>resilience_matrix.csv</code>. Delete the highlighted rows in the figure below that contain CS resilience.</li>
 </ol>
 <div class="figure">
-<img src="fig/delete_resilience.png" />
+<img src="fig/delete_resilience.png" alt="" />
 
 </div>
 </div>
@@ -1762,277 +1722,6 @@ write.csv(scores, &#39;scores.csv&#39;, na=&#39;&#39;, row.names=F)
 <p>It is very likely that during the CalculateAll process you’ll encounter problems and see error messages. In most cases, the error messages can specify what the error is and in which step it occurs, which should be helpful for trouble shooting. Some commonly occurring errors and how to fix them can be found in the Troubleshooting section of the manual.</p>
 </div>
 </div>
-<div id="other-example-modifications" class="section level2">
-<h2><span class="header-section-number">6.9</span> Other example modifications</h2>
-<div id="preparing-the-fisheries-sub-goal" class="section level3">
-<h3><span class="header-section-number">6.9.1</span> Preparing the fisheries sub-goal</h3>
-<p>Here is some background information about how to prepare fisheries data layers for the Toolbox.</p>
-<p><strong>Data layers used by the Toolbox:</strong></p>
-<ul>
-<li><code>fis_b_bmsy</code></li>
-<li><code>fis_meancatch</code></li>
-<li><code>fis_proparea_saup2rgn</code></li>
-<li><code>fp_wildcaught_weight</code></li>
-</ul>
-<div id="description-of-data-layers" class="section level4">
-<h4><span class="header-section-number">6.9.1.1</span> Description of data layers</h4>
-<p><code>fis_b_bmsy</code></p>
-<ul>
-<li><em>for species</em>: B/Bmsy estimate (either from formal stock assessment, or from a data-poor method such as CMSY)</li>
-<li><em>for genus/family/broader taxa</em>: the toolbox will use median B/Bmsy from species in that region + a penalty for not reporting at species level. In order for the code to assign the correct penalty, the taxa need to include a numerical code of 6 digits, where the first digit behaves like an ISSCAAP code (the standardized species codes used by FAO): 6 means species, 5 means genus, 4 to 1 are increasingly broad taxonomic groups</li>
-<li><em>data source (for CMSY)</em>: catch time-series (at least 10 years of catch &gt;0), species resilience (if available)</li>
-</ul>
-<p><strong>Example data:</strong></p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">fao_id</th>
-<th align="left">taxon_name</th>
-<th align="left">year</th>
-<th align="left">b_bmsy</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">51</td>
-<td align="left">Ablennes hians</td>
-<td align="left">1985</td>
-<td align="left">1.112412</td>
-</tr>
-<tr class="even">
-<td align="left">51</td>
-<td align="left">Ablennes hians</td>
-<td align="left">1986</td>
-<td align="left">1.222996</td>
-</tr>
-<tr class="odd">
-<td align="left">51</td>
-<td align="left">Ablennes hians</td>
-<td align="left">1987</td>
-<td align="left">1.371058</td>
-</tr>
-</tbody>
-</table>
-<p>NOTE: if a species that is caught in different sub-regions belongs to the same population, you don’t want to split the catch among sub-regions, instead, you want to sum catch across all sub-regions, so you can calculate B/Bmsy for the whole population. For the global analysis we grouped all species catch by FAO major fishing area (www.fao.org/fishery/area/search/en), indicated in the column <em>fao_id</em>, assuming that all species caught within the same FAO area belonged to the same stock, while we assumed that the same species, if caught in a different fishing area, belonged to a separate stock.<br />Use <em>fao_id</em> as an identifier that separates different fisheries ‘stocks’ belonging to the same species. If you don’t have multiple stocks in your study area, set all <em>fao_id</em> = 1.</p>
-<p><code>fis_meancatch</code>:</p>
-<ul>
-<li>average catch across all years, per species, per region<br /></li>
-<li><em>data source</em>: catch time-series (at least 10 years of catch &gt;0), with a unique identifier for each population that you want to assess separately</li>
-</ul>
-<p><strong>Example data:</strong></p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">fao_saup_id</th>
-<th align="left">taxon_name_key</th>
-<th align="left">year</th>
-<th align="left">mean_catch</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">37_8</td>
-<td align="left">Aristeus antennatus_690051</td>
-<td align="left">2014</td>
-<td align="left">14.24398116</td>
-</tr>
-<tr class="even">
-<td align="left">37_8</td>
-<td align="left">Atherinidae_400218</td>
-<td align="left">2014</td>
-<td align="left">27.30120156</td>
-</tr>
-<tr class="odd">
-<td align="left">37_8</td>
-<td align="left">Balistes capriscus_607327</td>
-<td align="left">2014</td>
-<td align="left">3.247883895</td>
-</tr>
-</tbody>
-</table>
-<p>The <em>taxon_name_key</em> column indicates the name of the species (e.g. <em>Aristeus antennatus</em>) and its ‘taxonkey’. The taxonkey is a 6 digit numeric code used by the Sea Around Us Project, modified from FAO codes. The important element of this code is the first digit, because it reflects the taxonomic level (6=species, 5=genus, 4=family, etc.) of the reported catch.The toolbox uses this first digit to assign a score to all catch that was not reported at species level, taking the median of the B/Bmsy of assessed species, and adding a penalty that is increasingly strong for coarser taxa.</p>
-<p><code>fis_proparea_saup2rgn</code>:</p>
-<ul>
-<li>a conversion file that, for each region for which catch is reported, tells us what proportion of that region falls within each of the final OHI reporting regions.</li>
-</ul>
-<p><strong>Example data:</strong></p>
-<table>
-<thead>
-<tr class="header">
-<th align="right">saup_id</th>
-<th align="right">rgn_id</th>
-<th align="right">prop_area</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="right">166</td>
-<td align="right">1</td>
-<td align="right">1.0</td>
-</tr>
-<tr class="even">
-<td align="right">162</td>
-<td align="right">2</td>
-<td align="right">1.0</td>
-</tr>
-<tr class="odd">
-<td align="right">574</td>
-<td align="right">3</td>
-<td align="right">0.7</td>
-</tr>
-<tr class="even">
-<td align="right">37</td>
-<td align="right">4</td>
-<td align="right">0.8</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Specific instances:</strong></p>
-<p><em>only if catch is reported for different regions than the ones used for the OHI assessment:</em> this should be calculated using spatial analyses of overlap of the spatial units at which catch is reported with the spatial units at which the OHI assessment will be reported. The global data was reported by subregions (<em>saup_id</em>) and in some cases multiple subregions were part of the same, larger EEZ. Since for OHI we wanted results by EEZ (<em>rgn_id</em>), in those cases we needed to combine results from the subregions to get the final score, based on their size relative to the total EEZ size (<em>prop_area</em>). <em>If catch is reported for the same areas for which OHI is calculated:</em> then all the <em>prop_area</em> are = 1. <em>If catch is reported for the whole area of the assessment, but you want to calculate a separate OHI score for different sub-regions:</em> for each OHI reporting region (<em>rgn_id</em>) you’ll repeat the same region in the <em>saup_id</em> column, and <em>prop_area</em> will be =1. This effectively means all the reporting regions will get assigned 100% of the catch and will have the same final status and trend score for the fisheries goal (but may have different pressures and resilience scores, if those layers are different in each sub-region).</p>
-<p><code>fp_wildcaught_weight</code>:</p>
-<p><em>only needed if there is mariculture</em>: for each region, this represents the relative proportion of catch coming from wild caught fisheries versus mariculture. The layer is used to weight how much the fisheries score influences the final food provision score, the higher the fisheries catch, the more the food provision score will reflect the fisheries score, and vice-versa if mariculture has a higher catch. (NOTE that, before all mariculture harvest from all species gets summed, the mariculture harvest for each species is smoothed and then multiplied by the resilience score).</p>
-</div>
-<div id="running-cmsy-model" class="section level4">
-<h4><span class="header-section-number">6.9.1.2</span> Running CMSY model</h4>
-<p><strong>Sample data to run CMSY:</strong></p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">id</th>
-<th align="left">stock_id</th>
-<th align="left">res</th>
-<th align="left">ct</th>
-<th align="left">yr</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">6</td>
-<td align="left">Acanthistius brasilianus_41</td>
-<td align="left">Medium</td>
-<td align="left">100</td>
-<td align="left">1950</td>
-</tr>
-<tr class="even">
-<td align="left">23</td>
-<td align="left">Acanthurus dussumieri_61</td>
-<td align="left"></td>
-<td align="left">0.059250269</td>
-<td align="left">1950</td>
-</tr>
-<tr class="odd">
-<td align="left">24</td>
-<td align="left">Acanthurus dussumieri_71</td>
-<td align="left"></td>
-<td align="left">0.190749971</td>
-<td align="left">1950</td>
-</tr>
-<tr class="even">
-<td align="left">25</td>
-<td align="left">Acanthurus lineatus_61</td>
-<td align="left">Low</td>
-<td align="left">12.74821966</td>
-<td align="left">1950</td>
-</tr>
-</tbody>
-</table>
-<p>The current CMSY script produces an output that looks something like this (split into 2 tables):</p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">stock_id</th>
-<th align="left">convergence</th>
-<th align="left">effective_sample_size</th>
-<th align="left">yr</th>
-<th align="left">b_bmsy</th>
-<th align="left">b_bmsyUpper</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Ablennes hians_51</td>
-<td align="left">SC</td>
-<td align="left">30974</td>
-<td align="left">1985</td>
-<td align="left">1.112412</td>
-<td align="left">1.8</td>
-</tr>
-<tr class="even">
-<td align="left">Ablennes hians_51</td>
-<td align="left">SC</td>
-<td align="left">30974</td>
-<td align="left">1986</td>
-<td align="left">1.222996</td>
-<td align="left">1.768895</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="left">stock_id</th>
-<th align="left">yr</th>
-<th align="left">b_bmsyLower</th>
-<th align="left">b_bmsyiq25</th>
-<th align="left">b_bmsyiq75</th>
-<th align="left">b_bmsyGM</th>
-<th align="left">b_bmsyMed</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Ablennes hians_51</td>
-<td align="left">1985</td>
-<td align="left">1</td>
-<td align="left">1</td>
-<td align="left">1</td>
-<td align="left">1.093932</td>
-<td align="left">1</td>
-</tr>
-<tr class="even">
-<td align="left">Ablennes hians_51</td>
-<td align="left">1986</td>
-<td align="left">1.014688</td>
-<td align="left">1.075699</td>
-<td align="left">1.298437</td>
-<td align="left">1.209005</td>
-<td align="left">1.160329</td>
-</tr>
-</tbody>
-</table>
-<p>where <em>stock_id</em> is the unique identifier for each stock that was used in the input file, <em>convergence</em> indicates whether the model converged and how strongly (‘SC’ = strong convergence), <em>effective_sample_size</em> reports the number of iterations used, <em>yr</em> = year, b_bmsy = B/Bmsy for the corresponding year (based on the median of all the estimated values: reccomended), b_bmsyUpper = B/Bmsy at the upper 95% bootstrapped confidence bound, b_bmsyLower = B/Bmsy at the lower 95% bootstrapped confidence bound, b_bmsyiq25 = B/Bmsy at the first quartile, b_bmsyiq75 = B/Bmsy at the third quartile, b_bmsyGM = B/Bmsy based on the geometric mean of estimates, b_bmsyMed = B/Bmsy based on the median of estimates.</p>
-<p><strong>How to:</strong></p>
-<p><strong>1. Include resilience in the CMSY code:</strong></p>
-<p>In the CMSY R script, in the PARAMETERS section, replace the following:</p>
-<blockquote>
-<div class="figure">
-<img src="fig/include_resilience.png" />
-
-</div>
-</blockquote>
-<p><strong>2. Make assumptions about fisheries regulations:</strong></p>
-<p>If you assume that fisheries are depleted and there isn’t very much fisheries regulation, and you are using the CMSY method to assess B/Bmsy, the original model may work well. If, however, the catch of a species declined because fisheries regulations have closed or limited the fishery, or if a fishery was abandoned for economic reasons (e.g., change in consumer prefereces, market price dynamics, etc.), the model may be too pessimistic and understimate B/Bmsy. In that case it may be best to use a version with a uniform prior on final biomass, instead of the constrained prior.<br />The original constrained prior on final biomass is set by this line within the code:</p>
-<pre><code>finalbio    &lt;- if(ct[nyr]/max(ct) &gt; 0.5) {c(0.3,0.7)} else {c(0.01,0.4)}</code></pre>
-<p>The model uses a uniform prior if that line is replaced with:</p>
-<pre><code>finalbio    &lt;- c(0.01,0.7)</code></pre>
-<p><strong>3. Use data at a different spatial resolution than the final assessment:</strong></p>
-<p>See notes above for <code>fis_proparea_saup2rgn</code></p>
-<p><strong>4. Calculate B, or Bmsy:</strong></p>
-<p>The CMSY model calculates B/Bmsy as a ratio, it does not estimate the two variables separately.</p>
-<p><strong>5. Use catch per unit of effort (CPUE):</strong></p>
-<p>The CMSY model requires total biomass removed by fisheries, and uses catch as a proxy for that. It cannot use CPUE. Other more sophisticated stock assessment models use CPUE and may be employed. We do not provide documentation for the use of these other models.</p>
-<p><strong>6. Use other life-history characteristics, in addition to resilience:</strong></p>
-<p>The CMSY model does not use more detailed information. Other more sophisticated stock assessment models use other life-history traits such as fecundity, larval dispersal, r, K, Lmax, etc., and may be employed. We do not provide documentation for the use of these other models.</p>
-<p><strong>7. Create a ‘taxonkey’ to assign to each species:</strong></p>
-<p>When replacing the SAUP_FAO data with your own data, assign a key of 600000 to all species. For all catch that is reported at genus or coarser taxonomic level, you will have to choose an appropriate taxonkey. You can create your own key, from 100000 to 500000, based on your own judgment of how many species may be reported under that same denomination, and how different they may be (all that matters for the toolbox code is whether the number starts with a 1,2,3,4,5 or 6 with 1 being the coarsest, such as ‘miscellaneous marine animals’, or ‘crustaceans nei’).</p>
-</div>
-<div id="resources" class="section level4">
-<h4><span class="header-section-number">6.9.1.3</span> Resources</h4>
-<p>Martell, S &amp; Froese, R (2013) “A simple method for estimating MSY from catch and resilience”. <em>Fish and Fisheries</em>, DOI: 10.1111/j.1467-2979.2012.00485.x. <a href="http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=2&amp;ved=0CCkQFjAB&amp;url=http%3A%2F%2Fwww.iotc.org%2Fsites%2Fdefault%2Ffiles%2Fdocuments%2F2013%2F06%2FIOTC-2013-WPNT03-INF01%2520-%2520Martell%2520%2526%2520Froese%25202012.pdf&amp;ei=PXryU6TtGY3goATglYHoDA&amp;usg=AFQjCNE-S0T1B7B_l7rUYaNNLxsUDguDaQ&amp;bvm=bv.73231344,d.cGU">Downloadable here</a></p>
-<p>Rosenberg, A.A., Fogarty, M.J., Cooper, A.B., Dickey-Collas, M., Fulton, E.A., Gutiérrez, N.L., Hyde, K.J.W., Kleisner, K.M., Kristiansen, T., Longo, C., Minte-Vera, C., Minto, C., Mosqueira, I., Chato Osio, G., Ovando, D., Selig, E.R., Thorson, J.T. &amp; Ye, Y. (2014) Developing new approaches to global stock status assessment and fishery production potential of the seas. <em>FAO Fisheries and Aquaculture Circular No. 1086</em>. Rome, FAO. 175 pp. <a href="http://www.fao.org/docrep/019/i3491e/i3491e.pdf">Downloadable here</a></p>
-</div>
-</div>
-</div>
 </div>
 <div id="toolbox-troubleshooting" class="section level1">
 <h1><span class="header-section-number">7</span> Toolbox Troubleshooting</h1>
@@ -2055,7 +1744,8 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 <li><code>$ git --version</code> should return something like:</li>
 <li><code>git version 2.2.1</code> (check online to see if this is the latest version)</li>
 </ul></li>
-<li>To update, go to <a href="http://git-scm.com/download/mac" class="uri">http://git-scm.com/download/mac</a>, download the latest <em>git</em> for OS X, install it.<br /></li>
+<li>To update, go to <a href="http://git-scm.com/download/mac" class="uri">http://git-scm.com/download/mac</a>, download the latest <em>git</em> for OS X, install it.<br />
+</li>
 <li>In terminal, type <code>git --version</code> and verify that it reports the new version. If it shows the new version, great! Skip to Step 5.
 <ul>
 <li>Don’t be sad if it doesn’t! If you still see the old version, the installer put the new version into a different directory, which has a lower priority in the search path, so now to update the search path. The default Apple <em>git</em> seems to install the <code>git.exe</code> into <code>/usr/bin/</code> directory, this particular updater seems to install into <code>/usr/local/git/bin/</code> directory. The search path needs to be updated to look for <code>git.exe</code> in the new directory first.</li>
@@ -2116,7 +1806,7 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 <p>These commands will tell you where the <code>git.exe</code> file is located. Typically it will look something like this: <code>/usr/local/git/bin/git</code> or <code>/usr/bin/git</code> or some variation of those.</p>
 <p>Once confirming the location of <code>git.exe</code> you need to tell RStudio where it is. Open up RStudio, got to Preferences and select the Git/SVN option:</p>
 <div class="figure">
-<img src="fig/RStudio_git_svn.png" />
+<img src="fig/RStudio_git_svn.png" alt="" />
 
 </div>
 <p>In the Git executable area, fill in the path to your git.exe. If RStudio does not let you manually enter your path, select Browse… and navigate to the <code>git.exe</code> file. If you are not able to navigate to the file it is likely a hidden file.</p>
@@ -2135,7 +1825,7 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 <p>When you restart your R Session (<strong>Session &gt; Restart R</strong> on a Mac), if you see that it is trying to load <code>ohicore</code>, it may give you an error:</p>
 <blockquote>
 <div class="figure">
-<img src="fig/ohicore_load.png" />
+<img src="fig/ohicore_load.png" alt="" />
 
 </div>
 </blockquote>
@@ -2145,13 +1835,13 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 </ol>
 <blockquote>
 <div class="figure">
-<img src="fig/proj_op.png" />
+<img src="fig/proj_op.png" alt="" />
 
 </div>
 </blockquote>
 <blockquote>
 <div class="figure">
-<img src="fig/proj_op2.png" />
+<img src="fig/proj_op2.png" alt="" />
 
 </div>
 </blockquote>
@@ -2160,7 +1850,7 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 </ol>
 <blockquote>
 <div class="figure">
-<img src="fig/proj_op3.png" />
+<img src="fig/proj_op3.png" alt="" />
 
 </div>
 </blockquote>
@@ -2192,13 +1882,13 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 <p>Example:</p>
 <blockquote>
 <div class="figure">
-<img src="fig/troubleshoot_aggregation_layer.png" />
+<img src="fig/troubleshoot_aggregation_layer.png" alt="" />
 
 </div>
 </blockquote>
 <blockquote>
 <div class="figure">
-<img src="fig/tblshoot_pressures.png" />
+<img src="fig/tblshoot_pressures.png" alt="" />
 
 </div>
 </blockquote>
@@ -2206,7 +1896,7 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 </div>
 <div id="error-in-matrix" class="section level4">
 <h4><span class="header-section-number">7.2.3.2</span> ‘Error in matrix…’</h4>
-<p>Example: &gt; <img src="fig/tblshoot_pressures.png" /></p>
+<p>Example: &gt; <img src="fig/tblshoot_pressures.png" alt="" /></p>
 <p>This error means there is an empty column in <code>pressures_matrix.csv</code>, and the Toolbox cannot handle empty columns.</p>
 </div>
 <div id="error-in-...-length-of-dimnames-2-not-equal-to-array-extent" class="section level4">
@@ -2267,7 +1957,7 @@ $pressure
 <h4><span class="header-section-number">7.2.4.1</span> ‘Error in match(x, table, nomatch = OL) : object id_num not found’</h4>
 <blockquote>
 <div class="figure">
-<img src="fig/error_resil_mtx.png" />
+<img src="fig/error_resil_mtx.png" alt="" />
 
 </div>
 </blockquote>
@@ -2380,7 +2070,7 @@ Note: each goal in resilience_matrix.csv must have at least one resilience field
 <p>For the WebApp to display the pages properly, not everything on each page can be edited as it is written in a language to create the website. But it is possible to explore the files and update much of the text that is displayed while maintaining the required formatting. To do this, run <code>copy_webapps_templates.r</code> once, before further modifications on the WebApp contents. This actions creates a folder called <code>webapps_templates</code> and copies template files there.</p>
 <p>It is best to edit the files in RStudio: you will be able to view your work as it will be displayed on the WebApp by clicking the ‘Preview HTML’.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1QUE7LkgyjXLKk63Bf4F6x-g3fHofZHLcRFXiExuQyFs/pub?w=576&amp;h=288" />
+<img src="https://docs.google.com/drawings/d/1QUE7LkgyjXLKk63Bf4F6x-g3fHofZHLcRFXiExuQyFs/pub?w=576&amp;h=288" alt="" />
 
 </div>
 <div id="regions" class="section level3">
@@ -2419,7 +2109,7 @@ Note: each goal in resilience_matrix.csv must have at least one resilience field
 <p>You will learn more, and think more critically about reference points, as you develop the data layers for your assessment.</p>
 <p><strong><em>How to use the reference point in a model</em></strong></p>
 <p>It’s best to explicitly include the reference point in the model equation whenever possible. For example, the Carbon Storage goal model in the global assessment is written like this:</p>
-<p><img src="http://i.imgur.com/JN58oqB.png" />,</p>
+<p><img src="http://i.imgur.com/JN58oqB.png" alt="" />,</p>
 <p>where C<sub>r</sub> is the reference condition of each habitat. See goal-specific sections for more examples.</p>
 </div>
 <div id="identifying-pressures-and-resilience" class="section level2">
@@ -2505,7 +2195,13 @@ Although it is a data-limited method, the more complex approach better takes int
 <div id="examples-of-the-approach" class="section level4">
 <h4><span class="header-section-number">9.4.1.2</span> Examples of the Approach</h4>
 <p><span style="font-size:0.9em"></p>
-<table>
+<table style="width:101%;">
+<colgroup>
+<col width="18%" />
+<col width="29%" />
+<col width="27%" />
+<col width="26%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -2599,6 +2295,12 @@ as Canada, to be unduly penalized.--->
 <h5><span class="header-section-number">9.4.1.3.1</span> Examples of the Approach</h5>
 <p><span style="font-size=0.9em"></p>
 <table>
+<colgroup>
+<col width="16%" />
+<col width="30%" />
+<col width="23%" />
+<col width="29%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -2670,7 +2372,13 @@ as Canada, to be unduly penalized.--->
 <p>The <strong>reference point for this goal</strong> would likely be a metric of having full access to the resource (see examples in the table above). Keep in mind that the access is for people, and therefore a marine protected area may not count towards full access.</p>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table>
+<table style="width:101%;">
+<colgroup>
+<col width="15%" />
+<col width="34%" />
+<col width="22%" />
+<col width="29%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -2750,7 +2458,13 @@ as Canada, to be unduly penalized.--->
 <p>One very important thing to consider at this point is your <strong>reference point for the relative harvest amount</strong>. The relative harvest of your data is multiplied by the sustainability coefficient in the last step. Setting the reference point is a decision your team must make based on the available data and an inferred functional relationship between the harvest of the product and the amount in the system. Understanding the patterns in harvest can help inform how to set the reference point. For example, knowing whether harvesting effort was constant or whether product yields changed due to the market demand and not the availability. This information could help inform whether it is more appropriate to set the reference point as the peak yield of the time-series, or some percentage above or below, or some other approach that is both ambitious and realistic (<em>SMART</em> principles). The decision you make for the reference point should be based on the trend of the data; for instance, if your harvests have only increased over time, which may be indicative of an emerging economy, you will have to account for that.</p>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table>
+<table style="width:106%;">
+<colgroup>
+<col width="16%" />
+<col width="31%" />
+<col width="27%" />
+<col width="29%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -2826,7 +2540,13 @@ as Canada, to be unduly penalized.--->
 </blockquote>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table>
+<table style="width:110%;">
+<colgroup>
+<col width="15%" />
+<col width="34%" />
+<col width="31%" />
+<col width="27%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -2896,7 +2616,13 @@ as Canada, to be unduly penalized.--->
 <p>The goal status model for Coastal Protection developed for global assessments will likely be appropriate for independent assessments. However, it could be possible to incorporate the <em>differences in vulnerability</em> between subcountry regions. Vulnerability can be quantified as the ability to evacuate, economic ability to reconstruct in case of damage. Physical properties may be available in OHI+ assessments, allowing for more a detailed understanding of the protective ability, and likelihood of exposure for each habitat type in different portions of the coastline.</p>
 <p><strong><em>Examples of the Approaches</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table>
+<table style="width:115%;">
+<colgroup>
+<col width="16%" />
+<col width="33%" />
+<col width="37%" />
+<col width="27%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -2973,7 +2699,13 @@ as Canada, to be unduly penalized.--->
 <p>After identifying the list of iconic species, you need to find a matrix to reflect the <em>health</em> of their population. In the global study, we used IUCN threat categories and weights. The reference point is to have the risk status of all assessed species as Least Concern. Alternatively, you can use a different kind of assessment approach to see if the populations are healthy, which could be indicated, for instance, by the stability of their populations.</p>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table>
+<table style="width:112%;">
+<colgroup>
+<col width="16%" />
+<col width="34%" />
+<col width="33%" />
+<col width="27%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -3049,7 +2781,13 @@ as Canada, to be unduly penalized.--->
 </blockquote>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table>
+<table style="width:101%;">
+<colgroup>
+<col width="16%" />
+<col width="29%" />
+<col width="27%" />
+<col width="27%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -3134,7 +2872,13 @@ as Canada, to be unduly penalized.--->
 </blockquote>
 <p><strong><em>Examples of the Approaches</em></strong></p>
 <p><span style="font-size=0.9em"></p>
-<table>
+<table style="width:147%;">
+<colgroup>
+<col width="22%" />
+<col width="33%" />
+<col width="36%" />
+<col width="55%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -3206,7 +2950,13 @@ as Canada, to be unduly penalized.--->
 </blockquote>
 <p><strong><em>Examples of the Approaches</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table>
+<table style="width:160%;">
+<colgroup>
+<col width="22%" />
+<col width="68%" />
+<col width="41%" />
+<col width="27%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -3275,7 +3025,13 @@ as Canada, to be unduly penalized.--->
 <p>The <strong>reference point</strong> used will depend upon the types of data. Does your country have industry growth rate targets? Are there measures on sustainable levels of tourism and recreational activities based on ecological factors? Do you want to increase tourism, or instead ensure it does not decline?</p>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table>
+<table style="width:112%;">
+<colgroup>
+<col width="22%" />
+<col width="34%" />
+<col width="27%" />
+<col width="27%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -3359,7 +3115,13 @@ as Canada, to be unduly penalized.--->
 <p>For each contamination category, a reference point is set and all data in this category is scaled to 1. The type of <strong>reference point</strong> used will depend on the data available. You may decided that an ocean completely rid of pollution is ideal, or you may find that beach closure of less than 10 days per year due to <em>E.coli</em> contamination is acceptable.</p>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table>
+<table style="width:107%;">
+<colgroup>
+<col width="16%" />
+<col width="34%" />
+<col width="27%" />
+<col width="27%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -3476,7 +3238,13 @@ as Canada, to be unduly penalized.--->
 <p></span></p>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table>
+<table style="width:103%;">
+<colgroup>
+<col width="12%" />
+<col width="34%" />
+<col width="25%" />
+<col width="30%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -3559,7 +3327,13 @@ as Canada, to be unduly penalized.--->
 <p>Alternatively, the reference point could be guided by a policy target. For example, are there any climate change policies in your area, with defined targets and objectives? Are there any restoration or carbon storage projects in your area? Do any organizations offer guidance on the amount of carbon storage your management policies should be aiming for?</p>
 <p><strong><em>Examples of the Approaches</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table>
+<table style="width:103%;">
+<colgroup>
+<col width="12%" />
+<col width="34%" />
+<col width="25%" />
+<col width="30%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Assessment</th>
@@ -3650,7 +3424,11 @@ as Canada, to be unduly penalized.--->
 <p>If you are not able to find local data for stressors, you may use the data from the global assessments for your country. For most of the stressors, this means that there will not be differences between the regions within your study area. However, several stressors included in the global assessment are based on spatial data at high resolution from previous work by Halpern <em>et al.</em> (2008) in <em>Science:</em> <a href="http://www.sciencemag.org/content/319/5865/948.abstract">A global map of human impact on marine ecosystems</a>. These data are available at a resolution of 1 km^2 for the entire global ocean, and can be extracted for the regions in your study area. The stressors available at 1km^2 resolution are indicated below with ** ** **.</p>
 <p><span style="font-size:0.8em"></p>
 <p><strong>Table of pressures layers and descriptions</strong></p>
-<table>
+<table style="width:162%;">
+<colgroup>
+<col width="25%" />
+<col width="137%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">layer</th>
@@ -3836,7 +3614,11 @@ as Canada, to be unduly penalized.--->
 <h4><span class="header-section-number">9.5.3.1</span> Including resilience measures from global assessments</h4>
 <p>Remember that local measures are far more appropriate than those included in global assessments, which likely do not reflect local management targets. However, international data were used in the global assessments that are available to you if you cannot find better local data:</p>
 <p><strong>Table of resilience layers and descriptions</strong></p>
-<table>
+<table style="width:122%;">
+<colgroup>
+<col width="31%" />
+<col width="90%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th align="left">layer</th>
@@ -4156,7 +3938,7 @@ as Canada, to be unduly penalized.--->
 <ol style="list-style-type: decimal">
 <li><strong>Goal model equation:</strong></li>
 </ol>
-<p><span class="math">\[
+<p><span class="math display">\[
 x_{CW} = \sqrt[4]{a * u * l * d}
 \]</span></p>
 <ol start="2" style="list-style-type: decimal">
@@ -4490,9 +4272,11 @@ harvest1 &lt;- harvest %&gt;%
 <div id="dplyrgroup_by" class="section level4">
 <h4><span class="header-section-number">13.0.3.7</span> dplyr::group_by()</h4>
 <p><strong>Description</strong></p>
-<p><code>group_by()</code> allows you to easily group a dataset by one or more variables/columns.<br />By itself, it does nothing to change your data. But once your dataset has been sorted into useful groups, other <code>dplyr</code> functions will operate on each group separately, rather than operating on the entire dataset. * The function <code>groups(data)</code> reports back the current grouping status of dataframe <code>data</code>.</p>
+<p><code>group_by()</code> allows you to easily group a dataset by one or more variables/columns.<br />
+By itself, it does nothing to change your data. But once your dataset has been sorted into useful groups, other <code>dplyr</code> functions will operate on each group separately, rather than operating on the entire dataset. * The function <code>groups(data)</code> reports back the current grouping status of dataframe <code>data</code>.</p>
 <ul>
-<li><code>group_by()</code> alters the grouping, but does not alter the sort order.<br /><code>arrange()</code> does not alter the current grouping - it will sort by groups first, then sorts within each group.</li>
+<li><code>group_by()</code> alters the grouping, but does not alter the sort order.<br />
+<code>arrange()</code> does not alter the current grouping - it will sort by groups first, then sorts within each group.</li>
 <li>Multiple calls to <code>group_by()</code> will reset the groupings each time (by default), rather than adding additional layers of groups.</li>
 <li>Once you have finished with your operation at the group level, it is a good practice to use the <code>ungroup()</code> function to remove the groupings, to avoid unintended consequences due to forgotten <code>group_by()</code> calls.</li>
 </ul>
