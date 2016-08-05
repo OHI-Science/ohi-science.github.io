@@ -115,13 +115,15 @@
 <li><a href="#modifying-pressures-categories-and-matrix"><span class="toc-section-number">6.4</span> Modifying Pressures Categories and Matrix</a><ul>
 <li><a href="#create-the-new-pressure-layers-and-save-in-the-layers-folder"><span class="toc-section-number">6.4.1</span> Create the new pressure layers and save in the <code>layers</code> folder</a></li>
 <li><a href="#register-the-new-pressure-layers-in-layers.csv"><span class="toc-section-number">6.4.2</span> Register the new pressure layers in <code>layers.csv</code></a></li>
-<li><a href="#register-the-new-layers-in-pressure_matrix.csv"><span class="toc-section-number">6.4.3</span> Register the new layers in <code>pressure_matrix.csv</code></a></li>
+<li><a href="#register-in-pressures_categories.csv"><span class="toc-section-number">6.4.3</span> Register in <code>pressures_categories.csv</code></a></li>
+<li><a href="#register-in-pressure_matrix.csv"><span class="toc-section-number">6.4.4</span> Register in <code>pressure_matrix.csv</code></a></li>
 </ul></li>
 <li><a href="#modify-resilience-categories-and-matrix"><span class="toc-section-number">6.5</span> Modify Resilience Categories and Matrix</a><ul>
 <li><a href="#steps-involved-in-modifying-resilience-information"><span class="toc-section-number">6.5.1</span> Steps involved in modifying resilience information</a></li>
-<li><a href="#understanding-resilience-categories"><span class="toc-section-number">6.5.2</span> Understanding resilience Categories</a></li>
-<li><a href="#understanding-resilience-matrix"><span class="toc-section-number">6.5.3</span> Understanding resilience Matrix</a></li>
-<li><a href="#how-to-modify-config.r"><span class="toc-section-number">6.5.4</span> How to modify Config.R</a></li>
+<li><a href="#create-new-resilience-layers-save-in-layers-folder-and-register-in-layers.csv"><span class="toc-section-number">6.5.2</span> Create new resilience layers, save in <code>layers</code> folder and register in <code>layers.csv</code></a></li>
+<li><a href="#register-in-resilience-categories"><span class="toc-section-number">6.5.3</span> Register in Resilience Categories</a></li>
+<li><a href="#register-in-resilience-matrix"><span class="toc-section-number">6.5.4</span> Register in Resilience Matrix</a></li>
+<li><a href="#how-to-modify-config.r"><span class="toc-section-number">6.5.5</span> How to modify Config.R</a></li>
 </ul></li>
 <li><a href="#modifying-the-pressures-matrix-for-goals-with-categories"><span class="toc-section-number">6.6</span> Modifying the pressures matrix for goals with categories</a><ul>
 <li><a href="#background"><span class="toc-section-number">6.6.1</span> Background</a></li>
@@ -129,9 +131,15 @@
 <li><a href="#example-2-resilience"><span class="toc-section-number">6.6.3</span> Example 2: Resilience</a></li>
 </ul></li>
 <li><a href="#removing-goals"><span class="toc-section-number">6.7</span> Removing goals</a></li>
-<li><a href="#calculate-overall-ohi-index-scores"><span class="toc-section-number">6.8</span> Calculate overall OHI Index Scores</a><ul>
-<li><a href="#additional-data-layers-for-pressures-and-resilience-calculations"><span class="toc-section-number">6.8.1</span> Additional data layers for pressures and resilience calculations</a></li>
-<li><a href="#final-calculation"><span class="toc-section-number">6.8.2</span> Final calculation</a></li>
+<li><a href="#remove-subgoals-from-a-goal"><span class="toc-section-number">6.8</span> Remove Subgoals from a Goal</a><ul>
+<li><a href="#remove-subgoals-from-goals.csv"><span class="toc-section-number">6.8.1</span> Remove subgoals from <code>goals.csv</code></a></li>
+<li><a href="#remove-subgoals-from-functions.r"><span class="toc-section-number">6.8.2</span> Remove subgoals from <code>functions.r</code></a></li>
+<li><a href="#remove-subgoals-from-pressures_matrix.csv"><span class="toc-section-number">6.8.3</span> Remove subgoals from <code>pressures_matrix.csv</code></a></li>
+<li><a href="#remove-subgoals-from-resilience_matrix.csv"><span class="toc-section-number">6.8.4</span> Remove subgoals from <code>resilience_matrix.csv</code></a></li>
+</ul></li>
+<li><a href="#calculate-overall-ohi-index-scores"><span class="toc-section-number">6.9</span> Calculate overall OHI Index Scores</a><ul>
+<li><a href="#additional-data-layers-for-pressures-and-resilience-calculations"><span class="toc-section-number">6.9.1</span> Additional data layers for pressures and resilience calculations</a></li>
+<li><a href="#final-calculation"><span class="toc-section-number">6.9.2</span> Final calculation</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#toolbox-troubleshooting"><span class="toc-section-number">7</span> Toolbox Troubleshooting</a><ul>
@@ -632,9 +640,10 @@ So I am guessing that is all that is really needed.--->
 <li><code>layers.csv</code></li>
 <li><code>goals.csv</code></li>
 <li><code>layers-empty_swampping-global-mean.csv</code></li>
+<li><code>pressures_categories.csv</code></li>
 <li><code>pressures_matrix.csv</code></li>
+<li><code>resilience_categories.csv</code></li>
 <li><code>resilience_matrix.csv</code></li>
-<li><code>resilience_weights.csv</code></li>
 <li><code>scores.csv</code></li>
 </ul>
 <p><strong>raw data layers in “prep” folder</strong></p>
@@ -775,14 +784,16 @@ So I am guessing that is all that is really needed.--->
 <blockquote>
 <p>TIP: It’s important to check <code>goals.csv</code>’s weightings and preindex functions when you change goal or sub-goal model equations in <code>functions.r</code>.</p>
 </blockquote>
+<p><strong>pressures_categories.csv</strong></p>
+<p>This is a table to record the <em>name</em> of each pressures data layer, its <em>category</em>, and <em>sub-category</em>. Each data layer name is the same name that’s saved in the <code>layers</code> folder and is registered in <code>layers.csv</code>. Each layer falls under one of two categories - ecological or social pressures, and one of several sub-categories to further represent the origin of the pressure (eg. climate change, fishing, etc), which is also indicated by a prefix of each data layer name (for example: <code>po_</code> for the pollution sub-category). For more information, see <a href="http://ohi-science.org/manual/#modifying-pressures-categories-and-matrix">how to modify pressures layers</a>.</p>
 <p><strong>pressures_matrix.csv</strong></p>
-<p>It is a table that indicates which individual pressures (stressors) affect which goal, sub-goals, or components, and weights them from 1-3 (a weight of 0 is shown as a blank). These weights are relative to each row of the matrix (goal, sub-goal, or component). These weights are used in global assessments based on scientific literature and expert opinion, and you can modify the weightings if necessary for your assessment. The pressures matrix is the same as Table S25 in the Supplementary Information for Halpern <em>et al.</em> 2012.</p>
-<p>Each pressure (column) of the pressures matrix is the layer name of the pressures layer file that is saved in the <code>layers</code> folder and is registered in <code>layers.csv</code>. Pressures layers have values for every region in the study area and the filenames have prefixes to indicate the pressure category (for example: <code>po_</code> for the pollution category). Pressures values are scaled such that all values range from 0-1.</p>
+<p>It is a table that indicates which individual pressures (stressors) affect which goal, sub-goals, or components, and weights them from 1-3 (a weight of 0 is shown as a blank). A higher weight indicates more negative impacts on that goal or component of the goal. These weights are relative to each row of the matrix (goal, sub-goal, or component). These weights are used in global assessments based on scientific literature and expert opinion, and you can modify the weightings if necessary for your assessment. The pressures matrix is the same as Table S25 in the Supplementary Information for Halpern <em>et al.</em> 2012.</p>
+<p>Each pressure (column) of the pressures matrix is the layer name of the pressures layer file that is saved in the <code>layers</code> folder and is registered in <code>layers.csv</code>, matching what’s recorded in the <em>pressures_categories.csv</em>. For more information, see <a href="http://ohi-science.org/manual/#modifying-pressures-categories-and-matrix">how to modify pressures layers</a>.</p>
+<p><strong>resilience_categories.csv</strong></p>
+<p>Similar to <em>pressures_categories.csv</em>, this file contains information on each resilience data layer, including its name, category, and sub-category. Each resilience layer’s name is the same as the data layer to be saved in the <code>layers</code> folder and is registered in <code>layers.csv</code>. In addition, it also includes information on <em>category type</em> - ecosystem, regulatory, or social, indicating the origin of the resilience layer.</p>
+<p>Each resilience layer is also assigned a weight of 0-1, representing the level of resilience against pressures. Different from the values used in pressures matrix, the resilience weights depend on the level of information available. For more information, read <a href="http://ohi-science.org/manual/#modify-resilience-categories-and-matrix">how to modify resilience layers</a>.</p>
 <p><strong>resilience_matrix.csv</strong></p>
-<p>It is a table that indicates which individual resilience measures affect which goal, sub-goals, or components. Like the pressures matrix, the resilience matrix also has weights, but these weights depend on the level of information available. These weights are stored in a separate file in the <code>conf</code> folder: <code>resilience_weights.csv</code>. The resilience matrix is the same as Table S26 in the Supplementary Information for Halpern <em>et al.</em> 2012.</p>
-<p>Each resilience measure (column) of the resilience matrix is the layer name of the resilience layer file that is saved in the <code>layers</code> folder and is registered in <code>layers.csv</code>. Resilience layers have values for every region in the study area. Resilience values are scaled such that all values range from 0-1.</p>
-<p><strong>resilience_weights.csv</strong></p>
-<p><code>resilience_weights.csv</code> is a table that indicates the weight of each resilience layer based on the level of information available.</p>
+<p>It is a table that indicates which individual resilience measures affect which goal, sub-goals, or components. These weights are stored in a separate file in the <code>conf</code> folder: <code>resilience_weights.csv</code>. The resilience matrix is the same as Table S26 in the Supplementary Information for Halpern <em>et al.</em> 2012. For more information, read <a href="http://ohi-science.org/manual/#modify-resilience-categories-and-matrix">how to modify resilience layers</a>.</p>
 <p><strong>scores.csv</strong></p>
 <p><code>scores.csv</code> is a text file containing the calculated scores for each dimension (future, pressures, resilience, score, status, trend) for each region in the study area. Regions have the numeric identifiers set in <code>subcountry2014/layers/rgn_labels.csv</code> and the study area has the numeric identifier of 0. Scores are calculated with registered layers in <code>layers.csv</code>: when you begin an assessment this will be information for your country from the global 2014 assessment and goal models from the global 2014 assessment. Scores from <code>scores.csv</code> are viewed through the WebApp using the ‘Output Score’ pulldown menu on the ‘App’ page.</p>
 <p><strong>layers-empty_swapping-global-mean.csv</strong> <code>layers-empty_swapping-global-mean.csv</code> contains a list of layers where information for your country was not available for the global assessment. For the Toolbox to be able to run, these layers were filled with averages from all other countries included in the global assessment. This file is not used anywhere by the Toolbox but is a registry of layers that should prioritized to be replaced with your own local layers if you require these layers for the models you develop.</p>
@@ -1313,25 +1324,18 @@ now we’ve successfully calculated status and trend, the last thing we need to 
 <ol style="list-style-type: decimal">
 <li>Create new pressure layer(s) and save in the <code>layers</code> folder</li>
 <li>Register pressure layer(s) in <code>layers.csv</code></li>
-<li>Register pressure layer(s) in <code>pressures_matrix.csv</code></li>
+<li>Register in <code>pressures_categories.csv</code></li>
+<li>Register in <code>pressures_matrix.csv</code></li>
 </ol>
 <ul>
 <li><ol style="list-style-type: lower-alpha">
-<li>Set the pressure category<br />
-</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: lower-alpha">
 <li>Identify the goals affected and set the weighting</li>
 </ol></li>
-<li><ol start="3" style="list-style-type: lower-alpha">
-<li>Modify the resilience matrix (if necessary)</li>
-</ol></li>
 </ul>
-<ol start="4" style="list-style-type: decimal">
+<ol start="5" style="list-style-type: decimal">
 <li>Modify Config.R for goals that have elements</li>
 </ol>
 </blockquote>
-<p>The following is an example of adding two new pressures layers.</p>
 <div id="create-the-new-pressure-layers-and-save-in-the-layers-folder" class="section level3">
 <h3><span class="header-section-number">6.4.1</span> Create the new pressure layers and save in the <code>layers</code> folder</h3>
 <p>If you create a new data layer, give it a short but descriptive name that also includes a prefix that signifies the pressure category (for example: <em>po_</em> for the pollution category). There are five physical categories and one social category:</p>
@@ -1344,7 +1348,6 @@ now we’ve successfully calculated status and trend, the last thing we need to 
 <li><em>ss_</em> = social pressure</li>
 </ul>
 <p>So for example, <code>po_trash</code> is a pollution layer with trash on beaches, and <code>sp_alien</code> is species pollution due to alien (invasive) species.</p>
-<p>In the current example, the two new layers created to account for the input and output effects of desalination operations will be called <em>po_desal_in</em>, and <em>po_desal_out</em>.</p>
 <p>These new layers will have scores from 0 to 1, with values for each region in your study area, and will be saved in the <code>layers</code> folder.</p>
 </div>
 <div id="register-the-new-pressure-layers-in-layers.csv" class="section level3">
@@ -1355,30 +1358,35 @@ now we’ve successfully calculated status and trend, the last thing we need to 
 
 </div>
 </div>
-<div id="register-the-new-layers-in-pressure_matrix.csv" class="section level3">
-<h3><span class="header-section-number">6.4.3</span> Register the new layers in <code>pressure_matrix.csv</code></h3>
-<p><code>pressures_matrix.csv</code> identifies the different types of ocean pressures (columns) with the goals that they affect (rows). Adding a new pressures layer to <code>pressures_matrix.csv</code> requires adding a new column with the pressure layer name.</p>
-<div id="set-the-pressure-category" class="section level4">
-<h4><span class="header-section-number">6.4.3.1</span> Set the pressure category</h4>
-<p>This step requires transferring previous decisions made by your team into <code>pressures_matrix.csv</code>. Each pressure category is calculated separately before being combined with the others, so it is important to register the new pressure with the appropriate category prefix decided by your regional assessment team.</p>
+<div id="register-in-pressures_categories.csv" class="section level3">
+<h3><span class="header-section-number">6.4.3</span> Register in <code>pressures_categories.csv</code></h3>
+<p>This is a table to record the <em>name</em> of each pressures data layer, its <em>category</em>, and <em>sub-category</em>. Each data layer name is the same name that’s saved in the <code>layers</code> folder and is registered in <code>layers.csv</code>. Each layer falls under one of two categories - ecological or social pressures, and one of several sub-categories to further represent the origin of the pressure (eg. climate change, fishing, etc), which is also indicated by a prefix of each data layer name.</p>
+<p>Each pressure category is calculated separately before being combined with the others, so it is important to register the new pressure with the appropriate category prefix decided by your regional assessment team.</p>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/1qVCPgPZ2KImrO0mPIarhV0WlcOKW96E33VLI-6i3eCw/pub?w=800&amp;h=720" alt="" />
+
+</div>
+</div>
+<div id="register-in-pressure_matrix.csv" class="section level3">
+<h3><span class="header-section-number">6.4.4</span> Register in <code>pressure_matrix.csv</code></h3>
+<p><code>pressures_matrix.csv</code> identifies the different types of ocean pressures with the goals that they affect. Adding a new pressures layer to <code>pressures_matrix.csv</code> requires adding a new column with the pressure layer name.</p>
+<p>The columns <code>element</code> (and <code>element_name</code>) record habitat types for habitat-specefic goals (eg. CS and CP) and industrial sectors for economy-based goals (eg. ECO).</p>
+<p>The rest of the column headers of the pressures matrix are the layer names of the pressures layer file that are saved in the <code>layers</code> folder and registered in <code>layers.csv</code>, matching what’s recorded in the <em>pressures_categories.csv</em>.</p>
+<p><em><strong>NOTE</strong>: Make sure to remove unused pressures layers from the <code>layers.csv</code>, <code>pressures_marix.csv</code> and <code>pressures_categories.csv</code>. Otherwise ohicore will search for all the layers registered in those files and calculations will halt if it encounters pressure layers that do not exist.</em></p>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/1PiueTs_r2IvC10zsStJq-tD3YcsC98eRKr1e2OOVKUw/pub?w=800&amp;h=720" alt="" />
+
 </div>
 <div id="identify-the-goals-affected-and-set-the-weighting" class="section level4">
-<h4><span class="header-section-number">6.4.3.2</span> Identify the goals affected and set the weighting</h4>
+<h4><span class="header-section-number">6.4.4.1</span> Identify the goals affected and set the weighting</h4>
 <p>This step also requires transferring prior decisions into <code>pressures_matrix.csv</code>. Mark which goals are affected by this new pressure, and then set the weighting. Pressures weighting by goal should be based on scientific literature and expert opinion (3 = highly influential pressure, 2 = moderately influential pressure, 1 = not very influential pressure). Remember that the rankings in the pressures matrix are separate from the actual data within the pressures data layers. The rankings ensure that within a particular goal (e.g. within a row of the pressures matrix), the stressors that more strongly influence the goal’s delivery have a larger contribution to that goal’s overall pressure score. Therefore, the rankings are assigned independently of the actual pressure scores, and only determine their importance within the calculations.</p>
 </div>
-<div id="modify-config.r" class="section level4">
-<h4><span class="header-section-number">6.4.3.3</span> Modify Config.R</h4>
-<div class="figure">
-<img src="https://cloud.githubusercontent.com/assets/5685517/15717970/233025f8-27de-11e6-9ac6-a96d4e16483d.png" alt="Pressure Matrix" />
-<p class="caption">Pressure Matrix</p>
-</div>
+<div id="modify-config.r-for-goals-that-have-components" class="section level4">
+<h4><span class="header-section-number">6.4.4.2</span> Modify Config.R for goals that have components</h4>
+<p>If in <em>pressures_matrix.csv</em>, the columns <code>element</code> (and <code>element_name</code>) are filled, you need to update <code>Config.R</code> in <code>conf</code> folder.</p>
 <div class="figure">
 <img src="https://cloud.githubusercontent.com/assets/5685517/15717944/045e03d4-27de-11e6-9968-f4bf83cb1168.png" alt="config.R" />
 <p class="caption">config.R</p>
-</div>
-<div class="figure">
-<img src="fig/register_new_pressures.png" alt="" />
-
 </div>
 </div>
 </div>
@@ -1418,15 +1426,19 @@ now we’ve successfully calculated status and trend, the last thing we need to 
 </ol>
 </blockquote>
 </div>
-<div id="understanding-resilience-categories" class="section level3">
-<h3><span class="header-section-number">6.5.2</span> Understanding resilience Categories</h3>
+<div id="create-new-resilience-layers-save-in-layers-folder-and-register-in-layers.csv" class="section level3">
+<h3><span class="header-section-number">6.5.2</span> Create new resilience layers, save in <code>layers</code> folder and register in <code>layers.csv</code></h3>
+<p>This process is similar to what you have done for the pressures data layers. Prefixes are also used for these layers, see <em>layer</em> and <em>subcategory</em> columns snapshot of the Resilience Categories below for more details.</p>
+</div>
+<div id="register-in-resilience-categories" class="section level3">
+<h3><span class="header-section-number">6.5.3</span> Register in Resilience Categories</h3>
 <!-- The first step is to determine which resilience layers from the global assessment are relevant to your assessment, and whether others need to be added. -->
 <p><code>resilience_categories.csv</code> records general information on each resilience data layer. The full list of layers included in the global resilience matrix are shown in the <code>resilience_matrix.csv</code>:</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1FrIvhMdWO6M2Ri3CO2gdEY9vfSpfKfzJnNkE-T8rce4/pub?w=960&amp;h=720" alt="" />
+<img src="https://docs.google.com/drawings/d/1FrIvhMdWO6M2Ri3CO2gdEY9vfSpfKfzJnNkE-T8rce4/pub?w=800&amp;h=720" alt="" />
 
 </div>
-<p>Each <em>resilience layer</em> indicated in the table is a data layer just like all the other data layers you have formatted, saved in the layers folder, and registered on layers.csv. Each layer falls under a <code>category</code> of resilience - ecological or social, and one of three <code>category-type</code>s - ecosystem, regulatory, or social. The <code>Subcategory</code> column indicates what specific pressure each layer of resilience is targered at. The prefix of each data layer corresponds to its Subcategory (eg. po, li, g, etc).</p>
+<p>Each <em>resilience layer</em> indicated in the table is a data layer just like all the other data layers you have formatted, saved in the layers folder, and registered on <em>layers.csv</em>. Each layer falls under a <code>category</code> of resilience - ecological or social, and one of three <code>category-type</code>s - ecosystem, regulatory, or social, representing the origin of each resilience layer. The <code>Subcategory</code> column indicates what specific pressure each layer of resilience is targered at. The prefix of each data layer corresponds to its Subcategory (eg. po, li, g, etc).</p>
 <p>In addition, the <code>Weight</code> column respresents level of institutional governnace. Governance is a function of 1) institutional structures that address the intended objective (eg. wheter appropriate laws/regulations exist, etc), 2) a clear process for <em>implementing</em> the institution is in place, and 3) whether the institution has been <em>effective</em> at meeting stated objectives. At global scales it is very difficult to assess these three elements; we usually only had information on whether institutions exist. However, in some cases we had detailed information on institutions that enabled us to assess whether they would contribute to effective management, and thus, increased ocean health. In those latter cases, we gave more weight to those measures. In the <code>resilience_categories.csv</code> pre-loaded from OHI-Global 2016 to your repository, there are two weights assigned to each layer:</p>
 <ul>
 <li><em>0.5</em> means that a law or regulation exists, or a country has signed an appropriate treaty</li>
@@ -1434,11 +1446,11 @@ now we’ve successfully calculated status and trend, the last thing we need to 
 </ul>
 <p>However, you can redefine how the weights are set to available information in your regions.</p>
 </div>
-<div id="understanding-resilience-matrix" class="section level3">
-<h3><span class="header-section-number">6.5.3</span> Understanding resilience Matrix</h3>
+<div id="register-in-resilience-matrix" class="section level3">
+<h3><span class="header-section-number">6.5.4</span> Register in Resilience Matrix</h3>
 <p><code>resilience_matrix.csv</code> maps the different types of resilience (columns) with the goals that they affect (rows). Whether a resilience layer has any influence on a goal, or an element of the goal, is represented by an <em>x</em>, or its absence. For example, <code>po_water</code> layer is relevant to the <em>salt marsh</em> element of <em>CP</em> goal, as shown by the <em>x</em> in the cell. On the other hand, that data layer does not apply to the <em>mangrove</em> element of the same goal, hence the absence of an <em>x</em>.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1zMxIbz_a0FixyKmFpsh81ztMe24EfeXgHwPUnI-lopc/pub?w=960&amp;h=720" alt="" />
+<img src="https://docs.google.com/drawings/d/1zMxIbz_a0FixyKmFpsh81ztMe24EfeXgHwPUnI-lopc/pub?w=800&amp;h=720" alt="" />
 
 </div>
 <p>New resilience layers may be added to <code>resilience_matrix.csv</code> based on finer-scale local information either in response to a new pressures layer, or as a new independent measure. Any added layer must be associated with a pressures layer that has a weight of 2 or 3 in the OHI framework so that resilience measures can mitigate pressures in each region.</p>
@@ -1451,9 +1463,9 @@ The habitats assessed for `ohi-israel` are:
 > `rocky_reef`, `sand_dunes`, `soft_bottom` -->
 </div>
 <div id="how-to-modify-config.r" class="section level3">
-<h3><span class="header-section-number">6.5.4</span> How to modify Config.R</h3>
+<h3><span class="header-section-number">6.5.5</span> How to modify Config.R</h3>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/183rvzM21mq018TiHEEzqMmoUEeime1W700ebW3iAEbw/pub?w=960&amp;h=540" alt="" />
+<img src="https://docs.google.com/drawings/d/183rvzM21mq018TiHEEzqMmoUEeime1W700ebW3iAEbw/pub?w=800&amp;h=540" alt="" />
 
 </div>
 <div class="figure">
@@ -1644,11 +1656,57 @@ In addition: Warning messages:
 
 </div>
 </div>
+<div id="remove-subgoals-from-a-goal" class="section level2">
+<h2><span class="header-section-number">6.8</span> Remove Subgoals from a Goal</h2>
+<p>If you decide that a goal that has subgoals (eg. BD, LE, FP) should be assessed as an individual goal due to data limitation or other reasons, you can remove the subgoals. We will use BD as an example to illustrate how.</p>
+<p><code>ohicore</code> pulls information from several files and scripts to combine scores from subgoals to calculate overall goal scores. The process of removing subgoals thus involves removing subgoal information from all these files:</p>
+<ul>
+<li><code>goals.csv</code></li>
+<li><code>functions.r</code></li>
+<li><code>pressures_matrix.csv</code></li>
+<li><code>resilience_matrix.csv</code></li>
+</ul>
+<p><em><strong>NOTE</strong>: These steps do not need to occur in this sequence.</em></p>
+<div id="remove-subgoals-from-goals.csv" class="section level3">
+<h3><span class="header-section-number">6.8.1</span> Remove subgoals from <code>goals.csv</code></h3>
+<p><code>goals.csv</code> is a table with information about the relationship between goals and sub-goals. This includes the weight of each goal that is used to calculate the final Index scores when all goals are combined. These are indicated by two columns: preindex_function (functions for all goals that do not have sub-goals, and functions for all sub-goals) and postindex_function (functions for goals with sub-goals).</p>
+<p>As illustrated in the graph below, removing the subgoals involves simplifying how BD and its subgoals are registered in the columns shown here:</p>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/1TUDfU2mG-QlXa3Huq_r8EwcgDPEa1RCaVQfpWnY49Uo/pub?w=830&amp;h=720" alt="" />
+
+</div>
+</div>
+<div id="remove-subgoals-from-functions.r" class="section level3">
+<h3><span class="header-section-number">6.8.2</span> Remove subgoals from <code>functions.r</code></h3>
+<p><code>functions.r</code>contains the R codes to calculate status and trend for each goal and sub-goal, contained within individual functions. Calculations are done using prepared layers saved in the <em>layers</em> folder and registered in <em>layers.csv</em>. As shown below, HAB and SPP each has its own function, calling data layers from <em>layers</em>. The BD function combines HAB and SPP scores, calling <em>scores</em>.</p>
+<p>To remove the subgoals, you can delete functions for HAB and SPP completely, and write a function for BD as you would for any goal, calling <em>layers</em>.</p>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/1uTqbXyac72bE7yr2FZI9QEVGo1fSNgO4DXk1PIFk950/pub?w=960&amp;h=720" alt="" />
+
+</div>
+</div>
+<div id="remove-subgoals-from-pressures_matrix.csv" class="section level3">
+<h3><span class="header-section-number">6.8.3</span> Remove subgoals from <code>pressures_matrix.csv</code></h3>
+<p>This table indicates which individual pressures (stressors) affect which goal, sub-goals, or components, and weights them from 1-3 based on the degree of impacts. To remove subgoals from this matrix, you can simply delete the rows for each subgoal (HAB and SPP), and add a new row for BD, and treat BD as you would an individual goal with no subgoals.</p>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/1sgZyyiQyPIWUn3_BojsBuQC_sbM4t_BW8YNGNqSd31w/pub?w=800&amp;h=720" alt="" />
+
+</div>
+</div>
+<div id="remove-subgoals-from-resilience_matrix.csv" class="section level3">
+<h3><span class="header-section-number">6.8.4</span> Remove subgoals from <code>resilience_matrix.csv</code></h3>
+<p>This table records information on which individual resilience measures affect which goal, sub-goals, or components. Similar to what you would do with ‘pressures_matrix.csv’, you can delete the rows for HAB adn SPP, and add a new row for BD.</p>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/1JUGogjH08_2KlOebKYxCR-JZFYGp5-6VwLYylblpWdw/pub?w=800&amp;h=720" alt="" />
+
+</div>
+</div>
+</div>
 <div id="calculate-overall-ohi-index-scores" class="section level2">
-<h2><span class="header-section-number">6.8</span> Calculate overall OHI Index Scores</h2>
+<h2><span class="header-section-number">6.9</span> Calculate overall OHI Index Scores</h2>
 <p>Congratulations if you’ve finished all goal model modifications as they are the most time-consuming part of the Index calculation process! In the goal model modification step, you’ve calculated goal status and trend, there are only a couple of more steps to do to calculate the overall index score, including calculating pressures and resilience.</p>
 <div id="additional-data-layers-for-pressures-and-resilience-calculations" class="section level3">
-<h3><span class="header-section-number">6.8.1</span> Additional data layers for pressures and resilience calculations</h3>
+<h3><span class="header-section-number">6.9.1</span> Additional data layers for pressures and resilience calculations</h3>
 <p>So far you would have prepared the pressure and resilience matrices, as well as the appropriate data layers, a few more data layers are needed to complete the calculation. They are identified in <code>sub-country/conf/config.R</code> as follows:</p>
 <pre><code># components describe the layer and level with which to aggregate resilience and pressures matrices for goals with categories
 resilience_components = list(&#39;NP&#39;  = c(&#39;layer&#39;=&#39;np_harvest_product_weight&#39; , &#39;level&#39;=&#39;region_id-category&#39;),  
@@ -1710,7 +1768,7 @@ m = layers$data[[&#39;hab_extent&#39;]] %&gt;%
 <p><code>le_sector_weight</code> assigns relative importance of each sector listed in Livelihood &amp; Economies goal. By default, all sectors are considered equal and assigned a weight of “1”. One thing to pay special attention to is the <code>sector</code> names, which should match <code>component</code> names that were listed in the pressures matrix.</p>
 </div>
 <div id="final-calculation" class="section level3">
-<h3><span class="header-section-number">6.8.2</span> Final calculation</h3>
+<h3><span class="header-section-number">6.9.2</span> Final calculation</h3>
 <p>Go back to <code>calculate_scores.r</code>, now you are ready for the final calculations:</p>
 <pre><code># calculate scenario scores
 scores = CalculateAll(conf, layers, debug=F)
