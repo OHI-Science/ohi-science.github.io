@@ -89,10 +89,14 @@
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="{{ ASSET_PATH }}OHI/js/nav.js"></script>
     <script src="{{ ASSET_PATH }}OHI/js/search.js"></script>
+    <script src="{{ ASSET_PATH }}OHI/js/createStripes.js"></script>
     
     <!--  
     {% comment %} Add the 'js' variable to the page front matter to include a custom js script on that page only {% endcomment %}
     -->
+    {% if layout.js %}
+    	<script src="{{ ASSET_PATH }}OHI/js/{{ layout.js }}.js"></script>
+    {% endif %}
     {% if page.js %}
     	<script src="{{ ASSET_PATH }}OHI/js/{{ page.js }}.js"></script>
     {% endif %}
