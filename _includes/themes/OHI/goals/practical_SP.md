@@ -26,17 +26,19 @@ After identifying the list of iconic species, you need to find a matrix to refle
 
 **_Examples of the Approach_**
 
-
+<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------------|
-**Global 2012** | The status was the average extinction risk of iconic species, calculated as the weighted sum of the number of species in each threat category. An increasing weight was assigned by level of extinction risk of the threat category. A list of region-specific iconic species was combined with a list of globally-recognized iconic species from the World Wildlife Fund’s global and regional lists for Priority Species and Flagship Species. | The reference point is to have the risk status as Least Concern. | The lists used were the only source that included cultural reasons for listing iconic species but they only cover a few regions and by no means capture the rich diversity of species that are iconic for local regions.
-**Global 2013** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
-**Brazil (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
-**U.S. West Coast (2014)** | This study replaced the global IUCN risk assessments with regionally-specific species assessments provided by NatureServe. | The reference point was the same as Global 2012. | Same as Global 2012, with regional data for the threat categories.
-**China (2015)** |Status model is similar to global assessments. However, average extinction risk of all assessed species was only calculated as the weighted sum of the number of species in each threat category, since habitat area per species is not obtainable. |The reference point was the same as Global 2012.|
+-----------|------------------------|-----------------------|-------------------|
+[**Global 2012**](http://ohi-science.org/assessment/global) | The status was the average extinction risk of iconic species, calculated as the weighted sum of the number of species in each threat category. An increasing weight was assigned by level of extinction risk of the threat category. A list of region-specific iconic species was combined with a list of globally-recognized iconic species from the World Wildlife Fund’s global and regional lists for Priority Species and Flagship Species. | The reference point is to have the risk status as Least Concern. | The lists used were the only source that included cultural reasons for listing iconic species but they only cover a few regions and by no means capture the rich diversity of species that are iconic for local regions.
+[**Global 2013 - 2015**](http://ohi-science.org/assessment/global) | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
+[**Brazil 2014**](http://ohi-science.org/assessment/Brazil) | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
+[**U.S. West Coast 2014**](http://ohi-science.org/assessment/US-West-Coast) | This study replaced the global IUCN risk assessments with regionally-specific species assessments provided by NatureServe. | The reference point was the same as Global 2012. | Same as Global 2012, with regional data for the threat categories.
+[**Israel 2014**](http://ohi-science.org/assessment/Israel) | See Global 2012. | The target reference point here is that all species are assessed as “Secure”, giving a goal score of 1. | The IUCN species assessments were used for the calculation of the biodiversity.
+[**Ecuador - Gulf of Guayaquil 2015**](http://ohi-science.org/assessment/Ecuador) | The same approach as Global 2012 assessment was used. | The reference point was where all Iconic spices are categorized as "least concern". | Updated with local from IUCN with iconic species of the Golfo de Guayaquil. Three species from the global study were eliminated and 13 new ones were included.
+[**China 2015**](http://ohi-science.org/assessment/China) |Status model is similar to global assessments. However, average extinction risk of all assessed species was only calculated as the weighted sum of the number of species in each threat category, since habitat area per species is not obtainable. |The reference point was the same as Global 2012.|
 
-
+</span>
 
 #### Sub-goal: Lasting Special Places
 This sub-goal focuses on those geographic locations that hold particular value for aesthetic, spiritual, cultural, recreational or existence reasons, and assesses how well they are protected.
@@ -57,20 +59,22 @@ Data sources should be specific to your region. International databases, like th
 
 Global assessment incorporated both marine and terrestrial protected areas. However, if only data on marine protected areas is available, you can calculate only the marine component of the goal. This is not ideal but OHI is flexible to work with the data available.
 
-> If you assessment involves multiple categories (e.g., antiquities, MPAs, beaches of special interest), whether you group them together or calculate each category separately depends on reference points. Maybe you want 10% of offshore water to be in MPAs, but only 5% of coastlines to be beaches and 3% Antiquities, for example; in this case, you would calculate them separately and then add them together. But if you want 10% of your country's coast to have any combination of these things, you would keep them together. 
+> If you assessment involves multiple categories (e.g., antiquities, MPAs, beaches of special interest), whether you group them together or calculate each category separately depends on reference points. Maybe you want 10% of offshore water to be in MPAs, but only 5% of coastlines to be beaches and 3% Antiquities, for example; in this case, you would calculate them separately and then add them together. But if you want 10% of your country's coast to have any combination of these things, you would keep them together.
 
 > In the Global Assessment framework, the **Sense of Place** sub-goals were weighted equally and combined in an average to create a single goal score. The two sub-goals are averaged currently in the framework. But these could be combined with a weighted average.
 
 **_Examples of the Approach_**
 
-
+<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------------|
-**Global 2012** | The status was calculated by combining the percent of coastal waters that are coastal marine protected areas and the percent of coastline that is protected. | The reference point is 30% protection for both land and sea areas.| It was assumed that it is possible to protect up to 30% of areas.
-**Global 2013** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
-**Brazil (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | this goal was assessed using a national database of protected areas that included fully-protected and sustainable use designations at federal, state and municipal levels, and included indigenous lands. The highest-scoring area contained the largest continuous extent of protected areas within the country in what is called the Biodiversity Corridor of Amapa´.
-**U.S. West Coast (2014)** | The model was the same as Global 2012. | The reference point was the same as Global 2012. |  The study used assumptions to define 'special.'
-**China (2015)** |Status model is similar to global assessments | The reference point is only 5% protection, a target set by national marine protection policies to achieve by 2020.| Only coastal marine protected areas was considered, since protected coastline information is not available.
+-----------|--------------------|-------------------|-------------------|
+[**Global 2012**](http://ohi-science.org/assessment/global) | The status was calculated by combining the percent of coastal waters that are coastal marine protected areas and the percent of coastline that is protected. | The reference point is 30% protection for both land and sea areas.| It was assumed that it is possible to protect up to 30% of areas.
+[**Global 2013 - 2015**](http://ohi-science.org/assessment/global) | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
+[**Brazil 2014**](http://ohi-science.org/assessment/Brazil) | The method was the same as Global 2012. | The reference point was the same as Global 2012. | This goal was assessed using a national database of protected areas that included fully-protected and sustainable use designations at federal, state and municipal levels, and included indigenous lands. The highest-scoring area contained the largest continuous extent of protected areas within the country in what is called the Biodiversity Corridor of Amapa´.
+[**U.S. West Coast 2014**](http://ohi-science.org/assessment/US-West-Coast) | The model was the same as Global 2012. | The reference point was the same as Global 2012. |  The study used assumptions to define 'special.'
+[**Israel 2014**](http://ohi-science.org/assessment/Israel) | Archeological Protected Areas, Beaches of Special Public Interest, and Marine Protected Areas were assessed using the same approach as the Global assessment. | Reference point was set to be areas suggested to be protected by the government.
+[**Ecuador - Gulf of Guayaquil 2015**](http://ohi-science.org/assessment/Ecuador) | This goal focuses on capturing the current value of the percentage of protected coastal areas (1 km onshore) and marine coastal (3 nm offshore) with respect to a fixed reference value. | The same as Global 2012. | Local data comes from Ministerio del Ambiente and Fundacion Natura. All areas considered are within the SNAP.
+[**China 2015**](http://ohi-science.org/assessment/China) |Status model is similar to global assessments. | The reference point is only 5% protection, a target set by national marine protection policies to achieve by 2020. | Only coastal marine protected areas was considered, since protected coastline information is not available.
 
-
+</span>
