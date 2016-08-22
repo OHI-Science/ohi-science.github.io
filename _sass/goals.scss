@@ -1,15 +1,15 @@
 $NP-color: #DE6625;
-$FP-color: #D73A26;
-$AO-color: #AD293A;
+$FP-color: #A6354E;
+$AO-color: #B94E31;
 $CS-color: #D58F33;
 $CP-color: #D5C827;
-$CP-color-darker: #BFB106;
+$CP-color-darker: #D5A227;
 $TR-color: #C5D92E;
-$TR-color-darker: #ACBD27;
+$TR-color-darker: #DAC42F;
 $LE-color: #7C9F3E;
 $SP-color: #3DBB9D;
 $BD-color: #3C7ABE;
-$CW-color: #904E9E;
+$CW-color: #4EA09F;
 
 .goals{
 	.AO{
@@ -117,6 +117,16 @@ $CW-color: #904E9E;
 	
 	table{
 		font-size: .9em;
+		
+		> colgroup > col{
+			width: 0px;
+		}
+		> tbody > tr > td{
+			width: 30%;
+		}
+		> tbody > tr > td:nth-child(1){
+			width: 10%;
+		}
 	}
 
 	

@@ -32,6 +32,16 @@
 		    	margin-bottom: 20px;
 		    }
 		}
+		
+		table > colgroup > col{
+			width: 0px;
+		}
+		table > tbody > tr > td{
+			width: 30%;
+		}
+		table > tbody > tr > td:nth-child(1){
+			width: 10%;
+		}
 	}
 	
 	h2{
@@ -55,6 +65,7 @@
 	    width: 25%;
 	    float: left;
 	    margin-right: $pad-large;
+	    overflow-y: scroll;
 	    overflow-y: overlay;
 	    padding: $pad-small * 2;
 	    position: fixed;

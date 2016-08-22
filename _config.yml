@@ -3,7 +3,7 @@
 permalink : /:categories/:title 
 
 exclude : [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Rmd"]
-highlighter : pygments
+highlighter : 
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -22,7 +22,7 @@ paginate: 5
 paginate_path: "/archives/page:num"
 gems :
   - jekyll-gist
-  - jekyll-paginator
+  - jekyll-paginate
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

@@ -10,7 +10,7 @@ group: navigation
 <div class="stripe display primary-color map">
 	<h1>Projects</h1>
 	<p>
-		Here you will find a list of current and completed Ocean Health Index assessments. OHI+ assessments are led by independent groups, who receive technical guidance and support from the OHI team but are fully responsible for all decisions made and scores produced throughout the assessment process. Note that the map below indicates where assessments are taking place although the spatial boundaries may change.
+		Here you will find a list of current and completed Ocean Health Index assessments. OHI+ assessments are led by independent groups, who receive technical guidance and support from the OHI team but are fully responsible for all decisions made and scores produced throughout the assessment process. The map below indicates where assessments are taking place. Assessments that have regions defined are shaded (darker = active, lighter = completed) and others are illustrated with a point. Click on an assessment or scroll below the map for more information. 
 	</p>
 </div>
 

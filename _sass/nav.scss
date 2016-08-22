@@ -153,6 +153,10 @@ $nav-height: $logo-height + $pad-small * 2;
 	.content > *:first-child{
 		padding-top: 80px;
 	}
+	
+	#google_translate_element{
+		margin-left: 25%; 
+	}
 }
 
 .fixed-side-nav-page{

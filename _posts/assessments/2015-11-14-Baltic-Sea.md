@@ -1,7 +1,7 @@
 ---
 layout: assessment
 title: "Baltic Sea"
-hidden: true
+excerpt_separator: <!--more-->
 category : assessment
 tags : [OHI+, Europe]
 ---

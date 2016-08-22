@@ -13,9 +13,15 @@ Our team has developed tools for quantifying human impacts on and benefits from 
 
 ![](https://docs.google.com/drawings/d/1lDG36M2pBJ-7cQ4qwp2KB8lETIJtMjeqQPst20z8n6M/pub?h=150)
 
-**Assessments using the OHI framework** can be conducted at different spatial scales and contexts. The OHI Science team uses the framework to conduct global assessments of ocean health annually from 2012-2015, with the 2016 assessment underway. The first global assessment was published accompanying the OHI framework in *Nature* 2012, and certain methods were improved for the second annual assessment published in *PLoS ONE* in 2015. With each annual assessment, models incoporate the most updated input information and processing techniques are evaluated and improved. Explore the <a href="https://github.com/OHI-Science/ohi-global/releases" target="_blank">data and methods used for OHI global assessments (including Antarctica and the High Seas)</a>, stored on GitHub. 
+**Assessments using the OHI framework** can be conducted at different spatial scales and contexts. The OHI Science team uses the framework to conduct global assessments of ocean health annually from 2012-2015, with the 2016 assessment underway. The first global assessment was published accompanying the OHI framework in *Nature* 2012, and certain methods were improved for the second annual assessment published in *PLoS ONE* in 2015. With each annual assessment, models incoporate the most updated input information and processing techniques are evaluated and improved. 
 
-For more information, please see [publications](/resources/publications) about the OHI framework, assessments and supporting research, view [presentations](/resources/downloads) describing the framework, explore [current and on-going assessments](/projects), and learn more about [OHI goals](/goals).
+### Download data and methods from OHI global assessments
+
+Data and scripts from OHI global assessments are available for 2012, 2013, 2014, and 2015. Explore the <a href="https://github.com/OHI-Science/ohi-global/releases" target="_blank">data and methods used for these assessments (including Antarctica and the High Seas)</a>, stored on GitHub. 
+
+### For more information 
+
+Please see [publications](/resources/publications) about the OHI framework, assessments and supporting research, view [presentations](/resources/downloads) describing the framework, explore [current and on-going assessments](/projects), and learn more about [OHI goals](/goals).
 
 
 ## OHI Toolbox
@@ -47,10 +53,10 @@ Cumulative Human Impacts "raw stressor data" was used to obtain pressure informa
 
 Some of the stressor data, and some methods, has been updated since the publication of the 2015 Cumulative Human Impacts data. The updated data were used in the global OHI 2015 analysis to generate pressures data. The data sources and methods used to process these data are available from GitHub for the following stressors:  
 
-- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_OceanAcidification/v2015" target="_blank">Ocean Acidification</a>  
+- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/prs_oa/v2016" target="_blank">Ocean Acidification</a>
 - <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_SeaLevelRise/v2015" target="_blank">Sea Level Rise</a>  
 - <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_SST" target="_blank">Sea Surface Temperature</a>  
-- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_UV" target="_blank">Ultraviolet Radiation</a>  
+- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/prs_uv" target="_blank">Ultraviolet Radiation</a>  
 - <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_fishing/v2015" target="_blank">Commercial Fishing</a>  
 - <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/CW_pressure_trash" target="_blank">Marine Plastics</a>  
 
