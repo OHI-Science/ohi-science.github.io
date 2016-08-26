@@ -45,8 +45,7 @@
 </ul></li>
 <li><a href="#defining-spatial-boundaries"><span class="toc-section-number">2</span> Defining spatial boundaries</a><ul>
 <li><a href="#drawing-spatial-boundaries"><span class="toc-section-number">2.1</span> Drawing spatial boundaries</a></li>
-<li><a href="#buffers"><span class="toc-section-number">2.2</span> Buffers</a></li>
-<li><a href="#updating-the-map-in-your-webapp"><span class="toc-section-number">2.3</span> Updating the map in your WebApp</a></li>
+<li><a href="#request-a-full-repository-with-offshore-boundaries"><span class="toc-section-number">2.2</span> Request a Full Repository with offshore boundaries</a></li>
 </ul></li>
 <li><a href="#discovering-and-gathering-input-information"><span class="toc-section-number">3</span> Discovering and gathering input information</a><ul>
 <li><a href="#thinking-creatively"><span class="toc-section-number">3.1</span> Thinking creatively</a></li>
@@ -119,11 +118,10 @@
 <li><a href="#register-in-pressure_matrix.csv"><span class="toc-section-number">6.4.4</span> Register in <code>pressure_matrix.csv</code></a></li>
 </ul></li>
 <li><a href="#modify-resilience-categories-and-matrix"><span class="toc-section-number">6.5</span> Modify Resilience Categories and Matrix</a><ul>
-<li><a href="#steps-involved-in-modifying-resilience-information"><span class="toc-section-number">6.5.1</span> Steps involved in modifying resilience information</a></li>
-<li><a href="#create-new-resilience-layers-save-in-layers-folder-and-register-in-layers.csv"><span class="toc-section-number">6.5.2</span> Create new resilience layers, save in <code>layers</code> folder and register in <code>layers.csv</code></a></li>
-<li><a href="#register-in-resilience-categories"><span class="toc-section-number">6.5.3</span> Register in Resilience Categories</a></li>
-<li><a href="#register-in-resilience-matrix"><span class="toc-section-number">6.5.4</span> Register in Resilience Matrix</a></li>
-<li><a href="#how-to-modify-config.r"><span class="toc-section-number">6.5.5</span> How to modify Config.R</a></li>
+<li><a href="#create-new-resilience-layers-save-in-layers-folder-and-register-in-layers.csv"><span class="toc-section-number">6.5.1</span> Create new resilience layers, save in <code>layers</code> folder and register in <code>layers.csv</code></a></li>
+<li><a href="#register-in-resilience-categories"><span class="toc-section-number">6.5.2</span> Register in Resilience Categories</a></li>
+<li><a href="#register-in-resilience-matrix"><span class="toc-section-number">6.5.3</span> Register in Resilience Matrix</a></li>
+<li><a href="#how-to-modify-config.r-for-goals-with-multiple-elements"><span class="toc-section-number">6.5.4</span> How to modify Config.R for goals with multiple elements</a></li>
 </ul></li>
 <li><a href="#modifying-the-pressures-matrix-for-goals-with-categories"><span class="toc-section-number">6.6</span> Modifying the pressures matrix for goals with categories</a><ul>
 <li><a href="#background"><span class="toc-section-number">6.6.1</span> Background</a></li>
@@ -150,9 +148,10 @@
 </ul></li>
 <li><a href="#errors-when-using-the-toolbox"><span class="toc-section-number">7.2</span> Errors when Using the Toolbox</a><ul>
 <li><a href="#useful-errors-when-calculating-scores"><span class="toc-section-number">7.2.1</span> Useful Errors when Calculating Scores</a></li>
-<li><a href="#duplicate-rows-when-checklayers-in-calculate_score.r"><span class="toc-section-number">7.2.2</span> Duplicate Rows when CheckLayers in <code>calculate_score.R</code></a></li>
-<li><a href="#calculating-pressures"><span class="toc-section-number">7.2.3</span> Calculating Pressures…</a></li>
-<li><a href="#calculating-resilience"><span class="toc-section-number">7.2.4</span> Calculating Resilience …</a></li>
+<li><a href="#checklayers-error-due-to-rows-duplicated"><span class="toc-section-number">7.2.2</span> <code>CheckLayers()</code> error due to ‘Rows Duplicated…’</a></li>
+<li><a href="#layers-error-due-to-row.names-duplicate-row.names-are-not-allowed"><span class="toc-section-number">7.2.3</span> <code>Layers()</code> error due to ‘row.names: duplicate ’row.names’ are not allowed’</a></li>
+<li><a href="#calculating-pressures"><span class="toc-section-number">7.2.4</span> Calculating Pressures…</a></li>
+<li><a href="#calculating-resilience"><span class="toc-section-number">7.2.5</span> Calculating Resilience …</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#overview-of-the-ohi-webapp"><span class="toc-section-number">8</span> Overview of the OHI WebApp</a><ul>
@@ -313,31 +312,27 @@ There are many decisions to be made when searching for and gathering data, and s
 </div>
 <div id="defining-spatial-boundaries" class="section level1">
 <h1><span class="header-section-number">2</span> Defining spatial boundaries</h1>
-<p>Boundary definitions should match the purpose of the assessment and be informed by the scale at which information is available. The boundaries displayed in your WebApp are provided by default using subcountry region definitions from Global Administrative Areas (GADM: www.gadm.org). It is possible to redefine the spatial boundaries for your study area and regions.</p>
+<p>OHI scores are calculated for each assessment <em>region</em>, and the region boundaries will be used to aggregate or disaggregate input information reported at different spatial scales. There is no limit to the number of regions in your assessment. However, the number is constrained by data availability and the utility of having scores calculated for a particular region. Ideally boundaries are drawn per management jurisdiction, and be informed by the scale at which information is available.</p>
+<p>The <a href="link_to_Starter_Repo_description">OHI Starter Repository</a> will help you organize preliminary data and make sure data availability matches your desired region assignments. Once you’ve defined your regions and drawn spatial boundaries, we can create a <a href="link_to_Full_Repo_description">Full Repository</a> for your assessment.</p>
 <blockquote>
 <p>Note that the OHI does not take a stance on disputed territories. The boundaries are defined by the original map data providers.</p>
 </blockquote>
+<!-- Add/link to a section on how to take data limitations into considertaion -->
 <div id="drawing-spatial-boundaries" class="section level2">
 <h2><span class="header-section-number">2.1</span> Drawing spatial boundaries</h2>
-<p><strong>Spatial boundaries must be drawn with geographic information system (GIS) mapping software</strong> such as ArcGIS, QGIS, or GRASS. You will need someone with GIS skills to create a <strong>shapefile</strong> that will be used by the Toolbox to display your information. The shapefile will also be used to extract information for each of your defined regions when data are reported in raster format for a different area. For more information see <a href="https://en.wikipedia.org/wiki/Geographic_information_system" class="uri">https://en.wikipedia.org/wiki/Geographic_information_system</a> and <a href="http://en.wikipedia.org/wiki/Shapefile" class="uri">http://en.wikipedia.org/wiki/Shapefile</a>.</p>
-<p>Regions must be unique (non-overlapping), and boundaries must be drawn offshore, extending to the exclusive economic zone (EEZ) edge in most cases. Offshore boundaries should be made with spatial methods in order to extend boundaries from those designated on land. One possible method is to create boundaries with Thiessen Polygons, and we provide a Python script that can be used, but it requires ArcGIS. The Python script and further details can be found at <a href="http://ohi-science.org/pages/create_regions.html" class="uri">http://ohi-science.org/pages/create_regions.html</a>. Using Thiessen Polygons, offshore boundaries are created with the following steps.</p>
-<ol style="list-style-type: decimal">
-<li>Start with land-based boundaries</li>
-<li>Draw offshore buffers for each region<br />
-</li>
-<li>But the buffers overlap</li>
-<li>For the Thiessen Polygon approach, the overlap is divided</li>
-<li>To produce the borders between the regions <img src="https://docs.google.com/drawings/d/17qXZ8Ah6WPYhP1_RQOsIA5gHBNlP8mGAFcDIxkizM58/pub?w=960&amp;h=720" alt="image" /></li>
-</ol>
+<p>Spatial boundaries must be drawn with geographic information system (GIS) mapping software such as ArcGIS, QGIS, or GRASS. You will need someone with GIS skills to create a shapefile that will be used by the Toolbox to display your information. The shapefile will also be used to extract information for each of your defined regions when data are reported in raster format for a different area. For more information see <a href="https://en.wikipedia.org/wiki/Geographic_information_system" class="uri">https://en.wikipedia.org/wiki/Geographic_information_system</a> and <a href="http://en.wikipedia.org/wiki/Shapefile" class="uri">http://en.wikipedia.org/wiki/Shapefile</a>.</p>
+<p><strong>Regions must be unique (non-overlapping), and boundaries must be drawn offshore</strong>, extending to the exclusive economic zone (EEZ) edge in most cases. Offshore boundaries should be made with spatial methods in order to extend boundaries from those designated on land.</p>
+<p>Illustrated below is a general instruction on how to do so. Exactly where to draw the offshore boundaries is up to you. You could extend the land boundaries in a straight line as shown in the example, or you could draw the boundaries perpendicular to the shoreline, etc. In any case, make sure it makes sense in your local context and <a href="http://ohi-science.org/manual/#strategically-define-spatial-boundaries-balance-information-availability-and-decision-making-scales">doesn’t conflict with your jurisdictional boundaries</a>.</p>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/17G4bcyoFg8kaEGys_6aA7dQEPVteHPQBk9YQl4iA6Dw/pub?w=960&amp;h=720" alt="" />
+
 </div>
-<div id="buffers" class="section level2">
-<h2><span class="header-section-number">2.2</span> Buffers</h2>
-<p>When drawing your regions, it is also a good idea to create <em>inland and offshore</em> buffers that will be used to extract data in your assessment. Buffers are not necessary for display in the WebApp but they will be important for later layer preparation. For example, the global assessment used coastal population information, and raster data were available for entire countries. This meant that ‘coastal’ had to be defined: for global assessments it was defined as 25 miles from the coast. To extract just the coastal population from the population raster file, we created a 25 mile inland buffer for each reporting region. But to extract mangrove data for each region from raster files, global assessments used 1km inland and 1km offshore as the buffer.</p>
-<p>At this point, you may not know which buffers you will need, as they depend on the data available, your goal models and definitions. Some buffers used in the global assessments were 1km inland, 25miles inland, 1km offshore, 3nm offshore.</p>
+<p><strong>One possible method is to create boundaries with Thiessen Polygons</strong>, and we provide a Python script that can be used, but it requires ArcGIS. The Python script and further details can be found at <a href="http://ohi-science.org/pages/create_regions.html" class="uri">http://ohi-science.org/pages/create_regions.html</a>.</p>
+<!-- It can also be done in [R](http://gis.stackexchange.com/questions/136542/r-function-for-thiessen-polygons).  -->
 </div>
-<div id="updating-the-map-in-your-webapp" class="section level2">
-<h2><span class="header-section-number">2.3</span> Updating the map in your WebApp</h2>
-<p><strong>Once you have created your boundaries with GIS software, you will need to send them to us.</strong> Please send us a .zip file of all files produced. Files with the following extensions are required (but you can send all files):</p>
+<div id="request-a-full-repository-with-offshore-boundaries" class="section level2">
+<h2><span class="header-section-number">2.2</span> Request a Full Repository with offshore boundaries</h2>
+<p><strong>In order to create a Full Repository for your assessment, we will need the shapefile for your offshore boundaries.</strong> This will help us disaggregate global data to your local regions and populate usable data layers. Please send us a .zip file of all files produced. Files with the following extensions are required (but you can send all files):</p>
 <ul>
 <li><code>.dbf</code></li>
 <li><code>.shp</code></li>
@@ -350,13 +345,26 @@ There are many decisions to be made when searching for and gathering data, and s
 <li><strong>rgn_name</strong> (unique named region identifier)</li>
 <li><strong>area_km2</strong> or <strong>area_hectare</strong> (area in km2 or hectares)</li>
 </ul>
-<p>Note that we can send you the shapefiles used to create your WebApp if you would like to modify them.</p>
 <!---From Mel: I just looked at what R produces for shapefiles, and it is: .dbf, .prj, .shp, .shx
 shp = boundaries
 dbf = database (attribute table)
 prj = projection information
 not sure what shx is....
 So I am guessing that is all that is really needed.--->
+<!-- Using Thiessen Polygons, offshore boundaries are created with the following steps.
+
+1. Start with land-based boundaries
+2. Draw offshore buffers for each region  
+3. But the buffers overlap
+4. For the Thiessen Polygon approach, the overlap is divided
+5. To produce the borders between the regions
+
+![image](https://docs.google.com/drawings/d/17qXZ8Ah6WPYhP1_RQOsIA5gHBNlP8mGAFcDIxkizM58/pub?w=960&h=720) -->
+<!-- ## Buffers
+
+When drawing your regions, it is also a good idea to create _inland and offshore_ buffers that will be used to extract data in your assessment. Buffers are not necessary for display in the WebApp but they will be important for later layer preparation. For example, the global assessment used coastal population information, and raster data were available for entire countries. This meant that 'coastal' had to be defined: for global assessments it was defined as 25 miles from the coast. To extract just the coastal population from the population raster file, we created a 25 mile inland buffer for each reporting region. But to extract mangrove data for each region from raster files, global assessments used 1km inland and 1km offshore as the buffer.  
+
+At this point, you may not know which buffers you will need, as they depend on the data available, your goal models and definitions. Some buffers used in the global assessments were 1km inland, 25miles inland, 1km offshore, 3nm offshore.-->
 </div>
 </div>
 <div id="discovering-and-gathering-input-information" class="section level1">
@@ -1381,24 +1389,20 @@ now we’ve successfully calculated status and trend, the last thing we need to 
 <h4><span class="header-section-number">6.4.4.1</span> Identify the goals affected and set the weighting</h4>
 <p>This step also requires transferring prior decisions into <code>pressures_matrix.csv</code>. Mark which goals are affected by this new pressure, and then set the weighting. Pressures weighting by goal should be based on scientific literature and expert opinion (3 = highly influential pressure, 2 = moderately influential pressure, 1 = not very influential pressure). Remember that the rankings in the pressures matrix are separate from the actual data within the pressures data layers. The rankings ensure that within a particular goal (e.g. within a row of the pressures matrix), the stressors that more strongly influence the goal’s delivery have a larger contribution to that goal’s overall pressure score. Therefore, the rankings are assigned independently of the actual pressure scores, and only determine their importance within the calculations.</p>
 </div>
-<div id="modify-config.r-for-goals-that-have-components" class="section level4">
-<h4><span class="header-section-number">6.4.4.2</span> Modify Config.R for goals that have components</h4>
-<p>If in <em>pressures_matrix.csv</em>, the columns <code>element</code> (and <code>element_name</code>) are filled, you need to update <code>Config.R</code> in <code>conf</code> folder.</p>
+<div id="modify-config.r-for-goals-with-multiple-elements" class="section level4">
+<h4><span class="header-section-number">6.4.4.2</span> Modify Config.R for goals with multiple elements</h4>
+<p>If a goal has multiple elements (eg. CS has multiple habitats), as reflected in <em>pressures_matrix.csv</em> where the columns <code>element</code> (and <code>element_name</code>) are filled, you need to update <code>Config.R</code> in <code>conf</code> folder, as shown below:</p>
 <div class="figure">
-<img src="https://cloud.githubusercontent.com/assets/5685517/15717944/045e03d4-27de-11e6-9968-f4bf83cb1168.png" alt="config.R" />
-<p class="caption">config.R</p>
+<img src="https://docs.google.com/drawings/d/14qz5DZUQAuiRaJDYfyTp2c1g1RGDKCRwN0uSPYX4hHE/pub?w=800&amp;h=540" alt="" />
+
 </div>
+<p>The highlighted files are data layers necessary to calculate pressures for each of the goals with components. They contain weights, or relative contribution from each element to the total pressures of the goal. These weights are calculated separately in the data prep folder for each goal, and saved and registered as you would for any data layer. How to calculate these data layers can be found in the <em>description</em> column of <code>layers.csv</code>.</p>
 </div>
 </div>
 </div>
 <div id="modify-resilience-categories-and-matrix" class="section level2">
 <h2><span class="header-section-number">6.5</span> Modify Resilience Categories and Matrix</h2>
 <p>Resilience is included in OHI as the sum of the ecological factors and social initiatives (policies, laws, etc.) that can positively affect goal scores by reducing or eliminating pressures. The addition of new pressure layers may therefore warrant the addition of new resilience layers that were not previously relevant. Similarly, the removal of pressure layers may warrant the removal of now irrelevant resilience layers. You can then transfer this information into <code>resilience_matrix.csv</code>and <code>resilience_categories.csv</code> (located in the <code>[assessment]/subcountry2014/conf</code> folder).</p>
-<!-- Each goal must have a resilience measure associated with it. In the figure below, the Toolbox would give an error because there are no resilience layers indicated for the natural products (NP) goal.
-
-![](./fig/resil_mtx_bad.png) -->
-<div id="steps-involved-in-modifying-resilience-information" class="section level3">
-<h3><span class="header-section-number">6.5.1</span> Steps involved in modifying resilience information</h3>
 <p>Adding a new resilience to the resiliences matrix requires the following steps:</p>
 <blockquote>
 <ol style="list-style-type: decimal">
@@ -1425,13 +1429,12 @@ now we’ve successfully calculated status and trend, the last thing we need to 
 <li>Modify Config.R for goals that have elements</li>
 </ol>
 </blockquote>
-</div>
 <div id="create-new-resilience-layers-save-in-layers-folder-and-register-in-layers.csv" class="section level3">
-<h3><span class="header-section-number">6.5.2</span> Create new resilience layers, save in <code>layers</code> folder and register in <code>layers.csv</code></h3>
+<h3><span class="header-section-number">6.5.1</span> Create new resilience layers, save in <code>layers</code> folder and register in <code>layers.csv</code></h3>
 <p>This process is similar to what you have done for the pressures data layers. Prefixes are also used for these layers, see <em>layer</em> and <em>subcategory</em> columns snapshot of the Resilience Categories below for more details.</p>
 </div>
 <div id="register-in-resilience-categories" class="section level3">
-<h3><span class="header-section-number">6.5.3</span> Register in Resilience Categories</h3>
+<h3><span class="header-section-number">6.5.2</span> Register in Resilience Categories</h3>
 <!-- The first step is to determine which resilience layers from the global assessment are relevant to your assessment, and whether others need to be added. -->
 <p><code>resilience_categories.csv</code> records general information on each resilience data layer. The full list of layers included in the global resilience matrix are shown in the <code>resilience_matrix.csv</code>:</p>
 <div class="figure">
@@ -1447,35 +1450,22 @@ now we’ve successfully calculated status and trend, the last thing we need to 
 <p>However, you can redefine how the weights are set to available information in your regions.</p>
 </div>
 <div id="register-in-resilience-matrix" class="section level3">
-<h3><span class="header-section-number">6.5.4</span> Register in Resilience Matrix</h3>
+<h3><span class="header-section-number">6.5.3</span> Register in Resilience Matrix</h3>
 <p><code>resilience_matrix.csv</code> maps the different types of resilience (columns) with the goals that they affect (rows). Whether a resilience layer has any influence on a goal, or an element of the goal, is represented by an <em>x</em>, or its absence. For example, <code>po_water</code> layer is relevant to the <em>salt marsh</em> element of <em>CP</em> goal, as shown by the <em>x</em> in the cell. On the other hand, that data layer does not apply to the <em>mangrove</em> element of the same goal, hence the absence of an <em>x</em>.</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1zMxIbz_a0FixyKmFpsh81ztMe24EfeXgHwPUnI-lopc/pub?w=800&amp;h=720" alt="" />
 
 </div>
 <p>New resilience layers may be added to <code>resilience_matrix.csv</code> based on finer-scale local information either in response to a new pressures layer, or as a new independent measure. Any added layer must be associated with a pressures layer that has a weight of 2 or 3 in the OHI framework so that resilience measures can mitigate pressures in each region.</p>
-<!-- ### Updating resilience matrix with local habitat information
-
-In this example we will borrow from the experience of `ohi-israel`, where they assessed habitats in the Habitats (HAB) sub-goal that were not included in global assessments `ohi-global`. Therefore, the resilience matrix needed some revision.  
-
-The habitats assessed for `ohi-israel` are:
-
-> `rocky_reef`, `sand_dunes`, `soft_bottom` -->
 </div>
-<div id="how-to-modify-config.r" class="section level3">
-<h3><span class="header-section-number">6.5.5</span> How to modify Config.R</h3>
+<div id="how-to-modify-config.r-for-goals-with-multiple-elements" class="section level3">
+<h3><span class="header-section-number">6.5.4</span> How to modify Config.R for goals with multiple elements</h3>
+<p>If a goal has multiple elements, as shown in <em>pressures_matrix.csv</em>, you need to update <code>Config.R</code> in <code>conf</code> folder, as shown below:</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/183rvzM21mq018TiHEEzqMmoUEeime1W700ebW3iAEbw/pub?w=800&amp;h=540" alt="" />
+<img src="https://docs.google.com/drawings/d/1eMvpSPif_Su759-cyHg8gsnWeHCvN2QlEZ5ywLVIEmY/pub?w=800&amp;h=720" alt="" />
 
 </div>
-<div class="figure">
-<img src="https://cloud.githubusercontent.com/assets/5685517/15717997/3d7ff8e8-27de-11e6-99d0-520ff3d9323b.png" alt="Resilience Matrix" />
-<p class="caption">Resilience Matrix</p>
-</div>
-<div class="figure">
-<img src="https://cloud.githubusercontent.com/assets/5685517/15717944/045e03d4-27de-11e6-9968-f4bf83cb1168.png" alt="config.R" />
-<p class="caption">config.R</p>
-</div>
+<p>Similar to what was discussed in the Pressures section, the highlighted files are data layers necessary to calculate resilience for each of the goals with components. These weights are prepared separately in the data prep folder for each goal, and saved and registered as you would for any data layer. How to calculate these data layers can be found in the <em>description</em> column of <code>layers.csv</code>.</p>
 <!-- ### Determining how to modify these resilience layers
 
 * To determine whether `species_diversity_3nm` or `species_diversity_eez` should be used:
@@ -1920,8 +1910,8 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 <h3><span class="header-section-number">7.2.1</span> Useful Errors when Calculating Scores</h3>
 <p>TIP: You can use the <em>layers</em> function in <code>calculate_scores.R</code> to error-check whether you have registered your files in <code>layers.csv</code> correctly or not. If you haven’t, you will get an error message regarding ‘missing files’. <img src="https://docs.google.com/drawings/d/1c0xQtANDy-rd6y5MOkW7eBNZbN47vvaaMZjYiDDU_0M/pub?w=758&amp;h=665" alt="f you see a missing files warning when running calculate_scores.R, it means you need to check that you filled out the information in layers.csv correctly." /></p>
 </div>
-<div id="duplicate-rows-when-checklayers-in-calculate_score.r" class="section level3">
-<h3><span class="header-section-number">7.2.2</span> Duplicate Rows when CheckLayers in <code>calculate_score.R</code></h3>
+<div id="checklayers-error-due-to-rows-duplicated" class="section level3">
+<h3><span class="header-section-number">7.2.2</span> <code>CheckLayers()</code> error due to ‘Rows Duplicated…’</h3>
 <p>After registering and uploading data layers, you would run <code>CheckLayers</code> in <code>calculate_score.R</code> to make sure there is no errors with the data files. For example, this error appeared after uploading SPP species data</p>
 <div class="figure">
 <img src="https://cloud.githubusercontent.com/assets/11824840/9892996/0322a43e-5bc9-11e5-8ef8-c147ad87645c.png" alt="image" />
@@ -1933,10 +1923,25 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 <p>29 2 Chlidonias niger 1 0.46 spp_species 270 10 Stenella longirostris 2 DD 0.17 spp_species</p>
 <p>````</p>
 </div>
+<div id="layers-error-due-to-row.names-duplicate-row.names-are-not-allowed" class="section level3">
+<h3><span class="header-section-number">7.2.3</span> <code>Layers()</code> error due to ‘row.names: duplicate ’row.names’ are not allowed’</h3>
+<p>The following error means that within <code>layers.csv</code>, there are duplicate rows with the same layernames.</p>
+<p>The warning message identifies several layer names to investigate…</p>
+<pre><code>Error in `row.names&lt;-.data.frame`(`*tmp*`, value = c(2L, 1L, 7L, 14L,  : 
+  duplicate &#39;row.names&#39; are not allowed
+In addition: Warning message:
+non-unique values when setting &#39;row.names&#39;: ‘cw_con_dioxin_status’, ‘cw_con_dioxin_trend’, ‘cw_con_ices6_status’, ‘cw_con_ices6_trend’, ‘cw_con_pfos_status’, ‘cw_con_pfos_trend’, ‘cw_nu_status’, ‘cw_nu_trend’, ‘fis_bbmsy’, ‘fis_ffmsy’, ‘fis_landings’, ‘ico_status’, ‘le_gdp_region’ </code></pre>
+<p>…and when inspecting <code>layers.csv</code>, there are indeed duplicate entries for the same layernames.</p>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/1nrEmGn3jBVK1yo6Z9qVwQdEGbX2D_ahhQJF58HvQj_U/pub?w=1481&amp;h=722" alt="" />
+
+</div>
+<p>To fix these errors, ensure there are only single entries for each layer name; delete any duplicated rows.</p>
+</div>
 <div id="calculating-pressures" class="section level3">
-<h3><span class="header-section-number">7.2.3</span> Calculating Pressures…</h3>
+<h3><span class="header-section-number">7.2.4</span> Calculating Pressures…</h3>
 <div id="the-following-components-for-goal-are-not-in-the-aggregation-layer-layer" class="section level4">
-<h4><span class="header-section-number">7.2.3.1</span> ‘The following components for [goal] are not in the aggregation layer [layer]…’</h4>
+<h4><span class="header-section-number">7.2.4.1</span> ‘The following components for [goal] are not in the aggregation layer [layer]…’</h4>
 <p>Example:</p>
 <blockquote>
 <div class="figure">
@@ -1953,12 +1958,12 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 <p>This error means you should update your pressures matrix because it expects there to be components that your region does not have.</p>
 </div>
 <div id="error-in-matrix" class="section level4">
-<h4><span class="header-section-number">7.2.3.2</span> ‘Error in matrix…’</h4>
+<h4><span class="header-section-number">7.2.4.2</span> ‘Error in matrix…’</h4>
 <p>Example: &gt; <img src="fig/tblshoot_pressures.png" alt="" /></p>
 <p>This error means there is an empty column in <code>pressures_matrix.csv</code>, and the Toolbox cannot handle empty columns.</p>
 </div>
 <div id="error-in-...-length-of-dimnames-2-not-equal-to-array-extent" class="section level4">
-<h4><span class="header-section-number">7.2.3.3</span> <code>Error in ... length of 'dimnames' [2] not equal to array extent</code></h4>
+<h4><span class="header-section-number">7.2.4.3</span> <code>Error in ... length of 'dimnames' [2] not equal to array extent</code></h4>
 <p>If you get the following error message when running <code>calculate_scores.r</code>:</p>
 <pre class="r"><code>
 scores = CalculateAll(conf, layers, debug=F)
@@ -2010,9 +2015,9 @@ $pressure
 </div>
 </div>
 <div id="calculating-resilience" class="section level3">
-<h3><span class="header-section-number">7.2.4</span> Calculating Resilience …</h3>
+<h3><span class="header-section-number">7.2.5</span> Calculating Resilience …</h3>
 <div id="error-in-matchx-table-nomatch-ol-object-id_num-not-found" class="section level4">
-<h4><span class="header-section-number">7.2.4.1</span> ‘Error in match(x, table, nomatch = OL) : object id_num not found’</h4>
+<h4><span class="header-section-number">7.2.5.1</span> ‘Error in match(x, table, nomatch = OL) : object id_num not found’</h4>
 <blockquote>
 <div class="figure">
 <img src="fig/error_resil_mtx.png" alt="" />
@@ -2022,7 +2027,7 @@ $pressure
 <p>This error means you should check that there is at least one entry for each goal (for each row) in <code>resilience_matrix.csv</code>.</p>
 </div>
 <div id="section" class="section level4">
-<h4><span class="header-section-number">7.2.4.2</span> </h4>
+<h4><span class="header-section-number">7.2.5.2</span> </h4>
 <p>Error message <code>Each goal in resilience_matrix.csv must have at least one resilience filed</code></p>
 <pre class="r"><code>Calculating Resilience...
 Note: each goal in resilience_matrix.csv must have at least one resilience field
