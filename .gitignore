@@ -10,3 +10,5 @@ Thumbs.db
 .rvmrc
 .Rproj.user
 .project
+/Gemfile.lock
+.sass-cache/*
