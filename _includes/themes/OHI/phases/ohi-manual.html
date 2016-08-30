@@ -103,14 +103,7 @@
 <li><a href="#save-data-layers-in-the-layers-folder"><span class="toc-section-number">6.2.2</span> Save data layers in the <em>layers</em> folder</a></li>
 <li><a href="#register-data-layers-in-layers.csv"><span class="toc-section-number">6.2.3</span> Register data layers in <code>layers.csv</code></a></li>
 </ul></li>
-<li><a href="#modify-goal-models"><span class="toc-section-number">6.3</span> Modify goal models</a><ul>
-<li><a href="#load-ohicore-and-check-data-layers"><span class="toc-section-number">6.3.1</span> Load ohicore and check data layers</a></li>
-<li><a href="#load-data"><span class="toc-section-number">6.3.2</span> Load data</a></li>
-<li><a href="#status-calculation"><span class="toc-section-number">6.3.3</span> Status Calculation</a></li>
-<li><a href="#trend-calculation"><span class="toc-section-number">6.3.4</span> Trend Calculation</a></li>
-<li><a href="#combine-status-and-trend-scores"><span class="toc-section-number">6.3.5</span> Combine Status and Trend Scores</a></li>
-<li><a href="#update-goal-call-in-goals.csv"><span class="toc-section-number">6.3.6</span> Update goal call in <code>goals.csv</code></a></li>
-</ul></li>
+<li><a href="#modify-goal-models"><span class="toc-section-number">6.3</span> Modify goal models</a></li>
 <li><a href="#modifying-pressures-categories-and-matrix"><span class="toc-section-number">6.4</span> Modifying Pressures Categories and Matrix</a><ul>
 <li><a href="#create-the-new-pressure-layers-and-save-in-the-layers-folder"><span class="toc-section-number">6.4.1</span> Create the new pressure layers and save in the <code>layers</code> folder</a></li>
 <li><a href="#register-the-new-pressure-layers-in-layers.csv"><span class="toc-section-number">6.4.2</span> Register the new pressure layers in <code>layers.csv</code></a></li>
@@ -1170,140 +1163,98 @@ If the new or modified layer is a pressures layer, check that `pressures_matrix.
 </div>
 <div id="modify-goal-models" class="section level2">
 <h2><span class="header-section-number">6.3</span> Modify goal models</h2>
-<p>After you have registered the data layers for a goal and created a goal model, you are ready calculate the <em>status</em> and <em>trend</em> of this goal. The basic sequence of events are as follows:</p>
+<p>After you have registered the data layers for a goal and created a goal model, you are ready to calculate the <em>status</em> and <em>trend</em> of this goal. Each goal function is unique. However, they all follow these basic sequence of events:</p>
 <ol style="list-style-type: decimal">
 <li>load ohicore and check data layers</li>
-<li>load and combine data layers for this goal</li>
+<li>load data</li>
 <li>calculate status</li>
 <li>calculate trend</li>
 <li>combine status and trend</li>
 <li>update <code>goals.csv</code></li>
 </ol>
 <blockquote>
-<p>Tip: Check that you have installed the latest versions of R and RStudio before starting. If an unexplained error occurs during calculation, it could be due to a software update, which could happen every month or so. Sometimes simply updating your software could fix the error.</p>
+<p>Tip: Check that you have installed the latest versions of R and RStudio before starting. If an unexplained error occurs during calculation, it could be due to a software update, which happens every month or two. Sometimes simply updating your software could fix the error.</p>
 </blockquote>
-<div id="load-ohicore-and-check-data-layers" class="section level3">
-<h3><span class="header-section-number">6.3.1</span> Load ohicore and check data layers</h3>
+<p><strong>1. Load ohicore and check data layers</strong></p>
 <p>These steps will help you set up for goal modifications:</p>
 <ol style="list-style-type: decimal">
-<li>Run <code>pre_scores.R</code> <em>This will load ohicore, check data layers, and call the R functions for your next step</em>.</li>
-<li>In <code>conf</code> sub-folder, open <code>functions.R</code>. <em>This is where all the status and trend calculations occur.</em></li>
+<li>Run <code>configure_toolbox.r</code> to load ohicore and check data layers.</li>
+<li>In <code>conf</code> sub-folder, open <code>functions.R</code>, where status and trend calculations occur.</li>
 <li>Go to the appropriate goal section.</li>
 </ol>
-<p><code>functions.R</code> is pre-loaded with r codes for calculations from the 2014 Global assessment as a reference. Each goal is set up as a function (eg. <code>HAB = functions(layers) {...}</code>) and you will make modifications for each goal within its function (ie. the { }).</p>
-</div>
-<div id="load-data" class="section level3">
-<h3><span class="header-section-number">6.3.2</span> Load data</h3>
+<blockquote>
+<p><code>functions.R</code> is pre-loaded with r codes from OHI-Global 2015 assessment as a reference. You can run through the reference script line-by-line to learn how it has been done. For your own assessment, you may choose to delete the entire function and rewrite it completely, or you can borrow most, if not all, of the existing script. Either way, make sure you first identify the parameters to call, either <em>layers</em> or <em>scores</em>.</p>
+</blockquote>
+<p>Each goal is set up as a function (ie.<code>Goal = functions(...) {...}</code>),</p>
+<ul>
+<li>For sub-goals (eg. HAB) and goals without subgoals (eg. CS), their functions read in data <em>layers</em> (eg. <code>HAB = functions(layers)</code>) and return scores for that goal or sub-goal</li>
+<li>Supra-goals, or goals with sub-goals (eg. FP), then read in sub-goal <em>scores</em> (eg. <code>BD = function(scores)</code>) and calculate scores for the supra-goals</li>
+</ul>
+<p>After setting up the function call, steps 2 to 5 occur within each <code>funtion{...}</code>. The example below is modified from the <em>AO</em> function in OHI-Global 2015.</p>
+<p><strong>2. Load data</strong></p>
 <ol style="list-style-type: decimal">
-<li><strong>Identify and select the data layers</strong> we need. <em>(Note that the layer names are what was set up in layers.csv. Now the toolbox will look for those layers)</em></li>
+<li>Select data layers. <em>(Note that the layer names are what was set up in <code>layers.csv</code>. Now the toolbox will look for those layers)</em></li>
 </ol>
-<pre><code>lyrs = c(&#39;cs_condition&#39;,
-           &#39;cs_contribution&#39;,
-           &#39;cs_extent&#39;,
-           &#39;cs_extent_trend&#39;)
+<pre><code>layers_data = SelectLayersData(layers, targets=&#39;AO&#39;)
 
-  D = SelectLayersData(layers, layers=lyrs)
-  # SelectLayersData is an `ohicore` function that will call the layers from layers folder you just named
-
-  head(D); summary(D)</code></pre>
-<p>It is good practice to use <em><strong>head()</strong></em> and <em><strong>summary()</strong></em> after each step to make sure the data looks the way it is supposed to. Alternatively, you can click the file name in Rstudio <code>Environment</code> to see the entire dataset you just created. Here is what the <em>head</em> and <em>summary</em> look like:</p>
-<pre><code>  id_num    category val_num        layer id_name val_name category_name                      
-       1 saltmarshes     0.8 cs_condition  rgn_id    value       habitat id_num | category | val_num
-       2 saltmarshes     0.8 cs_condition  rgn_id    value       habitat id_num | category | val_num
-... ...
-
-     id_num              category     val_num             layer             id_name            val_name         category_name          flds                year
- Min.   : 1.000   mangroves  :20   Min.   :     -0.1   Length:84          Length:84          Length:84          Length:84          Length:84          Min.   :2007  
- 1st Qu.: 4.000   saltmarshes:44   1st Qu.:      0.4   Class :character   Class :character   Class :character   Class :character   Class :character   1st Qu.:2007  
- Median : 8.000   seagrasses :20   Median :      0.7   Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character   Median :2010  
- Mean   : 6.952                    Mean   :  70215.0                                                                                                  Mean   :2010  
- 3rd Qu.:10.000                    3rd Qu.:     25.8                                                                                                  3rd Qu.:2012  
- Max.   :11.000                    Max.   :2513980.0                                                                                                  Max.   :2013                                                                                                                                                        NA&#39;s   :63</code></pre>
+year_min = max(min(layers_data$year, na.rm = TRUE), status_year - 10)</code></pre>
 <ol start="2" style="list-style-type: decimal">
-<li><strong>Combine all the data layers into one formatted data file</strong>. Select only the columns we need with <em>select</em>, change the row format to columns with <em>spread</em>, and change the column names to something easier to use with <em>rename</em>.</li>
+<li>Rename columns &amp; combine layers into one data frame.</li>
 </ol>
-<pre><code>rk = D %&gt;%
-    select(region_id = id_num,
-           layer,
-           habitat = category,
-           val_num) %&gt;%
-    spread(layer, val_num) %&gt;%  # spread is a tidyr funtion
-    rename(contribution = cs_contribution, # rename is a dplyr function
-                  condition    = cs_condition,
-                  extent       = cs_extent,
-                  extent_trend = cs_extent_trend); head(rk)</code></pre>
-<p><em>This is what head(rk) looks like:</em></p>
-<pre><code>    region_id     habitat contribution condition  extent extent_trend
-            1 saltmarshes          1.0       0.8 1188600         -0.1
-            1  seagrasses          0.5       0.8     100          0.0
-            2 saltmarshes          1.0       0.8   81551         -0.1
-...</code></pre>
-<p><em>Note: the %&gt;% is a chain operator from dplyr used to simplify coding writing. To read more about it: <a href="http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html" class="uri">http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html</a> on chaining</em></p>
-<!-- narrative for video: we select only the columns we need: the province id, layer, habitat, and values. note that those names have been written differently in github than the original data file, as shown in the summary (point to summary). we’ll change the names to something we can easily recognize. and we can do so in the select command (region_id to id_num, etc)
-right now, the data are in rows, and we want to make each layer into a column (show data on R of what this means). We use spread in the tidyr package to do that. (note that we wrote tidyr:: spread, to show that the command spread comes from tidyr package). in this command, the key= variable to become column headers, which is layer. value= data, which is val_num. for more info on spread, see cheat sheet, and ?spread
-now the data is in a nice and clean format in one table, we can do the status calculation. The model is written out according to the data description file. -->
-<ol start="3" style="list-style-type: decimal">
-<li><strong>Select only the habitats that contribute to CS</strong> (Not all habitats included in the raw data files are used for carbon storage). You can select specific rows with <em>filter</em>.</li>
-</ol>
-<pre><code>rk = rk %&gt;%
-  filter(habitat %in% c(&#39;mangroves&#39;,&#39;saltmarshes&#39;,&#39;seagrasses&#39;))</code></pre>
-</div>
-<div id="status-calculation" class="section level3">
-<h3><span class="header-section-number">6.3.3</span> Status Calculation</h3>
-<p>For easy reference, write down the equation as a comment before calculations.</p>
-<pre><code>## status model calculations
- #  xCS = sum(ck           * Cc/Cr     * Ak) / At
- #      = sum(contribution * condition * extent_per_habitat) / total_extent_all_habitats</code></pre>
-<ol style="list-style-type: decimal">
-<li><strong>Calculate status for all reported years</strong>. Most frequently used functions are <em>mutate</em>, <em>group_by</em>, and <em>summarize</em>. To learn more, see Appendix 5.</li>
-</ol>
-<pre><code>StatusData = rk %&gt;%
-    mutate(c_c_a = contribution * condition * extent) %&gt;%  # mutate adds a new column
-    group_by(region_id) %&gt;%                     # signifies the following calculations are done within each region
-    summarize(sum_c_c_a  = sum(c_c_a),          # summarize also adds a new column, but gives one aggregated result
-              total_extent = sum(extent)) %&gt;%   # for each region
-    ungroup() %&gt;%                               # always a good practice to ungroup before next operation
-    mutate(xCS_calc = sum_c_c_a/total_extent,
-           score = pmax(-1, pmin(1, xCS_calc)) * 100)     #score can&#39;t exceed 100</code></pre>
-<ol start="2" style="list-style-type: decimal">
-<li><strong>Select only the status of the most recent year, and add a column for dimension “status”</strong>. For final reporting, the toolbox will need four pieces of information: <em>goal, region_id, dimension, and score</em>, although they don’t need to be listed in a certain order at this step.</li>
-</ol>
-<pre><code>status &lt;-  StatusData %&gt;%
-   filter(year==status_year) %&gt;%
-   mutate(score     = round(Status*100),                # score is 0-100
-          dimension = &#39;status&#39;) %&gt;%
-   select(region_id=rgn_id, dimension, score) %&gt;%       # select the correct columns
-   data.frame()</code></pre>
-</div>
-<div id="trend-calculation" class="section level3">
-<h3><span class="header-section-number">6.3.4</span> Trend Calculation</h3>
-<p>For CS, a variable <code>extent-trend</code> has been prepared to calculate the trend:</p>
-<pre><code>trend = rk %&gt;%
-  group_by(region_id) %&gt;%
-  summarize(trend_raw = sum(extent * extent_trend) / sum(extent),
-            score = max(min(trend_raw, 1), -1)) %&gt;%
-  mutate(dimension = &quot;trend&quot;)</code></pre>
-<p>However, for most other goals, <strong>trends are calculated in a regression model based on the most recent 5 years of status</strong>:</p>
-<pre><code>trend = StatusData %&gt;%
-   filter(year &gt; (max(year)-4)) %&gt;%                  # select the most recent 5 years of data
-   group_by(rgn_id) %&gt;%
-   do(mdl = lm(Status ~ year, data = .)) %&gt;%         # regression model
-   summarize(region_id = rgn_id,
-             score = coef(mdl)[&#39;year&#39;] * 5) %&gt;%      # trend is the coefficient of year x 5
-   ungroup() %&gt;%
-   mutate(score = round(score, 2),
-          dimension = &quot;trend&quot;) %&gt;%
-   select(region_id, dimension, score) %&gt;%
-   data.frame()</code></pre>
-</div>
-<div id="combine-status-and-trend-scores" class="section level3">
-<h3><span class="header-section-number">6.3.5</span> Combine Status and Trend Scores</h3>
-<p>To report the results, you’ll assemble status and trend scores you just calculated above into one data frame. Now the your results would contain region_id, score, dimension, and goal, which will be combined with the results of other goals and produce one results table:</p>
-<pre><code>scores = rbind(status, trend) %&gt;% mutate(goal=&#39;CS&#39;)</code></pre>
-</div>
-<div id="update-goal-call-in-goals.csv" class="section level3">
-<h3><span class="header-section-number">6.3.6</span> Update goal call in <code>goals.csv</code></h3>
-<p><code>goals.csv</code> in the <code>conf</code> folder provides input information for <code>functions.R</code>, particularly about function calls. These are indicated by two columns: <em>preindex_function</em> (functions for all goals that do not have sub-goals, and functions for all sub-goals) and <em>postindex_function</em> (functions for goals with sub-goals).</p>
+<pre><code>r &lt;- layers_data %&gt;%
+  filter(layer == &#39;ao_access&#39;) %&gt;%
+  select(region_id=id_num, access=val_num)
+
+ry &lt;- layers_data %&gt;%
+  filter(layer == &#39;ao_need&#39;) %&gt;%
+  select(region_id = id_num, year, need=val_num) %&gt;%
+  left_join(r, by=&quot;region_id&quot;)</code></pre>
+<p><strong>3. Calculate Status</strong></p>
+<p>Calculations are done using the goal model across all years. Select the result of the most recent year as the goal status.</p>
+<pre><code>ry &lt;- ry %&gt;%
+  mutate(Du = (1 - need) * (1 - access)) %&gt;%
+  mutate(statusData = (1 - Du) * Sustainability)
+
+r.status &lt;- ry %&gt;%
+  filter(year == status_year) %&gt;%
+  select(region_id,
+         statusData) %&gt;
+  mutate(status = statusData*100)
+
+  summary(r.status); dim(r.status)</code></pre>
+<p><strong>4. Calculate Trend</strong></p>
+<p>Trend is typically calculated as the linear trend of the <em>most recent five years</em> of status.</p>
+<pre><code> r.trend &lt;- ry %&gt;%
+   filter(year &gt;= year_min) %&gt;%
+   filter(!is.na(statusData)) %&gt;%
+   group_by(region_id) %&gt;%
+   arrange(year) %&gt;%
+   top_n(5, year) %&gt;%
+   ungroup()
+
+
+ r.trend &lt;- r.trend %&gt;%
+   group_by(region_id) %&gt;%
+   do(mdl = lm(statusData ~ year, data=.)) %&gt;%
+   summarize( region_id = region_id,
+              trend = coef(mdl)[&#39;year&#39;]*5) %&gt;%
+   ungroup()
+</code></pre>
+<p><strong>5. Combine Status and Trend</strong></p>
+<p>Assemble status and trend scores into one data frame. Your results would contain four columns: <em>region_id, score, dimension,</em> and <em>goal</em>.</p>
+<p>Don’t forget to <code>return(scores)</code>!</p>
+<pre><code>scores = r.status %&gt;%
+  select(region_id, score=status) %&gt;%
+  mutate(dimension=&#39;status&#39;) %&gt;%
+  rbind(
+    r.trend %&gt;%
+      select(region_id, score=trend) %&gt;%
+      mutate(dimension=&#39;trend&#39;)) %&gt;%
+  mutate(goal=&#39;AO&#39;)
+
+  return(scores)  </code></pre>
+<p><strong>6. Update goal call in <code>goals.csv</code></strong></p>
+<p><code>goals.csv</code> in the <code>conf</code> folder provides input information for <code>functions.r</code>, particularly about function calls. These are indicated by two columns: <em>preindex_function</em> (functions for all goals that do not have sub-goals, and functions for all sub-goals) and <em>postindex_function</em> (functions for goals with sub-goals).</p>
 <p>In the <code>preindex_fuction</code>, you could specify variables such as <em>status_year</em> and <em>trend_year</em>, which you can call in your goal function. Note that it is not necessary to specify those variables. If you do not use them in your function as in the CS example, you could delete those variables in <code>preindex_fuction</code>.</p>
 <blockquote>
 <p>Changing goal weights will be done here by editing the value in the <em>weight</em> column. Weights do not need to be 0-1 or add up to 10; weights will be scaled as a proportion of the number of goals assessed. The ten goals are weighted equally by default.</p>
@@ -1318,14 +1269,6 @@ now the data is in a nice and clean format in one table, we can do the status ca
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1o2wtJ9KCPDyGPH9Y4unmALG6BlxX9lmJ_PakDDiQrLo/pub?w=700&amp;h=524" alt="A screenshot of goals.csv, used to modify goal model" />
 <p class="caption">A screenshot of <code>goals.csv</code>, used to modify goal model</p>
-</div>
-<!-- eventually we want a score for each region. to do so, we group the data by region, with group_by, by rgn_id (show new data table grouped by region)
-next we calculate the sum of extent*condition*contribution in each region, and the sum of all extents. we use summarize this time, which adds a new column automatically, and aggregate different habitats in each region into one combined score. note that summarize acts based on the group_by command we just did. then we ungroup before the next command, which is always a good practice.
-now we have calculated the sum of extent*condition*contribution, and the sum of extents (point to the model equation), we can calculate the final score for each region. again, to add a new column, we use mutate. since the score can’t exceed 100, we’ll use the function min(1, xCS_calc), which takes the minimum of the two numbers.
-after we calculate the score, there is one more step to create a new table for the status score called r.status and format the it to match the style of the other goals. (show the outcome table in green). again we’ll use the mutate function to add in two new columns: goal and dimension. Then we select only the columns we need, with the select function. now, the status calculation is done!
-in addition to status, we also need to calculate trend. we use the first table we made today, rk, which contains the raw data for all habitats in all regions. we first aggregate the data by region using group_by, then add two new columns for the trend calculation and the score, using summarize.
-similar to status, trend scores need to be properly formatted to match the rest of the goal trends. we’ll create a new table called r.trend with the scores we just calculated. again, we use mutate and select, as shown here.
-now we’ve successfully calculated status and trend, the last thing we need to do is combine them into one table called scores. we combine r.status and r.trend by first binding by rows (rbind). -->
 </div>
 </div>
 <div id="modifying-pressures-categories-and-matrix" class="section level2">
@@ -1653,6 +1596,7 @@ In addition: Warning messages:
 <div id="remove-subgoals-from-a-goal" class="section level2">
 <h2><span class="header-section-number">6.8</span> Remove Subgoals from a Goal</h2>
 <p>If you decide that a goal that has subgoals (eg. BD, LE, FP) should be assessed as an individual goal due to data limitation or other reasons, you can remove the subgoals. We will use BD as an example to illustrate how.</p>
+<p>BD is a supra-goal because it has sub-goals. Here we are deleting a subgoal and make a supra-goal into a goal.</p>
 <p><code>ohicore</code> pulls information from several files and scripts to combine scores from subgoals to calculate overall goal scores. The process of removing subgoals thus involves removing subgoal information from all these files:</p>
 <ul>
 <li><code>goals.csv</code></li>
@@ -1673,6 +1617,7 @@ In addition: Warning messages:
 <div id="remove-subgoals-from-functions.r" class="section level3">
 <h3><span class="header-section-number">6.8.2</span> Remove subgoals from <code>functions.r</code></h3>
 <p><code>functions.r</code>contains the R codes to calculate status and trend for each goal and sub-goal, contained within individual functions. Calculations are done using prepared layers saved in the <em>layers</em> folder and registered in <em>layers.csv</em>. As shown below, HAB and SPP each has its own function, calling data layers from <em>layers</em>. The BD function combines HAB and SPP scores, calling <em>scores</em>.</p>
+<p>ADD: subgoal functions read in data layers and calculated sub-goal scores; supra-goal reads in those sub-goal <em>scores</em> to calculate scores for that supra-goal.</p>
 <p>To remove the subgoals, you can delete functions for HAB and SPP completely, and write a function for BD as you would for any goal, calling <em>layers</em>.</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1uTqbXyac72bE7yr2FZI9QEVGo1fSNgO4DXk1PIFk950/pub?w=960&amp;h=720" alt="" />
