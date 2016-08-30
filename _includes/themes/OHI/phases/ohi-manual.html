@@ -122,7 +122,7 @@
 <li><a href="#example-2-resilience"><span class="toc-section-number">6.6.3</span> Example 2: Resilience</a></li>
 </ul></li>
 <li><a href="#removing-goals"><span class="toc-section-number">6.7</span> Removing goals</a></li>
-<li><a href="#remove-subgoals-from-a-goal"><span class="toc-section-number">6.8</span> Remove Subgoals from a Goal</a><ul>
+<li><a href="#remove-sub-goals-from-a-supra-goal"><span class="toc-section-number">6.8</span> Remove Sub-goals from a Supra-goal</a><ul>
 <li><a href="#remove-subgoals-from-goals.csv"><span class="toc-section-number">6.8.1</span> Remove subgoals from <code>goals.csv</code></a></li>
 <li><a href="#remove-subgoals-from-functions.r"><span class="toc-section-number">6.8.2</span> Remove subgoals from <code>functions.r</code></a></li>
 <li><a href="#remove-subgoals-from-pressures_matrix.csv"><span class="toc-section-number">6.8.3</span> Remove subgoals from <code>pressures_matrix.csv</code></a></li>
@@ -1591,10 +1591,10 @@ In addition: Warning messages:
 
 </div>
 </div>
-<div id="remove-subgoals-from-a-goal" class="section level2">
-<h2><span class="header-section-number">6.8</span> Remove Subgoals from a Goal</h2>
-<p>If you decide that a goal that has subgoals (eg. BD, LE, FP) should be assessed as an individual goal due to data limitation or other reasons, you can remove the subgoals. We will use BD as an example to illustrate how.</p>
-<p>BD is a supra-goal because it has sub-goals. Here we are deleting a subgoal and make a supra-goal into a goal.</p>
+<div id="remove-sub-goals-from-a-supra-goal" class="section level2">
+<h2><span class="header-section-number">6.8</span> Remove Sub-goals from a Supra-goal</h2>
+<p>Sometimes a <em>supra-goal</em> (ie. BD, LE, and FP), or a goal that has <em>sub-goals</em>, can be assessed as an individual goal by removing the sub-goals. For example, if the biodiversity in your area can be represented well with only species and not habitats, it is possible to only assess species (ie. only the SPP subgoal and not the HAB subgoal). But this would then make the BD goal only have one subgoal (SPP). It is better to remove that subgoal and make it clear that BD is the biodiversity goal for species.</p>
+<p>Here we will use BD as an example to illustrate how you can delete the subgoals and make a supra-goal into a goal.</p>
 <p><code>ohicore</code> pulls information from several files and scripts to combine scores from subgoals to calculate overall goal scores. The process of removing subgoals thus involves removing subgoal information from all these files:</p>
 <ul>
 <li><code>goals.csv</code></li>
@@ -1605,8 +1605,17 @@ In addition: Warning messages:
 <p><em><strong>NOTE</strong>: These steps do not need to occur in this sequence.</em></p>
 <div id="remove-subgoals-from-goals.csv" class="section level3">
 <h3><span class="header-section-number">6.8.1</span> Remove subgoals from <code>goals.csv</code></h3>
-<p><code>goals.csv</code> is a table with information about the relationship between goals and sub-goals. This includes the weight of each goal that is used to calculate the final Index scores when all goals are combined. These are indicated by two columns: preindex_function (functions for all goals that do not have sub-goals, and functions for all sub-goals) and postindex_function (functions for goals with sub-goals).</p>
+<p><code>goals.csv</code> is a table with information about the relationship between goals and sub-goals. This includes the weight of each goal that is used to calculate the final Index scores when all goals are combined. These are indicated by two columns:</p>
+<ul>
+<li><em>preindex_function</em> for all sub-goals and goals without any sub-goals</li>
+<li><em>postindex_function</em> for supra-goals with sub-goals.</li>
+</ul>
 <p>As illustrated in the graph below, removing the subgoals involves simplifying how BD and its subgoals are registered in the columns shown here:</p>
+<ul>
+<li>change the <em>order</em> and <em>order_hierarhy</em> to 10</li>
+<li>remove BD from the <em>postindex_function</em> column &amp; add to the <em>preindex_function</em> column</li>
+<li>change the function call from <code>BD(scores)</code> to <code>BD(layers)</code></li>
+</ul>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1TUDfU2mG-QlXa3Huq_r8EwcgDPEa1RCaVQfpWnY49Uo/pub?w=830&amp;h=720" alt="" />
 
@@ -1615,8 +1624,10 @@ In addition: Warning messages:
 <div id="remove-subgoals-from-functions.r" class="section level3">
 <h3><span class="header-section-number">6.8.2</span> Remove subgoals from <code>functions.r</code></h3>
 <p><code>functions.r</code>contains the R codes to calculate status and trend for each goal and sub-goal, contained within individual functions. Calculations are done using prepared layers saved in the <em>layers</em> folder and registered in <em>layers.csv</em>. As shown below, HAB and SPP each has its own function, calling data layers from <em>layers</em>. The BD function combines HAB and SPP scores, calling <em>scores</em>.</p>
-<p>ADD: subgoal functions read in data layers and calculated sub-goal scores; supra-goal reads in those sub-goal <em>scores</em> to calculate scores for that supra-goal.</p>
 <p>To remove the subgoals, you can delete functions for HAB and SPP completely, and write a function for BD as you would for any goal, calling <em>layers</em>.</p>
+<blockquote>
+<p>Remember that subgoal functions read in data <em>layers</em> and calculated sub-goal scores; supra-goal reads in those sub-goal <em>scores</em> to calculate scores for that supra-goal.</p>
+</blockquote>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1uTqbXyac72bE7yr2FZI9QEVGo1fSNgO4DXk1PIFk950/pub?w=960&amp;h=720" alt="" />
 
@@ -1624,7 +1635,7 @@ In addition: Warning messages:
 </div>
 <div id="remove-subgoals-from-pressures_matrix.csv" class="section level3">
 <h3><span class="header-section-number">6.8.3</span> Remove subgoals from <code>pressures_matrix.csv</code></h3>
-<p>This table indicates which individual pressures (stressors) affect which goal, sub-goals, or components, and weights them from 1-3 based on the degree of impacts. To remove subgoals from this matrix, you can simply delete the rows for each subgoal (HAB and SPP), and add a new row for BD, and treat BD as you would an individual goal with no subgoals.</p>
+<p>This table indicates which individual pressures (stressors) affect which goal, sub-goals, or elements, and weights them from 1-3 based on the degree of impacts. To remove subgoals from this matrix, you can simply delete the rows for each subgoal (HAB and SPP), and add a new row for BD, and treat BD as you would an individual goal with no subgoals.</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1sgZyyiQyPIWUn3_BojsBuQC_sbM4t_BW8YNGNqSd31w/pub?w=800&amp;h=720" alt="" />
 
@@ -1632,7 +1643,7 @@ In addition: Warning messages:
 </div>
 <div id="remove-subgoals-from-resilience_matrix.csv" class="section level3">
 <h3><span class="header-section-number">6.8.4</span> Remove subgoals from <code>resilience_matrix.csv</code></h3>
-<p>This table records information on which individual resilience measures affect which goal, sub-goals, or components. Similar to what you would do with ‘pressures_matrix.csv’, you can delete the rows for HAB adn SPP, and add a new row for BD.</p>
+<p>This table records information on which individual resilience measures affect which goal, sub-goals, or elements. Similar to what you would do with ‘pressures_matrix.csv’, you can delete the rows for HAB adn SPP, and add a new row for BD.</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1JUGogjH08_2KlOebKYxCR-JZFYGp5-6VwLYylblpWdw/pub?w=800&amp;h=720" alt="" />
 
