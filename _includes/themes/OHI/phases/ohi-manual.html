@@ -310,10 +310,10 @@ There are many decisions to be made when searching for and gathering data, and s
 <blockquote>
 <p>Note that the OHI does not take a stance on disputed territories. The boundaries are defined by the original map data providers.</p>
 </blockquote>
-<!-- Add/link to a section on how to take data limitations into considertaion -->
+<!-- Add/link to a section on how to take data limitations into consideration -->
 <div id="drawing-spatial-boundaries" class="section level2">
 <h2><span class="header-section-number">2.1</span> Drawing spatial boundaries</h2>
-<p>Spatial boundaries must be drawn with geographic information system (GIS) mapping software such as ArcGIS, QGIS, or GRASS. You will need someone with GIS skills to create a shapefile that will be used by the Toolbox to display your information. The shapefile will also be used to extract information for each of your defined regions when data are reported in raster format for a different area. For more information see <a href="https://en.wikipedia.org/wiki/Geographic_information_system" class="uri">https://en.wikipedia.org/wiki/Geographic_information_system</a> and <a href="http://en.wikipedia.org/wiki/Shapefile" class="uri">http://en.wikipedia.org/wiki/Shapefile</a>.</p>
+<p>Spatial boundaries must be drawn with geographic information system (GIS) mapping software such as ArcGIS, QGIS, or GRASS. You will need someone with GIS skills to create a shapefile that will be used by the Toolbox to display your information. The shapefile will also be used to extract information for each of your defined regions when data are reported in raster format for a different area. For more information see Wikipedia for <a href="https://en.wikipedia.org/wiki/Geographic_information_system">Geographic information systems</a> and <a href="http://en.wikipedia.org/wiki/Shapefile">Shapefiles</a>.</p>
 <p><strong>Regions must be unique (non-overlapping), and boundaries must be drawn offshore</strong>. Offshore boundaries should be made with spatial methods in order to extend boundaries from those designated on land.</p>
 <p>Offshore, or marine water boundaries, are the greatest extent that the scores could represent, and generally extended to the Exclusive Economic Zone (EEZ).</p>
 <blockquote>
@@ -785,10 +785,15 @@ At this point, you may not know which buffers you will need, as they depend on t
 </table>
 <p></span></p>
 <p><strong>goals.csv</strong></p>
-<p><code>goals.csv</code> is a table with information about goals and sub-goals. This includes the weight of each goal that is used to calculate the final Index scores when all goals are combined. Other information includes the goal description that is also presented in the WebApp. <code>goals.csv</code> also indicates the arguments passed to <code>functions.R</code>. These are indicated by two columns: <em>preindex_function</em> (functions for all goals that do not have sub-goals, and functions for all sub-goals) and <em>postindex_function</em> (functions for goals with sub-goals).</p>
-<blockquote>
-<p>TIP: It’s important to check <code>goals.csv</code>’s weightings and preindex functions when you change goal or sub-goal model equations in <code>functions.r</code>.</p>
-</blockquote>
+<p><code>goals.csv</code> is a table with information about goals and sub-goals, including:</p>
+<ul>
+<li><em>order_color</em> &amp; <em>order_hierarchy</em>: the order to display in flower plots</li>
+<li><em>order_calculate</em>: the oder in which the goals and sub-goals are calculated for the overall index scores</li>
+<li><em>goal</em> &amp; <em>parent</em>: indicates the relationship between sub-goals and supra-goals (ie. goals with sub-goals)</li>
+<li><em>weight</em>: how each goal is weighted to calculate the final Index scores</li>
+<li><em>preindex_function</em>: indicate what parameters are called to calculate scores for goals and sub-goals in <code>functions.r</code></li>
+<li><em>postindex_function</em>: indicate what parameters are called to calculate scores for supra-goals in <code>functions.r</code></li>
+</ul>
 <p><strong>pressures_categories.csv</strong></p>
 <p>This is a table to record the <em>name</em> of each pressures data layer, its <em>category</em>, and <em>sub-category</em>. Each data layer name is the same name that’s saved in the <code>layers</code> folder and is registered in <code>layers.csv</code>. Each layer falls under one of two categories - ecological or social pressures, and one of several sub-categories to further represent the origin of the pressure (eg. climate change, fishing, etc), which is also indicated by a prefix of each data layer name (for example: <code>po_</code> for the pollution sub-category). For more information, see <a href="http://ohi-science.org/manual/#modifying-pressures-categories-and-matrix">how to modify pressures layers</a>.</p>
 <p><strong>pressures_matrix.csv</strong></p>
@@ -1605,12 +1610,8 @@ In addition: Warning messages:
 <p><em><strong>NOTE</strong>: These steps do not need to occur in this sequence.</em></p>
 <div id="remove-subgoals-from-goals.csv" class="section level3">
 <h3><span class="header-section-number">6.8.1</span> Remove subgoals from <code>goals.csv</code></h3>
-<p><code>goals.csv</code> is a table with information about the relationship between goals and sub-goals. This includes the weight of each goal that is used to calculate the final Index scores when all goals are combined. These are indicated by two columns:</p>
-<ul>
-<li><em>preindex_function</em> for all sub-goals and goals without any sub-goals</li>
-<li><em>postindex_function</em> for supra-goals with sub-goals.</li>
-</ul>
-<p>As illustrated in the graph below, removing the subgoals involves simplifying how BD and its subgoals are registered in the columns shown here:</p>
+<p><code>goals.csv</code> is a table with information about the relationship between goals and sub-goals. Description of what each column means can be read in the <a href="http://ohi-science.org/manual/#data-layers">data layers</a> section, under <em>goals.csv</em>.</p>
+<p>As illustrated in the graph below, removing the subgoals involves simplifying how BD and its subgoals are registered in the columns:</p>
 <ul>
 <li>change the <em>order</em> and <em>order_hierarhy</em> to 10</li>
 <li>remove BD from the <em>postindex_function</em> column &amp; add to the <em>preindex_function</em> column</li>
