@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Resources for R and Data Science"
+author: Julie Lowndes
+category : news 
+tags : [news]
+---
+
+We are often asked for the best way to learn R and Data Science. There are many great resources available but here are some of the free, online resources we have found helpful: 
+
+
+- **[R for data science](http://r4ds.had.co.nz/)** by Garrett Grolemund and Hadley Wickham (book)
+- **[RStudio's webinars](https://www.rstudio.com/resources/webinars/)** by RStudio (on-demand videos) 
+- **[RStudio's cheatsheets](https://www.rstudio.com/resources/cheatsheets/)** by RStudio (PDFs) 
+- **[R Packages](http://r-pkgs.had.co.nz/)** by Hadley Wickham (book)
+- **[Advanced R](http://adv-r.had.co.nz/)** by Hadley Wickham (book)
+
+- **[Happy Git With R](http://happygitwithr.com/)** by Jenny Bryan (short course)
+- **[UBC Stats454: Data wrangling, exploration, and analysis with R](https://stat545-ubc.github.io/index.html)** by Jenny Bryan (university course)
+- **[Swirl](http://swirlstats.com/)** (interactive course taught in R)
+
+- **[Software Carpentry](http://software-carpentry.org/)** workshops are a great way to learn these tools with instructors live-coding with students. All of their lessons are online; I recommend [R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/). 
+
+
+ 
+------- 
+   
+
+**Our OHI team has also created materials to help teach these concepts.**
+
+- [Software Carpentry workshop at Oxford](http://jules32.github.io/2016-07-12-Oxford/overview/) focused on R, RStudio, and GitHub. 
+- [Introduction to RStudio Awesomeness](http://jules32.github.io/resources/RStudio_intro/)
+- [Github Quickstart for Scientists](https://rawgit.com/nazrug/Quickstart/master/GithubQuickstart.html)
+- [Spatial analysis in R: Rasters](https://github.com/eco-data-science/spatial-analysis-R#introduction-to-spatial-analysis-in-r)
+- [Spatial analysis in R: Vectors](https://github.com/eco-data-science/spatial_analysis2_R#r-spatial-analysis-workshop-vectors-polygons-and-shapefiles)
+- [Data visualization using ggplot2](https://rawgit.com/eco-data-science/VisualizingData/master/ggplot2_intro.html)
+
+For others, see [ohi-science.org's data science references](http://ohi-science.org/resources/tools/#data-science-references)
+
+
