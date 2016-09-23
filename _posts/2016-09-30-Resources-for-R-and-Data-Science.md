@@ -6,7 +6,7 @@ category : news
 tags : [news]
 ---
 
-We are often asked for the best way to learn R and Data Science. There are many great resources available but here are some of the free, online resources we have found helpful: 
+We are often asked for the best way to learn `R` and other Data Science concepts and tools. There are many great resources available but here are some of the free, online resources we have found helpful: 
 
 
 - **[R for data science](http://r4ds.had.co.nz/)** by Garrett Grolemund and Hadley Wickham (book)
