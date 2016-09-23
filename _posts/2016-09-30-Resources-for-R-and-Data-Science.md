@@ -21,6 +21,7 @@ We are often asked for the best way to learn R and Data Science. There are many 
 - **[Data Carpentry](http://www.datacarpentry.org/)** (workshops, teaching community, self-paced courses)
 - **[#rstats on Twitter](https://twitter.com/search?q=%23rstats&src=typd)** (online discussion)
 - **[Not so standard deviations](https://soundcloud.com/nssd-podcast)** (podcast)
+- **[R-Bloggers](https://www.r-bloggers.com)** (blog)
  
 ------- 
    
