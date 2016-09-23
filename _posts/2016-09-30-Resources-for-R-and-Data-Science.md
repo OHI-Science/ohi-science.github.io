@@ -10,18 +10,19 @@ We are often asked for the best way to learn R and Data Science. There are many 
 
 
 - **[R for data science](http://r4ds.had.co.nz/)** by Garrett Grolemund and Hadley Wickham (book)
-- **[RStudio's webinars](https://www.rstudio.com/resources/webinars/)** by RStudio (on-demand videos) 
-- **[RStudio's cheatsheets](https://www.rstudio.com/resources/cheatsheets/)** by RStudio (PDFs) 
+- **[RStudio's webinars](https://www.rstudio.com/resources/webinars/)** by RStudio (on-demand videos)
+- **[RStudio's cheatsheets](https://www.rstudio.com/resources/cheatsheets/)** by RStudio (PDFs)
 - **[R Packages](http://r-pkgs.had.co.nz/)** by Hadley Wickham (book)
 - **[Advanced R](http://adv-r.had.co.nz/)** by Hadley Wickham (book)
-
 - **[Happy Git With R](http://happygitwithr.com/)** by Jenny Bryan (short course)
 - **[UBC Stats454: Data wrangling, exploration, and analysis with R](https://stat545-ubc.github.io/index.html)** by Jenny Bryan (university course)
 - **[Swirl](http://swirlstats.com/)** (interactive course taught in R)
-
-- **[Software Carpentry](http://software-carpentry.org/)** workshops are a great way to learn these tools with instructors live-coding with students. All of their lessons are online; I recommend [R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/). 
-
-
+- **[Software Carpentry](http://software-carpentry.org/)** (workshops, teaching community, self-paced courses)
+- **[Data Carpentry](http://www.datacarpentry.org/)** (workshops, teaching community, self-paced courses)
+- **[#rstats on Twitter](https://twitter.com/search?q=%23rstats&src=typd)** (online discussion)
+- **[Not so standard deviations](https://soundcloud.com/nssd-podcast)** (podcast)
+- **[R-Bloggers](https://www.r-bloggers.com) (blog)
+    - http://reganmian.net/blog/2014/10/14/starting-data-analysiswrangling-with-r-things-i-wish-id-been-told/
  
 ------- 
    
@@ -35,6 +36,6 @@ We are often asked for the best way to learn R and Data Science. There are many 
 - [Spatial analysis in R: Vectors](https://github.com/eco-data-science/spatial_analysis2_R#r-spatial-analysis-workshop-vectors-polygons-and-shapefiles)
 - [Data visualization using ggplot2](https://rawgit.com/eco-data-science/VisualizingData/master/ggplot2_intro.html)
 
-For others, see [ohi-science.org's data science references](http://ohi-science.org/resources/tools/#data-science-references)
+Others available in [ohi-science.org's data science references](http://ohi-science.org/resources/tools/#data-science-references)
 
 
