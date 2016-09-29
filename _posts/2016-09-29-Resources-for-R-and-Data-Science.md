@@ -6,7 +6,7 @@ category : news
 tags : [news]
 ---
 
-We are often asked for the best way to learn `R` and other Data Science concepts and tools. There are many great resources available but here are some of the free, online resources we have found helpful: 
+We are often asked for the best way to learn `R` and other data science concepts and tools. There are many great resources available but here are some of the free, online resources we have found helpful: 
 
 
 - **[R for data science](http://r4ds.had.co.nz/)** by Garrett Grolemund and Hadley Wickham (book)
@@ -35,6 +35,6 @@ We are often asked for the best way to learn `R` and other Data Science concepts
 - [Spatial analysis in R: Vectors](https://github.com/eco-data-science/spatial_analysis2_R#r-spatial-analysis-workshop-vectors-polygons-and-shapefiles)
 - [Data visualization using ggplot2](https://rawgit.com/eco-data-science/VisualizingData/master/ggplot2_intro.html)
 
-Others available in [ohi-science.org's data science references](http://ohi-science.org/resources/tools/#data-science-references)
+And others available in [ohi-science.org's data science references](http://ohi-science.org/resources/tools/#data-science-references).
 
 
