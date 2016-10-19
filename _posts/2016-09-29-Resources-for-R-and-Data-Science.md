@@ -28,12 +28,12 @@ We are often asked for the best way to learn `R` and other data science concepts
 
 **Our OHI team has also created materials to help teach these concepts.**
 
-- [Software Carpentry workshop at Oxford](http://jules32.github.io/2016-07-12-Oxford/overview/) focused on R, RStudio, and GitHub. 
-- [Introduction to RStudio Awesomeness](http://jules32.github.io/resources/RStudio_intro/)
-- [Github Quickstart for Scientists](https://rawgit.com/nazrug/Quickstart/master/GithubQuickstart.html)
-- [Spatial analysis in R: Rasters](https://github.com/eco-data-science/spatial-analysis-R#introduction-to-spatial-analysis-in-r)
-- [Spatial analysis in R: Vectors](https://github.com/eco-data-science/spatial_analysis2_R#r-spatial-analysis-workshop-vectors-polygons-and-shapefiles)
-- [Data visualization using ggplot2](https://rawgit.com/eco-data-science/VisualizingData/master/ggplot2_intro.html)
+- [Software Carpentry workshop at Oxford University](http://jules32.github.io/2016-07-12-Oxford/overview/) (2-day workshop, self-paced course focused on R, RStudio, and GitHub)
+- [Introduction to RStudio Awesomeness](http://jules32.github.io/resources/RStudio_intro/) (blog)
+- [Github Quickstart for Scientists](https://rawgit.com/nazrug/Quickstart/master/GithubQuickstart.html) (2-hour workshop, self-paced course)
+- [Spatial analysis in R: Rasters](https://github.com/eco-data-science/spatial-analysis-R#introduction-to-spatial-analysis-in-r) (2-hour workshop, self-paced course)
+- [Spatial analysis in R: Vectors](https://github.com/eco-data-science/spatial_analysis2_R#r-spatial-analysis-workshop-vectors-polygons-and-shapefiles) (2-hour workshop, self-paced course)
+- [Data visualization using ggplot2](https://rawgit.com/eco-data-science/VisualizingData/master/ggplot2_intro.html) (2-hour workshop, self-paced course)
 
 And others available in [ohi-science.org's data science references](http://ohi-science.org/resources/tools/#data-science-references).
 
