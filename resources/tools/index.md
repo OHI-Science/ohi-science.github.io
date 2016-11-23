@@ -73,7 +73,6 @@ These are technical data science references that are helpful for many uses, incl
 
 **Git and Github**  
 - <a href="https://github.com/eco-data-science/github-intro" target="_blank">Introduction to git and GitHub</a>  
-- [git cheatsheets]()  <!---melanie can you save this in assets/downloads? --->
 
 **R and RStudio**  
 - <a href="https://github.com/eco-data-science/rmarkdown_R" target="_blank">RMarkdown</a>   
