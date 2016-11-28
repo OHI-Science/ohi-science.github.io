@@ -103,93 +103,92 @@
 <li><a href="#register-data-layers-in-layers.csv"><span class="toc-section-number">6.3</span> Register data layers in <code>layers.csv</code></a></li>
 </ul></li>
 <li><a href="#modifying-goal-models"><span class="toc-section-number">7</span> Modifying goal models</a></li>
-<li><a href="#modifying-pressures-matrix"><span class="toc-section-number">8</span> Modifying Pressures Matrix</a><ul>
-<li><a href="#create-the-new-pressure-layers-and-save-in-the-layers-folder"><span class="toc-section-number">8.0.1</span> Create the new pressure layers and save in the <code>layers</code> folder</a></li>
-<li><a href="#register-the-new-pressure-layers-in-layers.csv"><span class="toc-section-number">8.0.2</span> Register the new pressure layers in <code>layers.csv</code></a></li>
-<li><a href="#register-in-pressures_categories.csv"><span class="toc-section-number">8.0.3</span> Register in <code>pressures_categories.csv</code></a></li>
-<li><a href="#register-in-pressures_matrix.csv"><span class="toc-section-number">8.0.4</span> Register in <code>pressures_matrix.csv</code></a></li>
+<li><a href="#modifying-pressures-and-resilience"><span class="toc-section-number">8</span> Modifying Pressures and Resilience</a><ul>
+<li><a href="#pressures"><span class="toc-section-number">8.1</span> Pressures</a><ul>
+<li><a href="#how-to-identify-and-quantify-pressures"><span class="toc-section-number">8.1.1</span> How to identify and quantify pressures</a></li>
+<li><a href="#how-to-modify-pressures-matrix-and-categories-in-the-toolbox"><span class="toc-section-number">8.1.2</span> How to modify Pressures Matrix and Categories in the Toolbox</a></li>
 </ul></li>
-<li><a href="#modifying-resilience-matrix"><span class="toc-section-number">9</span> Modifying Resilience Matrix</a><ul>
-<li><a href="#create-new-resilience-layers-save-in-layers-folder-and-register-in-layers.csv"><span class="toc-section-number">9.0.1</span> Create new resilience layers, save in <code>layers</code> folder and register in <code>layers.csv</code></a></li>
-<li><a href="#register-in-resilience-categories"><span class="toc-section-number">9.0.2</span> Register in Resilience Categories</a></li>
-<li><a href="#register-in-resilience-matrix"><span class="toc-section-number">9.0.3</span> Register in Resilience Matrix</a></li>
-<li><a href="#how-to-modify-config.r-for-goals-with-multiple-elements"><span class="toc-section-number">9.0.4</span> How to modify config.r for goals with multiple elements</a></li>
-</ul></li>
-<li><a href="#removing-goals-and-sub-goals"><span class="toc-section-number">10</span> Removing goals and sub-goals</a><ul>
-<li><a href="#removing-goals"><span class="toc-section-number">10.1</span> Removing goals</a></li>
-<li><a href="#removing-sub-goals-from-a-supra-goal"><span class="toc-section-number">10.2</span> Removing Sub-goals from a Supra-goal</a><ul>
-<li><a href="#remove-subgoals-from-goals.csv"><span class="toc-section-number">10.2.1</span> Remove subgoals from <code>goals.csv</code></a></li>
-<li><a href="#remove-subgoals-from-functions.r"><span class="toc-section-number">10.2.2</span> Remove subgoals from <code>functions.r</code></a></li>
-<li><a href="#remove-subgoals-from-pressures_matrix.csv"><span class="toc-section-number">10.2.3</span> Remove subgoals from <code>pressures_matrix.csv</code></a></li>
-<li><a href="#remove-subgoals-from-resilience_matrix.csv"><span class="toc-section-number">10.2.4</span> Remove subgoals from <code>resilience_matrix.csv</code></a></li>
+<li><a href="#resilience"><span class="toc-section-number">8.2</span> Resilience</a><ul>
+<li><a href="#how-to-identify-and-quantify-resilience"><span class="toc-section-number">8.2.1</span> How to identify and quantify resilience</a></li>
+<li><a href="#incorporating-local-resilience-measures-in-your-assessment"><span class="toc-section-number">8.2.2</span> Incorporating local resilience measures in your assessment</a></li>
+<li><a href="#how-to-modify-resilience-matrix-and-categories-in-the-toolbox"><span class="toc-section-number">8.2.3</span> How to modify Resilience Matrix and Categories in the Toolbox</a></li>
 </ul></li>
 </ul></li>
-<li><a href="#calculate-overall-ohi-index-scores"><span class="toc-section-number">11</span> Calculate overall OHI Index Scores</a><ul>
-<li><a href="#additional-data-layers-for-pressures-and-resilience-calculations"><span class="toc-section-number">11.0.1</span> Additional data layers for pressures and resilience calculations</a></li>
-<li><a href="#final-calculation"><span class="toc-section-number">11.0.2</span> Final calculation</a></li>
-</ul></li>
-<li><a href="#toolbox-troubleshooting"><span class="toc-section-number">12</span> Toolbox Troubleshooting</a><ul>
-<li><a href="#general-software-errors"><span class="toc-section-number">12.1</span> General Software Errors</a><ul>
-<li><a href="#rpostback-askpass-error"><span class="toc-section-number">12.1.1</span> rpostback-askpass error</a></li>
-<li><a href="#git-not-detected-on-system-path"><span class="toc-section-number">12.1.2</span> Git not detected on system path</a></li>
-<li><a href="#loading-rworkspace-on-restart"><span class="toc-section-number">12.1.3</span> Loading RWorkspace on Restart</a></li>
-</ul></li>
-<li><a href="#errors-when-using-the-toolbox"><span class="toc-section-number">12.2</span> Errors when Using the Toolbox</a><ul>
-<li><a href="#useful-errors-when-calculating-scores"><span class="toc-section-number">12.2.1</span> Useful Errors when Calculating Scores</a></li>
-<li><a href="#checklayers-error-due-to-rows-duplicated"><span class="toc-section-number">12.2.2</span> <code>CheckLayers()</code> error due to ‘Rows Duplicated…’</a></li>
-<li><a href="#layers-error-due-to-row.names-duplicate-row.names-are-not-allowed"><span class="toc-section-number">12.2.3</span> <code>Layers()</code> error due to ‘row.names: duplicate ’row.names’ are not allowed’</a></li>
-<li><a href="#calculating-pressures"><span class="toc-section-number">12.2.4</span> Calculating Pressures…</a></li>
-<li><a href="#calculating-resilience"><span class="toc-section-number">12.2.5</span> Calculating Resilience …</a></li>
+<li><a href="#removing-goals-and-sub-goals"><span class="toc-section-number">9</span> Removing goals and sub-goals</a><ul>
+<li><a href="#removing-goals"><span class="toc-section-number">9.1</span> Removing goals</a></li>
+<li><a href="#removing-sub-goals-from-a-supra-goal"><span class="toc-section-number">9.2</span> Removing Sub-goals from a Supra-goal</a><ul>
+<li><a href="#remove-subgoals-from-goals.csv"><span class="toc-section-number">9.2.1</span> Remove subgoals from <code>goals.csv</code></a></li>
+<li><a href="#remove-subgoals-from-functions.r"><span class="toc-section-number">9.2.2</span> Remove subgoals from <code>functions.r</code></a></li>
+<li><a href="#remove-subgoals-from-pressures_matrix.csv"><span class="toc-section-number">9.2.3</span> Remove subgoals from <code>pressures_matrix.csv</code></a></li>
+<li><a href="#remove-subgoals-from-resilience_matrix.csv"><span class="toc-section-number">9.2.4</span> Remove subgoals from <code>resilience_matrix.csv</code></a></li>
 </ul></li>
 </ul></li>
-<li><a href="#appendix-1-toolbox-software"><span class="toc-section-number">13</span> Appendix 1: Toolbox Software</a><ul>
-<li><a href="#introduction-1"><span class="toc-section-number">13.1</span> Introduction</a><ul>
-<li><a href="#github-and-git"><span class="toc-section-number">13.1.1</span> GitHub and git</a></li>
-<li><a href="#r-and-rstudio"><span class="toc-section-number">13.1.2</span> R and RStudio</a></li>
-<li><a href="#syncing-github-and-rstudio"><span class="toc-section-number">13.1.3</span> Syncing Github and RStudio</a></li>
+<li><a href="#calculate-overall-ohi-index-scores"><span class="toc-section-number">10</span> Calculate overall OHI Index Scores</a><ul>
+<li><a href="#additional-data-layers-for-pressures-and-resilience-calculations"><span class="toc-section-number">10.0.1</span> Additional data layers for pressures and resilience calculations</a></li>
+<li><a href="#final-calculation"><span class="toc-section-number">10.0.2</span> Final calculation</a></li>
 </ul></li>
-<li><a href="#setting-up-github-and-rstudio"><span class="toc-section-number">13.2</span> Setting up Github and RStudio</a><ul>
-<li><a href="#set-up-a-github-account-and-git"><span class="toc-section-number">13.2.1</span> Set up a Github Account and git</a></li>
-<li><a href="#download-r-and-rstudio"><span class="toc-section-number">13.2.2</span> Download R and RStudio</a></li>
+<li><a href="#toolbox-troubleshooting"><span class="toc-section-number">11</span> Toolbox Troubleshooting</a><ul>
+<li><a href="#general-software-errors"><span class="toc-section-number">11.1</span> General Software Errors</a><ul>
+<li><a href="#rpostback-askpass-error"><span class="toc-section-number">11.1.1</span> rpostback-askpass error</a></li>
+<li><a href="#git-not-detected-on-system-path"><span class="toc-section-number">11.1.2</span> Git not detected on system path</a></li>
+<li><a href="#loading-rworkspace-on-restart"><span class="toc-section-number">11.1.3</span> Loading RWorkspace on Restart</a></li>
 </ul></li>
-<li><a href="#cloning-a-repository-to-your-local-computer"><span class="toc-section-number">13.3</span> Cloning a repository to your local computer</a></li>
-<li><a href="#install-ohicore-1"><span class="toc-section-number">13.4</span> Install <code>ohicore</code></a><ul>
-<li><a href="#food-provision"><span class="toc-section-number">13.4.1</span> Food Provision</a></li>
-<li><a href="#artisanal-fishing-opportunities"><span class="toc-section-number">13.4.2</span> Artisanal Fishing Opportunities</a></li>
-<li><a href="#carbon-storage"><span class="toc-section-number">13.4.3</span> Carbon storage</a></li>
-<li><a href="#coastal-protection"><span class="toc-section-number">13.4.4</span> Coastal protection</a></li>
-<li><a href="#sense-of-place"><span class="toc-section-number">13.4.5</span> Sense of Place</a></li>
-<li><a href="#livelihoods-and-economies"><span class="toc-section-number">13.4.6</span> Livelihoods and Economies</a></li>
-<li><a href="#tourism-and-recreation"><span class="toc-section-number">13.4.7</span> Tourism and Recreation</a></li>
-<li><a href="#clean-waters"><span class="toc-section-number">13.4.8</span> Clean Waters</a></li>
-<li><a href="#biodiversity"><span class="toc-section-number">13.4.9</span> Biodiversity</a></li>
+<li><a href="#errors-when-using-the-toolbox"><span class="toc-section-number">11.2</span> Errors when Using the Toolbox</a><ul>
+<li><a href="#useful-errors-when-calculating-scores"><span class="toc-section-number">11.2.1</span> Useful Errors when Calculating Scores</a></li>
+<li><a href="#checklayers-error-due-to-rows-duplicated"><span class="toc-section-number">11.2.2</span> <code>CheckLayers()</code> error due to ‘Rows Duplicated…’</a></li>
+<li><a href="#layers-error-due-to-row.names-duplicate-row.names-are-not-allowed"><span class="toc-section-number">11.2.3</span> <code>Layers()</code> error due to ‘row.names: duplicate ’row.names’ are not allowed’</a></li>
+<li><a href="#calculating-pressures"><span class="toc-section-number">11.2.4</span> Calculating Pressures…</a></li>
+<li><a href="#calculating-resilience"><span class="toc-section-number">11.2.5</span> Calculating Resilience …</a></li>
 </ul></li>
 </ul></li>
-<li><a href="#appendix-2-instructions-for-preparing-data-files-for-the-ohi-toolbox"><span class="toc-section-number">14</span> Appendix 2: Instructions for preparing data files for the OHI Toolbox</a><ul>
-<li><a href="#description-document-for-each-goal"><span class="toc-section-number">14.1</span> 1. Description document for each goal</a></li>
-<li><a href="#a.-.csv-files-for-each-data-layer"><span class="toc-section-number">14.2</span> 2a. <em>.csv</em> files for each data layer</a><ul>
-<li><a href="#contents-of-data-layers"><span class="toc-section-number">14.2.1</span> Contents of data layers</a></li>
-<li><a href="#naming-data-layers"><span class="toc-section-number">14.2.2</span> Naming data layers</a></li>
+<li><a href="#appendix-1-toolbox-software"><span class="toc-section-number">12</span> Appendix 1: Toolbox Software</a><ul>
+<li><a href="#introduction-1"><span class="toc-section-number">12.1</span> Introduction</a><ul>
+<li><a href="#github-and-git"><span class="toc-section-number">12.1.1</span> GitHub and git</a></li>
+<li><a href="#r-and-rstudio"><span class="toc-section-number">12.1.2</span> R and RStudio</a></li>
+<li><a href="#syncing-github-and-rstudio"><span class="toc-section-number">12.1.3</span> Syncing Github and RStudio</a></li>
 </ul></li>
-<li><a href="#b.-description-files-to-accompany-each-data-layer"><span class="toc-section-number">14.3</span> 2b. Description files to accompany each data layer</a></li>
-<li><a href="#pressures-and-resilience-data"><span class="toc-section-number">14.4</span> 3. Pressures and resilience data</a><ul>
-<li><a href="#pressures"><span class="toc-section-number">14.4.1</span> Pressures</a></li>
-<li><a href="#resilience"><span class="toc-section-number">14.4.2</span> Resilience</a></li>
+<li><a href="#setting-up-github-and-rstudio"><span class="toc-section-number">12.2</span> Setting up Github and RStudio</a><ul>
+<li><a href="#set-up-a-github-account-and-git"><span class="toc-section-number">12.2.1</span> Set up a Github Account and git</a></li>
+<li><a href="#download-r-and-rstudio"><span class="toc-section-number">12.2.2</span> Download R and RStudio</a></li>
+</ul></li>
+<li><a href="#cloning-a-repository-to-your-local-computer"><span class="toc-section-number">12.3</span> Cloning a repository to your local computer</a></li>
+<li><a href="#install-ohicore-1"><span class="toc-section-number">12.4</span> Install <code>ohicore</code></a><ul>
+<li><a href="#food-provision"><span class="toc-section-number">12.4.1</span> Food Provision</a></li>
+<li><a href="#artisanal-fishing-opportunities"><span class="toc-section-number">12.4.2</span> Artisanal Fishing Opportunities</a></li>
+<li><a href="#carbon-storage"><span class="toc-section-number">12.4.3</span> Carbon storage</a></li>
+<li><a href="#coastal-protection"><span class="toc-section-number">12.4.4</span> Coastal protection</a></li>
+<li><a href="#sense-of-place"><span class="toc-section-number">12.4.5</span> Sense of Place</a></li>
+<li><a href="#livelihoods-and-economies"><span class="toc-section-number">12.4.6</span> Livelihoods and Economies</a></li>
+<li><a href="#tourism-and-recreation"><span class="toc-section-number">12.4.7</span> Tourism and Recreation</a></li>
+<li><a href="#clean-waters"><span class="toc-section-number">12.4.8</span> Clean Waters</a></li>
+<li><a href="#biodiversity"><span class="toc-section-number">12.4.9</span> Biodiversity</a></li>
 </ul></li>
 </ul></li>
-<li><a href="#appendix-3-instructions-for-preparing-model-descriptions"><span class="toc-section-number">15</span> Appendix 3: Instructions for preparing model descriptions</a></li>
-<li><a href="#appendix-4-develop-a-record-keeping-spreadsheet"><span class="toc-section-number">16</span> Appendix 4: Develop a record-keeping spreadsheet</a></li>
-<li><a href="#appendix-5-r-tutorials-for-ohi"><span class="toc-section-number">17</span> Appendix 5: R Tutorials for OHI</a><ul>
-<li><a href="#r-very-basics"><span class="toc-section-number">17.0.1</span> R Very Basics:</a></li>
-<li><a href="#tidyr-functions"><span class="toc-section-number">17.0.2</span> <code>tidyr</code> functions</a></li>
-<li><a href="#dplyr-functions"><span class="toc-section-number">17.0.3</span> <code>dplyr</code> functions</a></li>
-<li><a href="#coding-style"><span class="toc-section-number">17.0.4</span> Coding style</a></li>
+<li><a href="#appendix-2-instructions-for-preparing-data-files-for-the-ohi-toolbox"><span class="toc-section-number">13</span> Appendix 2: Instructions for preparing data files for the OHI Toolbox</a><ul>
+<li><a href="#description-document-for-each-goal"><span class="toc-section-number">13.1</span> 1. Description document for each goal</a></li>
+<li><a href="#a.-.csv-files-for-each-data-layer"><span class="toc-section-number">13.2</span> 2a. <em>.csv</em> files for each data layer</a><ul>
+<li><a href="#contents-of-data-layers"><span class="toc-section-number">13.2.1</span> Contents of data layers</a></li>
+<li><a href="#naming-data-layers"><span class="toc-section-number">13.2.2</span> Naming data layers</a></li>
 </ul></li>
-<li><a href="#appendix-6-frequently-asked-questions-faqs"><span class="toc-section-number">18</span> Appendix 6: Frequently Asked Questions (FAQs)</a><ul>
-<li><a href="#conceptual"><span class="toc-section-number">18.1</span> Conceptual</a></li>
-<li><a href="#timing-and-resources"><span class="toc-section-number">18.2</span> Timing and Resources</a></li>
-<li><a href="#structure"><span class="toc-section-number">18.3</span> Structure</a></li>
-<li><a href="#appropriate-data-layers"><span class="toc-section-number">18.4</span> Appropriate data layers</a></li>
+<li><a href="#b.-description-files-to-accompany-each-data-layer"><span class="toc-section-number">13.3</span> 2b. Description files to accompany each data layer</a></li>
+<li><a href="#pressures-and-resilience-data"><span class="toc-section-number">13.4</span> 3. Pressures and resilience data</a><ul>
+<li><a href="#pressures-1"><span class="toc-section-number">13.4.1</span> Pressures</a></li>
+<li><a href="#resilience-1"><span class="toc-section-number">13.4.2</span> Resilience</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#appendix-3-instructions-for-preparing-model-descriptions"><span class="toc-section-number">14</span> Appendix 3: Instructions for preparing model descriptions</a></li>
+<li><a href="#appendix-4-develop-a-record-keeping-spreadsheet"><span class="toc-section-number">15</span> Appendix 4: Develop a record-keeping spreadsheet</a></li>
+<li><a href="#appendix-5-r-tutorials-for-ohi"><span class="toc-section-number">16</span> Appendix 5: R Tutorials for OHI</a><ul>
+<li><a href="#r-very-basics"><span class="toc-section-number">16.0.1</span> R Very Basics:</a></li>
+<li><a href="#tidyr-functions"><span class="toc-section-number">16.0.2</span> <code>tidyr</code> functions</a></li>
+<li><a href="#dplyr-functions"><span class="toc-section-number">16.0.3</span> <code>dplyr</code> functions</a></li>
+<li><a href="#coding-style"><span class="toc-section-number">16.0.4</span> Coding style</a></li>
+</ul></li>
+<li><a href="#appendix-6-frequently-asked-questions-faqs"><span class="toc-section-number">17</span> Appendix 6: Frequently Asked Questions (FAQs)</a><ul>
+<li><a href="#conceptual"><span class="toc-section-number">17.1</span> Conceptual</a></li>
+<li><a href="#timing-and-resources"><span class="toc-section-number">17.2</span> Timing and Resources</a></li>
+<li><a href="#structure"><span class="toc-section-number">17.3</span> Structure</a></li>
+<li><a href="#appropriate-data-layers"><span class="toc-section-number">17.4</span> Appropriate data layers</a></li>
 </ul></li>
 </ul>
 </div>
@@ -1165,8 +1164,182 @@ year_min = 2011
 <p class="caption">A screenshot of <code>goals.csv</code>, used to modify goal model</p>
 </div>
 </div>
-<div id="modifying-pressures-matrix" class="section level1">
-<h1><span class="header-section-number">8</span> Modifying Pressures Matrix</h1>
+<div id="modifying-pressures-and-resilience" class="section level1">
+<h1><span class="header-section-number">8</span> Modifying Pressures and Resilience</h1>
+<p><strong>Pressures</strong> and <strong>Resilience</strong> are two of the four dimensions used to evaluate each goal or sub-goal, along with <strong>Status</strong> and <strong>Trend</strong>.</p>
+<p>It is important to identify the pressures that affect the ocean and coastal systems in your study area, and to search for additional pressures not included the global assessments. Once you have identified pressures within your study area, you should identify what resilience measures could counteract or nullify those pressures. Alternatively, you can start with a list of known resiliences, such as the relevant environmental laws in your country, and them map them onto pressure layers.</p>
+<blockquote>
+<p>TIP: The same considerations and requirements about data presented in the “<strong>Gathering Appropriate Data</strong>” section also apply to pressures and resilience. Every measure you include for pressures and resilience requires data for each region in your assessment.</p>
+</blockquote>
+<p>Ideally, every stressor with an identified strong impact should have a corresponding resilience measure. The rationale is that as resiliences in the study area increase (for instance, by improving environmental regulations), they would balance out and eventually neutralize the pressures. This would lead to an increase in the overall goal or sub-goal score. By including regulatory responses in your assessment, you ensure that the actions taken in your country are relevant to ocean health.</p>
+<p>In practice, however, the pressures and resilience measures you include in your assessment will be highly determined by data availability. It is best to <em>first consider what pressures are acting in your study area and then determine if data are available to measure them</em>. You should also decide if the pressures data included in the global assessment are relevant for your assessment and determine if local data better capture pressures for all the regions in your study area. When considering resilience measures, look for regulations or indicators that could be encompassed in one of the pressures categories.</p>
+<div id="pressures" class="section level2">
+<h2><span class="header-section-number">8.1</span> Pressures</h2>
+<div id="how-to-identify-and-quantify-pressures" class="section level3">
+<h3><span class="header-section-number">8.1.1</span> How to identify and quantify pressures</h3>
+<p>The Toolbox calculates pressures in five <strong>ecological pressure categories</strong> (e.g., pollution, habitat destruction, fishing pressure, species pollution, and climate change) and one <strong>social pressure category</strong> (eg. Weakness of Governance Indicator). Under each category, you could have multiple pressure data layers. For example, the “pollution” category could include pathogen, nutrients, and chemicals pollution.</p>
+<blockquote>
+<p>The reason behind the ecological categories is to avoid hidden weighting (e.g., overrepresentation of pressures for which there is more data). For example, in the global assessment there were many pollution datasets available, but few distinct habitat destruction datasets. If we simply averaged the scores of each individual stressor, pollution scores would have a greater influence on the results (stronger weight) due to the relative higher availability of measurements of various pollutants. Instead, aggregating by pressure categories ensures that different stressor types influence the score based on ranks. Nonetheless, the scores are combined in a cumulative way within each category to account for the fact that multiple stressors within a category have a cumulative impact that is greater than if only one of the stressors were present. The resulting scores for the five ecological categories are averaged to produce a single ecological pressures score. This score is then averaged with the social pressures score to produce the final overall pressure score.</p>
+</blockquote>
+<p>There are two types of pressures data you need to provide for the toolbox: <em>local data layers for each pressure</em> and <em>a pressure matrix</em> .</p>
+<div id="pressures-data-layers" class="section level4">
+<h4><span class="header-section-number">8.1.1.1</span> Pressures data layers</h4>
+<p>The pressures you will include in your assessment will depend on what is important in your study area and what data are available. If local pressures data are not available, you may default to using data from the global assessment, but this means in most cases that you will not have different information for each region. You will determine the weight ranks required in the pressures matrix only after you have identified the data you will include.</p>
+<p>The following steps outline the process of how to identify pressures in your assessment. The steps are iterative; return to previous steps to ensure you capture all important pressures in your study area:</p>
+<ol style="list-style-type: decimal">
+<li>Begin by exploring pressures important to your study area. What are big stressors acting along your coastlines?</li>
+<li>Are data available to measure these stressors? If not, are other indirect measures or proxies available to represent these stressors?</li>
+<li>Evaluate the pressures included in the global assessment. For example, if there is no mariculture in your study area, you could remove pressures data layers that only affect this goal (i.e. genetic escapes).</li>
+<li>Are all of them relevant? Are there local data that can be substituted in the place of global data?</li>
+<li>Determine the pressure category for any additional stressors in your study area, and add it to the pressures matrix.</li>
+<li>When all stressors are included in the pressures matrix, determine which goals it affects. Then, determine the weight rankings of all stressors for each goal. Use literature and expert judgement to determine this.</li>
+<li>Prepare each pressure data layer as described in this manual only after steps 1-6 are completed. In addition to the proper formatting for the Toolbox, <em>pressures data must be rescaled (normalized) on a unitless scale from 0 - 1, where 0 is no stressor at all and 1 is the highest possible value for the stressor, or the value at which the goal achievement is completely impaired. You will have to determine how to rescale the data, whether it is based on the highest value in the data range or other methods.</em></li>
+</ol>
+<div id="including-pressures-from-global-assessments" class="section level5">
+<h5><span class="header-section-number">8.1.1.1.1</span> Including pressures from global assessments</h5>
+<p>If you are not able to find local data for stressors, you may use the data from the global assessments for your country. For most of the stressors, this means that there will not be differences between the regions within your study area. However, several stressors included in the global assessment are based on spatial data at high resolution from previous work by Halpern <em>et al.</em> (2008) in <em>Science:</em> <a href="http://www.sciencemag.org/content/319/5865/948.abstract">A global map of human impact on marine ecosystems</a>. These data are available at a resolution of 1 km^2 for the entire global ocean, and can be extracted for the regions in your study area. The stressors available at 1km^2 resolution are indicated below with ** ** **.</p>
+<p><span style="font-size:0.8em"></p>
+<p><strong>Table of pressures layers and descriptions</strong></p>
+<table style="width:162%;">
+<colgroup>
+<col width="25%" />
+<col width="137%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">layer</th>
+<th align="left">name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">cc_acid**</td>
+<td align="left">Ocean acidification</td>
+</tr>
+<tr class="even">
+<td align="left">cc_slr**</td>
+<td align="left">Sea level rise</td>
+</tr>
+<tr class="odd">
+<td align="left">cc_sst**</td>
+<td align="left">Sea surface temperature (SST) anomalies</td>
+</tr>
+<tr class="even">
+<td align="left">cc_uv**</td>
+<td align="left">UV radiation</td>
+</tr>
+<tr class="odd">
+<td align="left">fp_art_hb</td>
+<td align="left">High bycatch caused by artisanal fishing</td>
+</tr>
+<tr class="even">
+<td align="left">fp_art_lb</td>
+<td align="left">Low bycatch caused by artisanal fishing</td>
+</tr>
+<tr class="odd">
+<td align="left">fp_com_hb</td>
+<td align="left">High bycatch caused by commercial fishing</td>
+</tr>
+<tr class="even">
+<td align="left">fp_com_lb</td>
+<td align="left">Low bycatch caused by commercial fishing</td>
+</tr>
+<tr class="odd">
+<td align="left">fp_targetharvest</td>
+<td align="left">Targeted harvest of cetaceans and sea turtles</td>
+</tr>
+<tr class="even">
+<td align="left">hd_intertidal</td>
+<td align="left">Coastal population density as a proxy for intertidal habitat destruction</td>
+</tr>
+<tr class="odd">
+<td align="left">hd_subtidal_hb</td>
+<td align="left">High bycatch artisanal fishing practices as a proxy for subtidal hard bottom habitat destruction</td>
+</tr>
+<tr class="even">
+<td align="left">hd_subtidal_sb</td>
+<td align="left">High bycatch commercial fishing practices as a proxy for subtidal soft bottom habitat destruction</td>
+</tr>
+<tr class="odd">
+<td align="left">po_chemicals**</td>
+<td align="left">Ocean-based chemical pollution</td>
+</tr>
+<tr class="even">
+<td align="left">po_chemicals_3nm**</td>
+<td align="left">Land-based chemical pollution</td>
+</tr>
+<tr class="odd">
+<td align="left">po_nutrients**</td>
+<td align="left">Ocean nutrient pollution</td>
+</tr>
+<tr class="even">
+<td align="left">po_nutrients_3nm**</td>
+<td align="left">Coastal nutrient pollution</td>
+</tr>
+<tr class="odd">
+<td align="left">po_pathogens</td>
+<td align="left">Access to improved sanitation as a proxy for pathogen pollution</td>
+</tr>
+<tr class="even">
+<td align="left">po_trash</td>
+<td align="left">Trash pollution</td>
+</tr>
+<tr class="odd">
+<td align="left">sp_alien</td>
+<td align="left">Alien species</td>
+</tr>
+<tr class="even">
+<td align="left">sp_genetic</td>
+<td align="left">Introduced species as a proxy for genetic escapes</td>
+</tr>
+<tr class="odd">
+<td align="left">ss_wgi</td>
+<td align="left">Weakness of governance indicated with the WGI</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+<p>Note that chemical and nutrient pollution have both land-based (within 3 nautical miles) and ocean-based (within the entire 200 nautical mile EEZ) elements. This is because how pollution affects different goals will depend on the spatial scale of the goal’s activity. Some goals occur far from shore, and nutrient and chemical pollution should be included for all offshore waters: FIS, MAR, ECO, and SPP. However, some goals are really only relevant nearshore, so nutrient and chemical pollution should only be included close to the shoreline (3nm in the global study): AO, CS, CP, TR, ICO, LSP, HAB.</p>
+<p>These distinctions won’t always apply for smaller-scale assessments. For example, in the US West Coast study (Halpern <em>et al.</em> 2014), we did not distinguish between offshore and 3nm and therefore only used the <code>po_nutrients</code> data layer.</p>
+<blockquote>
+<p>Some pressure data are the same or closely-related to data for goals. For example, the <strong>Wild-Caught Fisheries</strong> goal model requires catch data, which may be the same data source for information on commercial high- and low-bycatch data, which are used as pressures layers that affect <strong>Livelhoods and Economies</strong> and <strong>Biodiversity</strong>. In global assessments, the <strong>Clean Waters</strong> goal is very much linked to pressures layers because the input layers for its status are used as pressure layers. Trash pollution is a pressure that affects <strong>Tourism and Reacreation</strong>, <strong>Lasting Special Places</strong>, <strong>Livelihoods and Economies,</strong> and <strong>Species</strong>. It is important to remember these linkages as you go through the data discovery process.</p>
+</blockquote>
+<blockquote>
+<p>You should also start searching for pressures data independent from data for goals. An example would be how climate change impacts will appear in various places in your assessment. Climate change pressures layers can include UV radiation, sea surface temperature (SST), sea-level rise (SLR), and ocean acidification, and these impacts might affect such goals as <strong>Natural Products</strong>, <strong>Carbon Storage</strong>, <strong>Coastal Protection</strong>, <strong>Sense of Place</strong>, <strong>Livelihoods and Economies</strong>, and <strong>Biodiversity</strong>. These linkages will become more clear as you go through the OHI+ assessment process.</p>
+</blockquote>
+</div>
+</div>
+<div id="pressures-matrix" class="section level4">
+<h4><span class="header-section-number">8.1.1.2</span> Pressures matrix</h4>
+<p>Independent from local pressure layers, you will develop a Pressures Matrix table that establishes the relationships between stressors and goals, i.e. how each pressure measure affects each goal, or an individual habitat type or natural product categories within a goal. It uses a <em>rank from 1-3 to weight how strongly a given pressure affects a goal or sub-goal relative to all the other pressures affecting it</em>.</p>
+<blockquote>
+<p>It is easy to confuse the weights with pressure data layers. But pressure weights should not be applied to the regions, only to the goals.</p>
+</blockquote>
+<p>The rank weights used in the pressures matrix were determined by Halpern <em>et al</em>. 2012 (<em>Nature</em>) based on scientific literature and expert opinion (see Supplemental Table S28 of <em>Halpern et al. 2012</em>). For example, commercial high and low bycatch are categorical values that were set based on fishing gear type. This began as a list of gear types used, producing a range of potential bycatch frequencies (from local reports when possible), which can be rescaled. In the pressures matrix ranks are categorized as follows:</p>
+<ul>
+<li>3 = high pressure</li>
+<li>2 = medium pressure</li>
+<li>1 = low pressure</li>
+</ul>
+<div class="figure">
+<img src="fig/ohiman_goals-pressures-2D.png" alt="Scores from 1-3 are given to rank the importance of each pressure. Only values of 2 or 3 require that a resilience layer be activated when calculating the goal scores." />
+<p class="caption">Scores from 1-3 are given to rank the importance of each pressure. Only values of 2 or 3 require that a resilience layer be activated when calculating the goal scores.</p>
+</div>
+<p>Stressors that have no impact are left blank in the matrix rather than being assigned a rank of zero, which would affect the average score. Pressures are ranked rather than being represented as a binary (yes/no) measure because the range of consequence of different pressures on each goal can be quite large, and to classify all those pressures as a simple ‘yes’ would give too much influence to the weakest stressors. For example, food provision is most heavily impacted by unsustainable, high-bycatch fishing, but pollution does have some impact on fish populations. Without a weighting system, these stressors would be treated equally in their impact on the food provision goal.</p>
+<blockquote>
+<p>How are Pressures calculated in the Toolbox?</p>
+</blockquote>
+<blockquote>
+<p>Pressures are represented by three-dimensional matrix. The data of each stressor in each region and the rank weights are two dimensions of the 3-D matrix. The Toolbox will: 1. For each stressor, multiply the local data for each region (between 0 and 1) by the weight (NA, 1, 2, or 3) assigned to that pressure for a specific goal and subgoal 2. Within each category, combine all stressor data from step 1 to get a category score 3. Average scores of all categories to get an overall pressures score for that goal or sub-goal</p>
+</blockquote>
+<div class="figure">
+<img src="fig/ohiman_goals-pressures-regions.png" alt="The pressures matrix is three-dimensional: each pressure layer has data per region, which is multiplied by the ranking weights of the pressures matrix." />
+<p class="caption">The pressures matrix is three-dimensional: each pressure layer has data per region, which is multiplied by the ranking weights of the pressures matrix.</p>
+</div>
+</div>
+</div>
+<div id="how-to-modify-pressures-matrix-and-categories-in-the-toolbox" class="section level3">
+<h3><span class="header-section-number">8.1.2</span> How to modify Pressures Matrix and Categories in the Toolbox</h3>
 <p>Your team will identify if any pressures layers should be added to the pressures matrices, and if so, which goals the pressure affects and what weight they should have. You can transfer this information in <code>pressures_matrix.csv</code> (located in the <code>[assessment]/[region_year]/conf</code> folder). It is important to note that the matrix identifies the pressures relevant to each goal, and which weight will be applied in the calculation. Each pressure is a data layer, located in the <code>[region_year]/layers</code> folder. This means that pressure layers need information for each region in the study area, and some layers will need to be updated with local data. In modifying pressures, you will need to consider whether data layers can be updated or added, and whether data layers map onto goals appropriately in the local context.</p>
 <p>Adding a new pressure to the pressures matrix requires the following steps:</p>
 <ol style="list-style-type: decimal">
@@ -1176,8 +1349,8 @@ year_min = 2011
 <li>Register in <code>pressures_matrix.csv</code>, identify the goals affected and set the weights</li>
 <li>Modify config.R for goals that have elements</li>
 </ol>
-<div id="create-the-new-pressure-layers-and-save-in-the-layers-folder" class="section level3">
-<h3><span class="header-section-number">8.0.1</span> Create the new pressure layers and save in the <code>layers</code> folder</h3>
+<div id="create-the-new-pressure-layers-and-save-in-the-layers-folder" class="section level4">
+<h4><span class="header-section-number">8.1.2.1</span> Create the new pressure layers and save in the <code>layers</code> folder</h4>
 <p>If you create a new data layer, give it a short but descriptive name that also includes a prefix that signifies the pressure category (for example: <em>po_</em> for the pollution category). There are five physical categories and one social category:</p>
 <ul>
 <li><em>po_</em> = pollution</li>
@@ -1190,16 +1363,16 @@ year_min = 2011
 <p>So for example, <code>po_trash</code> is a pollution layer with trash on beaches, and <code>sp_alien</code> is species pollution due to alien (invasive) species.</p>
 <p>These new layers will have scores from 0 to 1, with values for each region in your study area, and will be saved in the <code>layers</code> folder.</p>
 </div>
-<div id="register-the-new-pressure-layers-in-layers.csv" class="section level3">
-<h3><span class="header-section-number">8.0.2</span> Register the new pressure layers in <code>layers.csv</code></h3>
+<div id="register-the-new-pressure-layers-in-layers.csv" class="section level4">
+<h4><span class="header-section-number">8.1.2.2</span> Register the new pressure layers in <code>layers.csv</code></h4>
 <p>Add two new rows in <code>layers.csv</code>, and register the new pressure layers by filling out the first eight columns for <em>po_desal_in</em>, and <em>po_desal_out</em>.</p>
 <div class="figure">
 <img src="fig/register_pressure.png" alt="" />
 
 </div>
 </div>
-<div id="register-in-pressures_categories.csv" class="section level3">
-<h3><span class="header-section-number">8.0.3</span> Register in <code>pressures_categories.csv</code></h3>
+<div id="register-in-pressures_categories.csv" class="section level4">
+<h4><span class="header-section-number">8.1.2.3</span> Register in <code>pressures_categories.csv</code></h4>
 <p>This is a table to record the <em>name</em> of each pressures data layer, its <em>category</em>, and <em>subcategory</em>. Each data layer name is the same name that is saved in the <code>layers</code> folder and is registered in <code>layers.csv</code>. Each layer falls under one of two categories - ecological or social pressures, and one of several subcategories to further represent the origin of the pressure (e.g. climate change, fishing, etc), which is also indicated by a prefix of each data layer name.</p>
 <p>Each pressure category is calculated separately before being combined with the others, so it is important to register the new pressure with the appropriate category prefix decided by your regional assessment team.</p>
 <div class="figure">
@@ -1207,8 +1380,8 @@ year_min = 2011
 
 </div>
 </div>
-<div id="register-in-pressures_matrix.csv" class="section level3">
-<h3><span class="header-section-number">8.0.4</span> Register in <code>pressures_matrix.csv</code></h3>
+<div id="register-in-pressures_matrix.csv" class="section level4">
+<h4><span class="header-section-number">8.1.2.4</span> Register in <code>pressures_matrix.csv</code></h4>
 <p><code>pressures_matrix.csv</code> identifies the different types of ocean pressures with the goals that they affect. Adding a new pressures layer to <code>pressures_matrix.csv</code> requires adding a new column with the pressure layer name.</p>
 <p>The columns <code>element</code> (and <code>element_name</code>) record habitat types for habitat-specific goals (eg. CS and CP) and industrial sectors for economy-based goals (eg. ECO).</p>
 <p>The rest of the column headers of the pressures matrix are the layer names of the pressures layer file that are saved in the <code>layers</code> folder and registered in <code>layers.csv</code>, matching what’s recorded in the <em>pressures_categories.csv</em>.</p>
@@ -1217,12 +1390,13 @@ year_min = 2011
 <img src="https://docs.google.com/drawings/d/1PiueTs_r2IvC10zsStJq-tD3YcsC98eRKr1e2OOVKUw/pub?w=800&amp;h=720" alt="" />
 
 </div>
+</div>
 <div id="identify-the-goals-affected-and-set-the-weighting" class="section level4">
-<h4><span class="header-section-number">8.0.4.1</span> Identify the goals affected and set the weighting</h4>
+<h4><span class="header-section-number">8.1.2.5</span> Identify the goals affected and set the weighting</h4>
 <p>This step also requires transferring prior decisions into <code>pressures_matrix.csv</code>. Mark which goals are affected by this new pressure, and then set the weighting. Pressures weighting by goal should be based on scientific literature and expert opinion (3 = highly influential pressure, 2 = moderately influential pressure, 1 = not very influential pressure). Remember that the rankings in the pressures matrix are separate from the actual data within the pressures data layers. The rankings ensure that within a particular goal (e.g. within a row of the pressures matrix), the stressors that more strongly influence the goal’s delivery have a larger contribution to that goal’s overall pressure score. Therefore, the rankings are assigned independently of the actual pressure scores, and only determine their importance within the calculations.</p>
 </div>
 <div id="modify-config.r-for-goals-with-multiple-elements" class="section level4">
-<h4><span class="header-section-number">8.0.4.2</span> Modify config.R for goals with multiple elements</h4>
+<h4><span class="header-section-number">8.1.2.6</span> Modify config.R for goals with multiple elements</h4>
 <p>If a goal has multiple elements (eg. CS has multiple habitats), as reflected in <em>pressures_matrix.csv</em> where the columns <code>element</code> (and <code>element_name</code>) are filled, you need to update <code>config.R</code> in <code>conf</code> folder, as shown below:</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/14qz5DZUQAuiRaJDYfyTp2c1g1RGDKCRwN0uSPYX4hHE/pub?w=800&amp;h=540" alt="" />
@@ -1232,9 +1406,158 @@ year_min = 2011
 </div>
 </div>
 </div>
-<div id="modifying-resilience-matrix" class="section level1">
-<h1><span class="header-section-number">9</span> Modifying Resilience Matrix</h1>
+<div id="resilience" class="section level2">
+<h2><span class="header-section-number">8.2</span> Resilience</h2>
+<div id="how-to-identify-and-quantify-resilience" class="section level3">
+<h3><span class="header-section-number">8.2.1</span> How to identify and quantify resilience</h3>
 <p>Resilience is included in OHI as the sum of the ecological factors and social initiatives (policies, laws, etc.) that can positively affect goal scores by reducing or eliminating pressures. The addition of new pressure layers may therefore warrant the addition of new resilience layers that were not previously relevant. Similarly, the removal of pressure layers may warrant the removal of now irrelevant resilience layers. You can then transfer this information into <code>resilience_matrix.csv</code>and <code>resilience_categories.csv</code> (located in the <code>[assessment]/[region_year]/conf</code> folder).</p>
+<p>Ideally, each pressure should have a corresponding resilience measure, which is meant to ‘balance’ the pressures that negatively effects on ocean health. The Ocean Health Index considers resilience in two categories: <strong>ecological resilience</strong> to address ecological pressures, and <strong>social resilience</strong> to estimate how a region may be able to respond to or prevent environmental challenges. Additionally, <strong>goal-specific regulations</strong> are intended to address ecological pressures, and are measured as laws, regulations, and other institutional measures related to a specific goal. Ideally, for any resilience measure, you would have three tiers of information:</p>
+<ul>
+<li><strong>Existence of regulations</strong>: Are regulations in place to appropriately address the ecological pressure?</li>
+<li><strong>Implementation and enforcement</strong>: Have these regulations been appropriately implemented and are there enforcement mechanisms in place?</li>
+<li><strong>Effectiveness and compliance</strong>: How effective have the regulations been at mitigating these pressures and is there compliance with these regulations?</li>
+</ul>
+<p>Ideally, information would exist for these three tiers, and you would be able to weight the resilience measure based on the quality of the information as 1 (existence of regulation), 2 (implementation and enforcement), or 3 (effectiveness and compliance). This approach is different from the way ranks are assigned in pressures, which is based on impact. However, in most cases, information is not available for these three tiers: often, the existence of regulations is all that is available, and this does not always vary by region. In some cases, you may want to consider building your own set of indicators to determine <strong>implementation and enforcement</strong> and <strong>effectiveness and compliance.</strong></p>
+<div id="ideal-approach" class="section level4">
+<h4><span class="header-section-number">8.2.1.1</span> Ideal Approach</h4>
+<p>Ideally, assessments of social resilience would include national-level and as well as local rules and other relevant institutional mechanisms that are meant to safeguard ocean health. The global focus has been on international treaties and indices, so your region should have more localized information. There would also be information as to their effectiveness and enforcement. of more. Information on social norms and community (and other local-scale) institutions (such as tenure or use rights) that influence resource use and management would be useful too.</p>
+</div>
+<div id="practical-considerations" class="section level4">
+<h4><span class="header-section-number">8.2.1.2</span> Practical Considerations</h4>
+<p>In practical terms, resilience is hard to define and finding data can be difficult. It is often difficult to find regulations and indicators that would directly ‘balance’ individual stressors, but it is worth the effort to explore what information is available in the local context and how it could be included as resilience measures. You may be able to construct your own set of indicators for resilience (particularly social resilience) using proxy data. Your team may have to get creative to develop appropriate assessment measures here. It can be metrically be defined as presence-versus-absence (value of zero or one), or on a scale (value between zero and one) if the measure is an assessment or score. For instance in the global study, resilience measures that were counted in the socio-economic resilience class of data came from the World Governance Indicators (<a href="http://govindicators.org" class="uri">http://govindicators.org</a>). In a regional context, however, a more appropriate data layer might be a local governance index of some kind, preferably developed by a reputable organization using credible methods.</p>
+<p>When available, national-level data are preferable to global-level data for your assessment. These include national laws on the environment, or protection of the marine environment or rivers that lead to coastal waters. National laws include things like the Clean Water Act (CWA) and the Endangered Species Act (ESA) in the U.S., or the national implementations of the E.U. Water Framework Directive. National actions can also be broadened beyond just legislation to include administrative procedures such as those involving permits, licenses, court cases, administrative action, and compliance mechanisms. [Cultural items at the national scale, such as holidays, are also applied at this scale]</p>
+<p>State or province-level laws provide more regionally-specific information and thus work well for assessments. This would involve looking at the same types of laws and policies that exist on the national level, but specifically incorporating those that have been tailored to fit the needs of a particular sub-national area. This includes things such as California’s state-level California Environmental Quality Act (CEQA), or the California Ocean Protection Act (COPA), which have laws designed specifically to protect California’s environment. This would tell you more relevant information than using data from a national or international law. Local level regulations will usually provide you with the most accurate information for your assessment in order to tailor it best to the local context.</p>
+</div>
+<div id="scoring-turning-qualitative-into-quantitative" class="section level4">
+<h4><span class="header-section-number">8.2.1.3</span> Scoring: Turning Qualitative into Quantitative</h4>
+<p>There are several ways to turn the qualitative information of regulations and social actions into quantitative metrics for analysis. A robust way is to give credit for different aspects of the resilience measures. In addition to a score for having the law, policy, or action, in place, it is possible to gauge the effectiveness of that activity.</p>
+<p>The simplest way is to give credit for having a resilience measure in place. This means assigning a binary score of zero or one for “presence” versus “absence” of the resilience measure. For international conventions, this can be done by assigning a value of 1 for having signed a convention. A more rigorous score can be given for countries that have further <em>ratified</em> a convention in addition to signing it; this is one way to further differentiate scores. This can be done by seeing if a country has signed and ratified CITES, for example.</p>
+<blockquote>
+<p>For example, if you were trying to find out if there are regulations in place that guide fishing pressure, you could look see if regulations exist for trawl-fishing limitations, or see if there are regulations for fish size, length, or if there are any seasonal restrictions. Another option would be to see if formal stock assessments exist for commercially-fished species.</p>
+</blockquote>
+<p>A further step is to assess how well those measures are being complied with. This will give you more robust way is to assess how well a resilience mechanism is working to maintain the integrity of the regulation and thereby the ecosystem.</p>
+<blockquote>
+<p>For example, once you have found out whether regulations for fishing pressure exist, you would then try to find values for compliance with these regulations. These could be raw data or calculated statistics such as rate of compliance or proportion of compliance. It should answer the question, “Are there indicators of compliance with fishing pressure guidelines”?</p>
+</blockquote>
+<p>A subsequent, and final, step to creating a robust resilience assessment is to determine whether there are enforcement mechanisms in place to deal with non-compliance of the regulations. This is because a regulation is only as good as its implementation, and having both enforcement and compliance actions in place would reinforce the regulation and make it more effective.</p>
+<blockquote>
+<p>For example, in the case of fishing pressures, a further look into available data could lead you learn whether there are reported values of inspector visits and enforcement coverage of permitted facilities. Or you could look at reported numbers of enforcement actions in response to non-compliance. Further, you could also see if there are fines that have been paid or exist in association with non-compliance.</p>
+</blockquote>
+</div>
+<div id="data-sources-1" class="section level4">
+<h4><span class="header-section-number">8.2.1.4</span> Data sources</h4>
+<p>Environmental laws and policies offer tangible information on resilience. The most common type of environmental regulations come from administrative law, such as pollution regulation of various kinds. Land-use law is also important to the integration of social and ecosystem issues, so finding zoning laws relevant for coastal areas could be useful, and so could finding whether or not a region requires environmental impact statements before allowing construction for either coastal land or for marine planning. Other kinds of law some countries include court cases settling disputes or requiring reparation of pollution damages, for example.</p>
+<p>Resilience also goes beyond just the law, however. Insurance policies present another option, for instance.. Coastal areas are increasingly requiring climate-related insurance in some countries, and so the existence of such markets in a vulnerable area would be an example of a climate change resilience measure. Social initiatives also present another way to tackle resilience. There might be a beach clean-up day, a percentage of the refuse material that is recycled by the population, or some other social factor that reduces trash inputs into the ocean. A local law banning plastic bags is another way that local jurisdictions control plastic trash.</p>
+</div>
+</div>
+<div id="incorporating-local-resilience-measures-in-your-assessment" class="section level3">
+<h3><span class="header-section-number">8.2.2</span> Incorporating local resilience measures in your assessment</h3>
+<ol style="list-style-type: decimal">
+<li>Begin by exploring how resilience could be measured in your study area. What laws and regulations are in place that could provide resilience to ocean health?</li>
+<li>Are there locally-developed indices that capture social or ecological resilience? Is there information about how each region in your study area are implementing or enforcing the laws?</li>
+<li>Evaluate the resilience measures are included in the global assessment. Are all of them relevant? Are there local data that can be substituted in the place of global data? Are there resilience measures that should be excluded entirely?</li>
+<li>Assign the resilience measure to the appropriate goal. Since resilience measures are in response to pressures that have a weight rank of 2 or 3 effect on a certain goal, determining which goals ecological and social resilience measures effect follows the same pattern as the pressures matrix. For goal-specific resilience measures, assign the resilience measure to the appropriate goal.</li>
+<li>Prepare each resilience data layer only after steps 1-6 are completed. In addition to the proper formatting for the Toolbox, resilience data must be rescaled (normalized) on a unitless scale from 0 - 1. You will have to determine how to rescale the data, whether it is based on the highest value in the data range or other methods.</li>
+</ol>
+<div id="including-resilience-measures-from-global-assessments" class="section level4">
+<h4><span class="header-section-number">8.2.2.1</span> Including resilience measures from global assessments</h4>
+<p>Remember that local measures are far more appropriate than those included in global assessments, which likely do not reflect local management targets. However, international data were used in the global assessments that are available to you if you cannot find better local data:</p>
+<p><strong>Table of resilience layers and descriptions</strong></p>
+<table style="width:122%;">
+<colgroup>
+<col width="31%" />
+<col width="90%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">layer</th>
+<th align="left">name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">alien_species</td>
+<td align="left">Alien species</td>
+</tr>
+<tr class="even">
+<td align="left">cites</td>
+<td align="left">Resilience from commitment to CITES</td>
+</tr>
+<tr class="odd">
+<td align="left">fishing_v1</td>
+<td align="left">CBD survey: coastal fishing v1</td>
+</tr>
+<tr class="even">
+<td align="left">fishing_v1_eez</td>
+<td align="left">CBD survey: ocean fishing v1</td>
+</tr>
+<tr class="odd">
+<td align="left">fishing_v2_eez</td>
+<td align="left">CBD survey: ocean fishing v2</td>
+</tr>
+<tr class="even">
+<td align="left">fishing_v3</td>
+<td align="left">CBD survey: coastal fishing v3</td>
+</tr>
+<tr class="odd">
+<td align="left">fishing_v3_eez</td>
+<td align="left">CBD survey: ocean fishing v3</td>
+</tr>
+<tr class="even">
+<td align="left">habitat</td>
+<td align="left">CBD survey: habitat</td>
+</tr>
+<tr class="odd">
+<td align="left">habitat_combo</td>
+<td align="left">CBD survey: coastal habitat</td>
+</tr>
+<tr class="even">
+<td align="left">habitat_combo_eez</td>
+<td align="left">CBD survey: ocean habitat</td>
+</tr>
+<tr class="odd">
+<td align="left">li_gci</td>
+<td align="left">GCI: competitiveness in achieving sustained economic prosperity</td>
+</tr>
+<tr class="even">
+<td align="left">li_sector_evenness</td>
+<td align="left">Sector evenness as a measure of economic diversity</td>
+</tr>
+<tr class="odd">
+<td align="left">mariculture</td>
+<td align="left">CBD survey: mariculture</td>
+</tr>
+<tr class="even">
+<td align="left">msi_gov</td>
+<td align="left">MSI sustainability and regulations</td>
+</tr>
+<tr class="odd">
+<td align="left">species_diversity</td>
+<td align="left">Ocean ecological integrity</td>
+</tr>
+<tr class="even">
+<td align="left">species_diversity_3nm</td>
+<td align="left">Coastal ecological integrity</td>
+</tr>
+<tr class="odd">
+<td align="left">tourism</td>
+<td align="left">CBD survey: tourism</td>
+</tr>
+<tr class="even">
+<td align="left">water</td>
+<td align="left">CBD survey: water</td>
+</tr>
+<tr class="odd">
+<td align="left">wgi_all</td>
+<td align="left">Strength of governance indicated with the WGI</td>
+</tr>
+</tbody>
+</table>
+<p>* <em>CBD = Convention on Biological Diversity; GCI = Global Competitiveness Index; MSI = Mariculture Sustainability Index; WGI = World Governance Indicators</em>.</p>
+</div>
+</div>
+<div id="how-to-modify-resilience-matrix-and-categories-in-the-toolbox" class="section level3">
+<h3><span class="header-section-number">8.2.3</span> How to modify Resilience Matrix and Categories in the Toolbox</h3>
 <p>Adding a new resilience to the resilience matrix requires the following steps:</p>
 <ol style="list-style-type: decimal">
 <li>Create new resilience layer(s) and save in the <code>layers</code> folder</li>
@@ -1255,12 +1578,12 @@ year_min = 2011
 <ol start="5" style="list-style-type: decimal">
 <li>Modify <code>config.R</code> for goals that have elements</li>
 </ol>
-<div id="create-new-resilience-layers-save-in-layers-folder-and-register-in-layers.csv" class="section level3">
-<h3><span class="header-section-number">9.0.1</span> Create new resilience layers, save in <code>layers</code> folder and register in <code>layers.csv</code></h3>
+<div id="create-new-resilience-layers-save-in-layers-folder-and-register-in-layers.csv" class="section level4">
+<h4><span class="header-section-number">8.2.3.1</span> Create new resilience layers, save in <code>layers</code> folder and register in <code>layers.csv</code></h4>
 <p>This process is similar to what you have done for the pressures data layers. Prefixes are also used for these layers, see <em>layer</em> and <em>subcategory</em> columns snapshot of the Resilience Categories below for more details.</p>
 </div>
-<div id="register-in-resilience-categories" class="section level3">
-<h3><span class="header-section-number">9.0.2</span> Register in Resilience Categories</h3>
+<div id="register-in-resilience-categories" class="section level4">
+<h4><span class="header-section-number">8.2.3.2</span> Register in Resilience Categories</h4>
 <!-- The first step is to determine which resilience layers from the global assessment are relevant to your assessment, and whether others need to be added. -->
 <p><code>resilience_categories.csv</code> records general information on each resilience data layer. The full list of layers included in the global resilience matrix are shown in the <code>resilience_matrix.csv</code>:</p>
 <div class="figure">
@@ -1275,8 +1598,8 @@ year_min = 2011
 </ul>
 <p>However, you can redefine how the weights are set to available information in your regions.</p>
 </div>
-<div id="register-in-resilience-matrix" class="section level3">
-<h3><span class="header-section-number">9.0.3</span> Register in Resilience Matrix</h3>
+<div id="register-in-resilience-matrix" class="section level4">
+<h4><span class="header-section-number">8.2.3.3</span> Register in Resilience Matrix</h4>
 <p><code>resilience_matrix.csv</code> maps the different types of resilience (columns) with the goals that they affect (rows). Whether a resilience layer has any influence on a goal, or an element of the goal, is represented by an <em>x</em>, or its absence. For example, <code>po_water</code> layer is relevant to the <em>salt marsh</em> element of <em>CP</em> goal, as shown by the <em>x</em> in the cell. On the other hand, that data layer does not apply to the <em>mangrove</em> element of the same goal, hence the absence of an <em>x</em>.</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1zMxIbz_a0FixyKmFpsh81ztMe24EfeXgHwPUnI-lopc/pub?w=800&amp;h=720" alt="" />
@@ -1284,8 +1607,8 @@ year_min = 2011
 </div>
 <p>New resilience layers may be added to <code>resilience_matrix.csv</code> based on finer-scale local information either in response to a new pressures layer, or as a new independent measure. Any added layer must be associated with a pressures layer that has a weight of 2 or 3 in the OHI framework so that resilience measures can mitigate pressures in each region.</p>
 </div>
-<div id="how-to-modify-config.r-for-goals-with-multiple-elements" class="section level3">
-<h3><span class="header-section-number">9.0.4</span> How to modify config.r for goals with multiple elements</h3>
+<div id="how-to-modify-config.r-for-goals-with-multiple-elements" class="section level4">
+<h4><span class="header-section-number">8.2.3.4</span> How to modify config.r for goals with multiple elements</h4>
 <p>If a goal has multiple elements, as shown in <em>pressures_matrix.csv</em>, you need to update <code>config.r</code> in <code>conf</code> folder, as shown below:</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1eMvpSPif_Su759-cyHg8gsnWeHCvN2QlEZ5ywLVIEmY/pub?w=800&amp;h=720" alt="" />
@@ -1327,10 +1650,12 @@ If the general resilience categories are relevant to the habitat, the next step 
 -->
 </div>
 </div>
+</div>
+</div>
 <div id="removing-goals-and-sub-goals" class="section level1">
-<h1><span class="header-section-number">10</span> Removing goals and sub-goals</h1>
+<h1><span class="header-section-number">9</span> Removing goals and sub-goals</h1>
 <div id="removing-goals" class="section level2">
-<h2><span class="header-section-number">10.1</span> Removing goals</h2>
+<h2><span class="header-section-number">9.1</span> Removing goals</h2>
 <p>If a goal is not relevant in your region, it is possible to remove the goal completely from the calculation. There are four places where you will need to remove the reference to this goal. Failing to delete all referenced layers after the goal is deleted will result in errors. To remove goals from your assessment, you will have to do the following:</p>
 <ol style="list-style-type: decimal">
 <li>Remove the goal model from <code>functions.R</code></li>
@@ -1374,7 +1699,7 @@ If the general resilience categories are relevant to the habitat, the next step 
 </div>
 </div>
 <div id="removing-sub-goals-from-a-supra-goal" class="section level2">
-<h2><span class="header-section-number">10.2</span> Removing Sub-goals from a Supra-goal</h2>
+<h2><span class="header-section-number">9.2</span> Removing Sub-goals from a Supra-goal</h2>
 <p>Sometimes a <em>supra-goal</em> (ie. BD, LE, and FP), or a goal that has <em>sub-goals</em>, can be assessed as an individual goal by removing the sub-goals. For example, if the biodiversity in your area can be represented well with only species and not habitats, it is possible to only assess species (ie. only the SPP subgoal and not the HAB subgoal). But this would then make the BD goal only have one subgoal (SPP). It is better to remove that subgoal and make it clear that BD is the biodiversity goal for species.</p>
 <p>Here we will use BD as an example to illustrate how you can delete the subgoals and make a supra-goal into a goal.</p>
 <p><code>ohicore</code> pulls information from several files and scripts to combine scores from subgoals to calculate overall goal scores. The process of removing subgoals thus involves removing subgoal information from all these files:</p>
@@ -1386,7 +1711,7 @@ If the general resilience categories are relevant to the habitat, the next step 
 </ul>
 <p><em><strong>NOTE</strong>: These steps do not need to occur in this sequence.</em></p>
 <div id="remove-subgoals-from-goals.csv" class="section level3">
-<h3><span class="header-section-number">10.2.1</span> Remove subgoals from <code>goals.csv</code></h3>
+<h3><span class="header-section-number">9.2.1</span> Remove subgoals from <code>goals.csv</code></h3>
 <p><code>goals.csv</code> is a table with information about the relationship between goals and sub-goals. Description of what each column means can be read in the <a href="http://ohi-science.org/manual/#data-layers">data layers</a> section, under <em>goals.csv</em>.</p>
 <p>As illustrated in the graph below, removing the subgoals involves simplifying how BD and its subgoals are registered in the columns:</p>
 <ul>
@@ -1400,7 +1725,7 @@ If the general resilience categories are relevant to the habitat, the next step 
 </div>
 </div>
 <div id="remove-subgoals-from-functions.r" class="section level3">
-<h3><span class="header-section-number">10.2.2</span> Remove subgoals from <code>functions.r</code></h3>
+<h3><span class="header-section-number">9.2.2</span> Remove subgoals from <code>functions.r</code></h3>
 <p><code>functions.r</code>contains the R codes to calculate status and trend for each goal and sub-goal, contained within individual functions. Calculations are done using prepared layers saved in the <em>layers</em> folder and registered in <em>layers.csv</em>. As shown below, HAB and SPP each has its own function, calling data layers from <em>layers</em>. The BD function combines HAB and SPP scores, calling <em>scores</em>.</p>
 <p>To remove the subgoals, you can delete functions for HAB and SPP completely, and write a function for BD as you would for any goal, calling <em>layers</em>.</p>
 <blockquote>
@@ -1412,7 +1737,7 @@ If the general resilience categories are relevant to the habitat, the next step 
 </div>
 </div>
 <div id="remove-subgoals-from-pressures_matrix.csv" class="section level3">
-<h3><span class="header-section-number">10.2.3</span> Remove subgoals from <code>pressures_matrix.csv</code></h3>
+<h3><span class="header-section-number">9.2.3</span> Remove subgoals from <code>pressures_matrix.csv</code></h3>
 <p>This table indicates which individual pressures (stressors) affect which goal, sub-goals, or elements, and weights them from 1-3 based on the degree of impacts. To remove subgoals from this matrix, you can simply delete the rows for each subgoal (HAB and SPP), and add a new row for BD, and treat BD as you would an individual goal with no subgoals.</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1sgZyyiQyPIWUn3_BojsBuQC_sbM4t_BW8YNGNqSd31w/pub?w=800&amp;h=720" alt="" />
@@ -1420,7 +1745,7 @@ If the general resilience categories are relevant to the habitat, the next step 
 </div>
 </div>
 <div id="remove-subgoals-from-resilience_matrix.csv" class="section level3">
-<h3><span class="header-section-number">10.2.4</span> Remove subgoals from <code>resilience_matrix.csv</code></h3>
+<h3><span class="header-section-number">9.2.4</span> Remove subgoals from <code>resilience_matrix.csv</code></h3>
 <p>This table records information on which individual resilience measures affect which goal, sub-goals, or elements. Similar to what you would do with ‘pressures_matrix.csv’, you can delete the rows for HAB and SPP, and add a new row for BD.</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1JUGogjH08_2KlOebKYxCR-JZFYGp5-6VwLYylblpWdw/pub?w=800&amp;h=720" alt="" />
@@ -1430,10 +1755,10 @@ If the general resilience categories are relevant to the habitat, the next step 
 </div>
 </div>
 <div id="calculate-overall-ohi-index-scores" class="section level1">
-<h1><span class="header-section-number">11</span> Calculate overall OHI Index Scores</h1>
+<h1><span class="header-section-number">10</span> Calculate overall OHI Index Scores</h1>
 <p>Congratulations if you’ve finished all goal model modifications as they are the most time-consuming part of the Index calculation process! In the goal model modification step, you’ve calculated goal status and trend, there are only a couple of more steps to do to calculate the overall index score, including calculating pressures and resilience.</p>
 <div id="additional-data-layers-for-pressures-and-resilience-calculations" class="section level3">
-<h3><span class="header-section-number">11.0.1</span> Additional data layers for pressures and resilience calculations</h3>
+<h3><span class="header-section-number">10.0.1</span> Additional data layers for pressures and resilience calculations</h3>
 <p>So far you would have prepared the pressure and resilience matrices, as well as the appropriate data layers, a few more data layers are needed to complete the calculation. They are identified in <code>sub-country/conf/config.R</code> as follows:</p>
 <pre><code># components describe the layer and level with which to aggregate resilience and pressures matrices for goals with categories
 resilience_components = list(&#39;NP&#39;  = c(&#39;layer&#39;=&#39;np_harvest_product_weight&#39; , &#39;level&#39;=&#39;region_id-category&#39;),  
@@ -1495,7 +1820,7 @@ m = layers$data[[&#39;hab_extent&#39;]] %&gt;%
 <p><code>le_sector_weight</code> assigns relative importance of each sector listed in Livelihood &amp; Economies goal. By default, all sectors are considered equal and assigned a weight of “1”. One thing to pay special attention to is the <code>sector</code> names, which should match <code>component</code> names that were listed in the pressures matrix.</p>
 </div>
 <div id="final-calculation" class="section level3">
-<h3><span class="header-section-number">11.0.2</span> Final calculation</h3>
+<h3><span class="header-section-number">10.0.2</span> Final calculation</h3>
 <p>Go back to <code>calculate_scores.r</code>, now you are ready for the final calculations:</p>
 <pre><code># calculate scenario scores
 scores = CalculateAll(conf, layers, debug=F)
@@ -1508,12 +1833,12 @@ write.csv(scores, &#39;scores.csv&#39;, na=&#39;&#39;, row.names=F)
 </div>
 </div>
 <div id="toolbox-troubleshooting" class="section level1">
-<h1><span class="header-section-number">12</span> Toolbox Troubleshooting</h1>
+<h1><span class="header-section-number">11</span> Toolbox Troubleshooting</h1>
 <p>The Toolbox prints messages during its processing to help guide error checking and debugging. Here are a few troubleshooting tips. This section will be updated frequently; please share any problems that you encounter.</p>
 <div id="general-software-errors" class="section level2">
-<h2><span class="header-section-number">12.1</span> General Software Errors</h2>
+<h2><span class="header-section-number">11.1</span> General Software Errors</h2>
 <div id="rpostback-askpass-error" class="section level3">
-<h3><span class="header-section-number">12.1.1</span> rpostback-askpass error</h3>
+<h3><span class="header-section-number">11.1.1</span> rpostback-askpass error</h3>
 <p>Sometimes when RStudio won’t push committed changes to GitHub, RStudio displays an <code>rpostback-askpass</code> error:</p>
 <pre><code>error: unable to read askpass response from &#39;rpostback-askpass&#39;
 fatal: could not read Username for &#39;https://github.com&#39;: Device not configured</code></pre>
@@ -1525,7 +1850,7 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 <p><code>git push -u origin master</code></p>
 </div>
 <div id="git-not-detected-on-system-path" class="section level3">
-<h3><span class="header-section-number">12.1.2</span> Git not detected on system path</h3>
+<h3><span class="header-section-number">11.1.2</span> Git not detected on system path</h3>
 <p>After downloading and installing git, sometimes RStudio is unable to locate git and will show the following error:</p>
 <div class="figure">
 <img src="fig/git_not_detected.png" alt="Error screen window:Git was not detected on the system path" />
@@ -1554,7 +1879,7 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 <p>You will then need to create an RSA Key. You can do this by clicking on ‘Create RSA Key…’ at the bottom of the Git/SVN panel, then ‘View public key’. Copy the key you see, and add it to your GitHub account by using the instructions provided <a href="https://help.github.com/articles/generating-ssh-keys/#step-4-add-your-ssh-key-to-your-account">here</a>.</p>
 </div>
 <div id="loading-rworkspace-on-restart" class="section level3">
-<h3><span class="header-section-number">12.1.3</span> Loading RWorkspace on Restart</h3>
+<h3><span class="header-section-number">11.1.3</span> Loading RWorkspace on Restart</h3>
 <p>When you restart your R Session (<strong>Session &gt; Restart R</strong> on a Mac), if you see that it is trying to load <code>ohicore</code>, it may give you an error:</p>
 <blockquote>
 <div class="figure">
@@ -1590,13 +1915,13 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 </div>
 </div>
 <div id="errors-when-using-the-toolbox" class="section level2">
-<h2><span class="header-section-number">12.2</span> Errors when Using the Toolbox</h2>
+<h2><span class="header-section-number">11.2</span> Errors when Using the Toolbox</h2>
 <div id="useful-errors-when-calculating-scores" class="section level3">
-<h3><span class="header-section-number">12.2.1</span> Useful Errors when Calculating Scores</h3>
+<h3><span class="header-section-number">11.2.1</span> Useful Errors when Calculating Scores</h3>
 <p>TIP: You can use the <em>layers</em> function in <code>calculate_scores.R</code> to error-check whether you have registered your files in <code>layers.csv</code> correctly or not. If you haven’t, you will get an error message regarding ‘missing files’. <img src="https://docs.google.com/drawings/d/1c0xQtANDy-rd6y5MOkW7eBNZbN47vvaaMZjYiDDU_0M/pub?w=758&amp;h=665" alt="f you see a missing files warning when running calculate_scores.R, it means you need to check that you filled out the information in layers.csv correctly." /></p>
 </div>
 <div id="checklayers-error-due-to-rows-duplicated" class="section level3">
-<h3><span class="header-section-number">12.2.2</span> <code>CheckLayers()</code> error due to ‘Rows Duplicated…’</h3>
+<h3><span class="header-section-number">11.2.2</span> <code>CheckLayers()</code> error due to ‘Rows Duplicated…’</h3>
 <p>After registering and uploading data layers, you would run <code>CheckLayers</code> in <code>calculate_score.R</code> to make sure there is no errors with the data files. For example, this error appeared after uploading SPP species data</p>
 <div class="figure">
 <img src="https://cloud.githubusercontent.com/assets/11824840/9892996/0322a43e-5bc9-11e5-8ef8-c147ad87645c.png" alt="image" />
@@ -1609,7 +1934,7 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 <p>````</p>
 </div>
 <div id="layers-error-due-to-row.names-duplicate-row.names-are-not-allowed" class="section level3">
-<h3><span class="header-section-number">12.2.3</span> <code>Layers()</code> error due to ‘row.names: duplicate ’row.names’ are not allowed’</h3>
+<h3><span class="header-section-number">11.2.3</span> <code>Layers()</code> error due to ‘row.names: duplicate ’row.names’ are not allowed’</h3>
 <p>The following error means that within <code>layers.csv</code>, there are duplicate rows with the same layernames.</p>
 <p>The warning message identifies several layer names to investigate…</p>
 <pre><code>Error in `row.names&lt;-.data.frame`(`*tmp*`, value = c(2L, 1L, 7L, 14L,  :
@@ -1624,9 +1949,9 @@ non-unique values when setting &#39;row.names&#39;: ‘cw_con_dioxin_status’, 
 <p>To fix these errors, ensure there are only single entries for each layer name; delete any duplicated rows.</p>
 </div>
 <div id="calculating-pressures" class="section level3">
-<h3><span class="header-section-number">12.2.4</span> Calculating Pressures…</h3>
+<h3><span class="header-section-number">11.2.4</span> Calculating Pressures…</h3>
 <div id="the-following-components-for-goal-are-not-in-the-aggregation-layer-layer" class="section level4">
-<h4><span class="header-section-number">12.2.4.1</span> ‘The following components for [goal] are not in the aggregation layer [layer]…’</h4>
+<h4><span class="header-section-number">11.2.4.1</span> ‘The following components for [goal] are not in the aggregation layer [layer]…’</h4>
 <p>Example:</p>
 <blockquote>
 <div class="figure">
@@ -1643,12 +1968,12 @@ non-unique values when setting &#39;row.names&#39;: ‘cw_con_dioxin_status’, 
 <p>This error means you should update your pressures matrix because it expects there to be components that your region does not have.</p>
 </div>
 <div id="error-in-matrix" class="section level4">
-<h4><span class="header-section-number">12.2.4.2</span> ‘Error in matrix…’</h4>
+<h4><span class="header-section-number">11.2.4.2</span> ‘Error in matrix…’</h4>
 <p>Example: &gt; <img src="fig/tblshoot_pressures.png" alt="" /></p>
 <p>This error means there is an empty column in <code>pressures_matrix.csv</code>, and the Toolbox cannot handle empty columns.</p>
 </div>
 <div id="error-in-...-length-of-dimnames-2-not-equal-to-array-extent" class="section level4">
-<h4><span class="header-section-number">12.2.4.3</span> <code>Error in ... length of 'dimnames' [2] not equal to array extent</code></h4>
+<h4><span class="header-section-number">11.2.4.3</span> <code>Error in ... length of 'dimnames' [2] not equal to array extent</code></h4>
 <p>If you get the following error message when running <code>calculate_scores.r</code>:</p>
 <pre class="r"><code>
 scores = CalculateAll(conf, layers, debug=F)
@@ -1700,9 +2025,9 @@ $pressure
 </div>
 </div>
 <div id="calculating-resilience" class="section level3">
-<h3><span class="header-section-number">12.2.5</span> Calculating Resilience …</h3>
+<h3><span class="header-section-number">11.2.5</span> Calculating Resilience …</h3>
 <div id="error-in-matchx-table-nomatch-ol-object-id_num-not-found" class="section level4">
-<h4><span class="header-section-number">12.2.5.1</span> ‘Error in match(x, table, nomatch = OL) : object id_num not found’</h4>
+<h4><span class="header-section-number">11.2.5.1</span> ‘Error in match(x, table, nomatch = OL) : object id_num not found’</h4>
 <blockquote>
 <div class="figure">
 <img src="fig/error_resil_mtx.png" alt="" />
@@ -1712,7 +2037,7 @@ $pressure
 <p>This error means you should check that there is at least one entry for each goal (for each row) in <code>resilience_matrix.csv</code>.</p>
 </div>
 <div id="section" class="section level4">
-<h4><span class="header-section-number">12.2.5.2</span> </h4>
+<h4><span class="header-section-number">11.2.5.2</span> </h4>
 <p>Error message <code>Each goal in resilience_matrix.csv must have at least one resilience filed</code></p>
 <pre class="r"><code>Calculating Resilience...
 Note: each goal in resilience_matrix.csv must have at least one resilience field
@@ -1728,7 +2053,7 @@ Note: each goal in resilience_matrix.csv must have at least one resilience field
 </div>
 </div>
 <div id="appendix-1-toolbox-software" class="section level1">
-<h1><span class="header-section-number">13</span> Appendix 1: Toolbox Software</h1>
+<h1><span class="header-section-number">12</span> Appendix 1: Toolbox Software</h1>
 <p>The Toolbox is open-source and can be downloaded and installed for free. It is comprised of several software systems:</p>
 <!-- You are able to navigate through these files both at `www.github.com/OHI-Science` and on your own computer once you have cloned the repository to your computer. Your assessment repository is located at *github.com/OHI-Science* and we recommend saving it to your computer so that you can sync changes back online to save versions and facilitate collaboration. Conducting an OHI assessment using GitHub enables collaboration and transparency, and will provide access to the latest developments in the Toolbox software, allowing the OHI team to provide support remotely if necessary.
 This section explains the GitHub workflow and how to access and setup required software. You can use GitHub to upload any modifications you make so that you can work collaboratively with your team.  -->
@@ -1747,9 +2072,9 @@ This section explains the GitHub workflow and how to access and setup required s
 </blockquote>
 <p>Your Repositories and <code>ohicore</code> are stored and managed with all the above software systems. Here is a quick introduction to the software and how they work together.</p>
 <div id="introduction-1" class="section level2">
-<h2><span class="header-section-number">13.1</span> Introduction</h2>
+<h2><span class="header-section-number">12.1</span> Introduction</h2>
 <div id="github-and-git" class="section level3">
-<h3><span class="header-section-number">13.1.1</span> GitHub and git</h3>
+<h3><span class="header-section-number">12.1.1</span> GitHub and git</h3>
 <p>GitHub has an online interface and a desktop application for the version-control software called ** git**, where your project repository and any changes done to it are kept and recorded. It is an open-source development platform that enables easy collaboration and versioning, which means that all saved versions are archived and attributed to each user. It can be accessed remotely by all members of your team and enables team members to synchronize their work together. Because all versions are saved, you can return to previous work and also compare different points in history to track how changes you make affect the output scores.</p>
 <p>To allow multiple users to work on the same repository at the same time, there are steps involved to ‘check in’ your modifications so they can merge with the work of others without problems. GitHub has specific words for each of these steps.</p>
 <p><strong>GitHub Vocabulary:</strong></p>
@@ -1776,7 +2101,7 @@ This section explains the GitHub workflow and how to access and setup required s
 </ul>
 </div>
 <div id="r-and-rstudio" class="section level3">
-<h3><span class="header-section-number">13.1.2</span> R and RStudio</h3>
+<h3><span class="header-section-number">12.1.2</span> R and RStudio</h3>
 <p><strong>R and RStudio allow you to work locally on your own computer</strong>, modifying the files in the repository to reflect the desired modifications your team has identified for your assessment. All changes within your local repository will be tracked by GitHub regardless of the software you use to make the changes. This means that you can delete or paste files in the Mac Finder or Windows Explorer and edit <em>.csv</em> files in Excel or a text editor, and still sync these changes with the online repository. We recommend doing as much data manipulation as possible in a programming language like R, to maximize transparency and reproducibility.</p>
 <ul>
 <li><p><strong>R</strong> is a free computing and graphical software where all the modifications to your OHI repository are done.</p></li>
@@ -1785,7 +2110,7 @@ This section explains the GitHub workflow and how to access and setup required s
 <p>Through RStudio, you can perform all the steps mentioned before (<em>clone, commit, push, and pull</em>) and <em>sync</em> with the online Github repository.</p>
 </div>
 <div id="syncing-github-and-rstudio" class="section level3">
-<h3><span class="header-section-number">13.1.3</span> Syncing Github and RStudio</h3>
+<h3><span class="header-section-number">12.1.3</span> Syncing Github and RStudio</h3>
 <p>RStudio can sync files with Github directly. It will capture the changes made to any files within the repository, no matter which software was used to modify them. In RStudio, you sync by first pulling and then pushing (separately).</p>
 <p>Launch your project in RStudio by double-clicking the <code>.Rproj</code> file in the assessment folder on your local hard drive.</p>
 <div class="figure">
@@ -1818,7 +2143,7 @@ This section explains the GitHub workflow and how to access and setup required s
 </div>
 </div>
 <div id="setting-up-github-and-rstudio" class="section level2">
-<h2><span class="header-section-number">13.2</span> Setting up Github and RStudio</h2>
+<h2><span class="header-section-number">12.2</span> Setting up Github and RStudio</h2>
 <p>In this section, you will learn how to successfully set up your <em>tailored</em> toolbox by following these step-by-step instructions:</p>
 <ol style="list-style-type: decimal">
 <li>Create your online <em>Github</em> account and set up <em>git</em> on your local computer</li>
@@ -1828,11 +2153,11 @@ This section explains the GitHub workflow and how to access and setup required s
 </ol>
 <p>Let’s get started!</p>
 <div id="set-up-a-github-account-and-git" class="section level3">
-<h3><span class="header-section-number">13.2.1</span> Set up a Github Account and git</h3>
+<h3><span class="header-section-number">12.2.1</span> Set up a Github Account and git</h3>
 <!-- GitHub has an online interface and a desktop application for the version-control software called ** git**, where your project repository and any changes done to it are kept and recorded. All changes within your local, desktop repository will be tracked by GitHub regardless of the software you use to make the changes, and saved shared via its online interface. This means that you can delete or paste files in the Mac Finder or Windows Explorer and edit *.csv* files in Excel or a text editor, and still sync these changes with the online repository. To do so, you will need to create a GitHub account online and install git, R, and RStudio on your local computer. All are freely available. -->
 <p>You can create a GitHub account at <a href="http://github.com" class="uri">http://github.com</a>. Choose a username and password. You will use this username and password when you install and set up <em>git</em> on your computer.</p>
 <div id="install-git-software" class="section level4">
-<h4><span class="header-section-number">13.2.1.1</span> Install <em>git</em> software</h4>
+<h4><span class="header-section-number">12.2.1.1</span> Install <em>git</em> software</h4>
 <p><strong>git</strong> is available for download at <a href="https://git-scm.com/downloads" class="uri">https://git-scm.com/downloads</a>. How you install <em>git</em> will depend on whether you are working on a Windows or Mac computer. It will also depend on your operating system version. If you have problems following these instructions, it is likely because your operating system requires a previous version of <em>git</em>. Previous versions are available from <a href="http://www.wandisco.com/git/download" class="uri">http://www.wandisco.com/git/download</a> (you will need to provide your email address).</p>
 <p><strong>For Windows:</strong></p>
 <ul>
@@ -1877,7 +2202,7 @@ return/enter</p>
 </div>
 </div>
 <div id="set-up-your-git-identity" class="section level4">
-<h4><span class="header-section-number">13.2.1.2</span> Set up your Git Identity</h4>
+<h4><span class="header-section-number">12.2.1.2</span> Set up your Git Identity</h4>
 <p>After downloading and installing <em>git</em>, you will need to set up your <strong>Git Identity</strong>, which identifies you with your work. <em>Note</em>: if you have any problems with the following instructions, it is likely because of incompatibility between the version of your operating system and the version of git you downloaded in the previous section. In this case, find and download a compatible version at <a href="www.wandisco.com/git/download" class="uri">www.wandisco.com/git/download</a> and then follow the instructions below.</p>
 <p>You will set up your GitHub identity using the command line specific to Windows or Mac:</p>
 <ul>
@@ -1902,7 +2227,7 @@ There are several options to clone your repository to your local machine. When g
 * **Mac**: https://mac.github.com/. -->
 </div>
 <div id="create-a-folder-called-github-on-your-computer" class="section level4">
-<h4><span class="header-section-number">13.2.1.3</span> Create a folder called <em>github</em> on your computer</h4>
+<h4><span class="header-section-number">12.2.1.3</span> Create a folder called <em>github</em> on your computer</h4>
 <p>Because you will use GitHub to collaborate with your team or request support from the OHI team, it is important you save files in places where the file path that is universal and not specific to your computer. When team members save files in different places, this will create a lot of problems when collaborating, particularly between Macs and Windows machines.</p>
 <p><strong>Please create a folder called github in your root directory</strong>. The file path for this folder will be:</p>
 <ul>
@@ -1915,12 +2240,12 @@ There are several options to clone your repository to your local machine. When g
 </blockquote>
 </div>
 <div id="update-permissions" class="section level4">
-<h4><span class="header-section-number">13.2.1.4</span> Update permissions</h4>
+<h4><span class="header-section-number">12.2.1.4</span> Update permissions</h4>
 <p>You need to **email your username to <a href="mailto:ohi-science@nceas.ucsb.edu*">ohi-science@nceas.ucsb.edu*</a>* for permission to upload modifications to your GitHub repository (you only need to do this once). Only team members who will be modifying files will need to do this; all other members can view online and download the repository without these permissions.</p>
 </div>
 </div>
 <div id="download-r-and-rstudio" class="section level3">
-<h3><span class="header-section-number">13.2.2</span> Download R and RStudio</h3>
+<h3><span class="header-section-number">12.2.2</span> Download R and RStudio</h3>
 <p>You can download R, and RStudio for free from their perspective websites and install the latest versions allowed by your operating system on your computer:</p>
 <p><strong>R</strong>: <a href="http://cran.r-project.org/" class="uri">http://cran.r-project.org/</a></p>
 <p><strong>RStudio</strong>: <a href="https://www.rstudio.com/" class="uri">https://www.rstudio.com/</a></p>
@@ -1933,7 +2258,7 @@ There are several options to clone your repository to your local machine. When g
 </div>
 </div>
 <div id="cloning-a-repository-to-your-local-computer" class="section level2">
-<h2><span class="header-section-number">13.3</span> Cloning a repository to your local computer</h2>
+<h2><span class="header-section-number">12.3</span> Cloning a repository to your local computer</h2>
 <p>In order to sync GitHub and RStudio, you need to clone your GitHub repository to RStudio. Here is a guide on how to do so:</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1QHQGHlE3Ct7KQ7o216k9rRqUC__7rCOwt5EXd3tcvLo/pub?w=720&amp;h=1920" alt="How to clone repository to Rstudio" />
@@ -1941,13 +2266,13 @@ There are several options to clone your repository to your local machine. When g
 </div>
 </div>
 <div id="install-ohicore-1" class="section level2">
-<h2><span class="header-section-number">13.4</span> Install <code>ohicore</code></h2>
+<h2><span class="header-section-number">12.4</span> Install <code>ohicore</code></h2>
 <p><code>ohicore</code> is a R package containing all the essential functions you will use to calculate the final OHI scores. You will install <code>ohicore</code> as you would other R packages and will only need to do this once. You can find the script <code>install_ohicore.r</code> in your scenario folder (eg. chn/province2015/). Source it, and now your Toolbox is all set up and ready to go!</p>
 <blockquote>
 <p>Although <code>ohicore</code> is a package you would not normally interact with, it can be useful to have the folder cloned to your computer for debugging, particularly with pressures and resilience calculations for goals that have components in the matrix. To do so, you will clone the repository (<a href="https://github.com/OHI-Science/ohicore" class="uri">https://github.com/OHI-Science/ohicore</a>) as you would your assessment repository.</p>
 </blockquote>
 <div id="food-provision" class="section level3">
-<h3><span class="header-section-number">13.4.1</span> Food Provision</h3>
+<h3><span class="header-section-number">12.4.1</span> Food Provision</h3>
 <p>One of the most fundamental services the ocean provides people is the provision of seafood, whether it is helping meet the basic nutritional needs of over half of the world’s population to high-end sushi. This goal, then, <strong>measures the amount of seafood sustainably harvested in a given EEZ or region through any means for use primarily in human consumption or export</strong> and thus includes wild-caught commercial fisheries, mariculture, artisanal-scale and recreational fisheries.</p>
 <p>The Food Provision goals aim to maximize the amount of sustainably produced seafood from wild or ocean-cultured stocks; any unsustainable extractive practices is penalized, and so is over- or under- harvesting.</p>
 <p>Because we do not track where the fish go after being caught or produced, this goal does not aim to measure food security for the population of a given country, but instead measures the food provided from its waters.</p>
@@ -1964,7 +2289,7 @@ There are several options to clone your repository to your local machine. When g
 <p>The <em>overall Food Provision</em> model should not change; it is a combination of fisheries and mariculture scores, with the contribution of each type of practice to the overall score is weighted by its relative contribution to the total seafood yield. This assumes that one tonne of seafood by any method is the same as any other tonne of seafood. It would be possible to work with different assumptions and apportion weighting differently.</p>
 <p><strong>Pressures and Resilience</strong> measures must be considered as well. What pressures <em>act on the harvesting of these species?</em> If information allows, pressures and resilience measures can act on different species, group of species, or practices separately, as is done with Natural Products. Fishing or harvesting practices can also act as pressures for other goals, for example destructive fishing practices can impact habitat-based goals and genetic escapes from mariculture practices can affect Fisheries and Biodiversity.</p>
 <div id="sub-goal-fisheries" class="section level4">
-<h4><span class="header-section-number">13.4.1.1</span> sub-goal: Fisheries</h4>
+<h4><span class="header-section-number">12.4.1.1</span> sub-goal: Fisheries</h4>
 <p>The Fisheries sub-goal describes the amount of wild-caught seafood harvested and its sustainability for human consumption. The model generally compares landings with Maximum Sustainable Yield. A score of 100 means the country or region is harvesting seafood to the ecosystem’s production potential in an sustainable manner.</p>
 <p><strong><em>Practical Guidance</em></strong></p>
 <p>Fisheries science is a discipline that in part aims to estimate the amount of fish that can sustainably be extracted from the sea. For this reason, it is important to consult with fisheries experts in your study area. Fisheries experts will be able to advise how to best estimate the maximum amount of catch that can be sustainably fished, and the information available will determine what type of modeling to take. There are many different modeling approaches, and most are based on either catch alone, or catch-per-unit-effort.</p>
@@ -1984,7 +2309,7 @@ There are several options to clone your repository to your local machine. When g
 <p>It is important to also consider <em>buffering around the reference point</em> (eg. 75% of B<sub>MSY</sub>) because of imperfect knowledge about the data. Part of this depends on the type of assumptions you want to make about the ecology of fish species in your area and the impacts upon them from fishing practices. For instance, when all species are exploited simultaneously, fishing pressure on each population might be lower due to changes in interactions between species that occur when a predator population is reduced.</p>
 <!-- The contents below will probably change when Mel writes the report on FIS Model -->
 <div id="a-note-about-methods-used-in-the-fisheries-goal" class="section level5">
-<h5><span class="header-section-number">13.4.1.1.1</span> <em>A note about methods used in the fisheries goal</em></h5>
+<h5><span class="header-section-number">12.4.1.1.1</span> <em>A note about methods used in the fisheries goal</em></h5>
 <p style="font-size: 90%">
 Since Global 2012, several new data-poor approaches have been developed to assess fisheries that leverage globally-available information (Costello <em>et al</em>., 2012; Martell &amp; Frœse, 2013; Thorson <em>et al</em>., 2013). The estimates of B/B<sub>MSY</sub> used in Global 2013 were obtained by applying a model developed by Martell &amp; Frœse, (2013), and referred to as the “catch-MSY” method. This approach adopts the population biomass at MSY (B<sub>MSY</sub>) as a single-species reference point.
 </p>
@@ -1996,14 +2321,14 @@ Although it is a data-limited method, the more complex approach better takes int
 </p>
 </div>
 <div id="calculating-the-fisheries-goal" class="section level5">
-<h5><span class="header-section-number">13.4.1.1.2</span> <em>Calculating the fisheries goal</em></h5>
+<h5><span class="header-section-number">12.4.1.1.2</span> <em>Calculating the fisheries goal</em></h5>
 <p>Calculating the fisheries goal using methods from global assessments (2013-2015 as it is not recommended to use methods from the 2012 global assessment) relies on catch or catch-per-unit-effort data. The fisheries goal model uses mean catch and B/B<sub>MSY</sub> for all species. These are two separate steps: the mean catch is not used to calculate B/B<sub>MSY</sub>. Once you have B/B<sub>MSY</sub> for all the species, you will combine them together to get a single fisheries score for each of the regions in your study area. This is where the mean catch is used: it is a weighting factor so that species with higher mean catch will contribute more to the final score. You will not need to calculate this because the Toolbox calculates the weighted mean when you provide mean catch as an input layer to the Toolbox. The input layer should simply be the mean catch for each species.</p>
 <p>When calculating B/B<sub>MSY</sub> and mean catch, use as much information as possible: all the years available. Species that have few years of available data will likely be less accurate and it is important to document this. It is admissible to have different ranges of years for different species, since too much information would be lost if all species required the same species range. However, interpreting why different species have different years of time series is important. There may be data for 30 years of history for some species, 10 for others and 5 or 6 for others. It is important to know whether there is only 6 years of data because it is a recent fishery that developed in the last 6 years; in this case 6 years is enough. But if only 6 years of data are available because they stopped collecting the data in recent years, you might get a completely misleading assessment. And of course if you know there was no catch at all in recent years, it is important to include those recent years as 0’s. 0’s must also be included when calculating B/B<sub>MSY</sub> or the results will be nonsensical.</p>
 <p>How B/B<sub>MSY</sub> is calculated for global assessments is a bit unsatisfactory and is in the process of being better developed. This is because the global model is very imprecise, which also affects how to interpret B/B<sub>MSY</sub> results. <strong>It is important to consult with a fisheries scientist in your study area, as they will have expertise with the information and knowledge available in the local context.</strong> If possible, we suggest calculating the scores using a more precise model as well, so fisheries experts can assess whether results look reasonable. This is important so that the scores produced have credibility.</p>
 </div>
 </div>
 <div id="examples-of-the-approach" class="section level4">
-<h4><span class="header-section-number">13.4.1.2</span> Examples of the Approach</h4>
+<h4><span class="header-section-number">12.4.1.2</span> Examples of the Approach</h4>
 <p><span style="font-size:0.9em"></p>
 <table style="width:101%;">
 <colgroup>
@@ -2068,7 +2393,7 @@ Although it is a data-limited method, the more complex approach better takes int
 <p></span></p>
 </div>
 <div id="sub-goal-mariculture" class="section level4">
-<h4><span class="header-section-number">13.4.1.3</span> sub-goal: Mariculture</h4>
+<h4><span class="header-section-number">12.4.1.3</span> sub-goal: Mariculture</h4>
 <p>Mariculture measures the ability to reach the highest levels of seafood gained from farm-raised facilities without damaging the ocean’s ability to provide fish sustainably now and in the future.</p>
 <p>Higher scores reflect high food provisioning in a sustainable manner, while not compromising the water quality in the farmed area and not relying on wild populations to feed or replenish the cultivated species. A score of 100 means that a region is sustainably harvesting the greatest amount of farmed seafood possible based on its own potential (where its maximum potential is estimated in different ways depending on the assessment).</p>
 <p><strong><em>Ideal Approach</em></strong></p>
@@ -2102,7 +2427,7 @@ mariculture is unsuitable for biological reasons (e.g., the water freezes for
 large part of the year) or logistical reasons (e.g., scarcely inhabited), such
 as Canada, to be unduly penalized.--->
 <div id="examples-of-the-approach-1" class="section level5">
-<h5><span class="header-section-number">13.4.1.3.1</span> Examples of the Approach</h5>
+<h5><span class="header-section-number">12.4.1.3.1</span> Examples of the Approach</h5>
 <p><span style="font-size=0.9em"></p>
 <table>
 <colgroup>
@@ -2168,7 +2493,7 @@ as Canada, to be unduly penalized.--->
 </div>
 </div>
 <div id="artisanal-fishing-opportunities" class="section level3">
-<h3><span class="header-section-number">13.4.2</span> Artisanal Fishing Opportunities</h3>
+<h3><span class="header-section-number">12.4.2</span> Artisanal Fishing Opportunities</h3>
 <p>Artisanal fishing, often also called small-scale fishing, provides a critical source of food, nutrition, poverty alleviation and livelihood opportunities for many people around the world, in particular in developing nations. As opposed to large, commercial fisheries that usually involves industrial, energy-intensive vessels and long trips, artisanal fisheries refer to households, cooperatives or small firms that use relatively small amounts of capital, energy and small fishing vessels (if any), make relatively short fishing trips, and use fish mainly for local consumption or trade.</p>
 <p>In addition, this goal is not about recreational fishing often done in developed countries, which is captured in <em>Food Provision</em> (if it provides food) and Tourism and Recreation goals. Nor is it about the actual amount of fish caught or revenue generated, which are captured by <em>Coastal Livelihood and Economies</em>. Rather, <strong>artisanal fishing opportunities measure whether people who need to fish on a small, local scale have the opportunity to do so.</strong> In other words, it measures the potential for artisanal fishing whether or not this potential is actually met. A score of 100 means the country or region is meeting the needs of artisanal fishermen or communities by implementing institutional supports, providing access to near-shore water, and maintaining the health of targeted species.</p>
 <p><strong><em>Ideal Approach</em></strong></p>
@@ -2243,7 +2568,7 @@ as Canada, to be unduly penalized.--->
 </table>
 <p></span></p>
 <div id="natural-products" class="section level4">
-<h4><span class="header-section-number">13.4.2.1</span> Natural Products</h4>
+<h4><span class="header-section-number">12.4.2.1</span> Natural Products</h4>
 <p>In many countries the harvest of non-food natural products is important for local economies and can also be traded internationally. The sustainable harvest of these products is therefore an important component of a healthy ocean. <strong>This goal assesses the ability of countries to maximize the sustainable harvest of living marine resources, such as corals, shells, seaweeds, and fish for the aquarium trade.</strong></p>
 <p>It does not include bioprospecting which focuses on potential (and largely unknowable and potentially infinite) value rather than current realized value, or non-living products such as oil and gas or mining products which by definition are not sustainable.</p>
 <blockquote>
@@ -2331,7 +2656,7 @@ as Canada, to be unduly penalized.--->
 </div>
 </div>
 <div id="carbon-storage" class="section level3">
-<h3><span class="header-section-number">13.4.3</span> Carbon storage</h3>
+<h3><span class="header-section-number">12.4.3</span> Carbon storage</h3>
 <p>Highly productive coastal wetland ecosystems store substantially larger amount of carbon than terrestrial forests and have the highest sequestration rates of any habitats on earth. They are also threatened by under-regulated coastal development but are amenable to restoration and conservation efforts. This goal intends to capture <strong>the ability of the coastal habitats to remove carbon given their carbon uptake rate and health conditions</strong>. A score of 100 means all habitats that contribute to carbon removal are still intact or have been restored and they can function to their full carbon burial potential.</p>
 <!-- This definition needs more work... Halpern et.al didn't spell out an definition as did with other goals... -->
 <blockquote>
@@ -2411,7 +2736,7 @@ as Canada, to be unduly penalized.--->
 <p></span></p>
 </div>
 <div id="coastal-protection" class="section level3">
-<h3><span class="header-section-number">13.4.4</span> Coastal protection</h3>
+<h3><span class="header-section-number">12.4.4</span> Coastal protection</h3>
 <p>This goal aims to assess <strong>the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas that people value, both inhabited (homes and other structures) and uninhabited (parks, special places, etc.)</strong>. A score of 100 would indicate that these habitats are all still intact or have been restored to their reference conditions.</p>
 <blockquote>
 <p>Habitat-based goals should be considered together during the data gathering process because the same data underly three goals: <strong>Carbon Storage</strong>, <strong>Coastal Protection</strong>, and <strong>Biodiversity</strong>. Goal models to date have depended on the area (square kilometers) of each habitat type in each region, the condition of each habitat, and a weighting to distinguish how different habitats contribute to each goal.</p>
@@ -2489,10 +2814,10 @@ as Canada, to be unduly penalized.--->
 <p></span></p>
 </div>
 <div id="sense-of-place" class="section level3">
-<h3><span class="header-section-number">13.4.5</span> Sense of Place</h3>
+<h3><span class="header-section-number">12.4.5</span> Sense of Place</h3>
 <p>This goal tries to capture <strong>the aspects of the coastal and marine system that people value as part of their cultural identity</strong>. This definition includes people living near the ocean and those who live far from it but still derive a sense of identity or value from knowing particular places or species exist. We divided this goal into two sub-goals: Iconic Species and Lasting Special Places, and weighted them equally when combining to create a single goal score. A score of 100 means the species and places important for cultural identity are protected and conserved.</p>
 <div id="sub-goal-iconic-species" class="section level4">
-<h4><span class="header-section-number">13.4.5.1</span> Sub-goal: Iconic Species</h4>
+<h4><span class="header-section-number">12.4.5.1</span> Sub-goal: Iconic Species</h4>
 <p>Iconic species are those that are relevant to local cultural identity through a species’ relationship to one or more of the following: 1) traditional activities such as fishing, hunting or commerce; 2) local ethnic or religious practices; 3) existence value; and 4) locally-recognized aesthetic value (e.g., touristic attractions/common subjects for art such as whales). Habitat-forming species are not included in this definition of iconic species, nor are species that are harvested solely for economic or utilitarian purposes (even though they may be iconic to a sector or individual). This sub-goal assesses how well those species are conserved.</p>
 <blockquote>
 <p>Data for this goal will likely have considerable overlap with <em>Biodiversity sub-goal: Species</em>. It will be effective for the goal keepers of Biodiversity and Sense of Place to share the data searching efforts.</p>
@@ -2571,7 +2896,7 @@ as Canada, to be unduly penalized.--->
 <p></span></p>
 </div>
 <div id="sub-goal-lasting-special-places" class="section level4">
-<h4><span class="header-section-number">13.4.5.2</span> Sub-goal: Lasting Special Places</h4>
+<h4><span class="header-section-number">12.4.5.2</span> Sub-goal: Lasting Special Places</h4>
 <p>This sub-goal focuses on those geographic locations that hold particular value for aesthetic, spiritual, cultural, recreational or existence reasons, and assesses how well they are protected.</p>
 <blockquote>
 <p>This sub-goal makes use of protected areas, and some of the same information gathered on projected areas can be used to create <strong>resilience</strong> data layers like Marine Protected Areas.</p>
@@ -2654,14 +2979,14 @@ as Canada, to be unduly penalized.--->
 </div>
 </div>
 <div id="livelihoods-and-economies" class="section level3">
-<h3><span class="header-section-number">13.4.6</span> Livelihoods and Economies</h3>
+<h3><span class="header-section-number">12.4.6</span> Livelihoods and Economies</h3>
 <p>The jobs and revenue produced from marine-related industries are clearly of huge value to many people, even for those people who do not directly participate in marine-related industries. People value community identity, tax revenue, and indirect economic and social impacts of a stable coastal economy. This goal tracks <strong>the number and quality of jobs and the amount of revenue produced across as many marine-related industries/sectors as possible</strong> through two sub-goals, Livelihoods and Economies. A score of 100 reflects productive coastal economies that avoid the loss of ocean-dependent livelihoods while maximizing livelihood quality.</p>
 <p>In the global study, this goal does not attempt to capture any aspects of <em>job identity</em> (i.e. the reputation, desirability or other social or cultural perspectives associated with different jobs). We make the assumption that all marine-related jobs are equivalent, such that, for example, a fisherman could transition to a job in mariculture or ship-building without affecting the score of this goal. There are also not adequate data to assess workers’ <em>job satisfaction</em> or <em>ecological sustainability</em> of sectors. Future, finer scale applications of the Index could incorporate these key considerations.</p>
 <blockquote>
 <p>Oil and gas industries typically are not included in this goal. The Natural Products goal does not include non-living items such as oil, gas, and mining products, because these practices are not considered to be sustainable. They are also done at such large scales that including them would essentially make OHI an index for oil and mining–and they are not truly an ocean product. Because these products are not included in terms of quantity extracted, it did not seem appropriate to include information regarding jobs, wages or revenue. However, oil and gas industries are considered a large employer and often generate large revenue for a region. Similarly, industries such as shipping, boat building, ports and harbors do not directly depend on a healthy ocean, but the demand for some of those boats (fishing boats, sailboats, yachts) is dependent on a healthy ocean and are also important providers of jobs and revenue. Ultimately, whether and how to include those data is a decision that should be made on a case-by-case basis by the individual OHI+ group.</p>
 </blockquote>
 <div id="sub-goal-livelihoods" class="section level4">
-<h4><span class="header-section-number">13.4.6.1</span> Sub-goal: Livelihoods</h4>
+<h4><span class="header-section-number">12.4.6.1</span> Sub-goal: Livelihoods</h4>
 <p>This sub-goal describes livelihood quantity and quality for people living on the coast. Livelihoods includes two equally important sub-components, the number of jobs, which is a proxy for livelihood quantity, and the per capita average annual wages, which is a proxy for job quality.</p>
 <p><strong><em>Ideal Approach</em></strong></p>
 <p>Ideally, this sub-goal would speak to the quality and quantity of marine jobs in an area. It would encompass all the marine sectors that supply jobs and wages to coastal communities, incorporating information on the <em>sustainability</em> of different sectors while also telling about the <em>working conditions and job satisfaction</em>. The jobs and revenue produced from marine-related industries directly benefit those who are employed, and also those who gain indirect value from related economic and social impacts of a stable coastal economy, such as community identity and tax revenue. You should capture the indirect as well as direct benefits from jobs, wages and revenue from coastal communities.</p>
@@ -2744,7 +3069,7 @@ as Canada, to be unduly penalized.--->
 <p></span></p>
 </div>
 <div id="sub-goal-economies" class="section level4">
-<h4><span class="header-section-number">13.4.6.2</span> Sub-goal: Economies</h4>
+<h4><span class="header-section-number">12.4.6.2</span> Sub-goal: Economies</h4>
 <p>Economies captures the economic value associated with marine industries using revenue from marine sectors. It is composed of a single component, revenue.</p>
 <p><strong><em>Ideal Approach</em></strong></p>
 <p>Ideally, revenue data would be collected for all coastal regions, and traced from sectors both directly and indirectly related to marine industries. When these data are not available it is possible to use revenue data at a larger scale and adapt them to a coastal area based on the population distribution. The reference point in this sub-goal will likely be set with a moving-window temporal approach.</p>
@@ -2823,7 +3148,7 @@ as Canada, to be unduly penalized.--->
 </div>
 </div>
 <div id="tourism-and-recreation" class="section level3">
-<h3><span class="header-section-number">13.4.7</span> Tourism and Recreation</h3>
+<h3><span class="header-section-number">12.4.7</span> Tourism and Recreation</h3>
 <p>Tourism and recreation in coastal areas is a major component of thriving coastal communities and a measure of how much people value ocean systems, i.e. by traveling to coastal and ocean areas. This goal is not about the revenue or livelihoods that are generated by tourism and recreation (that is captured in the livelihoods goal, section 6F above) but instead captures <strong>the value that people have for experiencing and enjoying coastal areas</strong>. A score of 100 means a region utilizes its full recreational potential without harming the ecosystem.</p>
 <p><em>Ideal Approach</em></p>
 <p>Ideally, you would find information for how the ocean in your area is used and enjoyed by local residents and tourists alike. How many international or domestic vistors? When are they visiting? How long are they staying? What activities are they enjoying? You model should capture the the full range of values and touristic and recreational activities. A measure of sustainability should also be included in the model. The type of reference point used will depend on the data available.</p>
@@ -2897,7 +3222,7 @@ as Canada, to be unduly penalized.--->
 <p></span></p>
 </div>
 <div id="clean-waters" class="section level3">
-<h3><span class="header-section-number">13.4.8</span> Clean Waters</h3>
+<h3><span class="header-section-number">12.4.8</span> Clean Waters</h3>
 <p>People value marine waters that are free of pollution and debris for aesthetic and health reasons. Contamination of waters comes from oil spills, chemicals, eutrophication, algal blooms, disease pathogens (e.g., fecal coliform, viruses, and parasites from sewage outflow), floating trash, and mass kills of organisms due to pollution. People are sensitive to these phenomena occurring in areas that they access for recreation or other purposes as well as for simply knowing that clean waters exist. The Clean Water goal captures <strong>the degree to which local waters are unpolluted by natural and human-made causes</strong>. This goal scores highest when the contamination level is zero.</p>
 <p><strong><em>Ideal Approach</em></strong></p>
 <p>Ideally, data would be available and combined from different categories of marine pollution that can directly cause waters to become unsuitable for recreation, enjoyment, and other purposes. These factors typically include eutrophication (nutrients), chemicals, pathogens, oil pollution, and marine debris. Having good data from each of the desired categories, such as those pulled from a repeated effort at monitoring the conditions of the coasts, would be ideal. The Status of these components is the inverse of their intensity (i.e., high input is a bad status).</p>
@@ -2986,10 +3311,10 @@ as Canada, to be unduly penalized.--->
 <p></span></p>
 </div>
 <div id="biodiversity" class="section level3">
-<h3><span class="header-section-number">13.4.9</span> Biodiversity</h3>
+<h3><span class="header-section-number">12.4.9</span> Biodiversity</h3>
 <p>People value biodiversity in particular for its existence value. The risk of species extinction generates great emotional and moral concern for many people. As such, this goal assesses <strong>the conservation status of species based on the best available global data through two sub-goals: Species and Habitats</strong>. Species were assessed because they are what one typically thinks of in relation to biodiversity. Because only a small proportion of marine species worldwide have been mapped and assessed, we also assessed Habitats as part of this goal, and considered them a proxy for condition of the broad suite of species that depend on them. We calculate each of these sub- goals separately and treat them equally when calculating the overall goal score. A score of 100 means all species are all species are at very low risk of extinction, and all habitats are conserved.</p>
 <div id="sub-goal-species" class="section level4">
-<h4><span class="header-section-number">13.4.9.1</span> Sub-goal: Species</h4>
+<h4><span class="header-section-number">12.4.9.1</span> Sub-goal: Species</h4>
 <p>This sub-goal assesses the health of all marine species present in a region, including endangered species and species in relatively good conditions. The presence of higher-risk species leads to a higher score.</p>
 <blockquote>
 <p>Data for this goal are also used in Sense of Places sub-goal: Iconic Species. It will be effective for goal keepers of Biodiversity and Sense of Place to work together on data gathering.</p>
@@ -3111,7 +3436,7 @@ as Canada, to be unduly penalized.--->
 <p></span></p>
 </div>
 <div id="sub-goal-habitats" class="section level4">
-<h4><span class="header-section-number">13.4.9.2</span> Sub-goal: Habitats</h4>
+<h4><span class="header-section-number">12.4.9.2</span> Sub-goal: Habitats</h4>
 <p>The Habitats sub-goal includes all habitats in the study area, and assess their health condition and coverage area.</p>
 <blockquote>
 <p>Habitat is included in the Biodiversity goal to provide a more complete picture of diversity in the system. This is because in global assessments assessed species data were limited and the diversity of habitats can be included with the assumption that healthier habitats mean healthier species. Therefore if you have comprehensive species assessments in your area you may not need to include all habitats as a sub-goal, instead only including living habitats (algae, corals) along with species in the Species sub-goal.</p>
@@ -3202,7 +3527,7 @@ as Canada, to be unduly penalized.--->
 </div>
 </div>
 <div id="appendix-2-instructions-for-preparing-data-files-for-the-ohi-toolbox" class="section level1">
-<h1><span class="header-section-number">14</span> Appendix 2: Instructions for preparing data files for the OHI Toolbox</h1>
+<h1><span class="header-section-number">13</span> Appendix 2: Instructions for preparing data files for the OHI Toolbox</h1>
 <p>This document explains what to provide the toolbox master for your OHI assessment, using China 2015 assessment as an example.</p>
 <ol style="list-style-type: decimal">
 <li><p>For each goal, please prepare a document describing the goal model, including the equation, an explanation of the variables, and the data layer name for each variable</p></li>
@@ -3221,7 +3546,7 @@ as Canada, to be unduly penalized.--->
 <li>3c. please add columns to the matricies for any pressures or resilience measures in China</li>
 </ul>
 <div id="description-document-for-each-goal" class="section level2">
-<h2><span class="header-section-number">14.1</span> 1. Description document for each goal</h2>
+<h2><span class="header-section-number">13.1</span> 1. Description document for each goal</h2>
 <p>Please prepare a document with the following information. This can be used in your China OHI Evaluation Manual to help demonstrate and justify your approaches. This document can be written in Chinese.</p>
 <ol style="list-style-type: decimal">
 <li>Goal model equation</li>
@@ -3240,10 +3565,10 @@ as Canada, to be unduly penalized.--->
 </ul>
 </div>
 <div id="a.-.csv-files-for-each-data-layer" class="section level2">
-<h2><span class="header-section-number">14.2</span> 2a. <em>.csv</em> files for each data layer</h2>
+<h2><span class="header-section-number">13.2</span> 2a. <em>.csv</em> files for each data layer</h2>
 <p>Each file containing data in the proper format for the OHI Toolbox is called a <code>data layer</code>.</p>
 <div id="contents-of-data-layers" class="section level3">
-<h3><span class="header-section-number">14.2.1</span> Contents of data layers</h3>
+<h3><span class="header-section-number">13.2.1</span> Contents of data layers</h3>
 <p>Finalized data layers have at least two columns: the <code>rgn_id</code> column and a column with data, that is best identified by its units (km2 or often score). There also may be a <code>year</code> column or a <code>category</code> column (for natural product categories or habitat types). An example of a two-column file is ’<a href="https://github.com/OHI-Science/chn/blob/draft/subcountry2014/layers/ao_access_gl2014.csv">al_access_gl2014.csv’</a>, and an example of a three-column file is <a href="https://github.com/OHI-Science/chn/blob/draft/subcountry2014/layers/rgn_labels.csv">hab_extent_gl2014.csv’</a>.</p>
 <p>An example of a data file is <code>ao_access_gl2014.csv</code>:</p>
 <pre><code>&quot;rgn_id&quot;,&quot;value&quot;
@@ -3260,7 +3585,7 @@ as Canada, to be unduly penalized.--->
 <p>The ‘region identifier’ (<code>rgn_id</code>) column has numbers identifying each province in China, numbered from north to south. You can explore the identifier numbers at [<a href="https://ohi-science.org/chn/regions" class="uri">https://ohi-science.org/chn/regions</a>]. Note: the OHI China team may modify the which number is associated with which province, however, it is important that there is consistency across all data layers because the OHI Toolbox calculates scores based on <code>rgn_id</code>. You can work with Ning to change the regions in <a href="https://github.com/OHI-Science/chn/blob/draft/subcountry2014/layers/rgn_labels.csv">rgn_labels.csv</a>.</p>
 </div>
 <div id="naming-data-layers" class="section level3">
-<h3><span class="header-section-number">14.2.2</span> Naming data layers</h3>
+<h3><span class="header-section-number">13.2.2</span> Naming data layers</h3>
 <p>Please name each data layer with the following format so it is easy to keep all data organized:</p>
 <blockquote>
 <p>prefix_layername_scenario_suffix.extension</p>
@@ -3374,7 +3699,7 @@ as Canada, to be unduly penalized.--->
 </div>
 </div>
 <div id="b.-description-files-to-accompany-each-data-layer" class="section level2">
-<h2><span class="header-section-number">14.3</span> 2b. Description files to accompany each data layer</h2>
+<h2><span class="header-section-number">13.3</span> 2b. Description files to accompany each data layer</h2>
 <p>Please write a document to accompany each data file. Please save the document as a <em>.txt</em> file or a <em>.pdf</em> file, but not a Word document (<em>.docx</em>).</p>
 <p>Each document should have the following information:</p>
 <ol style="list-style-type: decimal">
@@ -3404,10 +3729,10 @@ as Canada, to be unduly penalized.--->
 </ol>
 </div>
 <div id="pressures-and-resilience-data" class="section level2">
-<h2><span class="header-section-number">14.4</span> 3. Pressures and resilience data</h2>
+<h2><span class="header-section-number">13.4</span> 3. Pressures and resilience data</h2>
 <p>Remember that for any pressures and resilience measures included in the OHI matrices, there must be data available for each region in your study area.</p>
-<div id="pressures" class="section level3">
-<h3><span class="header-section-number">14.4.1</span> Pressures</h3>
+<div id="pressures-1" class="section level3">
+<h3><span class="header-section-number">13.4.1</span> Pressures</h3>
 <p>Several pressures layers are based on 1km2 resolution spatial files that we can extract for regional studies. These layers are:</p>
 <ul>
 <li>ocean acidification (cc_acid)</li>
@@ -3418,14 +3743,14 @@ as Canada, to be unduly penalized.--->
 <li>chemical pollution (po_chemicals)</li>
 </ul>
 </div>
-<div id="resilience" class="section level3">
-<h3><span class="header-section-number">14.4.2</span> Resilience</h3>
+<div id="resilience-1" class="section level3">
+<h3><span class="header-section-number">13.4.2</span> Resilience</h3>
 <p>Resilience measures are often regulatory measures that indicate how provinces are performing compared with each other. If there are any environmental or social performance indicators for China, these could be used here.</p>
 </div>
 </div>
 </div>
 <div id="appendix-3-instructions-for-preparing-model-descriptions" class="section level1">
-<h1><span class="header-section-number">15</span> Appendix 3: Instructions for preparing model descriptions</h1>
+<h1><span class="header-section-number">14</span> Appendix 3: Instructions for preparing model descriptions</h1>
 <p>This document explains what information are needed from the goal keepers in order to calculate the goal scores and update the WebApp. An example is provided for each step of the instructions.</p>
 <ol style="list-style-type: decimal">
 <li><strong>Goal model equation:</strong></li>
@@ -3521,7 +3846,7 @@ x_{CW} = \sqrt[4]{a * u * l * d}
 </table>
 </div>
 <div id="appendix-4-develop-a-record-keeping-spreadsheet" class="section level1">
-<h1><span class="header-section-number">16</span> Appendix 4: Develop a record-keeping spreadsheet</h1>
+<h1><span class="header-section-number">15</span> Appendix 4: Develop a record-keeping spreadsheet</h1>
 <p>If you are a toolbox master responsible for indexing all the data and modifying all the goal models, it is helpful to keep a master record-keeping spreadsheet from the start. This will allow to note who to contact for each goal and whether the key items for calculations are received, as well as to track your own progress. Goal keepers might be at different stages of data gathering and model development, and might send you pieces of information at different times. When you are updating multiple goal models, it is easy to lose track where you are in the progress for each goal.</p>
 <p>If you are a goal keeper, having a record-keeping place to remind you where you are in the process and record all the important decisions may also be helpful. Here are some suggestions on what to and how to keep track of the progress.</p>
 <p><strong>Key items</strong> for each goal:</p>
@@ -3547,12 +3872,12 @@ x_{CW} = \sqrt[4]{a * u * l * d}
 </div>
 </div>
 <div id="appendix-5-r-tutorials-for-ohi" class="section level1">
-<h1><span class="header-section-number">17</span> Appendix 5: R Tutorials for OHI</h1>
+<h1><span class="header-section-number">16</span> Appendix 5: R Tutorials for OHI</h1>
 <p>Ocean Health Index R code uses several packages and best practices to faciliate understanding and collaboration. These approaches are presented here, along with examples using data included in global OHI assessments.</p>
 <p>This document describes several packages that are used extensively in OHI assessments and introduces you to typical coding practices commonly seen in OHI scripts and functions.</p>
 <p>Also see the accompanying R script to test examples using these packages.</p>
 <div id="r-very-basics" class="section level3">
-<h3><span class="header-section-number">17.0.1</span> R Very Basics:</h3>
+<h3><span class="header-section-number">16.0.1</span> R Very Basics:</h3>
 <ul>
 <li>Have you already downloaded and installed <a href="http://www.r-project.org/">R</a>?</li>
 <li>Have you already downloaded and installed <a href="http://www.rstudio.com/">RStudio</a>?</li>
@@ -3560,7 +3885,7 @@ x_{CW} = \sqrt[4]{a * u * l * d}
 </ul>
 </div>
 <div id="tidyr-functions" class="section level3">
-<h3><span class="header-section-number">17.0.2</span> <code>tidyr</code> functions</h3>
+<h3><span class="header-section-number">16.0.2</span> <code>tidyr</code> functions</h3>
 <p>‘Tidy’ up your messy data using <code>tidyr</code> to make it easier to work with. The ‘tidy tools’ functions in the <code>dplyr</code> package work best with tidy data.</p>
 <p>From Hadley Wickham’s <a href="http://vita.had.co.nz/papers/tidy-data.html"><em>Tidy Data</em> paper:</a> &gt;It is often said that 80% of data analysis is spent on the cleaning and preparing data. And it’s not just a first step, but it must be repeated many over the course of analysis as new problems come to light or new data is collected. To get a handle on the problem, this paper focuses on a small, but important, aspect of data cleaning that I call data tidying: structuring datasets to facilitate analysis.</p>
 <p>From <a href="http://blog.rstudio.org/2014/07/22/introducing-tidyr/">RStudio’s introduction to <code>tidyr</code></a>:</p>
@@ -3573,7 +3898,7 @@ x_{CW} = \sqrt[4]{a * u * l * d}
 <p><code>gather()</code> is arguably the most useful function in <code>tidyr</code>, and is explained in more detail below. <code>spread()</code> and <code>separate()</code> are other useful functions in <code>tidyr</code>.</p>
 <p>Other ‘tidyr’ references: * <a href="http://vita.had.co.nz/papers/tidy-data.html">Hadley Wickham’s <em>Tidy Data</em> paper:</a> Download the pre-print version for the whys and hows of tidy data. * <a href="http://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html">Cran tidy data vignette:</a> An informal and code heavy version of Hadley’s full <em>Tidy Data</em> paper. * <a href="http://blog.rstudio.org/2014/07/22/introducing-tidyr/">RStudio Blogs: Introducing tidyr:</a> Basics and philosophy of <code>tidyr</code> * <a href="http://swirlstats.com/students.html">swirl tutorial package:</a> A tutorial package built directly into R. Section 2: ‘Getting and Cleaning Data’ runs you through <code>dplyr</code> and <code>tidyr</code> basics * <a href="http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">R data wrangling cheat sheet:</a> A quick reference guide to <code>tidyr</code> and <code>dplyr</code> functions</p>
 <div id="tidyrgather" class="section level4">
-<h4><span class="header-section-number">17.0.2.1</span> tidyr::gather()</h4>
+<h4><span class="header-section-number">16.0.2.1</span> tidyr::gather()</h4>
 <p><strong>Description</strong></p>
 <p><code>gather()</code> takes data organized in rows and collapses them into a column format (a key column and a value column), duplicating all other columns as needed. Use <code>gather()</code> when your data is organized in “wide” format, in which some of your variables are in row form, rather than column form. Another <code>tidyr</code> function, <code>spread()</code>, is more or less the reverse of <code>gather()</code>, to reformat long data into wide data. It is more difficult to work with wide data, but may be more convenient for examining data in a table format.</p>
 <p>Note: <code>gather()</code> essentially replaces <code>melt()</code> in <code>plyr</code> package.</p>
@@ -3595,7 +3920,7 @@ x_{CW} = \sqrt[4]{a * u * l * d}
 </div>
 </div>
 <div id="dplyr-functions" class="section level3">
-<h3><span class="header-section-number">17.0.3</span> <code>dplyr</code> functions</h3>
+<h3><span class="header-section-number">16.0.3</span> <code>dplyr</code> functions</h3>
 <p>The <code>dplyr</code> package includes a number of functions to easily, quickly, and intuitively wrangle your data. Here is a quick introduction with examples from data used in the Ocean Health Index.</p>
 <p>From <a href="http://blog.rstudio.org/2014/01/17/introducing-dplyr/">RStudio’s introduction to <code>dplyr</code></a>:</p>
 <blockquote>
@@ -3623,7 +3948,7 @@ x_{CW} = \sqrt[4]{a * u * l * d}
 <li><a href="http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">R data wrangling cheat sheet:</a> a quick reference guide to <code>tidyr</code> and <code>dplyr</code> functions</li>
 </ul>
 <div id="operator" class="section level4">
-<h4><span class="header-section-number">17.0.3.1</span> %&gt;% operator</h4>
+<h4><span class="header-section-number">16.0.3.1</span> %&gt;% operator</h4>
 <p><strong>Description</strong></p>
 <p>The <code>%&gt;%</code> operator allows you to ‘pipe’ or ‘chain’ a number of function calls, in which the output dataframe of one function is fed directly into the next function as the input dataframe. This lets you avoid creating temporary variables to store intermediate values, and lets you avoid nesting multiple functions. Using <code>%&gt;%</code> makes your code more elegant, streamlined, and easy to read since you are able to write your code on multiple indented lines. From <a href="http://seananderson.ca/2014/09/13/dplyr-intro.html"><code>dplyr</code> and pipes: the basics:</a></p>
 <blockquote>
@@ -3666,7 +3991,7 @@ data_out &lt;- data_in %&gt;%
     arrange(country, commodity)</code></pre>
 </div>
 <div id="dplyrselect" class="section level4">
-<h4><span class="header-section-number">17.0.3.2</span> dplyr::select()</h4>
+<h4><span class="header-section-number">16.0.3.2</span> dplyr::select()</h4>
 <p><strong>Description</strong></p>
 <p><code>select()</code> allows you to choose specific columns/variables from your dataset, and drop all others. Alternately, you can select specific variables to drop, leaving others in place. <code>rename()</code> is a relative of <code>select()</code> that allows you to rename variables, while leaving all variables in place.</p>
 <p><strong>Examples</strong></p>
@@ -3693,7 +4018,7 @@ harvest &lt;- harvest %&gt;%
 <p>The <code>harvest</code> data is fed into <code>select()</code>, and the output is fed into <code>rename()</code>. The final output of this complete flow is assigned to the new variable <code>harvest1</code>. <img src="https://docs.google.com/drawings/d/14uc-1Pgaosfh5kPllJRf_sRXbiGWL4RcBqASqAG5f2E/pub?w=898&amp;h=286" alt="using select() and rename() to organize variables in a data set" /></p>
 </div>
 <div id="dplyrfilter" class="section level4">
-<h4><span class="header-section-number">17.0.3.3</span> dplyr::filter()</h4>
+<h4><span class="header-section-number">16.0.3.3</span> dplyr::filter()</h4>
 <p><strong>Description</strong></p>
 <p><code>filter()</code> allows you to select observations (rows) that match search criteria, using values in specified variables (columns). Drops all observations that do not match the criteria. * Use logical operators &amp; and | to filter on multiple criteria simultaneously</p>
 <p><strong>Example</strong></p>
@@ -3706,7 +4031,7 @@ h_vnm_recent &lt;- harvest %&gt;%
   ### filter with multiple criteria: selects &#39;Vietnam&#39; data from 2009 or later.</code></pre>
 </div>
 <div id="dplyrarrange" class="section level4">
-<h4><span class="header-section-number">17.0.3.4</span> dplyr::arrange()</h4>
+<h4><span class="header-section-number">16.0.3.4</span> dplyr::arrange()</h4>
 <p><strong>Description</strong></p>
 <p><code>arrange()</code> sorts observations (rows) based upon a specified variable or list of variables. Does not actually change the data in any way, only the appearance. Useful for inspecting your data after each processing step.</p>
 <p><strong>Example</strong></p>
@@ -3719,7 +4044,7 @@ harvest_sorted &lt;- harvest %&gt;%
   ### Sorts harvest values by most recent year (descending order)</code></pre>
 </div>
 <div id="dplyrmutate" class="section level4">
-<h4><span class="header-section-number">17.0.3.5</span> dplyr::mutate()</h4>
+<h4><span class="header-section-number">16.0.3.5</span> dplyr::mutate()</h4>
 <p><strong>Description</strong></p>
 <p><code>mutate()</code> is a powerful and useful tool for processing data. You can add new variables or modify existing variables, using all variety of functions to perform operations on the dataset. <code>mutate()</code> works well with <code>group_by()</code> to perform calculations and analysis at a group level rather than dataset level.</p>
 <p><strong>Example</strong></p>
@@ -3747,7 +4072,7 @@ harvest1 &lt;- harvest %&gt;%
 <p>Notes: * In this example, no new variables were added. Multiple variables can be changed with one call to <code>mutate()</code>. Multiple modifications to ‘tonnes’ happen sequentially, so order is important. * The <code>as.numeric(as.character(...))</code> gets around the fact that these text variables are stored as ‘factor’ class, rather than ‘character’ class. <code>as.character()</code> forces them into character class, and then the <code>as.numeric()</code> can convert the character strings to numeric where applicable. Similar for <code>as.integer(...)</code></p>
 </div>
 <div id="dplyrsummarize-or-summarise" class="section level4">
-<h4><span class="header-section-number">17.0.3.6</span> dplyr::summarize() ( or summarise() )</h4>
+<h4><span class="header-section-number">16.0.3.6</span> dplyr::summarize() ( or summarise() )</h4>
 <p><strong>Description</strong></p>
 <p><code>summarize()</code> combines multiple values of a variable into a single summary value. <code>summarize()</code> works well with <code>group_by()</code> - for grouped data, each group will be summarized and reported separately. For ungrouped data, the summary covers the entire dataset.</p>
 <ul>
@@ -3762,7 +4087,7 @@ harvest1 &lt;- harvest %&gt;%
   ungroup()</code></pre>
 </div>
 <div id="dplyrgroup_by" class="section level4">
-<h4><span class="header-section-number">17.0.3.7</span> dplyr::group_by()</h4>
+<h4><span class="header-section-number">16.0.3.7</span> dplyr::group_by()</h4>
 <p><strong>Description</strong></p>
 <p><code>group_by()</code> allows you to easily group a dataset by one or more variables/columns.<br />
 By itself, it does nothing to change your data. But once your dataset has been sorted into useful groups, other <code>dplyr</code> functions will operate on each group separately, rather than operating on the entire dataset. * The function <code>groups(data)</code> reports back the current grouping status of dataframe <code>data</code>.</p>
@@ -3794,7 +4119,7 @@ h_tot_mut &lt;- harvest %&gt;%
 </div>
 </div>
 <div id="coding-style" class="section level3">
-<h3><span class="header-section-number">17.0.4</span> Coding style</h3>
+<h3><span class="header-section-number">16.0.4</span> Coding style</h3>
 <blockquote>
 <p>Code unto others as you would have them code unto you.</p>
 </blockquote>
@@ -3817,7 +4142,7 @@ h_tot_mut &lt;- harvest %&gt;%
 <li>Note that these are guidelines, not rules; non-stylish code can still work.</li>
 </ul>
 <div id="best-practices-for-coding-in-ohi-assessments" class="section level4">
-<h4><span class="header-section-number">17.0.4.1</span> Best practices for coding in OHI assessments:</h4>
+<h4><span class="header-section-number">16.0.4.1</span> Best practices for coding in OHI assessments:</h4>
 <ul>
 <li>use a consistent format for variable names, filenames, function names, etc.
 <ul>
@@ -3861,21 +4186,21 @@ h_tot_mut &lt;- harvest %&gt;%
 </ul>
 </div>
 <div id="writing-functions" class="section level4">
-<h4><span class="header-section-number">17.0.4.2</span> Writing functions</h4>
+<h4><span class="header-section-number">16.0.4.2</span> Writing functions</h4>
 <p><a href="http://nicercode.github.io/guides/functions/" class="uri">http://nicercode.github.io/guides/functions/</a> Why write functions? * name a chunk of code for easier reading * easily reuse a chunk of code</p>
 <p>What makes a good function: * It’s short * Performs a single operation * Uses intuitive names</p>
 </div>
 <div id="directories-and-files" class="section level4">
-<h4><span class="header-section-number">17.0.4.3</span> Directories and files</h4>
+<h4><span class="header-section-number">16.0.4.3</span> Directories and files</h4>
 <pre><code>* Store files in a folder called &#39;github&#39; in your home directory; access it with `~/github` so that users with different operating systems can work smoothly with your files</code></pre>
 </div>
 </div>
 </div>
 <div id="appendix-6-frequently-asked-questions-faqs" class="section level1">
-<h1><span class="header-section-number">18</span> Appendix 6: Frequently Asked Questions (FAQs)</h1>
+<h1><span class="header-section-number">17</span> Appendix 6: Frequently Asked Questions (FAQs)</h1>
 <p>This document provides answers to some frequently asked questions about conducting regional assessments using the Ocean Health Index. A few questions are related to general concepts in the Ocean Health Index, but mostly those topics are covered at <a href="http://www.oceanhealthindex.org/About/FAQ/" class="uri">http://www.oceanhealthindex.org/About/FAQ/</a>. Here, the FAQ are primarily technical questions regarding regional assessments and using the OHI Toolbox. This document will be updated continually as we have more questions. Questions are arranged by theme, and have the format Q: (question) and A: (answer).</p>
 <div id="conceptual" class="section level2">
-<h2><span class="header-section-number">18.1</span> Conceptual</h2>
+<h2><span class="header-section-number">17.1</span> Conceptual</h2>
 <p><strong>Q: Are regional assessment scores comparable with global assessment scores?</strong></p>
 <p>A: Regional Index scores cannot be directly compared to global Index scores, or to other regional Index scores calculated through separate efforts. This is because data and indicators (both what they measure and their quality), reference points (set using local knowledge and priorities), and specific goal models are often different for the areas being compared.</p>
 <p>However, because scores for each goal are scaled to a reference point, qualitative comparisons can be made. For example, a score of 71 in the US West Coast compared to 66 in Brazil says that the US West coast is closer to fully meeting its sustainable goals (i.e., meeting regional reference points). Furthermore, use of the same Ocean Health Index framework across regional assessments permits fruitful discussion and general comparisons even if data inputs differ. Ocean Health Index assessments at any scale always work within a standardized definition of ocean health, using information to capture the philosophy of the ten goals that have been identified (and undergone scientific peer-review) prior to compiling relevant data. Use of the ten-goal framework is important both to ensure that all aspects of ocean health are captured and to allow better comparison across regional assessments than would be possible if the different regions used different methods.</p>
@@ -3916,7 +4241,7 @@ h_tot_mut &lt;- harvest %&gt;%
 <p>OHI is also human benefits-driven, not ecologically-driven. It happens that CS, CP, and HAB are affected by similar factors, but they provide non-overlapping benefits. It is the design of OHI to show the connectivity among goals. If certain habitats are good for multiple goals, there is strong incentive to focus energy and resources to protect those habitats.</p>
 </div>
 <div id="timing-and-resources" class="section level2">
-<h2><span class="header-section-number">18.2</span> Timing and Resources</h2>
+<h2><span class="header-section-number">17.2</span> Timing and Resources</h2>
 <p><strong>Q: How much does it cost to produce a regional assessment?</strong></p>
 <p>A: Regional assessments can be completed at (varying costs depending on the local context).Funds are needed for a management and scientific team, workshops and meetings (including travel), communications, policy engagement, and operating costs. Therefore, securing funding is an important component to satisfactorily complete the assessment. We encourage the development of a local proposal or strategic action plan that details a timeline of activities and the resources needed to accomplish them.</p>
 <p><strong>Q: How many people are required in a team?</strong></p>
@@ -3931,14 +4256,14 @@ h_tot_mut &lt;- harvest %&gt;%
 <p>A: All goals using spatial data could potentially require a GIS analyst. These goals are commonly: habitat-based goals and sub-goals: (Coastal Protection, Carbon Storage, Habitats—a sub-goal of Biodiversity), Food Provision, Sense of Place, Species—a sub-goal of Biodiversity, Clean Waters</p>
 </div>
 <div id="structure" class="section level2">
-<h2><span class="header-section-number">18.3</span> Structure</h2>
+<h2><span class="header-section-number">17.3</span> Structure</h2>
 <p><strong>Q: Can we remove or add goals to the OHI?</strong></p>
 <p>A: A lot of deliberation went into defining the ten goals, and they seem to do a pretty good job of covering many if not most ocean uses, so additional goals may not be necessary. But it could be that they eclipse or replace an existing goal.</p>
 <p><strong>Q: What is sector evenness?</strong></p>
 <p>A: Sector evenness (also called a diversity index) is an economic concept that is included in OHI to enable comparison across many different sectors included in the Livelihoods &amp; Economies goal. This goal evaluates jobs, wages and revenues for nine marine employment sectors. The distribution of employment across these nine sectors is an effective indicator of resilience. If total employment within a community is primarily based in one or two sectors, the overall economic system will be excessively vulnerable to downturns in those sectors. Conversely, if employment is spread relatively evenly throughout all nine sectors, the overall system will be more robust and resistant to such disturbances. Overall revenue within the community will remain more stable during such downturns, and workers displaced by a downturn in their sector may be able to find employment in another sector without leaving the community. Sector evenness was used as a resilience measure for Livelihood &amp; Economies goal.</p>
 </div>
 <div id="appropriate-data-layers" class="section level2">
-<h2><span class="header-section-number">18.4</span> Appropriate data layers</h2>
+<h2><span class="header-section-number">17.4</span> Appropriate data layers</h2>
 <!-- **Q: Shipping and port activity are hardly affected by the health of the ecosystem. Why are these included in the Index?**
 
 A: Shipping and port activity are included as pressures only -->
