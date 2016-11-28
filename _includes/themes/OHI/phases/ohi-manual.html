@@ -53,11 +53,6 @@
 <li><a href="#whats-in-the-full-repo"><span class="toc-section-number">2.2.2</span> What’s in the Full Repo?</a></li>
 <li><a href="#how-to-request-a-full-repo"><span class="toc-section-number">2.2.3</span> How to request a Full Repo?</a></li>
 </ul></li>
-<li><a href="#defining-spatial-boundaries"><span class="toc-section-number">2.3</span> Defining spatial boundaries</a><ul>
-<li><a href="#balancing-geopolitical-boundaries-and-data-limitation"><span class="toc-section-number">2.3.1</span> Balancing geopolitical boundaries and data limitation</a></li>
-<li><a href="#drawing-spatial-boundaries"><span class="toc-section-number">2.3.2</span> Drawing spatial boundaries</a></li>
-<li><a href="#request-a-full-repository-with-offshore-boundaries"><span class="toc-section-number">2.3.3</span> Request a Full Repository with offshore boundaries</a></li>
-</ul></li>
 </ul></li>
 <li><a href="#starter-repository"><span class="toc-section-number">3</span> Starter Repository</a><ul>
 <li><a href="#discovering-and-gathering-input-information"><span class="toc-section-number">3.1</span> Discovering and gathering input information</a><ul>
@@ -79,10 +74,15 @@
 <li><a href="#long-formatting"><span class="toc-section-number">3.2.3</span> Long formatting</a></li>
 <li><a href="#rescaling-your-data"><span class="toc-section-number">3.2.4</span> Rescaling your data</a></li>
 </ul></li>
-<li><a href="#developing-goal-models-reference-points-and-pressures-and-resilience"><span class="toc-section-number">3.3</span> Developing Goal Models, Reference Points, and Pressures and Resilience</a><ul>
-<li><a href="#developing-multiple-goal-models-at-the-same-time"><span class="toc-section-number">3.3.1</span> Developing multiple goal models at the same time</a></li>
-<li><a href="#keeping-reference-points-in-mind"><span class="toc-section-number">3.3.2</span> Keeping Reference Points in Mind</a></li>
-<li><a href="#identifying-pressures-and-resilience"><span class="toc-section-number">3.3.3</span> Identifying pressures and resilience</a></li>
+<li><a href="#defining-spatial-boundaries"><span class="toc-section-number">3.3</span> Defining spatial boundaries</a><ul>
+<li><a href="#balancing-geopolitical-boundaries-and-data-limitation"><span class="toc-section-number">3.3.1</span> Balancing geopolitical boundaries and data limitation</a></li>
+<li><a href="#drawing-spatial-boundaries"><span class="toc-section-number">3.3.2</span> Drawing spatial boundaries</a></li>
+<li><a href="#request-a-full-repository-with-offshore-boundaries"><span class="toc-section-number">3.3.3</span> Request a Full Repository with offshore boundaries</a></li>
+</ul></li>
+<li><a href="#developing-goal-models-reference-points-and-pressures-and-resilience"><span class="toc-section-number">3.4</span> Developing Goal Models, Reference Points, and Pressures and Resilience</a><ul>
+<li><a href="#developing-multiple-goal-models-at-the-same-time"><span class="toc-section-number">3.4.1</span> Developing multiple goal models at the same time</a></li>
+<li><a href="#keeping-reference-points-in-mind"><span class="toc-section-number">3.4.2</span> Keeping Reference Points in Mind</a></li>
+<li><a href="#identifying-pressures-and-resilience"><span class="toc-section-number">3.4.3</span> Identifying pressures and resilience</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#full-repository"><span class="toc-section-number">4</span> Full Repository</a><ul>
@@ -367,79 +367,6 @@ The WebApp is a widely useful communication tool. Not all team collaborators may
 <p>We can then provide you with a Full Repo with the regions defined and pre-populated data layers extracted from the most recent global assessment according to your regional boundaries.</p>
 </div>
 </div>
-<div id="defining-spatial-boundaries" class="section level2">
-<h2><span class="header-section-number">2.3</span> Defining spatial boundaries</h2>
-<p><strong>Spatial boundaries of your assessment regions dictate how your data will be aggregated or disaggregated, and are required for getting a Full Repository.</strong> OHI scores are calculated for each <em>assessment region</em>, and the region boundaries will be used to aggregate or disaggregate input information reported at different spatial scales. There is no limit to the number of regions in your assessment. However, the number of regions is usually constrained by two things: data availability for those regions, and the utility of having scores calculated for those regions. Ideally, boundaries are drawn per management jurisdiction, and are informed by the scale at which information is available.</p>
-<p>The <em>Starter Repository</em> will help you organize preliminary data and make sure data availability matches your desired region assignments. Once you’ve defined your regions and drawn spatial boundaries, the OHI team can create a <strong>Full Repository</strong> for your assessment.</p>
-<div id="balancing-geopolitical-boundaries-and-data-limitation" class="section level3">
-<h3><span class="header-section-number">2.3.1</span> Balancing geopolitical boundaries and data limitation</h3>
-<p>The spatial boundaries of OHI regions are typically set based on:</p>
-<ul>
-<li><em>Management boundaries</em>: geopolitical boundaries, where policy decisions are made (countries, provinces, etc)</li>
-<li><em>Biogeographic boundaries</em>: based on natural geography (bay, seas, gulf, etc)</li>
-<li><em>Data</em>: information availability (spatial scale where are data collected)</li>
-</ul>
-<p>OHI utilizes data from dozens to &gt;100 data layers collected by many agencies. Some data are collected within boundaries suitable for your desired geopolitical boundaries. Often they are not. For example, you may wish to assess ocean health for each of the ten states along the coast. However, some measurements are taken on the national level and it is difficult to disaggregate data to the state level, or some measurements might only make sense at the watershed level across a few states.</p>
-<p>Data disaggregation and gap-filling are possible methods of dealing with missing data, but can dilute the information quality within your assessment. If many data layers don’t fit your desired boundaries, you may consider changing your boundaries. Exploring the data sources in the <strong>Starter Repo</strong> can help you balance jurisdictional boundaries and information availability, and finalize spatial boundaries that make the most sense for the purpose of your assessment.</p>
-<blockquote>
-<p>Note that the OHI does not take a stance on disputed territories. The boundaries are defined by the original map data providers.</p>
-</blockquote>
-</div>
-<div id="drawing-spatial-boundaries" class="section level3">
-<h3><span class="header-section-number">2.3.2</span> Drawing spatial boundaries</h3>
-<p><strong>Regions must be unique (non-overlapping), and boundaries must be drawn offshore</strong>. Offshore boundaries should be made with spatial methods in order to extend boundaries from those designated on land.</p>
-<p>Spatial boundaries must be drawn with geographic information system (GIS) mapping software such as ArcGIS, QGIS, or GRASS. You will need someone with GIS skills to create a shapefile that will be used by the Toolbox to display your information. The shapefile will also be used to extract information for each of your defined regions when data are reported in raster format for a different area. For more information see Wikipedia for <a href="https://en.wikipedia.org/wiki/Geographic_information_system">Geographic information systems</a> and <a href="http://en.wikipedia.org/wiki/Shapefile">Shapefiles</a>.</p>
-<p>Illustrated below are the conceptual steps required for creating a spatial file with your offshore boundaries. You will ultimately decide where to draw the offshore boundaries. The example below shows a simple example of extending the land boundaries in a straight line; you should consult with a GIS specialist to make sure any extensions make sense with the coastline and natural features, and also make sure they does not conflict with important <a href="http://ohi-science.org/manual/#strategically-define-spatial-boundaries-balance-information-availability-and-decision-making-scales">jurisdictional boundaries</a>.</p>
-<div class="figure">
-<img src="https://docs.google.com/drawings/d/17G4bcyoFg8kaEGys_6aA7dQEPVteHPQBk9YQl4iA6Dw/pub?w=960&amp;h=720" alt="" />
-
-</div>
-<blockquote>
-<p>Data for different goals often cover different spatial extents offshore. For example, Fisheries might use data from the entire EEZ, while Carbon Storage might only cover 3nm from shore. When mapped, OHI scores do not show different spatial extents, but instead show all to the greatest spatial extent. Exclusive Economic Zone (EEZ) boundaries are most often the greatest extent offshore that OHI scores will represent. These regional spatial boundaries do not affect data preparation and analyses, where you could use any spatial extent appropriate for each goal.</p>
-</blockquote>
-<p><strong>One possible method is to create boundaries with Thiessen Polygons</strong>, and we provide a Python script that can be used, but it requires ArcGIS. The Python script and further details can be found <a href="http://ohi-science.org/pages/create_regions.html">here</a>.</p>
-<!-- It can also be done in [R](http://gis.stackexchange.com/questions/136542/r-function-for-thiessen-polygons).  -->
-<blockquote>
-<p>To create a repository for your assessment, we just need the off-shore marine water boundaries. But you may also make <strong>inland buffers</strong> for your analyses. For example, do you want coastal population to include activities within 1km of the coast? Or 10km?</p>
-</blockquote>
-</div>
-<div id="request-a-full-repository-with-offshore-boundaries" class="section level3">
-<h3><span class="header-section-number">2.3.3</span> Request a Full Repository with offshore boundaries</h3>
-<p><strong>In order to create a Full Repository for your assessment, we will need the shapefile for your offshore boundaries</strong> (and the name of your scenario, which is to the unit of your assessment and the year, for example, <code>province2016</code>). This will help us disaggregate global data to your local regions and populate usable data layers. Please send a .zip file of all files produced to <a href="mailto:_info@ohi-science.org_">_info@ohi-science.org_</a>. Files with the following extensions are required (but you can send all files):</p>
-<ul>
-<li><code>.dbf</code></li>
-<li><code>.shp</code></li>
-<li><code>.shx</code></li>
-<li><code>.prj</code></li>
-</ul>
-<p>The <code>.dbf</code> file needs the following in its attribute table:</p>
-<ul>
-<li><strong>rgn_id</strong> (unique numeric region identifier)</li>
-<li><strong>rgn_name</strong> (unique named region identifier)</li>
-<li><strong>area_km2</strong> or <strong>area_hectare</strong> (area in km2 or hectares)</li>
-</ul>
-<!---From Mel: I just looked at what R produces for shapefiles, and it is: .dbf, .prj, .shp, .shx
-shp = boundaries
-dbf = database (attribute table)
-prj = projection information
-not sure what shx is....
-So I am guessing that is all that is really needed.--->
-<!-- Using Thiessen Polygons, offshore boundaries are created with the following steps.
-
-1. Start with land-based boundaries
-2. Draw offshore buffers for each region  
-3. But the buffers overlap
-4. For the Thiessen Polygon approach, the overlap is divided
-5. To produce the borders between the regions
-
-![image](https://docs.google.com/drawings/d/17qXZ8Ah6WPYhP1_RQOsIA5gHBNlP8mGAFcDIxkizM58/pub?w=960&h=720) -->
-<!-- ## Buffers
-
-When drawing your regions, it is also a good idea to create _inland and offshore_ buffers that will be used to extract data in your assessment. Buffers are not necessary for display in the WebApp but they will be important for later layer preparation. For example, the global assessment used coastal population information, and raster data were available for entire countries. This meant that 'coastal' had to be defined: for global assessments it was defined as 25 miles from the coast. To extract just the coastal population from the population raster file, we created a 25 mile inland buffer for each reporting region. But to extract mangrove data for each region from raster files, global assessments used 1km inland and 1km offshore as the buffer.  
-
-At this point, you may not know which buffers you will need, as they depend on the data available, your goal models and definitions. Some buffers used in the global assessments were 1km inland, 25miles inland, 1km offshore, 3nm offshore.-->
-</div>
-</div>
 </div>
 <div id="starter-repository" class="section level1">
 <h1><span class="header-section-number">3</span> Starter Repository</h1>
@@ -674,17 +601,90 @@ At this point, you may not know which buffers you will need, as they depend on t
 </div>
 </div>
 </div>
+<div id="defining-spatial-boundaries" class="section level2">
+<h2><span class="header-section-number">3.3</span> Defining spatial boundaries</h2>
+<p><strong>Spatial boundaries of your assessment regions dictate how your data will be aggregated or disaggregated, and are required for getting a Full Repository.</strong> OHI scores are calculated for each <em>assessment region</em>, and the region boundaries will be used to aggregate or disaggregate input information reported at different spatial scales. There is no limit to the number of regions in your assessment. However, the number of regions is usually constrained by two things: data availability for those regions, and the utility of having scores calculated for those regions. Ideally, boundaries are drawn per management jurisdiction, and are informed by the scale at which information is available.</p>
+<p>The <em>Starter Repository</em> will help you organize preliminary data and make sure data availability matches your desired region assignments. Once you’ve defined your regions and drawn spatial boundaries, the OHI team can create a <strong>Full Repository</strong> for your assessment.</p>
+<div id="balancing-geopolitical-boundaries-and-data-limitation" class="section level3">
+<h3><span class="header-section-number">3.3.1</span> Balancing geopolitical boundaries and data limitation</h3>
+<p>The spatial boundaries of OHI regions are typically set based on:</p>
+<ul>
+<li><em>Management boundaries</em>: geopolitical boundaries, where policy decisions are made (countries, provinces, etc)</li>
+<li><em>Biogeographic boundaries</em>: based on natural geography (bay, seas, gulf, etc)</li>
+<li><em>Data</em>: information availability (spatial scale where are data collected)</li>
+</ul>
+<p>OHI utilizes data from dozens to &gt;100 data layers collected by many agencies. Some data are collected within boundaries suitable for your desired geopolitical boundaries. Often they are not. For example, you may wish to assess ocean health for each of the ten states along the coast. However, some measurements are taken on the national level and it is difficult to disaggregate data to the state level, or some measurements might only make sense at the watershed level across a few states.</p>
+<p>Data disaggregation and gap-filling are possible methods of dealing with missing data, but can dilute the information quality within your assessment. If many data layers don’t fit your desired boundaries, you may consider changing your boundaries. Exploring the data sources in the <strong>Starter Repo</strong> can help you balance jurisdictional boundaries and information availability, and finalize spatial boundaries that make the most sense for the purpose of your assessment.</p>
+<blockquote>
+<p>Note that the OHI does not take a stance on disputed territories. The boundaries are defined by the original map data providers.</p>
+</blockquote>
+</div>
+<div id="drawing-spatial-boundaries" class="section level3">
+<h3><span class="header-section-number">3.3.2</span> Drawing spatial boundaries</h3>
+<p><strong>Regions must be unique (non-overlapping), and boundaries must be drawn offshore</strong>. Offshore boundaries should be made with spatial methods in order to extend boundaries from those designated on land.</p>
+<p>Spatial boundaries must be drawn with geographic information system (GIS) mapping software such as ArcGIS, QGIS, or GRASS. You will need someone with GIS skills to create a shapefile that will be used by the Toolbox to display your information. The shapefile will also be used to extract information for each of your defined regions when data are reported in raster format for a different area. For more information see Wikipedia for <a href="https://en.wikipedia.org/wiki/Geographic_information_system">Geographic information systems</a> and <a href="http://en.wikipedia.org/wiki/Shapefile">Shapefiles</a>.</p>
+<p>Illustrated below are the conceptual steps required for creating a spatial file with your offshore boundaries. You will ultimately decide where to draw the offshore boundaries. The example below shows a simple example of extending the land boundaries in a straight line; you should consult with a GIS specialist to make sure any extensions make sense with the coastline and natural features, and also make sure they does not conflict with important <a href="http://ohi-science.org/manual/#strategically-define-spatial-boundaries-balance-information-availability-and-decision-making-scales">jurisdictional boundaries</a>.</p>
+<div class="figure">
+<img src="https://docs.google.com/drawings/d/17G4bcyoFg8kaEGys_6aA7dQEPVteHPQBk9YQl4iA6Dw/pub?w=960&amp;h=720" alt="" />
+
+</div>
+<blockquote>
+<p>Data for different goals often cover different spatial extents offshore. For example, Fisheries might use data from the entire EEZ, while Carbon Storage might only cover 3nm from shore. When mapped, OHI scores do not show different spatial extents, but instead show all to the greatest spatial extent. Exclusive Economic Zone (EEZ) boundaries are most often the greatest extent offshore that OHI scores will represent. These regional spatial boundaries do not affect data preparation and analyses, where you could use any spatial extent appropriate for each goal.</p>
+</blockquote>
+<p><strong>One possible method is to create boundaries with Thiessen Polygons</strong>, and we provide a Python script that can be used, but it requires ArcGIS. The Python script and further details can be found <a href="http://ohi-science.org/pages/create_regions.html">here</a>.</p>
+<!-- It can also be done in [R](http://gis.stackexchange.com/questions/136542/r-function-for-thiessen-polygons).  -->
+<blockquote>
+<p>To create a repository for your assessment, we just need the off-shore marine water boundaries. But you may also make <strong>inland buffers</strong> for your analyses. For example, do you want coastal population to include activities within 1km of the coast? Or 10km?</p>
+</blockquote>
+</div>
+<div id="request-a-full-repository-with-offshore-boundaries" class="section level3">
+<h3><span class="header-section-number">3.3.3</span> Request a Full Repository with offshore boundaries</h3>
+<p><strong>In order to create a Full Repository for your assessment, we will need the shapefile for your offshore boundaries</strong> (and the name of your scenario, which is to the unit of your assessment and the year, for example, <code>province2016</code>). This will help us disaggregate global data to your local regions and populate usable data layers. Please send a .zip file of all files produced to <a href="mailto:_info@ohi-science.org_">_info@ohi-science.org_</a>. Files with the following extensions are required (but you can send all files):</p>
+<ul>
+<li><code>.dbf</code></li>
+<li><code>.shp</code></li>
+<li><code>.shx</code></li>
+<li><code>.prj</code></li>
+</ul>
+<p>The <code>.dbf</code> file needs the following in its attribute table:</p>
+<ul>
+<li><strong>rgn_id</strong> (unique numeric region identifier)</li>
+<li><strong>rgn_name</strong> (unique named region identifier)</li>
+<li><strong>area_km2</strong> or <strong>area_hectare</strong> (area in km2 or hectares)</li>
+</ul>
+<!---From Mel: I just looked at what R produces for shapefiles, and it is: .dbf, .prj, .shp, .shx
+shp = boundaries
+dbf = database (attribute table)
+prj = projection information
+not sure what shx is....
+So I am guessing that is all that is really needed.--->
+<!-- Using Thiessen Polygons, offshore boundaries are created with the following steps.
+
+1. Start with land-based boundaries
+2. Draw offshore buffers for each region  
+3. But the buffers overlap
+4. For the Thiessen Polygon approach, the overlap is divided
+5. To produce the borders between the regions
+
+![image](https://docs.google.com/drawings/d/17qXZ8Ah6WPYhP1_RQOsIA5gHBNlP8mGAFcDIxkizM58/pub?w=960&h=720) -->
+<!-- ## Buffers
+
+When drawing your regions, it is also a good idea to create _inland and offshore_ buffers that will be used to extract data in your assessment. Buffers are not necessary for display in the WebApp but they will be important for later layer preparation. For example, the global assessment used coastal population information, and raster data were available for entire countries. This meant that 'coastal' had to be defined: for global assessments it was defined as 25 miles from the coast. To extract just the coastal population from the population raster file, we created a 25 mile inland buffer for each reporting region. But to extract mangrove data for each region from raster files, global assessments used 1km inland and 1km offshore as the buffer.  
+
+At this point, you may not know which buffers you will need, as they depend on the data available, your goal models and definitions. Some buffers used in the global assessments were 1km inland, 25miles inland, 1km offshore, 3nm offshore.-->
+</div>
+</div>
 <div id="developing-goal-models-reference-points-and-pressures-and-resilience" class="section level2">
-<h2><span class="header-section-number">3.3</span> Developing Goal Models, Reference Points, and Pressures and Resilience</h2>
+<h2><span class="header-section-number">3.4</span> Developing Goal Models, Reference Points, and Pressures and Resilience</h2>
 <p>Once you have determined which goals are assessed and have begun searching for data and indicators, you can start to develop goal models and set reference points. The decision tree of the data discovery process also applies here: first consider how goals can be tailored to your local context before you consider replicating what was done in the Global Assessments. It is always better to use local goal model and reference point approaches where possible. This section aims to provid you with goal-by-goal guidance on how to find data, pick indicators, set reference point, and develop the model, as well as guideline on how to think about pressure and resilience. But first, let’s see some general tips before diving into the details of each goal model.</p>
 <div id="developing-multiple-goal-models-at-the-same-time" class="section level3">
-<h3><span class="header-section-number">3.3.1</span> Developing multiple goal models at the same time</h3>
+<h3><span class="header-section-number">3.4.1</span> Developing multiple goal models at the same time</h3>
 <p>Goals can be assessed independent of one another. As each goal model is developed and data gathered, it can be assessed without affecting other goals.</p>
 <p>However, you can develop some goal models simultaneously and streamline the data search. For example, the habitat-based goals <strong>Carbon Storage</strong>, <strong>Coastal Protection</strong>, and the <strong>Habitats sub-goal of Biodiversity</strong> all rely on the same underlying data, and their models can be developed together. A spatial analyst can create the spatial layers used for these goals with the same source material. This will greatly expedite your data layer preparation. Species data for <strong>Iconic Species sub-goal of Sense of Place</strong> is often a subset of data from <strong>Species sub-goal of Biodiversity</strong>. Data for non-food marine products for <strong>Natural Products</strong> and food products for <strong>Fisheries sub-goal of Food Provision</strong> are often recored in similar data sources and may need partitioning.</p>
 <p>If you wish to further coordinate these activities on a higher level, you could have the same team member coordinate activities for the development of certain goals. That is a consideration when assembling your team and planning your workflow. For more details, please see the goal-specific sections.</p>
 </div>
 <div id="keeping-reference-points-in-mind" class="section level3">
-<h3><span class="header-section-number">3.3.2</span> Keeping Reference Points in Mind</h3>
+<h3><span class="header-section-number">3.4.2</span> Keeping Reference Points in Mind</h3>
 <p>Setting a reference point is required for every goal model you develop. It is an “ideal” condition, or target, where the goal is considered to be achieved to its full potential. Achieving or exceeding the reference point will result in a score of 100. The choice of a reference point will thus affect how the final scores are calculated, and must be balanced between knowledge of the system, expert judgment, and limitations of the data. You may set an universal reference point for all regions in your study area, or you may set a unique reference point for each region.</p>
 <p>Generally there are four types of reference points: + <em>Functional</em>: Scientifically sound target set based on the known responses of variables measured, such as Maximum Sustainable Yield. + <em>Temporal</em>: A historical benchmark is used as a the “ideal” point in the past, such as mangrove coverage in the 1980’s. + <em>Spatial</em>: A region within the study area with the highest input values, and all others are scaled to it. + <em>Established target</em>: Such as a sustainable catch yield by a certain year, or the number of people employed in a marine sector by a certain year.</p>
 <p>Which type of reference point to use depends on the goal and available data. How many years of data are available? Can you set a temporal reference point with these data, or do you have to find another dataset or other source of information? In any case, you must balance being realistic with being ambitious. We suggest following the S.M.A.R.T. criteria when choosing a reference point: <em>“Specific,” “Measurable,” “Ambitious,” “Realistic,” and “Time-bound.”</em></p>
@@ -695,7 +695,7 @@ At this point, you may not know which buffers you will need, as they depend on t
 <p>where C<sub>r</sub> is the reference condition of each habitat. See goal-specific sections for more examples.</p>
 </div>
 <div id="identifying-pressures-and-resilience" class="section level3">
-<h3><span class="header-section-number">3.3.3</span> Identifying pressures and resilience</h3>
+<h3><span class="header-section-number">3.4.3</span> Identifying pressures and resilience</h3>
 <p>While you are developing goal models, you should note the links between your goals and pressures and resilience: both the pressures and resilience that affect them and whether the goal acts as pressure or resilience on other goals. It is recommended to begin gathering data of pressure and resilience from the start of the assessment. The team members who are developing specific goals should think about the pressures that act upon those goals as they are data-gathering, and they should think about the data sources that could provide pressures information. However, it may be most useful when one team member gathers all of the data for pressures, since the same pressures often affect multiple goals. See <strong>Pressure and Resilience</strong> section of this chapter for more information.</p>
 <!-- Ning: maybe we can move this detailed information to the pressure/resilience section.  
 
