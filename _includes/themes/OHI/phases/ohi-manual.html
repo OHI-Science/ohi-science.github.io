@@ -110,8 +110,7 @@
 </ul></li>
 <li><a href="#resilience"><span class="toc-section-number">8.2</span> Resilience</a><ul>
 <li><a href="#how-to-identify-and-quantify-resilience"><span class="toc-section-number">8.2.1</span> How to identify and quantify resilience</a></li>
-<li><a href="#incorporating-local-resilience-measures-in-your-assessment"><span class="toc-section-number">8.2.2</span> Incorporating local resilience measures in your assessment</a></li>
-<li><a href="#how-to-modify-resilience-matrix-and-categories-in-the-toolbox"><span class="toc-section-number">8.2.3</span> How to modify Resilience Matrix and Categories in the Toolbox</a></li>
+<li><a href="#how-to-modify-resilience-matrix-and-categories-in-the-toolbox"><span class="toc-section-number">8.2.2</span> How to modify Resilience Matrix and Categories in the Toolbox</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#removing-goals-and-sub-goals"><span class="toc-section-number">9</span> Removing goals and sub-goals</a><ul>
@@ -1449,9 +1448,8 @@ year_min = 2011
 <p>Environmental laws and policies offer tangible information on resilience. The most common type of environmental regulations come from administrative law, such as pollution regulation of various kinds. Land-use law is also important to the integration of social and ecosystem issues, so finding zoning laws relevant for coastal areas could be useful, and so could finding whether or not a region requires environmental impact statements before allowing construction for either coastal land or for marine planning. Other kinds of law some countries include court cases settling disputes or requiring reparation of pollution damages, for example.</p>
 <p>Resilience also goes beyond just the law, however. Insurance policies present another option, for instance.. Coastal areas are increasingly requiring climate-related insurance in some countries, and so the existence of such markets in a vulnerable area would be an example of a climate change resilience measure. Social initiatives also present another way to tackle resilience. There might be a beach clean-up day, a percentage of the refuse material that is recycled by the population, or some other social factor that reduces trash inputs into the ocean. A local law banning plastic bags is another way that local jurisdictions control plastic trash.</p>
 </div>
-</div>
-<div id="incorporating-local-resilience-measures-in-your-assessment" class="section level3">
-<h3><span class="header-section-number">8.2.2</span> Incorporating local resilience measures in your assessment</h3>
+<div id="incorporating-local-resilience-measures-in-your-assessment" class="section level4">
+<h4><span class="header-section-number">8.2.1.5</span> Incorporating local resilience measures in your assessment</h4>
 <ol style="list-style-type: decimal">
 <li>Begin by exploring how resilience could be measured in your study area. What laws and regulations are in place that could provide resilience to ocean health?</li>
 <li>Are there locally-developed indices that capture social or ecological resilience? Is there information about how each region in your study area are implementing or enforcing the laws?</li>
@@ -1459,8 +1457,9 @@ year_min = 2011
 <li>Assign the resilience measure to the appropriate goal. Since resilience measures are in response to pressures that have a weight rank of 2 or 3 effect on a certain goal, determining which goals ecological and social resilience measures effect follows the same pattern as the pressures matrix. For goal-specific resilience measures, assign the resilience measure to the appropriate goal.</li>
 <li>Prepare each resilience data layer only after steps 1-6 are completed. In addition to the proper formatting for the Toolbox, resilience data must be rescaled (normalized) on a unitless scale from 0 - 1. You will have to determine how to rescale the data, whether it is based on the highest value in the data range or other methods.</li>
 </ol>
+</div>
 <div id="including-resilience-measures-from-global-assessments" class="section level4">
-<h4><span class="header-section-number">8.2.2.1</span> Including resilience measures from global assessments</h4>
+<h4><span class="header-section-number">8.2.1.6</span> Including resilience measures from global assessments</h4>
 <p>Remember that local measures are far more appropriate than those included in global assessments, which likely do not reflect local management targets. However, international data were used in the global assessments that are available to you if you cannot find better local data:</p>
 <p><strong>Table of resilience layers and descriptions</strong></p>
 <table style="width:122%;">
@@ -1557,7 +1556,7 @@ year_min = 2011
 </div>
 </div>
 <div id="how-to-modify-resilience-matrix-and-categories-in-the-toolbox" class="section level3">
-<h3><span class="header-section-number">8.2.3</span> How to modify Resilience Matrix and Categories in the Toolbox</h3>
+<h3><span class="header-section-number">8.2.2</span> How to modify Resilience Matrix and Categories in the Toolbox</h3>
 <p>Adding a new resilience to the resilience matrix requires the following steps:</p>
 <ol style="list-style-type: decimal">
 <li>Create new resilience layer(s) and save in the <code>layers</code> folder</li>
@@ -1579,11 +1578,11 @@ year_min = 2011
 <li>Modify <code>config.R</code> for goals that have elements</li>
 </ol>
 <div id="create-new-resilience-layers-save-in-layers-folder-and-register-in-layers.csv" class="section level4">
-<h4><span class="header-section-number">8.2.3.1</span> Create new resilience layers, save in <code>layers</code> folder and register in <code>layers.csv</code></h4>
+<h4><span class="header-section-number">8.2.2.1</span> Create new resilience layers, save in <code>layers</code> folder and register in <code>layers.csv</code></h4>
 <p>This process is similar to what you have done for the pressures data layers. Prefixes are also used for these layers, see <em>layer</em> and <em>subcategory</em> columns snapshot of the Resilience Categories below for more details.</p>
 </div>
 <div id="register-in-resilience-categories" class="section level4">
-<h4><span class="header-section-number">8.2.3.2</span> Register in Resilience Categories</h4>
+<h4><span class="header-section-number">8.2.2.2</span> Register in Resilience Categories</h4>
 <!-- The first step is to determine which resilience layers from the global assessment are relevant to your assessment, and whether others need to be added. -->
 <p><code>resilience_categories.csv</code> records general information on each resilience data layer. The full list of layers included in the global resilience matrix are shown in the <code>resilience_matrix.csv</code>:</p>
 <div class="figure">
@@ -1599,7 +1598,7 @@ year_min = 2011
 <p>However, you can redefine how the weights are set to available information in your regions.</p>
 </div>
 <div id="register-in-resilience-matrix" class="section level4">
-<h4><span class="header-section-number">8.2.3.3</span> Register in Resilience Matrix</h4>
+<h4><span class="header-section-number">8.2.2.3</span> Register in Resilience Matrix</h4>
 <p><code>resilience_matrix.csv</code> maps the different types of resilience (columns) with the goals that they affect (rows). Whether a resilience layer has any influence on a goal, or an element of the goal, is represented by an <em>x</em>, or its absence. For example, <code>po_water</code> layer is relevant to the <em>salt marsh</em> element of <em>CP</em> goal, as shown by the <em>x</em> in the cell. On the other hand, that data layer does not apply to the <em>mangrove</em> element of the same goal, hence the absence of an <em>x</em>.</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1zMxIbz_a0FixyKmFpsh81ztMe24EfeXgHwPUnI-lopc/pub?w=800&amp;h=720" alt="" />
@@ -1608,7 +1607,7 @@ year_min = 2011
 <p>New resilience layers may be added to <code>resilience_matrix.csv</code> based on finer-scale local information either in response to a new pressures layer, or as a new independent measure. Any added layer must be associated with a pressures layer that has a weight of 2 or 3 in the OHI framework so that resilience measures can mitigate pressures in each region.</p>
 </div>
 <div id="how-to-modify-config.r-for-goals-with-multiple-elements" class="section level4">
-<h4><span class="header-section-number">8.2.3.4</span> How to modify config.r for goals with multiple elements</h4>
+<h4><span class="header-section-number">8.2.2.4</span> How to modify config.r for goals with multiple elements</h4>
 <p>If a goal has multiple elements, as shown in <em>pressures_matrix.csv</em>, you need to update <code>config.r</code> in <code>conf</code> folder, as shown below:</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1eMvpSPif_Su759-cyHg8gsnWeHCvN2QlEZ5ywLVIEmY/pub?w=800&amp;h=720" alt="" />
