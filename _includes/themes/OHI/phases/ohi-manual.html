@@ -285,7 +285,7 @@ There are many decisions to be made when searching for and gathering data, and s
 <blockquote>
 <p>Read <a href="http://ohi-science.org/manual/#introduction-to-software">APPENDIX 1: Toolbox Software</a> for more details on their features, how they work together, and <strong>how to set them up your own computer</strong>.</p>
 </blockquote>
-<p><strong>Treat the toolbox as your notebook, calculator, and presentation of your work.</strong> No more endless email chains or passing excel sheets back and forth. If someone wants to see where your data comes from, how you have processed the data, and what’s the rationale for including or excluding certain data, and how the scores are calculated, they can find the answers here. It increases the credibility and reproducibility of your assessment.</p>
+<p><strong>Treat the toolbox as your notebook, calculator, and presentation of your work.</strong> No more endless email chains or passing excel sheets back and forth! If someone wants to see where your data comes from, how you have processed the data, what’s the rationale for including or excluding certain data, and how the scores are calculated, they can find the answers here. It increases the credibility and reproducibility of your assessment.</p>
 <p><strong>Working in this system will be helpful to your future self.</strong> In a few months, or years, you can visit this page and remember what you had done. It also makes your technical team more stable.</p>
 <p><strong>The toolbox will also preserve team memory.</strong> If there are personale changes, it is easy for any new memeber to pick up where it was left when your data prepation has been documented clearly and kept in one place.</p>
 <p>Your Toolbox is organized into <strong>two sequential repositories</strong> where you will store all your work. They will be tailor-made for your OHI+ assessment upon request.</p>
@@ -375,7 +375,7 @@ The WebApp is a widely useful communication tool. Not all team collaborators may
 <p>In the Starter Repo, you will have one main _ Prep_ folder, where you will organize and explore available data, finalize spatial boundaries, while learning the Github/Rstudio workflow. All files are written in <em>R</em> (or <em>Rmarkdown</em>) language.</p>
 <div id="discovering-and-gathering-input-information" class="section level2">
 <h2><span class="header-section-number">3.1</span> Discovering and gathering input information</h2>
-<p>To promote transparent communication and aid in reproducibility, it is always a good practice to record information on data sources and briefly explanation of how they are processed in the script. For example, you could include:</p>
+<p>To promote transparent communication and aid in reproducibility, it is always a good practice to record information on data sources and a brief explanation of how they are processed in the script. For example, you could include:</p>
 <ul>
 <li>data source</li>
 <li>data url or website</li>
@@ -729,7 +729,7 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 <p><strong>Most of your time will be spent preparing input layers and developing goal models</strong>. You will also register prepared layers to be used in the goal models. This all will be an iterative process, but generally speaking you will work goal-by-goal, preparing the layers first, registering them, and then developing the goal models in <em>R</em>. to calculate the scores.</p>
 <div id="main-folders-within-your-full-repo" class="section level3">
 <h3><span class="header-section-number">4.1.1</span> Main folders within your Full Repo</h3>
-<p>The <strong>scenario folder</strong> is the most important folder within the repository; by default it is named <code>subcountry</code> to indicate that the assessment is conducted at the region scale (province, state, district, etc.), based on input layers and goal models used in the most recent global assessment. It contains all of the inputs needed to calculate OHI scores, and you will modify these inputs when conducting your assessment. The scenario folder is explained in detail in this section. <!-- * All other files in the assessment repository are accessory files. Files with names beginning with a ‘.’ are required for versioning capabilities by GitHub and do not appear when the assessment repository is viewed on your computer. --></p>
+<p>The <strong>scenario folder</strong> is the most important folder within the repository; by default it is named <code>assessmentYEAR</code> (eg. <em>cnc2016</em> for New Caledonia 2016) to indicate that the assessment is conducted at the region scale (province, state, district, etc.), based on input layers and goal models used in the most recent global assessment. It contains all of the inputs needed to calculate OHI scores, and you will modify these inputs when conducting your assessment. The scenario folder is explained in detail in this section. <!-- * All other files in the assessment repository are accessory files. Files with names beginning with a ‘.’ are required for versioning capabilities by GitHub and do not appear when the assessment repository is viewed on your computer. --></p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1eHViTehnAuxSDw1fYI54C3X5YgBktGtaVt71R3OXYeE/pub?w=600&amp;h=500" alt="" />
 
@@ -800,7 +800,7 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 <li><strong>description</strong> is further description of the input layer, including the source of the original data. This is also displayed on the WebApp under the drop-down menu when the variable type is ‘input layer’.</li>
 <li><strong>fld_value</strong> the values’ units in the input layer. The information in this column must match the column header in the input layer.</li>
 <li><strong>units</strong> the values’ units in the input layer. This differs from <em>fld_value</em> above as the <em>units</em> column is displayed on the WebApp and can have more descriptive naming.</li>
-<li><strong>filename</strong> is the input layer itself. This file has input information for each region within the study area, and is located in the <code>subcountryYEAR/layers</code> folder.</li>
+<li><strong>filename</strong> is the input layer itself. This file has input information for each region within the study area, and is located in the <code>assessmentYEAR/layers</code> folder.</li>
 </ul>
 <p><span style="font-size:0.8em"></p>
 <table>
@@ -926,7 +926,7 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 <p><strong>resilience_matrix.csv</strong></p>
 <p>It is a table that indicates which individual resilience measures affect which goal, sub-goals, or components. These weights are stored in a separate file in the <code>conf</code> folder: <code>resilience_weights.csv</code>. The resilience matrix is the same as Table S26 in the Supplementary Information for Halpern <em>et al.</em> 2012. For more information, read <a href="http://ohi-science.org/manual/#modify-resilience-categories-and-matrix">how to modify resilience layers</a>.</p>
 <p><strong>scores.csv</strong></p>
-<p><code>scores.csv</code> is a text file containing the calculated scores for each dimension (future, pressures, resilience, score, status, trend) for each region in the study area. Regions have the numeric identifiers set in <code>subcountryYEAR/layers/rgn_labels.csv</code> and the study area has the numeric identifier of 0. Scores are calculated with registered layers in <code>layers.csv</code>: when you begin an assessment this will be information for your country from the global YEAR assessment and goal models from the global YEAR assessment. Scores from <code>scores.csv</code> are viewed through the WebApp using the ‘Output Score’ pulldown menu on the ‘App’ page.</p>
+<p><code>scores.csv</code> is a text file containing the calculated scores for each dimension (future, pressures, resilience, score, status, trend) for each region in the study area. Regions have the numeric identifiers set in <code>assessmentYEAR/layers/rgn_labels.csv</code> and the study area has the numeric identifier of 0. Scores are calculated with registered layers in <code>layers.csv</code>: when you begin an assessment this will be information for your country from the global YEAR assessment and goal models from the global YEAR assessment. Scores from <code>scores.csv</code> are viewed through the WebApp using the ‘Output Score’ pulldown menu on the ‘App’ page.</p>
 <p><strong>layers-empty_swapping-global-mean.csv</strong> <code>layers-empty_swapping-global-mean.csv</code> contains a list of layers where information for your country was not available for the global assessment. For the Toolbox to be able to run, these layers were filled with averages from all other countries included in the global assessment. This file is not used anywhere by the Toolbox but is a registry of layers that should prioritized to be replaced with your own local layers if you require these layers for the models you develop.</p>
 </div>
 <div id="r-scripts" class="section level3">
@@ -1024,7 +1024,7 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 <ol style="list-style-type: decimal">
 <li>Save the layer in the <code>layers</code> folder</li>
 <li>Register the layer in <code>layers.csv</code></li>
-<li>Check (and update when appropriate) <code>pressures_matrix.csv</code> and <code>resilience_matrix.csv</code> (located in: <code>[assessment]/subcountry2014/conf</code>)</li>
+<li>Check (and update when appropriate) <code>pressures_matrix.csv</code> and <code>resilience_matrix.csv</code> (located in: <code>assessmentYEAR/conf</code>)</li>
 </ol>
 </div>
 <div id="save-data-layers-in-the-layers-folder" class="section level2">
@@ -1761,7 +1761,7 @@ If the general resilience categories are relevant to the habitat, the next step 
 <p>Congratulations if you’ve finished all goal model modifications as they are the most time-consuming part of the Index calculation process! In the goal model modification step, you’ve calculated goal status and trend, there are only a couple of more steps to do to calculate the overall index score, including calculating pressures and resilience.</p>
 <div id="additional-data-layers-for-pressures-and-resilience-calculations" class="section level3">
 <h3><span class="header-section-number">10.0.1</span> Additional data layers for pressures and resilience calculations</h3>
-<p>So far you would have prepared the pressure and resilience matrices, as well as the appropriate data layers, a few more data layers are needed to complete the calculation. They are identified in <code>sub-country/conf/config.R</code> as follows:</p>
+<p>So far you would have prepared the pressure and resilience matrices, as well as the appropriate data layers, a few more data layers are needed to complete the calculation. They are identified in <code>assessmentYEAR/conf/config.R</code> as follows:</p>
 <pre><code># components describe the layer and level with which to aggregate resilience and pressures matrices for goals with categories
 resilience_components = list(&#39;NP&#39;  = c(&#39;layer&#39;=&#39;np_harvest_product_weight&#39; , &#39;level&#39;=&#39;region_id-category&#39;),  
                              &#39;CS&#39;  = c(&#39;layer&#39;=&#39;cs_habitat_extent&#39;         , &#39;level&#39;=&#39;region_id&#39;),
