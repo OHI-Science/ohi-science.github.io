@@ -74,6 +74,7 @@
 <li><a href="#gapfilling"><span class="toc-section-number">3.2.2</span> Gapfilling</a></li>
 <li><a href="#long-formatting"><span class="toc-section-number">3.2.3</span> Long formatting</a></li>
 <li><a href="#rescaling-your-data"><span class="toc-section-number">3.2.4</span> Rescaling your data</a></li>
+<li><a href="#naming-data-layers"><span class="toc-section-number">3.2.5</span> Naming data layers</a></li>
 </ul></li>
 <li><a href="#defining-spatial-boundaries"><span class="toc-section-number">3.3</span> Defining spatial boundaries</a><ul>
 <li><a href="#balancing-geopolitical-boundaries-and-data-limitation"><span class="toc-section-number">3.3.1</span> Balancing geopolitical boundaries and data limitation</a></li>
@@ -452,6 +453,9 @@ JSL: until we have these done don't list:
 <p>It is highly recommended that layer preparation occurs in your repository’s <code>prep</code> folder as much as possible, as it will also be archived by GitHub for future reference. The folder is divided into sub-folders for each goal and sub-goal, where you will upload the raw data and manipulate the data in <code>data_prep.R</code> scripts.</p>
 </blockquote>
 <p><strong>OHI goal scores are calculated at the scale of the reporting unit</strong>, which is called a ‘<strong>region</strong>’ and then combined using an area-weighted average to produce the score for the overall area assessed, called a ‘<strong>study area</strong>’. In order to calculate trend, input data should be available as a time series for at least 5 recent years (and the longer the time series the better, as this can be used in setting temporal reference points).</p>
+<blockquote>
+<p>Finalized data layers have at least two columns: the <code>rgn_id</code> column and a column with data, that is best identified by its units (eg. <em>km2</em> or <em>score</em>). There often may be a <code>year</code> column or a <code>category</code> column (for natural product categories or habitat types).</p>
+</blockquote>
 <p>The example below shows information for a study area with 4 regions. There are two different (and separate) data layer files: tourism count (<code>tr_total.csv</code>) and natural products harvested, in metric tonnes (<code>np_harvest_tonnes.csv</code>). Each file has data for four regions (1-4) in different years, and the second has an additional ‘categories’ column for the different types of natural products that were harvested. In this example, the two data layers are appropriate for status calculations with the Toolbox because:</p>
 <ol style="list-style-type: decimal">
 <li>At least five years of data are available,</li>
@@ -583,6 +587,117 @@ JSL: until we have these done don't list:
 <p>You should base your decision on whether your consider it more appropriate to decide the reference point based on the data distribution of all data points, be they observed or interpolated, or whether we think we should only consider the observed data. If the interpolation covers large areas, and these get assigned values that aren’t very frequent in the observed data, then the two distributions will be very different, and what value is in the 99.99th percentile is different too.</p>
 <p>In theory, one would favor deciding the reference point based on as many observations as possible (i.e., interpolate first, then obtain the percentile). In practice, if we think that large interpolated areas are very unreliable, we might prefer to use real observations only (i.e., percentile first, then interpolate).</p>
 </div>
+</div>
+<div id="naming-data-layers" class="section level3">
+<h3><span class="header-section-number">3.2.5</span> Naming data layers</h3>
+<p>Please name each data layer with the following format so it is easy to keep all data organized:</p>
+<p><code>prefix_layername_regionYEAR_suffix.extension</code></p>
+<blockquote>
+<p>There cannot be any white spaces in any part of the filename: instead, use underscores (’_’).</p>
+</blockquote>
+<p>The <strong>prefix</strong> will be the letters identifying each goal (two letters) or sub-goal (three letters):</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Goal</th>
+<th align="left">Code</th>
+<th align="left">Subgoal</th>
+<th align="left">Code</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Food Provision</td>
+<td align="left">FP</td>
+<td align="left">Fisheries</td>
+<td align="left">FIS</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">Mariculture</td>
+<td align="left">MAR</td>
+</tr>
+<tr class="odd">
+<td align="left">Artisanal Fishing Opportunity</td>
+<td align="left">AO</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Natural Products</td>
+<td align="left">NP</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Coastal Protection</td>
+<td align="left">CP</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Carbon Storage</td>
+<td align="left">CS</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Livelihoods and Economies</td>
+<td align="left">LE</td>
+<td align="left">Livelihoods</td>
+<td align="left">LIV</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">Economies</td>
+<td align="left">ECO</td>
+</tr>
+<tr class="odd">
+<td align="left">Tourism and Recreation</td>
+<td align="left">TR</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Sense of Place</td>
+<td align="left">SP</td>
+<td align="left">Iconic Species</td>
+<td align="left">ICO</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">Lasting Special Places</td>
+<td align="left">LSP</td>
+</tr>
+<tr class="even">
+<td align="left">Clean Waters</td>
+<td align="left">CW</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Biodiversity</td>
+<td align="left">BD</td>
+<td align="left">Habitats</td>
+<td align="left">HAB</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">Species</td>
+<td align="left">SPP</td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>layername</strong> should be made of words or abbreviations to identify what the layer is (eg. unemployment)</p>
+<p>The <strong>regionYEAR</strong> should identify the assessment scenario: <strong>chn2015</strong>. This will help separate updated data layers from global data layers (‘glYEAR’).</p>
+<p>The <strong>suffix</strong> of the filename should identify who prepared the data so any questions can easily to sent to the correct person (eg. JL).</p>
+<p>The <strong>extension</strong> identifies the filetype and is separated by a period (.). <em>You must save your files as comma separated values (<em>.csv</em>)</em> since this is the format used by the OHI Toolbox.</p>
+<p>Here is an example of a properly named data layer for the tourism and recreation goal, where the data are the percent of unemployment prepared by Julia Lowndes.</p>
+<p><code>tr_unemployment_chn2015_JL.csv</code></p>
 </div>
 </div>
 <div id="defining-spatial-boundaries" class="section level2">
@@ -955,12 +1070,12 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 <div id="getting-started" class="section level2">
 <h2><span class="header-section-number">4.2</span> Getting started</h2>
 <blockquote>
-<p>In the following sections, you will learn about the most common modifications made to repositories, including changing or creating data layers, changing or removing goals models, changing the pressures and resilience matrices, and removing goals or sub-goals. You will be given examples to follow to help with your own assessment. <strong>All the work will be contained within your <code>assessmentYEAR</code> folder (eg. baltic2016).</strong></p>
+<p>In the following sections, you will learn about the most common modifications made to repositories, including changing or creating data layers, changing or removing goals models, changing the pressures and resilience matrices, and removing goals or sub-goals. You will be given examples to follow to help with your own assessment. <strong>All the work will be contained within your <code>regionYEAR</code> folder (eg. baltic2016).</strong></p>
 </blockquote>
 <p>We recommend that you work on one goal at a time as data becomes available and goal model created. For each goal and sub-goal, there are multiple dimensions of the OHI scores: <em>status, trend, pressures, resilience, likely future state,</em> and the <em>goal score</em>. Goal and sub-goal index scores are then combined to calculate the <em>overall OHI index score</em>. The general workflow is as follows:</p>
 <ol style="list-style-type: decimal">
 <li>install <code>ohicore</code></li>
-<li>check that the functions within pre-loaded, template scenario folder work well by running <code>assessmentYEAR/configure_toolbox.R</code></li>
+<li>check that the functions within pre-loaded, template scenario folder work well by running <code>regionYEAR/configure_toolbox.R</code></li>
 <li>prepare and register data for a goal</li>
 <li>modify goal models with R to calculate <em>status</em> and <em>trend</em> (in functions.R)</li>
 <li>update pressures and resilience matrix and data layers</li>
@@ -971,7 +1086,7 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 <div id="install-ohicore" class="section level3">
 <h3><span class="header-section-number">4.2.1</span> Install <code>ohicore</code></h3>
 <p><code>ohicore</code> is a R package containing all the essential functions you will use to calculate the final OHI scores. You will install <code>ohicore</code> as you would other R packages and will only need to do this once.</p>
-<p>To install, find the script <code>install_ohicore.r</code> in your scenario folder (ie. your <em>assessmentYEAR</em> folder). Run the entire script, and now your Toolbox is all set up and ready to go!</p>
+<p>To install, find the script <code>install_ohicore.r</code> in your scenario folder (ie. your <em>regionYEAR</em> folder). Run the entire script, and now your Toolbox is all set up and ready to go!</p>
 <p><em>This only needs to be done once at the beginning of your assessment, and you do not need to rerun it again during an assessment.</em></p>
 <blockquote>
 <p>Although <code>ohicore</code> is a package you would not normally interact with, it can be useful to have the folder cloned to your computer for debugging, particularly with pressures and resilience calculations for goals that have components in the matrix. To do so, you will <a href="http://ohi-science.org/manual/#cloning-a-repository-to-your-local-computer">clone</a> the repository (<a href="https://github.com/OHI-Science/ohicore" class="uri">https://github.com/OHI-Science/ohicore</a>) as you would your assessment repository.</p>
@@ -979,7 +1094,7 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 </div>
 <div id="check-pre-loaded-template-data-and-models" class="section level3">
 <h3><span class="header-section-number">4.2.2</span> Check pre-loaded, template data and models</h3>
-<p>As a starting point, your Full Repo is populated with data and functions from the most recent global OHI study, which you can then modify directly. To check that your repository is set up properly and the pre-loaded scripts and data are functional, you can run <code>assessmentYEAR/configure_toolbox.R</code>. It will produce scores for each dimension in <code>assessmentYEAR/scores.csv</code>. When it’s all set up, you can begin adding your own data and goal models.</p>
+<p>As a starting point, your Full Repo is populated with data and functions from the most recent global OHI study, which you can then modify directly. To check that your repository is set up properly and the pre-loaded scripts and data are functional, you can run <code>regionYEAR/configure_toolbox.R</code>. It will produce scores for each dimension in <code>regionYEAR/scores.csv</code>. When it’s all set up, you can begin adding your own data and goal models.</p>
 <blockquote>
 <p><code>configure_toolbox.R</code> should be run each time you change or add a new data layer to make sure it is properly formatted and registered.*</p>
 </blockquote>
@@ -999,7 +1114,7 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 </div>
 <div id="overview" class="section level2">
 <h2><span class="header-section-number">5.1</span> Overview</h2>
-<p>Data layers are <em>.csv</em> files and are located in the <code>[assessmentYEAR/layers</code> folder (eg. bhi2015/layers), which is pre-loaded with data from the most recent global OHI assessment:</p>
+<p>Data layers are <em>.csv</em> files and are located in the <code>[regionYEAR/layers</code> folder (eg. bhi2015/layers), which is pre-loaded with data from the most recent global OHI assessment:</p>
 <ul>
 <li>Layers with the suffix <code>_glYEAR.csv</code> (<em>gl</em> for <em>global</em>) have been exactly copied from the global assessment and applied equally to each region, and therefore the values will be the same across all subcountry regions.</li>
 <li>Layers with the suffix <code>_scYEAR.csv</code> (<em>sc</em> for <em>subcountry</em>) have been spatially-extracted from global data or adjusted with spatially-extracted data so that each region in your assessment has a unique value. For example, gross domestic product (GDP) used in the global assessment was reported at the national (most often country) level. Instead of being applied equally across all subcountry regions (which would incorrectly increase the nation’s GDP several times), national GDP was down-weighted by the proportion of coastal population in each region compared with the total coastal population.</li>
@@ -1009,19 +1124,19 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 <ol style="list-style-type: decimal">
 <li>Save the layer in the <code>layers</code> folder</li>
 <li>Register the layer in <code>layers.csv</code></li>
-<li>Check (and update when appropriate) <code>pressures_matrix.csv</code> and <code>resilience_matrix.csv</code> (located in: <code>assessmentYEAR/conf</code>)</li>
+<li>Check (and update when appropriate) <code>pressures_matrix.csv</code> and <code>resilience_matrix.csv</code> (located in: <code>regionYEAR/conf</code>)</li>
 </ol>
 </div>
 <div id="save-data-layers-in-the-layers-folder" class="section level2">
 <h2><span class="header-section-number">5.2</span> Save data layers in the <em>layers</em> folder</h2>
-<p>When you modify existing or create new data layers, we recommend saving this as a new <em>.csv</em> file with a suffix identifying your assessment (eg. <code>_assessmentYEAR.csv</code>). Modifying the layer name provides an easy way to track which data layers have been updated regionally, and which rely on global data. Then, the original layers (<code>_glYEAR.csv</code> and <code>_scYEAR.csv</code>) can be deleted.</p>
+<p>When you modify existing or create new data layers, we recommend saving this as a new <em>.csv</em> file with a suffix identifying your assessment (eg. <code>_regionYEAR.csv</code>). Modifying the layer name provides an easy way to track which data layers have been updated regionally, and which rely on global data. Then, the original layers (<code>_glYEAR.csv</code> and <code>_scYEAR.csv</code>) can be deleted.</p>
 <blockquote>
 <p>Filenames should not have any spaces: use an underscore (’_’) instead. This will reduce problems when R reads the files.</p>
 </blockquote>
 </div>
 <div id="register-data-layers-in-layers.csv" class="section level2">
 <h2><span class="header-section-number">5.3</span> Register data layers in <code>layers.csv</code></h2>
-<p>When there are new filenames associated with each layer, they will need to be registered in <code>assessmentYEAR/layers.csv</code>. If a layer simply has a new filename, only the <em>filename</em> column needs to be updated:</p>
+<p>When there are new filenames associated with each layer, they will need to be registered in <code>regionYEAR/layers.csv</code>. If a layer simply has a new filename, only the <em>filename</em> column needs to be updated:</p>
 <div class="figure">
 <img src="https://docs.google.com/drawings/d/1adaERJXxzBxCxqBtmvp8uf5g68mHFfakR-Edbh2wwWo/pub?w=1677&amp;h=687" alt="Register new layers in layers.csv. Be sure to note if there is a change in the filename." />
 <p class="caption">Register new layers in <code>layers.csv</code>. Be sure to note if there is a change in the filename.</p>
