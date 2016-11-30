@@ -155,17 +155,28 @@
 <li><a href="#cloning-a-repository-to-your-local-computer"><span class="toc-section-number">11.3</span> Cloning a repository to your local computer</a></li>
 <li><a href="#install-ohicore-1"><span class="toc-section-number">11.4</span> Install <code>ohicore</code></a></li>
 </ul></li>
-<li><a href="#appendix-2-r-tutorials-for-ohi"><span class="toc-section-number">12</span> Appendix 2: R Tutorials for OHI</a><ul>
-<li><a href="#r-very-basics"><span class="toc-section-number">12.0.1</span> R Very Basics:</a></li>
-<li><a href="#tidyr-functions"><span class="toc-section-number">12.0.2</span> <code>tidyr</code> functions</a></li>
-<li><a href="#dplyr-functions"><span class="toc-section-number">12.0.3</span> <code>dplyr</code> functions</a></li>
-<li><a href="#coding-style"><span class="toc-section-number">12.0.4</span> Coding style</a></li>
+<li><a href="#appendix-2-goal-descriptions"><span class="toc-section-number">12</span> Appendix 2: Goal descriptions</a><ul>
+<li><a href="#food-provision"><span class="toc-section-number">12.0.1</span> Food Provision</a></li>
+<li><a href="#artisanal-fishing-opportunities"><span class="toc-section-number">12.0.2</span> Artisanal Fishing Opportunities</a></li>
+<li><a href="#carbon-storage"><span class="toc-section-number">12.0.3</span> Carbon storage</a></li>
+<li><a href="#coastal-protection"><span class="toc-section-number">12.0.4</span> Coastal protection</a></li>
+<li><a href="#sense-of-place"><span class="toc-section-number">12.0.5</span> Sense of Place</a></li>
+<li><a href="#livelihoods-and-economies"><span class="toc-section-number">12.0.6</span> Livelihoods and Economies</a></li>
+<li><a href="#tourism-and-recreation"><span class="toc-section-number">12.0.7</span> Tourism and Recreation</a></li>
+<li><a href="#clean-waters"><span class="toc-section-number">12.0.8</span> Clean Waters</a></li>
+<li><a href="#biodiversity"><span class="toc-section-number">12.0.9</span> Biodiversity</a></li>
 </ul></li>
-<li><a href="#appendix-6-frequently-asked-questions-faqs"><span class="toc-section-number">13</span> Appendix 6: Frequently Asked Questions (FAQs)</a><ul>
-<li><a href="#conceptual"><span class="toc-section-number">13.1</span> Conceptual</a></li>
-<li><a href="#timing-and-resources"><span class="toc-section-number">13.2</span> Timing and Resources</a></li>
-<li><a href="#structure"><span class="toc-section-number">13.3</span> Structure</a></li>
-<li><a href="#appropriate-data-layers"><span class="toc-section-number">13.4</span> Appropriate data layers</a></li>
+<li><a href="#appendix-3-r-tutorials-for-ohi"><span class="toc-section-number">13</span> Appendix 3: R Tutorials for OHI</a><ul>
+<li><a href="#r-very-basics"><span class="toc-section-number">13.0.1</span> R Very Basics:</a></li>
+<li><a href="#tidyr-functions"><span class="toc-section-number">13.0.2</span> <code>tidyr</code> functions</a></li>
+<li><a href="#dplyr-functions"><span class="toc-section-number">13.0.3</span> <code>dplyr</code> functions</a></li>
+<li><a href="#coding-style"><span class="toc-section-number">13.0.4</span> Coding style</a></li>
+</ul></li>
+<li><a href="#appendix-6-frequently-asked-questions-faqs"><span class="toc-section-number">14</span> Appendix 6: Frequently Asked Questions (FAQs)</a><ul>
+<li><a href="#conceptual"><span class="toc-section-number">14.1</span> Conceptual</a></li>
+<li><a href="#timing-and-resources"><span class="toc-section-number">14.2</span> Timing and Resources</a></li>
+<li><a href="#structure"><span class="toc-section-number">14.3</span> Structure</a></li>
+<li><a href="#appropriate-data-layers"><span class="toc-section-number">14.4</span> Appropriate data layers</a></li>
 </ul></li>
 </ul>
 </div>
@@ -2367,13 +2378,1271 @@ There are several options to clone your repository to your local machine. When g
 </blockquote>
 </div>
 </div>
-<div id="appendix-2-r-tutorials-for-ohi" class="section level1">
-<h1><span class="header-section-number">12</span> Appendix 2: R Tutorials for OHI</h1>
+<div id="appendix-2-goal-descriptions" class="section level1">
+<h1><span class="header-section-number">12</span> Appendix 2: Goal descriptions</h1>
+<p>Global OHI assessments categorized and scored ten goals and eight sub-goals representing ocean-derived benefits to people. These goals and sub-goals are listed below, along with the philosophy of the goal, an ‘ideal’ approach to how it would be represented, practical guidance for modelling, and examples from completed assessments.</p>
+<p>You could also find this information at <a href="http://ohi-science.org/goals/" class="uri">http://ohi-science.org/goals/</a> page.</p>
+<div id="food-provision" class="section level3">
+<h3><span class="header-section-number">12.0.1</span> Food Provision</h3>
+<p>One of the most fundamental services the ocean provides people is the provision of seafood, whether it is helping meet the basic nutritional needs of over half of the world’s population to high-end sushi. This goal, then, <strong>measures the amount of seafood sustainably harvested in a given EEZ or region through any means for use primarily in human consumption or export</strong> and thus includes wild-caught commercial fisheries, mariculture, artisanal-scale and recreational fisheries.</p>
+<p>The Food Provision goals aim to maximize the amount of sustainably produced seafood from wild or ocean-cultured stocks; any unsustainable extractive practices is penalized, and so is over- or under- harvesting.</p>
+<p>Because we do not track where the fish go after being caught or produced, this goal does not aim to measure food security for the population of a given country, but instead measures the food provided from its waters.</p>
+<blockquote>
+<p>It would be ideal to include catch and effort information for commercially, recreationally, and artisanally fished species in your area, although most completed assessments have only been able to include catch information from commercial fisheries due to data availability limitations. When data become available for artisanal and/or recreational catch, they could be included as part of the fisheries sub-goal or as a separate sub-goal depending on the context.</p>
+</blockquote>
+<blockquote>
+<p>The sub-goals of Food Provision (Fisheries and Mariculture) measure the amount of goods sustainably harvested from the sea for human consumption, while the Natural Products goal measures the amounts of <em>non-food</em> goods for trade (eg. coral, fish for aquarium, etc) in your study area. Data for both goals are often recorded in the same sources. It may be time-saving for the goal keepers for these two goals to join efforts to gather data.</p>
+</blockquote>
+<p><strong><em>General Approach</em></strong></p>
+<p>Ideally, you would have information about the quantity of species caught or harvested (tonnes), the effort involved (particularly important for the Fisheries sub-goal), the practices used (fishing gear, mariculture inputs, extraction methods), and the spatial extent where the practices occur (fishing locations, mariculture farms). Regarding the species caught or harvested in your area, in Global Assessments, information by species for fisheries and mariculture are processed separately before being combined to calculate status scores.</p>
+<p>Goal models should also incorporate a <em>indicator of the sustainability of each practice</em>. In the case of <em>Fisheries</em> sub-goal, Maximum Sustainable Yield (MSY) is used as a benchmark, calculated from available harvest (and efforts) information.</p>
+<p>For <em>Mariculture</em>, Mariculture Sustainability Index (MSI) is used in the model. In the global assessment, MSI is calculated based on three sub-indices that directly measured long-term renewability of a given mariculture practice: the wastewater treatment index, the origin of feed index (i.e. fishmeal or other) and the origin of seed (i.e. hatchery or wild caught).</p>
+<p>The <em>overall Food Provision</em> model should not change; it is a combination of fisheries and mariculture scores, with the contribution of each type of practice to the overall score is weighted by its relative contribution to the total seafood yield. This assumes that one tonne of seafood by any method is the same as any other tonne of seafood. It would be possible to work with different assumptions and apportion weighting differently.</p>
+<p><strong>Pressures and Resilience</strong> measures must be considered as well. What pressures <em>act on the harvesting of these species?</em> If information allows, pressures and resilience measures can act on different species, group of species, or practices separately, as is done with Natural Products. Fishing or harvesting practices can also act as pressures for other goals, for example destructive fishing practices can impact habitat-based goals and genetic escapes from mariculture practices can affect Fisheries and Biodiversity.</p>
+<div id="sub-goal-fisheries" class="section level4">
+<h4><span class="header-section-number">12.0.1.1</span> sub-goal: Fisheries</h4>
+<p>The Fisheries sub-goal describes the amount of wild-caught seafood harvested and its sustainability for human consumption. The model generally compares landings with Maximum Sustainable Yield. A score of 100 means the country or region is harvesting seafood to the ecosystem’s production potential in an sustainable manner.</p>
+<p><strong><em>Practical Guidance</em></strong></p>
+<p>Fisheries science is a discipline that in part aims to estimate the amount of fish that can sustainably be extracted from the sea. For this reason, it is important to consult with fisheries experts in your study area. Fisheries experts will be able to advise how to best estimate the maximum amount of catch that can be sustainably fished, and the information available will determine what type of modeling to take. There are many different modeling approaches, and most are based on either catch alone, or catch-per-unit-effort.</p>
+<blockquote>
+<p>The Ocean Health Index relies on freely accessible, open-source data that is consistently updated over time. Here are two datasets used in the OHI-Global assessments, which could be also be useful for OHI+ assessments: Fisheries catch over time from the <a href="http://www.seaaroundus.org">Sea Around Us Project</a> (seaaroundus.org) and Global fisheries landings over time from <a href="http://www.fao.org/fishery/statistics/en">FAO</a> (fao.org/fishery/statistics/en).</p>
+</blockquote>
+<p><em>If only catch data are available</em>, it is highly recommended to follow the approach in the <em>2013 global assessment</em> (Halpern <em>et al.</em> 2015) rather than the 2012 global assessment (Halpern <em>et al.</em> 2012). All global assessments use national fisheries catches reported to the Food and Agricultural Organization (FAO), and the 2013 global assessment used the fisheries modeling method for data-poor sources developed by <em>Martell &amp; Froese</em> (2013). With this method, fisheries catch information would be used to calculate the population biomass (B), and its maximum sustainable yield (B<sub>MSY</sub>). The reference functional relationship between fisheries catch and effort information would be used to calculate the present biomass against B<sub>MSY</sub> would be used to set the reference point. The current status would be calculated using the present state of every individual species and combining each species together as the weighted proportion of the total catch.</p>
+<p>You can find data for catch-per-unit effort data, and then create a functional relationship to determine the reference point.</p>
+<blockquote>
+<p>At a global scale, catch, effort, and MSY estimates are not available for either commercial, artisanal or recreational fishing: only landings data for commercial fisheries are available through the United Nations Food and Agriculture program (UN FAO). You will hopefully be able to find more localized data when conducting your assessment.</p>
+</blockquote>
+<p>When collecting data on fish landings, it’s important to consider how you will divide the data among regions. You should try to assess each fish species by its entire population across all regions in your study area. The status in the global assessment model (2013) was calculated based on estimating population biomass relative to the biomass that can deliver maximum sustainable yield for each landed stock (B/B<sub>MSY</sub>). This ratio is conventionally used to inform fisheries management. This approach adopts the population biomass at MSY (B<sub>MSY</sub>) as a single-species reference point.</p>
+<blockquote>
+<p>If you are replicating models from the global assessment (2013-2015), do not split the catch among regions; instead, you want to sum catch across all regions so you can calculate B/B<sub>MSY</sub> for the whole population.</p>
+</blockquote>
+<p>The principle of the <strong>reference point</strong> should not change. You should be creating models that penalize scores for harvesting above the maximum sustainable yield, as defined in your assessment, and scores that penalize for harvesting below the sustainable yield. The penalties vary for models developed in the global assessments, where overfished species negatively influence scores more than under-fished species do.</p>
+<p>It is important to also consider <em>buffering around the reference point</em> (eg. 75% of B<sub>MSY</sub>) because of imperfect knowledge about the data. Part of this depends on the type of assumptions you want to make about the ecology of fish species in your area and the impacts upon them from fishing practices. For instance, when all species are exploited simultaneously, fishing pressure on each population might be lower due to changes in interactions between species that occur when a predator population is reduced.</p>
+<!-- The contents below will probably change when Mel writes the report on FIS Model -->
+<div id="a-note-about-methods-used-in-the-fisheries-goal" class="section level5">
+<h5><span class="header-section-number">12.0.1.1.1</span> <em>A note about methods used in the fisheries goal</em></h5>
+<p style="font-size: 90%">
+Since Global 2012, several new data-poor approaches have been developed to assess fisheries that leverage globally-available information (Costello <em>et al</em>., 2012; Martell &amp; Frœse, 2013; Thorson <em>et al</em>., 2013). The estimates of B/B<sub>MSY</sub> used in Global 2013 were obtained by applying a model developed by Martell &amp; Frœse, (2013), and referred to as the “catch-MSY” method. This approach adopts the population biomass at MSY (B<sub>MSY</sub>) as a single-species reference point.
+</p>
+<p style="font-size: 90%">
+The catch-MSY approach improves upon the method used in Global 2012 in that it leverages a mechanistic understanding of the connection between harvest dynamics and population dynamics and uses this to infer stock depletion levels as a function of both historical patterns in catch and of species-specific resilience traits (Thorson <em>et al</em>. 2013). In addition, this model is more informative in the case of developing fisheries, whereas the Global 2012 approach assumed a perfect score in cases where a peak with successive decline had yet to be observed.
+</p>
+<p style="font-size: 90%">
+Although it is a data-limited method, the more complex approach better takes into account species-specific fishery dynamics. The scores for each population were also combined using a geometric mean, which ensures that smaller, rarer populations have more weight so that the biodiversity of the catch is taken into account as well.
+</p>
+</div>
+<div id="calculating-the-fisheries-goal" class="section level5">
+<h5><span class="header-section-number">12.0.1.1.2</span> <em>Calculating the fisheries goal</em></h5>
+<p>Calculating the fisheries goal using methods from global assessments (2013-2015 as it is not recommended to use methods from the 2012 global assessment) relies on catch or catch-per-unit-effort data. The fisheries goal model uses mean catch and B/B<sub>MSY</sub> for all species. These are two separate steps: the mean catch is not used to calculate B/B<sub>MSY</sub>. Once you have B/B<sub>MSY</sub> for all the species, you will combine them together to get a single fisheries score for each of the regions in your study area. This is where the mean catch is used: it is a weighting factor so that species with higher mean catch will contribute more to the final score. You will not need to calculate this because the Toolbox calculates the weighted mean when you provide mean catch as an input layer to the Toolbox. The input layer should simply be the mean catch for each species.</p>
+<p>When calculating B/B<sub>MSY</sub> and mean catch, use as much information as possible: all the years available. Species that have few years of available data will likely be less accurate and it is important to document this. It is admissible to have different ranges of years for different species, since too much information would be lost if all species required the same species range. However, interpreting why different species have different years of time series is important. There may be data for 30 years of history for some species, 10 for others and 5 or 6 for others. It is important to know whether there is only 6 years of data because it is a recent fishery that developed in the last 6 years; in this case 6 years is enough. But if only 6 years of data are available because they stopped collecting the data in recent years, you might get a completely misleading assessment. And of course if you know there was no catch at all in recent years, it is important to include those recent years as 0’s. 0’s must also be included when calculating B/B<sub>MSY</sub> or the results will be nonsensical.</p>
+<p>How B/B<sub>MSY</sub> is calculated for global assessments is a bit unsatisfactory and is in the process of being better developed. This is because the global model is very imprecise, which also affects how to interpret B/B<sub>MSY</sub> results. <strong>It is important to consult with a fisheries scientist in your study area, as they will have expertise with the information and knowledge available in the local context.</strong> If possible, we suggest calculating the scores using a more precise model as well, so fisheries experts can assess whether results look reasonable. This is important so that the scores produced have credibility.</p>
+</div>
+</div>
+<div id="examples-of-the-approach" class="section level4">
+<h4><span class="header-section-number">12.0.1.2</span> Examples of the Approach</h4>
+<p><span style="font-size:0.9em"></p>
+<table style="width:101%;">
+<colgroup>
+<col width="18%" />
+<col width="29%" />
+<col width="27%" />
+<col width="26%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Developing the Model</th>
+<th align="left">Setting the Reference Point</th>
+<th align="left">Other Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">The status was calculated as a function of the absolute difference between a region’s total landed biomass from the reference multi-species maximum sustainable yield weighted by a correction factor for taxonomies. This was calculated by summing all the single-species MSY estimates obtained for commercially-landed species.</td>
+<td align="left">The reference point was based on the difference from multispecies MSY (mMSY), an estimate of the optimum amount of all marine species that may be caught sustainably. The reference point was set so the total landed biomass of wild-caught species will not be more than 75% of the estimated mMSY using and an asymmetrical buffer where overfished stocks achieve a perfect score if B/B<sub>MSY</sub> is up to 0.2 points below 1 and under-fished stocks achieve a perfect score if B/B<sub>MSY</sub> is within 0.5 points of 1.</td>
+<td align="left">The approach had to be modified by working with fisheries scientists to adapt the data that were available at the global scale.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">The status was calculated based on estimating population biomass relative to the biomass that can deliver maximum sustainable yield for each landed stock (B/B<sub>MSY</sub>) using the catch-MSY model. Single-species values of B/ B<sub>MSY</sub> were aggregated using a geometric mean.</td>
+<td align="left">The reference point was similar to Global 2012 where regions were penalized for under-harvest and more severely for over-harvest.</td>
+<td align="left">The catch status was improved in this assessment to capture multi-species effects.The reference point was calculated through a more robust model than the one used in Global 2012, and it is a more direct measure of population health because it relates directly to population size.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The status was calculated in the same manner as Global 2012, with a modified sustainability term.</td>
+<td align="left">As in Global 2012, the reference point is based on an estimate mMSY.</td>
+<td align="left">This was calculated in the same manner as Global 2012 using local-scale data on exploitation category of species caught within Brazil’s EEZ as a catch-based sustainability index.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">The status was based on B/B<sub>MSY</sub> for each landed stock and fishing mortality that can deliver maximum sustainable yield (F/FMSY). There were stock assessments for 41 species with historical data available. Estimates were extracted for each species and then assigned to each region based on the contribution of each species in each region to the overall catch in that region, along with weighting factors.</td>
+<td align="left">The reference point was a functional relationship that accounted for fishing pressure. The approach produced lower scores for species where both under-fishing and overfishing are occurring, but did not punish as much for under-fishing of stocks.</td>
+<td align="left">This study used formal stock assessments rather than data-poor estimates from catch data. The use of historical information was useful in creating sub-regional scores for this goal. This study also tested the use of a recently published data-poor approach (Costello <em>et al.</em> 2012) to obtain B/ B<sub>MSY</sub> values for the remaining stocks.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">See Global 2013 assessment.</td>
+<td align="left">See Global 2013 assessment.</td>
+<td align="left">This study used available data from the past 10 years (10 species and 9 other taxonomy groups). Trend was calculated between 2005 and 2010.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador-Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">The approach is the same as Global 2013-2015.</td>
+<td align="left">The same as Global 2013-2015.</td>
+<td align="left">Mean catch-per-taxon values come from FAO data updated with local data from Instituto Nacional de Pesca (INP).</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">See Global 2012 assessment.</td>
+<td align="left">See Global 2012 assessment.</td>
+<td align="left">Data sources were poor for this assessment. Harvest data were reported by each fishing boat, which often fishes across provincial boundaries and outside of the EEZ. Current data thus might not reflect the best regional differences, and may exceed actual harvest levels within the EEZ.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+</div>
+<div id="sub-goal-mariculture" class="section level4">
+<h4><span class="header-section-number">12.0.1.3</span> sub-goal: Mariculture</h4>
+<p>Mariculture measures the ability to reach the highest levels of seafood gained from farm-raised facilities without damaging the ocean’s ability to provide fish sustainably now and in the future.</p>
+<p>Higher scores reflect high food provisioning in a sustainable manner, while not compromising the water quality in the farmed area and not relying on wild populations to feed or replenish the cultivated species. A score of 100 means that a region is sustainably harvesting the greatest amount of farmed seafood possible based on its own potential (where its maximum potential is estimated in different ways depending on the assessment).</p>
+<p><strong><em>Ideal Approach</em></strong></p>
+<p>Ideally, you would find information about the <em>harvest and practices</em>, on the <em>total area</em> available for mariculture. This could be in terms of s physical area or area based on siting priorities. You would also find information on the <em>sustainability</em> of the mariculture practices. This is important because mariculture competes for space with many other ocean uses, including fishing, tourism, and other activities.</p>
+<p>This approach would not penalize regions that have less geographic area available for mariculture, though places with fewer sheltered bays or lower primary production could be at a disadvantage.</p>
+<blockquote>
+<p>Culture of marine fish in closed pools on-shore should not be included because onshore aquaculture does not require a marine environment. However, if the aquaculture farms receive seawater supply and return seawater back to the sea, they should be included in the Mariculture sub-goal. Finer-scale, environmental damages due to the intake pipes and the processed brine back into the marine system could be incorporated as a pressure layer as well.</p>
+</blockquote>
+<blockquote>
+<p>Fish that are used as feed for other fish (e.g., sprat) would be more appropriate to include in Natural Products. This is because they are not being consumed directly. Fish such as sprat, for example, may be used to feed pigs in addition to other fish, and therefore you would need to know how much (tonnage) is being produced, and where it is going to be able to accurately distinguish these categories to avoid double-counting.</p>
+</blockquote>
+<p><strong><em>Practical Guidance</em></strong></p>
+<p>Besides harvest information, either by species or total amount, this goal requires <em>spatial information</em>. You would have to find maps determining where coastal activities are allowed, or find other kind of data that tells you the usage restrictions for activities in your waters. For example, you can look for assessments that have been made to identify the coastal and offshore habitats that are appropriate for each intended type of mariculture species.</p>
+<blockquote>
+<p>The 2012 Global Assessment included the entire area of the coastline assuming that mariculture could be developed everywhere. This was done because there was no information about limitations for how much coastal area could be allotted to mariculture.</p>
+</blockquote>
+<p>The <strong>reference point</strong> will depend on your context. You should try to account for the full potential extent of mariculture in your marine areas. This could be based on a number of variables such as the habitat suitability for each cultured species, the distance from the coast, information on how local preferences favor the allotment of marine space to mariculture versus sports, hotels, beaches, tourism, or other uses. This definition of mariculture potential therefore can be physical or social. Keep in mind that in the Global approach, a low score can indicate one of two things – that species are being farmed in an unsustainable manner or that regions are not maximizing the potential to farm in their marine territorial waters.</p>
+<p>It is important to think about the meaning of your reference point. The spatial reference point in the Global approach assumes that because one country is able to produce such a high proportion of mariculture to its coastal area, all regions should be able to as well, given current ecological and technological conditions. This also assumes that it is socially desirable for all regions to produce farmed species at this level, which is likely not true for all regions. The Global approach compared observed production density of all areas to the highest observed production density after the sustainability coefficient was applied.</p>
+<blockquote>
+<p>There was a significant change between Global 2012 and Global 2013 to improve the reference point for this sub-goal. The coastal population was factored in to the reference point in 2013, where the harvested tonnes per inhabitants within 25 km of the shore was considered. This change was done under the assumption that production depends on the presence of coastal communities who can provide the labor force, infrastructures, and economic demand to support the development and economic viability of mariculture facilities. Thus, two regions with an equal number of coastal inhabitants harvesting an equal tonnage of cultured seafood should score the same, even if one is larger than the other, as the productivity is commensurate to each region’s socio-economic potential to develop mariculture. This is an example of how improvements in methods occur over time.</p>
+</blockquote>
+<!---OM: This is orphan text; was going to remove, but it might be useful or
+spark other ideas that should be considered in this section! Global 2012
+compared all areas to that with the highest observed production density after
+the sustainability coefficient was applied, based on the assumption that all
+coastal area in each region could be developed for mariculture at the same
+production density as the reference region (i.e., China) and that maximum
+potential productivity per unit of area is similar across ecosystems and
+regions. This caused regions with extensive proportions of coastline where
+mariculture is unsuitable for biological reasons (e.g., the water freezes for
+large part of the year) or logistical reasons (e.g., scarcely inhabited), such
+as Canada, to be unduly penalized.--->
+<div id="examples-of-the-approach-1" class="section level5">
+<h5><span class="header-section-number">12.0.1.3.1</span> Examples of the Approach</h5>
+<p><span style="font-size=0.9em"></p>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="30%" />
+<col width="23%" />
+<col width="29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Developing the Model</th>
+<th align="left">Setting the Reference Point</th>
+<th align="left">Other Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">Mariculture was calculated as the yield reported multiplied by the sustainability for each species harvested. Yield was drawn from UN FAO reports, and sustainability was based on information from a Mariculture Sustainability Index (MSI) by Trujillo (2008).</td>
+<td align="left">The reference point for mariculture was a spatial comparison set at highest amount of seafood produced per square kilometer of eligible coastline in the most productive region observed, China.</td>
+<td align="left">Restricting the area based on biophysical constraints and social preferences at a global scale was not possible, and so the entire area within 3nm of the coastline was considered potential habitat.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">This study used a model similar to the Global 2012.</td>
+<td align="left">The reference point approach was harvested tonnes per coastal inhabitant scaled to the 95th percentile observed, Thailand. Here coastal was defined as “within 25 km inland.” This was done under the assumption that production depends on the presence of coastal communities.</td>
+<td align="left">This study differs from Global 2012 because of the reference point.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The status was calculated using harvest data reported by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA). For each of up to four species cultured within the state, the score was determined by the yield, the reference sustainable production per unit area, and the total potential farming area.</td>
+<td align="left">Reference points were set for each species.</td>
+<td align="left">In this study it was possible to use both biophysical constraints and social preferences.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">The status was calculated as the sustainable production density of shellfish biomass from mariculture relative to a target level of production density for each state within the region.</td>
+<td align="left">The reference point was a target level of production increase as proposed by NOAA</td>
+<td align="left">The approach was similar to the Global but the reference point was made using better information about physical and social limitations on mariculture allotments.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">The status of the Mariculture sub-goal was calculated as the sustainable production of finfish biomass from mariculture relative to a target level of production for Israel.</td>
+<td align="left">The official target yield by the year 2020 (8,500 tons of finfish).</td>
+<td align="left">Species considered in the analysis were limited to one (Sparus aurata), because this species comprises nearly all (an estimated 99%) of the current mariculture production of seafood in Israel. Mariculture is regulated centrally for the whole of Israel and is currently legally carried out in specific areas of the Southern region. As such, the score for South was applied to all other regions.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador-Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">Two relevant species were assessed: shrimp and tilapia. Status was calculated as an average of the two species’ production in four recent years. This value is multiplied by a sustainability index for mariculture locally, and divided by the number of inhabitants in the coastal zone for each region.</td>
+<td align="left">A spatial reference point was used here, ie. region with the highest production.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">Status model is similar to the 2012 global assessment. But the status model was based on tonnes of mariculture species per habitat identified as suitable area by the Chinese government.</td>
+<td align="left">The spatial reference point was the region with the highest value.</td>
+<td align="left">Using designated mariculture area for calculations provides a more realistic picture of the status of mariculture. Currently Mariculture Sustainability Index (MSI) values were obtained from the global study. More data on water quality standards and food sources (eg. species, origin, etc) will help determine the sustainability of mariculture.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+</div>
+</div>
+</div>
+<div id="artisanal-fishing-opportunities" class="section level3">
+<h3><span class="header-section-number">12.0.2</span> Artisanal Fishing Opportunities</h3>
+<p>Artisanal fishing, often also called small-scale fishing, provides a critical source of food, nutrition, poverty alleviation and livelihood opportunities for many people around the world, in particular in developing nations. As opposed to large, commercial fisheries that usually involves industrial, energy-intensive vessels and long trips, artisanal fisheries refer to households, cooperatives or small firms that use relatively small amounts of capital, energy and small fishing vessels (if any), make relatively short fishing trips, and use fish mainly for local consumption or trade.</p>
+<p>In addition, this goal is not about recreational fishing often done in developed countries, which is captured in <em>Food Provision</em> (if it provides food) and Tourism and Recreation goals. Nor is it about the actual amount of fish caught or revenue generated, which are captured by <em>Coastal Livelihood and Economies</em>. Rather, <strong>artisanal fishing opportunities measure whether people who need to fish on a small, local scale have the opportunity to do so.</strong> In other words, it measures the potential for artisanal fishing whether or not this potential is actually met. A score of 100 means the country or region is meeting the needs of artisanal fishermen or communities by implementing institutional supports, providing access to near-shore water, and maintaining the health of targeted species.</p>
+<p><strong><em>Ideal Approach</em></strong></p>
+<p>Ideally, this goal would include some measure of of how easy or hard it is for fishermen to <em>access</em> ocean resources when they <em>need</em> them and the <em>sustainability</em> of harvest of all nearshore stocks used by artisanal fishers. The need for artisanal fishing is most directly tied to the percent of population below the poverty line. Access, or ability to meet this need, are institutional permits or encouragements for small fisheries. Sustainability of artisanal fisheries refers to the sustainability of fishing gears. Sustainable gears are traditional hook and line, as opposed to unsustainable practices such as dynamite and gill net fishing. Sustainability can also be estimated by assessing the health of targeted species. The type of reference point you use will depend on the data available.</p>
+<p><strong><em>Practical Guidance</em></strong></p>
+<p>Ideal indicators mentioned above are often scarce, especially percent poverty or the sustainability of fishing gears. You will want to find proxy data for <em>access</em> in whatever way best suits your areas. This could be drawn from physical, economic, regulatory, or stock condition data as an indication of availability. A combination of all of these would be best to more accurately speak to the philosophy, but is is usually limited by data.</p>
+<p>You should include data that are distinct from the catch data used in other areas of <strong>Food Provision</strong>. So once you find catch data and access data, you should think about which goals to use it in. For instance, if you find tonnage of artisanally-caught fish, you should include that elsewhere. In any case, you will likely modify the default Global Assessment model using different and better-resolved data.</p>
+<blockquote>
+<p>For example, in the Baltic Sea region, <strong>Artisanal Opportunities</strong> is very closely connected to <strong>Tourism and Recreation</strong> since there are a lot of locals and tourists using the shared sea for enjoyment. You will have to decide how to apportion the data.</p>
+</blockquote>
+<p>The <strong>reference point for this goal</strong> would likely be a metric of having full access to the resource (see examples in the table above). Keep in mind that the access is for people, and therefore a marine protected area may not count towards full access.</p>
+<p><strong><em>Examples of the Approach</em></strong></p>
+<p><span style="font-size:0.9em"></p>
+<table style="width:101%;">
+<colgroup>
+<col width="15%" />
+<col width="34%" />
+<col width="22%" />
+<col width="29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Developing the Model</th>
+<th align="left">Setting the Reference Point</th>
+<th align="left">Other Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">The status was the demand as estimated by poverty levels. The data were measured by the gross domestic product (GDP) per capita, adjusted by the purchasing power parity as a proxy for undocumented trade. The supply was estimated using an indicator that ranked how well regions regulated and supported artisanal fishing, as part of a study by Mora <em>et al.</em> (2009).</td>
+<td align="left">The reference point was having supply greater than demand so that unmet demand is 0. This meant that all demand for artisanal fishing was allowed or achieved.</td>
+<td align="left">The trend was driven by the change over time in PPPpcGDP as a proxy for demand. This assessment did not incorporate a specific measure of the health of the targeted species or of sustainability of practices.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">The approach was the same was Global 2012</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">There were no data updates available to change the method.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The model was simplified to reflect the primary driver of opportunity as the availability of fish to be captured, as measured by the condition of stocks. This model was based solely on the sustainability index calculated using the exploitation status of species. All species were considered possible targets of artisanal fishing activities.</td>
+<td align="left">An established target of 1.0. This meant all stocks are categorized as either Developing or Fully Exploited.</td>
+<td align="left">The analysis used national stock status information. It did not include poverty because of the high variation in the country. In addition, it assumes that access to fishing is largely open because permitting and regulations are not restricted.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">This study developed a model using three key variables of physical and economic access to coastal areas, and access to biological resources:<br />    - Physical accesses: shore-based fishing measured by percent of coastline within a mile coastal access points. <br />    -Economic access: no increase in fuel price compared to income. <br />    - Biological access: condition of fish stocks through NOAA Fish Stock Index. <br />    </td>
+<td align="left">- Physical: 1 coastal access point per mile. <br />    - Economic: No change in gas price. <br />    - Perfect sustainability score on FSI.</td>
+<td align="left">This approach did not model demand or have species-specific information. It assumed that as long as there are no obstacles to pursuing artisanal fishing, the goal was fully achieved. These data better capture the nature of small-scale fisheries in the study area than the Global model.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">The goal model is based on a sustainability index calculated using the exploitation status of species. Ten coastal fish species, for which we have data, were considered possible targets of artisanal fishing activities.</td>
+<td align="left">An established target of 1.0, when all stocks are categorized as either Developing or Fully Exploited.</td>
+<td align="left">The primary driver of artisanal opportunity is the availability of fish to capture (i.e. the condition of the stocks). Access to fishing in Israel is largely open because permits and regulations from the Ministry of Fisheries are not considered restrictive, and in most cases, neither is physical access.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">The approach was the same was Global 2012</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">Local information was included for need and sustainability variables.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">Status model is rewritten and is similar to the 2014 U.S. West Coast assessment. It is based on the three indicators: <br />    - capacity for exports, measured by the number of ports <br />    - the need for artisanal fishing opportunities, represented by the number of artisanal fishermen <br />    - economic capacity, measured by the ratio of diesel price and disposable income.</td>
+<td align="left">The spatial reference point is the maximum value across all region and all years.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+<div id="natural-products" class="section level4">
+<h4><span class="header-section-number">12.0.2.1</span> Natural Products</h4>
+<p>In many countries the harvest of non-food natural products is important for local economies and can also be traded internationally. The sustainable harvest of these products is therefore an important component of a healthy ocean. <strong>This goal assesses the ability of countries to maximize the sustainable harvest of living marine resources, such as corals, shells, seaweeds, and fish for the aquarium trade.</strong></p>
+<p>It does not include bioprospecting which focuses on potential (and largely unknowable and potentially infinite) value rather than current realized value, or non-living products such as oil and gas or mining products which by definition are not sustainable.</p>
+<blockquote>
+<p>Similar to Food Provisions, this goal is trying to capture the value of goods sustainably harvested by the ocean. While Food Provision focuses on goods for human consumption, Natural Products assesses non-food goods. As these two goals often share similar data sources, it may be time-saving for the goal keepers of these two goals to work together and gather data.</p>
+</blockquote>
+<p><strong><em>Ideal Approach</em></strong></p>
+<p>Ideally, <em>quantity, value, and a sustainability rating of the harvest method</em> would be available for every marine and coastally-derived natural product within the regions of a study area. This could include a wide range of non-food products depending on what is harvested in the study area, including corals, shells, seaweeds, aquarium fish, and mangrove wood. The ideal reference point would be derived from a functional relationship of the sustainability of the harvest for each product relative to the amount of product available in the ecosystem, informed by scientific studies. Without such information, assumptions and expert judgment will need to be made to set the reference point.</p>
+<p><strong><em>Practical Guidance</em></strong></p>
+<p>Whether you use the approach from the global assessment or are developing your own new model entirely, there are a few tasks that will remain the same because are key to the philosophy of this goal.</p>
+<p>The first is to identify <strong>identify which products are in your study area.</strong> For example, does your study area have corals, ornamental fishes, sponges? Does your area yield medicines from the sea, or other products that are not used for nutrition under <em>Food Provision</em>? Does your area harvest drinking water from the ocean through desalination plants? Is there a kelp or seaweed industry in your area? If there are multiple uses of the product, you must also consider what proportion of the product is used for food, and what proportion is used for other purposes. As another example, oil from marine mammals was considered but excluded from the global models, but if a region has a considerable amount of mammal oil harvest, they should include it in the calculation, keeping in mind that the sustainability of this type of harvest is likely to be low and should be reflected in the score.</p>
+<blockquote>
+<p>In the global assessments, Natural Products data come from the [UN’s Food and Agriculture Administration] (www.fao.org/fishery/statistics/software/fishstatj/en). These data are compiled and reported by product for each country, and available by downloading the FishStatJ software.</p>
+</blockquote>
+<blockquote>
+<p>If natural products are all produced through on-land aquaculture, you would probably have good reason to exclude the natural product goal. This would also depend on the origin of these natural products–are they from the region’s waters? You should consult with experts and any reports/papers on the topic. In addition, this goal does NOT include non-living items such as oil, gas, and mining products, because these practices are not considered to be sustainable. They are also done at such large scales that including them would essentially make OHI an index for oil and mining–and they are not truly an ocean product.</p>
+</blockquote>
+<p>The second task is to think about <strong>where these products are harvested and how much of them are harvested</strong> in these areas through a period of time. You will have to assign geographic representation of these products, which can be done by knowing where they are derived from, ideally, or by assigning relative weightings. Do they come from certain habitats (in the case of coral) or animals (in the case of fish oil)? This information will help calculate the sustainability of the harvest of each natural product. Harvest amounts and the spatial data are used to calculate <em>exposure</em> further on, and can also be used to set the <em>relative weighting</em> between the products. These spatial data may have already been used in other goals, or they may lead you to find useful data that can be used in other parts of the assessment.</p>
+<p>The third component is to try to find the <strong>sustainability</strong> coefficients of the identified products. It is possible to measure sustainability in a number of different ways. Quantitative information can be used, or expert judgment, perhaps based on information or rough estimates of how sustainable the harvest method is, which is what was done in Global 2012. We based the sustainability component on the historical maximum harvest recorded, the maximum harvesting density recorded, and risk status assessments by the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES). In the absence of these, we borrowed general principles from fisheries models to provide rough estimates. If these are given values you could simplify the model, or they could be derived from two factors, <em>exposure and risk</em>. The <em>exposure</em> will come from the spatio-temporal harvest amount data already prepared, and the <em>risk</em> will come from the scientific literature or a developed indicator. For both of those cases, the values can be calculated in separate equations as part of your data preparation process.</p>
+<blockquote>
+<p>Global assessments borrow principles from fisheries science to make estimates of product sustainability. In the Global 2013 assessment the sustainability component was derived from the historical maximum harvest recorded, the maximum harvesting density recorded, and risk status assessments by the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).</p>
+</blockquote>
+<p>One very important thing to consider at this point is your <strong>reference point for the relative harvest amount</strong>. The relative harvest of your data is multiplied by the sustainability coefficient in the last step. Setting the reference point is a decision your team must make based on the available data and an inferred functional relationship between the harvest of the product and the amount in the system. Understanding the patterns in harvest can help inform how to set the reference point. For example, knowing whether harvesting effort was constant or whether product yields changed due to the market demand and not the availability. This information could help inform whether it is more appropriate to set the reference point as the peak yield of the time-series, or some percentage above or below, or some other approach that is both ambitious and realistic (<em>SMART</em> principles). The decision you make for the reference point should be based on the trend of the data; for instance, if your harvests have only increased over time, which may be indicative of an emerging economy, you will have to account for that.</p>
+<p><strong><em>Examples of the Approach</em></strong></p>
+<p><span style="font-size:0.9em"></p>
+<table style="width:106%;">
+<colgroup>
+<col width="16%" />
+<col width="31%" />
+<col width="27%" />
+<col width="29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Developing the Model</th>
+<th align="left">Setting the Reference Point</th>
+<th align="left">Other considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">The products used were coral, ornamental fish, fish oil, seaweeds and marine plants, shells, and sponges. Data were from the UN FAO. Each category was weighted by the sustainability of harvest. For the status of each product, we assessed the most recent harvest (in metric tons) per region relative to a fraction of the maximum value (in 2008 USD) ever achieved in that region.</td>
+<td align="left">65% of its historic maximum of natural product yield.</td>
+<td align="left">Some products of interest had no data available.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">The goal model had the same approach as Global 2012, with updated data processing.</td>
+<td align="left">The reference point was the same as the Global 2012.</td>
+<td align="left">The study produced new gapfilling methods. This used estimated US dollar values of harvested products from the tonnage reported, or the tonnage harvested based on a product’s reported economic value.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The method was the same as Global 2012.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">The approach was the same as Global 2012.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">This goal was not included in this assessment due to lack of data availability.</td>
+<td align="left">N/A</td>
+<td align="left">There were too few data available on local-scale harvest, and in the past had occurred mostly in one Californian region. Including this goal in the assessment would have lowered the overall Index score.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">Desalination from sea water was assessed for this goal. The status of this goal is calculated as the ratio of the yield of desalination and a target yield. A Desalination Sustainability was also developed and incorporated.</td>
+<td align="left">The target desalination yield set by the Israel Water Authority for year 2020.</td>
+<td align="left">The collection and trade in natural resources, such as aquarium fishes and corals are prohibited by law in Israel, but Israel relies heavily on sea water desalination to provide drinking water for over half the households. Therefore, desalination was incorporated into the index for this goal.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">The approach is the same as the Global assessment. Four natural products were considered: corals, fish oil, ornamental fish and seaweed.</td>
+<td align="left">A temporal reference point was used for each natural product: the maximum historical value achieved for each product in each study area.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">Status model is the same as in global assessments. Three natural products were assessed: sea salt, chemical products, and bio-pharmaceuticals.</td>
+<td align="left">The reference point was the 5-year production average due to large disparities in production among provinces.</td>
+<td align="left">The set reference point resulted in high scores since it is easy to achieve a 5-year average.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+</div>
+</div>
+<div id="carbon-storage" class="section level3">
+<h3><span class="header-section-number">12.0.3</span> Carbon storage</h3>
+<p>Highly productive coastal wetland ecosystems store substantially larger amount of carbon than terrestrial forests and have the highest sequestration rates of any habitats on earth. They are also threatened by under-regulated coastal development but are amenable to restoration and conservation efforts. This goal intends to capture <strong>the ability of the coastal habitats to remove carbon given their carbon uptake rate and health conditions</strong>. A score of 100 means all habitats that contribute to carbon removal are still intact or have been restored and they can function to their full carbon burial potential.</p>
+<!-- This definition needs more work... Halpern et.al didn't spell out an definition as did with other goals... -->
+<blockquote>
+<p>Habitat-based goals should be considered together during the data gathering process because the same data underly three goals: <strong>Carbon Storage</strong>, <strong>Coastal Protection</strong>, and <strong>Biodiversity</strong>. Goal models to date have depended on the area (square kilometers) of each habitat type in each region, the condition of each habitat, and a weighting to distinguish how different habitats contribute to each goal.</p>
+</blockquote>
+<p><strong><em>Ideal Approach</em></strong></p>
+<p>Ideally, you will know which habitats contribute to carbon <em>sequestration and storage</em>, and their <em>capacity</em> to do so. You will also have information on <em>habitat extent</em> and <em>health</em> conditions. The reference point for habitat-based goals will likely be temporal, meaning you will compare the current area of these habitats to some area in the past, and thus historic data are needed. Reference points could also be set by with a proportion increase (or decrease) of known conditions.</p>
+<p><strong>Practical Guidance</strong></p>
+<p>In terms of habitat types for this goal, it is recommended to search for <em>mangroves, saltmarshes</em>, and <em>seagrasses</em> because these are viewed as carbon-sequestering habitats that are both ecologically threatened and sensitive to policy responses. It is possible that there are other carbon-sequestering habitats present in your study area. But you should remember that we recommend using habitats that can store carbon on the order of 100 years, thereby limiting the types of habitat types you will need. <em>For details on how to obtain data on habitat extent and condition, read section on <strong>Biodiversity sub-goal: Habitats</strong></em>.</p>
+<blockquote>
+<p><strong>Seaweeds and coral</strong> store carbon for less than 100 years, and are not included in the carbon storage goal. While the pelagic oceanic carbon sink (phytoplankton) plays a large role in the sequestration of anthropogenic carbon, the pelagic ocean mechanisms are not amenable to local or regional management intervention. Phytoplankton and contribute to carbon fixation when they die and sink to the sea bottom at sufficient depth, because it is effectively out of circulation. However, if those phytoplankton are eaten, the carbon is cycled back into the system and not sequestered. Something that could potentially be included in the carbon storage goal is mollusc shells, if they are added to a landfill and not recycled in the sea. So if information on mariculture production and waste disposal are available, this could be an interesting addition to carbon storage at a regional scale.</p>
+</blockquote>
+<p><em>Contribution</em> is relative contribution of each habitat to total carbon storage, measured by the per area, empirical rates of carbon uptake and coverage area. For this you would have to search the literature and find ratios of organic nutrient uptake between habitats, and you would have to make sure these studies represent your study area. For example, were the studies done with a young mangrove forest, or an older one, which might have different growth rates?</p>
+<blockquote>
+<p>Understanding habitat carbon storage rates is an area of ongoing research. The capacity for habitats to store carbon varies, and depends on the morphology of plants in the system. In the global assessment, we assumed equal potential for carbon storage by each habitat, and thus contribution to carbon storage is measured by habitat extents directly.</p>
+</blockquote>
+<p><strong><em>Examples of the Approach</em></strong></p>
+<p><span style="font-size:0.9em"></p>
+<table style="width:110%;">
+<colgroup>
+<col width="15%" />
+<col width="34%" />
+<col width="31%" />
+<col width="27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Developing the Model</th>
+<th align="left">Setting the Reference Point</th>
+<th align="left">Other Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">Seagrasses, tidal marshes and mangroves, were assessed. The whole extent of mangroves was included, including parts on land or in river deltas. The status was measured as a function of its current condition relative to a reference condition and a variable that weights the relative contribution of each habitat type to total carbon storage.</td>
+<td align="left">Reference conditions were set as the current condition or area of coastal plant habitat coverage relative to that in ~1980. Relative contribution was measured as the amount of area each habitat covers relative to the total area covered by all three habitats given available data.</td>
+<td align="left">This was not a very ambitious reference point.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">The goal model was the same as in Global 2012. Mangrove data included 1km inland in addition to 1km offshore.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">There were improvements in data processing.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The goal model was the same as in Global 2012. The greatest data gaps were for sea grasses.</td>
+<td align="left">Different reference points were set for each habitat. For salt marshes, the reference year was 1975; mangroves, 1980; salt marshes, 1979 - 1981. Estimations were used to retroactively determine the reference condition for mangroves and salt marshes.</td>
+<td align="left">The same approach was used as in Global 2012, with local data used as available.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">Salt marshes and seagrass beds were considered. Extent was used and habitat health was not used.</td>
+<td align="left">Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s.</td>
+<td align="left">The study required reconstructions of historic habitat extents in order to set more ambitious targets.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">This goal was excluded from Israel’s assessment. No data was available on the only carbon-fixing ecosystem found in the Israeli Mediterranean (ie. seagrass), and this region generally has extremely low productivity.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">The modeling approach is the same as Global 2012. But only mangrove was calculated here because of its importance for carbon storage relative to other types of habitats.</td>
+<td align="left">Reference point is the existing mangrove coverage for 1991.</td>
+<td align="left">Values are measured in units of area (km2).</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">The approach is the same as Global 2012. But China’s model included a new variable, relative carbon sequestration rate of each habitat.</td>
+<td align="left">A temporal reference point for each habitat is set to its condition in 1980’s. Time-series data on condition of each habitat was not obtainable. However, rough estimate of relative change in coverage areas since the 1980’s was found in literature.</td>
+<td align="left">Relative carbon sequestration rate, together with habitat extent, provide a more complete picture of how habitats contribute to CS than extent alone could do.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+</div>
+<div id="coastal-protection" class="section level3">
+<h3><span class="header-section-number">12.0.4</span> Coastal protection</h3>
+<p>This goal aims to assess <strong>the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas that people value, both inhabited (homes and other structures) and uninhabited (parks, special places, etc.)</strong>. A score of 100 would indicate that these habitats are all still intact or have been restored to their reference conditions.</p>
+<blockquote>
+<p>Habitat-based goals should be considered together during the data gathering process because the same data underly three goals: <strong>Carbon Storage</strong>, <strong>Coastal Protection</strong>, and <strong>Biodiversity</strong>. Goal models to date have depended on the area (square kilometers) of each habitat type in each region, the condition of each habitat, and a weighting to distinguish how different habitats contribute to each goal.</p>
+</blockquote>
+<p><strong><em>Ideal Approach</em></strong></p>
+<p>Ideally you will have information on the relative potential of habitats to provide coastal protection, and extent and condition of each habitat. The reference point would likely be a historic reference before destruction of coastal habitats.</p>
+<p><strong><em>Practical Guidance</em></strong></p>
+<p>To see how to obtain data on habitat <em>extent</em> and <em>condition</em>, read the section on <strong>Biodiversity sub-goal: Habitats</strong>.</p>
+<p>There can be many <em>habitat types</em> included in Coastal Protection goal. In global assessments, coral, mangroves, saltmarshes, seagrasses, and sea ice were included. Habitats were <em>weighted</em> based on their protective ability identified by <a href="www.naturalcapitalproject.org">Natural Capital Project</a>. Depending on the habitats you include, you will need to find additional weights.</p>
+<p>In the global assessment, we did not include an assessment of the protection afforded by man-made structures, such as jetties and seawalls. These structures cannot be preserved without maintenance and often have negative side effects (e.g. alter sedimentation rates causing erosion in new locations), thus they do not constitute long-term sustainable service and are mostly seen as a pressure. It gets tricky when structures are built to help reduce coastal erosion–they are still manmade and therefore not a natural benefit that the ocean provides. But if available data allow, it might be possible to include tradeoff effects: maybe in areas where natural habitats are degraded and man-made structures have been built to reduce erosion, we could reduce the pressure that would otherwise be applied.</p>
+<!-- I didn't find information on how to rank on the supplemental paper or natural capital... -->
+<p>The goal status model for Coastal Protection developed for global assessments will likely be appropriate for independent assessments. However, it could be possible to incorporate the <em>differences in vulnerability</em> between subcountry regions. Vulnerability can be quantified as the ability to evacuate, economic ability to reconstruct in case of damage. Physical properties may be available in OHI+ assessments, allowing for more a detailed understanding of the protective ability, and likelihood of exposure for each habitat type in different portions of the coastline.</p>
+<p><strong><em>Examples of the Approaches</em></strong></p>
+<p><span style="font-size:0.9em"></p>
+<table style="width:115%;">
+<colgroup>
+<col width="16%" />
+<col width="33%" />
+<col width="37%" />
+<col width="27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Model Description and Reference Point</th>
+<th align="left">Evolution of Approach</th>
+<th align="left">Other Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">The habitats included mangroves, coral reefs, seagrasses, salt marshes, and sea ice. The status was calculated as a function of the amount or condition of marine habitat relative to reference states and the ranked protective ability of each habitat type.</td>
+<td align="left">The reference point compares the current extent and condition to their condition in the early 1980s.</td>
+<td align="left">This focused on the EEZ scale and assumed that all coastal areas have equal value and equal vulnerability.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">The goal model was the same as in Global 2012.</td>
+<td align="left">The reference was the same as Global 2012.</td>
+<td align="left">This approach followed the Global 2012 approach.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The 12 nmi boundary was used for each habitat type for mangroves, seagrasses, coral reefs, and salt marshes. Only costal portions were used for mangroves. The total reported extent divided by the coastal area of each state was used for seagrasses. For coral reefs we calculated the extent per coastal waters of each state using maps of coral reef distribution. The salt marsh extents for some states were from national statistics.</td>
+<td align="left">The reference condition was the mean of the predicted values for 1985-1987 using regional estimations for coral reefs. The ‘current’ condition or health was the mean of the predicted values for 2008-2010.</td>
+<td align="left">Same goal model as Global 2012, while using local data.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">Salt marshes, seagrasses, and sand dunes were included.</td>
+<td align="left">Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s.</td>
+<td align="left">Same as Global 2012, with more ambitious reference points for target habitat coverage.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">See Global 2012. Sand dune was the habitat of interest.</td>
+<td align="left">Reliable, comprehensive satellite photos from 1970 enabled an evaluation of the habitat extent of the sand dunes as its reference point.</td>
+<td align="left">Other important habitats, such as rocky reefs and the rocky intertidal flats, could not be included due to lack of data on current and/or past spatial extent and condition.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">The status is calculated in the same manner as in the Global assessment. Mangroves in the coastal strip (1 Km offshore and inland) were considered the main source of coastal protection, and was used for calculations.</td>
+<td align="left">The reference condition was the existing mangrove coverage in the protective area for 1991.</td>
+<td align="left">Values are measured in units of area (km2).</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">The approach is the same as in global assessments. Four habitats are measured: mangroves, seagrasses, salt marshes, and coral reef.</td>
+<td align="left">A temporal reference point for each habitat is set to its condition in 1980’s.</td>
+<td align="left">These four habitats provide the most coastal protection and have available data. Not all habitat exist in all provinces and time-series data of extent is poor for some. Time-series data on the condition of each habitat is not obtainable. However, rough estimate of relative change in coverage areas since the 1980’s was found in literature.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+</div>
+<div id="sense-of-place" class="section level3">
+<h3><span class="header-section-number">12.0.5</span> Sense of Place</h3>
+<p>This goal tries to capture <strong>the aspects of the coastal and marine system that people value as part of their cultural identity</strong>. This definition includes people living near the ocean and those who live far from it but still derive a sense of identity or value from knowing particular places or species exist. We divided this goal into two sub-goals: Iconic Species and Lasting Special Places, and weighted them equally when combining to create a single goal score. A score of 100 means the species and places important for cultural identity are protected and conserved.</p>
+<div id="sub-goal-iconic-species" class="section level4">
+<h4><span class="header-section-number">12.0.5.1</span> Sub-goal: Iconic Species</h4>
+<p>Iconic species are those that are relevant to local cultural identity through a species’ relationship to one or more of the following: 1) traditional activities such as fishing, hunting or commerce; 2) local ethnic or religious practices; 3) existence value; and 4) locally-recognized aesthetic value (e.g., touristic attractions/common subjects for art such as whales). Habitat-forming species are not included in this definition of iconic species, nor are species that are harvested solely for economic or utilitarian purposes (even though they may be iconic to a sector or individual). This sub-goal assesses how well those species are conserved.</p>
+<blockquote>
+<p>Data for this goal will likely have considerable overlap with <em>Biodiversity sub-goal: Species</em>. It will be effective for the goal keepers of Biodiversity and Sense of Place to share the data searching efforts.</p>
+</blockquote>
+<p><strong><em>Ideal Approach</em></strong></p>
+<p>Ideally, you would have a list of species that are valued as iconic and information on their <em>habitat ranges</em> along with scientific studies that speak to the <em>health</em> of their populations. A reference point is where all iconic species are at a healthy level of existence.</p>
+<p><strong><em>Practical Guidance</em></strong></p>
+<p>First you need to <em>identify the Iconic Species</em>. In practice, Iconic Species are usually a subset of the broader list of species in an area, and so you should be able to find Iconic Species after having found assessed species data for the <em>Species sub-goal of the Biodiversity goal</em>. (See <em>Biodiversity</em> for more detailed instructions.) Once you have the full list of assessed species, you can determine a subset for <em>Iconic Species</em>. For instance, are there known “indicator species” in your area? Are there species that are culturally held as valuable? Do any species appear on the currency or postage stamps?</p>
+<blockquote>
+<p>Since different species are be iconic to different groups, defining which species are iconic can be challenging when it’s a cultural question. You might have to find information from experts on local customs and tradition.</p>
+</blockquote>
+<p>The choice of inclusion of iconic species in your list can be subjective. You could also come up with specific inclusion criteria, for instance, that would filter a list of species or filter a subset of the gathered data for <em>Biodiversity</em>. This would be a more rigorous approach because then it could be documented and you could replicate the study in future assessments.</p>
+<p>Ultimately, almost any species can be iconic to someone, and so the intent with this goal was to focus on those species widely seen as iconic within a country, and iconic from a cultural or existence value (rather than for a livelihoods or extractive reason). Many lists exist for globally important, threatened, endemic, etc. species, but in all cases it is not clear if or to what extent these species represent culturally iconic species. In the global assessment, species were drawn from the World Wildlife Fund’s global and regional lists for Priority Species (especially important to people for their health, livelihoods, and/or culture) and Flagship Species (‘charismatic’ and/or well-known). These lists are note the only source that included cultural reasons for listing iconic species and you should try to acquire more information on locally relevant species.</p>
+<p>After identifying the list of iconic species, you need to find a matrix to reflect the <em>health</em> of their population. In the global study, we used IUCN threat categories and weights. The reference point is to have the risk status of all assessed species as Least Concern. Alternatively, you can use a different kind of assessment approach to see if the populations are healthy, which could be indicated, for instance, by the stability of their populations.</p>
+<p><strong><em>Examples of the Approach</em></strong></p>
+<p><span style="font-size:0.9em"></p>
+<table style="width:112%;">
+<colgroup>
+<col width="16%" />
+<col width="34%" />
+<col width="33%" />
+<col width="27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Developing the Model</th>
+<th align="left">Setting the Reference Point</th>
+<th align="left">Other Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">The status was the average extinction risk of iconic species, calculated as the weighted sum of the number of species in each threat category. An increasing weight was assigned by level of extinction risk of the threat category. A list of region-specific iconic species was combined with a list of globally-recognized iconic species from the World Wildlife Fund’s global and regional lists for Priority Species and Flagship Species.</td>
+<td align="left">The reference point is to have the risk status as Least Concern.</td>
+<td align="left">The lists used were the only source that included cultural reasons for listing iconic species but they only cover a few regions and by no means capture the rich diversity of species that are iconic for local regions.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">The method was the same as Global 2012.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">The approach was the same as Global 2012.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The method was the same as Global 2012.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">The approach was the same as Global 2012.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">This study replaced the global IUCN risk assessments with regionally-specific species assessments provided by NatureServe.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">Same as Global 2012, with regional data for the threat categories.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">See Global 2012.</td>
+<td align="left">The target reference point here is that all species are assessed as “Secure”, giving a goal score of 1.</td>
+<td align="left">The IUCN species assessments were used for the calculation of the biodiversity.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">The same approach as Global 2012 assessment was used.</td>
+<td align="left">The reference point was where all Iconic spices are categorized as “least concern”.</td>
+<td align="left">Updated with local from IUCN with iconic species of the Golfo de Guayaquil. Three species from the global study were eliminated and 13 new ones were included.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">Status model is similar to global assessments. However, average extinction risk of all assessed species was only calculated as the weighted sum of the number of species in each threat category, since habitat area per species is not obtainable.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+</div>
+<div id="sub-goal-lasting-special-places" class="section level4">
+<h4><span class="header-section-number">12.0.5.2</span> Sub-goal: Lasting Special Places</h4>
+<p>This sub-goal focuses on those geographic locations that hold particular value for aesthetic, spiritual, cultural, recreational or existence reasons, and assesses how well they are protected.</p>
+<blockquote>
+<p>This sub-goal makes use of protected areas, and some of the same information gathered on projected areas can be used to create <strong>resilience</strong> data layers like Marine Protected Areas.</p>
+</blockquote>
+<p><strong><em>Ideal Approach</em></strong></p>
+<p>Ideally, you would be able to survey everyone in your region and produce a list of all the places they consider special, and then assess how well they are protected relative to a desired state. How well they are protected could be the percentage of area protected, and you could also find how well they are protected using other data. This sub-goal could also be based on the extent to which people participate in spiritual or religious activities in an area.</p>
+<p><strong><em>Practical Guidance</em></strong></p>
+<p>The ideal list of special places don’t exist in practice, and this is a difficult goal to express accurately, since it attempts to capture how people interact culturally with their coastal places. You can define “special” with specific criteria. A good example to look at is the <em>U.S. West Coast assessment (2014)</em> and <em>Brazil Assessment (2014)</em>.</p>
+<p>More likely, you would follow the global assessment and use <em>lists of protected areas</em> as catalogues of special places, and the area of designated protected places relative to a <strong>reference point</strong> (eg. of thirty percent coastal area protected) is used as a measure. Coastal area could be based off a 1 square km buffer inland, as in the Global Assessment, or it could be based on what is reasonable to your area. In any case, you would want to consider how far out from shore you should include as well; would it be 3 nautical miles, or as far as your territorial waters up to 12 nautical miles?</p>
+<p>Data sources should be specific to your region. International databases, like the <a href="www.protectedplanet.net/">World Database of Protected Areas</a> (www.protectedplanet.net/), offer rich information, but they may not be as up-to-date as the list of national parks in your area, and may not have as much information on the quality of protection. If you have more information on quality, you could think about another approach than the thirty percent reference point target.</p>
+<p>Global assessment incorporated both marine and terrestrial protected areas. However, if only data on marine protected areas is available, you can calculate only the marine component of the goal. This is not ideal but OHI is flexible to work with the data available.</p>
+<blockquote>
+<p>If you assessment involves multiple categories (e.g., antiquities, MPAs, beaches of special interest), whether you group them together or calculate each category separately depends on reference points. Maybe you want 10% of offshore water to be in MPAs, but only 5% of coastlines to be beaches and 3% Antiquities, for example; in this case, you would calculate them separately and then add them together. But if you want 10% of your country’s coast to have any combination of these things, you would keep them together.</p>
+</blockquote>
+<blockquote>
+<p>In the Global Assessment framework, the <strong>Sense of Place</strong> sub-goals were weighted equally and combined in an average to create a single goal score. The two sub-goals are averaged currently in the framework. But these could be combined with a weighted average.</p>
+</blockquote>
+<p><strong><em>Examples of the Approach</em></strong></p>
+<p><span style="font-size:0.9em"></p>
+<table style="width:101%;">
+<colgroup>
+<col width="16%" />
+<col width="29%" />
+<col width="27%" />
+<col width="27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Developing the Model</th>
+<th align="left">Setting the Reference Point</th>
+<th align="left">Other Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">The status was calculated by combining the percent of coastal waters that are coastal marine protected areas and the percent of coastline that is protected.</td>
+<td align="left">The reference point is 30% protection for both land and sea areas.</td>
+<td align="left">It was assumed that it is possible to protect up to 30% of areas.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">The method was the same as Global 2012.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">The approach was the same as Global 2012.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The method was the same as Global 2012.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">This goal was assessed using a national database of protected areas that included fully-protected and sustainable use designations at federal, state and municipal levels, and included indigenous lands. The highest-scoring area contained the largest continuous extent of protected areas within the country in what is called the Biodiversity Corridor of Amapa´.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">The model was the same as Global 2012.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">The study used assumptions to define ‘special.’</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">Archeological Protected Areas, Beaches of Special Public Interest, and Marine Protected Areas were assessed using the same approach as the Global assessment.</td>
+<td align="left">Reference point was set to be areas suggested to be protected by the government.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">This goal focuses on capturing the current value of the percentage of protected coastal areas (1 km onshore) and marine coastal (3 nm offshore) with respect to a fixed reference value.</td>
+<td align="left">The same as Global 2012.</td>
+<td align="left">Local data comes from Ministerio del Ambiente and Fundacion Natura. All areas considered are within the SNAP.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">Status model is similar to global assessments.</td>
+<td align="left">The reference point is only 5% protection, a target set by national marine protection policies to achieve by 2020.</td>
+<td align="left">Only coastal marine protected areas was considered, since protected coastline information is not available.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+</div>
+</div>
+<div id="livelihoods-and-economies" class="section level3">
+<h3><span class="header-section-number">12.0.6</span> Livelihoods and Economies</h3>
+<p>The jobs and revenue produced from marine-related industries are clearly of huge value to many people, even for those people who do not directly participate in marine-related industries. People value community identity, tax revenue, and indirect economic and social impacts of a stable coastal economy. This goal tracks <strong>the number and quality of jobs and the amount of revenue produced across as many marine-related industries/sectors as possible</strong> through two sub-goals, Livelihoods and Economies. A score of 100 reflects productive coastal economies that avoid the loss of ocean-dependent livelihoods while maximizing livelihood quality.</p>
+<p>In the global study, this goal does not attempt to capture any aspects of <em>job identity</em> (i.e. the reputation, desirability or other social or cultural perspectives associated with different jobs). We make the assumption that all marine-related jobs are equivalent, such that, for example, a fisherman could transition to a job in mariculture or ship-building without affecting the score of this goal. There are also not adequate data to assess workers’ <em>job satisfaction</em> or <em>ecological sustainability</em> of sectors. Future, finer scale applications of the Index could incorporate these key considerations.</p>
+<blockquote>
+<p>Oil and gas industries typically are not included in this goal. The Natural Products goal does not include non-living items such as oil, gas, and mining products, because these practices are not considered to be sustainable. They are also done at such large scales that including them would essentially make OHI an index for oil and mining–and they are not truly an ocean product. Because these products are not included in terms of quantity extracted, it did not seem appropriate to include information regarding jobs, wages or revenue. However, oil and gas industries are considered a large employer and often generate large revenue for a region. Similarly, industries such as shipping, boat building, ports and harbors do not directly depend on a healthy ocean, but the demand for some of those boats (fishing boats, sailboats, yachts) is dependent on a healthy ocean and are also important providers of jobs and revenue. Ultimately, whether and how to include those data is a decision that should be made on a case-by-case basis by the individual OHI+ group.</p>
+</blockquote>
+<div id="sub-goal-livelihoods" class="section level4">
+<h4><span class="header-section-number">12.0.6.1</span> Sub-goal: Livelihoods</h4>
+<p>This sub-goal describes livelihood quantity and quality for people living on the coast. Livelihoods includes two equally important sub-components, the number of jobs, which is a proxy for livelihood quantity, and the per capita average annual wages, which is a proxy for job quality.</p>
+<p><strong><em>Ideal Approach</em></strong></p>
+<p>Ideally, this sub-goal would speak to the quality and quantity of marine jobs in an area. It would encompass all the marine sectors that supply jobs and wages to coastal communities, incorporating information on the <em>sustainability</em> of different sectors while also telling about the <em>working conditions and job satisfaction</em>. The jobs and revenue produced from marine-related industries directly benefit those who are employed, and also those who gain indirect value from related economic and social impacts of a stable coastal economy, such as community identity and tax revenue. You should capture the indirect as well as direct benefits from jobs, wages and revenue from coastal communities.</p>
+<p>In your assessment, there is the opportunity to study the behavior of economic trends in your area. You can examine time-series with greater detail and, for example, establish a different time-periods that reflect economic cycles in your area, or even process the data to eliminate the “noise” from fluctuations and capture more persistent trends.</p>
+<blockquote>
+<p>You will most likely simplify the models from the global assessments. Models in the global assessments adjust for currency differences using the the Consumer Price Index and Purchasing Power Parity, which you likely will not need to do.</p>
+</blockquote>
+<p><strong><em>Practical Guidance</em></strong></p>
+<p>The first step of this goal is to <strong>identify the marine-related sectors in your area</strong>. These sectors are important because the <em>Livelihoods</em> goal includes information about <strong>jobs</strong> and <strong>wages</strong> for those sectors. There are jobs that are directly connected to the marine environment, such as shipping, fishing, longshore workers, but also some that are connected indirectly, such as suppliers and supporting industries. For example, the sectors for which data were found in global assessments included tourism, commercial fishing, marine mammal watching, aquarium fishing, water and tidal energy jobs, mariculture, transportation and shipping, ports and harbors, ship and boatbuilding.</p>
+<p>After you have identified which jobs are in your area, you will want to find some <strong>measure of their direct and indirect benefits</strong>. Direct benefits of jobs include the number of jobs in each area, and the wages or income for such jobs. You could find such information from you local national statistical office, or economics bureaus, for example. Indirect benefits of these jobs to the local communities are calculated through the use of <em>economic multipliers</em>, with which you can attempt to estimate the revenue generated by jobs more broadly associated with marine sectors. It’s encouraged to use economic multipliers from the literature.</p>
+<blockquote>
+<p>One example to use economic multipliers is to multiply the number of fishermen by a multiplier to estimate larger economic effects, ranging from gear manufacturing companies to restaurants and movie theaters where the fishermen spend their income.</p>
+</blockquote>
+<p>Next you must think about how to use the data to infer <strong>quality and quantity of jobs</strong>. Do you have data through time so that you can see how the number of jobs or the wages per sector have changed over time? If all of the sectors change in the same way, for instance, this might show broader economic trends that you should account for.</p>
+<!-- what are good ways to find satisfaction, identity, and sustainability information of different sectors? -->
+<blockquote>
+<p>It is highly recommended that you set the <strong>reference point</strong> for <em>jobs</em> as a <em>temporal comparison</em> (eg. the number of jobs five years before), and for for wages as a <em>spatial comparison</em> (eg. highest observed value across reporting units). Comparing the number of jobs across different places, for instance, would require at the very least adjusting values by the size of the workforce in each location.</p>
+</blockquote>
+<p><strong><em>Examples of the Approaches</em></strong></p>
+<p><span style="font-size=0.9em"></p>
+<table style="width:147%;">
+<colgroup>
+<col width="22%" />
+<col width="33%" />
+<col width="36%" />
+<col width="55%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Developing the Model</th>
+<th align="left">Setting the Reference Point</th>
+<th align="left">Other Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">This was measured as the number of direct and indirect jobs across sectors within a region plus the average purchasing power parity (PPP)-adjusted wages within each sector. Jobs were summed across sectors and wages were averages across sectors within each region.</td>
+<td align="left">The reference point for jobs was a temporal comparison using a moving-window value; the reference point for wages was the highest average annual wage observed across all reporting units. A score of 100 indicated that the number of marine jobs had not reduced relative to the number five years previously, and that the wages in the area were the highest anywhere.</td>
+<td align="left">The goal model assumed there was no-net-loss of jobs in order to account for broader economic trends. The economic multipliers were used for jobs and revenue but not wages.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">The model was similar to Global 2012, with some simplifications.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">The approach was the same as Global 2012 except for a few simplifications in multipliers, wage data, and jobs data. This was done because of data availability and in order to correct for national macroeconomic events across all sectors.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The method was the same as Global 2012.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">The approach was the same as Global 2012.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">This goal follows the same model as in Global 2012, using local data for the sectors of living resources, tourism and recreation, shipping and transport, marine related construction, and ship and boat building or repair. Data and sector-specific multipliers came from the National Ocean Economics Program (NOEP).</td>
+<td align="left">The reference point was the same as in Global 2012.</td>
+<td align="left">This study followed the Global 2012 approach but used local data. It recognized that sectors and economic activity within a region can be influenced by activities outside the region.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">See Global 2012 assessment.</td>
+<td align="left">No-net-loss reference point.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">The approach is the same as the Global assessment.</td>
+<td align="left">A temporal reference poinst was used for both the number of jobs and salaries. 2009 values were used as the reference point for jobs, and values of 2010 for salaries.</td>
+<td align="left">Data for jobs, wages, and unemployment were gap-filled.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">Status model is the based on the number of direct jobs across marine sectors and the average disposable income among rural and urban inhabitants within a region.</td>
+<td align="left">Both jobs and wages have a spatial reference point of the maximum value among all provinces across all years.</td>
+<td align="left">Eleven marine sectors are assessed. The number of jobs per sector is not readily available and is extenuated from the nation-wide number of employments for each sector and the total number of marine-related jobs per province. There is not enough information on indirect jobs and is thus left out of the calculation. Due to unavailability of wage information per sector, wage is substituted by disposable income.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+</div>
+<div id="sub-goal-economies" class="section level4">
+<h4><span class="header-section-number">12.0.6.2</span> Sub-goal: Economies</h4>
+<p>Economies captures the economic value associated with marine industries using revenue from marine sectors. It is composed of a single component, revenue.</p>
+<p><strong><em>Ideal Approach</em></strong></p>
+<p>Ideally, revenue data would be collected for all coastal regions, and traced from sectors both directly and indirectly related to marine industries. When these data are not available it is possible to use revenue data at a larger scale and adapt them to a coastal area based on the population distribution. The reference point in this sub-goal will likely be set with a moving-window temporal approach.</p>
+<p><strong><em>Practical Guidance</em></strong></p>
+<p>A number of sectors were not included in the Global Assessments because sufficient data did not exist. However, it might be desirable to include sectors such as ecotourism, sailing, kayaking, surfing, and offshore wind energy production, and scientific research, among others. It may be practical to include the same sectors in the <em>Livelihoods</em> and the <em>Economies</em> subgoals.</p>
+<blockquote>
+<p>The quantity of Wild-caught fisheries, Mariculture, and participation of Tourism &amp; Recreation are considered separately in specific goals, whereas the monetary component is captured in L&amp;E.</p>
+</blockquote>
+<p>In the global assessment, revenue has a moving-target temporal <strong>reference point</strong> by comparing the value in the current year to values in previous years. Global assessments used a five-year moving-window because it is intended to capture short-term changes in the trajectory. But then you must consider if that amount of time would represent economic trends. If there is a not economic downturn, do you want to reward an increasing number of jobs, or reward maintaining the same number of jobs?</p>
+<p>We highly recommend that this remains a temporal comparison so that a specific place is compared to its performance in the past and not to anywhere else.</p>
+<blockquote>
+<p>You may find resilience metrics that can be used throughout your assessment. There are many economic indices and some might be appropriate for your area. For example, the <em>Global Competitiveness Index</em> was used in global assessments as a resilience for this goal because it means that marine jobs are more likely to be maintained if an area gets a good score on the Competitiveness Index.</p>
+</blockquote>
+<p><strong><em>Examples of the Approaches</em></strong></p>
+<p><span style="font-size:0.9em"></p>
+<table style="width:160%;">
+<colgroup>
+<col width="22%" />
+<col width="68%" />
+<col width="41%" />
+<col width="27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Developing the Model</th>
+<th align="left">Setting the Reference Point</th>
+<th align="left">Other Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">The status used the total adjusted revenue generated directly and indirectly from each sector at current and reference time points.</td>
+<td align="left">In the economies sub-goal, revenue had a moving target temporal comparison. A score of 100 would indicate that revenue has not decreased compared to its value five years previous. The years used for GDP data were based on the average current year and average reference year across the sector data sources.</td>
+<td align="left">The study accounted for a region’s GDP trend. The economic multipliers were used for jobs and revenue but not wages. The study assumed that sector-specific job and revenue multipliers were static and globally consistent, but distinct for developed versus developing regions.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">The model was same as Global 2012, with a few simplifications; revenue data were adjusted by dividing by GDP per region, reported in 2013 USD.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">The approach was the same as Global 2012, with simplifications.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The method was the same as Global 2012.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">The approach was the same as Global 2012.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">The method was the same as Global 2012, but with local sectors represented.</td>
+<td align="left">The reference point was calculated in the the same way as Global 2012.</td>
+<td align="left">The approach was the same as Global 2012.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">See Global 2012 assessment.</td>
+<td align="left">See Global 2012 assessment.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">Similar to Global 2013-2015. Value added (VA) was added as a measure of local economies, ie. earnings of each sector.</td>
+<td align="left">The temporal reference point was the Value Added by each sector in 2007.</td>
+<td align="left">Value added was used to replace GDP, which is more appropriate as measure of national economies.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">Status model is the same as in global assessments</td>
+<td align="left">The spatial reference point is the maximum revenue across all regions over all years.</td>
+<td align="left">Data on revenue generated from each marine sector is not available, and thus total revenue from all sectors are used for the assessment.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+</div>
+</div>
+<div id="tourism-and-recreation" class="section level3">
+<h3><span class="header-section-number">12.0.7</span> Tourism and Recreation</h3>
+<p>Tourism and recreation in coastal areas is a major component of thriving coastal communities and a measure of how much people value ocean systems, i.e. by traveling to coastal and ocean areas. This goal is not about the revenue or livelihoods that are generated by tourism and recreation (that is captured in the livelihoods goal, section 6F above) but instead captures <strong>the value that people have for experiencing and enjoying coastal areas</strong>. A score of 100 means a region utilizes its full recreational potential without harming the ecosystem.</p>
+<p><em>Ideal Approach</em></p>
+<p>Ideally, you would find information for how the ocean in your area is used and enjoyed by local residents and tourists alike. How many international or domestic vistors? When are they visiting? How long are they staying? What activities are they enjoying? You model should capture the the full range of values and touristic and recreational activities. A measure of sustainability should also be included in the model. The type of reference point used will depend on the data available.</p>
+<p><em>Practical Guidance</em></p>
+<!--Old text here. I'm not sure if this is useful b/c we are not trying to predict tourism: There are potentially dozens of variables that affect the number of people that engage in tourism and recreation within a region and where they go. These include local and global economies, infrastructure to support the activities, promotion of particular locations, safety and security, and even political stability. -->
+<p>First look for information that directly reflect how people enjoy the ocean, such as boat rentals, resort registries, whale watching etc. If you can’t find information on visitors, look for proxy data that are indirectly related. For example, do people have access to boating areas, or to surfing spots? Are tourism-related industries (eg. hotel employment, restaurant) increasing or decreasing?</p>
+<p>This goal demonstrates the flexibility of the OHI+ approach and will necessarily draw from different data sources than the Global Assessment. It is encouraged to to think creatively and to look at what other OHI+ assessments have done when developing this goal model. For example, in the Brazil Assessment the density of hotel employees per state was used as a metric to determine how well touristed coastal areas were. This was better than using international travel information, as was used in the Global Assessment, because for a large country like Brazil, internal travel would not have been accounted for.</p>
+<p>The best way to represent the sustainability term for this goal is to use a local indicator or a measure of tourism sustainability or competitiveness. Otherwise use the TTCI value from the Global 2013 assessment for the study area (applied evenly across all regions).</p>
+<p>The <strong>reference point</strong> used will depend upon the types of data. Does your country have industry growth rate targets? Are there measures on sustainable levels of tourism and recreational activities based on ecological factors? Do you want to increase tourism, or instead ensure it does not decline?</p>
+<p><strong><em>Examples of the Approach</em></strong></p>
+<p><span style="font-size:0.9em"></p>
+<table style="width:112%;">
+<colgroup>
+<col width="22%" />
+<col width="34%" />
+<col width="27%" />
+<col width="27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Developing the Model</th>
+<th align="left">Setting the Reference Point</th>
+<th align="left">Other Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">This goal measured the number of international tourists arriving by airline to coastal regions, accounting for their average length of stay, and adjusting by population size. The data were found through international airline arrivals and the Tourism Competitiveness Index (TTCI) from the World Economic Forum.</td>
+<td align="left">This study used a spatial comparison reference point that compares each region to the best performing regions. To compare regions, arrivals were divided by the region’s population.</td>
+<td align="left">There were data limitations that were comprehensive data available on a global scale. This approach did not account for domestic tourism.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">The study used the direct employment in the tourism industry relative to total labor force and used the TTCI.</td>
+<td align="left">The reference point was the best scoring region across all years and rescaled all other regions across all years to that score. All regions above this score received a status score of 100.</td>
+<td align="left">A new model was developed using employment in the tourism sector as a proxy for the total number of people engaged in coastal tourism and recreation. It involved assumptions, but these data were of better quality and closer to what this goal is trying to capture than those used in Global 2012.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The model developed for Global 2012 was changed to use information on hotel employees for each coastal municipality. The status was measured for each coastal state as the density of hotel jobs in coastal areas.</td>
+<td align="left">The reference value used was the highest status value across all states over the time series, which was Rio de Janeiro in 2011.</td>
+<td align="left">The goal model assumes that the majority of coastal hotels are located in proximity to the shoreline, and that the number of hotel employees is directly proportional to the volume of tourists an area receives.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">There were data available for changes in participation in 19 different marine and coastal specific recreational activities over time. These observations were used to produce a predictive model that was employed to estimate participation rates in recent years.</td>
+<td align="left">The reference point was temporal, compared to 2000.</td>
+<td align="left">The approach took advantage of time-series data. Participation rates more closely matched the intent of this goal and were a more robust proxy than international tourist arrivals data, and the reference point was spatial instead of temporal.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">The amount of coastal park visits and hotel occupancies were used as as a proxy for the number of people actually engaged in coastal tourism. Status of the two indicators were calculated separately and then weighted to calculate the status of this goal (ie. 1/3 for hotels and 2/3 for parks).</td>
+<td align="left">Hotels reference points were taken from official planning targets for year 2020.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">The approach is similar to Global 2012 assessment. The number of domestic and international tourists in each region were the product of country-wide data and the fraction of tourists per region.</td>
+<td align="left">The reference points were the number of domestic visitors and international visitors estimated for 2019. These values are calculated by province assuming an annual growth of 6.9% proposed by Integral Tourism Marketing Plan of Ecuador -PIMTE- 2014 for inbound tourism, and a growth of 2.44% for domestic tourism.</td>
+<td align="left">No local data were available for other indicators such as activities, hotel employments, etc. But we were able to add domestic tourism data to supplement international tourism data.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">Status model is based on the ratio of visitors and coastal area.</td>
+<td align="left">The spatial reference point was the region with the highest ratio across all years.</td>
+<td align="left">The number of visitors included both domestic and international visitors. Travel and Tourism Competitive Index (TTCI) was also incorporated.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+</div>
+<div id="clean-waters" class="section level3">
+<h3><span class="header-section-number">12.0.8</span> Clean Waters</h3>
+<p>People value marine waters that are free of pollution and debris for aesthetic and health reasons. Contamination of waters comes from oil spills, chemicals, eutrophication, algal blooms, disease pathogens (e.g., fecal coliform, viruses, and parasites from sewage outflow), floating trash, and mass kills of organisms due to pollution. People are sensitive to these phenomena occurring in areas that they access for recreation or other purposes as well as for simply knowing that clean waters exist. The Clean Water goal captures <strong>the degree to which local waters are unpolluted by natural and human-made causes</strong>. This goal scores highest when the contamination level is zero.</p>
+<p><strong><em>Ideal Approach</em></strong></p>
+<p>Ideally, data would be available and combined from different categories of marine pollution that can directly cause waters to become unsuitable for recreation, enjoyment, and other purposes. These factors typically include eutrophication (nutrients), chemicals, pathogens, oil pollution, and marine debris. Having good data from each of the desired categories, such as those pulled from a repeated effort at monitoring the conditions of the coasts, would be ideal. The Status of these components is the inverse of their intensity (i.e., high input is a bad status).</p>
+<p><strong><em>Practical Guidance</em></strong></p>
+<p>First think about what kind of point and non-point sources of pollution are in your area. Are there known sources of trash and marine debris? Is there a population that does not have access to sanitation? Does your wastewater get effectively treated before it is discharged into the environment? How does urban runoff contribute to your local coastal waters? Where possible, you should think about categories of inputs that are not used in the Global Assessments. These include information on toxic algal blooms, oil spills, turbidity or sediment input, and floating trash, and think about how they can fit in to the model areas.</p>
+<!-- | Input | Related data |
+|-----|----------|
+| Nutrients | Modeled plumes from land-based nitrogen inputs, fertilizer usage, algal blooms, eutrophication |
+| Pathogens | Access to sanitation, population density, wastewater treatment |
+| Chemicals | Organic pesticides, inorganic pesticides, toxic chemicals, chemicals from shipping, urban runoff |
+| Trash | Floating trash, plastic inputs, uncollected waste |
+| Other | Turbidity, altered sedimentation | -->
+<p>Once you identify the sources, you should try to find <em>in situ</em> measurements of contamination. This could include monitoring data for pathogen levels, chemical contaminants, or data on the frequency and location of anoxic conditions or eutrophication. If direct measurements of water pollution are unavailable, indirect indicators, or proxy data, could be used. For example, land-based nutrients pollution is a proxy measure to nutrient input. The number of people who do not have improved access to sanitation could indicate the level of pathogen pollution.</p>
+<p>If you don’t have such information, or have partial information on one of these inputs, you could combine it with population data or model the data to estimate how much of an impact it has on coastal areas. Do you have population density information over time? You could then use this later to calculate the trend.</p>
+<blockquote>
+<p>In the 2012 Global Assessment, these data layers are scores spatially for 3 nm out from shore. This is because it concentrates the effect of the inputs to coastal regions and makes them visible to the shoreline. You can change this value in your spatial analysis.</p>
+</blockquote>
+<p>You should use more refined data than the Global Assessment data, because they rely heavily on proxy data for water quality. However, you should follow the same approach of the <em>geometric mean</em> to sum up the data layers that you find. This guarantees that if any one of the components scores poorly, the higher scores from other components will note hide the effect.</p>
+<blockquote>
+<p>The Clean Waters goal is connected to the <strong>Pressures</strong> layers. You should approach the both of them at the same time where possible. (See the sections on <strong>Pressures and Resilience</strong> to understand more.)</p>
+</blockquote>
+<blockquote>
+<p>In the Global Assessment, marine debris from plastic pollution is one of the pressures layers. The same data are also used in the <strong>Clean Waters</strong> goal, but they are inverted such that a low value of debris is a high score in the goal. This is commonly done for these interchangeable data layers.</p>
+</blockquote>
+<p>For each contamination category, a reference point is set and all data in this category is scaled to 1. The type of <strong>reference point</strong> used will depend on the data available. You may decided that an ocean completely rid of pollution is ideal, or you may find that beach closure of less than 10 days per year due to <em>E.coli</em> contamination is acceptable.</p>
+<p><strong><em>Examples of the Approach</em></strong></p>
+<p><span style="font-size:0.9em"></p>
+<table style="width:107%;">
+<colgroup>
+<col width="16%" />
+<col width="34%" />
+<col width="27%" />
+<col width="27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Developing the Model</th>
+<th align="left">Setting the Reference Point</th>
+<th align="left">Other Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">The status was calculated as the geometric mean of four components, eutrophication (nutrients), chemicals, pathogens and marine debris.</td>
+<td align="left">Reference point is when the contamination level is zero.</td>
+<td align="left">The lack of direct measurements meant that modeled and proxy data were used. The status of this goal was also used in the pressures layers.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">The model was same as Global 2012, with a few simplifications; revenue data were adjusted by dividing by GDP per region, reported in 2013 USD.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">The approach was the same as Global 2012, with simplifications.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The goal model was the same as Global 2012. Data used to model the components for eutrophication (nutrients) and chemicals was the same as in Global 2012, while pathogens and debris were localized to state level data.</td>
+<td align="left">The reference point approach was the same as Global 2012.</td>
+<td align="left">The study used better, or more local, data than the Global.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">The model was the same as Global 2012, with regional instead of global data.</td>
+<td align="left">The reference point was set as the number of days when beaches were closed to bathers because pathogen counts were higher than state standards.</td>
+<td align="left">The study used more local data than the Global.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">The goal model was the same as Global 2012 with local data.</td>
+<td align="left">The reference points for each category of pollutants are government-set standards.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">The approach is similar to Global 2012. The same four indicators were used. However, trend data were added as follows: Coastal human population as a proxy for trend in trash; Fertilizer consumption as a proxy for trend in nutrient pollution; Trends in access to improved sanitation as a proxy for trend in pathogen pollution; Pesticide consumption as a proxy for trend in chemical pollution.</td>
+<td align="left">The reference point is a zero pollution state for each of the components considered.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">Status model is similar to global assessments. Pollution is based on nitrogen, phosphate, chemical oxygen demand, and oil pollution.</td>
+<td align="left">The same reference point as Global 2012 was used that waters are free from all pollution.</td>
+<td align="left">The study used all local data. Data on pathogens and marine debris are poor or unavailable and thus were ignored in the model.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+</div>
+<div id="biodiversity" class="section level3">
+<h3><span class="header-section-number">12.0.9</span> Biodiversity</h3>
+<p>People value biodiversity in particular for its existence value. The risk of species extinction generates great emotional and moral concern for many people. As such, this goal assesses <strong>the conservation status of species based on the best available global data through two sub-goals: Species and Habitats</strong>. Species were assessed because they are what one typically thinks of in relation to biodiversity. Because only a small proportion of marine species worldwide have been mapped and assessed, we also assessed Habitats as part of this goal, and considered them a proxy for condition of the broad suite of species that depend on them. We calculate each of these sub- goals separately and treat them equally when calculating the overall goal score. A score of 100 means all species are all species are at very low risk of extinction, and all habitats are conserved.</p>
+<div id="sub-goal-species" class="section level4">
+<h4><span class="header-section-number">12.0.9.1</span> Sub-goal: Species</h4>
+<p>This sub-goal assesses the health of all marine species present in a region, including endangered species and species in relatively good conditions. The presence of higher-risk species leads to a higher score.</p>
+<blockquote>
+<p>Data for this goal are also used in Sense of Places sub-goal: Iconic Species. It will be effective for goal keepers of Biodiversity and Sense of Place to work together on data gathering.</p>
+</blockquote>
+<p><strong><em>Ideal Approach</em></strong></p>
+<p>Ideally, you would find data for all species present in your region including information on their <em>habitat ranges</em> along with scientific studies that speak to the <em>health of their populations</em>.</p>
+<p><strong><em>Practical Guidance</em></strong></p>
+<p>You should start by trying to <em>find spatial information for species</em> that occur in your area and determine <em>whether or not they have been scientifically assessed and given a conservation status</em>. It is best if you only use species for which there are both spatial data and an assessment. In the global assessment, we combined data from recent assessment the International Union for the Conservation of Nature <a href="http://www.iucnredlist.org/technical-documents/spatial-data">(IUCN)</a> (www.iucnredlist.org/technical-documents/spatial-data) and <a href="http://aquamaps.org/">AquaMaps</a> (aquamaps.org). These data sets provide a geographic snapshot of how total marine biodiversity is faring, even though it is a very small sub-sample of overall species diversity.</p>
+<p>IUCN provides global species assessments that indicate the distribution and the conservation status of species, ranging from Least Concern to Critically Endangered to Extinct. These risk categories were turned into these into weights (between 0 and 1) for calculations. AquaMaps offers additional spatial data for species not covered by the IUCN distribution maps. Both evaluations chooses a taxon (e.g. sharks) and a group of world experts assess it comprehensively. Locally identified species identified in a regional assessment may not be in the global database because they do not belong to one of the taxa that have been selected for assessment, or because the experts that did the assessment did not know that information existed. In either case, there is no connection between what IUCN or AquaMaps report and what assessments are done locally. Therefore, it might not be fair to penalize a study area for missing species. For biodiversity, it is unrealistic to expect that all species are assessed, so it seems unfair to penalize for un-assessed species. In the fisheries goal, there are penalties for species that are exploited but not assessed, because if there are landings data, it means they are somewhat measurable, and so it is reasonable to expect they should be at least monitored.</p>
+<!-- It might be reasonable to penalize unassessed iconic species. It is a smaller list of species that are specifically identified as being of interest, for one reason or other. This would work for species that have some form of assessment - unless that information already exists, it might be unrealistic to try to produce the data layer required to develop a new model. -->
+<p>For regional assessments, local studies of marine species status and local datasets are best here. The spatial information can be a range map with simple presence or absence information, or it can have more detailed data. You can complement the species list search with a scientific literature search to see if anyone has scored the species status in a way that you can use. One thing to keep in mind when using local data sets is that <em>local lists might focus on endangered species and leave species in relatively good conditions un-assessed. This could result in poorer scores.</em></p>
+<p>If spatial distribution information for individual species is not available, the goal model could be simplified to be based on threat-status-weighted average in your region.</p>
+<p>You should also think about the <strong>reference point</strong> for scores that signal poor Biodiversity status. You can use the same threshold as the Global Assessments which say that <em>places with extinction risk scores greater than seventy-five percent will get scores of zero</em>. This is an estimation based on the literature of mass extinctions (e.g., Barnosky <em>et al</em>., 2011) and could be applied across scales. You don’t need all species extinct for there to be a zero, so you will have to choose how to rescale it, and whether the risk effects are linear or nonlinear.</p>
+<p><span style="font-size:0.9em"></p>
+<p><strong><em>Additional Note: Defining spatial regions and map considerations</em></strong></p>
+<p>Once you have gathered the data, the treatment of it will matter for the model and goal score calculation. Do you know how the data were collected? Do you have information on sampling effort? If you don’t know, you may not be sure whether changes in condition are due to monitoring efforts or biodiversity change, and you therefore may want to consider the uncertainty of your model.</p>
+<p>In any case, the original logic of the <strong>Species</strong> sub-goal of the <strong>Biodiversity</strong> goal is to represent the species present relative to the proportion of their range within a given region. The goal is to summarize extinction risk for an area across assessed species, and assign it appropriately so that the loss of species scores poorly. You should consider whether the impacts to local species status are linear or non-linear. Will drawing borders affect how your scores are assigned?</p>
+<p>When considering how to change the model, you should think about the outcome of the score on your decisions. For instance, will weighting a “Critically Endangered” species higher on the scale result in the inclusion or exclusion of more rare species? Will the way you aggregate spatial data to summarize extinction risk for your area take into account the influence of species with smaller ranges size, or will that information be lost in the averaging process? An inherent disadvantage for conservation may occur when rare species get rarer in the future, and will therefore have a relatively small influence on the score while common species drive the results.</p>
+<p>Range size has an impact on score results. For example, if you use the current model, none of the cone snail species listed below will have a big impact on the <strong>Species</strong> sub-goal score because to their small range size that covers one cell of map area. However, the 0.8 score for <em>Conus roeckeli</em> shows that it is a rare species as assessed by the IUCN. On the other hand, the coral <em>Acropora palmata</em> is also rare and yet covers a large range.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Scientific name</th>
+<th align="left">IUCN Category</th>
+<th align="left">Trend</th>
+<th align="left">Map Cells</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><em>Conus salreiensis</em></td>
+<td align="left">Critically Endangered</td>
+<td align="left">Decreasing</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left"><em>Conus trochulus</em></td>
+<td align="left">Near Threatened</td>
+<td align="left">Unknown</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left"><em>Conus roeckeli</em></td>
+<td align="left">Least Concern</td>
+<td align="left">Unknown</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left"><em>Acropora palmata</em></td>
+<td align="left">Critically Endangered</td>
+<td align="left">Stable</td>
+<td align="left">1158</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+<p><strong><em>Examples of the Approach</em></strong></p>
+<p><span style="font-size:0.9em"></p>
+<table style="width:103%;">
+<colgroup>
+<col width="12%" />
+<col width="34%" />
+<col width="25%" />
+<col width="30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Developing the Model</th>
+<th align="left">Setting the Reference Point</th>
+<th align="left">Other Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">The status of assessed species was calculated as the area- and threat status-weighted average of the number of threatened species within each 0.5-degree global grid cell. Species distribution and threat category data came from the IUCN Global Marine Species Assessment.</td>
+<td align="left">The reference point was to have all species at a risk status of Least Concern. We scaled the lower end of the biodiversity goal to be 0 when 75% species are extinct.</td>
+<td align="left">There were no measures of integrity measures included. The species chosen represents a partial sample of overall species diversity.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">The goal model was the same as Global 2012. There were data updates available for 15 out of 6,080 species.</td>
+<td align="left">The reference point was the same as Global 2012.</td>
+<td align="left">Updates were available for data used for this sub-goal.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The status of 504 assessed species was calculated as the threat status-weighted average of species occurring in the Brazilian EEZ. The sub-goal was calculated at the national level, giving equal weight to all species occurring in Brazilian waters. Threat weights were assigned based on the IUCN threat categories status of each species.</td>
+<td align="left">The reference point was the same was Global 2012.</td>
+<td align="left">This study substituted global assessment data for regional data whenever available. This study did not weight by area of occurrence as in Global 2012 because distribution maps were not available for all species.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">The model was the same as Global 2012, with regional data available for threat categories.</td>
+<td align="left">The same reference point was used as the Global model.</td>
+<td align="left">This followed the Global model, but used local data. This study did not weigh by area.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">The same as Global 2012.</td>
+<td align="left">Where all species within the region are classified with a risk status of Least Concern.</td>
+<td align="left">A list of species was composed based data from the Israel Marine Mammal Research and Assistance Center (IMMRAC) and cross-referenced with the IUCN data. Distribution maps were available for some species (from a global 0.5° grid). For those species not included in the distribution maps in the Mediterranean, data from assessments in the Black Seas were used. Additional data gap filling was done.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">The approach is similar to Global 2012. This goal calculates the average IUCN threat category for all species in the study area, broken down by the type of habitat where they live. That average is weighted by the percentage of area occupied by each type of habitat in the Gulf region: soft bottom and hard bottom.</td>
+<td align="left">When all species are in the category of “least concern”.</td>
+<td align="left">The species list was adopted from the IUCN Red List threat categories with aggregated species lists and 112 species from local sources.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">Status model is similar to global assessments. However, average extinction risk of all assessed species was only calculated as the weighted sum of the number of species in each threat category, since habitat area per species is not obtainable.</td>
+<td align="left">The reference point is to have the risk status of all iconic species at lowest risk of extinction.</td>
+<td align="left">This study used a combination of local endangered species list and IUCN list.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+</div>
+<div id="sub-goal-habitats" class="section level4">
+<h4><span class="header-section-number">12.0.9.2</span> Sub-goal: Habitats</h4>
+<p>The Habitats sub-goal includes all habitats in the study area, and assess their health condition and coverage area.</p>
+<blockquote>
+<p>Habitat is included in the Biodiversity goal to provide a more complete picture of diversity in the system. This is because in global assessments assessed species data were limited and the diversity of habitats can be included with the assumption that healthier habitats mean healthier species. Therefore if you have comprehensive species assessments in your area you may not need to include all habitats as a sub-goal, instead only including living habitats (algae, corals) along with species in the Species sub-goal.</p>
+</blockquote>
+<p><strong><em>Ideal Approach</em></strong></p>
+<p>Ideally, information on the area extent (square kilometers) and condition of every habitat type would be available over a long period of time.</p>
+<p><strong><em>Practical Guidance</em></strong></p>
+<p>You will first find what habitats are in your study area, both in the <em>coastal regions</em> and <em>offshore</em>. In the global assessments, data were available for mangroves, coral reefs, seagrass beds, salt marshes, sea ice, or subtidal soft-bottom habitats, but there are likely other important habitats in your region.</p>
+<p>Once you determine what habitats are in your area, you will need information about <em>the area extent of each habitat</em> within each region of your study area. You should consider whether and how far they go offshore and inland. Spatial data are preferred: you will be able to calculate the total square kilometers of each habitat within each region. For example, in global assessments mangrove area within 1 kilometer of the coastline were included, but this distance could change in OHI+ assessments.</p>
+<p>You will need to include area and condition data specific to your study area and not rely on the global data provided. This is because the habitat data provided for your assessment are either over-representative by allocating the study area’s data equally to each subcountry region, or can be misrepresentative by allocating a proportion of those data to each subcountry region (based on the offshore area of each region to the total area). Either case assumes that if a habitat was present in the country, it could be found anywhere (which is not the case with study areas that span many degrees of latitude), and the first case inflates the habitat coverage in the study area.</p>
+<blockquote>
+<p>TIP 1: Do you have maps that show current habitat distributions and maps that show historical habitat distributions? If so, you could extract that data for each of your regions to get a current and reference area. In the U.S. West Coast assessment (2014), researchers went to the local public library to find hand-drawn maps of historical salt marsh and sand dune extents in California. You could also use summarized habitat data that exists in tables or are already compiled in another source.</p>
+</blockquote>
+<blockquote>
+<p>TIP 2: If local data is not available, you obtain certain habitat extent data from the global assessment, which used high resolution spatial extend data from this study: <span style="font-size:0.9em"><em>Hamilton, S. &amp; Casey, D. (2014). Creation of a high spatiotemporal resolution global database of continuous mangrove forest cover for the 21st Century (CGMFC-21): a big-data fusion approach. <a href="http://arxiv.org/ftp/arxiv/papers/1412/1412.0722.pdf">arXiv:1412.0722</a></em>.</span> Good data to obtain from this study include shoreline, mangrove, soft bottom, and sea ice.</p>
+</blockquote>
+<p>The <em>condition</em> of the habitats can be measured in different ways, depending on the data available. Indicators of condition could include habitat density, susceptibility to pathogens, or change in species composition or growth rates from impacts such as overgrazing. Look for studies assessing habitat integrity or condition specifically in your area.</p>
+<blockquote>
+<p>In global assessments, direct information about coral condition was not available so it was based on the percentage of “living cover” on a coral reef relative to the potential range of the reef. In other words, estimates of coral cover within transects of certain sites were repeated in time and we used that rate of change in time as an indication of health of the reefs in the whole region. The difficulty lies in 1) having enough different locations sampled that you can say something about the whole region and 2) finding studies that did repeated measures in time, in the same location, over at least 20 years. In the Global 2013 assessment, there were so few datasets that satisfied this condition that we had to pool observations from different locations. Mean predicted values for each region from 1985-1987 were set as reference points.</p>
+</blockquote>
+<p>If possible, you will want to gather habitat area and condition data through time so that you can calculate the <strong>trend</strong>. Ideally, there will be enough years of data to directly calculate the recent change in habitat condition as the trend. This isn’t always the case, and proxies or estimates might need to be used. For example, due to spotty salt marsh data we created trend categories of increasing (0.5), stable (0), and decreasing (-0.5) based on available data.</p>
+<p>The <strong>reference point</strong> will likely be based on historic habitat area coverage and condition, with the assumption that habitat destruction has been and still is occurring and the target is to return to some point in the past. You will need historical data for this, from satellites, published papers, or even hand-drawn maps. The challenge is to find a reference point that is both <em>ambitious</em> and <em>realistic</em> (based on the S.M.A.R.T. principles: see <em>Conceptual Guide</em>), using the data available. If data allow, it will be possible to set a reference point that is more ambitious than that used in global assessments.</p>
+<p>Alternatively, the reference point could be guided by a policy target. For example, are there any climate change policies in your area, with defined targets and objectives? Are there any restoration or carbon storage projects in your area? Do any organizations offer guidance on the amount of carbon storage your management policies should be aiming for?</p>
+<p><strong><em>Examples of the Approaches</em></strong></p>
+<p><span style="font-size:0.9em"></p>
+<table style="width:103%;">
+<colgroup>
+<col width="12%" />
+<col width="34%" />
+<col width="25%" />
+<col width="30%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Developing the Model</th>
+<th align="left">Setting the Reference Point</th>
+<th align="left">Other Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td align="left">The status was assessed for all habitats for mangroves, coral reefs, seagrass beds, salt marshes, sea ice edge, and subtidal soft-bottom habitats. Status was assessed as the average of the condition estimates for each habitat present in a region.</td>
+<td align="left">The reference years were between 1980-1995 and the current years were between 2001-2010. The current condition was compared 1980 for salt marshes and sand dunes, and it varied by site for seagrasses.</td>
+<td align="left">Anomalous values occurred due to data availability issues. A significant amount of pre-processing of the habitat data was needed to fill data gaps and resolve data quality issue</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td align="left">The goal model was the same as 2012.</td>
+<td align="left">The reference was the same as Global 2013.</td>
+<td align="left">The same model as 2012 was used.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td align="left">The goal model was the same as as Global 2012 for mangroves, coral reefs, seagrass beds, salt marshes, and subtidal soft-bottom habitats.</td>
+<td align="left">The timeframes between current and reference condition varied across habitats using a 20-year gap.</td>
+<td align="left">Information from a few point estimates had to be used to infer the health of many habitats.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td align="left">Salt marshes and seagrass beds were considered. Extent was used and habitat health was not used.</td>
+<td align="left">Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s.</td>
+<td align="left">The study required reconstructions of historic habitat extents in order to set more ambitious targets.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td align="left">The goal model is the same as Global 2012 for two habitats: sand dunes and soft-bottom habitats.</td>
+<td align="left">Reliable, comprehensive satellite photos from 1970 enabled an evaluation of the habitat extent of the sand dunes as its reference point. For soft-bottom habitat we utilized relevant pressure as a proxy of habitat conditions.</td>
+<td align="left">These habitats were chosen because they represent a large portion of regional coastal and marine environments and because they have data with relatively comprehensive temporal and spatial coverage. Other important habitats such as rocky reefs and the rocky intertidal could not be included due to lack of data on current and/or past spatial extent and condition.</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td align="left">The approach is the same as Global 2012. Two types of habitats are considered: soft bottoms and mangroves.</td>
+<td align="left">For soft bottoms, the reference point was when is no deterioration of habitat due to the effects of trawling in the area. The reference point for mangroves was its extent in 1991.</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td align="left">See Global 2012.</td>
+<td align="left">A temporal reference point for each habitat is set to its condition in 1980’s.</td>
+<td align="left">Three types of habitats were assessed: seagrasses, saltmarsh, and mangroves. Not all habitat exist in all provinces and time-series data of extent is poor for some. Time-series data on the condition of each habitat is not obtainable. However, rough estimate of relative change in coverage areas since the 1980’s was found in literature.</td>
+</tr>
+</tbody>
+</table>
+<p></span></p>
+</div>
+</div>
+</div>
+<div id="appendix-3-r-tutorials-for-ohi" class="section level1">
+<h1><span class="header-section-number">13</span> Appendix 3: R Tutorials for OHI</h1>
 <p>Ocean Health Index R code uses several packages and best practices to faciliate understanding and collaboration. These approaches are presented here, along with examples using data included in global OHI assessments.</p>
 <p>This document describes several packages that are used extensively in OHI assessments and introduces you to typical coding practices commonly seen in OHI scripts and functions.</p>
 <p>Also see the accompanying R script to test examples using these packages.</p>
 <div id="r-very-basics" class="section level3">
-<h3><span class="header-section-number">12.0.1</span> R Very Basics:</h3>
+<h3><span class="header-section-number">13.0.1</span> R Very Basics:</h3>
 <ul>
 <li>Have you already downloaded and installed <a href="http://www.r-project.org/">R</a>?</li>
 <li>Have you already downloaded and installed <a href="http://www.rstudio.com/">RStudio</a>?</li>
@@ -2381,7 +3650,7 @@ There are several options to clone your repository to your local machine. When g
 </ul>
 </div>
 <div id="tidyr-functions" class="section level3">
-<h3><span class="header-section-number">12.0.2</span> <code>tidyr</code> functions</h3>
+<h3><span class="header-section-number">13.0.2</span> <code>tidyr</code> functions</h3>
 <p>‘Tidy’ up your messy data using <code>tidyr</code> to make it easier to work with. The ‘tidy tools’ functions in the <code>dplyr</code> package work best with tidy data.</p>
 <p>From Hadley Wickham’s <a href="http://vita.had.co.nz/papers/tidy-data.html"><em>Tidy Data</em> paper:</a> &gt;It is often said that 80% of data analysis is spent on the cleaning and preparing data. And it’s not just a first step, but it must be repeated many over the course of analysis as new problems come to light or new data is collected. To get a handle on the problem, this paper focuses on a small, but important, aspect of data cleaning that I call data tidying: structuring datasets to facilitate analysis.</p>
 <p>From <a href="http://blog.rstudio.org/2014/07/22/introducing-tidyr/">RStudio’s introduction to <code>tidyr</code></a>:</p>
@@ -2394,7 +3663,7 @@ There are several options to clone your repository to your local machine. When g
 <p><code>gather()</code> is arguably the most useful function in <code>tidyr</code>, and is explained in more detail below. <code>spread()</code> and <code>separate()</code> are other useful functions in <code>tidyr</code>.</p>
 <p>Other ‘tidyr’ references: * <a href="http://vita.had.co.nz/papers/tidy-data.html">Hadley Wickham’s <em>Tidy Data</em> paper:</a> Download the pre-print version for the whys and hows of tidy data. * <a href="http://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html">Cran tidy data vignette:</a> An informal and code heavy version of Hadley’s full <em>Tidy Data</em> paper. * <a href="http://blog.rstudio.org/2014/07/22/introducing-tidyr/">RStudio Blogs: Introducing tidyr:</a> Basics and philosophy of <code>tidyr</code> * <a href="http://swirlstats.com/students.html">swirl tutorial package:</a> A tutorial package built directly into R. Section 2: ‘Getting and Cleaning Data’ runs you through <code>dplyr</code> and <code>tidyr</code> basics * <a href="http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">R data wrangling cheat sheet:</a> A quick reference guide to <code>tidyr</code> and <code>dplyr</code> functions</p>
 <div id="tidyrgather" class="section level4">
-<h4><span class="header-section-number">12.0.2.1</span> tidyr::gather()</h4>
+<h4><span class="header-section-number">13.0.2.1</span> tidyr::gather()</h4>
 <p><strong>Description</strong></p>
 <p><code>gather()</code> takes data organized in rows and collapses them into a column format (a key column and a value column), duplicating all other columns as needed. Use <code>gather()</code> when your data is organized in “wide” format, in which some of your variables are in row form, rather than column form. Another <code>tidyr</code> function, <code>spread()</code>, is more or less the reverse of <code>gather()</code>, to reformat long data into wide data. It is more difficult to work with wide data, but may be more convenient for examining data in a table format.</p>
 <p>Note: <code>gather()</code> essentially replaces <code>melt()</code> in <code>plyr</code> package.</p>
@@ -2416,7 +3685,7 @@ There are several options to clone your repository to your local machine. When g
 </div>
 </div>
 <div id="dplyr-functions" class="section level3">
-<h3><span class="header-section-number">12.0.3</span> <code>dplyr</code> functions</h3>
+<h3><span class="header-section-number">13.0.3</span> <code>dplyr</code> functions</h3>
 <p>The <code>dplyr</code> package includes a number of functions to easily, quickly, and intuitively wrangle your data. Here is a quick introduction with examples from data used in the Ocean Health Index.</p>
 <p>From <a href="http://blog.rstudio.org/2014/01/17/introducing-dplyr/">RStudio’s introduction to <code>dplyr</code></a>:</p>
 <blockquote>
@@ -2444,7 +3713,7 @@ There are several options to clone your repository to your local machine. When g
 <li><a href="http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">R data wrangling cheat sheet:</a> a quick reference guide to <code>tidyr</code> and <code>dplyr</code> functions</li>
 </ul>
 <div id="operator" class="section level4">
-<h4><span class="header-section-number">12.0.3.1</span> %&gt;% operator</h4>
+<h4><span class="header-section-number">13.0.3.1</span> %&gt;% operator</h4>
 <p><strong>Description</strong></p>
 <p>The <code>%&gt;%</code> operator allows you to ‘pipe’ or ‘chain’ a number of function calls, in which the output dataframe of one function is fed directly into the next function as the input dataframe. This lets you avoid creating temporary variables to store intermediate values, and lets you avoid nesting multiple functions. Using <code>%&gt;%</code> makes your code more elegant, streamlined, and easy to read since you are able to write your code on multiple indented lines. From <a href="http://seananderson.ca/2014/09/13/dplyr-intro.html"><code>dplyr</code> and pipes: the basics:</a></p>
 <blockquote>
@@ -2487,7 +3756,7 @@ data_out &lt;- data_in %&gt;%
     arrange(country, commodity)</code></pre>
 </div>
 <div id="dplyrselect" class="section level4">
-<h4><span class="header-section-number">12.0.3.2</span> dplyr::select()</h4>
+<h4><span class="header-section-number">13.0.3.2</span> dplyr::select()</h4>
 <p><strong>Description</strong></p>
 <p><code>select()</code> allows you to choose specific columns/variables from your dataset, and drop all others. Alternately, you can select specific variables to drop, leaving others in place. <code>rename()</code> is a relative of <code>select()</code> that allows you to rename variables, while leaving all variables in place.</p>
 <p><strong>Examples</strong></p>
@@ -2514,7 +3783,7 @@ harvest &lt;- harvest %&gt;%
 <p>The <code>harvest</code> data is fed into <code>select()</code>, and the output is fed into <code>rename()</code>. The final output of this complete flow is assigned to the new variable <code>harvest1</code>. <img src="https://docs.google.com/drawings/d/14uc-1Pgaosfh5kPllJRf_sRXbiGWL4RcBqASqAG5f2E/pub?w=898&amp;h=286" alt="using select() and rename() to organize variables in a data set" /></p>
 </div>
 <div id="dplyrfilter" class="section level4">
-<h4><span class="header-section-number">12.0.3.3</span> dplyr::filter()</h4>
+<h4><span class="header-section-number">13.0.3.3</span> dplyr::filter()</h4>
 <p><strong>Description</strong></p>
 <p><code>filter()</code> allows you to select observations (rows) that match search criteria, using values in specified variables (columns). Drops all observations that do not match the criteria. * Use logical operators &amp; and | to filter on multiple criteria simultaneously</p>
 <p><strong>Example</strong></p>
@@ -2527,7 +3796,7 @@ h_vnm_recent &lt;- harvest %&gt;%
   ### filter with multiple criteria: selects &#39;Vietnam&#39; data from 2009 or later.</code></pre>
 </div>
 <div id="dplyrarrange" class="section level4">
-<h4><span class="header-section-number">12.0.3.4</span> dplyr::arrange()</h4>
+<h4><span class="header-section-number">13.0.3.4</span> dplyr::arrange()</h4>
 <p><strong>Description</strong></p>
 <p><code>arrange()</code> sorts observations (rows) based upon a specified variable or list of variables. Does not actually change the data in any way, only the appearance. Useful for inspecting your data after each processing step.</p>
 <p><strong>Example</strong></p>
@@ -2540,7 +3809,7 @@ harvest_sorted &lt;- harvest %&gt;%
   ### Sorts harvest values by most recent year (descending order)</code></pre>
 </div>
 <div id="dplyrmutate" class="section level4">
-<h4><span class="header-section-number">12.0.3.5</span> dplyr::mutate()</h4>
+<h4><span class="header-section-number">13.0.3.5</span> dplyr::mutate()</h4>
 <p><strong>Description</strong></p>
 <p><code>mutate()</code> is a powerful and useful tool for processing data. You can add new variables or modify existing variables, using all variety of functions to perform operations on the dataset. <code>mutate()</code> works well with <code>group_by()</code> to perform calculations and analysis at a group level rather than dataset level.</p>
 <p><strong>Example</strong></p>
@@ -2568,7 +3837,7 @@ harvest1 &lt;- harvest %&gt;%
 <p>Notes: * In this example, no new variables were added. Multiple variables can be changed with one call to <code>mutate()</code>. Multiple modifications to ‘tonnes’ happen sequentially, so order is important. * The <code>as.numeric(as.character(...))</code> gets around the fact that these text variables are stored as ‘factor’ class, rather than ‘character’ class. <code>as.character()</code> forces them into character class, and then the <code>as.numeric()</code> can convert the character strings to numeric where applicable. Similar for <code>as.integer(...)</code></p>
 </div>
 <div id="dplyrsummarize-or-summarise" class="section level4">
-<h4><span class="header-section-number">12.0.3.6</span> dplyr::summarize() ( or summarise() )</h4>
+<h4><span class="header-section-number">13.0.3.6</span> dplyr::summarize() ( or summarise() )</h4>
 <p><strong>Description</strong></p>
 <p><code>summarize()</code> combines multiple values of a variable into a single summary value. <code>summarize()</code> works well with <code>group_by()</code> - for grouped data, each group will be summarized and reported separately. For ungrouped data, the summary covers the entire dataset.</p>
 <ul>
@@ -2583,7 +3852,7 @@ harvest1 &lt;- harvest %&gt;%
   ungroup()</code></pre>
 </div>
 <div id="dplyrgroup_by" class="section level4">
-<h4><span class="header-section-number">12.0.3.7</span> dplyr::group_by()</h4>
+<h4><span class="header-section-number">13.0.3.7</span> dplyr::group_by()</h4>
 <p><strong>Description</strong></p>
 <p><code>group_by()</code> allows you to easily group a dataset by one or more variables/columns.<br />
 By itself, it does nothing to change your data. But once your dataset has been sorted into useful groups, other <code>dplyr</code> functions will operate on each group separately, rather than operating on the entire dataset. * The function <code>groups(data)</code> reports back the current grouping status of dataframe <code>data</code>.</p>
@@ -2615,7 +3884,7 @@ h_tot_mut &lt;- harvest %&gt;%
 </div>
 </div>
 <div id="coding-style" class="section level3">
-<h3><span class="header-section-number">12.0.4</span> Coding style</h3>
+<h3><span class="header-section-number">13.0.4</span> Coding style</h3>
 <blockquote>
 <p>Code unto others as you would have them code unto you.</p>
 </blockquote>
@@ -2638,7 +3907,7 @@ h_tot_mut &lt;- harvest %&gt;%
 <li>Note that these are guidelines, not rules; non-stylish code can still work.</li>
 </ul>
 <div id="best-practices-for-coding-in-ohi-assessments" class="section level4">
-<h4><span class="header-section-number">12.0.4.1</span> Best practices for coding in OHI assessments:</h4>
+<h4><span class="header-section-number">13.0.4.1</span> Best practices for coding in OHI assessments:</h4>
 <ul>
 <li>use a consistent format for variable names, filenames, function names, etc.
 <ul>
@@ -2682,21 +3951,21 @@ h_tot_mut &lt;- harvest %&gt;%
 </ul>
 </div>
 <div id="writing-functions" class="section level4">
-<h4><span class="header-section-number">12.0.4.2</span> Writing functions</h4>
+<h4><span class="header-section-number">13.0.4.2</span> Writing functions</h4>
 <p><a href="http://nicercode.github.io/guides/functions/" class="uri">http://nicercode.github.io/guides/functions/</a> Why write functions? * name a chunk of code for easier reading * easily reuse a chunk of code</p>
 <p>What makes a good function: * It’s short * Performs a single operation * Uses intuitive names</p>
 </div>
 <div id="directories-and-files" class="section level4">
-<h4><span class="header-section-number">12.0.4.3</span> Directories and files</h4>
+<h4><span class="header-section-number">13.0.4.3</span> Directories and files</h4>
 <pre><code>* Store files in a folder called &#39;github&#39; in your home directory; access it with `~/github` so that users with different operating systems can work smoothly with your files</code></pre>
 </div>
 </div>
 </div>
 <div id="appendix-6-frequently-asked-questions-faqs" class="section level1">
-<h1><span class="header-section-number">13</span> Appendix 6: Frequently Asked Questions (FAQs)</h1>
+<h1><span class="header-section-number">14</span> Appendix 6: Frequently Asked Questions (FAQs)</h1>
 <p>This document provides answers to some frequently asked questions about conducting regional assessments using the Ocean Health Index. A few questions are related to general concepts in the Ocean Health Index, but mostly those topics are covered at <a href="http://www.oceanhealthindex.org/About/FAQ/" class="uri">http://www.oceanhealthindex.org/About/FAQ/</a>. Here, the FAQ are primarily technical questions regarding regional assessments and using the OHI Toolbox. This document will be updated continually as we have more questions. Questions are arranged by theme, and have the format Q: (question) and A: (answer).</p>
 <div id="conceptual" class="section level2">
-<h2><span class="header-section-number">13.1</span> Conceptual</h2>
+<h2><span class="header-section-number">14.1</span> Conceptual</h2>
 <p><strong>Q: Are regional assessment scores comparable with global assessment scores?</strong></p>
 <p>A: Regional Index scores cannot be directly compared to global Index scores, or to other regional Index scores calculated through separate efforts. This is because data and indicators (both what they measure and their quality), reference points (set using local knowledge and priorities), and specific goal models are often different for the areas being compared.</p>
 <p>However, because scores for each goal are scaled to a reference point, qualitative comparisons can be made. For example, a score of 71 in the US West Coast compared to 66 in Brazil says that the US West coast is closer to fully meeting its sustainable goals (i.e., meeting regional reference points). Furthermore, use of the same Ocean Health Index framework across regional assessments permits fruitful discussion and general comparisons even if data inputs differ. Ocean Health Index assessments at any scale always work within a standardized definition of ocean health, using information to capture the philosophy of the ten goals that have been identified (and undergone scientific peer-review) prior to compiling relevant data. Use of the ten-goal framework is important both to ensure that all aspects of ocean health are captured and to allow better comparison across regional assessments than would be possible if the different regions used different methods.</p>
@@ -2737,7 +4006,7 @@ h_tot_mut &lt;- harvest %&gt;%
 <p>OHI is also human benefits-driven, not ecologically-driven. It happens that CS, CP, and HAB are affected by similar factors, but they provide non-overlapping benefits. It is the design of OHI to show the connectivity among goals. If certain habitats are good for multiple goals, there is strong incentive to focus energy and resources to protect those habitats.</p>
 </div>
 <div id="timing-and-resources" class="section level2">
-<h2><span class="header-section-number">13.2</span> Timing and Resources</h2>
+<h2><span class="header-section-number">14.2</span> Timing and Resources</h2>
 <p><strong>Q: How much does it cost to produce a regional assessment?</strong></p>
 <p>A: Regional assessments can be completed at (varying costs depending on the local context).Funds are needed for a management and scientific team, workshops and meetings (including travel), communications, policy engagement, and operating costs. Therefore, securing funding is an important component to satisfactorily complete the assessment. We encourage the development of a local proposal or strategic action plan that details a timeline of activities and the resources needed to accomplish them.</p>
 <p><strong>Q: How many people are required in a team?</strong></p>
@@ -2752,14 +4021,14 @@ h_tot_mut &lt;- harvest %&gt;%
 <p>A: All goals using spatial data could potentially require a GIS analyst. These goals are commonly: habitat-based goals and sub-goals: (Coastal Protection, Carbon Storage, Habitats—a sub-goal of Biodiversity), Food Provision, Sense of Place, Species—a sub-goal of Biodiversity, Clean Waters</p>
 </div>
 <div id="structure" class="section level2">
-<h2><span class="header-section-number">13.3</span> Structure</h2>
+<h2><span class="header-section-number">14.3</span> Structure</h2>
 <p><strong>Q: Can we remove or add goals to the OHI?</strong></p>
 <p>A: A lot of deliberation went into defining the ten goals, and they seem to do a pretty good job of covering many if not most ocean uses, so additional goals may not be necessary. But it could be that they eclipse or replace an existing goal.</p>
 <p><strong>Q: What is sector evenness?</strong></p>
 <p>A: Sector evenness (also called a diversity index) is an economic concept that is included in OHI to enable comparison across many different sectors included in the Livelihoods &amp; Economies goal. This goal evaluates jobs, wages and revenues for nine marine employment sectors. The distribution of employment across these nine sectors is an effective indicator of resilience. If total employment within a community is primarily based in one or two sectors, the overall economic system will be excessively vulnerable to downturns in those sectors. Conversely, if employment is spread relatively evenly throughout all nine sectors, the overall system will be more robust and resistant to such disturbances. Overall revenue within the community will remain more stable during such downturns, and workers displaced by a downturn in their sector may be able to find employment in another sector without leaving the community. Sector evenness was used as a resilience measure for Livelihood &amp; Economies goal.</p>
 </div>
 <div id="appropriate-data-layers" class="section level2">
-<h2><span class="header-section-number">13.4</span> Appropriate data layers</h2>
+<h2><span class="header-section-number">14.4</span> Appropriate data layers</h2>
 <!-- **Q: Shipping and port activity are hardly affected by the health of the ecosystem. Why are these included in the Index?**
 
 A: Shipping and port activity are included as pressures only -->
