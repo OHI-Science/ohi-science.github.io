@@ -154,29 +154,17 @@
 <li><a href="#cloning-a-repository-to-your-local-computer"><span class="toc-section-number">11.3</span> Cloning a repository to your local computer</a></li>
 <li><a href="#install-ohicore-1"><span class="toc-section-number">11.4</span> Install <code>ohicore</code></a></li>
 </ul></li>
-<li><a href="#appendix-2-instructions-for-preparing-data-files-for-the-ohi-toolbox"><span class="toc-section-number">12</span> Appendix 2: Instructions for preparing data files for the OHI Toolbox</a><ul>
-<li><a href="#description-document-for-each-goal"><span class="toc-section-number">12.1</span> 1. Description document for each goal</a></li>
-<li><a href="#a.-.csv-files-for-each-data-layer"><span class="toc-section-number">12.2</span> 2a. <em>.csv</em> files for each data layer</a><ul>
-<li><a href="#contents-of-data-layers"><span class="toc-section-number">12.2.1</span> Contents of data layers</a></li>
-<li><a href="#naming-data-layers"><span class="toc-section-number">12.2.2</span> Naming data layers</a></li>
+<li><a href="#appendix-2-r-tutorials-for-ohi"><span class="toc-section-number">12</span> Appendix 2: R Tutorials for OHI</a><ul>
+<li><a href="#r-very-basics"><span class="toc-section-number">12.0.1</span> R Very Basics:</a></li>
+<li><a href="#tidyr-functions"><span class="toc-section-number">12.0.2</span> <code>tidyr</code> functions</a></li>
+<li><a href="#dplyr-functions"><span class="toc-section-number">12.0.3</span> <code>dplyr</code> functions</a></li>
+<li><a href="#coding-style"><span class="toc-section-number">12.0.4</span> Coding style</a></li>
 </ul></li>
-<li><a href="#b.-description-files-to-accompany-each-data-layer"><span class="toc-section-number">12.3</span> 2b. Description files to accompany each data layer</a></li>
-<li><a href="#pressures-and-resilience-data"><span class="toc-section-number">12.4</span> 3. Pressures and resilience data</a><ul>
-<li><a href="#pressures-1"><span class="toc-section-number">12.4.1</span> Pressures</a></li>
-<li><a href="#resilience-1"><span class="toc-section-number">12.4.2</span> Resilience</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#appendix-5-r-tutorials-for-ohi"><span class="toc-section-number">13</span> Appendix 5: R Tutorials for OHI</a><ul>
-<li><a href="#r-very-basics"><span class="toc-section-number">13.0.1</span> R Very Basics:</a></li>
-<li><a href="#tidyr-functions"><span class="toc-section-number">13.0.2</span> <code>tidyr</code> functions</a></li>
-<li><a href="#dplyr-functions"><span class="toc-section-number">13.0.3</span> <code>dplyr</code> functions</a></li>
-<li><a href="#coding-style"><span class="toc-section-number">13.0.4</span> Coding style</a></li>
-</ul></li>
-<li><a href="#appendix-6-frequently-asked-questions-faqs"><span class="toc-section-number">14</span> Appendix 6: Frequently Asked Questions (FAQs)</a><ul>
-<li><a href="#conceptual"><span class="toc-section-number">14.1</span> Conceptual</a></li>
-<li><a href="#timing-and-resources"><span class="toc-section-number">14.2</span> Timing and Resources</a></li>
-<li><a href="#structure"><span class="toc-section-number">14.3</span> Structure</a></li>
-<li><a href="#appropriate-data-layers"><span class="toc-section-number">14.4</span> Appropriate data layers</a></li>
+<li><a href="#appendix-6-frequently-asked-questions-faqs"><span class="toc-section-number">13</span> Appendix 6: Frequently Asked Questions (FAQs)</a><ul>
+<li><a href="#conceptual"><span class="toc-section-number">13.1</span> Conceptual</a></li>
+<li><a href="#timing-and-resources"><span class="toc-section-number">13.2</span> Timing and Resources</a></li>
+<li><a href="#structure"><span class="toc-section-number">13.3</span> Structure</a></li>
+<li><a href="#appropriate-data-layers"><span class="toc-section-number">13.4</span> Appropriate data layers</a></li>
 </ul></li>
 </ul>
 </div>
@@ -2264,236 +2252,13 @@ There are several options to clone your repository to your local machine. When g
 </blockquote>
 </div>
 </div>
-<div id="appendix-2-instructions-for-preparing-data-files-for-the-ohi-toolbox" class="section level1">
-<h1><span class="header-section-number">12</span> Appendix 2: Instructions for preparing data files for the OHI Toolbox</h1>
-<p>This document explains what to provide the toolbox master for your OHI assessment, using China 2015 assessment as an example.</p>
-<ol style="list-style-type: decimal">
-<li><p>For each goal, please prepare a document describing the goal model, including the equation, an explanation of the variables, and the data layer name for each variable</p></li>
-<li><p>For each data layer,</p></li>
-</ol>
-<ul>
-<li>2a. please provide separate <em>.csv</em> files for data layer</li>
-<li>2b. please provide separate description files for each data layer</li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
-<li>For pressures and resilience:</li>
-</ol>
-<ul>
-<li>3a. please format pressure and resilience layers as described in 2) above</li>
-<li>3b. please update the pressures matrix rank weights for any added pressures</li>
-<li>3c. please add columns to the matricies for any pressures or resilience measures in China</li>
-</ul>
-<div id="description-document-for-each-goal" class="section level2">
-<h2><span class="header-section-number">12.1</span> 1. Description document for each goal</h2>
-<p>Please prepare a document with the following information. This can be used in your China OHI Evaluation Manual to help demonstrate and justify your approaches. This document can be written in Chinese.</p>
-<ol style="list-style-type: decimal">
-<li>Goal model equation</li>
-<li>Explanation of each variable</li>
-<li>Data layer name for each variable</li>
-<li>Written description of each goal model. This should include some or all of the following:</li>
-</ol>
-<ul>
-<li>why the goal models were changed (or not changed)</li>
-<li>why some data were included and other data weren’t</li>
-<li>any data limitations that also limited the model</li>
-<li>what data would ideally be available and how that could improve the model</li>
-<li>describe the ‘ideal approach’ for the goal, which may or may not be possible due to data availability, etc</li>
-<li>list of pressures that negatively affect the status of the goal and the corresponding weight of the incidence of the pressure on the goal/subgoal</li>
-<li>list of resilience measures that positively affect the status of the goal</li>
-</ul>
-</div>
-<div id="a.-.csv-files-for-each-data-layer" class="section level2">
-<h2><span class="header-section-number">12.2</span> 2a. <em>.csv</em> files for each data layer</h2>
-<p>Each file containing data in the proper format for the OHI Toolbox is called a <code>data layer</code>.</p>
-<div id="contents-of-data-layers" class="section level3">
-<h3><span class="header-section-number">12.2.1</span> Contents of data layers</h3>
-<p>Finalized data layers have at least two columns: the <code>rgn_id</code> column and a column with data, that is best identified by its units (km2 or often score). There also may be a <code>year</code> column or a <code>category</code> column (for natural product categories or habitat types). An example of a two-column file is ’<a href="https://github.com/OHI-Science/chn/blob/draft/subcountry2014/layers/ao_access_gl2014.csv">al_access_gl2014.csv’</a>, and an example of a three-column file is <a href="https://github.com/OHI-Science/chn/blob/draft/subcountry2014/layers/rgn_labels.csv">hab_extent_gl2014.csv’</a>.</p>
-<p>An example of a data file is <code>ao_access_gl2014.csv</code>:</p>
-<pre><code>&quot;rgn_id&quot;,&quot;value&quot;
-1,0.555771907253878
-2,0.555771907253878
-3,0.555771907253878
-4,0.555771907253878</code></pre>
-<p>An example of a data file is <code>hab_extent_gl2014.csv</code>:</p>
-<pre><code>&quot;rgn_id&quot;,&quot;habitat&quot;,&quot;km2&quot;
-1,&quot;coral&quot;,261.102
-2,&quot;coral&quot;,261.102
-3,&quot;coral&quot;,261.102
-4,&quot;coral&quot;,261.102</code></pre>
-<p>The ‘region identifier’ (<code>rgn_id</code>) column has numbers identifying each province in China, numbered from north to south. You can explore the identifier numbers at [<a href="https://ohi-science.org/chn/regions" class="uri">https://ohi-science.org/chn/regions</a>]. Note: the OHI China team may modify the which number is associated with which province, however, it is important that there is consistency across all data layers because the OHI Toolbox calculates scores based on <code>rgn_id</code>. You can work with Ning to change the regions in <a href="https://github.com/OHI-Science/chn/blob/draft/subcountry2014/layers/rgn_labels.csv">rgn_labels.csv</a>.</p>
-</div>
-<div id="naming-data-layers" class="section level3">
-<h3><span class="header-section-number">12.2.2</span> Naming data layers</h3>
-<p>Please name each data layer with the following format so it is easy to keep all data organized:</p>
-<blockquote>
-<p>prefix_layername_scenario_suffix.extension</p>
-</blockquote>
-<p>There cannot be any white spaces in any part of the filename: instead, use underscores (’<em>’).</em></p>
-<p>The <strong>prefix</strong> will be the letters identifying each goal (two letters) or sub-goal (three letters):</p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Goal</th>
-<th align="left">Code</th>
-<th align="left">Subgoal</th>
-<th align="left">Code</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Food Provision</td>
-<td align="left">FP</td>
-<td align="left">Fisheries</td>
-<td align="left">FIS</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">Mariculture</td>
-<td align="left">MAR</td>
-</tr>
-<tr class="odd">
-<td align="left">Artisanal Fishing Opportunity</td>
-<td align="left">AO</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Natural Products</td>
-<td align="left">NP</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Coastal Protection</td>
-<td align="left">CP</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Carbon Storage</td>
-<td align="left">CS</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Livelihoods and Economies</td>
-<td align="left">LE</td>
-<td align="left">Livelihoods</td>
-<td align="left">LIV</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">Economies</td>
-<td align="left">ECO</td>
-</tr>
-<tr class="odd">
-<td align="left">Tourism and Recreation</td>
-<td align="left">TR</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="even">
-<td align="left">Sense of Place</td>
-<td align="left">SP</td>
-<td align="left">Iconic Species</td>
-<td align="left">ICO</td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">Lasting Special Places</td>
-<td align="left">LSP</td>
-</tr>
-<tr class="even">
-<td align="left">Clean Waters</td>
-<td align="left">CW</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left">Biodiversity</td>
-<td align="left">BD</td>
-<td align="left">Habitats</td>
-<td align="left">HAB</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">Species</td>
-<td align="left">SPP</td>
-</tr>
-</tbody>
-</table>
-<p>The <strong>layername</strong> should be made of words or abbreviations to identify what the layer is.</p>
-<p>The <strong>scenario</strong>should identify the assessment scenario: <strong>chn2015</strong>. This will help separate updated data layers from global data layers (‘gl2014’).</p>
-<p>The <strong>suffix</strong> of the filename should identify who prepared the data so any questions can easily to sent to the correct person. For the suffix, please identify yourself with your initials.</p>
-<p>The <strong>extension</strong> identifies the filetype and is separated by a period (.). You must save your files as comma separated values (<em>.csv</em>) since this is the format used by the OHI Toolbox. You can work in Excel and after data are formatted properly, it is possible to save as a <em>.csv</em> instead of a <em>.xlsx</em> file (select File &gt; Save as &gt; .csv).</p>
-<p>Here is an example of a properly named data layer for the tourism and recreation goal, where the data are the percent of unemployment prepared by Julia Lowndes.</p>
-<blockquote>
-<p>tr_unemployment_chn2015_JL.csv</p>
-</blockquote>
-</div>
-</div>
-<div id="b.-description-files-to-accompany-each-data-layer" class="section level2">
-<h2><span class="header-section-number">12.3</span> 2b. Description files to accompany each data layer</h2>
-<p>Please write a document to accompany each data file. Please save the document as a <em>.txt</em> file or a <em>.pdf</em> file, but not a Word document (<em>.docx</em>).</p>
-<p>Each document should have the following information:</p>
-<ol style="list-style-type: decimal">
-<li>Filename of the data layer</li>
-<li>Identify the target for this data layer: goal, sub-goal, pressures, or resilience</li>
-<li>Short title of the data layer (for the ‘name’ column in <code>layers.csv</code>)</li>
-<li>One-sentence explanation of the data layer (for the ‘description’ column in <code>layers.csv</code>)</li>
-<li>Long description of the data layer that includes:</li>
-</ol>
-<ul>
-<li>any data manipulation that has occurred, how to interpret it, and why (e.g. rescaling from 0-1)</li>
-<li>any further data manipulation required, how to interpret it, and why</li>
-</ul>
-<ol start="6" style="list-style-type: decimal">
-<li>The data source:</li>
-</ol>
-<ul>
-<li>the institution that collected the original data</li>
-<li>the institution providing the data (if different from the original)</li>
-<li>the year it was accessed</li>
-<li>the URL or publication reference</li>
-</ul>
-<ol start="7" style="list-style-type: decimal">
-<li>The years of data available</li>
-<li>The units of data</li>
-<li>Any other observations or explanations about the data</li>
-</ol>
-</div>
-<div id="pressures-and-resilience-data" class="section level2">
-<h2><span class="header-section-number">12.4</span> 3. Pressures and resilience data</h2>
-<p>Remember that for any pressures and resilience measures included in the OHI matrices, there must be data available for each region in your study area.</p>
-<div id="pressures-1" class="section level3">
-<h3><span class="header-section-number">12.4.1</span> Pressures</h3>
-<p>Several pressures layers are based on 1km2 resolution spatial files that we can extract for regional studies. These layers are:</p>
-<ul>
-<li>ocean acidification (cc_acid)</li>
-<li>sea level rise (cc_slr)</li>
-<li>sea surface temperature (cc_sst)</li>
-<li>ultra violet radiation (cc_uv)</li>
-<li>nutrient pollution (po_nutrients)</li>
-<li>chemical pollution (po_chemicals)</li>
-</ul>
-</div>
-<div id="resilience-1" class="section level3">
-<h3><span class="header-section-number">12.4.2</span> Resilience</h3>
-<p>Resilience measures are often regulatory measures that indicate how provinces are performing compared with each other. If there are any environmental or social performance indicators for China, these could be used here.</p>
-</div>
-</div>
-</div>
-<div id="appendix-5-r-tutorials-for-ohi" class="section level1">
-<h1><span class="header-section-number">13</span> Appendix 5: R Tutorials for OHI</h1>
+<div id="appendix-2-r-tutorials-for-ohi" class="section level1">
+<h1><span class="header-section-number">12</span> Appendix 2: R Tutorials for OHI</h1>
 <p>Ocean Health Index R code uses several packages and best practices to faciliate understanding and collaboration. These approaches are presented here, along with examples using data included in global OHI assessments.</p>
 <p>This document describes several packages that are used extensively in OHI assessments and introduces you to typical coding practices commonly seen in OHI scripts and functions.</p>
 <p>Also see the accompanying R script to test examples using these packages.</p>
 <div id="r-very-basics" class="section level3">
-<h3><span class="header-section-number">13.0.1</span> R Very Basics:</h3>
+<h3><span class="header-section-number">12.0.1</span> R Very Basics:</h3>
 <ul>
 <li>Have you already downloaded and installed <a href="http://www.r-project.org/">R</a>?</li>
 <li>Have you already downloaded and installed <a href="http://www.rstudio.com/">RStudio</a>?</li>
@@ -2501,7 +2266,7 @@ There are several options to clone your repository to your local machine. When g
 </ul>
 </div>
 <div id="tidyr-functions" class="section level3">
-<h3><span class="header-section-number">13.0.2</span> <code>tidyr</code> functions</h3>
+<h3><span class="header-section-number">12.0.2</span> <code>tidyr</code> functions</h3>
 <p>‘Tidy’ up your messy data using <code>tidyr</code> to make it easier to work with. The ‘tidy tools’ functions in the <code>dplyr</code> package work best with tidy data.</p>
 <p>From Hadley Wickham’s <a href="http://vita.had.co.nz/papers/tidy-data.html"><em>Tidy Data</em> paper:</a> &gt;It is often said that 80% of data analysis is spent on the cleaning and preparing data. And it’s not just a first step, but it must be repeated many over the course of analysis as new problems come to light or new data is collected. To get a handle on the problem, this paper focuses on a small, but important, aspect of data cleaning that I call data tidying: structuring datasets to facilitate analysis.</p>
 <p>From <a href="http://blog.rstudio.org/2014/07/22/introducing-tidyr/">RStudio’s introduction to <code>tidyr</code></a>:</p>
@@ -2514,7 +2279,7 @@ There are several options to clone your repository to your local machine. When g
 <p><code>gather()</code> is arguably the most useful function in <code>tidyr</code>, and is explained in more detail below. <code>spread()</code> and <code>separate()</code> are other useful functions in <code>tidyr</code>.</p>
 <p>Other ‘tidyr’ references: * <a href="http://vita.had.co.nz/papers/tidy-data.html">Hadley Wickham’s <em>Tidy Data</em> paper:</a> Download the pre-print version for the whys and hows of tidy data. * <a href="http://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html">Cran tidy data vignette:</a> An informal and code heavy version of Hadley’s full <em>Tidy Data</em> paper. * <a href="http://blog.rstudio.org/2014/07/22/introducing-tidyr/">RStudio Blogs: Introducing tidyr:</a> Basics and philosophy of <code>tidyr</code> * <a href="http://swirlstats.com/students.html">swirl tutorial package:</a> A tutorial package built directly into R. Section 2: ‘Getting and Cleaning Data’ runs you through <code>dplyr</code> and <code>tidyr</code> basics * <a href="http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">R data wrangling cheat sheet:</a> A quick reference guide to <code>tidyr</code> and <code>dplyr</code> functions</p>
 <div id="tidyrgather" class="section level4">
-<h4><span class="header-section-number">13.0.2.1</span> tidyr::gather()</h4>
+<h4><span class="header-section-number">12.0.2.1</span> tidyr::gather()</h4>
 <p><strong>Description</strong></p>
 <p><code>gather()</code> takes data organized in rows and collapses them into a column format (a key column and a value column), duplicating all other columns as needed. Use <code>gather()</code> when your data is organized in “wide” format, in which some of your variables are in row form, rather than column form. Another <code>tidyr</code> function, <code>spread()</code>, is more or less the reverse of <code>gather()</code>, to reformat long data into wide data. It is more difficult to work with wide data, but may be more convenient for examining data in a table format.</p>
 <p>Note: <code>gather()</code> essentially replaces <code>melt()</code> in <code>plyr</code> package.</p>
@@ -2536,7 +2301,7 @@ There are several options to clone your repository to your local machine. When g
 </div>
 </div>
 <div id="dplyr-functions" class="section level3">
-<h3><span class="header-section-number">13.0.3</span> <code>dplyr</code> functions</h3>
+<h3><span class="header-section-number">12.0.3</span> <code>dplyr</code> functions</h3>
 <p>The <code>dplyr</code> package includes a number of functions to easily, quickly, and intuitively wrangle your data. Here is a quick introduction with examples from data used in the Ocean Health Index.</p>
 <p>From <a href="http://blog.rstudio.org/2014/01/17/introducing-dplyr/">RStudio’s introduction to <code>dplyr</code></a>:</p>
 <blockquote>
@@ -2564,7 +2329,7 @@ There are several options to clone your repository to your local machine. When g
 <li><a href="http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">R data wrangling cheat sheet:</a> a quick reference guide to <code>tidyr</code> and <code>dplyr</code> functions</li>
 </ul>
 <div id="operator" class="section level4">
-<h4><span class="header-section-number">13.0.3.1</span> %&gt;% operator</h4>
+<h4><span class="header-section-number">12.0.3.1</span> %&gt;% operator</h4>
 <p><strong>Description</strong></p>
 <p>The <code>%&gt;%</code> operator allows you to ‘pipe’ or ‘chain’ a number of function calls, in which the output dataframe of one function is fed directly into the next function as the input dataframe. This lets you avoid creating temporary variables to store intermediate values, and lets you avoid nesting multiple functions. Using <code>%&gt;%</code> makes your code more elegant, streamlined, and easy to read since you are able to write your code on multiple indented lines. From <a href="http://seananderson.ca/2014/09/13/dplyr-intro.html"><code>dplyr</code> and pipes: the basics:</a></p>
 <blockquote>
@@ -2607,7 +2372,7 @@ data_out &lt;- data_in %&gt;%
     arrange(country, commodity)</code></pre>
 </div>
 <div id="dplyrselect" class="section level4">
-<h4><span class="header-section-number">13.0.3.2</span> dplyr::select()</h4>
+<h4><span class="header-section-number">12.0.3.2</span> dplyr::select()</h4>
 <p><strong>Description</strong></p>
 <p><code>select()</code> allows you to choose specific columns/variables from your dataset, and drop all others. Alternately, you can select specific variables to drop, leaving others in place. <code>rename()</code> is a relative of <code>select()</code> that allows you to rename variables, while leaving all variables in place.</p>
 <p><strong>Examples</strong></p>
@@ -2634,7 +2399,7 @@ harvest &lt;- harvest %&gt;%
 <p>The <code>harvest</code> data is fed into <code>select()</code>, and the output is fed into <code>rename()</code>. The final output of this complete flow is assigned to the new variable <code>harvest1</code>. <img src="https://docs.google.com/drawings/d/14uc-1Pgaosfh5kPllJRf_sRXbiGWL4RcBqASqAG5f2E/pub?w=898&amp;h=286" alt="using select() and rename() to organize variables in a data set" /></p>
 </div>
 <div id="dplyrfilter" class="section level4">
-<h4><span class="header-section-number">13.0.3.3</span> dplyr::filter()</h4>
+<h4><span class="header-section-number">12.0.3.3</span> dplyr::filter()</h4>
 <p><strong>Description</strong></p>
 <p><code>filter()</code> allows you to select observations (rows) that match search criteria, using values in specified variables (columns). Drops all observations that do not match the criteria. * Use logical operators &amp; and | to filter on multiple criteria simultaneously</p>
 <p><strong>Example</strong></p>
@@ -2647,7 +2412,7 @@ h_vnm_recent &lt;- harvest %&gt;%
   ### filter with multiple criteria: selects &#39;Vietnam&#39; data from 2009 or later.</code></pre>
 </div>
 <div id="dplyrarrange" class="section level4">
-<h4><span class="header-section-number">13.0.3.4</span> dplyr::arrange()</h4>
+<h4><span class="header-section-number">12.0.3.4</span> dplyr::arrange()</h4>
 <p><strong>Description</strong></p>
 <p><code>arrange()</code> sorts observations (rows) based upon a specified variable or list of variables. Does not actually change the data in any way, only the appearance. Useful for inspecting your data after each processing step.</p>
 <p><strong>Example</strong></p>
@@ -2660,7 +2425,7 @@ harvest_sorted &lt;- harvest %&gt;%
   ### Sorts harvest values by most recent year (descending order)</code></pre>
 </div>
 <div id="dplyrmutate" class="section level4">
-<h4><span class="header-section-number">13.0.3.5</span> dplyr::mutate()</h4>
+<h4><span class="header-section-number">12.0.3.5</span> dplyr::mutate()</h4>
 <p><strong>Description</strong></p>
 <p><code>mutate()</code> is a powerful and useful tool for processing data. You can add new variables or modify existing variables, using all variety of functions to perform operations on the dataset. <code>mutate()</code> works well with <code>group_by()</code> to perform calculations and analysis at a group level rather than dataset level.</p>
 <p><strong>Example</strong></p>
@@ -2688,7 +2453,7 @@ harvest1 &lt;- harvest %&gt;%
 <p>Notes: * In this example, no new variables were added. Multiple variables can be changed with one call to <code>mutate()</code>. Multiple modifications to ‘tonnes’ happen sequentially, so order is important. * The <code>as.numeric(as.character(...))</code> gets around the fact that these text variables are stored as ‘factor’ class, rather than ‘character’ class. <code>as.character()</code> forces them into character class, and then the <code>as.numeric()</code> can convert the character strings to numeric where applicable. Similar for <code>as.integer(...)</code></p>
 </div>
 <div id="dplyrsummarize-or-summarise" class="section level4">
-<h4><span class="header-section-number">13.0.3.6</span> dplyr::summarize() ( or summarise() )</h4>
+<h4><span class="header-section-number">12.0.3.6</span> dplyr::summarize() ( or summarise() )</h4>
 <p><strong>Description</strong></p>
 <p><code>summarize()</code> combines multiple values of a variable into a single summary value. <code>summarize()</code> works well with <code>group_by()</code> - for grouped data, each group will be summarized and reported separately. For ungrouped data, the summary covers the entire dataset.</p>
 <ul>
@@ -2703,7 +2468,7 @@ harvest1 &lt;- harvest %&gt;%
   ungroup()</code></pre>
 </div>
 <div id="dplyrgroup_by" class="section level4">
-<h4><span class="header-section-number">13.0.3.7</span> dplyr::group_by()</h4>
+<h4><span class="header-section-number">12.0.3.7</span> dplyr::group_by()</h4>
 <p><strong>Description</strong></p>
 <p><code>group_by()</code> allows you to easily group a dataset by one or more variables/columns.<br />
 By itself, it does nothing to change your data. But once your dataset has been sorted into useful groups, other <code>dplyr</code> functions will operate on each group separately, rather than operating on the entire dataset. * The function <code>groups(data)</code> reports back the current grouping status of dataframe <code>data</code>.</p>
@@ -2735,7 +2500,7 @@ h_tot_mut &lt;- harvest %&gt;%
 </div>
 </div>
 <div id="coding-style" class="section level3">
-<h3><span class="header-section-number">13.0.4</span> Coding style</h3>
+<h3><span class="header-section-number">12.0.4</span> Coding style</h3>
 <blockquote>
 <p>Code unto others as you would have them code unto you.</p>
 </blockquote>
@@ -2758,7 +2523,7 @@ h_tot_mut &lt;- harvest %&gt;%
 <li>Note that these are guidelines, not rules; non-stylish code can still work.</li>
 </ul>
 <div id="best-practices-for-coding-in-ohi-assessments" class="section level4">
-<h4><span class="header-section-number">13.0.4.1</span> Best practices for coding in OHI assessments:</h4>
+<h4><span class="header-section-number">12.0.4.1</span> Best practices for coding in OHI assessments:</h4>
 <ul>
 <li>use a consistent format for variable names, filenames, function names, etc.
 <ul>
@@ -2802,21 +2567,21 @@ h_tot_mut &lt;- harvest %&gt;%
 </ul>
 </div>
 <div id="writing-functions" class="section level4">
-<h4><span class="header-section-number">13.0.4.2</span> Writing functions</h4>
+<h4><span class="header-section-number">12.0.4.2</span> Writing functions</h4>
 <p><a href="http://nicercode.github.io/guides/functions/" class="uri">http://nicercode.github.io/guides/functions/</a> Why write functions? * name a chunk of code for easier reading * easily reuse a chunk of code</p>
 <p>What makes a good function: * It’s short * Performs a single operation * Uses intuitive names</p>
 </div>
 <div id="directories-and-files" class="section level4">
-<h4><span class="header-section-number">13.0.4.3</span> Directories and files</h4>
+<h4><span class="header-section-number">12.0.4.3</span> Directories and files</h4>
 <pre><code>* Store files in a folder called &#39;github&#39; in your home directory; access it with `~/github` so that users with different operating systems can work smoothly with your files</code></pre>
 </div>
 </div>
 </div>
 <div id="appendix-6-frequently-asked-questions-faqs" class="section level1">
-<h1><span class="header-section-number">14</span> Appendix 6: Frequently Asked Questions (FAQs)</h1>
+<h1><span class="header-section-number">13</span> Appendix 6: Frequently Asked Questions (FAQs)</h1>
 <p>This document provides answers to some frequently asked questions about conducting regional assessments using the Ocean Health Index. A few questions are related to general concepts in the Ocean Health Index, but mostly those topics are covered at <a href="http://www.oceanhealthindex.org/About/FAQ/" class="uri">http://www.oceanhealthindex.org/About/FAQ/</a>. Here, the FAQ are primarily technical questions regarding regional assessments and using the OHI Toolbox. This document will be updated continually as we have more questions. Questions are arranged by theme, and have the format Q: (question) and A: (answer).</p>
 <div id="conceptual" class="section level2">
-<h2><span class="header-section-number">14.1</span> Conceptual</h2>
+<h2><span class="header-section-number">13.1</span> Conceptual</h2>
 <p><strong>Q: Are regional assessment scores comparable with global assessment scores?</strong></p>
 <p>A: Regional Index scores cannot be directly compared to global Index scores, or to other regional Index scores calculated through separate efforts. This is because data and indicators (both what they measure and their quality), reference points (set using local knowledge and priorities), and specific goal models are often different for the areas being compared.</p>
 <p>However, because scores for each goal are scaled to a reference point, qualitative comparisons can be made. For example, a score of 71 in the US West Coast compared to 66 in Brazil says that the US West coast is closer to fully meeting its sustainable goals (i.e., meeting regional reference points). Furthermore, use of the same Ocean Health Index framework across regional assessments permits fruitful discussion and general comparisons even if data inputs differ. Ocean Health Index assessments at any scale always work within a standardized definition of ocean health, using information to capture the philosophy of the ten goals that have been identified (and undergone scientific peer-review) prior to compiling relevant data. Use of the ten-goal framework is important both to ensure that all aspects of ocean health are captured and to allow better comparison across regional assessments than would be possible if the different regions used different methods.</p>
@@ -2857,7 +2622,7 @@ h_tot_mut &lt;- harvest %&gt;%
 <p>OHI is also human benefits-driven, not ecologically-driven. It happens that CS, CP, and HAB are affected by similar factors, but they provide non-overlapping benefits. It is the design of OHI to show the connectivity among goals. If certain habitats are good for multiple goals, there is strong incentive to focus energy and resources to protect those habitats.</p>
 </div>
 <div id="timing-and-resources" class="section level2">
-<h2><span class="header-section-number">14.2</span> Timing and Resources</h2>
+<h2><span class="header-section-number">13.2</span> Timing and Resources</h2>
 <p><strong>Q: How much does it cost to produce a regional assessment?</strong></p>
 <p>A: Regional assessments can be completed at (varying costs depending on the local context).Funds are needed for a management and scientific team, workshops and meetings (including travel), communications, policy engagement, and operating costs. Therefore, securing funding is an important component to satisfactorily complete the assessment. We encourage the development of a local proposal or strategic action plan that details a timeline of activities and the resources needed to accomplish them.</p>
 <p><strong>Q: How many people are required in a team?</strong></p>
@@ -2872,14 +2637,14 @@ h_tot_mut &lt;- harvest %&gt;%
 <p>A: All goals using spatial data could potentially require a GIS analyst. These goals are commonly: habitat-based goals and sub-goals: (Coastal Protection, Carbon Storage, Habitats—a sub-goal of Biodiversity), Food Provision, Sense of Place, Species—a sub-goal of Biodiversity, Clean Waters</p>
 </div>
 <div id="structure" class="section level2">
-<h2><span class="header-section-number">14.3</span> Structure</h2>
+<h2><span class="header-section-number">13.3</span> Structure</h2>
 <p><strong>Q: Can we remove or add goals to the OHI?</strong></p>
 <p>A: A lot of deliberation went into defining the ten goals, and they seem to do a pretty good job of covering many if not most ocean uses, so additional goals may not be necessary. But it could be that they eclipse or replace an existing goal.</p>
 <p><strong>Q: What is sector evenness?</strong></p>
 <p>A: Sector evenness (also called a diversity index) is an economic concept that is included in OHI to enable comparison across many different sectors included in the Livelihoods &amp; Economies goal. This goal evaluates jobs, wages and revenues for nine marine employment sectors. The distribution of employment across these nine sectors is an effective indicator of resilience. If total employment within a community is primarily based in one or two sectors, the overall economic system will be excessively vulnerable to downturns in those sectors. Conversely, if employment is spread relatively evenly throughout all nine sectors, the overall system will be more robust and resistant to such disturbances. Overall revenue within the community will remain more stable during such downturns, and workers displaced by a downturn in their sector may be able to find employment in another sector without leaving the community. Sector evenness was used as a resilience measure for Livelihood &amp; Economies goal.</p>
 </div>
 <div id="appropriate-data-layers" class="section level2">
-<h2><span class="header-section-number">14.4</span> Appropriate data layers</h2>
+<h2><span class="header-section-number">13.4</span> Appropriate data layers</h2>
 <!-- **Q: Shipping and port activity are hardly affected by the health of the ecosystem. Why are these included in the Index?**
 
 A: Shipping and port activity are included as pressures only -->
