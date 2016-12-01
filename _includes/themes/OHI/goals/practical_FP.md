@@ -1,3 +1,9 @@
+# Appendix 2: Goal descriptions
+
+Global OHI assessments categorized and scored ten goals and eight sub-goals representing ocean-derived benefits to people. These goals and sub-goals are listed below, along with the philosophy of the goal, an ‘ideal’ approach to how it would be represented, practical guidance for modelling, and examples from completed assessments.
+
+You could also find this information at http://ohi-science.org/goals/ page.
+
 ### Food Provision
 
 One of the most fundamental services the ocean provides people is the provision
@@ -69,7 +75,7 @@ practices can also act as pressures for other goals, for example destructive
 fishing practices can impact habitat-based goals and genetic escapes from
 mariculture practices can affect Fisheries and Biodiversity.
 
-#### sub-goal: Fisheries 
+#### sub-goal: Fisheries
 
 The Fisheries sub-goal describes the amount of wild-caught
 seafood harvested and its sustainability for human consumption. The model
@@ -221,13 +227,13 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 [**Global 2013 - 2015**](http://ohi-science.org/assessment/global) | The status was calculated based on estimating population biomass relative to the biomass that can deliver maximum sustainable yield for each landed stock (B/B<sub>MSY</sub>) using the catch-MSY model. Single-species values of B/ B<sub>MSY</sub> were aggregated using a geometric mean. | The reference point was similar to Global 2012 where regions were penalized for under-harvest and more severely for over-harvest. | The catch status was improved in this assessment to capture multi-species effects.The reference point was calculated through a more robust model than the one used in Global 2012, and it is a more direct measure of population health because it relates directly to population size.
 [**Brazil 2014**](http://ohi-science.org/assessment/Brazil) | The status was calculated in the same manner as Global 2012, with a modified sustainability term. | As in Global 2012, the reference point is based on an estimate mMSY. | This was calculated in the same manner as Global 2012 using local-scale data on exploitation category of species caught within Brazil’s EEZ as a catch-based sustainability index.
 [**U.S. West Coast 2014**](http://ohi-science.org/assessment/US-West-Coast) | The status was based on B/B<sub>MSY</sub> for each landed stock and fishing mortality that can deliver maximum sustainable yield (F/FMSY). There were stock assessments for 41 species with historical data available. Estimates were extracted for each species and then assigned to each region based on the contribution of each species in each region to the overall catch in that region, along with weighting factors. |  The reference point was a functional relationship that accounted for fishing pressure. The approach produced lower scores for species where both under-fishing and overfishing are occurring, but did not punish as much for under-fishing of stocks. | This study used formal stock assessments rather than data-poor estimates from catch data. The use of historical information was useful in creating sub-regional scores for this goal. This study also tested the use of a recently published data-poor approach (Costello *et al.* 2012) to obtain B/ B<sub>MSY</sub> values for the remaining stocks.
-[**Israel 2014**](http://ohi-science.org/assessment/Israel) | See Global 2013 assessment. | See Global 2013 assessment. | This study used available data from the past 10 years (10 species and 9 other taxonomy groups). Trend was calculated between 2005 and 2010. 
+[**Israel 2014**](http://ohi-science.org/assessment/Israel) | See Global 2013 assessment. | See Global 2013 assessment. | This study used available data from the past 10 years (10 species and 9 other taxonomy groups). Trend was calculated between 2005 and 2010.
 [**Ecuador-Gulf of Guayaquil 2015**](http://ohi-science.org/assessment/Ecuador) | The approach is the same as Global 2013-2015. |	The same as Global 2013-2015. | Mean catch-per-taxon values come from FAO data updated with local data from Instituto Nacional de Pesca (INP).
 [**China 2015**](http://ohi-science.org/assessment/China) | See Global 2012 assessment. | See Global 2012 assessment. | Data sources were poor for this assessment. Harvest data were reported by each fishing boat, which often fishes across provincial boundaries and outside of the EEZ. Current data thus might not reflect the best regional differences, and may exceed actual harvest levels within the EEZ.
 
 </span>
 
-#### sub-goal: Mariculture 
+#### sub-goal: Mariculture
 
 Mariculture measures the ability to reach the highest levels of seafood
 gained from farm-raised facilities without damaging the ocean's ability to
@@ -325,7 +331,7 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 [**Brazil 2014**](http://ohi-science.org/assessment/Brazil) | The status was calculated using harvest data reported by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA). For each of up to four species cultured within the state, the score was determined by the yield, the reference sustainable production per unit area, and the total potential farming area. |  Reference points were set for each species. | In this study it was possible to use both biophysical constraints and social preferences.
 [**U.S. West Coast 2014**](http://ohi-science.org/assessment/US-West-Coast) | The status was calculated as the sustainable production density of shellfish biomass from mariculture relative to a target level of production density for each state within the region. | The reference point was a target level of production increase as proposed by NOAA | The approach was similar to the Global but the reference point was made using better information about physical and social limitations on mariculture allotments.
 [**Israel 2014**](http://ohi-science.org/assessment/Israel) | The status of the Mariculture sub-goal was calculated as the sustainable production of finfish biomass from mariculture relative to a target level of production for  Israel. | The official target yield by the year 2020 (8,500 tons of finfish). | Species considered in the analysis were limited to one (Sparus aurata), because this species comprises nearly all (an estimated 99%) of the current mariculture production of seafood in Israel. Mariculture is regulated centrally for the whole of Israel and is currently legally carried out in specific areas of the Southern region. As such, the score for South was applied to all other regions.
-[**Ecuador-Gulf of Guayaquil 2015**](http://ohi-science.org/assessment/Ecuador) | Two relevant species were assessed: shrimp and tilapia. Status was calculated as an average of the two species' production in four recent years. This value is multiplied by a sustainability index for mariculture locally, and divided by the number of inhabitants in the coastal zone for each region. | A spatial reference point was used here, ie. region with the highest production. | 
+[**Ecuador-Gulf of Guayaquil 2015**](http://ohi-science.org/assessment/Ecuador) | Two relevant species were assessed: shrimp and tilapia. Status was calculated as an average of the two species' production in four recent years. This value is multiplied by a sustainability index for mariculture locally, and divided by the number of inhabitants in the coastal zone for each region. | A spatial reference point was used here, ie. region with the highest production. |
 [**China 2015**](http://ohi-science.org/assessment/China) | Status model is similar to the 2012 global assessment. But the status model was based on tonnes of mariculture species per habitat identified as suitable area by the Chinese government.| The spatial reference point was the region with the highest value. | Using designated mariculture area for calculations provides a more realistic picture of the status of mariculture. Currently Mariculture Sustainability Index (MSI) values were obtained from the global study. More data on water quality standards and food sources (eg. species, origin, etc) will help determine the sustainability of mariculture.
 
 </span>
