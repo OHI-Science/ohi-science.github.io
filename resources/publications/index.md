@@ -22,6 +22,12 @@ Patterns and emerging trends in global ocean health.
 
 - <a href="http://doi.org/10.7717/peerj.1503" target="_blank">Lowndes et al. 2015</a>, *PeerJ*\*. Best practices for assessing ocean health in multiple contexts using tailorable frameworks.
 
+#### U.S. West Coast
+
+- <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995" target="_blank">Halpern et al. 2014</a>, *PLoS ONE*\*.
+Assessing the health of the U.S. West Coast with a regional-scale application of the Ocean Health Index.
+<a href="https://github.com/OHI-Science/ohi-uswest/blob/master/USwest_PLOS.zip?raw=true" target="_blank">(data)</a>
+
 #### Brazil
 
 - <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0092589" target="_blank">Elfes et al. 2014</a>, *PLoS ONE*\*. A regional-scale Ocean Health Index for Brazil. <a href="http://ohi.nceas.ucsb.edu/data/br-2012/" target="_blank">(data)</a>
@@ -30,12 +36,6 @@ Patterns and emerging trends in global ocean health.
 
 - <a href="http://www.sciencedirect.com/science/article/pii/S2212041614001363" target="_blank">Selig et al. 2015</a>, *Ecosystem Services*.
 Measuring indicators of ocean health for an island nation: The Ocean Health Index for Fiji.
-
-#### U.S. West Coast
-
-- <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995" target="_blank">Halpern et al. 2014</a>, *PLoS ONE*\*.
-Assessing the health of the U.S. West Coast with a regional-scale application of the Ocean Health Index.
-<a href="https://github.com/OHI-Science/ohi-uswest/blob/master/USwest_PLOS.zip?raw=true" target="_blank">(data)</a>
 
 ## OHI supporting methods
 
@@ -65,24 +65,23 @@ Mapping Uncertainty Due to Missing Data in the Global Ocean Health Index.
 - <a href="http://www.sciencedirect.com/science/article/pii/S0308597X13000286" target="_blank">Halpern et al. 2013</a>, *Marine Policy*.
 Elicited preferences for components of ocean health in the California Current.
 
-#### Multipliers
-
-- <a href="http://www.sciencedirect.com/science/article/pii/S0308597X13002169" target="_blank">Jacobsen et al. 2014</a>, *Marine Policy*.
-A global synthesis of the economic multiplier effects of marine sectors.
-
-
 #### Goal models
 
 - <a href="http://link.springer.com/article/10.1007/s13280-013-0447-x" target="_blank">Kleisner et al. 2013</a>, *AMBIO*.
 Exploring patterns of seafood provision revealed in the global Ocean Health Index.  
 - <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284" target="_blank">Selig et al. 2013</a>, *PLoS ONE*\*. Assessing global marine biodiversity status within a coupled socio-ecological perspective.
 
+#### Multipliers
+
+- <a href="http://www.sciencedirect.com/science/article/pii/S0308597X13002169" target="_blank">Jacobsen et al. 2014</a>, *Marine Policy*.
+A global synthesis of the economic multiplier effects of marine sectors.
+
 ## Marine assessments
 
 - <a href="http://journal.frontiersin.org/article/10.3389/fmars.2014.00072/full" target="_blank">Borja et al. 2014</a>, *PLoS ONE*\*.
 Tales from a thousand and one ways to integrate marine ecosystem components when assessing the environmental status.  
 
-- Halpern et al. 2016. Chapter 7.8: Ocean Health Index for the world’s large marine ecosystems. In: IOC-UNESCO and UNEP. Large Marine Ecosystems: Status and Trends. United Nations Environment Programme, Nairobi, pp. 239–249.
+- Halpern et al. 2016, Chapter 7.8: Ocean Health Index for the world’s large marine ecosystems. In: IOC-UNESCO and UNEP. Large Marine Ecosystems: Status and Trends. United Nations Environment Programme, Nairobi, pp. 239–249.
 
 - <a href="http://www.sciencedirect.com/science/article/pii/S0308597X16302937" target="_blank">Blasiak et al. 2016</a>, *Marine Policy*\*.
 Local and regional experiences with assessing and fostering ocean health.  
