@@ -63,7 +63,7 @@ Our current team is based at the **National Center for Ecological Analysis and S
 - Erich Pacheco, MSc  
 - Courtney Scarborough, MSc
 
-Learn more about us at [www.oceanhealthindex.org/about](www.oceanhealthindex.org/about).  
+Learn more about us at <a href="http://www.oceanhealthindex.org/about" target="_blank">www.oceanhealthindex.org/about</a>.  
   
   
 **If you are interested in beginning an OHI+ assessment**, please contact Erich, Julie, or Ning at info @ ohi-science.org.
