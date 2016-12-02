@@ -4,10 +4,8 @@ title: Publications
 header: coast.jpg
 ---
 
-Publications by the OHI team are listed below along with downloadable data. OHI+ reports and publications are also listed.  
-Open access articles are indicated with a *.
-
-# Peer-reviewed publications
+Peer-reviewed publications by the OHI team; * indicates open access.  
+Scroll down for OHI+ reports and publications.  
 
 ## OHI assessments
 
