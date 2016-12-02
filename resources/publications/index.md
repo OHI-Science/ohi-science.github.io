@@ -83,12 +83,12 @@ Tales from a thousand and one ways to integrate marine ecosystem components when
 
 - Halpern et al. 2016, Chapter 7.8: Ocean Health Index for the world’s large marine ecosystems. In: IOC-UNESCO and UNEP. Large Marine Ecosystems: Status and Trends. United Nations Environment Programme, Nairobi, pp. 239–249.
 
-- <a href="http://www.sciencedirect.com/science/article/pii/S0308597X16302937" target="_blank">Blasiak et al. 2016</a>, *Marine Policy*\*.
+- <a href="http://www.sciencedirect.com/science/article/pii/S0308597X16302937" target="_blank">Blasiak et al. 2016</a>, *Marine Policy*.
 Local and regional experiences with assessing and fostering ocean health.  
 
 ---- 
 
-# OHI+ documentation
+## OHI+ documentation
 
 #### Israel
 
