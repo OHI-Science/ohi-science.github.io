@@ -75,6 +75,11 @@ A global synthesis of the economic multiplier effects of marine sectors.
 Exploring patterns of seafood provision revealed in the global Ocean Health Index.  
 - <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284" target="_blank">Selig et al. 2013</a>, *PLoS ONE*\*. Assessing global marine biodiversity status within a coupled socio-ecological perspective.
 
+#### Uncertainty
+
+- <a href="http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0160377" target="_blank">Frazier et al. 2016</a>, *PLoS ONE*\*.
+Mapping Uncertainty Due to Missing Data in the Global Ocean Health Index.  
+
 # OHI+ documentation
 
 #### Israel
