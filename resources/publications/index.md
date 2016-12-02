@@ -20,6 +20,10 @@ An index to assess the health and benefits of the global ocean.
 Patterns and emerging trends in global ocean health.
 <a href="https://github.com/OHI-Science/ohi-global/blob/master/eez2013/OHI2013_PLOS.zip?raw=true" target="_blank">(2013 and updated 2012 global data)</a>
 
+#### Best Practices
+
+- <a href="http://doi.org/10.7717/peerj.1503" target="_blank">Lowndes et al. 2015</a>, *PeerJ*\*. Best practices for assessing ocean health in multiple contexts using tailorable frameworks.
+
 #### Brazil
 
 - <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0092589" target="_blank">Elfes et al. 2014</a>, *PLoS ONE*\*. A regional-scale Ocean Health Index for Brazil. <a href="http://ohi.nceas.ucsb.edu/data/br-2012/" target="_blank">(data)</a>
@@ -34,11 +38,6 @@ Measuring indicators of ocean health for an island nation: The Ocean Health Inde
 - <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995" target="_blank">Halpern et al. 2014</a>, *PLoS ONE*\*.
 Assessing the health of the U.S. West Coast with a regional-scale application of the Ocean Health Index.
 <a href="https://github.com/OHI-Science/ohi-uswest/blob/master/USwest_PLOS.zip?raw=true" target="_blank">(data)</a>
-
-#### Best Practices
-
-- <a href="http://doi.org/10.7717/peerj.1503" target="_blank">Lowndes et al. 2015</a>, *PeerJ*\*. Best practices for assessing ocean health in multiple contexts using tailorable frameworks.
-
 
 ## OHI supporting methods
 
@@ -58,6 +57,11 @@ Spatial and temporal changes in cumulative human impacts on the world's ocean.
 - <a href="http://www.esajournals.org/doi/abs/10.1890/ES11-00366.1" target="_blank">Samhouri et al. 2012</a>, *Ecosphere*.
 Sea Sick? Setting targets to assess ocean health and ecosystem services.
 
+#### Uncertainty
+
+- <a href="http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0160377" target="_blank">Frazier et al. 2016</a>, *PLoS ONE*\*.
+Mapping Uncertainty Due to Missing Data in the Global Ocean Health Index.  
+
 #### Goal weighting
 
 - <a href="http://www.sciencedirect.com/science/article/pii/S0308597X13000286" target="_blank">Halpern et al. 2013</a>, *Marine Policy*.
@@ -74,11 +78,6 @@ A global synthesis of the economic multiplier effects of marine sectors.
 - <a href="http://link.springer.com/article/10.1007/s13280-013-0447-x" target="_blank">Kleisner et al. 2013</a>, *AMBIO*.
 Exploring patterns of seafood provision revealed in the global Ocean Health Index.  
 - <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284" target="_blank">Selig et al. 2013</a>, *PLoS ONE*\*. Assessing global marine biodiversity status within a coupled socio-ecological perspective.
-
-#### Uncertainty
-
-- <a href="http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0160377" target="_blank">Frazier et al. 2016</a>, *PLoS ONE*\*.
-Mapping Uncertainty Due to Missing Data in the Global Ocean Health Index.  
 
 ## Marine assessments
 
