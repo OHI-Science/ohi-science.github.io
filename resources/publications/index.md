@@ -80,6 +80,18 @@ Exploring patterns of seafood provision revealed in the global Ocean Health Inde
 - <a href="http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0160377" target="_blank">Frazier et al. 2016</a>, *PLoS ONE*\*.
 Mapping Uncertainty Due to Missing Data in the Global Ocean Health Index.  
 
+## Marine assessments
+
+- <a href="http://journal.frontiersin.org/article/10.3389/fmars.2014.00072/full" target="_blank">Borja et al. 2014</a>, *PLoS ONE*\*.
+Tales from a thousand and one ways to integrate marine ecosystem components when assessing the environmental status.  
+
+- Halpern et al. 2016. Chapter 7.8: Ocean Health Index for the world’s large marine ecosystems. In: IOC-UNESCO and UNEP. Large Marine Ecosystems: Status and Trends. United Nations Environment Programme, Nairobi, pp. 239–249.
+
+- <a href="http://www.sciencedirect.com/science/article/pii/S0308597X16302937" target="_blank">Blasiak et al. 2016</a>, *Marine Policy*\*.
+Local and regional experiences with assessing and fostering ocean health.  
+
+---- 
+
 # OHI+ documentation
 
 #### Israel
