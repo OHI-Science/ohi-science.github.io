@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OHI+ Workshop in Indonesia"
+author: Ning Jiang
 category : news 
 tags : [news]
 ---

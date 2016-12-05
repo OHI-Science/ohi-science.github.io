@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New Goals Guide Page"
+author: Ning Jiang
 category : news
 tags : [news]
 ---

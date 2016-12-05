@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OHI Presentation at RStudio Shiny Conference"
+author: Julie Lowndes
 category: news
 tags: [news]
 ---

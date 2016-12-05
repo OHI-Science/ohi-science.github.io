@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to utilize other OHI+ projects for guidance"
+author: Ning Jiang
 category : news
 tags : [news]
 ---

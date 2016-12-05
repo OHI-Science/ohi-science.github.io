@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New OHI publication in PeerJ"
+author: Ning Jiang
 category : news
 tags : [news]
 ---

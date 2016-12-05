@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to get help when conducting an OHI+ assessment"
+author: Ning Jiang
 category : news
 tags : [news]
 ---

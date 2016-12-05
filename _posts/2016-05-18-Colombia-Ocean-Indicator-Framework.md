@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Colombia's Ocean Indicator Framework"
+author: Erich Pacheco
 category : news 
 tags : [news]
 ---

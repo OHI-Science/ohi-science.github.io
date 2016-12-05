@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OHI-Science website redesigned!"
+author: Ning Jiang
 output: html_document
 category: news
 tags: [news]
