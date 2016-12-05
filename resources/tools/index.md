@@ -54,11 +54,11 @@ Cumulative Human Impacts "raw stressor data" was used to obtain pressure informa
 Some of the stressor data, and some methods, has been updated since the publication of the 2015 Cumulative Human Impacts data. The updated data were used in the global OHI 2015 analysis to generate pressures data. The data sources and methods used to process these data are available from GitHub for the following stressors:  
 
 - <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/prs_oa/v2016" target="_blank">Ocean Acidification</a>
-- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_SeaLevelRise/v2015" target="_blank">Sea Level Rise</a>  
-- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_SST" target="_blank">Sea Surface Temperature</a>  
-- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/prs_uv" target="_blank">Ultraviolet Radiation</a>  
-- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/Pressures_fishing/v2015" target="_blank">Commercial Fishing</a>  
-- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/CW_pressure_trash" target="_blank">Marine Plastics</a>  
+- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/prs_slr/v2016" target="_blank">Sea Level Rise</a>  
+- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/prs_sst/v2016" target="_blank">Sea Surface Temperature</a>  
+- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/prs_uv/v2016" target="_blank">Ultraviolet Radiation</a>  
+- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/prs_fish/v2016" target="_blank">Commercial Fishing</a>  
+- <a href="https://github.com/OHI-Science/ohiprep/tree/master/globalprep/cw_pressure_trash/v2015" target="_blank">Marine Plastics</a>  
 
 
 
