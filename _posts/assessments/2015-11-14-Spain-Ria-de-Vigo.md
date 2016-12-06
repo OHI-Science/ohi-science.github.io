@@ -11,4 +11,4 @@ tags : [Europe, OHI+]
 **Contact**: Sebastian Villasante (s.villasante.arg @ gmail.com)  
 **Description:** This assessment will evaluate the coast of Galicia and compare its health through time.
 
-[documentation](/resources/publications#spain)
+[documentation](/resources/publications#spain) 
