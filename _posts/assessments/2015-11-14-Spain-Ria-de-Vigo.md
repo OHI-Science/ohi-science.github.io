@@ -1,6 +1,6 @@
 ---
 layout: assessment
-title: "Spain-Galicia"
+title: "Spain-Ria de Vigo"
 excerpt_separator: <!--more-->
 category : assessment
 tags : [Europe, OHI+]
