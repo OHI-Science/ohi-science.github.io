@@ -1,3 +1,5 @@
+- text: Global
+  url: /ohi-global/
 - text: OHI+
   url: /phases/
   subitems:
