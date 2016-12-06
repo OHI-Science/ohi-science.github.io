@@ -6,8 +6,8 @@ layout: default
 <div class="container post" data-title="{{ page.title }}">
 	<hgroup>
 		<h1>{{ page.title }}</h1>
+		<h6>Written by {{ page.author }}</h6>
 		<time class="post-date" datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
-		<h4>{{ page.author }}</h4>
 	</hgroup>
 	
 	{{ content }}
