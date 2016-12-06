@@ -90,14 +90,18 @@ Local and regional experiences with assessing and fostering ocean health.
 
 ## OHI+ documentation
 
+##### Ecuador
+
+- <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_InformeFinal.pdf" target="_blank">Download OHI+ Gulf of Guayaquil 2015 Final Report (in Spanish)</a>
+- <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/3c6babb40348e62b322abadad086ece565411adf/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_Metas.zip" target="_blank">Download OHI+ Gulf of Guayaquil 2015 Goal details (in Spanish)</a>
+
 ##### Israel
 
 - <a href="http://magazine.isees.org.il/ArticlePage.aspx?ArticleId=456" target="_blank">Tsemel et al. 2014, <em>Ecology & Environment</em>. D Grade for the Mediterranean- Applying the Ocean Health Index to Israel. (in Hebrew).</a>
 צמל, ע., א. שיינין, וי. סוארי. 2014. ציון “מספיק בקושי” לים התיכון – התאמת מדד בריאות הים העולמי לישראל. אקולוגיה וסביבה 3: 218–222 
 - <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BIsrael_2014.pdf" target="_blank">Download OHI+ Israel 2014 Supplementary Information (in English)</a> 
   
+##### Spain
 
-##### Ecuador
+- <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BRiadeVigoAO_2015.pdf" target="_blank">Download OHI+ Ria de Vigo Artisanal Opportunity Goal Masters Thesis 2016 (in Spanish with English abstract)</a>
 
-- <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_InformeFinal.pdf" target="_blank">Download OHI+ Gulf of Guayaquil 2015 Final Report (in Spanish)</a>
-- <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/3c6babb40348e62b322abadad086ece565411adf/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_Metas.zip" target="_blank">Download OHI+ Gulf of Guayaquil 2015 Goal details (in Spanish)</a>
