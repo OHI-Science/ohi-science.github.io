@@ -1,5 +1,5 @@
-#- text: Global
-#  url: /ohi-global/
+- text: Global
+  url: /ohi-global/
 - text: OHI+
   url: /phases/
   subitems:

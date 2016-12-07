@@ -13,13 +13,11 @@ Our team has developed tools for quantifying human impacts on and benefits from 
 
 ![](https://docs.google.com/drawings/d/1lDG36M2pBJ-7cQ4qwp2KB8lETIJtMjeqQPst20z8n6M/pub?h=150)
 
-**Assessments using the OHI framework** can be conducted at different spatial scales and contexts. The OHI Science team uses the framework to conduct global assessments of ocean health annually from 2012-2015, with the 2016 assessment underway. The first global assessment was published accompanying the OHI framework in *Nature* 2012, and certain methods were improved for the second annual assessment published in *PLoS ONE* in 2015. With each annual assessment, models incoporate the most updated input information and processing techniques are evaluated and improved. 
+**Assessments using the OHI framework** can be conducted at different spatial scales and contexts. The OHI Science team uses the framework to conduct global assessments of ocean health annually. The first global assessment was published accompanying the OHI framework in *Nature* 2012, and certain methods were improved for the second annual assessment published in *PLoS ONE* in 2015. With each annual assessment, models incoporate the most updated input information and processing techniques are evaluated and improved. 
 
-### Download data and methods from OHI global assessments
+### Explore data and methods from OHI global assessments
 
-Data and scripts from OHI global assessments are available for 2012, 2013, 2014, and 2015. Explore the <a href="https://github.com/OHI-Science/ohi-global/releases" target="_blank">data and methods used for these assessments (including Antarctica and the High Seas)</a>, stored on GitHub. 
-
-### For more information 
+Learn more about the <a href="http://ohi-science.org/ohi-global" target="_blank">science behind the global assessments</a> by exploring and downloading methods, data, and code.  
 
 Please see [publications](/resources/publications) about the OHI framework, assessments and supporting research, view [presentations](/resources/downloads) describing the framework, explore [current and on-going assessments](/projects), and learn more about [OHI goals](/goals).
 
