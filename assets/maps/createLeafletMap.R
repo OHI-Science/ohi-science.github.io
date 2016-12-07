@@ -29,6 +29,8 @@ if (Sys.info()[['sysname']] != 'Linux' & !file.exists(dir_M)){
   warning(sprintf("The Mazu directory dir_M set in src/R/common.R does not exist. Do you need to mount Mazu: %s?", dir_M))
 }
 
+setwd('assets/maps')
+
 ####################
 # uses leaflet and htmlwidgets to save html file
 region_poly <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions',
