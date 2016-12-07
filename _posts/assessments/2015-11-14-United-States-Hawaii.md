@@ -8,5 +8,5 @@ tags : [OHI+, Oceania]
 
 **Status**: Active  
 **Leading group**: Conservation International and the U.S. National Oceanic and Atmospheric Administration  
-**Contact**: Dr. Jack Kittinger (jkittinger @ conservation.org)  
+**Contact**: Dr. Eva Schemmel (eschemmel @ conservation.org)
 **Description**: Small-scale assessment to measure progress towards ocean health and sustainable economic growth.  
