@@ -1,16 +1,14 @@
-"country","phase","map_display","display","lat","lon"
-"Spain - Bay of Biscay","active","point","<a href=""#Spain-Bay-of-Biscay"">Spain - Bay of Biscay</a>",43.318334,-1.981231
-"Spain - Galicia","active","point","<a href=""#Spain-Galicia"">Spain - Galicia</a>",42.878213,-8.544844
-"Spain - Gulf of Cadiz","active","point","<a href=""#Spain-Bay-of-Biscay"">Spain - Gulf of Cadiz</a>",36.527061,-6.288596
-"Peru","active","point","<a href=""#Peru"">Peru</a>",-9.189967,-75.015152
-"United States - Hawaii","active","point","<a href=""#United-States-Hawaii"">United States - Hawaii</a>",19.896766,-155.582782
-"New Caledonia","active","point","New Caledonia",-21.566935,165.498552
-"British Virgin Islands","active","point","British Virgin Islands",18.420695,-64.639968
-"South Korea","active","point","South Korea",35.907757,127.766922
-"Japan","active","point","Japan",36.204824,138.252924
-"Indonesia","active","point","Indonesia",-6.208763,106.845599
-"Madagascar","interested","point","Madagascar",-18.766947,46.869107
-"Panama","interested","point","Panama",8.537981,-80.782127
-"Mexico","interested","point","Mexico",23.634501,-102.552784
-"United States - Northeast","active","point","<a href=""#United-States-Northeast"">United States - Northeastern Coast</a>",41.699096,-70.320911
-"Canada - Atlantic","active","point","<a href=""#Canada-Atlantic"">Canada - Atlantic Coast </a>",48.524444,-64.21268
+"country","ohi_plus","phase","map_display","display","lat","lon"
+"Spain - Bay of Biscay","YES","active","point","<a href=""#Spain-Bay-of-Biscay"">Spain - Bay of Biscay</a>",43.318334,-1.981231
+"Spain - Ria de Vigo","YES","active","point","<a href=""#Spain-Ria-de-Vigo"">Spain - Ria de Vigo</a>",42.878213,-8.544844
+"Spain - Gulf of Cadiz","YES","active","point","<a href=""#Spain-Bay-of-Biscay"">Spain - Gulf of Cadiz</a>",36.527061,-6.288596
+"United States - Hawaii","YES","active","point","<a href=""#United-States-Hawaii"">United States - Hawaii</a>",19.896766,-155.582782
+"New Caledonia","YES","active","point","New Caledonia",-21.566935,165.498552
+"South Korea","YES","active","point","South Korea",35.907757,127.766922
+"Samoa","YES","active","point","Samoa",-13.833333,-171.75
+"Indonesia","YES","active","point","Indonesia",-6.208763,106.845599
+"Indonesia - Bali","YES","active","point","Indonesia - Bali",-8.409518,115.188919
+"Madagascar","YES","active","point","Madagascar",-18.766947,46.869107
+"Mexico","YES","active","point","Mexico",23.634501,-102.552784
+"United States - Northeast","NO","active","point","<a href=""#United-States-Northeast"">United States - Northeastern Coast</a>",41.699096,-70.320911
+"Canada - Atlantic","YES","active","point","<a href=""#Canada-Atlantic"">Canada - Atlantic Coast </a>",48.524444,-64.21268

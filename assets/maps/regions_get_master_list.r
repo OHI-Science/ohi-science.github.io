@@ -7,15 +7,15 @@
 
 #### setup ----
 library(googlesheets) # install.packages('googlesheets') # by Jenny Bryan
-library(dplyr)
+library(tidyverse)
 library(readr)
 
 ## authorize googledocs -- requires user interaction with default browser
 gs_auth(new_user = TRUE) 
 
 
-#### read in Google Sheet ----
-master_list <-  googlesheets::gs_title('OHI_CountriesMaster') %>% 
+#### read in Google Sheet, previously gs_title('OHI_CountriesMaster')----
+master_list <-  googlesheets::gs_url('https://docs.google.com/spreadsheets/d/1Xh8-36cLCEa_bppqLJu-nukVgPDT8xVEd9nxEaPYKKg/edit#gid=2018368498') %>% 
   googlesheets::gs_read()   
 head(master_list)
 
@@ -23,10 +23,9 @@ head(master_list)
 write.csv(master_list, 
           paste0('~/github/ohidev/OHI_CountriesMaster/OHI_CountriesMaster_', Sys.Date(), '.csv'))
 
+
 #### parse information for display ----
 ## to be displayed, `display` column must have either 'point' or 'shapefile'
-
-
 display_list <- master_list %>%
   select(country     = Country, 
          ohi_plus    = OHI_plus,
@@ -38,7 +37,8 @@ display_list <- master_list %>%
   filter(!is.na(display)) # remove rows that don't have point/shapefile
 # tail(display_list)
 
-## count number of active and completed OHI+ countries and
+
+## count number of active and completed OHI+ countries ----
 n_ohi_plus <- display_list %>%
   filter(ohi_plus == 'YES')
 
@@ -71,7 +71,7 @@ if (NA %in% display_pt$lat | NA %in% display_pt$lon){
   stop(sprintf('Missing lat or lon field for region to be displayed. Must fix or will not map proplerly.\n'))
 }
 
-
+## determine whether any points have been added:
 old <- read.csv("assets/maps/regions_point.csv")
 if(length(setdiff(display_pt$country, old$country))>0){
   warning('Countries with points have been added, will need to update the point map')

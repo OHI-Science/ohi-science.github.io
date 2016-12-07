@@ -1,4 +1,4 @@
-### This script creates the leaflet map for the website
+### This script creates the leaflet map for the ohi-science.org/projects
 
 ### NOTE: The two things created by leaflet must be moved after creation
 ## allRegions_files folder goes to: /projects. BY HAND! (for now). But do each time. 
@@ -9,7 +9,7 @@
 # http://www.tuicode.com/article/5637dded499808840885af68
 
 ### Need to read in the shape files for each of these regions:
-library(dplyr)
+library(tidyverse)
 library(sp)
 library(rgdal)
 library(raster)
