@@ -3,7 +3,7 @@ layout: assessment
 title: "Indonesia-Bali"
 excerpt_separator: <!--more-->
 category : assessment
-tags : [OHI+, Oceania]
+tags : [OHI+, Asia]
 ---
 
 **Status**: Active  
