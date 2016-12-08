@@ -1,6 +1,6 @@
 ---
 layout: assessment
-title: "Ecuador-Gulf-of-Guayaquil" <!--titles must include - because it's whatever the url will be -->
+title: "Ecuador-Gulf-of-Guayaquil"
 excerpt_separator: <!--more-->
 category : assessment
 tags : [OHI+, South America]
