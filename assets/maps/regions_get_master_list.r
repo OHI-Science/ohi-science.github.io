@@ -46,7 +46,7 @@ n_ohi_plus_active <- n_ohi_plus %>%
   filter(phase == 'active')
 
 cat(sprintf('Total count of OHI+ assessments is %s!', dim(n_ohi_plus)[1]))
-cat(sprintf('And %s are active, %s are completed.', 
+cat(sprintf('And %s are active, %s are completed OHI+ assessments.', 
             dim(n_ohi_plus_active)[1], 
             dim(n_ohi_plus)[1]- dim(n_ohi_plus_active)[1]))
 
