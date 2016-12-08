@@ -1,6 +1,6 @@
 ---
 layout: assessment
-title: "US-Northeast" <!--titles must include `-` because it's whatever the url will be -->
+title: "US-Northeast" <!--titles must include - because it's whatever the url will be -->
 excerpt_separator: <!--more-->
 category : assessment
 tags : [North America]
