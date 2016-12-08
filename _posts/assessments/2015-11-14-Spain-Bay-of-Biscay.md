@@ -1,6 +1,6 @@
 ---
 layout: assessment
-title: "Spain-Bay of Biscay"
+title: "Spain-Bay of Biscay"<!--titles must include `-` because it's whatever the url will be -->
 excerpt_separator: <!--more-->
 category : assessment
 tags : [Europe, OHI+]

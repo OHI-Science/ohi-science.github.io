@@ -1,6 +1,6 @@
 ---
 layout: assessment
-title: "US-West-Coast"
+title: "US-West-Coast"<!--titles must include `-` because it's whatever the url will be -->
 excerpt_separator: <!--more-->
 category : assessment
 tags : [North America]
