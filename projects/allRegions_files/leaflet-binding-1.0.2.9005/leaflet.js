@@ -425,18 +425,11 @@ var _dataframe = require("./dataframe");
 
 var _dataframe2 = _interopRequireDefault(_dataframe);
 
-var _clusterLayerStore = require("./cluster-layer-store");
-
-var _clusterLayerStore2 = _interopRequireDefault(_clusterLayerStore);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 window.LeafletWidget = {};
-window.LeafletWidget.utils = {};
 var methods = window.LeafletWidget.methods = _jquery2.default.extend({}, _methods2.default);
 window.LeafletWidget.DataFrame = _dataframe2.default;
-window.LeafletWidget.ClusterLayerStore = _clusterLayerStore2.default;
-window.LeafletWidget.utils.getCRS = _crs_utils.getCRS;
 
 // Send updated bounds back to app. Takes a leaflet event object as input.
 function updateBounds(map) {
@@ -525,11 +518,7 @@ _htmlwidgets2.default.widget({
           }(); // undefine map
         }
 
-        if (data.options.mapFactory && typeof data.options.mapFactory === "function") {
-          map = data.options.mapFactory(el, data.options);
-        } else {
-          map = _leaflet2.default.map(el, data.options);
-        }
+        map = _leaflet2.default.map(el, data.options);
 
         preventUnintendedZoomOnScroll(map);
 
@@ -694,7 +683,7 @@ if (_htmlwidgets2.default.shinyMode) {
 }
 
 
-},{"./cluster-layer-store":1,"./control-store":2,"./crs_utils":3,"./dataframe":4,"./fixup-default-icon":5,"./global/htmlwidgets":6,"./global/jquery":7,"./global/leaflet":8,"./global/shiny":10,"./layer-manager":12,"./methods":13,"./util":15}],12:[function(require,module,exports){
+},{"./control-store":2,"./crs_utils":3,"./dataframe":4,"./fixup-default-icon":5,"./global/htmlwidgets":6,"./global/jquery":7,"./global/leaflet":8,"./global/shiny":10,"./layer-manager":12,"./methods":13,"./util":15}],12:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -851,7 +840,7 @@ var LayerManager = function () {
       var g = this._groupContainers[group];
       if (ensureExists && !g) {
         this._byGroup[group] = this._byGroup[group] || {};
-        g = this._groupContainers[group] = _leaflet2.default.featureGroup();
+        g = this._groupContainers[group] = _leaflet2.default.layerGroup();
         g.groupname = group;
         g.addTo(this._map);
       }
@@ -1108,6 +1097,7 @@ function addMarkers(map, df, group, clusterOptions, clusterId, markerFunc) {
     var clusterGroup = this.layerManager.getLayer("cluster", clusterId),
         cluster = clusterOptions !== null;
     if (cluster && !clusterGroup) {
+      //clusterGroup = L.markerClusterGroup(clusterOptions);
       clusterGroup = _leaflet2.default.markerClusterGroup.layerSupport(clusterOptions);
       if (clusterOptions.freezeAtZoom) {
         var freezeAtZoom = clusterOptions.freezeAtZoom;
@@ -1372,15 +1362,9 @@ methods.addPolylines = function (polygons, layerId, group, options, popup, popup
     var df = new _dataframe2.default().col("shapes", polygons).col("layerId", layerId).col("group", group).col("popup", popup).col("popupOptions", popupOptions).col("label", label).col("labelOptions", labelOptions).col("highlightOptions", highlightOptions).cbind(options);
 
     addLayers(this, "shape", df, function (df, i) {
-      var shapes = df.get(i, "shapes");
-      for (var j = 0; j < shapes.length; j++) {
-        shapes[j] = _htmlwidgets2.default.dataframeToD3(shapes[j]);
-      }
-      if (shapes.length > 1) {
-        return _leaflet2.default.multiPolyline(shapes, df.get(i));
-      } else {
-        return _leaflet2.default.polyline(shapes[0], df.get(i));
-      }
+      var shape = df.get(i, "shapes")[0];
+      shape = _htmlwidgets2.default.dataframeToD3(shape);
+      return _leaflet2.default.polyline(shape, df.get(i));
     });
   }
 };
