@@ -81,7 +81,10 @@ A global synthesis of the economic multiplier effects of marine sectors.
 - <a href="http://journal.frontiersin.org/article/10.3389/fmars.2016.00020/full" target="_blank">Borja et al. 2016</a>, *Frontiers in Marine Science*\*.
 Overview of Integrative Assessment of Marine Systems: The Ecosystem Approach in Practice.  
 
-- Halpern et al. 2016, Chapter 7.8: Ocean Health Index for the world’s large marine ecosystems. In: IOC-UNESCO and UNEP. Large Marine Ecosystems: Status and Trends. United Nations Environment Programme, Nairobi, pp. 239–249.
+- <a href="http://www.geftwap.org/publications/lmes-technical-report/view" target="_blank">IOC-UNESCO and UNEP 2016</a> Large Marine Ecosystems: Status and Trends. Nairobi. 
+    - Halpern, & Frazier 2016. Chapter 7.7: Cumulative human impacts in the world’s large marine ecosystems. pp 225-237.
+    - Halpern et al. 2016. Chapter 7.8: Ocean Health Index for the world’s large marine ecosystems. pp. 239–249.
+    - Kleisner et al. 2016. Chapter 8: Identifying patterns of risk among large marine ecosystems using multiple indicators. pp 253–287.
 
 - <a href="http://www.sciencedirect.com/science/article/pii/S0308597X16302937" target="_blank">Blasiak et al. 2016</a>, *Marine Policy*.
 Local and regional experiences with assessing and fostering ocean health.  
