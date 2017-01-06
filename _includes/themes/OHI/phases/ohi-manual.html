@@ -140,6 +140,7 @@
 <li><a href="#layers-error-due-to-row.names-duplicate-row.names-are-not-allowed"><span class="toc-section-number">10.2.3</span> <code>Layers()</code> error due to ‘row.names: duplicate ’row.names’ are not allowed’</a></li>
 <li><a href="#calculating-pressures"><span class="toc-section-number">10.2.4</span> Calculating Pressures…</a></li>
 <li><a href="#calculating-resilience"><span class="toc-section-number">10.2.5</span> Calculating Resilience …</a></li>
+<li><a href="#working-with-rmarkdown-files"><span class="toc-section-number">10.2.6</span> Working with Rmarkdown files</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#appendix-1-toolbox-software"><span class="toc-section-number">11</span> Appendix 1: Toolbox Software</a><ul>
@@ -194,7 +195,7 @@
 <h2><span class="header-section-number">1.1</span> Where you are in the OHI+ process</h2>
 <p>The OHI+ process consists of four phases. In the first phase, you <strong>learned</strong> about the OHI to understand the philosophy behind the goals and the motivation for conducting an assessment. In the second phase, you actively <strong>planned</strong> to conduct your OHI+ assessment. Now you will actively <strong>conduct</strong> the assessment by engaging with the work of finding the data, preparing the goal models, and taking the necessary steps to learn how to use the <strong>OHI Toolbox</strong> and related software to produce final scores. This is where the science of data discovery and goal model development comes in, with important emphasis on transparency, collaboration, and communication. In the final phase, you will <strong>communicate</strong> the findings and results of your assessment with others.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=700&amp;h=600" alt="" />
+<img src="https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=700&amp;h=600" />
 
 </div>
 <p><strong>The OHI framework</strong> allows you to synthesize the information and priorities relevant to your local context and produce comparable scores. Because the methods of the framework are repeatable, transparent, quantitative, and goal-driven, the process of a carrying out an OHI+ assessment is as valuable as the final results.</p>
@@ -269,7 +270,7 @@ There are many decisions to be made when searching for and gathering data, and s
 <p>The <strong>OHI Toolbox</strong> is made to organize and process data, document decision making, calculate scores, and share results within or outside your team. It was created to facilitate score calculations as well as the organization of information and transparency of the entire workflow. The Toolbox is built with <strong>open-source, freely available software</strong>, particularly <strong><em>Github</em></strong> and <strong><em>RStudio</em></strong>.</p>
 <p><strong>Github and RStudio are a highly effective combination for your team to conduct your OHI+ assessment in a collaborative, transparent, and reproducible manner.</strong> <em><strong>RStudio</strong></em> is the coding environment for the programming language <code>R</code> and is where all the data processing, calculations, and writing are done. <em><strong>Github</strong></em> is a online version-control system where each change you save in RStudio is recorded through time and easily traceable. Multiple people can therefore collaborate on the same project and view the changes done by one another. Github also provides a platform for decision-making conversations, similar to email threads but better kept and organized.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vS3NwdBnllYqloEXgMSNjR-_1N49vS6QrP0Qsmh8gFLmdXVdxr94GuHWjvUENArv2et6GDOck2cGptX/pub?w=960&amp;h=600" alt="" />
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vS3NwdBnllYqloEXgMSNjR-_1N49vS6QrP0Qsmh8gFLmdXVdxr94GuHWjvUENArv2et6GDOck2cGptX/pub?w=960&amp;h=600" />
 
 </div>
 <blockquote>
@@ -436,7 +437,7 @@ JSL: until we have these done don't list:
 <p>You should begin by understanding and comparing the best approaches used in assessments that have been completed, including the global assessments (Halpern <em>et al</em>, 2012; 2013), Brazil (Elfes <em>et al</em>. 2014), Fiji (Selig <em>et al</em>., 2014), and the U.S. West Coast Assessment (Halpern <em>et al</em>., 2014). For OHI+ assessments, if finer-resolution local data were available in the study area, these data were either incorporated into modified goal models that used locally appropriate and informed approaches or into the existing global goal model. When local data were not available, the global-scale data and global goal models were used, which is least desirable because it does not provide more information than the global study.</p>
 <p>When looking for data, the following decision tree may be useful when going goal-by-goal for discovering data and developing models:</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1bJ3lk0stX78YM_VVR8VDAmdVUcMv4riSZk-0L2x8ybw/pub?w=700&amp;h=500" alt="" />
+<img src="https://docs.google.com/drawings/d/1bJ3lk0stX78YM_VVR8VDAmdVUcMv4riSZk-0L2x8ybw/pub?w=700&amp;h=500" />
 
 </div>
 <div id="example-u.s.-west-coast-data-discovery" class="section level4">
@@ -485,7 +486,7 @@ JSL: until we have these done don't list:
 </ul>
 <p><strong>Example of data in the appropriate format:</strong></p>
 <div class="figure">
-<img src="fig/formatting_data_example.png" alt="" />
+<img src="fig/formatting_data_example.png" />
 
 </div>
 </div>
@@ -498,7 +499,7 @@ JSL: until we have these done don't list:
 <h4><span class="header-section-number">3.2.2.1</span> Temporal gapfilling</h4>
 <p>Temporal gaps occur when a region is missing data for some years. The Toolbox requires data for each year for every region. It is important to make an informed decision about how to temporally gapfill data.</p>
 <div class="figure">
-<img src="fig/temporal_gaps.png" alt="" />
+<img src="fig/temporal_gaps.png" />
 
 </div>
 <p>Often, regression models are the best way to estimate data and fill temporal gaps. Here we give an example that assumes a linear relationship between the year and value variables within a region. If data do not fit a linear framework, other models may be fit to help with gapfilling. Here we give an example assuming linearity.</p>
@@ -508,19 +509,19 @@ JSL: until we have these done don't list:
 <p><strong>1. Calculate the slope for each region</strong></p>
 <p>The first step is to calculate the slope of the line that is fitted through the available data points. This can be done in Excel using the <strong>SLOPE(known_y’s,known_x’s)</strong> function as highlighted in the figure below. In this case, the x-axis is <em>years</em> (2005, 2006, etc…), the y-axis is <em>count</em>, and the Excel function automatically plots and fits a line through the known values (177.14 in 2005, 212.99 in 2008, and 228.81 in 2009), and subsequently calculates the slope (12.69).</p>
 <div class="figure">
-<img src="fig/filling_temporal_gaps_slope.png" alt="" />
+<img src="fig/filling_temporal_gaps_slope.png" />
 
 </div>
 <p><strong>2. Calculate the y-intercept for each region</strong></p>
 <p>The next step is to calculate the intercept of the line that is fitted through the available data points. This can be done in Excel similarly as for the slope calculation, using the the <strong>INTERCEPT(known_y’s,known_x’s)</strong> function that calculates the y-intercept (-25273.89) of the fitted line.</p>
 <div class="figure">
-<img src="fig/filling_temporal_gaps_intercept.png" alt="" />
+<img src="fig/filling_temporal_gaps_intercept.png" />
 
 </div>
 <p><strong>3. Calculate y for all years</strong></p>
 <p>The slope and y-intercept that were calculated in steps 1 and 2 can then be used along with the year (independent variable) to calculate the unknown ‘y-values’. To do so, simply replace the known three values into the <strong>y = mx + b</strong> equation (m=slope, x=year, b=intercept), to calculate the unknown ‘count’ for a given year (189.39 in 2006, and 202.08 in 2007).</p>
 <div class="figure">
-<img src="fig/filling_temporal_gaps_value.png" alt="" />
+<img src="fig/filling_temporal_gaps_value.png" />
 
 </div>
 <p><strong>4. Replace modeled values into original data where gaps had occurred</strong></p>
@@ -530,7 +531,7 @@ JSL: until we have these done don't list:
 <h4><span class="header-section-number">3.2.2.2</span> Spatial gapfilling</h4>
 <p>Spatial gaps are when no data are available for a particular region. The Toolbox requires data for each region. It is important to make an informed decision about how to spatially gapfilling data.</p>
 <div class="figure">
-<img src="fig/gapfilling_spatial.png" alt="" />
+<img src="fig/gapfilling_spatial.png" />
 
 </div>
 <p>To fill gaps spatially, you must assume that one region is like another, and data from another region is adequate to be substituted in place of the missing data. This will depend on the type of data and the properties of the regions requiring gapfilling. For example, if a region is missing data but has similar properties to a different region that does have data, the missing data could be ‘borrowed’ from the region with information. Each data layer can be gapfilled using a different approach when necessary.</p>
@@ -559,7 +560,7 @@ JSL: until we have these done don't list:
 </ul>
 <p>Suppose the decision was made to gapfill <em>rgn_id 2</em> using the mean of <em>rgn_id 1</em> and <em>3</em> since this would use a combination of both of those regions. Again, other possibilities could be equally correct. But some form of spatial gapfilling is required so a decision must be made. The image below illustrates this in Excel.</p>
 <div class="figure">
-<img src="fig/gapfilling_spatial_example.png" alt="" />
+<img src="fig/gapfilling_spatial_example.png" />
 
 </div>
 <p>The data layer is now ready for the Toolbox, gapfilled and in the appropriate format.</p>
@@ -570,7 +571,7 @@ JSL: until we have these done don't list:
 <p>The Toolbox expects data to be in ‘long’ or ‘narrow’ format. Below are examples of correct and incorrect formatting, and tips on how to transform data into the appropriate format.</p>
 <p><strong>Example of data in an incorrect format:</strong></p>
 <div class="figure">
-<img src="fig/formatting_long_example.png" alt="" />
+<img src="fig/formatting_long_example.png" />
 
 </div>
 <p>With ‘wide’ format, data layers are more difficult to combine with others and more difficult to read and to analyze.</p>
@@ -584,7 +585,7 @@ JSL: until we have these done don't list:
 <p>The final step is optional: ordering the data will make it easier for humans to read (R and the Toolbox can read these data without this final step):</p>
 <p><strong>Example of data in the appropriate (long) format:</strong></p>
 <div class="figure">
-<img src="fig/formatting_long_example_2.png" alt="" />
+<img src="fig/formatting_long_example_2.png" />
 
 </div>
 </div>
@@ -610,96 +611,96 @@ JSL: until we have these done don't list:
 <table>
 <thead>
 <tr class="header">
-<th align="left">Goal</th>
-<th align="left">Code</th>
-<th align="left">Subgoal</th>
-<th align="left">Code</th>
+<th>Goal</th>
+<th>Code</th>
+<th>Subgoal</th>
+<th>Code</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Food Provision</td>
-<td align="left">FP</td>
-<td align="left">Fisheries</td>
-<td align="left">FIS</td>
+<td>Food Provision</td>
+<td>FP</td>
+<td>Fisheries</td>
+<td>FIS</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">Mariculture</td>
-<td align="left">MAR</td>
+<td></td>
+<td></td>
+<td>Mariculture</td>
+<td>MAR</td>
 </tr>
 <tr class="odd">
-<td align="left">Artisanal Fishing Opportunity</td>
-<td align="left">AO</td>
-<td align="left"></td>
-<td align="left"></td>
+<td>Artisanal Fishing Opportunity</td>
+<td>AO</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td align="left">Natural Products</td>
-<td align="left">NP</td>
-<td align="left"></td>
-<td align="left"></td>
+<td>Natural Products</td>
+<td>NP</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td align="left">Coastal Protection</td>
-<td align="left">CP</td>
-<td align="left"></td>
-<td align="left"></td>
+<td>Coastal Protection</td>
+<td>CP</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td align="left">Carbon Storage</td>
-<td align="left">CS</td>
-<td align="left"></td>
-<td align="left"></td>
+<td>Carbon Storage</td>
+<td>CS</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td align="left">Livelihoods and Economies</td>
-<td align="left">LE</td>
-<td align="left">Livelihoods</td>
-<td align="left">LIV</td>
+<td>Livelihoods and Economies</td>
+<td>LE</td>
+<td>Livelihoods</td>
+<td>LIV</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">Economies</td>
-<td align="left">ECO</td>
+<td></td>
+<td></td>
+<td>Economies</td>
+<td>ECO</td>
 </tr>
 <tr class="odd">
-<td align="left">Tourism and Recreation</td>
-<td align="left">TR</td>
-<td align="left"></td>
-<td align="left"></td>
+<td>Tourism and Recreation</td>
+<td>TR</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td align="left">Sense of Place</td>
-<td align="left">SP</td>
-<td align="left">Iconic Species</td>
-<td align="left">ICO</td>
+<td>Sense of Place</td>
+<td>SP</td>
+<td>Iconic Species</td>
+<td>ICO</td>
 </tr>
 <tr class="odd">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">Lasting Special Places</td>
-<td align="left">LSP</td>
+<td></td>
+<td></td>
+<td>Lasting Special Places</td>
+<td>LSP</td>
 </tr>
 <tr class="even">
-<td align="left">Clean Waters</td>
-<td align="left">CW</td>
-<td align="left"></td>
-<td align="left"></td>
+<td>Clean Waters</td>
+<td>CW</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td align="left">Biodiversity</td>
-<td align="left">BD</td>
-<td align="left">Habitats</td>
-<td align="left">HAB</td>
+<td>Biodiversity</td>
+<td>BD</td>
+<td>Habitats</td>
+<td>HAB</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">Species</td>
-<td align="left">SPP</td>
+<td></td>
+<td></td>
+<td>Species</td>
+<td>SPP</td>
 </tr>
 </tbody>
 </table>
@@ -735,7 +736,7 @@ JSL: until we have these done don't list:
 <p>Spatial boundaries must be drawn with geographic information system (GIS) mapping software such as ArcGIS, QGIS, or GRASS. You will need someone with GIS skills to create a shapefile that will be used by the Toolbox to display your information. The shapefile will also be used to extract information for each of your defined regions when data are reported in raster format for a different area. For more information see Wikipedia for <a href="https://en.wikipedia.org/wiki/Geographic_information_system">Geographic information systems</a> and <a href="http://en.wikipedia.org/wiki/Shapefile">Shapefiles</a>.</p>
 <p>Illustrated below are the conceptual steps required for creating a spatial file with your offshore boundaries. You will ultimately decide where to draw the offshore boundaries. The example below shows a simple example of extending the land boundaries in a straight line; you should consult with a GIS specialist to make sure any extensions make sense with the coastline and natural features, and also make sure they does not conflict with important <a href="http://ohi-science.org/manual/#strategically-define-spatial-boundaries-balance-information-availability-and-decision-making-scales">jurisdictional boundaries</a>.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/17G4bcyoFg8kaEGys_6aA7dQEPVteHPQBk9YQl4iA6Dw/pub?w=960&amp;h=720" alt="" />
+<img src="https://docs.google.com/drawings/d/17G4bcyoFg8kaEGys_6aA7dQEPVteHPQBk9YQl4iA6Dw/pub?w=960&amp;h=720" />
 
 </div>
 <blockquote>
@@ -801,7 +802,7 @@ At this point, you may not know which buffers you will need, as they depend on t
 <p>You will learn more, and think more critically about reference points, as you develop the data layers for your assessment.</p>
 <p><strong><em>How to use the reference point in a model</em></strong></p>
 <p>It’s best to explicitly include the reference point in the model equation whenever possible. For example, the Carbon Storage goal model in the global assessment is written like this:</p>
-<p><img src="http://i.imgur.com/JN58oqB.png" alt="" />,</p>
+<p><img src="http://i.imgur.com/JN58oqB.png" />,</p>
 <p>where C<sub>r</sub> is the reference condition of each habitat. See goal-specific sections for more examples.</p>
 </div>
 <div id="identifying-pressures-and-resilience" class="section level3">
@@ -839,7 +840,7 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 <h3><span class="header-section-number">4.1.1</span> Main folders within your Full Repo</h3>
 <p>The <strong>scenario folder</strong> is the most important folder within the repository; by default it is named <code>regionYEAR</code> (eg. <em>cnc2016</em> for New Caledonia 2016) to indicate that the assessment is conducted at the region scale (province, state, district, etc.), based on input layers and goal models used in the most recent global assessment. It contains all of the inputs needed to calculate OHI scores, and you will modify these inputs when conducting your assessment. The scenario folder is explained in detail in this section. <!-- * All other files in the assessment repository are accessory files. Files with names beginning with a ‘.’ are required for versioning capabilities by GitHub and do not appear when the assessment repository is viewed on your computer. --></p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1eHViTehnAuxSDw1fYI54C3X5YgBktGtaVt71R3OXYeE/pub?w=600&amp;h=500" alt="" />
+<img src="https://docs.google.com/drawings/d/1eHViTehnAuxSDw1fYI54C3X5YgBktGtaVt71R3OXYeE/pub?w=600&amp;h=500" />
 
 </div>
 <div class="figure">
@@ -850,7 +851,7 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 <p>Once you complete your assessment with the <code>regionYEAR</code> (or equivalent) scenario, further assessments can be done simply by copying the <code>regionYEAR</code> folder and renaming it. This can be done for future assessments, for example <code>assessment2016</code> or <code>assessment2018</code>, which eventually would enable you to track changes in ocean health over time. You can also copy scenario folders to explore different policy and management scenarios, for example <code>regionYEAR_policy1</code>.</p>
 <p>This figure illustrates the files contained within the assessment repository’s <code>regionYEAR</code> scenario folder, and in which step of the Toolbox workflow they are associated with. Important files are either <em>.csv</em> text files or <em>.R</em> script files. Files are organized into different folders within the <code>regionYEAR</code> folder, and you will modify some of these files while leaving others as they are.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1zHe1Gp2L7xN04w3NO_uQvOrl47Ug_oogyj2E338J90U/pub?w=1150" alt="" />
+<img src="https://docs.google.com/drawings/d/1zHe1Gp2L7xN04w3NO_uQvOrl47Ug_oogyj2E338J90U/pub?w=1150" />
 
 </div>
 <p>The <strong>conf</strong> folder within the <code>regionYEAR</code> scenario folder, the <code>conf</code> folder includes important configuration files required to calculate OHI scores. Most of the maneuvering in this phase is done within this folder. There are both <em>.R</em> scripts (<code>config.R</code> and <code>functions.R</code>) and <em>.csv</em> files (<code>goals.csv</code>, <code>pressures_matrix.csv</code>, <code>resilience_matrix.csv</code>, and <code>resilience_weights.csv</code>), which will be introduced individually in the next section.</p>
@@ -914,101 +915,101 @@ Julie: I've deleted the rest below and rewritten it as the intro for the goal-by
 <table>
 <thead>
 <tr class="header">
-<th align="left">Goal</th>
-<th align="left">Subgoal</th>
-<th align="left">2- or 3- letter code</th>
+<th>Goal</th>
+<th>Subgoal</th>
+<th>2- or 3- letter code</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Food Provision</td>
-<td align="left"></td>
-<td align="left">FP</td>
+<td>Food Provision</td>
+<td></td>
+<td>FP</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
-<td align="left">Fisheries</td>
-<td align="left">FIS</td>
+<td></td>
+<td>Fisheries</td>
+<td>FIS</td>
 </tr>
 <tr class="odd">
-<td align="left"></td>
-<td align="left">Mariculture</td>
-<td align="left">MAR</td>
+<td></td>
+<td>Mariculture</td>
+<td>MAR</td>
 </tr>
 <tr class="even">
-<td align="left">Artisanal Fishing Opportunity</td>
-<td align="left"></td>
-<td align="left">AO</td>
+<td>Artisanal Fishing Opportunity</td>
+<td></td>
+<td>AO</td>
 </tr>
 <tr class="odd">
-<td align="left">Natural Products</td>
-<td align="left"></td>
-<td align="left">NP</td>
+<td>Natural Products</td>
+<td></td>
+<td>NP</td>
 </tr>
 <tr class="even">
-<td align="left">Coastal Protection</td>
-<td align="left"></td>
-<td align="left">CP</td>
+<td>Coastal Protection</td>
+<td></td>
+<td>CP</td>
 </tr>
 <tr class="odd">
-<td align="left">Carbon Storage</td>
-<td align="left"></td>
-<td align="left">CS</td>
+<td>Carbon Storage</td>
+<td></td>
+<td>CS</td>
 </tr>
 <tr class="even">
-<td align="left">Livelihoods and Economies</td>
-<td align="left"></td>
-<td align="left">LE</td>
+<td>Livelihoods and Economies</td>
+<td></td>
+<td>LE</td>
 </tr>
 <tr class="odd">
-<td align="left"></td>
-<td align="left">Livelihoods</td>
-<td align="left">LIV</td>
+<td></td>
+<td>Livelihoods</td>
+<td>LIV</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
-<td align="left">Economies</td>
-<td align="left">ECO</td>
+<td></td>
+<td>Economies</td>
+<td>ECO</td>
 </tr>
 <tr class="odd">
-<td align="left">Tourism and Recreation</td>
-<td align="left"></td>
-<td align="left">TR</td>
+<td>Tourism and Recreation</td>
+<td></td>
+<td>TR</td>
 </tr>
 <tr class="even">
-<td align="left">Sense of Place</td>
-<td align="left"></td>
-<td align="left">SP</td>
+<td>Sense of Place</td>
+<td></td>
+<td>SP</td>
 </tr>
 <tr class="odd">
-<td align="left"></td>
-<td align="left">Lasting Special Places</td>
-<td align="left">LSP</td>
+<td></td>
+<td>Lasting Special Places</td>
+<td>LSP</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
-<td align="left">Iconic Species</td>
-<td align="left">ICO</td>
+<td></td>
+<td>Iconic Species</td>
+<td>ICO</td>
 </tr>
 <tr class="odd">
-<td align="left">Clean Waters</td>
-<td align="left"></td>
-<td align="left">CW</td>
+<td>Clean Waters</td>
+<td></td>
+<td>CW</td>
 </tr>
 <tr class="even">
-<td align="left">Biodiversity</td>
-<td align="left"></td>
-<td align="left">BD</td>
+<td>Biodiversity</td>
+<td></td>
+<td>BD</td>
 </tr>
 <tr class="odd">
-<td align="left"></td>
-<td align="left">Habitats</td>
-<td align="left">HAB</td>
+<td></td>
+<td>Habitats</td>
+<td>HAB</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
-<td align="left">Species</td>
-<td align="left">SPP</td>
+<td></td>
+<td>Species</td>
+<td>SPP</td>
 </tr>
 </tbody>
 </table>
@@ -1310,10 +1311,10 @@ year_min = 2011
 <p>If you are not able to find local data for stressors, you may use the data from the global assessments. For most of the stressors, this means that there will not be differences between the regions within your study area. However, several stressors included in the global assessment are based on spatial data at high resolution from previous work by Halpern <em>et al.</em> (2008) in <em>Science:</em> <a href="http://www.sciencemag.org/content/319/5865/948.abstract">A global map of human impact on marine ecosystems</a>. These data are available at a resolution of 1 km^2 for the entire global ocean, and can be extracted for the regions in your study area. The stressors available at 1km^2 resolution are indicated below with ** ** **.</p>
 <p><span style="font-size:0.8em"></p>
 <p><strong>Table of pressures layers and descriptions</strong></p>
-<table style="width:162%;">
+<table>
 <colgroup>
-<col width="25%" />
-<col width="137%" />
+<col width="15%" />
+<col width="84%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1477,7 +1478,7 @@ year_min = 2011
 <h4><span class="header-section-number">7.1.2.2</span> Register the new pressure layers in <code>layers.csv</code></h4>
 <p>Let’s say you were adding two new pressures layers to the pressures matrix. You would then add two new rows in <code>layers.csv</code>, and register the new pressure layers by filling out the first eight columns for <em>po_desal_in</em>, and <em>po_desal_out</em>.</p>
 <div class="figure">
-<img src="fig/register_pressure.png" alt="" />
+<img src="fig/register_pressure.png" />
 
 </div>
 </div>
@@ -1486,7 +1487,7 @@ year_min = 2011
 <p>This is a table to record the <em>name</em> of each pressures data layer, its <em>category</em>, and <em>subcategory</em>. Each data layer name is the same name that is saved in the <code>layers</code> folder and is registered in <code>layers.csv</code>. Each layer falls under one of two categories - ecological or social pressures, and one of several subcategories to further represent the origin of the pressure (e.g. climate change, fishing, etc), which is also indicated by a prefix of each data layer name.</p>
 <p>Each pressure category is calculated separately before being combined with the others, so it is important to register the new pressure with the appropriate category prefix decided by your regional assessment team.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1qVCPgPZ2KImrO0mPIarhV0WlcOKW96E33VLI-6i3eCw/pub?w=800&amp;h=720" alt="" />
+<img src="https://docs.google.com/drawings/d/1qVCPgPZ2KImrO0mPIarhV0WlcOKW96E33VLI-6i3eCw/pub?w=800&amp;h=720" />
 
 </div>
 </div>
@@ -1499,13 +1500,13 @@ year_min = 2011
 </div>
 <div id="identify-the-goals-affected-and-set-the-weighting" class="section level4">
 <h4><span class="header-section-number">7.1.2.5</span> Identify the goals affected and set the weighting</h4>
-<p>This step also requires transferring prior decisions into <code>pressures_matrix.csv</code>. Mark which goals are affected by this new pressure, and then set the weighting. Pressures weighting by goal should be based on scientific literature and expert opinion (3 = highly influential pressure, 2 = moderately influential pressure, 1 = not very influential pressure). Remember that the rankings in the pressures matrix are separate from the actual data within the pressures data layers. The rankings ensure that within a particular goal (e.g. within a row of the pressures matrix), the stressors that more strongly influence the goal’s delivery have a larger contribution to that goal’s overall pressure score. Therefore, the rankings are assigned independently of the actual pressure scores, and only determine their importance within the calculations. <img src="https://docs.google.com/drawings/d/1PiueTs_r2IvC10zsStJq-tD3YcsC98eRKr1e2OOVKUw/pub?w=800&amp;h=720" alt="" /></p>
+<p>This step also requires transferring prior decisions into <code>pressures_matrix.csv</code>. Mark which goals are affected by this new pressure, and then set the weighting. Pressures weighting by goal should be based on scientific literature and expert opinion (3 = highly influential pressure, 2 = moderately influential pressure, 1 = not very influential pressure). Remember that the rankings in the pressures matrix are separate from the actual data within the pressures data layers. The rankings ensure that within a particular goal (e.g. within a row of the pressures matrix), the stressors that more strongly influence the goal’s delivery have a larger contribution to that goal’s overall pressure score. Therefore, the rankings are assigned independently of the actual pressure scores, and only determine their importance within the calculations. <img src="https://docs.google.com/drawings/d/1PiueTs_r2IvC10zsStJq-tD3YcsC98eRKr1e2OOVKUw/pub?w=800&amp;h=720" /></p>
 </div>
 <div id="modify-config.r-for-goals-with-multiple-elements" class="section level4">
 <h4><span class="header-section-number">7.1.2.6</span> Modify <code>config.R</code> for goals with multiple elements</h4>
 <p>If a goal has multiple elements (eg. CS has multiple habitats), as reflected in <em>pressures_matrix.csv</em> where the columns <code>element</code> (and <code>element_name</code>) are filled, you need to update <code>config.R</code> in <code>conf</code> folder, as shown below:</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/14qz5DZUQAuiRaJDYfyTp2c1g1RGDKCRwN0uSPYX4hHE/pub?w=800&amp;h=540" alt="" />
+<img src="https://docs.google.com/drawings/d/14qz5DZUQAuiRaJDYfyTp2c1g1RGDKCRwN0uSPYX4hHE/pub?w=800&amp;h=540" />
 
 </div>
 <p>The highlighted files are data layers necessary to calculate pressures for each of the goals with components. They contain weights, or relative contribution from each element to the total pressures of the goal. These weights are calculated separately in the data prep folder for each goal, and saved and registered as you would for any data layer. How to calculate these data layers can be found in the <em>description</em> column of <code>layers.csv</code>.</p>
@@ -1569,11 +1570,7 @@ year_min = 2011
 <h4><span class="header-section-number">7.2.1.6</span> Including resilience measures from global assessments</h4>
 <p>Remember that local measures are far more appropriate than those included in global assessments, which likely do not reflect local management targets. However, international data were used in the global assessments that are available to you if you cannot find better local data:</p>
 <p><strong>Table of resilience layers and descriptions</strong></p>
-<table style="width:122%;">
-<colgroup>
-<col width="31%" />
-<col width="90%" />
-</colgroup>
+<table>
 <thead>
 <tr class="header">
 <th align="left">layer</th>
@@ -1693,7 +1690,7 @@ year_min = 2011
 <!-- The first step is to determine which resilience layers from the global assessment are relevant to your assessment, and whether others need to be added. -->
 <p><code>resilience_categories.csv</code> records general information on each resilience data layer. The full list of layers included in the global resilience matrix are shown in the <code>resilience_matrix.csv</code>:</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1FrIvhMdWO6M2Ri3CO2gdEY9vfSpfKfzJnNkE-T8rce4/pub?w=800&amp;h=720" alt="" />
+<img src="https://docs.google.com/drawings/d/1FrIvhMdWO6M2Ri3CO2gdEY9vfSpfKfzJnNkE-T8rce4/pub?w=800&amp;h=720" />
 
 </div>
 <p>Each <em>resilience layer</em> indicated in the table is a data layer just like all the other data layers you have formatted, saved in the layers folder, and registered on <em>layers.csv</em>. Each layer falls under a <code>category</code> of resilience - ecological or social, and one of three <code>category_type</code> - ecosystem, regulatory, or social, representing the origin of each resilience layer. The <code>subcategory</code> column indicates what specific pressure each layer of resilience is targeted at. The prefix of each data layer corresponds to its subcategory (eg. po, li, g, etc).</p>
@@ -1708,7 +1705,7 @@ year_min = 2011
 <h4><span class="header-section-number">7.2.2.3</span> Register in Resilience Matrix</h4>
 <p><code>resilience_matrix.csv</code> maps the different types of resilience (columns) with the goals that they affect (rows). Whether a resilience layer has any influence on a goal, or an element of the goal, is represented by an <em>x</em>, or its absence. For example, <code>po_water</code> layer is relevant to the <em>salt marsh</em> element of <em>CP</em> goal, as shown by the <em>x</em> in the cell. On the other hand, that data layer does not apply to the <em>mangrove</em> element of the same goal, hence the absence of an <em>x</em>.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1zMxIbz_a0FixyKmFpsh81ztMe24EfeXgHwPUnI-lopc/pub?w=800&amp;h=720" alt="" />
+<img src="https://docs.google.com/drawings/d/1zMxIbz_a0FixyKmFpsh81ztMe24EfeXgHwPUnI-lopc/pub?w=800&amp;h=720" />
 
 </div>
 <p>New resilience layers may be added to <code>resilience_matrix.csv</code> based on finer-scale local information either in response to a new pressures layer, or as a new independent measure. Any added layer must be associated with a pressures layer that has a weight of 2 or 3 in the OHI framework so that resilience measures can mitigate pressures in each region.</p>
@@ -1717,7 +1714,7 @@ year_min = 2011
 <h4><span class="header-section-number">7.2.2.4</span> How to modify <code>config.r</code> for goals with multiple elements</h4>
 <p>If a goal has multiple elements, as shown in <em>pressures_matrix.csv</em>, you need to update <code>config.r</code> in <code>conf</code> folder, as shown below:</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1eMvpSPif_Su759-cyHg8gsnWeHCvN2QlEZ5ywLVIEmY/pub?w=800&amp;h=720" alt="" />
+<img src="https://docs.google.com/drawings/d/1eMvpSPif_Su759-cyHg8gsnWeHCvN2QlEZ5ywLVIEmY/pub?w=800&amp;h=720" />
 
 </div>
 <!--
@@ -1773,7 +1770,7 @@ If the general resilience categories are relevant to the habitat, the next step 
 <li>Remove the goal’s row from <code>resilience_matrix.csv</code></li>
 </ol>
 <div class="figure">
-<img src="fig/remove_goal.png" alt="" />
+<img src="fig/remove_goal.png" />
 
 </div>
 <p><strong>Example: Removing carbon storage (CS) goal</strong></p>
@@ -1782,28 +1779,28 @@ If the general resilience categories are relevant to the habitat, the next step 
 <li>Remove the carbon storage (CS) goal model from <code>functions.R</code>. Delete the highlighted text in the figure below that references the CS layers and calculates CS goal status, trend, and scores.</li>
 </ol>
 <div class="figure">
-<img src="fig/functions_delete.png" alt="" />
+<img src="fig/functions_delete.png" />
 
 </div>
 <ol start="2" style="list-style-type: decimal">
 <li>Remove the CS row from <code>goals.csv</code>. Delete the highlighted row in the figure below that contains the CS goal.</li>
 </ol>
 <div class="figure">
-<img src="fig/goals_delete.png" alt="" />
+<img src="fig/goals_delete.png" />
 
 </div>
 <ol start="3" style="list-style-type: decimal">
 <li>Remove all CS rows from <code>pressures_matrix.csv</code>. Delete the highlighted rows in the figure below that contain CS pressures.</li>
 </ol>
 <div class="figure">
-<img src="fig/delete_pressures.png" alt="" />
+<img src="fig/delete_pressures.png" />
 
 </div>
 <ol start="4" style="list-style-type: decimal">
 <li>Remove all CS rows from <code>resilience_matrix.csv</code>. Delete the highlighted rows in the figure below that contain CS resilience.</li>
 </ol>
 <div class="figure">
-<img src="fig/delete_resilience.png" alt="" />
+<img src="fig/delete_resilience.png" />
 
 </div>
 </div>
@@ -1829,7 +1826,7 @@ If the general resilience categories are relevant to the habitat, the next step 
 <li>change the function call from <code>BD(scores)</code> to <code>BD(layers)</code></li>
 </ul>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1TUDfU2mG-QlXa3Huq_r8EwcgDPEa1RCaVQfpWnY49Uo/pub?w=830&amp;h=720" alt="" />
+<img src="https://docs.google.com/drawings/d/1TUDfU2mG-QlXa3Huq_r8EwcgDPEa1RCaVQfpWnY49Uo/pub?w=830&amp;h=720" />
 
 </div>
 </div>
@@ -1841,7 +1838,7 @@ If the general resilience categories are relevant to the habitat, the next step 
 <p>Remember that subgoal functions read in data <em>layers</em> and calculated sub-goal scores; supra-goal reads in those sub-goal <em>scores</em> to calculate scores for that supra-goal.</p>
 </blockquote>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1uTqbXyac72bE7yr2FZI9QEVGo1fSNgO4DXk1PIFk950/pub?w=960&amp;h=720" alt="" />
+<img src="https://docs.google.com/drawings/d/1uTqbXyac72bE7yr2FZI9QEVGo1fSNgO4DXk1PIFk950/pub?w=960&amp;h=720" />
 
 </div>
 </div>
@@ -1849,7 +1846,7 @@ If the general resilience categories are relevant to the habitat, the next step 
 <h3><span class="header-section-number">8.2.3</span> Remove subgoals from <code>pressures_matrix.csv</code></h3>
 <p>This table indicates which individual pressures (stressors) affect which goal, sub-goals, or elements, and weights them from 1-3 based on the degree of impacts. To remove subgoals from this matrix, you can simply delete the rows for each subgoal (HAB and SPP), and add a new row for BD, and treat BD as you would an individual goal with no subgoals.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1sgZyyiQyPIWUn3_BojsBuQC_sbM4t_BW8YNGNqSd31w/pub?w=800&amp;h=720" alt="" />
+<img src="https://docs.google.com/drawings/d/1sgZyyiQyPIWUn3_BojsBuQC_sbM4t_BW8YNGNqSd31w/pub?w=800&amp;h=720" />
 
 </div>
 </div>
@@ -1857,7 +1854,7 @@ If the general resilience categories are relevant to the habitat, the next step 
 <h3><span class="header-section-number">8.2.4</span> Remove subgoals from <code>resilience_matrix.csv</code></h3>
 <p>This table records information on which individual resilience measures affect which goal, sub-goals, or elements. Similar to what you would do with ‘pressures_matrix.csv’, you can delete the rows for HAB and SPP, and add a new row for BD.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1JUGogjH08_2KlOebKYxCR-JZFYGp5-6VwLYylblpWdw/pub?w=800&amp;h=720" alt="" />
+<img src="https://docs.google.com/drawings/d/1JUGogjH08_2KlOebKYxCR-JZFYGp5-6VwLYylblpWdw/pub?w=800&amp;h=720" />
 
 </div>
 </div>
@@ -1973,7 +1970,7 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 <p>These commands will tell you where the <code>git.exe</code> file is located. Typically it will look something like this: <code>/usr/local/git/bin/git</code> or <code>/usr/bin/git</code> or some variation of those.</p>
 <p>Once confirming the location of <code>git.exe</code> you need to tell RStudio where it is. Open up RStudio, got to Preferences and select the Git/SVN option:</p>
 <div class="figure">
-<img src="fig/RStudio_git_svn.png" alt="" />
+<img src="fig/RStudio_git_svn.png" />
 
 </div>
 <p>In the Git executable area, fill in the path to your git.exe. If RStudio does not let you manually enter your path, select Browse… and navigate to the <code>git.exe</code> file. If you are not able to navigate to the file it is likely a hidden file.</p>
@@ -1992,7 +1989,7 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 <p>When you restart your R Session (<strong>Session &gt; Restart R</strong> on a Mac), if you see that it is trying to load <code>ohicore</code>, it may give you an error:</p>
 <blockquote>
 <div class="figure">
-<img src="fig/ohicore_load.png" alt="" />
+<img src="fig/ohicore_load.png" />
 
 </div>
 </blockquote>
@@ -2002,13 +1999,13 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 </ol>
 <blockquote>
 <div class="figure">
-<img src="fig/proj_op.png" alt="" />
+<img src="fig/proj_op.png" />
 
 </div>
 </blockquote>
 <blockquote>
 <div class="figure">
-<img src="fig/proj_op2.png" alt="" />
+<img src="fig/proj_op2.png" />
 
 </div>
 </blockquote>
@@ -2017,7 +2014,7 @@ fatal: could not read Username for &#39;https://github.com&#39;: Device not conf
 </ol>
 <blockquote>
 <div class="figure">
-<img src="fig/proj_op3.png" alt="" />
+<img src="fig/proj_op3.png" />
 
 </div>
 </blockquote>
@@ -2052,7 +2049,7 @@ In addition: Warning message:
 non-unique values when setting &#39;row.names&#39;: ‘cw_con_dioxin_status’, ‘cw_con_dioxin_trend’, ‘cw_con_ices6_status’, ‘cw_con_ices6_trend’, ‘cw_con_pfos_status’, ‘cw_con_pfos_trend’, ‘cw_nu_status’, ‘cw_nu_trend’, ‘fis_bbmsy’, ‘fis_ffmsy’, ‘fis_landings’, ‘ico_status’, ‘le_gdp_region’</code></pre>
 <p>…and when inspecting <code>layers.csv</code>, there are indeed duplicate entries for the same layernames.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1nrEmGn3jBVK1yo6Z9qVwQdEGbX2D_ahhQJF58HvQj_U/pub?w=1481&amp;h=722" alt="" />
+<img src="https://docs.google.com/drawings/d/1nrEmGn3jBVK1yo6Z9qVwQdEGbX2D_ahhQJF58HvQj_U/pub?w=1481&amp;h=722" />
 
 </div>
 <p>To fix these errors, ensure there are only single entries for each layer name; delete any duplicated rows.</p>
@@ -2064,13 +2061,13 @@ non-unique values when setting &#39;row.names&#39;: ‘cw_con_dioxin_status’, 
 <p>Example:</p>
 <blockquote>
 <div class="figure">
-<img src="fig/troubleshoot_aggregation_layer.png" alt="" />
+<img src="fig/troubleshoot_aggregation_layer.png" />
 
 </div>
 </blockquote>
 <blockquote>
 <div class="figure">
-<img src="fig/tblshoot_pressures.png" alt="" />
+<img src="fig/tblshoot_pressures.png" />
 
 </div>
 </blockquote>
@@ -2078,7 +2075,7 @@ non-unique values when setting &#39;row.names&#39;: ‘cw_con_dioxin_status’, 
 </div>
 <div id="error-in-matrix" class="section level4">
 <h4><span class="header-section-number">10.2.4.2</span> ‘Error in matrix…’</h4>
-<p>Example: &gt; <img src="fig/tblshoot_pressures.png" alt="" /></p>
+<p>Example: &gt; <img src="fig/tblshoot_pressures.png" /></p>
 <p>This error means there is an empty column in <code>pressures_matrix.csv</code>, and the Toolbox cannot handle empty columns.</p>
 </div>
 <div id="error-in-...-length-of-dimnames-2-not-equal-to-array-extent" class="section level4">
@@ -2139,7 +2136,7 @@ $pressure
 <h4><span class="header-section-number">10.2.5.1</span> ‘Error in match(x, table, nomatch = OL) : object id_num not found’</h4>
 <blockquote>
 <div class="figure">
-<img src="fig/error_resil_mtx.png" alt="" />
+<img src="fig/error_resil_mtx.png" />
 
 </div>
 </blockquote>
@@ -2159,6 +2156,19 @@ Note: each goal in resilience_matrix.csv must have at least one resilience field
 <p><code>CalculateResilienceScore.r L112</code> is where this error was generated (called from <code>CalculateResilienceAll.r</code>.</p>
 </div>
 </div>
+<div id="working-with-rmarkdown-files" class="section level3">
+<h3><span class="header-section-number">10.2.6</span> Working with Rmarkdown files</h3>
+<div id="duplicate-label..." class="section level4">
+<h4><span class="header-section-number">10.2.6.1</span> <code>...duplicate label...</code></h4>
+<p>Error message when knitting an Rmd file with multiple code chunks. For example:</p>
+<pre class="r"><code>processing file: eco_prep.rmd
+Error in parse_block(g[-1], g[1], params.src) : 
+  duplicate label &#39;extract eco most recent year status&#39;
+Calls: &lt;Anonymous&gt; ... process_file -&gt; split_file -&gt; lapply -&gt; FUN -&gt; parse_block
+Execution halted</code></pre>
+<p>This means that there are duplicate chunk titles ‘extract eco most recent year status’. To fix this, you just need to rename one (or more) of the chunks!</p>
+</div>
+</div>
 </div>
 </div>
 <div id="appendix-1-toolbox-software" class="section level1">
@@ -2168,7 +2178,7 @@ Note: each goal in resilience_matrix.csv must have at least one resilience field
 This section explains the GitHub workflow and how to access and setup required software. You can use GitHub to upload any modifications you make so that you can work collaboratively with your team.  -->
 <blockquote>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vScAMWoLxDIm55eFKUk_1Ao6KdrRx8eKCiQJwSBOJ-kkRvGj6mt0hmuGM229poKeUraV8CYf7C62BDj/pub?w=624&amp;h=432" alt="" />
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vScAMWoLxDIm55eFKUk_1Ao6KdrRx8eKCiQJwSBOJ-kkRvGj6mt0hmuGM229poKeUraV8CYf7C62BDj/pub?w=624&amp;h=432" />
 
 </div>
 </blockquote>
@@ -2192,7 +2202,7 @@ This section explains the GitHub workflow and how to access and setup required s
 </blockquote>
 <p>The example below illustrates GitHub’s collaborative workflow:</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1_LegC8-1eH7Ed_0iIXcUhPCKPdKSw7vQIfuQGOXQHnA/pub?w=768&amp;h=480" alt="" />
+<img src="https://docs.google.com/drawings/d/1_LegC8-1eH7Ed_0iIXcUhPCKPdKSw7vQIfuQGOXQHnA/pub?w=768&amp;h=480" />
 
 </div>
 <p>There are also many great resources available online with more in-depth information:</p>
@@ -2216,7 +2226,7 @@ This section explains the GitHub workflow and how to access and setup required s
 <p>RStudio can sync files with Github directly. It will capture the changes made to any files within the repository, no matter which software was used to modify them. In RStudio, you sync by first pulling and then pushing (separately).</p>
 <p>Launch your project in RStudio by double-clicking the <code>.Rproj</code> file in the assessment folder on your local hard drive.</p>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/11F2lbB1S56ccZK5CbCxga4SEiRoE6E0-3QtZO99p37A/pub?w=500&amp;h=400" alt="" />
+<img src="https://docs.google.com/drawings/d/11F2lbB1S56ccZK5CbCxga4SEiRoE6E0-3QtZO99p37A/pub?w=500&amp;h=400" />
 
 </div>
 <p>When you modify or add a file, the file will appear in the ‘Git’ window once it has been saved. In the example below, the file <code>test.R</code> was created.</p>
@@ -2268,7 +2278,7 @@ This section explains the GitHub workflow and how to access and setup required s
 </ul>
 <blockquote>
 <div class="figure">
-<img src="fig/git_install_win_option.png" alt="" />
+<img src="fig/git_install_win_option.png" />
 
 </div>
 </blockquote>
@@ -2283,7 +2293,7 @@ This section explains the GitHub workflow and how to access and setup required s
 <p>You are now able to edit your ‘bash profile’ and your screen will change; it will look like this:</p>
 <blockquote>
 <div class="figure">
-<img src="https://docs.google.com/drawings/d/1TfDXXGrIptvQKX1W5Ym3S4Se2U5a_g8x31Z4ct0-HVQ/pub?w=576&amp;h=384" alt="" />
+<img src="https://docs.google.com/drawings/d/1TfDXXGrIptvQKX1W5Ym3S4Se2U5a_g8x31Z4ct0-HVQ/pub?w=576&amp;h=384" />
 
 </div>
 </blockquote>
@@ -2299,7 +2309,7 @@ return/enter</p>
 <pre><code>exit</code></pre>
 <p>Finally, quit Terminal.</p>
 <div class="figure">
-<img src="fig/terminal_pico.png" alt="" />
+<img src="fig/terminal_pico.png" />
 
 </div>
 </div>
@@ -2438,63 +2448,63 @@ Although it is a data-limited method, the more complex approach better takes int
 <div id="examples-of-the-approach" class="section level4">
 <h4><span class="header-section-number">12.0.1.2</span> Examples of the Approach</h4>
 <p><span style="font-size:0.9em"></p>
-<table style="width:101%;">
+<table>
 <colgroup>
-<col width="18%" />
-<col width="29%" />
+<col width="17%" />
+<col width="28%" />
 <col width="27%" />
 <col width="26%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Developing the Model</th>
-<th align="left">Setting the Reference Point</th>
-<th align="left">Other Considerations</th>
+<th>Assessment</th>
+<th>Developing the Model</th>
+<th>Setting the Reference Point</th>
+<th>Other Considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">The status was calculated as a function of the absolute difference between a region’s total landed biomass from the reference multi-species maximum sustainable yield weighted by a correction factor for taxonomies. This was calculated by summing all the single-species MSY estimates obtained for commercially-landed species.</td>
-<td align="left">The reference point was based on the difference from multispecies MSY (mMSY), an estimate of the optimum amount of all marine species that may be caught sustainably. The reference point was set so the total landed biomass of wild-caught species will not be more than 75% of the estimated mMSY using and an asymmetrical buffer where overfished stocks achieve a perfect score if B/B<sub>MSY</sub> is up to 0.2 points below 1 and under-fished stocks achieve a perfect score if B/B<sub>MSY</sub> is within 0.5 points of 1.</td>
-<td align="left">The approach had to be modified by working with fisheries scientists to adapt the data that were available at the global scale.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>The status was calculated as a function of the absolute difference between a region’s total landed biomass from the reference multi-species maximum sustainable yield weighted by a correction factor for taxonomies. This was calculated by summing all the single-species MSY estimates obtained for commercially-landed species.</td>
+<td>The reference point was based on the difference from multispecies MSY (mMSY), an estimate of the optimum amount of all marine species that may be caught sustainably. The reference point was set so the total landed biomass of wild-caught species will not be more than 75% of the estimated mMSY using and an asymmetrical buffer where overfished stocks achieve a perfect score if B/B<sub>MSY</sub> is up to 0.2 points below 1 and under-fished stocks achieve a perfect score if B/B<sub>MSY</sub> is within 0.5 points of 1.</td>
+<td>The approach had to be modified by working with fisheries scientists to adapt the data that were available at the global scale.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">The status was calculated based on estimating population biomass relative to the biomass that can deliver maximum sustainable yield for each landed stock (B/B<sub>MSY</sub>) using the catch-MSY model. Single-species values of B/ B<sub>MSY</sub> were aggregated using a geometric mean.</td>
-<td align="left">The reference point was similar to Global 2012 where regions were penalized for under-harvest and more severely for over-harvest.</td>
-<td align="left">The catch status was improved in this assessment to capture multi-species effects.The reference point was calculated through a more robust model than the one used in Global 2012, and it is a more direct measure of population health because it relates directly to population size.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>The status was calculated based on estimating population biomass relative to the biomass that can deliver maximum sustainable yield for each landed stock (B/B<sub>MSY</sub>) using the catch-MSY model. Single-species values of B/ B<sub>MSY</sub> were aggregated using a geometric mean.</td>
+<td>The reference point was similar to Global 2012 where regions were penalized for under-harvest and more severely for over-harvest.</td>
+<td>The catch status was improved in this assessment to capture multi-species effects.The reference point was calculated through a more robust model than the one used in Global 2012, and it is a more direct measure of population health because it relates directly to population size.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The status was calculated in the same manner as Global 2012, with a modified sustainability term.</td>
-<td align="left">As in Global 2012, the reference point is based on an estimate mMSY.</td>
-<td align="left">This was calculated in the same manner as Global 2012 using local-scale data on exploitation category of species caught within Brazil’s EEZ as a catch-based sustainability index.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The status was calculated in the same manner as Global 2012, with a modified sustainability term.</td>
+<td>As in Global 2012, the reference point is based on an estimate mMSY.</td>
+<td>This was calculated in the same manner as Global 2012 using local-scale data on exploitation category of species caught within Brazil’s EEZ as a catch-based sustainability index.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">The status was based on B/B<sub>MSY</sub> for each landed stock and fishing mortality that can deliver maximum sustainable yield (F/FMSY). There were stock assessments for 41 species with historical data available. Estimates were extracted for each species and then assigned to each region based on the contribution of each species in each region to the overall catch in that region, along with weighting factors.</td>
-<td align="left">The reference point was a functional relationship that accounted for fishing pressure. The approach produced lower scores for species where both under-fishing and overfishing are occurring, but did not punish as much for under-fishing of stocks.</td>
-<td align="left">This study used formal stock assessments rather than data-poor estimates from catch data. The use of historical information was useful in creating sub-regional scores for this goal. This study also tested the use of a recently published data-poor approach (Costello <em>et al.</em> 2012) to obtain B/ B<sub>MSY</sub> values for the remaining stocks.</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>The status was based on B/B<sub>MSY</sub> for each landed stock and fishing mortality that can deliver maximum sustainable yield (F/FMSY). There were stock assessments for 41 species with historical data available. Estimates were extracted for each species and then assigned to each region based on the contribution of each species in each region to the overall catch in that region, along with weighting factors.</td>
+<td>The reference point was a functional relationship that accounted for fishing pressure. The approach produced lower scores for species where both under-fishing and overfishing are occurring, but did not punish as much for under-fishing of stocks.</td>
+<td>This study used formal stock assessments rather than data-poor estimates from catch data. The use of historical information was useful in creating sub-regional scores for this goal. This study also tested the use of a recently published data-poor approach (Costello <em>et al.</em> 2012) to obtain B/ B<sub>MSY</sub> values for the remaining stocks.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">See Global 2013 assessment.</td>
-<td align="left">See Global 2013 assessment.</td>
-<td align="left">This study used available data from the past 10 years (10 species and 9 other taxonomy groups). Trend was calculated between 2005 and 2010.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>See Global 2013 assessment.</td>
+<td>See Global 2013 assessment.</td>
+<td>This study used available data from the past 10 years (10 species and 9 other taxonomy groups). Trend was calculated between 2005 and 2010.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador-Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">The approach is the same as Global 2013-2015.</td>
-<td align="left">The same as Global 2013-2015.</td>
-<td align="left">Mean catch-per-taxon values come from FAO data updated with local data from Instituto Nacional de Pesca (INP).</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador-Gulf of Guayaquil 2015</strong></a></td>
+<td>The approach is the same as Global 2013-2015.</td>
+<td>The same as Global 2013-2015.</td>
+<td>Mean catch-per-taxon values come from FAO data updated with local data from Instituto Nacional de Pesca (INP).</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">See Global 2012 assessment.</td>
-<td align="left">See Global 2012 assessment.</td>
-<td align="left">Data sources were poor for this assessment. Harvest data were reported by each fishing boat, which often fishes across provincial boundaries and outside of the EEZ. Current data thus might not reflect the best regional differences, and may exceed actual harvest levels within the EEZ.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>See Global 2012 assessment.</td>
+<td>See Global 2012 assessment.</td>
+<td>Data sources were poor for this assessment. Harvest data were reported by each fishing boat, which often fishes across provincial boundaries and outside of the EEZ. Current data thus might not reflect the best regional differences, and may exceed actual harvest levels within the EEZ.</td>
 </tr>
 </tbody>
 </table>
@@ -2546,53 +2556,54 @@ as Canada, to be unduly penalized.--->
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Developing the Model</th>
-<th align="left">Setting the Reference Point</th>
-<th align="left">Other Considerations</th>
+<th>Assessment</th>
+<th>Developing the Model</th>
+<th>Setting the Reference Point</th>
+<th>Other Considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">Mariculture was calculated as the yield reported multiplied by the sustainability for each species harvested. Yield was drawn from UN FAO reports, and sustainability was based on information from a Mariculture Sustainability Index (MSI) by Trujillo (2008).</td>
-<td align="left">The reference point for mariculture was a spatial comparison set at highest amount of seafood produced per square kilometer of eligible coastline in the most productive region observed, China.</td>
-<td align="left">Restricting the area based on biophysical constraints and social preferences at a global scale was not possible, and so the entire area within 3nm of the coastline was considered potential habitat.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>Mariculture was calculated as the yield reported multiplied by the sustainability for each species harvested. Yield was drawn from UN FAO reports, and sustainability was based on information from a Mariculture Sustainability Index (MSI) by Trujillo (2008).</td>
+<td>The reference point for mariculture was a spatial comparison set at highest amount of seafood produced per square kilometer of eligible coastline in the most productive region observed, China.</td>
+<td>Restricting the area based on biophysical constraints and social preferences at a global scale was not possible, and so the entire area within 3nm of the coastline was considered potential habitat.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">This study used a model similar to the Global 2012.</td>
-<td align="left">The reference point approach was harvested tonnes per coastal inhabitant scaled to the 95th percentile observed, Thailand. Here coastal was defined as “within 25 km inland.” This was done under the assumption that production depends on the presence of coastal communities.</td>
-<td align="left">This study differs from Global 2012 because of the reference point.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>This study used a model similar to the Global 2012.</td>
+<td>The reference point approach was harvested tonnes per coastal inhabitant scaled to the 95th percentile observed, Thailand. Here coastal was defined as “within 25 km inland.” This was done under the assumption that production depends on the presence of coastal communities.</td>
+<td>This study differs from Global 2012 because of the reference point.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The status was calculated using harvest data reported by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA). For each of up to four species cultured within the state, the score was determined by the yield, the reference sustainable production per unit area, and the total potential farming area.</td>
-<td align="left">Reference points were set for each species.</td>
-<td align="left">In this study it was possible to use both biophysical constraints and social preferences.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The status was calculated using harvest data reported by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA). For each of up to four species cultured within the state, the score was determined by the yield, the reference sustainable production per unit area, and the total potential farming area.</td>
+<td>Reference points were set for each species.</td>
+<td>In this study it was possible to use both biophysical constraints and social preferences.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">The status was calculated as the sustainable production density of shellfish biomass from mariculture relative to a target level of production density for each state within the region.</td>
-<td align="left">The reference point was a target level of production increase as proposed by NOAA</td>
-<td align="left">The approach was similar to the Global but the reference point was made using better information about physical and social limitations on mariculture allotments.</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>The status was calculated as the sustainable production density of shellfish biomass from mariculture relative to a target level of production density for each state within the region.</td>
+<td>The reference point was a target level of production increase as proposed by NOAA</td>
+<td>The approach was similar to the Global but the reference point was made using better information about physical and social limitations on mariculture allotments.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">The status of the Mariculture sub-goal was calculated as the sustainable production of finfish biomass from mariculture relative to a target level of production for Israel.</td>
-<td align="left">The official target yield by the year 2020 (8,500 tons of finfish).</td>
-<td align="left">Species considered in the analysis were limited to one (Sparus aurata), because this species comprises nearly all (an estimated 99%) of the current mariculture production of seafood in Israel. Mariculture is regulated centrally for the whole of Israel and is currently legally carried out in specific areas of the Southern region. As such, the score for South was applied to all other regions.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>The status of the Mariculture sub-goal was calculated as the sustainable production of finfish biomass from mariculture relative to a target level of production for Israel.</td>
+<td>The official target yield by the year 2020 (8,500 tons of finfish).</td>
+<td>Species considered in the analysis were limited to one (Sparus aurata), because this species comprises nearly all (an estimated 99%) of the current mariculture production of seafood in Israel. Mariculture is regulated centrally for the whole of Israel and is currently legally carried out in specific areas of the Southern region. As such, the score for South was applied to all other regions.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador-Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">Two relevant species were assessed: shrimp and tilapia. Status was calculated as an average of the two species’ production in four recent years. This value is multiplied by a sustainability index for mariculture locally, and divided by the number of inhabitants in the coastal zone for each region.</td>
-<td align="left">A spatial reference point was used here, ie. region with the highest production.</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador-Gulf of Guayaquil 2015</strong></a></td>
+<td>Two relevant species were assessed: shrimp and tilapia. Status was calculated as an average of the two species’ production in four recent years. This value is multiplied by a sustainability index for mariculture locally, and divided by the number of inhabitants in the coastal zone for each region.</td>
+<td>A spatial reference point was used here, ie. region with the highest production.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">Status model is similar to the 2012 global assessment. But the status model was based on tonnes of mariculture species per habitat identified as suitable area by the Chinese government.</td>
-<td align="left">The spatial reference point was the region with the highest value.</td>
-<td align="left">Using designated mariculture area for calculations provides a more realistic picture of the status of mariculture. Currently Mariculture Sustainability Index (MSI) values were obtained from the global study. More data on water quality standards and food sources (eg. species, origin, etc) will help determine the sustainability of mariculture.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>Status model is similar to the 2012 global assessment. But the status model was based on tonnes of mariculture species per habitat identified as suitable area by the Chinese government.</td>
+<td>The spatial reference point was the region with the highest value.</td>
+<td>Using designated mariculture area for calculations provides a more realistic picture of the status of mariculture. Currently Mariculture Sustainability Index (MSI) values were obtained from the global study. More data on water quality standards and food sources (eg. species, origin, etc) will help determine the sustainability of mariculture.</td>
 </tr>
 </tbody>
 </table>
@@ -2615,62 +2626,63 @@ as Canada, to be unduly penalized.--->
 <p>The <strong>reference point for this goal</strong> would likely be a metric of having full access to the resource (see examples in the table above). Keep in mind that the access is for people, and therefore a marine protected area may not count towards full access.</p>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table style="width:101%;">
+<table>
 <colgroup>
 <col width="15%" />
 <col width="34%" />
-<col width="22%" />
-<col width="29%" />
+<col width="21%" />
+<col width="28%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Developing the Model</th>
-<th align="left">Setting the Reference Point</th>
-<th align="left">Other Considerations</th>
+<th>Assessment</th>
+<th>Developing the Model</th>
+<th>Setting the Reference Point</th>
+<th>Other Considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">The status was the demand as estimated by poverty levels. The data were measured by the gross domestic product (GDP) per capita, adjusted by the purchasing power parity as a proxy for undocumented trade. The supply was estimated using an indicator that ranked how well regions regulated and supported artisanal fishing, as part of a study by Mora <em>et al.</em> (2009).</td>
-<td align="left">The reference point was having supply greater than demand so that unmet demand is 0. This meant that all demand for artisanal fishing was allowed or achieved.</td>
-<td align="left">The trend was driven by the change over time in PPPpcGDP as a proxy for demand. This assessment did not incorporate a specific measure of the health of the targeted species or of sustainability of practices.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>The status was the demand as estimated by poverty levels. The data were measured by the gross domestic product (GDP) per capita, adjusted by the purchasing power parity as a proxy for undocumented trade. The supply was estimated using an indicator that ranked how well regions regulated and supported artisanal fishing, as part of a study by Mora <em>et al.</em> (2009).</td>
+<td>The reference point was having supply greater than demand so that unmet demand is 0. This meant that all demand for artisanal fishing was allowed or achieved.</td>
+<td>The trend was driven by the change over time in PPPpcGDP as a proxy for demand. This assessment did not incorporate a specific measure of the health of the targeted species or of sustainability of practices.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">The approach was the same was Global 2012</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">There were no data updates available to change the method.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>The approach was the same was Global 2012</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>There were no data updates available to change the method.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The model was simplified to reflect the primary driver of opportunity as the availability of fish to be captured, as measured by the condition of stocks. This model was based solely on the sustainability index calculated using the exploitation status of species. All species were considered possible targets of artisanal fishing activities.</td>
-<td align="left">An established target of 1.0. This meant all stocks are categorized as either Developing or Fully Exploited.</td>
-<td align="left">The analysis used national stock status information. It did not include poverty because of the high variation in the country. In addition, it assumes that access to fishing is largely open because permitting and regulations are not restricted.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The model was simplified to reflect the primary driver of opportunity as the availability of fish to be captured, as measured by the condition of stocks. This model was based solely on the sustainability index calculated using the exploitation status of species. All species were considered possible targets of artisanal fishing activities.</td>
+<td>An established target of 1.0. This meant all stocks are categorized as either Developing or Fully Exploited.</td>
+<td>The analysis used national stock status information. It did not include poverty because of the high variation in the country. In addition, it assumes that access to fishing is largely open because permitting and regulations are not restricted.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">This study developed a model using three key variables of physical and economic access to coastal areas, and access to biological resources:<br />    - Physical accesses: shore-based fishing measured by percent of coastline within a mile coastal access points. <br />    -Economic access: no increase in fuel price compared to income. <br />    - Biological access: condition of fish stocks through NOAA Fish Stock Index. <br />    </td>
-<td align="left">- Physical: 1 coastal access point per mile. <br />    - Economic: No change in gas price. <br />    - Perfect sustainability score on FSI.</td>
-<td align="left">This approach did not model demand or have species-specific information. It assumed that as long as there are no obstacles to pursuing artisanal fishing, the goal was fully achieved. These data better capture the nature of small-scale fisheries in the study area than the Global model.</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>This study developed a model using three key variables of physical and economic access to coastal areas, and access to biological resources:<br />    - Physical accesses: shore-based fishing measured by percent of coastline within a mile coastal access points. <br />    -Economic access: no increase in fuel price compared to income. <br />    - Biological access: condition of fish stocks through NOAA Fish Stock Index. <br />    </td>
+<td>- Physical: 1 coastal access point per mile. <br />    - Economic: No change in gas price. <br />    - Perfect sustainability score on FSI.</td>
+<td>This approach did not model demand or have species-specific information. It assumed that as long as there are no obstacles to pursuing artisanal fishing, the goal was fully achieved. These data better capture the nature of small-scale fisheries in the study area than the Global model.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">The goal model is based on a sustainability index calculated using the exploitation status of species. Ten coastal fish species, for which we have data, were considered possible targets of artisanal fishing activities.</td>
-<td align="left">An established target of 1.0, when all stocks are categorized as either Developing or Fully Exploited.</td>
-<td align="left">The primary driver of artisanal opportunity is the availability of fish to capture (i.e. the condition of the stocks). Access to fishing in Israel is largely open because permits and regulations from the Ministry of Fisheries are not considered restrictive, and in most cases, neither is physical access.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>The goal model is based on a sustainability index calculated using the exploitation status of species. Ten coastal fish species, for which we have data, were considered possible targets of artisanal fishing activities.</td>
+<td>An established target of 1.0, when all stocks are categorized as either Developing or Fully Exploited.</td>
+<td>The primary driver of artisanal opportunity is the availability of fish to capture (i.e. the condition of the stocks). Access to fishing in Israel is largely open because permits and regulations from the Ministry of Fisheries are not considered restrictive, and in most cases, neither is physical access.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">The approach was the same was Global 2012</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">Local information was included for need and sustainability variables.</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td>The approach was the same was Global 2012</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>Local information was included for need and sustainability variables.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">Status model is rewritten and is similar to the 2014 U.S. West Coast assessment. It is based on the three indicators: <br />    - capacity for exports, measured by the number of ports <br />    - the need for artisanal fishing opportunities, represented by the number of artisanal fishermen <br />    - economic capacity, measured by the ratio of diesel price and disposable income.</td>
-<td align="left">The spatial reference point is the maximum value across all region and all years.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>Status model is rewritten and is similar to the 2014 U.S. West Coast assessment. It is based on the three indicators: <br />    - capacity for exports, measured by the number of ports <br />    - the need for artisanal fishing opportunities, represented by the number of artisanal fishermen <br />    - economic capacity, measured by the ratio of diesel price and disposable income.</td>
+<td>The spatial reference point is the maximum value across all region and all years.</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -2701,62 +2713,63 @@ as Canada, to be unduly penalized.--->
 <p>One very important thing to consider at this point is your <strong>reference point for the relative harvest amount</strong>. The relative harvest of your data is multiplied by the sustainability coefficient in the last step. Setting the reference point is a decision your team must make based on the available data and an inferred functional relationship between the harvest of the product and the amount in the system. Understanding the patterns in harvest can help inform how to set the reference point. For example, knowing whether harvesting effort was constant or whether product yields changed due to the market demand and not the availability. This information could help inform whether it is more appropriate to set the reference point as the peak yield of the time-series, or some percentage above or below, or some other approach that is both ambitious and realistic (<em>SMART</em> principles). The decision you make for the reference point should be based on the trend of the data; for instance, if your harvests have only increased over time, which may be indicative of an emerging economy, you will have to account for that.</p>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table style="width:106%;">
+<table>
 <colgroup>
-<col width="16%" />
-<col width="31%" />
+<col width="15%" />
+<col width="30%" />
+<col width="26%" />
 <col width="27%" />
-<col width="29%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Developing the Model</th>
-<th align="left">Setting the Reference Point</th>
-<th align="left">Other considerations</th>
+<th>Assessment</th>
+<th>Developing the Model</th>
+<th>Setting the Reference Point</th>
+<th>Other considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">The products used were coral, ornamental fish, fish oil, seaweeds and marine plants, shells, and sponges. Data were from the UN FAO. Each category was weighted by the sustainability of harvest. For the status of each product, we assessed the most recent harvest (in metric tons) per region relative to a fraction of the maximum value (in 2008 USD) ever achieved in that region.</td>
-<td align="left">65% of its historic maximum of natural product yield.</td>
-<td align="left">Some products of interest had no data available.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>The products used were coral, ornamental fish, fish oil, seaweeds and marine plants, shells, and sponges. Data were from the UN FAO. Each category was weighted by the sustainability of harvest. For the status of each product, we assessed the most recent harvest (in metric tons) per region relative to a fraction of the maximum value (in 2008 USD) ever achieved in that region.</td>
+<td>65% of its historic maximum of natural product yield.</td>
+<td>Some products of interest had no data available.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">The goal model had the same approach as Global 2012, with updated data processing.</td>
-<td align="left">The reference point was the same as the Global 2012.</td>
-<td align="left">The study produced new gapfilling methods. This used estimated US dollar values of harvested products from the tonnage reported, or the tonnage harvested based on a product’s reported economic value.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>The goal model had the same approach as Global 2012, with updated data processing.</td>
+<td>The reference point was the same as the Global 2012.</td>
+<td>The study produced new gapfilling methods. This used estimated US dollar values of harvested products from the tonnage reported, or the tonnage harvested based on a product’s reported economic value.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The method was the same as Global 2012.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">The approach was the same as Global 2012.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The method was the same as Global 2012.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>The approach was the same as Global 2012.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">This goal was not included in this assessment due to lack of data availability.</td>
-<td align="left">N/A</td>
-<td align="left">There were too few data available on local-scale harvest, and in the past had occurred mostly in one Californian region. Including this goal in the assessment would have lowered the overall Index score.</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>This goal was not included in this assessment due to lack of data availability.</td>
+<td>N/A</td>
+<td>There were too few data available on local-scale harvest, and in the past had occurred mostly in one Californian region. Including this goal in the assessment would have lowered the overall Index score.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">Desalination from sea water was assessed for this goal. The status of this goal is calculated as the ratio of the yield of desalination and a target yield. A Desalination Sustainability was also developed and incorporated.</td>
-<td align="left">The target desalination yield set by the Israel Water Authority for year 2020.</td>
-<td align="left">The collection and trade in natural resources, such as aquarium fishes and corals are prohibited by law in Israel, but Israel relies heavily on sea water desalination to provide drinking water for over half the households. Therefore, desalination was incorporated into the index for this goal.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>Desalination from sea water was assessed for this goal. The status of this goal is calculated as the ratio of the yield of desalination and a target yield. A Desalination Sustainability was also developed and incorporated.</td>
+<td>The target desalination yield set by the Israel Water Authority for year 2020.</td>
+<td>The collection and trade in natural resources, such as aquarium fishes and corals are prohibited by law in Israel, but Israel relies heavily on sea water desalination to provide drinking water for over half the households. Therefore, desalination was incorporated into the index for this goal.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">The approach is the same as the Global assessment. Four natural products were considered: corals, fish oil, ornamental fish and seaweed.</td>
-<td align="left">A temporal reference point was used for each natural product: the maximum historical value achieved for each product in each study area.</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td>The approach is the same as the Global assessment. Four natural products were considered: corals, fish oil, ornamental fish and seaweed.</td>
+<td>A temporal reference point was used for each natural product: the maximum historical value achieved for each product in each study area.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">Status model is the same as in global assessments. Three natural products were assessed: sea salt, chemical products, and bio-pharmaceuticals.</td>
-<td align="left">The reference point was the 5-year production average due to large disparities in production among provinces.</td>
-<td align="left">The set reference point resulted in high scores since it is easy to achieve a 5-year average.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>Status model is the same as in global assessments. Three natural products were assessed: sea salt, chemical products, and bio-pharmaceuticals.</td>
+<td>The reference point was the 5-year production average due to large disparities in production among provinces.</td>
+<td>The set reference point resulted in high scores since it is easy to achieve a 5-year average.</td>
 </tr>
 </tbody>
 </table>
@@ -2783,61 +2796,61 @@ as Canada, to be unduly penalized.--->
 </blockquote>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table style="width:110%;">
+<table>
 <colgroup>
-<col width="15%" />
-<col width="34%" />
+<col width="13%" />
 <col width="31%" />
-<col width="27%" />
+<col width="29%" />
+<col width="25%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Developing the Model</th>
-<th align="left">Setting the Reference Point</th>
-<th align="left">Other Considerations</th>
+<th>Assessment</th>
+<th>Developing the Model</th>
+<th>Setting the Reference Point</th>
+<th>Other Considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">Seagrasses, tidal marshes and mangroves, were assessed. The whole extent of mangroves was included, including parts on land or in river deltas. The status was measured as a function of its current condition relative to a reference condition and a variable that weights the relative contribution of each habitat type to total carbon storage.</td>
-<td align="left">Reference conditions were set as the current condition or area of coastal plant habitat coverage relative to that in ~1980. Relative contribution was measured as the amount of area each habitat covers relative to the total area covered by all three habitats given available data.</td>
-<td align="left">This was not a very ambitious reference point.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>Seagrasses, tidal marshes and mangroves, were assessed. The whole extent of mangroves was included, including parts on land or in river deltas. The status was measured as a function of its current condition relative to a reference condition and a variable that weights the relative contribution of each habitat type to total carbon storage.</td>
+<td>Reference conditions were set as the current condition or area of coastal plant habitat coverage relative to that in ~1980. Relative contribution was measured as the amount of area each habitat covers relative to the total area covered by all three habitats given available data.</td>
+<td>This was not a very ambitious reference point.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">The goal model was the same as in Global 2012. Mangrove data included 1km inland in addition to 1km offshore.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">There were improvements in data processing.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>The goal model was the same as in Global 2012. Mangrove data included 1km inland in addition to 1km offshore.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>There were improvements in data processing.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The goal model was the same as in Global 2012. The greatest data gaps were for sea grasses.</td>
-<td align="left">Different reference points were set for each habitat. For salt marshes, the reference year was 1975; mangroves, 1980; salt marshes, 1979 - 1981. Estimations were used to retroactively determine the reference condition for mangroves and salt marshes.</td>
-<td align="left">The same approach was used as in Global 2012, with local data used as available.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The goal model was the same as in Global 2012. The greatest data gaps were for sea grasses.</td>
+<td>Different reference points were set for each habitat. For salt marshes, the reference year was 1975; mangroves, 1980; salt marshes, 1979 - 1981. Estimations were used to retroactively determine the reference condition for mangroves and salt marshes.</td>
+<td>The same approach was used as in Global 2012, with local data used as available.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">Salt marshes and seagrass beds were considered. Extent was used and habitat health was not used.</td>
-<td align="left">Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s.</td>
-<td align="left">The study required reconstructions of historic habitat extents in order to set more ambitious targets.</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>Salt marshes and seagrass beds were considered. Extent was used and habitat health was not used.</td>
+<td>Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s.</td>
+<td>The study required reconstructions of historic habitat extents in order to set more ambitious targets.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">This goal was excluded from Israel’s assessment. No data was available on the only carbon-fixing ecosystem found in the Israeli Mediterranean (ie. seagrass), and this region generally has extremely low productivity.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>This goal was excluded from Israel’s assessment. No data was available on the only carbon-fixing ecosystem found in the Israeli Mediterranean (ie. seagrass), and this region generally has extremely low productivity.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">The modeling approach is the same as Global 2012. But only mangrove was calculated here because of its importance for carbon storage relative to other types of habitats.</td>
-<td align="left">Reference point is the existing mangrove coverage for 1991.</td>
-<td align="left">Values are measured in units of area (km2).</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td>The modeling approach is the same as Global 2012. But only mangrove was calculated here because of its importance for carbon storage relative to other types of habitats.</td>
+<td>Reference point is the existing mangrove coverage for 1991.</td>
+<td>Values are measured in units of area (km2).</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">The approach is the same as Global 2012. But China’s model included a new variable, relative carbon sequestration rate of each habitat.</td>
-<td align="left">A temporal reference point for each habitat is set to its condition in 1980’s. Time-series data on condition of each habitat was not obtainable. However, rough estimate of relative change in coverage areas since the 1980’s was found in literature.</td>
-<td align="left">Relative carbon sequestration rate, together with habitat extent, provide a more complete picture of how habitats contribute to CS than extent alone could do.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>The approach is the same as Global 2012. But China’s model included a new variable, relative carbon sequestration rate of each habitat.</td>
+<td>A temporal reference point for each habitat is set to its condition in 1980’s. Time-series data on condition of each habitat was not obtainable. However, rough estimate of relative change in coverage areas since the 1980’s was found in literature.</td>
+<td>Relative carbon sequestration rate, together with habitat extent, provide a more complete picture of how habitats contribute to CS than extent alone could do.</td>
 </tr>
 </tbody>
 </table>
@@ -2859,63 +2872,63 @@ as Canada, to be unduly penalized.--->
 <p>The goal status model for Coastal Protection developed for global assessments will likely be appropriate for independent assessments. However, it could be possible to incorporate the <em>differences in vulnerability</em> between subcountry regions. Vulnerability can be quantified as the ability to evacuate, economic ability to reconstruct in case of damage. Physical properties may be available in OHI+ assessments, allowing for more a detailed understanding of the protective ability, and likelihood of exposure for each habitat type in different portions of the coastline.</p>
 <p><strong><em>Examples of the Approaches</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table style="width:115%;">
+<table>
 <colgroup>
-<col width="16%" />
-<col width="33%" />
-<col width="37%" />
-<col width="27%" />
+<col width="14%" />
+<col width="28%" />
+<col width="32%" />
+<col width="24%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Model Description and Reference Point</th>
-<th align="left">Evolution of Approach</th>
-<th align="left">Other Considerations</th>
+<th>Assessment</th>
+<th>Model Description and Reference Point</th>
+<th>Evolution of Approach</th>
+<th>Other Considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">The habitats included mangroves, coral reefs, seagrasses, salt marshes, and sea ice. The status was calculated as a function of the amount or condition of marine habitat relative to reference states and the ranked protective ability of each habitat type.</td>
-<td align="left">The reference point compares the current extent and condition to their condition in the early 1980s.</td>
-<td align="left">This focused on the EEZ scale and assumed that all coastal areas have equal value and equal vulnerability.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>The habitats included mangroves, coral reefs, seagrasses, salt marshes, and sea ice. The status was calculated as a function of the amount or condition of marine habitat relative to reference states and the ranked protective ability of each habitat type.</td>
+<td>The reference point compares the current extent and condition to their condition in the early 1980s.</td>
+<td>This focused on the EEZ scale and assumed that all coastal areas have equal value and equal vulnerability.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">The goal model was the same as in Global 2012.</td>
-<td align="left">The reference was the same as Global 2012.</td>
-<td align="left">This approach followed the Global 2012 approach.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>The goal model was the same as in Global 2012.</td>
+<td>The reference was the same as Global 2012.</td>
+<td>This approach followed the Global 2012 approach.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The 12 nmi boundary was used for each habitat type for mangroves, seagrasses, coral reefs, and salt marshes. Only costal portions were used for mangroves. The total reported extent divided by the coastal area of each state was used for seagrasses. For coral reefs we calculated the extent per coastal waters of each state using maps of coral reef distribution. The salt marsh extents for some states were from national statistics.</td>
-<td align="left">The reference condition was the mean of the predicted values for 1985-1987 using regional estimations for coral reefs. The ‘current’ condition or health was the mean of the predicted values for 2008-2010.</td>
-<td align="left">Same goal model as Global 2012, while using local data.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The 12 nmi boundary was used for each habitat type for mangroves, seagrasses, coral reefs, and salt marshes. Only costal portions were used for mangroves. The total reported extent divided by the coastal area of each state was used for seagrasses. For coral reefs we calculated the extent per coastal waters of each state using maps of coral reef distribution. The salt marsh extents for some states were from national statistics.</td>
+<td>The reference condition was the mean of the predicted values for 1985-1987 using regional estimations for coral reefs. The ‘current’ condition or health was the mean of the predicted values for 2008-2010.</td>
+<td>Same goal model as Global 2012, while using local data.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">Salt marshes, seagrasses, and sand dunes were included.</td>
-<td align="left">Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s.</td>
-<td align="left">Same as Global 2012, with more ambitious reference points for target habitat coverage.</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>Salt marshes, seagrasses, and sand dunes were included.</td>
+<td>Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s.</td>
+<td>Same as Global 2012, with more ambitious reference points for target habitat coverage.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">See Global 2012. Sand dune was the habitat of interest.</td>
-<td align="left">Reliable, comprehensive satellite photos from 1970 enabled an evaluation of the habitat extent of the sand dunes as its reference point.</td>
-<td align="left">Other important habitats, such as rocky reefs and the rocky intertidal flats, could not be included due to lack of data on current and/or past spatial extent and condition.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>See Global 2012. Sand dune was the habitat of interest.</td>
+<td>Reliable, comprehensive satellite photos from 1970 enabled an evaluation of the habitat extent of the sand dunes as its reference point.</td>
+<td>Other important habitats, such as rocky reefs and the rocky intertidal flats, could not be included due to lack of data on current and/or past spatial extent and condition.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">The status is calculated in the same manner as in the Global assessment. Mangroves in the coastal strip (1 Km offshore and inland) were considered the main source of coastal protection, and was used for calculations.</td>
-<td align="left">The reference condition was the existing mangrove coverage in the protective area for 1991.</td>
-<td align="left">Values are measured in units of area (km2).</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td>The status is calculated in the same manner as in the Global assessment. Mangroves in the coastal strip (1 Km offshore and inland) were considered the main source of coastal protection, and was used for calculations.</td>
+<td>The reference condition was the existing mangrove coverage in the protective area for 1991.</td>
+<td>Values are measured in units of area (km2).</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">The approach is the same as in global assessments. Four habitats are measured: mangroves, seagrasses, salt marshes, and coral reef.</td>
-<td align="left">A temporal reference point for each habitat is set to its condition in 1980’s.</td>
-<td align="left">These four habitats provide the most coastal protection and have available data. Not all habitat exist in all provinces and time-series data of extent is poor for some. Time-series data on the condition of each habitat is not obtainable. However, rough estimate of relative change in coverage areas since the 1980’s was found in literature.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>The approach is the same as in global assessments. Four habitats are measured: mangroves, seagrasses, salt marshes, and coral reef.</td>
+<td>A temporal reference point for each habitat is set to its condition in 1980’s.</td>
+<td>These four habitats provide the most coastal protection and have available data. Not all habitat exist in all provinces and time-series data of extent is poor for some. Time-series data on the condition of each habitat is not obtainable. However, rough estimate of relative change in coverage areas since the 1980’s was found in literature.</td>
 </tr>
 </tbody>
 </table>
@@ -2942,62 +2955,63 @@ as Canada, to be unduly penalized.--->
 <p>After identifying the list of iconic species, you need to find a matrix to reflect the <em>health</em> of their population. In the global study, we used IUCN threat categories and weights. The reference point is to have the risk status of all assessed species as Least Concern. Alternatively, you can use a different kind of assessment approach to see if the populations are healthy, which could be indicated, for instance, by the stability of their populations.</p>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table style="width:112%;">
+<table>
 <colgroup>
-<col width="16%" />
-<col width="34%" />
-<col width="33%" />
-<col width="27%" />
+<col width="14%" />
+<col width="30%" />
+<col width="29%" />
+<col width="24%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Developing the Model</th>
-<th align="left">Setting the Reference Point</th>
-<th align="left">Other Considerations</th>
+<th>Assessment</th>
+<th>Developing the Model</th>
+<th>Setting the Reference Point</th>
+<th>Other Considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">The status was the average extinction risk of iconic species, calculated as the weighted sum of the number of species in each threat category. An increasing weight was assigned by level of extinction risk of the threat category. A list of region-specific iconic species was combined with a list of globally-recognized iconic species from the World Wildlife Fund’s global and regional lists for Priority Species and Flagship Species.</td>
-<td align="left">The reference point is to have the risk status as Least Concern.</td>
-<td align="left">The lists used were the only source that included cultural reasons for listing iconic species but they only cover a few regions and by no means capture the rich diversity of species that are iconic for local regions.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>The status was the average extinction risk of iconic species, calculated as the weighted sum of the number of species in each threat category. An increasing weight was assigned by level of extinction risk of the threat category. A list of region-specific iconic species was combined with a list of globally-recognized iconic species from the World Wildlife Fund’s global and regional lists for Priority Species and Flagship Species.</td>
+<td>The reference point is to have the risk status as Least Concern.</td>
+<td>The lists used were the only source that included cultural reasons for listing iconic species but they only cover a few regions and by no means capture the rich diversity of species that are iconic for local regions.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">The method was the same as Global 2012.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">The approach was the same as Global 2012.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>The method was the same as Global 2012.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>The approach was the same as Global 2012.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The method was the same as Global 2012.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">The approach was the same as Global 2012.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The method was the same as Global 2012.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>The approach was the same as Global 2012.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">This study replaced the global IUCN risk assessments with regionally-specific species assessments provided by NatureServe.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">Same as Global 2012, with regional data for the threat categories.</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>This study replaced the global IUCN risk assessments with regionally-specific species assessments provided by NatureServe.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>Same as Global 2012, with regional data for the threat categories.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">See Global 2012.</td>
-<td align="left">The target reference point here is that all species are assessed as “Secure”, giving a goal score of 1.</td>
-<td align="left">The IUCN species assessments were used for the calculation of the biodiversity.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>See Global 2012.</td>
+<td>The target reference point here is that all species are assessed as “Secure”, giving a goal score of 1.</td>
+<td>The IUCN species assessments were used for the calculation of the biodiversity.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">The same approach as Global 2012 assessment was used.</td>
-<td align="left">The reference point was where all Iconic spices are categorized as “least concern”.</td>
-<td align="left">Updated with local from IUCN with iconic species of the Golfo de Guayaquil. Three species from the global study were eliminated and 13 new ones were included.</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td>The same approach as Global 2012 assessment was used.</td>
+<td>The reference point was where all Iconic spices are categorized as “least concern”.</td>
+<td>Updated with local from IUCN with iconic species of the Golfo de Guayaquil. Three species from the global study were eliminated and 13 new ones were included.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">Status model is similar to global assessments. However, average extinction risk of all assessed species was only calculated as the weighted sum of the number of species in each threat category, since habitat area per species is not obtainable.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>Status model is similar to global assessments. However, average extinction risk of all assessed species was only calculated as the weighted sum of the number of species in each threat category, since habitat area per species is not obtainable.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -3024,62 +3038,62 @@ as Canada, to be unduly penalized.--->
 </blockquote>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table style="width:101%;">
+<table>
 <colgroup>
 <col width="16%" />
-<col width="29%" />
+<col width="28%" />
 <col width="27%" />
 <col width="27%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Developing the Model</th>
-<th align="left">Setting the Reference Point</th>
-<th align="left">Other Considerations</th>
+<th>Assessment</th>
+<th>Developing the Model</th>
+<th>Setting the Reference Point</th>
+<th>Other Considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">The status was calculated by combining the percent of coastal waters that are coastal marine protected areas and the percent of coastline that is protected.</td>
-<td align="left">The reference point is 30% protection for both land and sea areas.</td>
-<td align="left">It was assumed that it is possible to protect up to 30% of areas.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>The status was calculated by combining the percent of coastal waters that are coastal marine protected areas and the percent of coastline that is protected.</td>
+<td>The reference point is 30% protection for both land and sea areas.</td>
+<td>It was assumed that it is possible to protect up to 30% of areas.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">The method was the same as Global 2012.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">The approach was the same as Global 2012.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>The method was the same as Global 2012.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>The approach was the same as Global 2012.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The method was the same as Global 2012.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">This goal was assessed using a national database of protected areas that included fully-protected and sustainable use designations at federal, state and municipal levels, and included indigenous lands. The highest-scoring area contained the largest continuous extent of protected areas within the country in what is called the Biodiversity Corridor of Amapa´.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The method was the same as Global 2012.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>This goal was assessed using a national database of protected areas that included fully-protected and sustainable use designations at federal, state and municipal levels, and included indigenous lands. The highest-scoring area contained the largest continuous extent of protected areas within the country in what is called the Biodiversity Corridor of Amapa´.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">The model was the same as Global 2012.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">The study used assumptions to define ‘special.’</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>The model was the same as Global 2012.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>The study used assumptions to define ‘special.’</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">Archeological Protected Areas, Beaches of Special Public Interest, and Marine Protected Areas were assessed using the same approach as the Global assessment.</td>
-<td align="left">Reference point was set to be areas suggested to be protected by the government.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>Archeological Protected Areas, Beaches of Special Public Interest, and Marine Protected Areas were assessed using the same approach as the Global assessment.</td>
+<td>Reference point was set to be areas suggested to be protected by the government.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">This goal focuses on capturing the current value of the percentage of protected coastal areas (1 km onshore) and marine coastal (3 nm offshore) with respect to a fixed reference value.</td>
-<td align="left">The same as Global 2012.</td>
-<td align="left">Local data comes from Ministerio del Ambiente and Fundacion Natura. All areas considered are within the SNAP.</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td>This goal focuses on capturing the current value of the percentage of protected coastal areas (1 km onshore) and marine coastal (3 nm offshore) with respect to a fixed reference value.</td>
+<td>The same as Global 2012.</td>
+<td>Local data comes from Ministerio del Ambiente and Fundacion Natura. All areas considered are within the SNAP.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">Status model is similar to global assessments.</td>
-<td align="left">The reference point is only 5% protection, a target set by national marine protection policies to achieve by 2020.</td>
-<td align="left">Only coastal marine protected areas was considered, since protected coastline information is not available.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>Status model is similar to global assessments.</td>
+<td>The reference point is only 5% protection, a target set by national marine protection policies to achieve by 2020.</td>
+<td>Only coastal marine protected areas was considered, since protected coastline information is not available.</td>
 </tr>
 </tbody>
 </table>
@@ -3115,62 +3129,63 @@ as Canada, to be unduly penalized.--->
 </blockquote>
 <p><strong><em>Examples of the Approaches</em></strong></p>
 <p><span style="font-size=0.9em"></p>
-<table style="width:147%;">
+<table>
 <colgroup>
+<col width="15%" />
 <col width="22%" />
-<col width="33%" />
-<col width="36%" />
-<col width="55%" />
+<col width="24%" />
+<col width="37%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Developing the Model</th>
-<th align="left">Setting the Reference Point</th>
-<th align="left">Other Considerations</th>
+<th>Assessment</th>
+<th>Developing the Model</th>
+<th>Setting the Reference Point</th>
+<th>Other Considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">This was measured as the number of direct and indirect jobs across sectors within a region plus the average purchasing power parity (PPP)-adjusted wages within each sector. Jobs were summed across sectors and wages were averages across sectors within each region.</td>
-<td align="left">The reference point for jobs was a temporal comparison using a moving-window value; the reference point for wages was the highest average annual wage observed across all reporting units. A score of 100 indicated that the number of marine jobs had not reduced relative to the number five years previously, and that the wages in the area were the highest anywhere.</td>
-<td align="left">The goal model assumed there was no-net-loss of jobs in order to account for broader economic trends. The economic multipliers were used for jobs and revenue but not wages.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>This was measured as the number of direct and indirect jobs across sectors within a region plus the average purchasing power parity (PPP)-adjusted wages within each sector. Jobs were summed across sectors and wages were averages across sectors within each region.</td>
+<td>The reference point for jobs was a temporal comparison using a moving-window value; the reference point for wages was the highest average annual wage observed across all reporting units. A score of 100 indicated that the number of marine jobs had not reduced relative to the number five years previously, and that the wages in the area were the highest anywhere.</td>
+<td>The goal model assumed there was no-net-loss of jobs in order to account for broader economic trends. The economic multipliers were used for jobs and revenue but not wages.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">The model was similar to Global 2012, with some simplifications.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">The approach was the same as Global 2012 except for a few simplifications in multipliers, wage data, and jobs data. This was done because of data availability and in order to correct for national macroeconomic events across all sectors.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>The model was similar to Global 2012, with some simplifications.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>The approach was the same as Global 2012 except for a few simplifications in multipliers, wage data, and jobs data. This was done because of data availability and in order to correct for national macroeconomic events across all sectors.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The method was the same as Global 2012.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">The approach was the same as Global 2012.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The method was the same as Global 2012.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>The approach was the same as Global 2012.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">This goal follows the same model as in Global 2012, using local data for the sectors of living resources, tourism and recreation, shipping and transport, marine related construction, and ship and boat building or repair. Data and sector-specific multipliers came from the National Ocean Economics Program (NOEP).</td>
-<td align="left">The reference point was the same as in Global 2012.</td>
-<td align="left">This study followed the Global 2012 approach but used local data. It recognized that sectors and economic activity within a region can be influenced by activities outside the region.</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>This goal follows the same model as in Global 2012, using local data for the sectors of living resources, tourism and recreation, shipping and transport, marine related construction, and ship and boat building or repair. Data and sector-specific multipliers came from the National Ocean Economics Program (NOEP).</td>
+<td>The reference point was the same as in Global 2012.</td>
+<td>This study followed the Global 2012 approach but used local data. It recognized that sectors and economic activity within a region can be influenced by activities outside the region.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">See Global 2012 assessment.</td>
-<td align="left">No-net-loss reference point.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>See Global 2012 assessment.</td>
+<td>No-net-loss reference point.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">The approach is the same as the Global assessment.</td>
-<td align="left">A temporal reference poinst was used for both the number of jobs and salaries. 2009 values were used as the reference point for jobs, and values of 2010 for salaries.</td>
-<td align="left">Data for jobs, wages, and unemployment were gap-filled.</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td>The approach is the same as the Global assessment.</td>
+<td>A temporal reference poinst was used for both the number of jobs and salaries. 2009 values were used as the reference point for jobs, and values of 2010 for salaries.</td>
+<td>Data for jobs, wages, and unemployment were gap-filled.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">Status model is the based on the number of direct jobs across marine sectors and the average disposable income among rural and urban inhabitants within a region.</td>
-<td align="left">Both jobs and wages have a spatial reference point of the maximum value among all provinces across all years.</td>
-<td align="left">Eleven marine sectors are assessed. The number of jobs per sector is not readily available and is extenuated from the nation-wide number of employments for each sector and the total number of marine-related jobs per province. There is not enough information on indirect jobs and is thus left out of the calculation. Due to unavailability of wage information per sector, wage is substituted by disposable income.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>Status model is the based on the number of direct jobs across marine sectors and the average disposable income among rural and urban inhabitants within a region.</td>
+<td>Both jobs and wages have a spatial reference point of the maximum value among all provinces across all years.</td>
+<td>Eleven marine sectors are assessed. The number of jobs per sector is not readily available and is extenuated from the nation-wide number of employments for each sector and the total number of marine-related jobs per province. There is not enough information on indirect jobs and is thus left out of the calculation. Due to unavailability of wage information per sector, wage is substituted by disposable income.</td>
 </tr>
 </tbody>
 </table>
@@ -3193,62 +3208,63 @@ as Canada, to be unduly penalized.--->
 </blockquote>
 <p><strong><em>Examples of the Approaches</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table style="width:160%;">
+<table style="width:100%;">
 <colgroup>
-<col width="22%" />
-<col width="68%" />
-<col width="41%" />
-<col width="27%" />
+<col width="13%" />
+<col width="42%" />
+<col width="26%" />
+<col width="17%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Developing the Model</th>
-<th align="left">Setting the Reference Point</th>
-<th align="left">Other Considerations</th>
+<th>Assessment</th>
+<th>Developing the Model</th>
+<th>Setting the Reference Point</th>
+<th>Other Considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">The status used the total adjusted revenue generated directly and indirectly from each sector at current and reference time points.</td>
-<td align="left">In the economies sub-goal, revenue had a moving target temporal comparison. A score of 100 would indicate that revenue has not decreased compared to its value five years previous. The years used for GDP data were based on the average current year and average reference year across the sector data sources.</td>
-<td align="left">The study accounted for a region’s GDP trend. The economic multipliers were used for jobs and revenue but not wages. The study assumed that sector-specific job and revenue multipliers were static and globally consistent, but distinct for developed versus developing regions.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>The status used the total adjusted revenue generated directly and indirectly from each sector at current and reference time points.</td>
+<td>In the economies sub-goal, revenue had a moving target temporal comparison. A score of 100 would indicate that revenue has not decreased compared to its value five years previous. The years used for GDP data were based on the average current year and average reference year across the sector data sources.</td>
+<td>The study accounted for a region’s GDP trend. The economic multipliers were used for jobs and revenue but not wages. The study assumed that sector-specific job and revenue multipliers were static and globally consistent, but distinct for developed versus developing regions.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">The model was same as Global 2012, with a few simplifications; revenue data were adjusted by dividing by GDP per region, reported in 2013 USD.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">The approach was the same as Global 2012, with simplifications.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>The model was same as Global 2012, with a few simplifications; revenue data were adjusted by dividing by GDP per region, reported in 2013 USD.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>The approach was the same as Global 2012, with simplifications.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The method was the same as Global 2012.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">The approach was the same as Global 2012.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The method was the same as Global 2012.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>The approach was the same as Global 2012.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">The method was the same as Global 2012, but with local sectors represented.</td>
-<td align="left">The reference point was calculated in the the same way as Global 2012.</td>
-<td align="left">The approach was the same as Global 2012.</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>The method was the same as Global 2012, but with local sectors represented.</td>
+<td>The reference point was calculated in the the same way as Global 2012.</td>
+<td>The approach was the same as Global 2012.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">See Global 2012 assessment.</td>
-<td align="left">See Global 2012 assessment.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>See Global 2012 assessment.</td>
+<td>See Global 2012 assessment.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">Similar to Global 2013-2015. Value added (VA) was added as a measure of local economies, ie. earnings of each sector.</td>
-<td align="left">The temporal reference point was the Value Added by each sector in 2007.</td>
-<td align="left">Value added was used to replace GDP, which is more appropriate as measure of national economies.</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td>Similar to Global 2013-2015. Value added (VA) was added as a measure of local economies, ie. earnings of each sector.</td>
+<td>The temporal reference point was the Value Added by each sector in 2007.</td>
+<td>Value added was used to replace GDP, which is more appropriate as measure of national economies.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">Status model is the same as in global assessments</td>
-<td align="left">The spatial reference point is the maximum revenue across all regions over all years.</td>
-<td align="left">Data on revenue generated from each marine sector is not available, and thus total revenue from all sectors are used for the assessment.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>Status model is the same as in global assessments</td>
+<td>The spatial reference point is the maximum revenue across all regions over all years.</td>
+<td>Data on revenue generated from each marine sector is not available, and thus total revenue from all sectors are used for the assessment.</td>
 </tr>
 </tbody>
 </table>
@@ -3268,62 +3284,63 @@ as Canada, to be unduly penalized.--->
 <p>The <strong>reference point</strong> used will depend upon the types of data. Does your country have industry growth rate targets? Are there measures on sustainable levels of tourism and recreational activities based on ecological factors? Do you want to increase tourism, or instead ensure it does not decline?</p>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table style="width:112%;">
+<table>
 <colgroup>
-<col width="22%" />
-<col width="34%" />
-<col width="27%" />
-<col width="27%" />
+<col width="19%" />
+<col width="30%" />
+<col width="24%" />
+<col width="24%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Developing the Model</th>
-<th align="left">Setting the Reference Point</th>
-<th align="left">Other Considerations</th>
+<th>Assessment</th>
+<th>Developing the Model</th>
+<th>Setting the Reference Point</th>
+<th>Other Considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">This goal measured the number of international tourists arriving by airline to coastal regions, accounting for their average length of stay, and adjusting by population size. The data were found through international airline arrivals and the Tourism Competitiveness Index (TTCI) from the World Economic Forum.</td>
-<td align="left">This study used a spatial comparison reference point that compares each region to the best performing regions. To compare regions, arrivals were divided by the region’s population.</td>
-<td align="left">There were data limitations that were comprehensive data available on a global scale. This approach did not account for domestic tourism.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>This goal measured the number of international tourists arriving by airline to coastal regions, accounting for their average length of stay, and adjusting by population size. The data were found through international airline arrivals and the Tourism Competitiveness Index (TTCI) from the World Economic Forum.</td>
+<td>This study used a spatial comparison reference point that compares each region to the best performing regions. To compare regions, arrivals were divided by the region’s population.</td>
+<td>There were data limitations that were comprehensive data available on a global scale. This approach did not account for domestic tourism.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">The study used the direct employment in the tourism industry relative to total labor force and used the TTCI.</td>
-<td align="left">The reference point was the best scoring region across all years and rescaled all other regions across all years to that score. All regions above this score received a status score of 100.</td>
-<td align="left">A new model was developed using employment in the tourism sector as a proxy for the total number of people engaged in coastal tourism and recreation. It involved assumptions, but these data were of better quality and closer to what this goal is trying to capture than those used in Global 2012.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>The study used the direct employment in the tourism industry relative to total labor force and used the TTCI.</td>
+<td>The reference point was the best scoring region across all years and rescaled all other regions across all years to that score. All regions above this score received a status score of 100.</td>
+<td>A new model was developed using employment in the tourism sector as a proxy for the total number of people engaged in coastal tourism and recreation. It involved assumptions, but these data were of better quality and closer to what this goal is trying to capture than those used in Global 2012.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The model developed for Global 2012 was changed to use information on hotel employees for each coastal municipality. The status was measured for each coastal state as the density of hotel jobs in coastal areas.</td>
-<td align="left">The reference value used was the highest status value across all states over the time series, which was Rio de Janeiro in 2011.</td>
-<td align="left">The goal model assumes that the majority of coastal hotels are located in proximity to the shoreline, and that the number of hotel employees is directly proportional to the volume of tourists an area receives.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The model developed for Global 2012 was changed to use information on hotel employees for each coastal municipality. The status was measured for each coastal state as the density of hotel jobs in coastal areas.</td>
+<td>The reference value used was the highest status value across all states over the time series, which was Rio de Janeiro in 2011.</td>
+<td>The goal model assumes that the majority of coastal hotels are located in proximity to the shoreline, and that the number of hotel employees is directly proportional to the volume of tourists an area receives.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">There were data available for changes in participation in 19 different marine and coastal specific recreational activities over time. These observations were used to produce a predictive model that was employed to estimate participation rates in recent years.</td>
-<td align="left">The reference point was temporal, compared to 2000.</td>
-<td align="left">The approach took advantage of time-series data. Participation rates more closely matched the intent of this goal and were a more robust proxy than international tourist arrivals data, and the reference point was spatial instead of temporal.</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>There were data available for changes in participation in 19 different marine and coastal specific recreational activities over time. These observations were used to produce a predictive model that was employed to estimate participation rates in recent years.</td>
+<td>The reference point was temporal, compared to 2000.</td>
+<td>The approach took advantage of time-series data. Participation rates more closely matched the intent of this goal and were a more robust proxy than international tourist arrivals data, and the reference point was spatial instead of temporal.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">The amount of coastal park visits and hotel occupancies were used as as a proxy for the number of people actually engaged in coastal tourism. Status of the two indicators were calculated separately and then weighted to calculate the status of this goal (ie. 1/3 for hotels and 2/3 for parks).</td>
-<td align="left">Hotels reference points were taken from official planning targets for year 2020.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>The amount of coastal park visits and hotel occupancies were used as as a proxy for the number of people actually engaged in coastal tourism. Status of the two indicators were calculated separately and then weighted to calculate the status of this goal (ie. 1/3 for hotels and 2/3 for parks).</td>
+<td>Hotels reference points were taken from official planning targets for year 2020.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">The approach is similar to Global 2012 assessment. The number of domestic and international tourists in each region were the product of country-wide data and the fraction of tourists per region.</td>
-<td align="left">The reference points were the number of domestic visitors and international visitors estimated for 2019. These values are calculated by province assuming an annual growth of 6.9% proposed by Integral Tourism Marketing Plan of Ecuador -PIMTE- 2014 for inbound tourism, and a growth of 2.44% for domestic tourism.</td>
-<td align="left">No local data were available for other indicators such as activities, hotel employments, etc. But we were able to add domestic tourism data to supplement international tourism data.</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td>The approach is similar to Global 2012 assessment. The number of domestic and international tourists in each region were the product of country-wide data and the fraction of tourists per region.</td>
+<td>The reference points were the number of domestic visitors and international visitors estimated for 2019. These values are calculated by province assuming an annual growth of 6.9% proposed by Integral Tourism Marketing Plan of Ecuador -PIMTE- 2014 for inbound tourism, and a growth of 2.44% for domestic tourism.</td>
+<td>No local data were available for other indicators such as activities, hotel employments, etc. But we were able to add domestic tourism data to supplement international tourism data.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">Status model is based on the ratio of visitors and coastal area.</td>
-<td align="left">The spatial reference point was the region with the highest ratio across all years.</td>
-<td align="left">The number of visitors included both domestic and international visitors. Travel and Tourism Competitive Index (TTCI) was also incorporated.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>Status model is based on the ratio of visitors and coastal area.</td>
+<td>The spatial reference point was the region with the highest ratio across all years.</td>
+<td>The number of visitors included both domestic and international visitors. Travel and Tourism Competitive Index (TTCI) was also incorporated.</td>
 </tr>
 </tbody>
 </table>
@@ -3358,61 +3375,63 @@ as Canada, to be unduly penalized.--->
 <p>For each contamination category, a reference point is set and all data in this category is scaled to 1. The type of <strong>reference point</strong> used will depend on the data available. You may decided that an ocean completely rid of pollution is ideal, or you may find that beach closure of less than 10 days per year due to <em>E.coli</em> contamination is acceptable.</p>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table style="width:107%;">
+<table>
 <colgroup>
-<col width="16%" />
-<col width="34%" />
-<col width="27%" />
-<col width="27%" />
+<col width="15%" />
+<col width="32%" />
+<col width="25%" />
+<col width="25%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Developing the Model</th>
-<th align="left">Setting the Reference Point</th>
-<th align="left">Other Considerations</th>
+<th>Assessment</th>
+<th>Developing the Model</th>
+<th>Setting the Reference Point</th>
+<th>Other Considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">The status was calculated as the geometric mean of four components, eutrophication (nutrients), chemicals, pathogens and marine debris.</td>
-<td align="left">Reference point is when the contamination level is zero.</td>
-<td align="left">The lack of direct measurements meant that modeled and proxy data were used. The status of this goal was also used in the pressures layers.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>The status was calculated as the geometric mean of four components, eutrophication (nutrients), chemicals, pathogens and marine debris.</td>
+<td>Reference point is when the contamination level is zero.</td>
+<td>The lack of direct measurements meant that modeled and proxy data were used. The status of this goal was also used in the pressures layers.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">The model was same as Global 2012, with a few simplifications; revenue data were adjusted by dividing by GDP per region, reported in 2013 USD.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">The approach was the same as Global 2012, with simplifications.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>The model was same as Global 2012, with a few simplifications; revenue data were adjusted by dividing by GDP per region, reported in 2013 USD.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>The approach was the same as Global 2012, with simplifications.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The goal model was the same as Global 2012. Data used to model the components for eutrophication (nutrients) and chemicals was the same as in Global 2012, while pathogens and debris were localized to state level data.</td>
-<td align="left">The reference point approach was the same as Global 2012.</td>
-<td align="left">The study used better, or more local, data than the Global.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The goal model was the same as Global 2012. Data used to model the components for eutrophication (nutrients) and chemicals was the same as in Global 2012, while pathogens and debris were localized to state level data.</td>
+<td>The reference point approach was the same as Global 2012.</td>
+<td>The study used better, or more local, data than the Global.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">The model was the same as Global 2012, with regional instead of global data.</td>
-<td align="left">The reference point was set as the number of days when beaches were closed to bathers because pathogen counts were higher than state standards.</td>
-<td align="left">The study used more local data than the Global.</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>The model was the same as Global 2012, with regional instead of global data.</td>
+<td>The reference point was set as the number of days when beaches were closed to bathers because pathogen counts were higher than state standards.</td>
+<td>The study used more local data than the Global.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">The goal model was the same as Global 2012 with local data.</td>
-<td align="left">The reference points for each category of pollutants are government-set standards.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>The goal model was the same as Global 2012 with local data.</td>
+<td>The reference points for each category of pollutants are government-set standards.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">The approach is similar to Global 2012. The same four indicators were used. However, trend data were added as follows: Coastal human population as a proxy for trend in trash; Fertilizer consumption as a proxy for trend in nutrient pollution; Trends in access to improved sanitation as a proxy for trend in pathogen pollution; Pesticide consumption as a proxy for trend in chemical pollution.</td>
-<td align="left">The reference point is a zero pollution state for each of the components considered.</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td>The approach is similar to Global 2012. The same four indicators were used. However, trend data were added as follows: Coastal human population as a proxy for trend in trash; Fertilizer consumption as a proxy for trend in nutrient pollution; Trends in access to improved sanitation as a proxy for trend in pathogen pollution; Pesticide consumption as a proxy for trend in chemical pollution.</td>
+<td>The reference point is a zero pollution state for each of the components considered.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">Status model is similar to global assessments. Pollution is based on nitrogen, phosphate, chemical oxygen demand, and oil pollution.</td>
-<td align="left">The same reference point as Global 2012 was used that waters are free from all pollution.</td>
-<td align="left">The study used all local data. Data on pathogens and marine debris are poor or unavailable and thus were ignored in the model.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>Status model is similar to global assessments. Pollution is based on nitrogen, phosphate, chemical oxygen demand, and oil pollution.</td>
+<td>The same reference point as Global 2012 was used that waters are free from all pollution.</td>
+<td>The study used all local data. Data on pathogens and marine debris are poor or unavailable and thus were ignored in the model.</td>
 </tr>
 </tbody>
 </table>
@@ -3445,99 +3464,99 @@ as Canada, to be unduly penalized.--->
 <table>
 <thead>
 <tr class="header">
-<th align="left">Scientific name</th>
-<th align="left">IUCN Category</th>
-<th align="left">Trend</th>
-<th align="left">Map Cells</th>
+<th>Scientific name</th>
+<th>IUCN Category</th>
+<th>Trend</th>
+<th>Map Cells</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><em>Conus salreiensis</em></td>
-<td align="left">Critically Endangered</td>
-<td align="left">Decreasing</td>
-<td align="left">1</td>
+<td><em>Conus salreiensis</em></td>
+<td>Critically Endangered</td>
+<td>Decreasing</td>
+<td>1</td>
 </tr>
 <tr class="even">
-<td align="left"><em>Conus trochulus</em></td>
-<td align="left">Near Threatened</td>
-<td align="left">Unknown</td>
-<td align="left">1</td>
+<td><em>Conus trochulus</em></td>
+<td>Near Threatened</td>
+<td>Unknown</td>
+<td>1</td>
 </tr>
 <tr class="odd">
-<td align="left"><em>Conus roeckeli</em></td>
-<td align="left">Least Concern</td>
-<td align="left">Unknown</td>
-<td align="left">1</td>
+<td><em>Conus roeckeli</em></td>
+<td>Least Concern</td>
+<td>Unknown</td>
+<td>1</td>
 </tr>
 <tr class="even">
-<td align="left"><em>Acropora palmata</em></td>
-<td align="left">Critically Endangered</td>
-<td align="left">Stable</td>
-<td align="left">1158</td>
+<td><em>Acropora palmata</em></td>
+<td>Critically Endangered</td>
+<td>Stable</td>
+<td>1158</td>
 </tr>
 </tbody>
 </table>
 <p></span></p>
 <p><strong><em>Examples of the Approach</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table style="width:103%;">
+<table style="width:100%;">
 <colgroup>
 <col width="12%" />
-<col width="34%" />
-<col width="25%" />
-<col width="30%" />
+<col width="33%" />
+<col width="24%" />
+<col width="29%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Developing the Model</th>
-<th align="left">Setting the Reference Point</th>
-<th align="left">Other Considerations</th>
+<th>Assessment</th>
+<th>Developing the Model</th>
+<th>Setting the Reference Point</th>
+<th>Other Considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">The status of assessed species was calculated as the area- and threat status-weighted average of the number of threatened species within each 0.5-degree global grid cell. Species distribution and threat category data came from the IUCN Global Marine Species Assessment.</td>
-<td align="left">The reference point was to have all species at a risk status of Least Concern. We scaled the lower end of the biodiversity goal to be 0 when 75% species are extinct.</td>
-<td align="left">There were no measures of integrity measures included. The species chosen represents a partial sample of overall species diversity.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>The status of assessed species was calculated as the area- and threat status-weighted average of the number of threatened species within each 0.5-degree global grid cell. Species distribution and threat category data came from the IUCN Global Marine Species Assessment.</td>
+<td>The reference point was to have all species at a risk status of Least Concern. We scaled the lower end of the biodiversity goal to be 0 when 75% species are extinct.</td>
+<td>There were no measures of integrity measures included. The species chosen represents a partial sample of overall species diversity.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">The goal model was the same as Global 2012. There were data updates available for 15 out of 6,080 species.</td>
-<td align="left">The reference point was the same as Global 2012.</td>
-<td align="left">Updates were available for data used for this sub-goal.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>The goal model was the same as Global 2012. There were data updates available for 15 out of 6,080 species.</td>
+<td>The reference point was the same as Global 2012.</td>
+<td>Updates were available for data used for this sub-goal.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The status of 504 assessed species was calculated as the threat status-weighted average of species occurring in the Brazilian EEZ. The sub-goal was calculated at the national level, giving equal weight to all species occurring in Brazilian waters. Threat weights were assigned based on the IUCN threat categories status of each species.</td>
-<td align="left">The reference point was the same was Global 2012.</td>
-<td align="left">This study substituted global assessment data for regional data whenever available. This study did not weight by area of occurrence as in Global 2012 because distribution maps were not available for all species.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The status of 504 assessed species was calculated as the threat status-weighted average of species occurring in the Brazilian EEZ. The sub-goal was calculated at the national level, giving equal weight to all species occurring in Brazilian waters. Threat weights were assigned based on the IUCN threat categories status of each species.</td>
+<td>The reference point was the same was Global 2012.</td>
+<td>This study substituted global assessment data for regional data whenever available. This study did not weight by area of occurrence as in Global 2012 because distribution maps were not available for all species.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">The model was the same as Global 2012, with regional data available for threat categories.</td>
-<td align="left">The same reference point was used as the Global model.</td>
-<td align="left">This followed the Global model, but used local data. This study did not weigh by area.</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>The model was the same as Global 2012, with regional data available for threat categories.</td>
+<td>The same reference point was used as the Global model.</td>
+<td>This followed the Global model, but used local data. This study did not weigh by area.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">The same as Global 2012.</td>
-<td align="left">Where all species within the region are classified with a risk status of Least Concern.</td>
-<td align="left">A list of species was composed based data from the Israel Marine Mammal Research and Assistance Center (IMMRAC) and cross-referenced with the IUCN data. Distribution maps were available for some species (from a global 0.5° grid). For those species not included in the distribution maps in the Mediterranean, data from assessments in the Black Seas were used. Additional data gap filling was done.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>The same as Global 2012.</td>
+<td>Where all species within the region are classified with a risk status of Least Concern.</td>
+<td>A list of species was composed based data from the Israel Marine Mammal Research and Assistance Center (IMMRAC) and cross-referenced with the IUCN data. Distribution maps were available for some species (from a global 0.5° grid). For those species not included in the distribution maps in the Mediterranean, data from assessments in the Black Seas were used. Additional data gap filling was done.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">The approach is similar to Global 2012. This goal calculates the average IUCN threat category for all species in the study area, broken down by the type of habitat where they live. That average is weighted by the percentage of area occupied by each type of habitat in the Gulf region: soft bottom and hard bottom.</td>
-<td align="left">When all species are in the category of “least concern”.</td>
-<td align="left">The species list was adopted from the IUCN Red List threat categories with aggregated species lists and 112 species from local sources.</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td>The approach is similar to Global 2012. This goal calculates the average IUCN threat category for all species in the study area, broken down by the type of habitat where they live. That average is weighted by the percentage of area occupied by each type of habitat in the Gulf region: soft bottom and hard bottom.</td>
+<td>When all species are in the category of “least concern”.</td>
+<td>The species list was adopted from the IUCN Red List threat categories with aggregated species lists and 112 species from local sources.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">Status model is similar to global assessments. However, average extinction risk of all assessed species was only calculated as the weighted sum of the number of species in each threat category, since habitat area per species is not obtainable.</td>
-<td align="left">The reference point is to have the risk status of all iconic species at lowest risk of extinction.</td>
-<td align="left">This study used a combination of local endangered species list and IUCN list.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>Status model is similar to global assessments. However, average extinction risk of all assessed species was only calculated as the weighted sum of the number of species in each threat category, since habitat area per species is not obtainable.</td>
+<td>The reference point is to have the risk status of all iconic species at lowest risk of extinction.</td>
+<td>This study used a combination of local endangered species list and IUCN list.</td>
 </tr>
 </tbody>
 </table>
@@ -3570,62 +3589,63 @@ as Canada, to be unduly penalized.--->
 <p>Alternatively, the reference point could be guided by a policy target. For example, are there any climate change policies in your area, with defined targets and objectives? Are there any restoration or carbon storage projects in your area? Do any organizations offer guidance on the amount of carbon storage your management policies should be aiming for?</p>
 <p><strong><em>Examples of the Approaches</em></strong></p>
 <p><span style="font-size:0.9em"></p>
-<table style="width:103%;">
+<table style="width:100%;">
 <colgroup>
 <col width="12%" />
-<col width="34%" />
-<col width="25%" />
-<col width="30%" />
+<col width="33%" />
+<col width="24%" />
+<col width="29%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Assessment</th>
-<th align="left">Developing the Model</th>
-<th align="left">Setting the Reference Point</th>
-<th align="left">Other Considerations</th>
+<th>Assessment</th>
+<th>Developing the Model</th>
+<th>Setting the Reference Point</th>
+<th>Other Considerations</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
-<td align="left">The status was assessed for all habitats for mangroves, coral reefs, seagrass beds, salt marshes, sea ice edge, and subtidal soft-bottom habitats. Status was assessed as the average of the condition estimates for each habitat present in a region.</td>
-<td align="left">The reference years were between 1980-1995 and the current years were between 2001-2010. The current condition was compared 1980 for salt marshes and sand dunes, and it varied by site for seagrasses.</td>
-<td align="left">Anomalous values occurred due to data availability issues. A significant amount of pre-processing of the habitat data was needed to fill data gaps and resolve data quality issue</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2012</strong></a></td>
+<td>The status was assessed for all habitats for mangroves, coral reefs, seagrass beds, salt marshes, sea ice edge, and subtidal soft-bottom habitats. Status was assessed as the average of the condition estimates for each habitat present in a region.</td>
+<td>The reference years were between 1980-1995 and the current years were between 2001-2010. The current condition was compared 1980 for salt marshes and sand dunes, and it varied by site for seagrasses.</td>
+<td>Anomalous values occurred due to data availability issues. A significant amount of pre-processing of the habitat data was needed to fill data gaps and resolve data quality issue</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
-<td align="left">The goal model was the same as 2012.</td>
-<td align="left">The reference was the same as Global 2013.</td>
-<td align="left">The same model as 2012 was used.</td>
+<td><a href="http://ohi-science.org/assessment/global"><strong>Global 2013 - 2015</strong></a></td>
+<td>The goal model was the same as 2012.</td>
+<td>The reference was the same as Global 2013.</td>
+<td>The same model as 2012 was used.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
-<td align="left">The goal model was the same as as Global 2012 for mangroves, coral reefs, seagrass beds, salt marshes, and subtidal soft-bottom habitats.</td>
-<td align="left">The timeframes between current and reference condition varied across habitats using a 20-year gap.</td>
-<td align="left">Information from a few point estimates had to be used to infer the health of many habitats.</td>
+<td><a href="http://ohi-science.org/assessment/Brazil"><strong>Brazil 2014</strong></a></td>
+<td>The goal model was the same as as Global 2012 for mangroves, coral reefs, seagrass beds, salt marshes, and subtidal soft-bottom habitats.</td>
+<td>The timeframes between current and reference condition varied across habitats using a 20-year gap.</td>
+<td>Information from a few point estimates had to be used to infer the health of many habitats.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
-<td align="left">Salt marshes and seagrass beds were considered. Extent was used and habitat health was not used.</td>
-<td align="left">Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s.</td>
-<td align="left">The study required reconstructions of historic habitat extents in order to set more ambitious targets.</td>
+<td><a href="http://ohi-science.org/assessment/US-West-Coast"><strong>U.S. West Coast 2014</strong></a></td>
+<td>Salt marshes and seagrass beds were considered. Extent was used and habitat health was not used.</td>
+<td>Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s.</td>
+<td>The study required reconstructions of historic habitat extents in order to set more ambitious targets.</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
-<td align="left">The goal model is the same as Global 2012 for two habitats: sand dunes and soft-bottom habitats.</td>
-<td align="left">Reliable, comprehensive satellite photos from 1970 enabled an evaluation of the habitat extent of the sand dunes as its reference point. For soft-bottom habitat we utilized relevant pressure as a proxy of habitat conditions.</td>
-<td align="left">These habitats were chosen because they represent a large portion of regional coastal and marine environments and because they have data with relatively comprehensive temporal and spatial coverage. Other important habitats such as rocky reefs and the rocky intertidal could not be included due to lack of data on current and/or past spatial extent and condition.</td>
+<td><a href="http://ohi-science.org/assessment/Israel"><strong>Israel 2014</strong></a></td>
+<td>The goal model is the same as Global 2012 for two habitats: sand dunes and soft-bottom habitats.</td>
+<td>Reliable, comprehensive satellite photos from 1970 enabled an evaluation of the habitat extent of the sand dunes as its reference point. For soft-bottom habitat we utilized relevant pressure as a proxy of habitat conditions.</td>
+<td>These habitats were chosen because they represent a large portion of regional coastal and marine environments and because they have data with relatively comprehensive temporal and spatial coverage. Other important habitats such as rocky reefs and the rocky intertidal could not be included due to lack of data on current and/or past spatial extent and condition.</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
-<td align="left">The approach is the same as Global 2012. Two types of habitats are considered: soft bottoms and mangroves.</td>
-<td align="left">For soft bottoms, the reference point was when is no deterioration of habitat due to the effects of trawling in the area. The reference point for mangroves was its extent in 1991.</td>
+<td><a href="http://ohi-science.org/assessment/Ecuador"><strong>Ecuador - Gulf of Guayaquil 2015</strong></a></td>
+<td>The approach is the same as Global 2012. Two types of habitats are considered: soft bottoms and mangroves.</td>
+<td>For soft bottoms, the reference point was when is no deterioration of habitat due to the effects of trawling in the area. The reference point for mangroves was its extent in 1991.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
-<td align="left">See Global 2012.</td>
-<td align="left">A temporal reference point for each habitat is set to its condition in 1980’s.</td>
-<td align="left">Three types of habitats were assessed: seagrasses, saltmarsh, and mangroves. Not all habitat exist in all provinces and time-series data of extent is poor for some. Time-series data on the condition of each habitat is not obtainable. However, rough estimate of relative change in coverage areas since the 1980’s was found in literature.</td>
+<td><a href="http://ohi-science.org/assessment/China"><strong>China 2015</strong></a></td>
+<td>See Global 2012.</td>
+<td>A temporal reference point for each habitat is set to its condition in 1980’s.</td>
+<td>Three types of habitats were assessed: seagrasses, saltmarsh, and mangroves. Not all habitat exist in all provinces and time-series data of extent is poor for some. Time-series data on the condition of each habitat is not obtainable. However, rough estimate of relative change in coverage areas since the 1980’s was found in literature.</td>
 </tr>
 </tbody>
 </table>
