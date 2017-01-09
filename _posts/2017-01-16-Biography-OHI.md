@@ -7,18 +7,27 @@ tags : [news]
 hidden : true
 ---
 
-DRAFT in progress. 
-
-*With the fifth global Ocean Health Index released last month, we wanted to step back and reflect on what the OHI is and has acheived through this short biography.*
+*2017 marks five years of the Ocean Health Index and we wanted to reflect on what its has acheived with this short biography.*
 
 <br>
 <br>
 
+The Ocean Health Index (OHI) is a scientific method and tool for channeling the best scientific information into marine policy. 
+Since 2012 it has evolved from a publication in the scientific journal *Nature* to dynamic use in governmental-management-academic collaborations around the world. 
+Keys to its success thus far include its inclusiveness - bringing people, teams, and data together - and its flexibility and transparency. 
 
-The Ocean Health Index (OHI) enables science to inform sustainable ocean management, and in the last five years has had increasing visibility around the world. 
-The ultimate success of the OHI will be for all oceans to sustainably provide benefits to people now and in the future, but there have been important steps in this direction through political endorsement and scientific achievement at international, national, and sub-national scales. 
+The ultimate success of the OHI is yet to be seen: it is for all oceans to sustainably provide benefits to people now and in the future. 
+Still, there have been important steps through political endorsement and scientific achievement, including being endorsed by the World Economic Forum, praised by the Prince of Wales, and included in United States policy to evaluate ecosystem health as part of the nation's first Ocean Plan in the Northeast Region. 
+
+
+OHI is a useful method for policy at international, national, and sub-national scales because it has a standard structure that is familiar across assessments but flexiblility the information that is included. This flexibility enables OHI to reflect important social and ecological characteristics and priorities of any region. An analogy would be that OHI is blueprints to a house, but the materials you use will reflect  For example, CS habitat types
+
+The OHI is a unique academic-nonprofit partnership between the National Center for Ecological Analysis and Synthesis at UCSB and Conservation International. Leveraging the 
+
+What sets OHI apart is openness. Returning to the blueprint analogy, that blueprint isn't on paper, it's online and you can modify it directly using software developed to be collaborative and transparent. You have similar data to Ecuador? Let's build directly from their work instead of reinventing the wheel. 
+
 In the global arena, the OHI has been endorsed by the World Economic Forum, incorporated into the United Nation’s World Ocean Assessment, chosen as an indicator for Aichi Target 14 of the UN Convention on Biological Diversity and is expected to be an indicator for parts of Target 14 of the UN Sustainable Development Goals for 2030.
-In the United States, it will be used evaluate ecosystem health as part of the nation's first Ocean Plan in the Northeast. 
+In the United States, it will be used 
 Colombia
 China
 South Korea
@@ -66,3 +75,5 @@ The OHI framework was developed from 2009-2012 by an interdisciplinary team of m
 110 difficulty in reproducing our work without these tools due to our focus on the
 111 reproducibility of our scientific methods but not our data science methods.
 
+
+**Related posts:** [New OHI publication in PeerJ](http://ohi-science.org/news/new-ohi-publication-in-peerj)
