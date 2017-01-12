@@ -38,6 +38,9 @@ Environmental science demands transparency and repeatability to increase scienti
 In 2017, we will continue to work for healthy oceans, continue to push boundaries for collaborative science and policy, and look forward to working with an ever-expanding network of ocean leaders.
 
 <br>
+
+![](../assets/downloads/other/GrupoCompleto.jpg)
+
 <br>
 
 *The Ocean Health Index was developed from 2009-2012 to fill the need for a quantifiable and easily communicated method to define, measure, and evaluate ‘ocean health’. The Halpern et al. 2012 publication presented both the scientific framework and the first assessment at the global scale. This was quickly followed by assessments at smaller scales with differing data availability and spatial scales in Fiji and the US West Coast, and improvements to several global models (Halpern et al. 2015). [Many independent assessments](http://ohi-science.org/projects) have since been completed or are underway (Lowndes et al. 2015). [2016 marks the fifth year of annual global assessments](http://ohi-science.org/ohi-global), with scores representing ocean health for 220 coastal nations and territories using the best available data each year.*
