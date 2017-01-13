@@ -39,7 +39,7 @@ In 2017, we will continue to work for healthy oceans, continue to push boundarie
 
 <br>
 
-![](../assets/downloads/other/GrupoCompleto.jpg)
+![](../assets/downloads/other/OHI_Doodle_Colombia.jpg)
 
 <br>
 
