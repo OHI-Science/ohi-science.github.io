@@ -9,7 +9,7 @@ tags: news
 category: news
 ---
 
-*2017 marks five years since the OHI first launched. With this short biography we reflect on its many acheivements thus far as we continue to work for healthy oceans.*
+*2017 marks five years since the OHI first launched. With this short biography we reflect on its many achievements thus far as we continue to work for healthy oceans.*
 
 <br>
 <br>
