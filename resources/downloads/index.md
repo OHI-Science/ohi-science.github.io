@@ -8,7 +8,7 @@ Here you will find downloadable resources to help you learn and communicate abou
 
 ### Factsheet
 - **Factsheet for OHI+ Independent Assessments** in 
-<a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/OHI_Factsheet.pdf" target="_blank">English</a> 
+<a href="https://github.com/OHI-Science/ohi-science.github.io/raw/master/assets/downloads/other/OHI_Factsheet.pdf" target="_blank">English</a> 
 
 ### Presentations
 Use these presentations to help communicate about the Ocean Health Index. Click to download:
