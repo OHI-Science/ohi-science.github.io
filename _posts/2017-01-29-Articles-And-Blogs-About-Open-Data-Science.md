@@ -14,3 +14,5 @@ Data science, open science, and reproducibility are getting more visibility in b
 Nature: GitHub
 Nature: Slack
 http://www.economist.com/blogs/graphicdetail/2016/09/daily-chart-3
+
+http://www.nature.com/articles/s41562-016-0021
