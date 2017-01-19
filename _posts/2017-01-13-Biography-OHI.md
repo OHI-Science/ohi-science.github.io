@@ -40,7 +40,7 @@ In 2017, we will continue to work for healthy oceans, continue to push boundarie
 <br>
 
 ![](../assets/downloads/other/OHI_Doodle_Colombia.jpg)
-*A visualization tool summarizing an OHI workshop in Colombia in 2015. (c) Comisión Comombiana del Océano.*
+<center>*A visualization tool summarizing an OHI workshop in Colombia in 2015. (c) Comisión Colombiana del Océano.*</center>
 
 
 
