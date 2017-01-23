@@ -15,7 +15,7 @@ We are often asked for the best way to learn `R` and other data science concepts
 - **[R Packages](http://r-pkgs.had.co.nz/)** by Hadley Wickham (book)
 - **[Advanced R](http://adv-r.had.co.nz/)** by Hadley Wickham (book)
 - **[Happy Git With R](http://happygitwithr.com/)** by Jenny Bryan (short course)
-- **[UBC Stats454: Data wrangling, exploration, and analysis with R](https://stat545-ubc.github.io/index.html)** by Jenny Bryan (university course)
+- **[UBC Stats545: Data wrangling, exploration, and analysis with R](https://stat545-ubc.github.io/index.html)** by Jenny Bryan (university course)
 - **[Swirl](http://swirlstats.com/)** (interactive course taught in R)
 - **[Software Carpentry](http://software-carpentry.org/)** (workshops, teaching community, self-paced courses)
 - **[Data Carpentry](http://www.datacarpentry.org/)** (workshops, teaching community, self-paced courses)
