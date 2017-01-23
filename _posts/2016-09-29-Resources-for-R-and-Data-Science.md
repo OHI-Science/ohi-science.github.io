@@ -9,7 +9,7 @@ tags : [news]
 We are often asked for the best way to learn `R` and other data science concepts and tools. There are many great resources available but here are some of the free, online resources we have found helpful: 
 
 
-- **[R for data science](http://r4ds.had.co.nz/)** by Garrett Grolemund and Hadley Wickham (book)
+- **[R for data science](http://r4ds.had.co.nz/)** by Hadley Wickham and Garrett Grolemund (book)
 - **[RStudio's webinars](https://www.rstudio.com/resources/webinars/)** by RStudio (on-demand videos)
 - **[RStudio's cheatsheets](https://www.rstudio.com/resources/cheatsheets/)** by RStudio (PDFs)
 - **[R Packages](http://r-pkgs.had.co.nz/)** by Hadley Wickham (book)
