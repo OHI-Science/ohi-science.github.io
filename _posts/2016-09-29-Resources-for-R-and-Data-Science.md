@@ -20,7 +20,7 @@ We are often asked for the best way to learn `R` and other data science concepts
 - **[Software Carpentry](http://software-carpentry.org/)** (workshops, teaching community, self-paced courses)
 - **[Data Carpentry](http://www.datacarpentry.org/)** (workshops, teaching community, self-paced courses)
 - **[#rstats on Twitter](https://twitter.com/search?q=%23rstats&src=typd)** (online discussion)
-- **[Not so standard deviations](https://soundcloud.com/nssd-podcast)** (podcast)
+- **[Not so standard deviations](https://soundcloud.com/nssd-podcast)** by Roger Peng and Hilary Parker (podcast)
 - **[R-Bloggers](https://www.r-bloggers.com)** (blog)
  
 ------- 
