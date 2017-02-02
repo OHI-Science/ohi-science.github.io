@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Goals Guide Page"
+title: "New goals page compares different modeling approaches"
 author: Ning Jiang
 category : news
 tags : [news]
@@ -12,4 +12,4 @@ Goals, the categorized ocean benefits delivered to humans in the Ocean Health In
 
 This page should prove useful for any stage of an OHI+ assessment, and will be constantly updated. Plus, check out these adorable icons for each goal! 
 
-![ ](https://docs.google.com/drawings/d/1ywUCXv_ejw7h_CquboAy2Q03gJC-7WL9Mg8E993i8RM/pub?w=960&h=600)
+![](https://docs.google.com/drawings/d/1ywUCXv_ejw7h_CquboAy2Q03gJC-7WL9Mg8E993i8RM/pub?w=960&h=600)
