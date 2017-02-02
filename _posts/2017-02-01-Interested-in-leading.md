@@ -18,3 +18,12 @@ There are four phases of an OHI assessment: Learn, Plan, Conduct, and Inform. Re
 Additionally, you can download the **OHI+ FactSheet** from the [Downloads page](http://ohi-science.org/resources/downloads/).  
 We would also recommend reading [***"Best practices for assessing ocean health in multiple contexts using tailorable frameworks"***](https://peerj.com/articles/1503/) and exploring other [publications](http://ohi-science.org/resources/publications/) and [ongoing assessments](http://ohi-science.org/projects/). 
 
+<br>
+
+**Related posts:** 
+
+- [OHI-Science website redesigned!](http://ohi-science.org/news/new-ohi-science-website-launch)
+- [Resources for R and Data Science ](http://ohi-science.org/news/Resources-for-R-and-Data-Science)
+- [How to get help when conducting an OHI+ assessment](http://ohi-science.org/news/how-to-use-ohi-resources)
+- [New Goals Guide Page](http://ohi-science.org/news/new-goals-guide-page)
+- [A Biography of the Ocean Health Index](http://ohi-science.org/news/Biography-OHI)
