@@ -37,6 +37,12 @@ Assessing the health of the U.S. West Coast with a regional-scale application of
 - <a href="http://www.sciencedirect.com/science/article/pii/S2212041614001363" target="_blank">Selig et al. 2015</a>, *Ecosystem Services*.
 Measuring indicators of ocean health for an island nation: The Ocean Health Index for Fiji.
 
+##### Antarctica
+
+- <a href="http://journal.frontiersin.org/article/10.3389/fmars.2017.00020/full" target="_blank">Longo et al. 2017</a>, *Frontiers in Marine Science*.
+Using the Ocean Health Index to Identify Opportunities and Challenges to Improving Southern Ocean Ecosystem Health.
+
+
 ## OHI supporting methods
 
 #####  Cumulative Human Impacts
