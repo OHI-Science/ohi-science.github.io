@@ -45,6 +45,13 @@ Using the Ocean Health Index to Identify Opportunities and Challenges to Improvi
 
 ## OHI supporting methods
 
+#####  Fisheries
+
+- <a href="http://onlinelibrary.wiley.com/doi/10.1111/faf.12200/full" target="_blank">Anderson et al. 2017</a>, *Fish and Fisheries*.
+Improving estimates of population status and trend with superensemble models.
+<a href="https://github.com/datalimited/datalimited#stock-assessment-methods-for-data-limited-fisheries" target="_blank">(`datalimited` `R` package</a>  for catch only models)
+
+
 #####  Cumulative Human Impacts
 
 - <a href="http://www.sciencemag.org/content/319/5865/948.abstract" target="_blank">Halpern et al. 2008</a>, *Science*.
