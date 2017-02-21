@@ -1,4 +1,4 @@
-#### Natural Products
+### Natural Products
 
 In many countries the harvest of non-food
 natural products is important for local economies and can also be traded
