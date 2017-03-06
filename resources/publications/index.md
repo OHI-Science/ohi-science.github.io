@@ -119,5 +119,6 @@ Local and regional experiences with assessing and fostering ocean health.
   
 ##### Spain
 
-- <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BRiadeVigoAO_2015.pdf" target="_blank">Download OHI+ Ria de Vigo Artisanal Opportunity Goal Masters Thesis 2016 (in Spanish with English abstract)</a> 
+- <a href="https://github.com/OHI-Science/ohi-science.github.io/blob/master/assets/downloads/pubs/OHI%2BRiadeVigoAO_2015.pdf" target="_blank">Download OHI+ Ria de Vigo Artisanal Opportunity Goal Masters Thesis 2016 (in Spanish with English abstract)</a> 
+
 
