@@ -28,5 +28,12 @@ http://www.nature.com/news/my-digital-toolbox-ecologist-ethan-white-on-interacti
 
 - [My digital toolbox: Ecologist Christie Bahlai talks data hygiene](http://www.nature.com/news/my-digital-toolbox-ecologist-christie-bahlai-talks-data-hygiene-1.15896)
 
+
 - [Five ways consortia can catalyse open science](http://www.nature.com/news/five-ways-consortia-can-catalyse-open-science-1.21706?WT.ec_id=NATURE-20170330&spMailingID=53733348&spUserID=MTA3NTk5MDU3NDU2S0&spJobID=1124993196&spReportId=MTEyNDk5MzE5NgS2) (Cutcher-Gershenfeld et al. 2017, *Nature*)
     - *"Over the past four years, we have studied more than a dozen scientific consortia involved in data sharing, and we've mapped the landscape of these and another such initiatives. When they work well, consortia act as catalysts, to accomplish what members cannot do alone. But scientists are seldom taught effective strategies to design and manage such coalitions. Here we distil the lessons from our fieldwork into five ways to foster open science."*
+=======
+[My digital toolbox: Ecologist Christie Bahlai talks data hygiene](http://www.nature.com/news/my-digital-toolbox-ecologist-christie-bahlai-talks-data-hygiene-1.15896)
+
+
+https://www.wired.com/2017/03/biologists-teaching-code-survive/?mbid=social_fb
+
