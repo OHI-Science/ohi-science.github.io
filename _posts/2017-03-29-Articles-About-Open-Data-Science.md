@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Articles about Open Data Science in Science"
+title: "The importance of open data science tools in science: a list of references"
 author: Julie Lowndes
 category : news 
 tags : [news]
