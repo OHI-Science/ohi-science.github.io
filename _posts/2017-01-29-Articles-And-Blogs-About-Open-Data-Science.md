@@ -31,3 +31,6 @@ http://www.nature.com/news/my-digital-toolbox-ecologist-ethan-white-on-interacti
 [My digital toolbox: Nuclear engineer Katy Huff on version-control systems](http://www.nature.com/news/my-digital-toolbox-nuclear-engineer-katy-huff-on-version-control-systems-1.16014)
 
 [My digital toolbox: Ecologist Christie Bahlai talks data hygiene](http://www.nature.com/news/my-digital-toolbox-ecologist-christie-bahlai-talks-data-hygiene-1.15896)
+
+
+https://www.wired.com/2017/03/biologists-teaching-code-survive/?mbid=social_fb
