@@ -1,27 +1,27 @@
 ---
 layout: post
-title: "Articles about Open Data Science"
+title: "Articles about Open Data Science in Science"
 author: Julie Lowndes
 category : news 
 tags : [news]
 ---
 
-We practice and promote open science, data science, and team science in environmental and marine science. We do this by using software tools that make our work transparent, reproducible, and shared publicly online. These concepts are getting more visibility in blogs and the news, but also in the academic literature. 
+Open data science is the combination of open science, data science, and team science. We promote and practice this with the Ocean Health Index by using software tools that make our work transparent, reproducible, and shared publicly online. These concepts are being discussed more and more in the news and in the academic literature. There are so many great articles on these topics that we have started this list, along with a quote from the article to give a sense of its content. 
 
-We have started this list of references on these topics, along with a quote from the article to give a sense of its content. We are trying to make this list more comprehensive; please help! You can suggest additions on twitter at [`@OHIScience`](https://twitter.com/ohiscience), or as a [GitHub pull request](https://github.com/OHI-Science/ohi-science.github.io/blob/master/_posts/2017-03-29-Articles-About-Open-Data-Science.md). We will continue to organize the list as it grows. Thanks for your help!
+\*\*We are trying to make this list more comprehensive; please help! You can suggest additions on twitter at [`@OHIScience`](https://twitter.com/ohiscience), or through a pull request on [`GitHub`](https://github.com/OHI-Science/ohi-science.github.io/blob/master/_posts/2017-03-29-Articles-About-Open-Data-Science.md). We will be organizing the list as it grows. Thanks for your help!
 
-----
 
-## In the literature
+
+## From the literature
 
 - [Scientific computing: Code alert](http://www.nature.com/nature/journal/v541/n7638/full/nj7638-563a.html) (Baker, 2017, *Nature*)
-    - *"It can be 'really intimidating' to learn a programming language, but the long-term benefits are well worth the effort'*
+    - *"It can be 'really intimidating' to learn a programming language, but the long-term benefits are well worth the effort"*
 
-- [1,500 scientists lift the lid on reproducibility](http://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970) [Baker, 2016, *Nature*)
+- [1,500 scientists lift the lid on reproducibility](http://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970) (Baker, 2016, *Nature*)
     - *"Survey sheds light on the ‘crisis’ rocking research."*
 
 - [Unmet needs for analyzing biological big data: A survey of 704 NSF principal investigators](http://biorxiv.org/content/early/2017/02/14/108555) (Barone et al. 2017, *Biorxiv*)
-    - *"the most pressing unmet needs are training in data integration, data management, and scaling analyses for HPC, acknowledging that data science skills will be required to build a deeper understanding of life."*
+    - *"...the most pressing unmet needs are training in data integration, data management, and scaling analyses for HPC, acknowledging that data science skills will be required to build a deeper understanding of life."*
 
 - [A manifesto for reproducible science](http://www.nature.com/articles/s41562-016-0021) (Munafò et al., 2016, *Nature Human Behavior*)
     - *"Improving the reliability and efficiency of scientific research will increase the credibility of the published scientific literature and accelerate discovery."*
