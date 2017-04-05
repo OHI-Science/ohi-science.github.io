@@ -91,6 +91,9 @@ A global synthesis of the economic multiplier effects of marine sectors.
 
 ## Marine assessments
 
+- <a href="https://www.openchannels.org/literature/16817" target="_blank">Katona et al. 2017</a>, *OpenChannels: Forum for Ocean Planning and Management*\*.
+Navigating the seascape of ocean management: waypoints on the voyage toward sustainable use. 
+
 - <a href="http://journal.frontiersin.org/article/10.3389/fmars.2016.00020/full" target="_blank">Borja et al. 2016</a>, *Frontiers in Marine Science*\*.
 Overview of Integrative Assessment of Marine Systems: The Ecosystem Approach in Practice.  
 
