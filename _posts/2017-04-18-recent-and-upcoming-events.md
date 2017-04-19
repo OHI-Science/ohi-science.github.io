@@ -11,12 +11,16 @@ Intro (we've been busy...)
 
 Paragraph about each of these:
 
+- OHI annual report [download](https://github.com/OHI-Science/ohi-science.github.io/raw/master/assets/downloads/other/2016_Annual_report_compressed.pdf) <!---Hi Ning, this is above is the link to download; if you put that into your browser it'll download for you too and you can take a screenshot, etc if you want :) --->
+
 - MEAM webinar Steve Katona and Ben Halpern
 [](https://www.openchannels.org/webinars/2017/drivers-and-implications-change-global-ocean-health-demonstrated-ocean-health-index) (screenshot of the title page)
 
     -teaser about upcoming one
 
 - Samoa, link to Cherelle's blog
+
+**Coming up**
 
 - SDGs coming up
 
