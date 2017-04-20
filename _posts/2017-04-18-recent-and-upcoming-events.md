@@ -26,10 +26,10 @@ _- The United States of America included the OHI in their first-ever National Oc
 
 <center><img src="../assets/downloads/other/MEAM_webinar_screenshot.png" width="500px"></center>
 
-**OHI was featured in Samoa's national newspaper**, the _Somoa Observer_ in April this year: [Conservation International highlights oceans in Samoa](http://www.samoaobserver.ws/en/06_04_2017/local/18722/Conservation-International-highlights-oceans-in-Samoa.htm). OHI program manager Erich Pacheco went to Samoa to conduct a national workshop. Since Samoa is a very influential country amongst the South Pacific island nations, commitment from Samoa will pave the way to more engagements with other Pacific countries and forming regional management alliance. To see more OHI activties in Samoa, check out their [Facebook page](https://www.facebook.com/conservationinternationalsamoa/).
+**OHI was featured in Samoa's national newspaper**, the _Somoa Observer_ in April this year: [Conservation International highlights oceans in Samoa](http://www.samoaobserver.ws/en/06_04_2017/local/18722/Conservation-International-highlights-oceans-in-Samoa.htm). OHI program manager Erich Pacheco went to Samoa to conduct a national workshop. Since Samoa is a very influential country amongst the South Pacific island nations, commitment from Samoa will pave the way to more engagements with other Pacific countries and forming regional management alliance. To see more OHI activities in Samoa, check out their [Facebook page](https://www.facebook.com/conservationinternationalsamoa/).
 
-###Coming up soon...
+### Coming up soon...
 
-**SDGs**: the OHI is expected to be an indicator for the The United Nations Sustainable Development Goal 14: Life Below Water.
+[**The United Nations' Ocean Conference** ](https://sustainabledevelopment.un.org/topics/oceans/SDG14Conference) is happening in New York City from June 5-9, 2017. The conference will focus on Sustainable Development Goal 14: Life Below Water. The OHI is expected to be an indicator for SDG 14. 
 
 **A new paper in _Nature Ecology & Evolution_** by our OHI team is coming out next month! It is about how we dramatically improved the way we do our science by embracing data science and open science. We discuss how this has powered our work with the OHI, since OHI+ groups around the world are able to build off our science and code. We hope by sharing our story we will encourage more groups to embrace open and collaborative practices in their own science for management.
