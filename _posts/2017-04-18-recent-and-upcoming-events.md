@@ -18,7 +18,7 @@ _- Mexico publicly committed to using the OHI as the structure for the national 
 _- The United States of America included the OHI in their first-ever National Ocean Plan for the Northeast Region._
 
 
-**Lead OHI scientists gave a webinar on Open Channels** titled: _[Drivers and implications of change in global ocean health](https://www.openchannels.org/webinars/2017/drivers-and-implications-change-global-ocean-health-demonstrated-ocean-health-index)_ discussing the changes in OHI scores over five years (2012-2016), possible causes and consequences of those changes, challenges and opportunities for composite indicators to incorporate the best available science each year, and lessons learned in repeating and improving the OHI assessment each year.
+**Lead OHI scientists gave a webinar on Open Channels: Drivers and implications of change in global ocean health**. Steve Katona and Ben Halpern discuss the changes in OHI scores over five years (2012-2016), possible causes and consequences of those changes, challenges and opportunities for composite indicators to incorporate the best available science each year, and lessons learned in repeating and improving the OHI assessment each year. _[Watch the recorded webinar!](https://www.openchannels.org/webinars/2017/drivers-and-implications-change-global-ocean-health-demonstrated-ocean-health-index)_ 
 
 <center><img src="../assets/downloads/other/MEAM_webinar_screenshot.png" width="500px"></center>
 
