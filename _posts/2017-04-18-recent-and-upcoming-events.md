@@ -28,4 +28,4 @@ _- The United States of America included the OHI in their first-ever National Oc
 
 [**The United Nations' Ocean Conference** ](https://sustainabledevelopment.un.org/topics/oceans/SDG14Conference) is happening in New York City from June 5-9, 2017. The conference will focus on Sustainable Development Goal 14: Life Below Water. The OHI is expected to be an indicator for SDG 14. 
 
-**A new paper by our OHI team** is coming out next month! We discuss the open data science tools we use for OHI, and how OHI+ groups around the world are able to build off our science and code. 
+**We have a new paper** coming out next month! We discuss the open data science tools we use for OHI, and how OHI+ groups around the world are able to build off our science and code. 
