@@ -11,7 +11,7 @@ The Ocean Health Index defines a healthy ocean to be one that sustainably delive
 
 The OHI framework can be used to assess ocean health in many different contexts (see examples on the [Projects](/projects) and [Publications](/resources/publications) pages). The goals included in any OHI assessment will depend on the context such that OHI scores represent the goals that are relevant to the assessment area. 
 
-**Global OHI assessments categorized and scored ten goals and eight sub-goals representing ocean-derived benefits to people**. These goals and sub-goals are listed below, along with the philosophy of the goal, an 'ideal' approach to how it would be represented, practical guidance for modelling, and examples from completed assessments.
+**The OHI framework categorizes goals and sub-goals representing ocean-derived benefits to people.** These goals and sub-goals are listed below, along with the philosophy of the goal and an ‘ideal’ approach to how it would be represented. There is also practical guidance for modelling, and examples from completed assessments, including global and OHI+ assessments.
 
 
 <div class="icon FP"><img src="{{ ASSET_PATH }}OHI/img/goals/FP.png" class="FP icon" /></div>
