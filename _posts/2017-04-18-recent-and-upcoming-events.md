@@ -5,11 +5,7 @@ author: Ning Jiang
 category : news 
 self_contained: no
 tags : [news]
-hidden : true
 ---
-
-<!---Hi Ning! This looks great. I made some edits and comments too. One thing I remembered is that the website doesn't display bullet points very nicely, so would you want to change these into more paragraph form (really only will change the Annual Report section), and maybe **bold** the first few words that tell what each paragraph are about?
---->
 
 Hello OHI supporters! We haven't reached out to you for a while but we haven't been idle! Here let us update you with a few of our most recent activities: 
 
@@ -32,4 +28,4 @@ _- The United States of America included the OHI in their first-ever National Oc
 
 [**The United Nations' Ocean Conference** ](https://sustainabledevelopment.un.org/topics/oceans/SDG14Conference) is happening in New York City from June 5-9, 2017. The conference will focus on Sustainable Development Goal 14: Life Below Water. The OHI is expected to be an indicator for SDG 14. 
 
-**A new paper in _Nature Ecology & Evolution_** by our OHI team is coming out next month! It is about how we dramatically improved the way we do our science by embracing data science and open science. We discuss how this has powered our work with the OHI, since OHI+ groups around the world are able to build off our science and code. We hope by sharing our story we will encourage more groups to embrace open and collaborative practices in their own science for management.
+**A new paper by our OHI team** is coming out next month! We discuss the open data science tools we use for OHI, and how OHI+ groups around the world are able to build off our science and code. 
