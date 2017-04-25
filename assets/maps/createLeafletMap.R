@@ -1,7 +1,7 @@
-### This script creates the leaflet map for the ohi-science.org/projects
+### This script creates the leaflet map for the ohi-science.org/projects/ohi-assessments
 
 ### NOTE: The two things created by leaflet must be moved after creation
-## allRegions_files folder goes to: /projects. BY HAND! (for now). But do each time. 
+## allRegions_files folder goes to: /projects/ohi-assessments. BY HAND! (for now). But do each time. 
 ## allRegions.html         goes to: _includes/themes/OHI/maps
 
 # For more information: http://zevross.com/blog/2014/04/11/using-r-to-quickly-create-an-interactive-online-map-using-the-leafletr-package/
@@ -43,14 +43,14 @@ region_poly_data <- read.csv('assets/maps/regions_shape.csv')
 region_poly <- region_poly[region_poly@data$country %in% region_poly_data$country, ]
 
 ## Add color data
-colors <- data.frame(phase = c("active", "completed"), 
+colors <- data.frame(phase = c("active", "completed"),
                      color= c('#0083A3', '#00ADDD'))
 region_poly@data <- region_poly@data %>%
   left_join(region_poly_data, by="country") %>%
   left_join(colors, by="phase")
 
 popup_poly <- paste0('<b>', region_poly@data$display, '</b>',
-                 '<br/>', "status: ", region_poly@data$phase) 
+                 '<br/>', "status: ", region_poly@data$phase)
 
 ## The data we want to display as points:
 points <- read.csv("assets/maps/regions_point.csv")
@@ -69,12 +69,12 @@ m <- leaflet(width="100%", height="600px") %>%
   addTiles(options=tileOptions(noWrap=TRUE)) %>%
   #      addTiles(options=tileOptions(minZoom=3, noWrap=TRUE)) %>%
   #addProviderTiles("OpenStreetMap.BlackAndWhite") %>%
-  #   addTiles(options = tileOptions(noWrap = TRUE)) %>%  
+  #   addTiles(options = tileOptions(noWrap = TRUE)) %>%
   #   fitBounds(-180, -70, 180, 80) %>%
-  addPolygons(data = region_poly, 
-              #fillColor = myPalette(nrow(regionAll)), 
+  addPolygons(data = region_poly,
+              #fillColor = myPalette(nrow(regionAll)),
               fillColor = region_poly@data$color,
-              popup=popup_poly, 
+              popup=popup_poly,
               #stroke=FALSE,
               color = "#A8A8A8",
               weight = 1,
@@ -95,6 +95,3 @@ unlink("projects/ohi-assessments/allRegions_files", recursive=TRUE) # delete old
 warning('Now move `/allRegions_files` to `/projects/ohi-assessments/allRegions_files`!')
 warning('Seriously, did you move `/allRegions_files` to `/projects/ohi-assessments/allRegions_files`!?')
 # we should script this someday but actually a pain to loop through subdirectories and copy
-
-
-

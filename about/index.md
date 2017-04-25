@@ -11,13 +11,13 @@ search-terms: about contact email about us
 
 ## What is the Ocean Health Index?
 
-#### The Ocean Health Index (OHI) is a tailorable marine assessment framework to comprehensively and quantitatively evaluate ocean health. 
+#### The Ocean Health Index (OHI) is a tailorable marine assessment framework to comprehensively and quantitatively evaluate ocean health.
 
-Determining how healthy oceans are and managing for the future requires an assesssment approach that evaluates current conditions comprehensively from social, economic, and environmental perspectives. The OHI defines a healthy ocean as one that sustainably delivers a range of benefits to people now and in the future. 
+Determining how healthy oceans are and managing for the future requires an assesssment approach that evaluates current conditions comprehensively from social, economic, and environmental perspectives. The OHI defines a healthy ocean as one that sustainably delivers a range of benefits to people now and in the future.
 
 **The OHI measures progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide**. By analyzing these goals together and scoring them from 0-100, OHI assessments provide an integrated picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
 
-Originally developed by an interdisciplinary team of scientists (Halpern *et al*., 2012, *Nature*), global assessments have been repeated every year since 2012 (Halpern *et al*., 2015, *PLOS One*; Halpern *et al. in review*). 
+Originally developed by an interdisciplinary team of scientists (Halpern *et al*., 2012, *Nature*), global assessments have been repeated every year since 2012 (Halpern *et al*., 2015, *PLOS One*; Halpern *et al. in review*).
 
 The OHI framework is standardized yet tailorable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
 
@@ -27,12 +27,12 @@ Assessments using the OHI framework are facilitated by the **OHI Toolbox** that 
 
 The Toolbox enables assessments to be **transparent**, **reproducible** through access to detailed methods and computational code, and **repeatable** with the ability to modify methods and computational code. The results are visualized in a _Flower Plot_ for **easy communication** with a wide audience - each petal represents one goal and its length is with the score of the goal. <!--- To learn more about our open data science workflow, please see <a href="http://ohi-science.org/betterscienceinlesstime" target="_blank">ohi-science.org/betterscienceinlesstime</a>. --->
 
-**See also**: 
+**See also**:
 
 - [Our overview website oceanhealthindex.org](https://www.oceanhealthindex.org)
 - [OHI scientific publications](http://ohi-science.org/resources/publications/)
 
-**Related news posts:** 
+**Related news posts:**
 
 - [A Biography of the Ocean Health Index](http://ohi-science.org/news/Biography-OHI)
 - [Five years of global Ocean Health Index scores](http://ohi-science.org/news/Global-2016-Scores)
@@ -56,12 +56,12 @@ Resulting scores can be used to identify policy priorities, maximize cost-effect
 <a href="/phases" class="btn">View the Four Phases of the OHI Assessment</a>
 
 
-**See also**: 
+**See also**:
 
-- [Ongoing and completed OHI assessments](http://ohi-science.org/projects) 
-- [OHI assessment process](http://ohi-science.org/phases) 
+- [Ongoing and completed OHI assessments](http://ohi-science.org/projects/ohi-assessments) 
+- [OHI assessment process](http://ohi-science.org/phases)
 
-**Related news posts:** 
+**Related news posts:**
 
 - [Interested in leading an OHI+ assessment?](http://ohi-science.org/news/Interested-in-leading)
 - [New goals page compares different modeling approaches](http://ohi-science.org/news/new-goals-guide-page)
@@ -73,8 +73,8 @@ Resulting scores can be used to identify policy priorities, maximize cost-effect
 
 
 ## Who we are
-	
-Our current team is based at the **National Center for Ecological Analysis and Synthesis (NCEAS) at the University of California at Santa Barbara (UCSB)**, and at **Conservation International**, but there have been many other important <a href="http://www.oceanhealthindex.org/about/contributors" target="_blank">contributors</a> throughout the years. We are excited to be a part of the open science community and helping make our oceans healthier. 
+
+Our current team is based at the **National Center for Ecological Analysis and Synthesis (NCEAS) at the University of California at Santa Barbara (UCSB)**, and at **Conservation International**, but there have been many other important <a href="http://www.oceanhealthindex.org/about/contributors" target="_blank">contributors</a> throughout the years. We are excited to be a part of the open science community and helping make our oceans healthier.
 
 - Ben Halpern, PhD  
 - Steve Katona, PhD  
@@ -89,8 +89,8 @@ Our current team is based at the **National Center for Ecological Analysis and S
 - Courtney Scarborough, MSc
 
 Learn more about us at <a href="http://www.oceanhealthindex.org/about" target="_blank">www.oceanhealthindex.org/about</a>.  
-  
-  
+
+
 **If you are interested in beginning an OHI+ assessment**, please contact Erich, Julie, or Ning at info @ ohi-science.org.
 
 
@@ -101,18 +101,18 @@ Learn more about us at <a href="http://www.oceanhealthindex.org/about" target="_
 
 ## Our story
 
-We are marine scientists who dramatically improved the way we work by embracing data science and open science. 
+We are marine scientists who dramatically improved the way we work by embracing data science and open science.
 
 <!---
 In our [publication in ***Nature Ecology & Evolution***]() and accompanying [Q&A in ***Nature***](), we describe how we transitioned to coding collaboratively, sharing our work online, and communicating from our same workflow by building websites using free software tools. We provide specific examples through our experiences with global OHI assessments and supporting the 20 governments and academic groups around the world that are building off our science and code and leading their own OHI+ assessments.  
 
-The intention is that by sharing our story we will encourage more environmental scientists to embrace open and collaborative practices, and we are committed to continued training through OHI. 
+The intention is that by sharing our story we will encourage more environmental scientists to embrace open and collaborative practices, and we are committed to continued training through OHI.
 
-**See also**: 
+**See also**:
 
-- [ohi-science.org/betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime) 
+- [ohi-science.org/betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime)
 
-**Related news posts:** 
+**Related news posts:**
 
 - [Publication in Nature Ecology & Evolution: Our path to better science in less time using open data science tools](http://ohi-science.org/news/publication-in-nature-ecology-and-evolution)
 - [The importance of open data science tools in science: a list of references](http://ohi-science.org/news/importance-of-open-data-science-tools)
@@ -134,4 +134,3 @@ We are grateful for the generous support from the Pacific Life Foundation to Con
 *NOAA Photo Library, Image ID: expn2406, Voyage To Inner Space - Exploring the Seas With NOAA Collect, Credit: NOAA OKEANOS EXPLORER Program, Gulf of Mexico 2014 Expedition*
 
 *NOAA Photo Library, Image ID: sanc0612, NOAA's Sanctuaries Collection, Location: Hawaii, Maui, Hawaiian Is. Humpback Whale NMS*
-
