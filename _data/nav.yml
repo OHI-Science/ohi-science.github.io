@@ -1,44 +1,53 @@
-- text: Global
-  url: /ohi-global/
-- text: OHI+
-  url: /phases/
+# - text: Global
+#   url: /ohi-global/
+# - text: OHI+
+#   url: /phases/
+#   subitems:
+#     - text: Learn
+#       url: /learn
+#     - text: Plan
+#       url: /plan
+#     - text: Conduct
+#       url: /manual
+#     - text: Inform
+#       url: /inform
+- text: Projects
+  url: /projects/
   subitems:
-    - text: Learn
-      url: /learn
-    - text: Plan
-      url: /plan
-    - text: Conduct
-      url: /manual
-    - text: Inform
-      url: /inform
+    - text: Global
+      url: http://ohi-science.org/ohi-global
+    - text: OHI Process
+      url: /projects/ohi-process/
+    - text: OHI Assessments
+      url: /projects/ohi-assessments/
 - text: Resources
   url: /resources/
   subitems:
-    - text: Tools
-      url: /resources/tools/
-    - text: Manual
-      url: /manual/
+    - text: Data
+      url: /resources/data/
     - text: Publications
       url: /resources/publications/
-    - text: Goals
-      url: /goals
-    - text: Downloads
-      url: /resources/downloads
-- text: Projects
-  url: /projects/
+    - text: Training
+      url: /resources/training/
+#    - text: Manual
+#      url: /manual/
+#    - text: Goals
+#      url: /goals
+    - text: Forum
+      url: /resources/forum  
 - text: About
   url: /about/  
   subitems:
-    - text: What is OHI
+    - text: What is the OHI
       url: /about/#what-is-the-ocean-health-index
-    - text: What is OHI+?
+    - text: What is OHI+
       url: /about/#what-is-ohi
     - text: Who We Are
       url: /about/#who-we-are
+    - text: Our Story
+      url: /about/#our-story
     - text: Supporters
       url: /about/#thanks-to-our-supporters
-- text: Forum
-  url: /forum/
 - text: News
   url: /news/
   

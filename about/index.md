@@ -11,17 +11,31 @@ search-terms: about contact email about us
 
 ## What is the Ocean Health Index?
 
-#### A tailorable marine assessment framework.
+#### The Ocean Health Index (OHI) is a tailorable marine assessment framework to comprehensively and quantitatively evaluate ocean health. 
 
-Determining how healthy oceans are and managing for the future requires an assesssment approach that evaluates current conditions comprehensively from social, economic, and environmental perspectives. **The Ocean Health Index (OHI) is an assessment framework that measures progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide**. By analyzing these goals together and scoring them from 0-100, OHI assessments provide an integrated picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
+Determining how healthy oceans are and managing for the future requires an assesssment approach that evaluates current conditions comprehensively from social, economic, and environmental perspectives. The OHI defines a healthy ocean as one that sustainably delivers a range of benefits to people now and in the future. 
 
-Originally developed by an interdisciplinary team of scientists (**Halpern *et al*., *Nature* 2012**), the OHI framework is standardized yet tailorable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
+**The OHI measures progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide**. By analyzing these goals together and scoring them from 0-100, OHI assessments provide an integrated picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
+
+Originally developed by an interdisciplinary team of scientists (Halpern *et al*., 2012, *Nature*), global assessments have been repeated every year since 2012 (Halpern *et al*., 2015, *PLOS One*; Halpern *et al. in review*). 
+
+The OHI framework is standardized yet tailorable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
 
 ![](https://docs.google.com/drawings/d/1cv0dUUwHjCFVxw7fZTpnuHZEgRO1LX6nHMCOCra-ZhQ/pub?w=960&h=500)
 
-Assessments using the OHI framework are facilitated by the OHI Toolbox, a suite of collaborative, open-source tools and instruction that provides structure for data organization and storage, data processing and goal modeling. The Toolbox enables assessments to be **transparent**, **reproducible** through access to detailed methods and computational code, and **repeatable** with the ability to modify methods and computational code. The results are visualized in a _Flower Plot_ for **easy communication** with a wide audience - each petal represents one goal and its length is with the score of the goal. 
+Assessments using the OHI framework are facilitated by the **OHI Toolbox** that is used to calculate and visualize scores. The OHI Toolbox is a suite of collaborative, open-source tools and instruction that provides structure for data organization and storage, data processing and goal modeling. Like the framework, the Toolbox has two parts: the core engine behind calculating and visualizing scores, which is an <font face="courier">R</font> package called <font face="courier">ohicore</font>, and a tailored repository to organize, store, and share information and write goal model equations specific to the local context.
 
-For more information, please see our sister website at <a href="https://www.oceanhealthindex.org" target="_blank"> <i class="icon icon-right lnr lnr-exit"></i> www.OceanHealthIndex.org</a>
+The Toolbox enables assessments to be **transparent**, **reproducible** through access to detailed methods and computational code, and **repeatable** with the ability to modify methods and computational code. The results are visualized in a _Flower Plot_ for **easy communication** with a wide audience - each petal represents one goal and its length is with the score of the goal. <!--- To learn more about our open data science workflow, please see <a href="http://ohi-science.org/betterscienceinlesstime" target="_blank">ohi-science.org/betterscienceinlesstime</a>. --->
+
+**See also**: 
+
+- [Our overview website oceanhealthindex.org](https://www.oceanhealthindex.org)
+- [OHI scientific publications](http://ohi-science.org/resources/publications/)
+
+**Related news posts:** 
+
+- [A Biography of the Ocean Health Index](http://ohi-science.org/news/Biography-OHI)
+- [Five years of global Ocean Health Index scores](http://ohi-science.org/news/Global-2016-Scores)
 
 
 {% assign color = 'blue' %}
@@ -40,6 +54,17 @@ OHI+ assessments are often conducted at smaller, subnational spatial scales. An 
 Resulting scores can be used to identify policy priorities, maximize cost-effectiveness, and explore management scenarios. It is also possible to use the OHI framework as a planning tool even before final assessment scores have been calculated. The process of planning an OHI+ assessment is useful because it provides a framework to evaluate and understand current policy and requires creating an inventory of information and knowledge that spans disciplines, space and time.
 
 <a href="/phases" class="btn">View the Four Phases of the OHI Assessment</a>
+
+
+**See also**: 
+
+- [Ongoing and completed OHI assessments](http://ohi-science.org/projects) 
+- [OHI assessment process](http://ohi-science.org/phases) 
+
+**Related news posts:** 
+
+- [Interested in leading an OHI+ assessment?](http://ohi-science.org/news/Interested-in-leading)
+- [New goals page compares different modeling approaches](http://ohi-science.org/news/new-goals-guide-page)
 
 
 {% assign color = 'blue' %}
@@ -72,6 +97,28 @@ Learn more about us at <a href="http://www.oceanhealthindex.org/about" target="_
 {% assign color = 'teal' %}
 {% assign position = 'top-left' %}
 {% include themes/OHI/diagonal %}
+
+
+## Our story
+
+We are marine scientists who dramatically improved the way we work by embracing data science and open science. 
+
+<!---
+In our [publication in ***Nature Ecology & Evolution***]() and accompanying [Q&A in ***Nature***](), we describe how we transitioned to coding collaboratively, sharing our work online, and communicating from our same workflow by building websites using free software tools. We provide specific examples through our experiences with global OHI assessments and supporting the 20 governments and academic groups around the world that are building off our science and code and leading their own OHI+ assessments.  
+
+The intention is that by sharing our story we will encourage more environmental scientists to embrace open and collaborative practices, and we are committed to continued training through OHI. 
+
+**See also**: 
+
+- [ohi-science.org/betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime) 
+
+**Related news posts:** 
+
+- [Publication in Nature Ecology & Evolution: Our path to better science in less time using open data science tools](http://ohi-science.org/news/publication-in-nature-ecology-and-evolution)
+- [The importance of open data science tools in science: a list of references](http://ohi-science.org/news/importance-of-open-data-science-tools)
+
+
+--->
 
 
 ## Thanks to our supporters

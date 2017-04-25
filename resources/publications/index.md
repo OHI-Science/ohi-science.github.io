@@ -22,6 +22,10 @@ Patterns and emerging trends in global ocean health.
 
 - <a href="http://doi.org/10.7717/peerj.1503" target="_blank">Lowndes et al. 2015</a>, *PeerJ*\*. Best practices for assessing ocean health in multiple contexts using tailorable frameworks.
 
+<!---
+- <a href="XXXX" target="_blank">Lowndes et al. 2017</a>, *Nature Ecology & Evolution*\*. Our path to better science in less time using open data science tools.
+--->
+
 ##### U.S. West Coast
 
 - <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995" target="_blank">Halpern et al. 2014</a>, *PLoS ONE*\*.

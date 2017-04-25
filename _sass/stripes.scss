@@ -119,6 +119,9 @@ $header-height: 300px;
 		color: $color-dark;	
 	}
 }
+.stripe.color-light-2{
+  min-height: 350px;
+}
 .stripe.primary-color{
 	background-color: $primary-color;
 	@extend .light-font;
@@ -128,21 +131,54 @@ $header-height: 300px;
 	background-color: $color-light-background;
 }
 
-/** The Tools page **/
-body[data-url='/resources/tools/index.html'] .stripes-container .stripe-1,
-body[data-url='/resources/tools/'] .stripes-container .stripe-1{
+/** The Projects page **/
+body[data-url='/projects/index.html'] .stripes-container .stripe-1,
+body[data-url='/projects/'] .stripes-container .stripe-1{
 }
-body[data-url='/resources/tools/index.html'] .stripes-container .stripe-2,
-body[data-url='/resources/tools/'] .stripes-container .stripe-2{
+body[data-url='/projects/index.html'] .stripes-container .stripe-2,
+body[data-url='/projects/'] .stripes-container .stripe-2{
 	background-color: $color-light-2;
 }
-body[data-url='/resources/tools/index.html'] .stripes-container .stripe-3,
-body[data-url='/resources/tools/'] .stripes-container .stripe-3{
+body[data-url='/projects/index.html'] .stripes-container .stripe-3,
+body[data-url='/projects/'] .stripes-container .stripe-3{
 }
-body[data-url='/resources/tools/index.html'] .stripes-container .stripe-4,
-body[data-url='/resources/tools/'] .stripes-container .stripe-4{
+body[data-url='/projects/index.html'] .stripes-container .stripe-4,
+body[data-url='/projects/'] .stripes-container .stripe-4{
 	background-color: $color-light-background;
 }
+
+/** The Resources page **/
+body[data-url='/resources/index.html'] .stripes-container .stripe-1,
+body[data-url='/resources/'] .stripes-container .stripe-1{
+}
+body[data-url='/resources/index.html'] .stripes-container .stripe-2,
+body[data-url='/resources/'] .stripes-container .stripe-2{
+	background-color: $color-light-2;
+}
+body[data-url='/resources/index.html'] .stripes-container .stripe-3,
+body[data-url='/resources/'] .stripes-container .stripe-3{
+}
+body[data-url='/resources/index.html'] .stripes-container .stripe-4,
+body[data-url='/resources/'] .stripes-container .stripe-4{
+	background-color: $color-light-background;
+}
+
+/** The Training page **/
+body[data-url='/resources/training/index.html'] .stripes-container .stripe-1,
+body[data-url='/resources/training/'] .stripes-container .stripe-1{
+}
+body[data-url='/resources/training/index.html'] .stripes-container .stripe-2,
+body[data-url='/resources/training/'] .stripes-container .stripe-2{
+	background-color: $color-light-2;
+}
+body[data-url='/resources/training/index.html'] .stripes-container .stripe-3,
+body[data-url='/resources/training/'] .stripes-container .stripe-3{
+}
+body[data-url='/resources/training/index.html'] .stripes-container .stripe-4,
+body[data-url='/resources/training/'] .stripes-container .stripe-4{
+	background-color: $color-light-background;
+}
+
 /*** The About page ***/
 body[data-url='/about/index.html'] .stripes-container .stripe-1,
 body[data-url='/about/'] .stripes-container .stripe-1{
