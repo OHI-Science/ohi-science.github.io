@@ -24,17 +24,17 @@
   url: /resources/
   subitems:
     - text: Data
-      url: /resources/data/
+      url: /data/
     - text: Publications
-      url: /resources/publications/
+      url: /publications/
     - text: Training
-      url: /resources/training/
+      url: /training/
 #    - text: Manual
 #      url: /manual/
 #    - text: Goals
 #      url: /goals
     - text: Forum
-      url: /resources/forum  
+      url: /forum  
 - text: About
   url: /about/  
   subitems:

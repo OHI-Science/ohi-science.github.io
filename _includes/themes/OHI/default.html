@@ -13,7 +13,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
+
     <!-- Fav and touch icons -->
   <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -21,7 +21,7 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
-  
+
   	<!--  Styles -->
 	<link href="{{ ASSET_PATH }}OHI/fonts/LinearIcons/style.css" rel="stylesheet" type="text/css" media="all">
 	<link href="{{ ASSET_PATH }}OHI/css/style.css" rel="stylesheet" type="text/css" media="all">
@@ -31,22 +31,22 @@
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
     <meta name="google-translate-customization" content="47f381179a5facf3-96350382533ff336-gbdd3ba5670eecf51-f"></meta>
-	    
+
 	 <!--  Google Analytics Tracking Code -->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
+
 	  ga('create', 'UA-45974528-1', 'auto');
 	  ga('send', 'pageview');
-	
+
 	</script>
   </head>
 
   <body class="{{ bodyClass }} {{ layout.bodyClass }}" data-url="{{ page.url }}">
-    
+
     {% include themes/OHI/header.html %}
 
     <div class="container">
@@ -56,7 +56,7 @@
       </div>
 
     </div> <!-- /container -->
-    
+
     <footer>
     	<div class="footer-inner">
     		<div class="grid">
@@ -67,7 +67,7 @@
 	        		<ul>
 	        			<li><a href="/forum"><img src="{{ ASSET_PATH }}OHI/img/forum-icon.png" class="icon" /><span>Forum</span></a></li>
 	        			<li><a href="http://www.twitter.com/{{ site.author.twitter }}" target="_blank"><img src="{{ ASSET_PATH }}OHI/img/twitter-icon.png" class="icon" /> <span>@{{ site.author.twitter }}</span></a></li>
-	        			<li><a href="mailto:{{ site.author.email }}"><img src="{{ ASSET_PATH }}OHI/img/email-icon.png" class="icon" /><span>{{ site.author.email }}</span></a></li>        			
+	        			<li><a href="mailto:{{ site.author.email }}"><img src="{{ ASSET_PATH }}OHI/img/email-icon.png" class="icon" /><span>{{ site.author.email }}</span></a></li>
 	        		</ul>
 	        	</div>
 	        </div>
@@ -75,7 +75,7 @@
         		<div class="links-inner">
 	        		<a href="/manual/#appendix-6-frequently-asked-questions-faqs">FAQ</a>
 	        		<a href="/manual">Manual</a>
-	        		<a href="/resources/publications">Publications</a>
+	        		<a href="/publications">Publications</a>
 	        		<a href="/news">News</a>
 	        		<a href="/citation-policy">Our Citation Policy</a>
 	        		<a href="https://www.oceanhealthindex.org" target="_blank">OceanHealthIndex.org</a>
@@ -90,8 +90,8 @@
     <script src="{{ ASSET_PATH }}OHI/js/nav.js"></script>
     <script src="{{ ASSET_PATH }}OHI/js/search.js"></script>
     <script src="{{ ASSET_PATH }}OHI/js/createStripes.js"></script>
-    
-    <!--  
+
+    <!--
     {% comment %} Add the 'js' variable to the page front matter to include a custom js script on that page only {% endcomment %}
     -->
     {% if layout.js %}
