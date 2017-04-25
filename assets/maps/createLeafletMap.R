@@ -89,11 +89,11 @@ file.rename(from="allRegions.html", to="_includes/themes/OHI/maps/allRegions.htm
 unlink("allRegions.html")
 
 
-### move allRegions_files folder to the correct place in /projects
+### move allRegions_files folder to the correct place in /projects/ohi-assessments
 ### although this seems overkill, the map won't display if these packages have been updated and there's a mismatch; see https://github.com/OHI-Science/issues/issues/625
-unlink("projects/allRegions_files", recursive=TRUE) # delete old folder
-warning('Now move `/allRegions_files` to `/projects/allRegions_files`!')
-warning('Seriously, did you move `/allRegions_files` to `/projects/allRegions_files`!?')
+unlink("projects/ohi-assessments/allRegions_files", recursive=TRUE) # delete old folder
+warning('Now move `/allRegions_files` to `/projects/ohi-assessments/allRegions_files`!')
+warning('Seriously, did you move `/allRegions_files` to `/projects/ohi-assessments/allRegions_files`!?')
 # we should script this someday but actually a pain to loop through subdirectories and copy
 
 

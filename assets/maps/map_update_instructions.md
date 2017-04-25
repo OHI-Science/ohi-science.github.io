@@ -15,5 +15,5 @@ The shapefile and point data are added in two separate steps.
 Two things are created when this script is run, and need to be moved to the correct places. 
 
 - allRegions.html         -> move to `_includes/themes/OHI/maps` (scripted)
-- allRegions_files folder -> move to `/projects` (BY HAND!) (do this each time; if libraries get out of sync then the map will not display). 
+- allRegions_files folder -> move to `/projects/ohi-assessments` (BY HAND!) (do this each time; if libraries get out of sync then the map will not display). 
 

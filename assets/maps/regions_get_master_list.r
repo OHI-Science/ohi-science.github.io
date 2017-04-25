@@ -2,7 +2,7 @@
 # April 29, 2016 by @jules32
 
 ## Get master list of OHI and OHI+ countries from the private Google Spreadsheet 'OHI_CountriesMaster' 
-## for display on ohi-science.org/projects
+## for display on ohi-science.org/projects/ohi-assessments
 ## https://docs.google.com/spreadsheets/d/1Xh8-36cLCEa_bppqLJu-nukVgPDT8xVEd9nxEaPYKKg/edit#gid=2018368498
 
 #### setup ----

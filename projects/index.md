@@ -1,37 +1,41 @@
 ---
-layout: default
-title: Projects
-description: A list of OHI+ projects
-comments: false
-group: navigation
+layout: stripes
+title: Our projects
+description: Projects
+header: ecuador-fishing-boats.jpg
 ---
-{% include JB/setup %}
 
-<div class="stripe display primary-color map">
-	<h1>Projects</h1>
-	<p>
-		Here you will find a list of current and completed Ocean Health Index assessments. The OHI team provides technical guidance and support for OHI+ assessments, but OHI+ groups are fully responsible for all decisions made and the resulting scores.  
-		The map below illustrate ongoing and completed assessments. Shading indicates areas that have completed assessments (light teal) or are <a href="http://ohi-science.org/phases/" target="_blank">Conducting</a> assessments (darker teal) and drop-pins indicate areas <a href="http://ohi-science.org/phases/" target="_blank">Preparing</a> for their first assessment. Click on an assessment or scroll below the map for more information. 
-	</p>
-</div>
+## How we work 
 
-{% include themes/OHI/maps/allRegions.html %}
+The Ocean Health Index (OHI) is a scientific method and tool for channeling the best available scientific information into marine policy. 
+First published in 2012 in the scientific journal *Nature*, the OHI is now used in governmental-management-academic collaborations around the world.  
+
+Our team develops methods and tools for measuring and monitoring ocean health. This includes conceptual frameworks, computational code, data products, and training materials. We believe stongly in open science, using open-source tools such as <font face="courier">R</font> and share our work on GitHub as much as possible. These tools are constantly being used, evaluated, improved and updated. 
 
 
-<!--  {% assign color = 'white' %}
-{% assign position = 'top-left' %}
-{% include themes/OHI/diagonal %} -->
+## [Global assessments](http://ohi-science.org/ohi-global/) 
 
-<!--  <div class="container diagonal-top assessments"> -->
-<div class="container assessments">
-	<hgroup class="inline">
-		<h1>OHI Assessments</h1>
-		<h5><i class="icon icon-med icon-right plus lnr lnr-plus-circle"></i> Indicates an OHI+ assessment</h5>
-	</hgroup>
-	
-	<div class="container">
-		{% include themes/OHI/assessment_list.html %}
-	</div>
-</div>
+We assess oceans globally every year by synthesizing freely available public data and scoring 220 coastal nations and territories.   
 
+Learn more about the methods, access our code, and explore scores on our [Global](http://ohi-science.org/ohi-global/) page.  
+
+{% assign color = 'color-light-2' %}
+{% assign position = 'bottom-right' %}
+{% include themes/OHI/diagonal %}
+
+
+## [OHI Process](/projects/ohi-process) 
+
+OHI assessments require an iterative process that can be divided into four phases: Learn, Plan, Conduct, and Inform.  
+
+Learn more about the OHI process and how to lead your own independent 'OHI+' assessment on the [OHI Process](/projects/ohi-process) page.  
+
+
+## [OHI Assessments](/projects/ohi-assessments) 
+
+In addition to assessing oceans globally every year, we support independent groups that incorporate their own data into the OHI framework to assess and manage their own regions. There are many groups leading their own independent OHI+ assessments, including governments of Mexico and Indonesia, and scientists in Sweden who are assessing eight countries bordering the Baltic Sea.  
+
+See ongoing assessments on the [OHI Assessments](/projects/ohi-assessments) page.  
+
+{% assign color = '' %}
 
