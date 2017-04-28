@@ -2,7 +2,7 @@
 layout: stripes
 title: Our projects
 description: Projects
-header: ecuador-fishing-boats.jpg
+header: ecuador-fishingboats.jpg
 ---
 
 ## How we work 
