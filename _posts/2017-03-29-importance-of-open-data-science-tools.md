@@ -73,8 +73,6 @@ Open data science is the combination of open science, data science, and team sci
 
 - [Want to Make It as a Biologist? Better Learn to Code](https://www.wired.com/2017/03/biologists-teaching-code-survive/?mbid=social_fb) (Dreyfuss, 2017, *Wired*)
     - *"When I asked a handful of post-doc biologists eating brunch in Boston last week how many were teaching themselves to code, every hand went up. They all realized that their curriculum was missing a core element, and they’ve set about rectifying the omission—on their own."*
-    
-
 
 <!--- 
 

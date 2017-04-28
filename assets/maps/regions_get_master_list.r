@@ -27,15 +27,15 @@ write.csv(master_list,
 #### parse information for display ----
 ## to be displayed, `display` column must have either 'point' or 'shapefile'
 display_list <- master_list %>%
-  select(country     = Country, 
+  dplyr::select(country     = Country, 
          ohi_plus    = OHI_plus,
          phase       = Phase,
          map_display = Map_Display,
          display     = Display,
          lat         = Latitude,
          lon         = Longitude) %>%
-  filter(!is.na(display)) # remove rows that don't have point/shapefile
-# tail(display_list)
+  dplyr::filter(!is.na(display)) # remove rows that don't have point/shapefile
+tail(display_list)
 
 
 ## count number of active and completed OHI+ countries ----

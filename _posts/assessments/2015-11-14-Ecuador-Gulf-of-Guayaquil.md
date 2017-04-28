@@ -13,4 +13,3 @@ tags : [OHI+, South America]
 
 [documentation](/resources/publications#ecuador)
 <a href="https://github.com/OHI-Science/gye" target="_blank">github</a>
-<a href="http://ohi-science.org/gye" target="_blank">website</a>
