@@ -16,17 +16,20 @@ We have developed training materials for OHI assessments that depend upon open d
 - [The importance of open data science tools in science: a list of references](http://ohi-science.org/news/importance-of-open-data-science-tools)
 - [Resources for R and Data Science](http://ohi-science.org/news/Resources-for-R-and-Data-Science)
 
-## OHI Goals
 
-[OHI Goals](/goals) represent ocean-derived benefits to people. This page lists each goal and sub-goal, along with the philosophy of the goal and an ‘ideal’ approach to how it would be represented. There is also practical guidance for modelling, and examples from completed assessments, including global and OHI+ assessments.
+## OHI Manual
+
+The [OHI Manual](/manual) is a guide for the Conduct phase of the OHI process. It focuses on preparation and use of the OHI Toolbox, which is used to calculate OHI scores. 
 
 {% assign color = 'color-light-2' %}
 {% assign position = 'bottom-left' %}
 {% include themes/OHI/diagonal %}
 
-## OHI Manual
 
-The [OHI Manual](/manual) is a guide for the Conduct phase of the OHI process. It focuses on preparation and use of the OHI Toolbox, which is used to calculate OHI scores. 
+## OHI Goals
+
+[OHI Goals](/goals) represent ocean-derived benefits to people. This page lists each goal and sub-goal, along with the philosophy of the goal and an ‘ideal’ approach to how it would be represented. There is also practical guidance for modelling, and examples from completed assessments, including global and OHI+ assessments.
+
 
 ## OHI Toolbox training
 
