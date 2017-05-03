@@ -27,6 +27,13 @@ It’s important to realize that it is impossible to create a perfect species ra
 
 <br>
 
+**Citation**  
+
+[O'Hara CC, Afflerbach JC, Scarborough C, Kaschner K, Halpern BS (2017) Aligning marine species range data to better serve science and conservation. PLoS ONE 12(5): e0175739. doi:10.1371/journal.pone.0175739](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0175739). 
+ 
+
+<br>
+
 **See also**: 
 
 - [OHI scientific publications](http://ohi-science.org/resources/publications/)
