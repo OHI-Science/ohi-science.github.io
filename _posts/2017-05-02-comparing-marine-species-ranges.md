@@ -10,9 +10,7 @@ We are excited to have a paper published in PLOS ONE today: *“Aligning marine 
 
 <a href="http://ohi-science.nceas.ucsb.edu/plos_marine_rangemaps">
 
-<center><img src="../assets/downloads/other/ohara_plos_blog.png" alt="Predicted range of Little Tunny (Euthynnus alletteratus)" border="0"></center>
-
-</a>
+<center><img src="../assets/downloads/other/ohara_plos_blog.png" alt="Predicted range of Little Tunny (Euthynnus alletteratus)" border="0"></center></a>
 
 
 Global Ocean Health Index (OHI) assessments require over a hundred global-scale datasets.  We have now completed [five annual global assessments](http://ohi-science.org/ohi-global), and each time we improve our past work in part by challenging our own assumptions about the data and models we use in our calculations.  Our new paper is a direct result of such a challenge, as we probed our methods for combining the two species range map datasets to calculate the Species component of the [OHI Biodiversity goal](http://ohi-science.org/goals/#biodiversity).
