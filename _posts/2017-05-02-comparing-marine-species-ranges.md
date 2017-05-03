@@ -4,12 +4,16 @@ title: "Comparing marine species ranges for OHI global assessments"
 author: Casey O'Hara
 category : news 
 tags : [news]
-hidden : true
 ---
 
-We are excited to have a paper published in PLOS ONE today: *“Aligning marine species range data to better serve science and conservation”*. In it we examine global maps of over 25,000 marine species ranges that are available publicly from the [International Union for the Conservation of Nature (IUCN)](www.iucnredlist.org) and [AquaMaps](www.aquamaps.org). You can read the paper [here](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0175739), or check out our [interactive web application](http://ohi-science.nceas.ucsb.edu/plos_marine_rangemaps) where you can explore our results and compare range maps of more than 250 different species.
+We are excited to have a paper published in PLOS ONE today: *“Aligning marine species range data to better serve science and conservation”*. In it we examine global maps of nearly 25,000 marine species ranges that are available publicly from the [International Union for the Conservation of Nature (IUCN)](www.iucnredlist.org) and [AquaMaps](www.aquamaps.org). You can read the paper [here](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0175739), or check out our [interactive web application](http://ohi-science.nceas.ucsb.edu/plos_marine_rangemaps) where you can explore our results and compare range maps of more than 250 different species.
 
-![Predicted range of Little Tunny (Euthynnus alletteratus)](../assets/downloads/other/ohara_plos_blog.png) 
+<a href="http://ohi-science.nceas.ucsb.edu/plos_marine_rangemaps">
+
+<center><img src="../assets/downloads/other/ohara_plos_blog.png" alt="Predicted range of Little Tunny (Euthynnus alletteratus)" width="700" height="700" border="0"><center>
+
+</a>
+
 
 Global Ocean Health Index (OHI) assessments require over a hundred global-scale datasets.  We have now completed [five annual global assessments](http://ohi-science.org/ohi-global), and each time we improve our past work in part by challenging our own assumptions about the data and models we use in our calculations.  Our new paper is a direct result of such a challenge, as we probed our methods for combining the two species range map datasets to calculate the Species component of the [OHI Biodiversity goal](http://ohi-science.org/goals/#biodiversity).
 
