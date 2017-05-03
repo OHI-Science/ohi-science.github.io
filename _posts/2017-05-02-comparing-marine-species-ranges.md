@@ -10,7 +10,7 @@ We are excited to have a paper published in PLOS ONE today: *“Aligning marine 
 
 <a href="http://ohi-science.nceas.ucsb.edu/plos_marine_rangemaps">
 
-<center><img src="../assets/downloads/other/ohara_plos_blog.png" alt="Predicted range of Little Tunny (Euthynnus alletteratus)" width="700" height="700" border="0"><center>
+<center><img src="../assets/downloads/other/ohara_plos_blog.png" alt="Predicted range of Little Tunny (Euthynnus alletteratus)" border="0"></center>
 
 </a>
 
