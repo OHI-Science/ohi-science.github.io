@@ -12,11 +12,9 @@ First published in 2012 in the scientific journal *Nature*, the OHI is now used 
 
 Our team develops methods and tools for measuring and monitoring ocean health. This includes conceptual frameworks, computational code, data products, and training materials. We believe stongly in open science, using open-source tools such as <font face="courier">R</font> and share our work on GitHub as much as possible. These tools are constantly being used, evaluated, improved and updated.  
 
-[Learn more in our webinar hosted by EBM Tools Network.](https://www.openchannels.org/webinars/2017/using-ocean-health-index-integrated-tool-implementing-ebm-and-coastal-management)
+[Learn more in our webinar hosted by the EBM Tools Network.](https://www.openchannels.org/webinars/2017/using-ocean-health-index-integrated-tool-implementing-ebm-and-coastal-management)
 
-<a href="https://www.openchannels.org/webinars/2017/using-ocean-health-index-integrated-tool-implementing-ebm-and-coastal-management">
-
-<center><img src="../assets/downloads/other/webinar-frontpage.png" alt="webinar" width="300" border="0"></center></a>
+<center><img src="../assets/downloads/other/webinar-frontpage.png" width="350px"></center>
 
 ## [Global assessments](http://ohi-science.org/ohi-global/) 
 
