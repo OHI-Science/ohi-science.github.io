@@ -65,6 +65,7 @@ Open data science is the combination of open science, data science, and team sci
 - [Gene name errors are widespread in the scientific literature](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7) (Ziemann et al., 2016, *Genome Biology*)
     - *"The spreadsheet software Microsoft Excel, when used with default settings, is known to convert gene names to dates and floating-point numbers. A programmatic scan of leading genomics journals reveals that approximately one-fifth of papers with supplementary Excel gene lists contain erroneous gene name conversions."*
     
+
     
 ## From the news
     
@@ -75,6 +76,8 @@ Open data science is the combination of open science, data science, and team sci
     - *"When I asked a handful of post-doc biologists eating brunch in Boston last week how many were teaching themselves to code, every hand went up. They all realized that their curriculum was missing a core element, and they’ve set about rectifying the omission—on their own."*
 
 <!--- 
+
+http://onlinelibrary.wiley.com/doi/10.1002/fee.1486/full    
 
 The journal *Nature* even has a [Toolbox series](http://www.nature.com/news/toolbox) where they discuss software tools and approaches. 
 
