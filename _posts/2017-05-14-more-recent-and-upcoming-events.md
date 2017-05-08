@@ -8,12 +8,16 @@ tags : [news]
 hidden : true
 ---
 
-- website restructure
+More news from the OHI team — we have been busy!  
 
-- Katona paper https://meam.openchannels.org/news/meam/ebm-toolbox-new-short-and-free-primer-modern-ocean-management
-Citation: Katona, S.K., J. Polsenberg, J.S.S. Lowndes et al. 2017. Navigating the seascape of ocean management: waypoints on the voyage toward sustainable use. OpenChannels: Forum for Ocean Planning and Management. 44 pp. Available at: www.openchannels.org/literature/16817. 
+We have **restructured [ohi-science.org](http://ohi-science.org)** a bit, now that it's been over a year since its first launch. We now have Global assessments, the OHI process, and all OHI assessments under the [Projects](/projects) page. We've also added new features on the [Resources](/resources) page, including the [Data](/data) we use in global assessments, and [Training](/training) materials that are available even as they are developed. You can also navigate to the [Forum](/forum) from the Resources tab. Check it out!  
 
-- MEAM webinar
+**Steve Katona led a paper** that has been published by OpenChannels: [
+Navigating the seascape of ocean management: waypoints on the voyage toward sustainable use](https://www.openchannels.org/literature/16817). OpenChannels also published a short article about it: [EBM Toolbox: A new, short, and free primer on modern ocean management](https://meam.openchannels.org/news/meam/ebm-toolbox-new-short-and-free-primer-modern-ocean-management). Full citation: *Katona, S.K., J. Polsenberg, J.S.S. Lowndes et al. 2017. Navigating the seascape of ocean management: waypoints on the voyage toward sustainable use. OpenChannels: Forum for Ocean Planning and Management. 44 pp.*
+
+**We gave a webinar on Open Channels: Transforming how we approach marine science for management**. Julie Lowndes and Erich Pacheco focused on how using open data science practices and tools have played a huge role in the OHI project growing into what it is today, with 20 countries around the world building directly off our science and our code. 
+
+<center><img src="../assets/downloads/other/webinar-frontpage.png" width="500px"></center>
 
 - Casey paper
 
@@ -23,30 +27,3 @@ Citation: Katona, S.K., J. Polsenberg, J.S.S. Lowndes et al. 2017. Navigating th
 
 
 
-
-
-
-Hello OHI supporters! We haven't reached out to you for a while but we haven't been idle! Here let us update you with a few of our most recent activities: 
-
-**The OHI 2016 Annual Report** has been published! OHI is five years old now, and is being used for assessment and management in more than 20 countries. The full report is available to [download](https://github.com/OHI-Science/ohi-science.github.io/raw/master/assets/downloads/other/2016_Annual_report_compressed.pdf), but here are some highlights from 2016: 
-
-_- With the addition of Africa, on-going, independently-led assessments (OHI+) are being implemented across all inhabited continents._
-
-_- Mexico publicly committed to using the OHI as the structure for the national Interdepartmental Commission for Sustainable Management of Seas and Coasts._
-
-_- The United States of America included the OHI in their first-ever National Ocean Plan for the Northeast Region._
-
-
-**Lead OHI scientists gave a webinar on Open Channels: Drivers and implications of change in global ocean health**. Steve Katona and Ben Halpern discuss the changes in OHI scores over five years (2012-2016), possible causes and consequences of those changes, challenges and opportunities for composite indicators to incorporate the best available science each year, and lessons learned in repeating and improving the OHI assessment each year. _[Watch the recorded webinar!](https://www.openchannels.org/webinars/2017/drivers-and-implications-change-global-ocean-health-demonstrated-ocean-health-index)_ 
-
-<center><img src="../assets/downloads/other/MEAM_webinar_screenshot.png" width="500px"></center>
-
-**OHI was featured in Samoa's national newspaper**, the _Somoa Observer_ in April this year: [Conservation International highlights oceans in Samoa](http://www.samoaobserver.ws/en/06_04_2017/local/18722/Conservation-International-highlights-oceans-in-Samoa.htm). OHI program manager Erich Pacheco went to Samoa to conduct a national workshop. Since Samoa is a very influential country amongst the South Pacific island nations, commitment from Samoa will pave the way to more engagements with other Pacific countries and forming regional management alliance. To see more OHI activities in Samoa, check out their [Facebook page](https://www.facebook.com/conservationinternationalsamoa/).
-
-### Coming up soon...
-
-We'll be giving another [webinar on May 2](https://www.openchannels.org/upcoming-events/using-ocean-health-index-integrated-tool-implementing-ebm-and-coastal-management) to discuss how the OHI is transforming how we approach marine science for management. Join us at 1pm US EDT / 10am US PDT / 5pm UTC, and thank you EBM Tools Network, Open Channels, and MEAM for hosting us. Register [here](https://attendee.gotowebinar.com/register/326158410160439043)!
-
-[**The United Nations' Ocean Conference** ](https://sustainabledevelopment.un.org/topics/oceans/SDG14Conference) is happening in New York City from June 5-9, 2017. The conference will focus on Sustainable Development Goal 14: Life Below Water. The OHI is expected to be an indicator for SDG 14. 
-
-**We have a new paper** coming out next month! We discuss the open data science tools we use for OHI, and how OHI+ groups around the world are able to build off our science and code. 
