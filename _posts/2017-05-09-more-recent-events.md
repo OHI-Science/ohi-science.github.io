@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "More recent and upcoming events"
+title: "More recent events"
 author: Julie Lowndes
 category : news 
 self_contained: no
 tags : [news]
-hidden : true
 ---
 
 More news from the OHI team — we have been busy!  
