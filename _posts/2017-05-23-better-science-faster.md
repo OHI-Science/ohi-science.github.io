@@ -11,7 +11,7 @@ hidden : true
 
 We have a Perspective published today in *Nature Ecology & Evolution* — and it's open access!
 
-The title is "Our path to better science in less time using open data science tools". it's about how we learned the hard way that the way we were working with data wasn’t efficient to reproduce our own work, but now we use software tools that Silicon Valley uses to accelerate collaboration and work deliberately with data. We've made a website to help you to do better science in less time too:  [ohi-science.org/betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime)
+*"Our path to better science in less time using open data science tools"* is about what we've learned by repeating OHI global assessments each year — and how we learned the hard way that we needed to change the way we worked. We describe how data science has greatly improved our science because it enables you to work more deliberately with data and streamline collaboration. We've made a website to help you to do better science in less time too:  [ohi-science.org/betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime)
 
 It’s been game-changing for our science and how it is used for management. 
 
