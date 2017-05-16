@@ -8,6 +8,14 @@ self-contained : no
 hidden : true
 ---
 
+We are taking cues from Silicon Valley and using tools and practices developed specifically for working with data in a deliberate and collaborative way. And collaboration here means first with ourselves so we can remember what we did, and also with our team. Further, we're working openly by sharing our code and methods online — meaning that collaborators can be people we don't even know yet. This is huge for science, where the amount of data is increasing at an incredible rate. Not only do we need to have the right skills to analyze these data, we need to be able to communicate about what we're doing and what it all means. And to do so collaboratively. 
+
+And luckily, Silicon Valley has figured that out for us. Do you think Twitter and AirBnB emails files like "analysis_v1b_final.xls" back and forth? No. They let powerful software take care of all the bookkeeping involved with different versions,  They have a single file, let's say it's called 'analysis.R', and 
+
+We have been coding and using version control to make our science more reproducible. While these are not new tools, are not widely used in environmental science, and if they are, it was most likely because researchers taught themselves. But what's new is that we're using additional tools that make our 
+
+
+
 
 We have a Perspective published today in *Nature Ecology & Evolution* — and it's open access!
 
