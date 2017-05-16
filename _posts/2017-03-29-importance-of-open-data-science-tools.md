@@ -47,6 +47,9 @@ Open data science is the combination of open science, data science, and team sci
 - [My digital toolbox: Ecologist Ethan White on interactive notebooks](http://www.nature.com/news/my-digital-toolbox-ecologist-ethan-white-on-interactive-notebooks-1.16015) (Van Noorden, 2014, *Nature*)
     - *"I learned about the IPython notebook in early 2012, and was immediately hooked. The first time I opened one up, it was clear that this tool was going to change the way I worked. I have been using it for both teaching and research ever since. The IPython notebook is a free tool that lets you combine formatted text, code, and the figures and tables that code generates, in a single document."*
 
+- [My digital toolbox: Ecologist Christie Bahlai talks data hygiene](http://www.nature.com/news/my-digital-toolbox-ecologist-christie-bahlai-talks-data-hygiene-1.15896) (Tippmann, 2014, *Nature*)
+    - *"In the first of a regular series, Christie Bahlai, an ecologist at Michigan State University in East Lansing, discusses the software and tools she finds most useful in her research."*
+
 - [Don’t Fear the Command Line!](http://www.cell.com/cell/abstract/S0092-8674(11)00232-7) (Troyanskaya 2011, *Cell*)
     - *"Although basic computing skills are routine for most biologists, most of us still struggle with more sophisticated tasks,beyond the ‘‘out of the box’’ solutions."*
 
@@ -65,7 +68,12 @@ Open data science is the combination of open science, data science, and team sci
 - [Gene name errors are widespread in the scientific literature](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7) (Ziemann et al., 2016, *Genome Biology*)
     - *"The spreadsheet software Microsoft Excel, when used with default settings, is known to convert gene names to dates and floating-point numbers. A programmatic scan of leading genomics journals reveals that approximately one-fifth of papers with supplementary Excel gene lists contain erroneous gene name conversions."*
     
-
+- [Open data](http://onlinelibrary.wiley.com/doi/10.1002/fee.1486/full) (Schimel, 2017, *Frontiers in Ecology and the Environment*)   
+    - *"Ecologists are more and more interested in using larger datasets to complement field studies, or even depending on them as their primary research tool."*
+    
+- [Skills and Knowledge for Data-Intensive Environmental Research](https://academic.oup.com/bioscience/article-lookup/doi/10.1093/biosci/bix025#80702600) (Hampton et al., 2017, *BioScience*)
+    - *"By proactively addressing the training challenge at a time when the field of data science is still young, environmental scientists will not only guide the environmental research questions but also guide the field toward a culture that is collaborative and inclusive."*
+    
     
 ## From the news
     
@@ -77,7 +85,7 @@ Open data science is the combination of open science, data science, and team sci
 
 <!--- 
 
-http://onlinelibrary.wiley.com/doi/10.1002/fee.1486/full    
+
 
 The journal *Nature* even has a [Toolbox series](http://www.nature.com/news/toolbox) where they discuss software tools and approaches. 
 
@@ -89,5 +97,5 @@ The journal *Nature* even has a [Toolbox series](http://www.nature.com/news/tool
     - *"The Toolbox pages will collect the journal’s writing on software tools and websites that researchers use to work more efficiently, or in new ways."*
 
 
-- [My digital toolbox: Ecologist Christie Bahlai talks data hygiene](http://www.nature.com/news/my-digital-toolbox-ecologist-christie-bahlai-talks-data-hygiene-1.15896)
+
 --->
