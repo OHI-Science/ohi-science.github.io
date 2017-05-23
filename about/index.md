@@ -99,11 +99,13 @@ Learn more about us at <a href="http://www.oceanhealthindex.org/about" target="_
 {% include themes/OHI/diagonal %}
 
 
-## Our story
+## Better science in less time
 
 We are marine scientists who dramatically improved the way we work by embracing data science and open science.  
 
-In our [publication in ***Nature Ecology & Evolution***](https://www.nature.com/articles/s41559-017-0160)<!---and accompanying [Q&A in ***Nature***]()--->, we describe how we transitioned to coding collaboratively, sharing our work online, and communicating from our same workflow by building websites using free software tools. The intention is that by sharing our story we will encourage more environmental scientists to embrace open and collaborative practices, and we are committed to continued training through OHI. We also built a website for our paper: [**ohi-science.org/betterscienceinlesstime**](http://ohi-science.org/betterscienceinlesstime).
+In our [publication in ***Nature Ecology & Evolution***](https://www.nature.com/articles/s41559-017-0160)<!---and accompanying [Q&A in ***Nature***]()--->, we describe how we transitioned to coding collaboratively, sharing our work online, and communicating from our same workflow by building websites using free software tools. The intention is that by sharing our story we will encourage more environmental scientists to embrace open and collaborative practices, and we are committed to continued training through OHI. 
+
+Open data science tools are important for reproducibility and transparency, but also communication — we've used them to build a website for our paper: [**ohi-science.org/betterscienceinlesstime**](http://ohi-science.org/betterscienceinlesstime).
 
 
 **Related news posts:**
