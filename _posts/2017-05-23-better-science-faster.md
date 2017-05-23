@@ -5,7 +5,6 @@ author: Julie Lowndes
 category : news 
 tags : [news]
 self-contained : no
-hidden : true
 ---
 
 We have a Perspective published today in [*Nature Ecology & Evolution*](https://www.nature.com/natecolevol/) that we're really excited about! It's not a typical research manuscript; we took a step back and wrote about *how* we have been working as we've developed the Ocean Health Index program over the past four years, and we realized that it's a really powerful story to share.
