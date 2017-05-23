@@ -74,6 +74,9 @@ Open data science is the combination of open science, data science, and team sci
 - [Skills and Knowledge for Data-Intensive Environmental Research](https://academic.oup.com/bioscience/article-lookup/doi/10.1093/biosci/bix025#80702600) (Hampton et al., 2017, *BioScience*)
     - *"By proactively addressing the training challenge at a time when the field of data science is still young, environmental scientists will not only guide the environmental research questions but also guide the field toward a culture that is collaborative and inclusive."*
     
+- [Running an open experiment: transparency and reproducibility in soil and ecosystem science](http://www.news.ucsb.edu/2017/017990/better-science-faster) (Bond-Lamberty et al. 2016 *IOP Science*)
+    - *"Here we describe a recent 'open experiment', in which we documented every aspect of a soil incubation online, making all raw data, scripts, diagnostics, final analyses, and manuscripts available in real time. We found that using tools such as version control, issue tracking, and open-source statistical software improved data integrity, accelerated our team's communication and productivity, and ensured transparency."*
+    
     
 ## From the news
     
