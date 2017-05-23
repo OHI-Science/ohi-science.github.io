@@ -8,45 +8,32 @@ self-contained : no
 hidden : true
 ---
 
-We are taking cues from Silicon Valley and using tools and practices developed specifically for working with data in a deliberate and collaborative way. And collaboration here means first with ourselves so we can remember what we did, and also with our team. Further, we're working openly by sharing our code and methods online — meaning that collaborators can be people we don't even know yet. This is huge for science, where the amount of data is increasing at an incredible rate. Not only do we need to have the right skills to analyze these data, we need to be able to communicate about what we're doing and what it all means. And to do so collaboratively. 
+We have a Perspective published today in [*Nature Ecology & Evolution*](https://www.nature.com/articles/s41559-017-0160) that we're really excited about! It's not a typical research manuscript; we took a step back and wrote about *how* we have been working as we've developed the Ocean Health Index program over the past four years, and we realized that it's a really powerful story to share.
 
-And luckily, Silicon Valley has figured that out for us. Do you think Twitter and AirBnB emails files like "analysis_v1b_final.xls" back and forth? No. They let powerful software take care of all the bookkeeping involved with different versions,  They have a single file, let's say it's called 'analysis.R', and 
+>We are working in a way that has been game-changing for how we do science — and how our science is used for management around the world. 
 
-We have been coding and using version control to make our science more reproducible. While these are not new tools, are not widely used in environmental science, and if they are, it was most likely because researchers taught themselves. But what's new is that we're using additional tools that make our 
+The paper is called [***"Our path to better science in less time using open data science tools"***](https://www.nature.com/articles/s41559-017-0160). It's about how we learned the hard way that we needed to be using software built specifically for working and collaborating with data in a deliberately way. We’re sharing our story in hopes of inspiring others to engage too — because we are living proof that it's never too late to get on board and learn to code. We think open data science is key for us to more efficiently counter environmental problems, and it all starts with better science in less time. 
 
+These tools are critical for efficiency and being able to reproduce and build off of past work. And it's hard to articulate how powerful they are for communication too: they enable you to emphasize communication by weaving it throughout the entire scientific process. For example, we built a website for our paper using the same free tools we use for our analyses. It has resources for how you can get started too! Check it out: [**ohi-science.org/betterscienceinlesstime**](http://ohi-science.org/betterscienceinlesstime). 
 
-
-
-We have a Perspective published today in *Nature Ecology & Evolution* — and it's open access!
-
-*"Our path to better science in less time using open data science tools"* is about what we've learned by repeating OHI global assessments each year — and how we learned the hard way that we needed to change the way we worked. We describe how data science has greatly improved our science because it enables you to work more deliberately with data and streamline collaboration. We've made a website to help you to do better science in less time too:  [ohi-science.org/betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime)
-
-It’s been game-changing for our science and how it is used for management. 
-
-We’re sharing our story to try to inspire others to use better practices and tools too. We don’t have time to stick to our old ways when we could all be so much more effective. 
-
-We want others to see themselves in this future and become a part of it. 
-
-We are using the same tools that make Silicon Valley so innovative, which means we’ve embraced collaborative coding and data science. 
-
-Coding and version control are things you may have heard of. Coding lets you create a reusable record of the analyses you’ve done, and version control takes care of all the bookkeeping that you’d otherwise do, like model_v1.R and model_v1b.R. This is super powerful.
+<center><img src="../assets/downloads/other/nature_graphic_ohi_smith.jpg" width="500px"></center>
 
 
 
+### Citation
 
+**[Lowndes JSS, Best BD, Scarborough C, Afflerbach JC, Frazier MR, O'Hara CC, Jiang N, Halpern BS (2017). Our path to better science in less time using open data science tools. *Nature Ecology & Evolution*, 1 Article number: 0160.](https://www.nature.com/articles/s41559-017-0160)**  
 
-![](../assets/downloads/other/open-science-graphic.png)
+### Abstract
 
-**Citation**  
-
-[Lowndes JSS, Best BD, Scarborough C, Afflerbach JC, Frazier MR, O'Hara CC, Jiang N, Halpern BS (2017). Our path to better science in less time using open data science tools. *Nature Ecology & Evolution*, ](). 
+Reproducibility has long been a tenet of science but has been challenging to achieve — we learned this the hard way when our old approaches proved inadequate to efficiently reproduce our own work. Here we describe how several free software tools have fundamentally upgraded our approach to collaborative research, making our entire workflow more transparent and streamlined. By describing specific tools and how we incrementally began using them for the Ocean Health Index project, we hope to encourage others in the scientific community to do the same — so we can all produce better science in less time.
 
 
 <br>
 
 **See also**: 
 
-- [Resources for better science in less time](http://ohi-science.org/betterscienceinlesstime)  
+- [Better science in less time website](http://ohi-science.org/betterscienceinlesstime)  
 - [OHI scientific publications](http://ohi-science.org/resources/publications/)
 
 
