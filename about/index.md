@@ -25,7 +25,7 @@ The OHI framework is standardized yet tailorable to different contexts and spati
 
 Assessments using the OHI framework are facilitated by the **OHI Toolbox** that is used to calculate and visualize scores. The OHI Toolbox is a suite of collaborative, open-source tools and instruction that provides structure for data organization and storage, data processing and goal modeling. Like the framework, the Toolbox has two parts: the core engine behind calculating and visualizing scores, which is an <font face="courier">R</font> package called <font face="courier">ohicore</font>, and a tailored repository to organize, store, and share information and write goal model equations specific to the local context.
 
-The Toolbox enables assessments to be **transparent**, **reproducible** through access to detailed methods and computational code, and **repeatable** with the ability to modify methods and computational code. The results are visualized in a _Flower Plot_ for **easy communication** with a wide audience - each petal represents one goal and its length is with the score of the goal. <!--- To learn more about our open data science workflow, please see <a href="http://ohi-science.org/betterscienceinlesstime" target="_blank">ohi-science.org/betterscienceinlesstime</a>. --->
+The Toolbox enables assessments to be **transparent**, **reproducible** through access to detailed methods and computational code, and **repeatable** with the ability to modify methods and computational code. The results are visualized in a _Flower Plot_ for **easy communication** with a wide audience - each petal represents one goal and its length is with the score of the goal. To learn more about our open data science workflow, please see <a href="http://ohi-science.org/betterscienceinlesstime" target="_blank">ohi-science.org/betterscienceinlesstime</a>.
 
 **See also**:
 
@@ -101,24 +101,15 @@ Learn more about us at <a href="http://www.oceanhealthindex.org/about" target="_
 
 ## Our story
 
-We are marine scientists who dramatically improved the way we work by embracing data science and open science.
+We are marine scientists who dramatically improved the way we work by embracing data science and open science.  
 
-<!---
-In our [publication in ***Nature Ecology & Evolution***]() and accompanying [Q&A in ***Nature***](), we describe how we transitioned to coding collaboratively, sharing our work online, and communicating from our same workflow by building websites using free software tools. We provide specific examples through our experiences with global OHI assessments and supporting the 20 governments and academic groups around the world that are building off our science and code and leading their own OHI+ assessments.  
+In our [publication in ***Nature Ecology & Evolution***](https://www.nature.com/articles/s41559-017-0160)<!---and accompanying [Q&A in ***Nature***]()--->, we describe how we transitioned to coding collaboratively, sharing our work online, and communicating from our same workflow by building websites using free software tools. The intention is that by sharing our story we will encourage more environmental scientists to embrace open and collaborative practices, and we are committed to continued training through OHI. We also built a website for our paper: [**ohi-science.org/betterscienceinlesstime**](http://ohi-science.org/betterscienceinlesstime).
 
-The intention is that by sharing our story we will encourage more environmental scientists to embrace open and collaborative practices, and we are committed to continued training through OHI.
-
-**See also**:
-
-- [ohi-science.org/betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime)
 
 **Related news posts:**
 
-- [Publication in Nature Ecology & Evolution: Our path to better science in less time using open data science tools](http://ohi-science.org/news/publication-in-nature-ecology-and-evolution)
+- [Better science faster — our Nature Ecology & Evolution pub](http://ohi-science.org/news/better-science-faster)
 - [The importance of open data science tools in science: a list of references](http://ohi-science.org/news/importance-of-open-data-science-tools)
-
-
---->
 
 
 ## Thanks to our supporters
