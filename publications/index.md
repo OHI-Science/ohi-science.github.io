@@ -20,9 +20,8 @@ An index to assess the health and benefits of the global ocean.
 
 ##### Best Practices
 
-<!---
-- <a href="XXXX" target="_blank">Lowndes et al. 2017</a>, *Nature Ecology & Evolution*\*. Our path to better science in less time using open data science tools.
---->
+- <a href="https://www.nature.com/articles/s41559-017-0160" target="_blank">Lowndes et al. 2017</a>, *Nature Ecology & Evolution*\*. Our path to better science in less time using open data science tools.
+
 - <a href="http://doi.org/10.7717/peerj.1503" target="_blank">Lowndes et al. 2015</a>, *PeerJ*\*. Best practices for assessing ocean health in multiple contexts using tailorable frameworks.
 
 
