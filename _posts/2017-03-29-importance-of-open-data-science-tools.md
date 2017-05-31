@@ -20,9 +20,12 @@ Open data science is the combination of open science, data science, and team sci
 - [1,500 scientists lift the lid on reproducibility](http://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970) (Baker, 2016, *Nature*)
     - *"Survey sheds light on the ‘crisis’ rocking research."*
 
-- [Unmet needs for analyzing biological big data: A survey of 704 NSF principal investigators](http://biorxiv.org/content/early/2017/02/14/108555) (Barone et al. 2017, *Biorxiv*)
+- [My digital toolbox: Julia Stewart Lowndes](http://biorxiv.org/content/early/2017/02/14/108555) (Perkel et al. 2017, *Nature*)
+    - *"We built the OHI Toolbox with R, RStudio, Git, and GitHub, which enable our work to be more reproducible and our collaboration more streamlined...And what is extremely powerful is that we also use these same tools and workflow for communication, creating static and interactive documents, presentations, and our website, ohi-science.org."*
+    
+- [Unmet needs for analyzing biological big data: A survey of 704 NSF principal investigators](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/) (Barone et al. 2017, *Biorxiv*)
     - *"...the most pressing unmet needs are training in data integration, data management, and scaling analyses for HPC, acknowledging that data science skills will be required to build a deeper understanding of life."*
-
+    
 - [A manifesto for reproducible science](http://www.nature.com/articles/s41562-016-0021) (Munafò et al., 2016, *Nature Human Behavior*)
     - *"Improving the reliability and efficiency of scientific research will increase the credibility of the published scientific literature and accelerate discovery."*
 
@@ -86,10 +89,15 @@ Open data science is the combination of open science, data science, and team sci
 - [For big-data scientists, ‘janitor work’ is key hurdle to insights](https://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0) (Lohr, 2014, *The New York Times*) 
     - *"Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets."*
 
-- [Want to Make It as a Biologist? Better Learn to Code](https://www.wired.com/2017/03/biologists-teaching-code-survive/?mbid=social_fb) (Dreyfuss, 2017, *Wired*)
+- [Want to Make It as a Biologist? Better Learn to Code](https://www.wired.com/2017/03/biologists-teaching-code-survive/?mbid=social_fb) (Dreyfuss, 2017, *WIRED*)
     - *"When I asked a handful of post-doc biologists eating brunch in Boston last week how many were teaching themselves to code, every hand went up. They all realized that their curriculum was missing a core element, and they’ve set about rectifying the omission—on their own."*
+    
+- [Awash in Sea of Data, Ecologists Turn to Open Access Tools](https://www.quantamagazine.org/awash-in-sea-of-data-ecologists-turn-to-open-access-tools-20170524/) (Rennie, 2017, *Quanta* and [*WIRED*](https://www.wired.com/2017/05/ecologists-drowning-sea-data-open-access-tools-help))
+    - *"Now an essay published this week by Julia S. Stewart Lowndes of NCEAS and her colleagues about how the OHI team quietly overcame its ungainly data problem offers an interesting case study in how macrosystems ecology projects — and even more modestly focused research — can benefit from an open access makeover. Their story also offers a how-to for researchers who might like to follow their example."*
 
-<!--- 
+- [For Modern Astronomers, It’s Learn to Code or Get Left Behind](https://www.wired.com/2017/05/modern-astronomers-teaching-code/) (Scoles, 2017, *WIRED*)
+    - *"You need the materials upon which the experiment was performed, and you need the tools. Code is the equivalent of our beakers and Bunsen burners...Instead of applying increasingly refined algorithms to their research problems, ill-trained astronomer-coders sometimes spend their time reinventing the wheel...."*
+
 
 
 
