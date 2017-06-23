@@ -100,7 +100,7 @@ Open data science is the combination of open science, data science, and team sci
 
 
 
-
+<!---
 The journal *Nature* even has a [Toolbox series](http://www.nature.com/news/toolbox) where they discuss software tools and approaches. 
 
 
