@@ -20,10 +20,10 @@ Open data science is the combination of open science, data science, and team sci
 - [1,500 scientists lift the lid on reproducibility](http://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970) (Baker, 2016, *Nature*)
     - *"Survey sheds light on the ‘crisis’ rocking research."*
 
-- [My digital toolbox: Julia Stewart Lowndes](http://biorxiv.org/content/early/2017/02/14/108555) (Perkel 2017, *Nature*) 
+- [My digital toolbox: Julia Stewart Lowndes](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/) (Perkel 2017, *Nature*) 
     - *"We built the OHI Toolbox with R, RStudio, Git, and GitHub, which enable our work to be more reproducible and our collaboration more streamlined...And what is extremely powerful is that we also use these same tools and workflow for communication, creating static and interactive documents, presentations, and our website, ohi-science.org."*
     
-- [Unmet needs for analyzing biological big data: A survey of 704 NSF principal investigators](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/) (Barone et al. 2017, *Biorxiv*)
+- [Unmet needs for analyzing biological big data: A survey of 704 NSF principal investigators](http://biorxiv.org/content/early/2017/02/14/108555) (Barone et al. 2017, *Biorxiv*)
     - *"...the most pressing unmet needs are training in data integration, data management, and scaling analyses for HPC, acknowledging that data science skills will be required to build a deeper understanding of life."*
     
 - [A manifesto for reproducible science](http://www.nature.com/articles/s41562-016-0021) (Munafò et al., 2016, *Nature Human Behavior*)
