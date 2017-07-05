@@ -11,6 +11,7 @@ Scroll down for OHI+ reports and publications.
 
 ##### Global
 
+- <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178267" target="_blank">Halpern et al. 2017</a>, *PLoS ONE*\*. Drivers and implications of change in global ocean health over the past 5 years. <a href="http://ohi-science.nceas.ucsb.edu/plos_change_in_global_ocean_health/" target="_blank">(website with interactive figures and maps)</a>
 - <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117863" target="_blank">Halpern et al. 2015</a>, *PLoS ONE*\*.
 Patterns and emerging trends in global ocean health.
 <a href="https://github.com/OHI-Science/ohi-global/blob/master/eez2013/OHI2013_PLOS.zip?raw=true" target="_blank">(2013 and updated 2012 global data)</a>
@@ -45,6 +46,11 @@ Measuring indicators of ocean health for an island nation: The Ocean Health Inde
 - <a href="http://journal.frontiersin.org/article/10.3389/fmars.2017.00020/full" target="_blank">Longo et al. 2017</a>, *Frontiers in Marine Science*.
 Using the Ocean Health Index to Identify Opportunities and Challenges to Improving Southern Ocean Ecosystem Health.
 
+##### Canada
+
+- <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178044" target="_blank">Daigle et al. 2017</a>, *PLoS ONE*\*.
+Incorporating public priorities in the Ocean Health Index: Canada as a case study.
+
 
 ## OHI supporting methods
 
@@ -59,7 +65,7 @@ Exploring patterns of seafood provision revealed in the global Ocean Health Inde
 
 ##### Species
 
-- <a href="(http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0175739" target="_blank">O'Hara et al. 2017</a>, *PLoS ONE*\*. Aligning marine species range data to better serve science and conservation. <a href="http://ohi-science.nceas.ucsb.edu/plos_marine_rangemaps/" target="_blank">(interactive maps!)</a>
+- <a href="(http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0175739" target="_blank">O'Hara et al. 2017</a>, *PLoS ONE*\*. Aligning marine species range data to better serve science and conservation. <a href="http://ohi-science.nceas.ucsb.edu/plos_marine_rangemaps/" target="_blank">(website with interactive figures and maps)</a>
 
 
 - <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284" target="_blank">Selig et al. 2013</a>, *PLoS ONE*\*. Assessing global marine biodiversity status within a coupled socio-ecological perspective.
