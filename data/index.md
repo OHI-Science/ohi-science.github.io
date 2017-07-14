@@ -15,7 +15,7 @@ Global Ocean Health Index assessments require synthesizing highly heterogeneous 
 Here we direct you to the data and methods from the global Ocean Health Index as well as other related projects. 
 
 ### Global OHI assessments
-[Download]((http://ohi-science.org/ohi-global/download)) index scores, goal models, data, and methods from the 2016 assessment.
+[Download](http://ohi-science.org/ohi-global/download) index scores, goal models, data, and methods from the 2016 assessment.
 
 ### Supplementary files for global OHI assessments
 Including: [region files](https://mazu.nceas.ucsb.edu/data/#ohi_regions); [mangrove data](https://mazu.nceas.ucsb.edu/data/#mangrove_data); and [Net Primary Productivity data](https://mazu.nceas.ucsb.edu/data/#net_primary_productivity_data). 
