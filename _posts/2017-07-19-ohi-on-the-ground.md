@@ -10,6 +10,8 @@ hidden : yes
 
 We are often asked for examples of the Ocean Health Index being used for coastal management 'on the ground'. Since the OHI framework was published in 2012, there are about twenty OHI assessments being developed around the world, many of which are  independently-led (called **OHI+**) by governments, academics, and NGOs. Independent assessments tailor the OHI framework to represent the priorities of the area being assessed, building from the science and computational code developed in previous assessments. For more information, see our publication in *PeerJ* [Best practices for assessing ocean health in multiple contexts using tailorable frameworks](https://peerj.com/articles/1503/) and a map of ongoing assessments [here](http://ohi-science.org/projects/ohi-assessments/). 
 
+<br>
+
 Here are a few examples of how OHI assessments are being completed and used for coastal marine management around the world. 
 
 - Since 2012, we have repeated **Global** assessments annually (see them all [here](http://ohi-science.org/ohi-global/)), and they are being considered as an indicator for the United Nations' Sustainable Development Goal 14: Life Below Water
@@ -19,7 +21,8 @@ Here are a few examples of how OHI assessments are being completed and used for 
 - In 2016, **New Caledonia** completed a pilot study and is preparing to use OHI for monitoring, assessment, and active management of its 1.3 million square kilometer marine park
 - In 2017, **the Baltic Sea** will be completing the first trans-boundary assessment of eight countries, with plans to repeat subsequent assessments of the same area and improve methods
 
-
+<br>
+<br>
 
 **See also**: 
 
