@@ -57,8 +57,7 @@ Incorporating public priorities in the Ocean Health Index: Canada as a case stud
 #####  Fisheries
 
 - <a href="http://onlinelibrary.wiley.com/doi/10.1111/faf.12200/full" target="_blank">Anderson et al. 2017</a>, *Fish and Fisheries*.
-Improving estimates of population status and trend with superensemble models.  (
-<a href="https://github.com/datalimited/datalimited#stock-assessment-methods-for-data-limited-fisheries" target="_blank">`datalimited R package`</a> for catch only models)
+Improving estimates of population status and trend with superensemble models.  (<a href="https://github.com/datalimited/datalimited#stock-assessment-methods-for-data-limited-fisheries" target="_blank">datalimited R package</a> for catch only models)
 
 - <a href="http://link.springer.com/article/10.1007/s13280-013-0447-x" target="_blank">Kleisner et al. 2013</a>, *AMBIO*.
 Exploring patterns of seafood provision revealed in the global Ocean Health Index.  
@@ -93,6 +92,8 @@ Mapping Uncertainty Due to Missing Data in the Global Ocean Health Index.
 
 ##### Goal weighting
 
+- <a href="https://doi.org/10.1016/j.marpol.2016.09.012" target="_blank">Daigle et al. 2016,</a> *Marine Policy*. 
+From coast to coast: Public perception of ocean-derived benefits in Canada. 
 - <a href="http://www.sciencedirect.com/science/article/pii/S0308597X13000286" target="_blank">Halpern et al. 2013</a>, *Marine Policy*.
 Elicited preferences for components of ocean health in the California Current.
 
@@ -117,21 +118,23 @@ Overview of Integrative Assessment of Marine Systems: The Ecosystem Approach in 
 - <a href="http://www.sciencedirect.com/science/article/pii/S0308597X16302937" target="_blank">Blasiak et al. 2016</a>, *Marine Policy*.
 Local and regional experiences with assessing and fostering ocean health.  
 
+<br>
+
 ---- 
 
 ## OHI+ documentation
 
 ##### Ecuador
 
-- <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_InformeFinal.pdf" target="_blank">Download OHI+ Gulf of Guayaquil 2015 Final Report (in Spanish)</a>
-- <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/3c6babb40348e62b322abadad086ece565411adf/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_Metas.zip" target="_blank">Download OHI+ Gulf of Guayaquil 2015 Goal details (in Spanish)</a>
+- <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_InformeFinal.pdf" target="_blank">OHI+ Gulf of Guayaquil 2015 Final Report (in Spanish)</a>
+- <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/3c6babb40348e62b322abadad086ece565411adf/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_Metas.zip" target="_blank">OHI+ Gulf of Guayaquil 2015 Goal details (in Spanish)</a>
 
 ##### Israel
 
 - <a href="http://magazine.isees.org.il/ArticlePage.aspx?ArticleId=456" target="_blank">Tsemel et al. 2014, <em>Ecology & Environment</em>. D Grade for the Mediterranean- Applying the Ocean Health Index to Israel. (in Hebrew).</a>
 צמל, ע., א. שיינין, וי. סוארי. 2014. ציון “מספיק בקושי” לים התיכון – התאמת מדד בריאות הים העולמי לישראל. אקולוגיה וסביבה 3: 218–222 
-- <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BIsrael_2014.pdf" target="_blank">Download OHI+ Israel 2014 Supplementary Information (in English)</a> 
+- <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BIsrael_2014.pdf" target="_blank">OHI+ Israel 2014 Supplementary Information (in English)</a> 
   
 ##### Spain
 
-- <a href="https://github.com/OHI-Science/ohi-science.github.io/blob/master/assets/downloads/pubs/OHI%2BRiadeVigoAO_2015.pdf" target="_blank">Download OHI+ Ria de Vigo Artisanal Opportunity Goal Masters Thesis 2016 (in Spanish with English abstract)</a> 
+- <a href="https://github.com/OHI-Science/ohi-science.github.io/blob/master/assets/downloads/pubs/OHI%2BRiadeVigoAO_2015.pdf" target="_blank">OHI+ Ria de Vigo Artisanal Opportunity Goal Masters Thesis 2016 (in Spanish with English abstract)</a> 
