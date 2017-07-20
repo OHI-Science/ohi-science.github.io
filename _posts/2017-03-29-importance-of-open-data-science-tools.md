@@ -86,6 +86,9 @@ Open data science is the combination of open science, data science, and team sci
     
 ## From the news
     
+- [How computers broke science – and what we can do to fix it](https://theconversation.com/how-computers-broke-science-and-what-we-can-do-to-fix-it-49938) (Marwick, 2015, *The Conversation*)
+    - *"What’s unique about the role of the computer is that we have a solution to the problem. We have clear recommendations for mature tools and well-tested methods borrowed from computer science research to improve the reproducibility of research done by any kind of scientist on a computer. With a small investment of time to learn these tools, we can help restore this cornerstone of science."*    
+    
 - [For big-data scientists, ‘janitor work’ is key hurdle to insights](https://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0) (Lohr, 2014, *The New York Times*) 
     - *"Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets."*
 
