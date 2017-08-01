@@ -91,7 +91,7 @@ Our current team is based at the **National Center for Ecological Analysis and S
 Learn more about us at <a href="http://www.oceanhealthindex.org/about" target="_blank">www.oceanhealthindex.org/about</a>.  
 
 
-**If you are interested in beginning an OHI+ assessment**, please contact Erich, Julie, or Ning at info @ ohi-science.org.
+**If you are interested in beginning an OHI+ assessment**, please contact Erich or Julie at info @ ohi-science.org.
 
 
 {% assign color = 'teal' %}
@@ -99,7 +99,7 @@ Learn more about us at <a href="http://www.oceanhealthindex.org/about" target="_
 {% include themes/OHI/diagonal %}
 
 
-## Better science in less time
+## How we work — better science in less time
 
 We are marine scientists who dramatically improved the way we work by embracing data science and open science.  
 

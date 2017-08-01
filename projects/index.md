@@ -10,13 +10,15 @@ header: ecuador-fishingboats.jpg
 The Ocean Health Index (OHI) is a scientific method and tool for channeling the best available scientific information into marine policy. 
 First published in 2012 in the scientific journal *Nature*, the OHI is now used in governmental-management-academic collaborations around the world.  
 
-Our team develops methods and tools for measuring and monitoring ocean health. This includes conceptual frameworks, computational code, data products, and training materials. We believe stongly in open science, using open-source tools such as <font face="courier">R</font> and share our work on GitHub as much as possible. These tools are constantly being used, evaluated, improved and updated.  
+Our team develops methods and tools for measuring and monitoring ocean health. This includes conceptual frameworks, computational code, data products, and training materials. We believe stongly in open science, using open-source tools such as <font face="courier">R</font> and share our work on GitHub as much as possible. These tools are constantly being used, evaluated, improved and updated. 
+
+Learn more about how we work and our transition to open data science in our recent [*Nature Ecology & Evolution*](https://www.nature.com/articles/s41559-017-0160) publication, and the [betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime) website.
 
 <center><img src="../assets/downloads/other/open-science-graphic.png" width="400px"></center>
 
 <br>
 
-[Learn more about how we work in a one-hour webinar hosted by the EBM Tools Network.](https://www.openchannels.org/webinars/2017/using-ocean-health-index-integrated-tool-implementing-ebm-and-coastal-management)
+Also, learn more about how we work in a [one-hour webinar hosted by the EBM Tools Network](https://www.openchannels.org/webinars/2017/using-ocean-health-index-integrated-tool-implementing-ebm-and-coastal-management).
 
 
 
