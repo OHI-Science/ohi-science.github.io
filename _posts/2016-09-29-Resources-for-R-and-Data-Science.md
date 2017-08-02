@@ -33,6 +33,7 @@ Conducting an Ocean Health Index assessment requires collaborative coding in `R`
 - [Spatial analysis in R: Rasters](https://github.com/eco-data-science/spatial-analysis-R#introduction-to-spatial-analysis-in-r) (2-hour workshop, self-paced course)
 - [Spatial analysis in R: Vectors](https://github.com/eco-data-science/spatial_analysis2_R#r-spatial-analysis-workshop-vectors-polygons-and-shapefiles) (2-hour workshop, self-paced course)
 - [Data visualization using ggplot2](https://rawgit.com/eco-data-science/VisualizingData/master/ggplot2_intro.html) (2-hour workshop, self-paced course)
+- [Making free websites with RStudio’s R Markdown](https://jules32.github.io/rmarkdown-website-tutorial/) (2-hour workshop, self-paced course)
 
 And others available in [ohi-science.org's data science references](http://ohi-science.org/resources/tools/#data-science-references).
 
