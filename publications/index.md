@@ -75,6 +75,10 @@ Exploring patterns of seafood provision revealed in the global Ocean Health Inde
 Spatial and temporal changes in cumulative human impacts on the world's ocean.
 <a href="https://knb.ecoinformatics.org/#view/doi:10.5063/F19Z92TW" target="_blank">(data)</a>
 
+- <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0079889">Micheli et al. 2013</a>, *PLoS ONE*\*.
+Cumulative Human Impacts on Mediterranean and Black Sea Marine Ecosystems: Assessing Current Pressures and Opportunities.
+<a href="https://mermexregio.obs-vlfr.fr/" target="_blank">(website with interactive maps)</a>
+
 - <a href="http://www.sciencemag.org/content/319/5865/948.abstract" target="_blank">Halpern et al. 2008</a>, *Science*.
 A global map of human impact on marine ecosystems.
 <a href="https://www.nceas.ucsb.edu/globalmarine/impacts" target="_blank">(data)</a>  

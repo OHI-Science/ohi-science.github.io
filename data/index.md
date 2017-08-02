@@ -31,9 +31,11 @@ These data map recent change over 5 years in cumulative impacts to marine ecosys
 3. [stressor data rescaled by one time period (2008 and 2013, scaled from 0-1)](https://knb.ecoinformatics.org/#view/doi:10.5063/F1DR2SDD); 
 4. [stressor data rescaled by two time periods (2008 and 2013, scaled from 0-1)](https://knb.ecoinformatics.org/#view/doi:10.5063/F19021PC); 
 5. [pressure and cumulative impacts data (2013, all pressures)](https://knb.ecoinformatics.org/#view/doi:10.5063/F15718ZN); 
-6. [pressure and cumulative impacts data (2008 and 2013, subset of pressures updated for both time periods)](https://knb.ecoinformatics.org/#view/doi:10.5063/F11J97N3); 7. [change in pressures and cumulative impact (2008 to 2013)](https://knb.ecoinformatics.org/#view/doi:10.5063/F1WS8R5T) 
+6. [pressure and cumulative impacts data (2008 and 2013, subset of pressures updated for both time periods)](https://knb.ecoinformatics.org/#view/doi:10.5063/F11J97N3); 
+7. [change in pressures and cumulative impact (2008 to 2013)](https://knb.ecoinformatics.org/#view/doi:10.5063/F1WS8R5T) 
 
 Here is an overview of the calculations: Raw stressor data -> rescaled stressor data (values between 0-1) -> pressure data (stressor data after adjusting for habitat/pressure vulnerability) -> cumulative impact (sum of pressure data) -> difference between 2008 and 2013 pressure and cumulative impact data. 
 
 All raster files are .tif format and coordinate reference system is mollweide wgs84. 
 
+Additionally, you can download data from the Mediterrean Sea cumulative human impacts assessment from an interactive website made by our collaborators [here](https://mermexregio.obs-vlfr.fr/).
