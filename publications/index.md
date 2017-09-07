@@ -64,7 +64,7 @@ Exploring patterns of seafood provision revealed in the global Ocean Health Inde
 
 ##### Species
 
-- <a href="(http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0175739" target="_blank">O'Hara et al. 2017</a>, *PLoS ONE*\*. Aligning marine species range data to better serve science and conservation. <a href="http://ohi-science.nceas.ucsb.edu/plos_marine_rangemaps/" target="_blank">(website with interactive figures and maps)</a>
+- <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0175739" target="_blank">O'Hara et al. 2017</a>, *PLoS ONE*\*. Aligning marine species range data to better serve science and conservation. <a href="http://ohi-science.nceas.ucsb.edu/plos_marine_rangemaps/" target="_blank">(website with interactive figures and maps)</a>
 
 
 - <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0060284" target="_blank">Selig et al. 2013</a>, *PLoS ONE*\*. Assessing global marine biodiversity status within a coupled socio-ecological perspective.
