@@ -5,7 +5,6 @@ author: Julie Lowndes
 category : news 
 tags : [news]
 self-contained : no
-hidden : yes
 ---
 
 The Ocean Health Index (OHI) has been changing conversations about ocean management. The OHI framework helps focus the discussions about benefits that the ocean provides to people in a particular area; it helps keep management targets in mind when considering which information could be included in an OHI assessment.
