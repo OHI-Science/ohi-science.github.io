@@ -16,21 +16,23 @@ So how is the Ocean Health Index being used by different groups around the world
 
 ## Why do groups lead independent OHI assessments?
 
-We see both management- and science- driven motivations for leading OHI assessments.  
+We see both management- and science-driven motivations for leading OHI assessments.  
+
 When the OHI was first published in 2012, Colombia began using the OHI framework to help organize national data across ministries so that their assessment could help guide national ocean policy. More recently, New Caledonia's government plans to use OHI as a monitoring tool for their new 1.3 million square kilometer marine park. In Europe, scientists in the Baltic Sea are testing OHI as a tool Marine Strategy Framework Directives in the European Union. And assessments in British Columbia and the Northeastern United States aim to see if management initiatives in the past ten years are reflected in OHI scores.
 
 
 ## How is OHI being used for management?
 
-OHI has been incorporated into management in several ways: sometimes it is a formal management commitment before beginning an assessment, and sometimes it follows a completed pilot study at a smaller spatial scale or smaller analytical scale.     
-Mexico and Indonesia have set up formal management commitments to use OHI as a management tool and they are now beginning their OHI assessments. This is also the case in the United States, where OHI is included in the first US Ocean Plan in the Northeast. In Colombia, the OHI framework is being used to create a central data repository and standardized monitoring program before the assessment begins. Groups in Ecuador, New Caledonia, Canada, and China have completed OHI pilot studies (either at small spatial scales or only tailoring a few goals) and are now planning additional assessments. Finally, global OHI assessments are expected to be an indicator for the United Nations' Sustainable Development Goal 14: Life Below Water. 
+OHI has been incorporated into management in several ways: sometimes it is a formal management commitment before beginning an assessment, and sometimes a formal commitment follows a completed pilot study that was done a smaller spatial scale or smaller analytical scale.   
+
+Mexico and Indonesia have set up formal management commitments to use OHI as a management tool and they are now beginning their OHI assessments. This is also the case in the United States, where OHI is included as one of the monitoring and assessment components for the first US Ocean Plan in the Northeast. In Colombia, the OHI framework is being used to create a central data repository and standardized monitoring program before the assessment begins. Groups in Ecuador, New Caledonia, Canada, and China have completed OHI pilot studies (either at small spatial scales or only tailoring a few goals) and are now planning additional assessments. Finally, global OHI assessments are expected to be an indicator for the United Nations' Sustainable Development Goal 14: Life Below Water. 
 
 
 ## How has OHI been received by stakeholder groups?
 
-The OHI framework has both standardized and tailorable, meaning that there are standard attributes that "make an OHI assessment an OHI assessment", but details are tailorable regarding what benefits are assessed, with which data, and with which management targets. Some stakeholder groups are drawn to OHI because it is an established method, and others because it is so tailorable. But all OHI assessments are able to build from what previous assessments have learned, both in the conceptual planning (OHI framework) and with the analyses (OHI Toolbox software).
+The OHI framework has both standardized and tailorable, meaning that there are standard attributes that "make an OHI assessment an OHI assessment", but details are tailorable regarding what benefits are assessed, with which data, and with which management targets. Some stakeholder groups are drawn to OHI because it is an established method with existing examples, and others because it is so tailorable to a specific place. But all OHI assessments are able to build from what previous assessments have learned, both in the conceptual planning (OHI framework) and with the analyses (OHI Toolbox software).
 
-Working openly throughout data collection, processing, and model development has helped some stakeholders feel more comfortable with the OHI process. Describing the motivation behind which data were excluded on OHI project websites has been as important for the motivation behind which data were included and how models were developed. Some groups, including in [the Baltic](http://ohi-science.org/bhi/goals.html), have also listed what improvements could be addressed in future assessments.
+Working openly throughout data collection, processing, and model development has helped some stakeholders feel more comfortable with the OHI process. Describing the motivation behind which data were excluded on OHI project websites has been as important for the motivation behind which data were included and how models were developed. Some groups have also listed what improvements could be addressed in future assessments.
 
 ## Any cool new science?
 
@@ -44,6 +46,7 @@ One cool thing is about goal weighting: Scientists in Canada did a nation-wide s
 
 - [OHI process](http://ohi-science.org/projects/ohi-process/)  
 - [OHI assessments](http://ohi-science.org/projects/ohi-assessments/)
+- [OHI publications](http://ohi-science.org/publications/)
 
 
 **Related posts:** 
