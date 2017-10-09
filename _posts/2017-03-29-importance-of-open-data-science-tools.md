@@ -10,9 +10,10 @@ Open data science is the combination of open science, data science, and team sci
 
 \*\*We are trying to make this list more comprehensive; please help! You can suggest additions on twitter at [`@OHIScience`](https://twitter.com/ohiscience), or through a pull request on [`GitHub`](https://github.com/OHI-Science/ohi-science.github.io/blob/master/_posts/2017-03-29-Articles-About-Open-Data-Science.md). We will be organizing the list as it grows. Thanks for your help!
 
-
-
 ## From the literature
+
+- [**Special Issue Preprints**: Practical Data Science for Stats](https://peerj.com/collections/50-practicaldatascistats/) (Curated by Jennifer Bryan and Hadley Wickham)
+    - *"There are many aspects of day-to-day analytical work that are almost absent from the conventional statistics literature and curriculum. And yet these activities account for a considerable share of the time and effort of data analysts and applied statisticians.The goal of this collection is to increase the visibility and adoption of modern data analytical workflows."*
 
 - [Scientific computing: Code alert](http://www.nature.com/nature/journal/v541/n7638/full/nj7638-563a.html) (Baker, 2017, *Nature*)
     - *"It can be 'really intimidating' to learn a programming language, but the long-term benefits are well worth the effort"*
@@ -31,6 +32,9 @@ Open data science is the combination of open science, data science, and team sci
 
 - [Democratic databases: science on GitHub](http://www.nature.com/news/democratic-databases-science-on-github-1.20719) (Perkel, 2016, *Nature*)
     - *"Scientists are turning to a software–development site to share data and code."*
+
+- [Information management: Data domination](http://www.nature.com/nature/journal/v548/n7669/full/nj7669-613a.html?foxtrotcallback=true) (Donati & Woolston, 2017, *Nature*)
+    - *"[Karthik Ram] had to hone his programming and learn how to manage mountains of information — skills that have changed the way he views himself and his career. “I use the term 'ecologist' less and less often,” he says. “Now, I mainly call myself a data scientist.”"*
 
 - [Programming tools: Adventures with R](http://www.nature.com/news/programming-tools-adventures-with-r-1.16609) (Tippmann, 2015, *Nature*)
     - *"A guide to the popular, free statistics and visualization software that gives scientists control of their own data analysis."*
@@ -84,6 +88,9 @@ Open data science is the combination of open science, data science, and team sci
 (Marwick 2017, JAMT)
     - *"Four general principles of reproducible research that have emerged in other fields are presented. An archaeological case study is described that shows how each principle can be implemented using freely available software."*
     
+- [Get With the Program](http://www.the-scientist.com/?articles.view/articleNo/43632/title/Get-With-the-Program/) (Perkel, 2015, The Scientist)
+    - *"The Scientist spoke with several scientific programmers about the tools they use, as well as best practices for fledgling coders. Here’s what they said."*
+
 ## From the news
     
 - [How computers broke science – and what we can do to fix it](https://theconversation.com/how-computers-broke-science-and-what-we-can-do-to-fix-it-49938) (Marwick, 2015, *The Conversation*)
