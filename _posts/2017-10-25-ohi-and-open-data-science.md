@@ -5,7 +5,6 @@ author: Julie Lowndes
 category : news 
 tags : [news]
 self-contained : no
-hidden: yes
 ---
 
 The single biggest motivation of the Ocean Health Index project is to use science to inform marine management. And not just any science, the best available science, data, methods, and tools. **Open data science** is helping us get there, with transparency, reproducibility, collaboration, and communication at its core. 
