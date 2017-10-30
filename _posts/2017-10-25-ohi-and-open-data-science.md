@@ -15,7 +15,7 @@ What is open data science? It is the marriage of open science and data science, 
 <img src="../assets/themes/OHI/img/OHI_hex_sticker.png" alt="OHI hex sticker" width="200px"/>
 </center>
 
-Our Ocean Health Index team learned the hard way that we needed open data science practices and tools so that we could work reproducibly. To us, **open data science means all analytical steps of a project are coded in an open source language, and shared freely so that anyone else can use it without much fuss.** 
+Our Ocean Health Index team learned the hard way that we needed open data science practices and tools so that we could work reproducibly with our data. To us, **open data science means all analytical steps of a project are coded in an open source language, and shared freely so that anyone else can use it without much fuss.** 
 
 Open data science practices and tools have been game-changing, and [**we tell our story in a publication in *Nature***](https://www.nature.com/articles/s41559-017-0160). Not only are we working reproducibly ourselves — we're in the process of completing the [sixth annual global OHI assessment for 220 coastal countries](http://ohi-science.org/ohi-global) — but there are [twenty groups around the world leading their own OHI assessments](http://ohi-science.org/projects/ohi-assessments/). This means they are building off of our science and our code — and each other's. That's what this website [ohi-science.org](http://ohi-science.org) is all about: having a one-stop-shop where people can get the resources they need, which means connecting with others and seeing what they've done. 
 
