@@ -30,8 +30,17 @@ OHI assessments use the OHI Toolbox, which is built and used with freely availab
 Learn more about [OHI Goals](/goals), access the [OHI Manual](/manual), or see all of our materials on the [Training](/training) page.
 
 
+## [Goals](/goals)
+
+The Goals page describes what each goal represents within the OHI framework, with examples of how status models have been developed to represent different geographies. Learn more on the [Goals](/goals) page, and we'll add your assessment as an example there too!
+
+{% assign position = 'bottom-right' %}
+{% include themes/OHI/diagonal %}
+
+
 ## [Forum](/forum)
 
 The Forum is a place to share questions, ideas, and solutions about OHI assessments. It is a venue to connect directly with other groups leading OHI+ assessments
 
 Join the community on the [Forum](/forum) page.
+
