@@ -31,8 +31,8 @@
       url: /training/
 #    - text: Manual
 #      url: /manual/
-#    - text: Goals
-#      url: /goals
+    - text: Goals
+      url: /goals
     - text: Forum
       url: /forum  
 - text: About
