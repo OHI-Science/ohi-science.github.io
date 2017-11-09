@@ -34,6 +34,7 @@ Learn more about [OHI Goals](/goals), access the [OHI Manual](/manual), or see a
 
 The Goals page describes what each goal represents within the OHI framework, with examples of how status models have been developed to represent different geographies. Learn more on the [Goals](/goals) page, and we'll add your assessment as an example there too!
 
+{% assign color = 'color-light' %}
 {% assign position = 'bottom-right' %}
 {% include themes/OHI/diagonal %}
 
