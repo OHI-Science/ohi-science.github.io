@@ -5,9 +5,15 @@ description: Training
 header: jellyfish.jpg
 ---
 
-## Open data science
+Here you will find information specific to OHI assessments and for open data science workflows in general. OHI assessments depend upon open data science tools and practices, as described in [Lowndes et al. 2017](https://www.nature.com/articles/s41559-017-0160). The following training materials can be used to lead workshops or for self-paced learning. All are under development, but are openly available for use as we work. 
 
-We have developed training materials for OHI assessments that depend upon open data science tools and practices. Our workflow relies primarily on four open data science software tools: `R`, RStudio, Git, and GitHub. Here you will find information specific to OHI assessments and for open data science workflows in general. 
+[**Introduction to Open Data Science**](http://ohi-science.org/data-science-training/) 
+
+- Open data science means that methods, data, and code are available so that others can access, reuse, and build from it without much fuss. This training is not specific to OHI, but provides foundational skills for how to do reproducible research with R, RStudio, Git, and GitHub, as we describe in Lowndes et al. 2017. 
+
+[**OHI Toobox Training**](http://ohi-science.org/toolbox-training/)
+
+- OHI scores are calculated using an open data science workflow and collaborative open software that we call the OHI Toolbox. This training will introduce you to the OHI Toolbox and how to use it to calculate OHI scores. There is also guidance for teams as they prepare to use the Toolbox.
 
 <br>
 
@@ -19,7 +25,7 @@ We have developed training materials for OHI assessments that depend upon open d
 
 ## OHI Manual
 
-The [OHI Manual](/manual) is a guide for the Conduct phase of the OHI process. It focuses on preparation and use of the OHI Toolbox, which is used to calculate OHI scores. 
+The [OHI Manual](/manual) is a guide for the Conduct phase of the OHI process. It focuses on preparation and use of the OHI Toolbox, which is used to calculate OHI scores. It can be used as reference along with the [OHI Toolbox Training](http://ohi-science.org/toolbox-training/).
 
 {% assign color = 'color-light-2' %}
 {% assign position = 'bottom-left' %}
@@ -31,16 +37,9 @@ The [OHI Manual](/manual) is a guide for the Conduct phase of the OHI process. I
 [OHI Goals](/goals) represent ocean-derived benefits to people. This page lists each goal and sub-goal, along with the philosophy of the goal and an ‘ideal’ approach to how it would be represented. There is also practical guidance for modelling, and examples from completed assessments, including global and OHI+ assessments.
 
 
-## OHI Toolbox training
+## Data science training archive
 
-Coming soon...
-
-We are developing a series of hands-on trainings for the OHI Toolbox. This is in progress but is [available](http://ohi-science.org/toolbox-training/) as we develop it. 
-
-
-## Data science training
-
-These are other tutorials our team has created that are useful for developing open data science skills and leading OHI assessments.
+These are other tutorials our team has created that are useful for developing open data science skills and leading OHI assessments. Also see [our eco-data-science group](http://eco-data-science.github.io/).
 
 **Git and Github**  
 - <a href="https://github.com/eco-data-science/github-intro" target="_blank">Introduction to git and GitHub</a>  
