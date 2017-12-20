@@ -17,7 +17,6 @@ Here you will find information specific to OHI assessments and for open data sci
 
 - OHI scores are calculated using an open data science workflow and collaborative open software that we call the OHI Toolbox. This training will introduce you to the OHI Toolbox and how to use it to calculate OHI scores. There is also guidance for teams as they prepare to use the Toolbox.
 
-<br>
 
 ## OHI Manual
 
@@ -33,11 +32,16 @@ The [OHI Manual](/manual) is a guide for the Conduct phase of the OHI process. I
 [OHI Goals](/goals) represent ocean-derived benefits to people. This page lists each goal and sub-goal, along with the philosophy of the goal and an ‘ideal’ approach to how it would be represented. There is also practical guidance for modelling, and examples from completed assessments, including global and OHI+ assessments.
 
 
-## OHI Toolbox training
+## Related news posts 
 
-Coming soon...
+These are some stories and references about open data science from our [News page](http://ohi-science.org/news). 
 
-We are developing a series of hands-on trainings for the OHI Toolbox. This is in progress but is [available](http://ohi-science.org/toolbox-training/) as we develop it. 
+- [Open data science for marine management](http://ohi-science.org/news/ohi-and-open-data-science)
+- [Better science faster — our Nature Ecology & Evolution pub
+](http://ohi-science.org/news/better-science-faster)
+- [The importance of open data science tools in science: a list of references](http://ohi-science.org/news/importance-of-open-data-science-tools)
+- [Resources for R and Data Science](http://ohi-science.org/news/Resources-for-R-and-Data-Science)
+
 
 
 ## Data science training
