@@ -44,9 +44,9 @@ These are some stories and references about open data science from our [News pag
 
 
 
-## Data science training
+## Data science training archive
 
-These are other tutorials our team has created that are useful for developing open data science skills and leading OHI assessments.
+These are other tutorials our team has created that are useful for developing open data science skills and leading OHI assessments. Also see [our eco-data-science group](http://eco-data-science.github.io/).
 
 **Git and Github**  
 - <a href="https://github.com/eco-data-science/github-intro" target="_blank">Introduction to git and GitHub</a>  
