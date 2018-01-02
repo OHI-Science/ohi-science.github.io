@@ -35,6 +35,12 @@ Conducting an Ocean Health Index assessment requires collaborative coding in `R`
 - [Data visualization using ggplot2](https://rawgit.com/eco-data-science/VisualizingData/master/ggplot2_intro.html) (2-hour workshop, self-paced course)
 - [Making free websites with RStudio’s R Markdown](https://jules32.github.io/rmarkdown-website-tutorial/) (2-hour workshop, self-paced course)
 
-And others available in [ohi-science.org's data science references](http://ohi-science.org/resources/tools/#data-science-references).
+<br>
+
+***Update***:  
+
+Also check out our publication [Our path to better science in less time ](http://nature.com/articles/s41559-017-0160/) (Lowndes et al. 2017, *Nature Ecology and Evolution*). An accompanying website [ohi-science.org/betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime) lists media coverage of our publication, including a [Q&A interview in Nature](http://blogs.nature.com/naturejobs/2017/05/23/techblog-julia-stewart-lowndes/).  
+
+We also have a list of [references in the academic literature and media](http://ohi-science.org/news/importance-of-open-data-science-tools) discussing the importance of open data science tools in science.
 
 
