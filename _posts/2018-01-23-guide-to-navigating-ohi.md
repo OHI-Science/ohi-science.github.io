@@ -81,4 +81,6 @@ Helpful Links:
 - [OHI+ Process](http://ohi-science.org/projects/ohi-process/): overview of the 4 steps involved in the OHI+ process
 - [OHI Manual](http://ohi-science.org/manual): in-depth look into the conduct phase of the OHI+ process that focuses on the preparation and use of the OHI toolbox
 
+<br> 
+
 Hopefully this blog provided you a guide to navigating through all of the OHI resources out there and locating the information you need. Happy exploring!
