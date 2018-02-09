@@ -52,7 +52,7 @@ There is still work to be done in the R spatial community to get rasters to play
 See his slides [here](https://edzer.github.io/rstudio_conf/#1).
 
 
-## Wrangling time series data made easy
+## Stop. Tibbletime. Wrangling time series data made easy
 
 If you’ve ever had dates and/or times as a variable in your dataframe, you’ve probably suffered through meticulous cleaning and separation of those dates and times to look at your data at different temporal scales. `tibbletime` is here to save the day. This package is able to perform *time-based manipulations on tibbles*. Here is an example from Davis’s slides (which you can [find here](https://github.com/business-science/presentations/blob/master/2018_02_02_rstudio-conf-2018/presentation/rstudio-conf-2018-presentation.pdf)):
 
