@@ -10,7 +10,7 @@ hidden : yes
 
 Last week our team members Jamie and Julie went to the [RStudio Conference 2018](https://www.rstudio.com/conference/) in San Diego to represent the Ocean Health Index (OHI) and learn from this innovative open data science community. Today they share their thoughts with us on the conference.
 
-<center><img src="../assets/blog_images/rstudioconf_JAJL.JPG" width="250px"></center>
+<center><img src="../assets/blog_images/rstudioconf_ohi.jpg" width="250px"></center>
 <br>
 
 We met and reconnected with fantastic members of the R community, and learned so much through the talks we attended and conversations we had. The talks covered a really wide range of topics, from specific R packages to beautiful examples of R “in the wild” for analytics and reporting. A common thread throughout many of the talks was the underlying theme of empathy in data science: empathy in teaching, empathy through storytelling, and empathy when interacting with stakeholders and partners. 
