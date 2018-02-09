@@ -95,7 +95,7 @@ Here are a few photos of us with these great communities:
 
 ## Now, what you've all been waiting for: Hex stickers
 
-If you’ve clicked on any of the links above or had a peek at the [#rstudioconf](https://twitter.com/search?q=%23rstudioconf&src=typd) hashtag on Twitter, you would probably notice a lot of hexagon-shaped stickers. These stickers mostly represent specific R packages and communities. They are like data science badges of honor a fun way to be visible to each other when we stick them on our laptops. And who doesn’t love stickers? We have Ocean Health Index hex stickers and it was cool to see a few of them in the wild! See if you can spot the OHI sticker here on [Sean Kross](https://twitter.com/seankross)’s computer!
+If you’ve clicked on any of the links above or had a peek at the [#rstudioconf](https://twitter.com/search?q=%23rstudioconf&src=typd) hashtag on Twitter, you would probably notice a lot of hexagon-shaped stickers. These stickers mostly represent specific R packages and communities. They are like data science badges of honor and a fun way to be visible to each other when we stick them on our laptops. And who doesn’t love stickers? We have Ocean Health Index hex stickers and it was cool to see a few of them in the wild! See if you can spot the OHI sticker here on [Sean Kross](https://twitter.com/seankross)’s computer!
 
 <center><img src="../assets/blog_images/rstudioconf_ohi_hex.jpg" width="350px"></center>
 
