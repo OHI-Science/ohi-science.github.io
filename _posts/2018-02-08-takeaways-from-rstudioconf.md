@@ -47,9 +47,9 @@ scale_fill_manual(values = blues9) +
 
 <center><img src="../assets/blog_images/coastal_counties-1.png" width="350px"></center>
 
-There is still work to be done in the R spatial community to get rasters to play nicely with sf objects, but we look forward to seeing what comes out of his [`stars`](https://github.com/r-spatial/stars) package!
+There is still work to be done in the R spatial community to get rasters to play nicely with sf objects, but we look forward to seeing what comes of the [`stars`](https://github.com/r-spatial/stars) package!
 
-See his slides [here](https://edzer.github.io/rstudio_conf/#1).
+See Edzer's slides [here](https://edzer.github.io/rstudio_conf/#1).
 
 
 ## Stop. Tibbletime. Wrangling time series data made easy
