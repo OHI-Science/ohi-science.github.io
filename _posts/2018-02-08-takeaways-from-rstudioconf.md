@@ -5,7 +5,6 @@ title: "Takeaways from the RStudio Conference"
 author: Jamie Afflerbach and Julie Lowndes
 category : news 
 tags : [news]
-hidden : yes
 ---
 
 *Last week our team members Jamie and Julie went to the [RStudio Conference 2018](https://www.rstudio.com/conference/) in San Diego to represent the Ocean Health Index (OHI) and learn from this innovative open data science community. Today they share their thoughts with us on the conference.*
