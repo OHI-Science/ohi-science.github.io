@@ -8,12 +8,12 @@ tags : [news]
 hidden : yes
 ---
 
-Last week our team members Jamie and Julie went to the [RStudio Conference 2018](https://www.rstudio.com/conference/) in San Diego to represent the Ocean Health Index (OHI) and learn from this innovative open data science community. Today they share their thoughts with us on the conference.
+*Last week our team members Jamie and Julie went to the [RStudio Conference 2018](https://www.rstudio.com/conference/) in San Diego to represent the Ocean Health Index (OHI) and learn from this innovative open data science community. Today they share their thoughts with us on the conference.*
 
 <center><img src="../assets/blog_images/rstudioconf_ohi.jpg" width="250px"></center>
 <br>
 
-We met and reconnected with fantastic members of the R community, and learned so much through the talks we attended and conversations we had. The talks covered a really wide range of topics, from specific R packages to beautiful examples of R “in the wild” for analytics and reporting. A common thread throughout many of the talks was the underlying theme of empathy in data science: empathy in teaching, empathy through storytelling, and empathy when interacting with stakeholders and partners. 
+We met and reconnected with fantastic members of the R community, and learned so much through the talks we attended and conversations we had. The talks covered a really wide range of topics, from specific R packages to beautiful examples of R “in the wild” for analytics and reporting. An underlying theme throughout many of the talks was empathy in data science: empathy in teaching, empathy through storytelling, and empathy when interacting with stakeholders and partners. 
 
 There are too many great ideas to summarize here, and so many talks that we didn’t see because there were concurrent sessions and difficult choices to make! Thankfully, in the spirit of openness, all speakers [shared their slides](https://github.com/rstudio/rstudio-conf/tree/master/2018) and all talks were filmed.  We will update this blog with more links to these resources as they become available. 
 
@@ -86,7 +86,7 @@ Her slides from the RStudio conference can be found [here](https://docs.google.c
 
 We had the opportunity to meet (and karaoke with) some really incredible people and communities. 
 
-In addition to the OHI community, we are proud members of [rOpenSci](https://ropensci.org/), a group who is transforming science through open data and software, and [RLadies](https://rladies.org/), who promote gender diversity in the R community. We are also founding members of the [eco-data-science](http://eco-data-science.github.io/) group at the University of California at Santa Barbara and starting an RLadies chapter in Santa Barbara! Our [first meeting is April 10](https://www.meetup.com/rladies-santa-barbara/), join us! 
+In addition to the OHI and RStudio communities, we are proud members of [rOpenSci](https://ropensci.org/), a group who is transforming science through open data and software, and [RLadies](https://rladies.org/), who promote gender diversity in the R community. We are also founding members of the [eco-data-science](http://eco-data-science.github.io/) group at the University of California at Santa Barbara and starting an RLadies chapter in Santa Barbara! Our [first meeting is April 10](https://www.meetup.com/rladies-santa-barbara/), join us! 
 
 Here are a few photos of us with these great communities:
 
