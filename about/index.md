@@ -77,14 +77,11 @@ Resulting scores can be used to identify policy priorities, maximize cost-effect
 Our current team is based at the **National Center for Ecological Analysis and Synthesis (NCEAS) at the University of California at Santa Barbara (UCSB)**, and at **Conservation International**, but there have been many other important <a href="http://www.oceanhealthindex.org/about/contributors" target="_blank">contributors</a> throughout the years. We are excited to be a part of the open science community and helping make our oceans healthier.
 
 - Ben Halpern, PhD  
-- Steve Katona, PhD  
-- Johanna Polsenberg, PhD  
 - Jamie Afflerbach, MSc  
 - Melanie Frazier, PhD   
 - Julie Stewart Lowndes, PhD  
-- Ning Jiang Mendes, MSc  
-- Lindsay Mosher  
-- Casey O'Hara, MSc  
+- Casey O'Hara, MSc 
+- Erin O'Reilly, MSc
 - Erich Pacheco, MSc  
 - Courtney Scarborough, MSc
 
