@@ -1,115 +1,37 @@
 ---
 layout: post
 self_contained: no
-title: "Takeaways from the RStudio Conference"
-author: Jamie Afflerbach and Julie Lowndes
+title: "Training the next generation of ocean data scientists"
+author: Erin O'Reilly
 category : news 
 tags : [news]
 hidden : true
 ---
 
-*Last week our team members Jamie and Julie went to the [RStudio Conference 2018](https://www.rstudio.com/conference/) in San Diego to represent the Ocean Health Index (OHI) and learn from this innovative open data science community. Today they share their thoughts with us on the conference.*
+When we performed our first global assessment in 2012, we did not know that data science had deliberate practices and open tools that would help us work with data. Instead, we were involved in the painstaking process of preparing 100 different data sources in Excel and meticulously tracking every step in a 130 page supplemental document. Fast forward one year, we repeated this detailed and labor-intensive process for the 2013 assessment and soon realized our approach needed to change. 
 
-<center><img src="../assets/blog_images/rstudioconf_ohi.jpg" width="250px"></center>
-<br>
+We turned to open data science tools, such as R, RStudio, and Github, to prepare and analyze our data. This process streamlined our workflow and in 2014 enabled us to develop the OHI software Toolbox that allows for repeatable and reproducible results year after year. This approach allows us to perform [better science in less time](https://github.com/rstudio/rstudio-conf/tree/master/2018). In 2012, it took 30 people 3 years to complete the first assessment, and in 2017, it took 1 person just 3 months. 
 
-We met and reconnected with fantastic members of the R community, and learned so much through the talks we attended and conversations we had. The talks covered a really wide range of topics, from specific R packages to beautiful examples of R “in the wild” for analytics and reporting. An underlying theme throughout many of the talks was empathy in data science: empathy in teaching, empathy through storytelling, and empathy when interacting with stakeholders and partners. 
+By fine-tuning our process and developing step-by-step training guides, we set ourselves up for the holy grail of science: reproducibility. And this year, reproducibility goes beyond our core team and into a new realm with the initiation of our **OHI Global Fellows program**.
 
-There are too many great ideas to summarize here, and so many talks that we didn’t see because there were concurrent sessions and difficult choices to make! Thankfully, in the spirit of openness, all speakers [shared their slides](https://github.com/rstudio/rstudio-conf/tree/master/2018) and all talks were filmed.  We will update this blog with more links to these resources as they become available. 
+The OHI Global Fellows program will train masters students in data science best practices and the OHI Toolbox, preparing them to lead the annual global assessments. This provides the perfect opportunity to test the ease of use of our workflow and training materials, which are all available online: [Introduction to data science](http://ohi-science.org/data-science-training/) and [Introduction to the OHI Toolbox](http://ohi-science.org/toolbox-training/). In addition to the Global Fellows, these training materials are being used by our OHI+ program, including groups in Mexico, Kenya, Tanzania, and Indonesia.
 
-Here are just a sliver of the talks that stood out to us that are also directly relevant to the OHI community.
+> “The Ocean Health Index is not only a tool for managing oceans, but it is also an example of how data science can amplify the impact of science,” said Julie Lowndes, OHI team member and Global Fellows training lead. “We are excited to train the next generation of ocean data scientists with these highly empowering and transferable skills.”
 
+This year, our OHI Global Fellows are all masters students at the [Bren School for Environmental Science & Management](https://www.bren.ucsb.edu/) at the University of California at Santa Barbara. They will be mentored by the OHI team at the [National Center for Ecological Analysis and Synthesis](https://www.nceas.ucsb.edu/) (NCEAS) to learn about the OHI framework and how to weave open data science principles into marine science and conservation. After being trained alongside their studies during the school year, they will work full-time this summer to conduct the 2018 OHI Global Assessment. 
 
-## `sf`: simplifying spatial analysis in R
+So, without further ado, meet our three inaugural OHI Global Fellows: Ellie Campbell, Iwen Su, Camila Vargas!
 
-[`sf`](https://r-spatial.github.io/sf/) - [Edzer Pebesma](http://www.uni-muenster.de/Geoinformatics/en/institute/staff/index.php/119/Edzer_Pebesma) talked about his revolutionary “Simple Features for R” package, which continues to significantly enhance how we work with spatial data in the OHI. 
+<center><img src="../assets/blog_images/global_fellows.png" width="350px"></center>
 
-The package is meant to reduce the struggle of working with vector data by holding spatial objects as simple features within a dataframe. This lends itself to playing nicely with the [tidyverse](https://www.tidyverse.org/), allowing you to filter, mutate, and perform group analysis all within the simple feature without losing its association with geometries. 
+**Ellie** - originally from Alaska - comes to the fellowship from a data perspective. She was first introduced to coding as a math major in undergrad and became more immersed in the statistics and environmental data analysis world in grad school. 
 
-One of our favorite things about the development of `sf` is its integration with `ggplot2` through `geom_sf()`. This makes it *super* easy to make beautiful maps in `ggplot2`. We can’t stress how fantastic this is. Here’s an example from our OHI Northeast project: 
+With an interest in the application of data science to environmental conservation efforts, what attracted Ellie most to the fellowship was learning how to take messy data and turn them into actionable policy items. Along with this, she hopes to learn science collaboration tools and how to best utilize them to enable effective teamwork. 
 
+**Iwen** - originally from California - first realized she wanted to do marine science after reading *Ring of Endless Light*, a book involving a girl and her connection to dolphins. Once in the marine science world, she realized a lot of people around her were learning this thing called R. She found teaching herself to code was challenging, so she accepted an internship with the Arctic Data Center at NCEAS where her interest in data science truly began. 
 
-```r
-library(sf) #install.packages('sf')
-library(tidyverse) #install.packages('tidyverse')
+With interests in spatial management of fisheries and aquaculture, Iwen saw this fellowship as a great opportunity to meld her two interests: data science and ocean management. Through the fellowship she hopes to further strengthen her data science skills while learning best practices for collaboration and new data visualization techniques. 
 
-## plot our 'states' spatial object and fill by county
-ggplot() +
-  geom_sf(data = states, colour = "lightgray", fill = "beige") +
-  geom_sf(data = counties, aes(fill = NAME_1)) +
-  theme_bw() + 
-  labs(fill = 'Counties') +
-scale_fill_manual(values = blues9) +
-  theme(legend.text=element_text(size=12),
-        legend.title = element_text(size = 14)) + 
-  coord_sf(crs = st_crs(states), datum = NA)
-```
+**Camila** - originally from Chile - knew she wanted to be a marine scientist after scuba diving for the first time and seeing life underwater. Coming from a marine science background, she realized everything always related back to data but there wasn’t always the resources and capacity to analyze it. 
 
-<center><img src="../assets/blog_images/coastal_counties-1.png" width="350px"></center>
-
-There is still work to be done in the R spatial community to get rasters to play nicely with sf objects, but we look forward to seeing what comes of the [`stars`](https://github.com/r-spatial/stars) package!
-
-See Edzer's slides [here](https://edzer.github.io/rstudio_conf/#1).
-
-
-## Stop. Tibbletime. Wrangling time series data made easy
-
-If you’ve ever had dates and/or times as a variable in your dataframe, you’ve probably suffered through meticulous cleaning and separation of those dates and times to look at your data at different temporal scales. Davis Vaughn's `tibbletime` is here to save the day. This package is able to perform *time-based manipulations on tibbles*. Here is an example from Davis’s slides (which you can [find here](https://github.com/business-science/presentations/blob/master/2018_02_02_rstudio-conf-2018/presentation/rstudio-conf-2018-presentation.pdf)):
-
-Let’s take a simple tibble (or dataframe) that lists times and dates for San Diego AirBnB bookings.
-
-<center><img src="../assets/blog_images/rstudioconf_tibbletime.png" width="450px"></center>
-
-If you wanted to only look at bookings during the 2:00 pm hour on July 12, you’d normally have to spend a lot of time separating out the date, hour, minute, second. But now with `tibbletime` you can use the `filter_time()` function and it takes the full date and time stamp and gives you back what you want:
-
-<center><img src="../assets/blog_images/rstudioconf_tibbletime2.png" width="450px"></center>
-
-If you do any sort of time series analysis definitely check out this great `tibbletime` package!
-
-## Imagine Boston 2030 Dashboard
-
-One of our favorite talks was given by [Kayla Patel](https://paylakatel.github.io/), a Data and Performance Analyst for the City of Boston. Kayla shared her work on developing a dashboard for the City of Boston’s [Imagine Boston 2030](https://imagine.boston.gov/), the city’s first long-term plan in over 50 years. The plan lays out where the city of Boston wants to be by 2030 across five different goals based on local residents input. 
-These goals, and their corresponding metrics, are stored within an interactive dashboard where goal progress will be tracked over time.
-
-By now, you might be thinking this sounds familiar. Goals, metrics, trends. We had the same thought during her presentation, “wow, this sounds an awful lot like the Ocean Health Index.” It was inspiring to learn how another group uses a similar framework that involves stakeholder engagement, goal development, metric analysis, and data visualization and communication. 
-
-What really piqued our interest was how Kayla used RStudio’s [Shiny](https://shiny.rstudio.com/) to develop the dashboard. Rather than putting in all the bells and whistles, she kept the user in mind and prioritized accessibility and transparency. The final figures are clean, simple, and easy to understand and interact with. All of this has us thinking that whenever possible, an Ocean Health Index assessment could benefit from an accompanying dashboard for data visualization and communication.
-
-<center><img src="../assets/blog_images/rstudioconf_boston.png" width="550px"></center>
-<br>
-
-Her slides from the RStudio conference can be found [here](https://docs.google.com/presentation/d/1T5I5cnK1uBmAxZ-ZIHELJdv1grDRwERmjVu57EN99Jw/edit#slide=id.g2cc389491b_0_12). We will add the recorded video when it is released.
-
-
-
-## Community
-
-We had the opportunity to meet (and karaoke with) some really incredible people and communities. 
-
-In addition to the OHI and RStudio communities, we are proud members of [rOpenSci](https://ropensci.org/), a group who is transforming science through open data and software, and [RLadies](https://rladies.org/), who promote gender diversity in the R community. We are also founding members of the [eco-data-science](http://eco-data-science.github.io/) group at the University of California at Santa Barbara and starting an RLadies chapter in Santa Barbara! Our [first meeting is April 10](https://www.meetup.com/rladies-santa-barbara/), join us! 
-
-Here are a few photos of us with these great communities:
-
-<center><img src="../assets/blog_images/rstudioconf_community.png" width="550px"></center>
-<center><img src="../assets/blog_images/rstudioconf_rladies.jpg" width="450px"></center>
-
-## Now, what you've all been waiting for: Hex stickers
-
-If you’ve clicked on any of the links above or had a peek at the [#rstudioconf](https://twitter.com/search?q=%23rstudioconf&src=typd) hashtag on Twitter, you would probably notice a lot of hexagon-shaped stickers. These stickers mostly represent specific R packages and communities. They are like data science badges of honor and a fun way to be visible to each other when we stick them on our laptops. And who doesn’t love stickers? We have Ocean Health Index hex stickers and it was cool to see a few of them in the wild! See if you can spot the OHI sticker here on [Sean Kross](https://twitter.com/seankross)’s computer!
-
-<center><img src="../assets/blog_images/rstudioconf_ohi_hex.jpg" width="350px"></center>
-
-## Other cool stuff
-
-1. Make a quick (free!) website and blog using [Yihui Xie](https://twitter.com/xieyihui)’s  [Blogdown](https://slides.yihui.name/2018-blogdown-rstudio-conf-Yihui-Xie.html#1)!
-
-2. The British Columbia government uses R, RStudio, and GitHub to support free and open source projects – how cool is that!? Check out their [bcgov GitHub organization](https://github.com/bcgov) to see all of their work, including [bcmaps](https://github.com/bcgov/bcmaps), an R package that hosts a variety of spatial map layers for the province.
-
-3. [“Data rectangling”](https://speakerdeck.com/jennybc/data-rectangling-1) is part of the wrangling involved to make your data tidy. [Jenny Bryan](https://twitter.com/JennyBryan) says that it’s important that we “distribute the glory” to these data rectangling and wrangling tasks, which are a huge part of data science. We totally agree!
-
-
-
-
-
-
-
+Camila views data science as a way to develop applied solutions with real world applicability. She is interested in the nitty-gritty details of how OHI is calculated and also how results can be used to focus management efforts. She is excited to become well-versed in the R world through hands-on learning and working in a cloud based platform, and applying these skills to her interest in socio-ecological systems in small scale fisheries. 
