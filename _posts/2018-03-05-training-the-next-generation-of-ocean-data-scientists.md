@@ -22,7 +22,7 @@ This year, our OHI Global Fellows are all masters students at the [Bren School f
 
 So, without further ado, meet our three inaugural OHI Global Fellows: Ellie Campbell, Iwen Su, Camila Vargas!
 
-<center><figure><img src="../assets/blog_images/global_fellows.png" width="350px"><figcaption>From left to right: Ellie Campbell, Camila Vargas, Iwen Su.</figcaption></figure></center>
+<figure><img src="../assets/blog_images/global_fellows.png" width="350px" align="middle"><figcaption>From left to right: Ellie Campbell, Camila Vargas, Iwen Su.</figcaption></figure>
 <br>
 
 **Ellie** - originally from Alaska - comes to the fellowship from a data perspective. She was first introduced to coding as a math major in undergrad and became more immersed in the statistics and environmental data analysis world in grad school. 
