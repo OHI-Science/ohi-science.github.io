@@ -26,11 +26,11 @@ So, without further ado, meet our three inaugural OHI Global Fellows: Ellie Camp
 **Ellie** - originally from Alaska - comes to the fellowship with a love for environmental data. She was a math major in undergrad and became more immersed in the statistics and environmental data analysis world in grad school. 
 
 With an interest in the application of data science to environmental conservation efforts, what attracted Ellie most to the fellowship was learning how to take messy data and turn them into actionable policy items. Along with this, she hopes to learn science collaboration tools and how to best utilize them to enable effective teamwork. 
-
+<br>
 **Iwen** - originally from California - first realized she wanted to be involved in marine science after reading *Ring of Endless Light*, a book involving a girl and her connection to dolphins. Once in the marine science world, she realized a lot of people around her were learning this thing called R. She found teaching herself to code challenging, so she accepted an internship with the Arctic Data Center at NCEAS where her interest in data science truly began. 
 
 With interest in spatial management of fisheries and aquaculture, Iwen saw this fellowship as a great opportunity to meld her two interests: data science and ocean management. Through the fellowship she hopes to further strengthen her data science skills while learning best practices for collaboration and new data visualization techniques. 
-
+<br>
 **Camila** - originally from Chile - knew she wanted to be a marine scientist after scuba diving for the first time and seeing life underwater. Coming from a marine science background, she realized everything always related back to data even if there were not always the resources and capacity to analyze it. 
 
 Camila views data science as a way to develop applied solutions with real world applicability. She is interested in the nitty-gritty details of how OHI is calculated and also how results can be used to focus management efforts. She is excited to become well-versed in the R world through hands-on learning and working in a cloud based platform, and applying these skills to her interest in socio-ecological systems in small scale fisheries. 
