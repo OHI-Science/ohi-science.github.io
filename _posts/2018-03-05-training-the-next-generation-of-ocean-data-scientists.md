@@ -5,16 +5,15 @@ title: "Training the next generation of ocean data scientists"
 author: Erin O'Reilly
 category : news 
 tags : [news]
-hidden : true
 ---
 
-When we performed our first global assessment in 2012, we did not know that data science had deliberate practices and open tools that could help us work with data. Instead, we were involved in the painstaking process of preparing 100 different data sources in Excel and meticulously tracking every step in a 130 page supplemental document. Fast forward one year, we repeated this detailed and labor-intensive process for the 2013 assessment and soon realized our approach needed to change. 
+When we performed our first global assessment in 2012, we did not know data science had deliberate practices and open tools that could help us work with data. Instead, we were involved in the painstaking process of preparing 100 different data sources in Excel and meticulously tracking every step in a 130 page supplemental document. Fast forward one year, we repeated this detailed and labor-intensive process for the 2013 assessment and soon realized our approach needed to change. 
 
 We turned to open data science tools, such as R, RStudio, and Github, to prepare and analyze our data. The process streamlined our workflow and in 2014 enabled us to develop the OHI software Toolbox that allows for repeatable and reproducible results year after year. This approach allows us to perform [better science in less time](https://www.nature.com/articles/s41559-017-0160). In 2012, it took 30 people 3 years to complete the first assessment, and in 2017, it took 1 person just 3 months. 
 
 By fine-tuning our process and developing step-by-step training guides, we set ourselves up for the holy grail of science: reproducibility. And this year, reproducibility goes beyond our core team and into a new realm with the initiation of our **OHI Global Fellows program**.
 
-The OHI Global Fellows program will train masters students in data science best practices and the OHI Toolbox, preparing them to lead the annual global assessments. This provides the perfect opportunity to test the ease of use of our workflow and training materials, which are all available online: [Introduction to data science](http://ohi-science.org/data-science-training/) and [Introduction to the OHI Toolbox](http://ohi-science.org/toolbox-training/). In addition to the Global Fellows, these training materials are being used by our OHI+ program, including groups in Mexico, Kenya, Tanzania, and Indonesia.
+The OHI Global Fellows program will train masters students in data science best practices and the OHI Toolbox, preparing them to lead the annual global assessments. This provides the perfect opportunity to test the ease of use of our workflow and training materials, which are all available online: [Introduction to data science](http://ohi-science.org/data-science-training/) and [Introduction to the OHI Toolbox](http://ohi-science.org/toolbox-training/). In addition to the Global Fellows, these training materials are used by our OHI+ program, including groups in Mexico, Kenya, Tanzania, and Indonesia.
 
 > “The Ocean Health Index is not only a tool for managing oceans, but it is also an example of how data science can amplify the impact of science,” said Julie Lowndes, OHI team member and Global Fellows training lead. “We are excited to train the next generation of ocean data scientists with these highly empowering and transferable skills.”
 
