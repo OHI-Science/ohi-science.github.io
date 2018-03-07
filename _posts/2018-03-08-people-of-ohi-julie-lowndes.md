@@ -5,7 +5,7 @@ title: "People of OHI: Julie Lowndes"
 category : news 
 tags : [news]
 ---
-##Work
+## Work
 
 **Describe your role or involvement with OHI.**
 I lead the OHI+ science program, which means I spend a lot of time writing software and developing easy to use training materials to help OHI+ groups lead their own OHI assessments.
@@ -27,7 +27,7 @@ There are a lot of cool examples, but since the Main Hawaiian Islands assessment
 
 Eva Schemmel, lead of the Hawaii assessment, is focusing on transparently communicating the process, decisions, and data involved, in part through the [assessment dashboard](http://ohi-science.org/mhi/) – which are important concepts for reproducible and open science.  Also, this is an aside, but the dashboard is made with the same tools that we use to conduct OHI assessments, so by being a data scientist, Eva is also a web developer and can communicate about all the data and models directly through the dashboard.
 
-##International Women's Day
+## International Women's Day
 
 **What is the importance of women in science/data science?**
 Women add important perspective and skills to science and data science (and pretty much everything else!). I think this is an incredibly exciting time to be a woman in science and data science.
@@ -35,7 +35,7 @@ Women add important perspective and skills to science and data science (and pret
 **What inspired you to co-found a R Ladies chapter in Santa Barbara?** 
 I have found the [#rstats](https://twitter.com/search?q=%23rstats&src=typd) data science community to be incredibly welcoming to women, and [RLadies](https://rladies.org/) is a big part of that. Their mission is to promote gender diversity in the R community, and they have chapters all over the world. Our OHI team has created inclusive learning communities here in Santa Barbara through [eco-data-science](http://eco-data-science.github.io/) and [Software Carpentry](http://remi-daigle.github.io/2016-04-15-UCSB/overview/), and we are excited to represent Santa Barbara as RLadies!
 
-##Life 
+## Life 
 
 **Where are you originally from and where do you live now?**
 I’m from California: I grew up near San Francisco and now live in Santa Barbara.
