@@ -22,7 +22,7 @@ My life would not be complete without R, RStudio, Git, and GitHub.
 I hate taking my hands off the keyboard, so I like a program called [Launchy](https://www.launchy.net/) to launch programs. Because I work remotely I take a lot of screenshots to explain what I am talking about, and I think [Snagit](https://www.techsmith.com/screen-capture.html) is great for this. I also like paper calendars/planners because I think they help me stay focused.  Right now I am using the [Kokuyo Jibun Techno 3-in-1 Planner](https://www.jetpens.com/blog/kokuyo-jibun-techo-a-3-in-1-planner/pt/949), which I love. 
 
 Good color palettes for figures can be difficult (I have a [cheatsheet](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/ColorDec82015.pdf) for this), but someone recently showed me “[Beyonce Palettes](https://github.com/dill/beyonce)” for R.  I haven’t had a chance to use them, but her figures looked great! 
-
+<br/>
 **What is your personal story behind why you do what you do?**<br/> 
 When I started doing research as an undergraduate I had no concept of why anyone would do “statistics,” or even what it was. Eventually, I began exploring the data I was collecting and thought I could see patterns, but I was paralyzed by the fact that I might be fooling myself. Since I was struggling with this, my advisor suggested I take a statistics class.
 
@@ -31,14 +31,14 @@ The class was quite terrible, but on the first day the instructor did something 
 I suddenly understood: I had been searching for statistics and hadn’t even realized it! 
  
 Given how important I think statistics are, I hate it when people discount statistics with quotes such as: “there are three types of lies -- lies, damn lies, and statistics” and “I can prove anything by statistics except the truth.” Sure, statics can be manipulated and misinterpreted. But at the end of the day it’s much easier to lie or be misguided without statistics!
-
+<br/>
 **What aspect of your work are you most proud of?**<br/>
 I find satisfaction in bringing order and clarity to things, and I believe I have improved this aspect of the Ocean Health Index. 
 
-**How have you seen OHI make a positive impact?**<br/>  
+**How have you seen OHI make a positive impact?**<br/>
 I tell my daughter I am saving the world’s oceans and I hope this is true. But regardless, at least she is impressed.
 
-## International Women's Day Extras
+## International Women's Day
 
 **What is the importance of women in science?**<br/>
 Women bring diversity to the historically male-dominated field of science.  I am all about diversity because it can help us recognize our biases and avoid our natural tendency to devolve into group-think.
