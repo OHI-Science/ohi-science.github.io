@@ -23,7 +23,6 @@ I hate taking my hands off the keyboard, so I like a program called [Launchy](ht
 
 Good color palettes for figures can be difficult (I have a [cheatsheet](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/ColorDec82015.pdf) for this), but someone recently showed me “[Beyonce Palettes](https://github.com/dill/beyonce)” for R.  I haven’t had a chance to use them, but her figures looked great! 
 
-<br/>
 
 **What is your personal story behind why you do what you do?**<br/> 
 When I started doing research as an undergraduate I had no concept of why anyone would do “statistics,” or even what it was. Eventually, I began exploring the data I was collecting and thought I could see patterns, but I was paralyzed by the fact that I might be fooling myself. Since I was struggling with this, my advisor suggested I take a statistics class.
@@ -34,7 +33,6 @@ I suddenly understood: I had been searching for statistics and hadn’t even rea
  
 Given how important I think statistics are, I hate it when people discount statistics with quotes such as: “there are three types of lies -- lies, damn lies, and statistics” and “I can prove anything by statistics except the truth.” Sure, statics can be manipulated and misinterpreted. But at the end of the day it’s much easier to lie or be misguided without statistics!
 
-<br/>
 
 **What aspect of your work are you most proud of?**<br/>
 I find satisfaction in bringing order and clarity to things, and I believe I have improved this aspect of the Ocean Health Index. 
