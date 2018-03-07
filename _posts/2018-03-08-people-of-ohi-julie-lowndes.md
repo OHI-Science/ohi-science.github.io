@@ -8,7 +8,6 @@ tags : [news]
 ## Work
 
 **Describe your role or involvement with OHI.**
-
 I lead the OHI+ science program, which means I spend a lot of time writing software and developing easy to use training materials to help OHI+ groups lead their own OHI assessments.
 
 **Give us a one-word description of how you work.**
