@@ -2,6 +2,7 @@
 layout: post
 self_contained: no
 title: "People of OHI: Melanie Frazier"
+author: Erin O'Reilly and Melanie Frazier
 category : news 
 tags : [news]
 ---
