@@ -2,6 +2,7 @@
 layout: post
 self_contained: no
 title: "People of OHI: Julie Lowndes"
+author: Erin O'Reilly and Julie Lowndes
 category : news 
 tags : [news]
 ---
