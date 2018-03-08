@@ -5,8 +5,8 @@ title: "People of OHI: Julie Lowndes"
 category : news 
 tags : [news]
 ---
-<center><img src="../assets/blog_images/JulieLowndes.jpg" width="350px"></center>
-Dr. Julie Stewart Lowndes is the Science Program Lead for the Ocean Health Index.
+<center><img src="../assets/blog_images/JulieLowndes.jpg" width="350px"><br/>
+Dr. Julie Stewart Lowndes is the Science Program Lead for the Ocean Health Index.</center>
 
 ## Work
 
