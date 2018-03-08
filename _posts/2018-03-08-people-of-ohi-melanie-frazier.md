@@ -5,8 +5,8 @@ title: "People of OHI: Melanie Frazier"
 category : news 
 tags : [news]
 ---
-<center><img src="../assets/blog_images/MelFrazier.JPG" width="350px"></center>
-Dr. Melanie Frazier is a Project Analyst for the Ocean Health Index.
+<center><img src="../assets/blog_images/MelFrazier.JPG" width="350px">
+Dr. Melanie Frazier is a Project Analyst for the Ocean Health Index.</center>
 
 ## Work
 
