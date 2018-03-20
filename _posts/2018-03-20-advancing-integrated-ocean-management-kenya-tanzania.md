@@ -32,7 +32,7 @@ Stakeholders present at the meeting included Conservation International Africa F
 
 <center><img src="../assets/blog_images/KenyaWorkshop.JPG" width="350px">
 <img src="../assets/blog_images/TanzaniaWorkshop.jpg" width="350px">
-*Kenya workshop participants (left) and Tanzania workshop participants (right)*.</center>
+<i>Kenya workshop participants (left) and Tanzania workshop participants (right)</i>.</center>
 
 For these countries, the need for collaboration is recognized, but it is often hard to find time for it in an already jam-packed schedule. OHI helps lower this barrier through facilitated workshops and the use of open source tools that make collaborating easier. 
 
