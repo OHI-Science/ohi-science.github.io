@@ -5,7 +5,6 @@ title: "Advancing integrated ocean management in Kenya and Tanzania"
 author: Erin O'Reilly
 category : news 
 tags : [news]
-hidden : true
 ---
 
 ## Key highlights from the February 2018 workshops
