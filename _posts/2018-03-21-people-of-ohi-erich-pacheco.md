@@ -7,7 +7,7 @@ category : news
 tags : [news]
 hidden : true
 ---
-<center><img src="../assets/blog_images/.JPG" width="350px"><br/>
+<center><img src="../assets/blog_images/ErichPacheco.jpg" width="450px"><br/>
 Erich Pacheco is the Director of the Ocean Health Index at Conservation International.</center>
 
 ## Work
