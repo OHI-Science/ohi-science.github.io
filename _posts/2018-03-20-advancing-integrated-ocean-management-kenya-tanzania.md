@@ -29,8 +29,8 @@ To comprehensively understand ocean management in Kenya and Tanzania, a broad ra
 
 Stakeholders present at the meeting included Conservation International Africa Field Division, CORDIO East Africa, Kenya National Environmental Management Authority, Kenya Marine Fisheries Resource Institute, Kenya Tourism Federation, Kenya Maritime Authority, Tanzania Fisheries Education Training Agency, Tanzania Fisheries Research Institute, Tanzania Youth Partnership for Health and Environment, and Environmental Foundation for Development. 
 
-<center><img src="../assets/blog_images/KenyaWorkshop.png" width="350px">
-<img src="../assets/blog_images/TanzaniaWorkshop.png" width="350px"><br/>
+<center><img src="../assets/blog_images/KenyaWorkshop.png" width="450px">
+<img src="../assets/blog_images/TanzaniaWorkshop.png" width="450px"><br/>
 <i>Kenya workshop participants (left) and Tanzania workshop participants (right)</i>.</center>
 
 For these countries, the need for collaboration is recognized, but it is often hard to find time for it in an already jam-packed schedule. OHI helps lower this barrier through facilitated workshops and the use of open source tools that make collaborating easier. 
