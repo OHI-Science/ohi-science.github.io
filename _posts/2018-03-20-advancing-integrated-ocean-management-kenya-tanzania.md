@@ -32,7 +32,7 @@ Stakeholders present at the meeting included Conservation International Africa F
 
 <center><img src="../assets/blog_images/KenyaWorkshop.JPG" width="350px">
 <img src="../assets/blog_images/TanzaniaWorkshop.jpg" width="350px">
-Kenya workshop participants (left) and Tanzania workshop participants (right).</center>
+*Kenya workshop participants (left) and Tanzania workshop participants (right)*.</center>
 
 For these countries, the need for collaboration is recognized, but it is often hard to find time for it in an already jam-packed schedule. OHI helps lower this barrier through facilitated workshops and the use of open source tools that make collaborating easier. 
 
@@ -45,12 +45,12 @@ Once the stage was set for a collaborative workshop, it was time to dive in and 
 This part of the workshop was developed based on innovative design principles for collaborative decision-making - empathize, define, ideate, solution, test, iterate - and carried out through facilitated exercises within small, multi-disciplinary groups. The groups discussed three major questions: (1) what are the priority needs in Kenya and Tanzania?; (2) are these needs being met? If not, what are the social, economic, or environmental barriers?; (3) what are potential management solutions?
 
 <center><img src="../assets/blog_images/Design Principles Flow.jpg" width="500px">
-Design principles flow</center>
+*Design principles flow*</center>
 
 Answers to these questions were written on index cards that covered the wall with everyone’s thoughts and ideas. These cards were then used by stakeholders to vote on their top three priorities, with results reflecting the interests of a broad range of stakeholder groups. 
 
 <center><img src="../assets/blog_images/KT_IndexCardPriorities.jpg" width="500px">
-Index cards with participants' priorities and obstacles identified. Orange post-its with dots represent votes for their top 3 priorities.</center>
+*Index cards with participants' priorities and obstacles identified. Orange post-its with dots represent votes for their top 3 priorities*.</center>
 
 This process is a vital key step to identify ocean benefits, establish obstacles, and determine management interventions, which is essential for integrating oceans into national sustainable development and climate agendas. 
 
