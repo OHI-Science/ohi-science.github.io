@@ -5,7 +5,6 @@ title: "People of OHI: Erich Pacheco"
 author: Erin O'Reilly and Erich Pacheco
 category : news 
 tags : [news]
-hidden : true
 ---
 <center><img src="../assets/blog_images/ErichPacheco.jpg" width="450px"><br/>
 Erich Pacheco is the Director of the Ocean Health Index at Conservation International.</center>
