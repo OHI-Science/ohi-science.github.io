@@ -64,8 +64,10 @@ My wife (who is from China) and I are expecting our first baby later this year, 
 **What is the best meal you have ever cooked?**
 
 Probably a traditional Venezuelan breakfast with arepas, black beans, fried plantains, fried pork, avocados, cheese, and perico (scrambled eggs with tomatoes and peppers).
+
 <br/>
 
 **Other People of OHI Profiles**
+
 [Melanie Frazier](http://ohi-science.org/news/people-of-ohi-melanie-frazier)<br/>
 [Julie Lowndes](http://ohi-science.org/news/people-of-ohi-julie-lowndes)
