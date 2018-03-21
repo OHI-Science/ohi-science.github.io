@@ -25,7 +25,7 @@ Standing desk and mat, coffee, Skype, iCalendar, Outlook, Keynote, Google Flight
 
 **What is your personal story behind why you do what you do?**
 
-Working on agricultural development in West Africa, I realized we were asking communities to sacrifice their environmental stability for short-term economic benefits. This seemed so short-sighted and a detriment to overall human well-being. I decided to dedicate my career to environmental management and focus on oceans given my affinity to the sea since I grew up in the Caribbean.
+Working on agricultural development in West Africa, I realized we were asking communities to sacrifice their environmental stability for short-term economic benefits. This seemed so short-sighted and a detriment to overall human well-being. I decided to dedicate my career to environmental management and focus on oceans given my affinity to the sea growing up in the Caribbean.
 
 **What aspect of your work are you most proud of?**
 
