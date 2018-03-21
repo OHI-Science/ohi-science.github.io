@@ -6,7 +6,7 @@ author: Erin O'Reilly and Erich Pacheco
 category : news 
 tags : [news]
 ---
-<center><img src="../assets/blog_images/ErichPacheco.jpg" width="450px"><br/>
+<center><img src="../assets/blog_images/ErichPacheco.jpg" width="550px"><br/>
 Erich Pacheco is the Director of the Ocean Health Index at Conservation International.</center>
 
 ## Work
