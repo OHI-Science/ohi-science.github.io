@@ -78,3 +78,10 @@ I have been reading a [reboot of Sherlock Holmes](https://www.npr.org/2016/10/23
 **What is the best meal you have ever cooked?**
 
 I have no love of cooking, even though I spend a lot of time doing it.  If I ever get obscenely rich the first thing I plan to do is hire a personal chef... and buy a private plane… and fund lots of cool science and art… and…..lots more things! 
+
+<br/>
+
+**More People of OHI Profiles**
+
+[Erich Pacheco](http://ohi-science.org/news/people-of-ohi-erich-pacheco)<br/>
+[Julie Lowndes](http://ohi-science.org/news/people-of-ohi-julie-lowndes)
