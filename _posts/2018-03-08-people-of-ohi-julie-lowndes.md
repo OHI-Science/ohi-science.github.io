@@ -80,3 +80,10 @@ Hiking, swimming, swing dancing, cooking/baking, and sewing/knitting
 **What is the best meal you have ever cooked?**
 
 Probably a suite of curries from [Madhur Jaffrey’s World Vegetarian](https://www.amazon.com/Madhur-Jaffreys-World-Vegetarian-Meatless/dp/0609809237/ref=asap_bc?ie=UTF8) cookbook.
+
+<br/>
+
+**More People of OHI Profiles**
+
+[Melanie Frazier](http://ohi-science.org/news/people-of-ohi-melanie-frazier)<br/>
+[Erich Pacheco](http://ohi-science.org/news/people-of-ohi-erich-pacheco)
