@@ -67,5 +67,5 @@ Probably a traditional Venezuelan breakfast with arepas, black beans, fried plan
 <br/>
 
 **Other People of OHI Profiles**
-[Melanie Frazier](http://ohi-science.org/news/people-of-ohi-melanie-frazier)
+[Melanie Frazier](http://ohi-science.org/news/people-of-ohi-melanie-frazier)<br/>
 [Julie Lowndes](http://ohi-science.org/news/people-of-ohi-julie-lowndes)
