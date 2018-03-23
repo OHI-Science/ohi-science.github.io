@@ -27,6 +27,7 @@ Conducting an Ocean Health Index assessment requires collaborative coding in `R`
 
 **Our OHI team has also created materials to help teach these concepts.**
 
+- [Intro to Open Data Science](http://ohi-science.org/data-science-training/) (2-day workshop or self-paced course on the RStudio-GitHub workflow, under active development)
 - [Software Carpentry workshop at Oxford University](http://jules32.github.io/2016-07-12-Oxford/overview/) (2-day workshop, self-paced course on the RStudio-GitHub workflow)
 - [Introduction to RStudio Awesomeness](http://jules32.github.io/resources/RStudio_intro/) (blog)
 - [Github Quickstart for Scientists](https://rawgit.com/nazrug/Quickstart/master/GithubQuickstart.html) (2-hour workshop, self-paced course)
