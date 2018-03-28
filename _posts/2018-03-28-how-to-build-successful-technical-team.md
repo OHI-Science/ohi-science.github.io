@@ -36,7 +36,8 @@ Over nine months, the Global Fellows will learn open data science tools and the 
 
 Stay tuned for updates from our OHI Global Fellows and OHI+ technical teams!
 
-
+<br/>
+<br/>
 
 **Related posts:** 
 
