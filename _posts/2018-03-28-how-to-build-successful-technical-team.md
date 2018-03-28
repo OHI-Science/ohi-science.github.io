@@ -26,9 +26,9 @@ Knowing these tools and resources exist is a good starting point, but what concr
 
 From our past experiences and challenges, here are my suggestions for building a successful technical team. Remember it takes patience and time to overcome the conceptual and technical challenges involved in developing computing skills – but the payoff is huge.
 
-Hire at least two people for the technical team – it is more efficient to work together and they can also help each other learn (a win-win situation!).
-Hire people with scientific backgrounds – there are many conceptual, science-based decisions to make within OHI analyses, so you need scientists with knowledge of marine systems.
-Allow time for them to learn and practice these skills – give them the time to do it right so that it is well-documented and communicated this time, and repeatable next time. It’s best to have the technical team start data science training at the same time high-level goal planning happens.
+1. Hire at least two people for the technical team – it is more efficient to work together and they can also help each other learn (a win-win situation!).
+2. Hire people with scientific backgrounds – there are many conceptual, science-based decisions to make within OHI analyses, so you need scientists with knowledge of marine systems.
+3. Allow time for them to learn and practice these skills – give them the time to do it right so that it is well-documented and communicated this time, and repeatable next time. It’s best to have the technical team start data science training at the same time high-level goal planning happens.
 
 We are currently doing this ourselves. Not only have we focused our OHI+ technical trainings on data science, but on January 26, we began our [Global Fellows program](http://ohi-science.org/news/training-the-next-generation-of-ocean-data-scientists) and welcomed three graduate students to the OHI team: Ellie Campbell, Iwen Su, and Camila Vargas. While these Global Fellows have different technical backgrounds and have never worked with OHI, they all had one thing in common: they are environmental scientists with the interest and motivation to learn open data science practices and tools. 
 
