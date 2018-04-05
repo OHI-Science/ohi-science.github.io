@@ -47,7 +47,7 @@ Certainly on the science and management of OHI, but also on Village Savings and 
 
 **What are 5 things you can’t live without?**
 
-Coffee, NPR, good food, my bicycle, good walking shoes]
+Coffee, NPR, good food, my bicycle, good walking shoes
 
 **What is one of the most inspiring places you’ve been?**
 
