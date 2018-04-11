@@ -17,8 +17,8 @@ Here we direct you to the data and methods from the global Ocean Health Index as
 ### Global OHI assessments
 [Download](http://ohi-science.org/ohi-global/download) index scores, goal models, data, and methods from the 2016 assessment.
 
-### Supplementary files for global OHI assessments
-Including: [region files](https://mazu.nceas.ucsb.edu/data/#ohi_regions); [mangrove data](https://mazu.nceas.ucsb.edu/data/#mangrove_data); and [Net Primary Productivity data](https://mazu.nceas.ucsb.edu/data/#net_primary_productivity_data). 
+### Additional spatial data for global OHI assessments
+Including: [spatial data for OHI global EEZ regions](https://mazu.nceas.ucsb.edu/data/#ohi_regions); [mangrove data](https://mazu.nceas.ucsb.edu/data/#mangrove_data); and [Net Primary Productivity data](https://mazu.nceas.ucsb.edu/data/#net_primary_productivity_data). 
 
 ### Pressure data for global OHI assessments
 These [global raster data](https://mazu.nceas.ucsb.edu/data/#ohi_pressure_data) were used to obtain several of the pressure data layers in the 2016 global assessment. These data may be useful for regional OHI assessments.  We provide these data through our ftp site because the files are too large to provide through Github.
