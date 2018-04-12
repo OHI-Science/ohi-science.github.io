@@ -8,6 +8,6 @@ tags : [news]
 ---
 The Ocean Health Index produced its first assessment of global ocean health in 2012. But how far have we come? Check out this factsheet to learn more about our progress and engagement since then: 
 
-<center><img src="../assets/blog_images/OHI_ByTheNumbers.jpg" width="960px">
+<center><img src="../assets/blog_images/OHI_ByTheNumbers.jpg" width="960px"></center>
 
 [*Click here to download the image*](https://github.com/OHI-Science/ohi-science.github.io/raw/master/assets/blog_images/OHI_ByTheNumbers.jpg)
