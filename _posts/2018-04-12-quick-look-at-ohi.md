@@ -10,4 +10,6 @@ The Ocean Health Index produced its first assessment of global ocean health in 2
 
 <center><img src="../assets/blog_images/OHI_ByTheNumbers.jpg" width="960px"></center>
 
+<br>
+
 [*Click here to download the image*](https://github.com/OHI-Science/ohi-science.github.io/raw/master/assets/blog_images/OHI_ByTheNumbers.jpg)
