@@ -32,7 +32,7 @@ I fell in love with the ocean at a young age, spending a lot of time at Southern
 
 **What aspect of your work are you most proud of?**
 
-I am just three months into the job, but I am excited to enhance the voice of OHI by highlighting our success stories around the world and featuring members of our unique and diverse team. While my background is in marine science, I see communication as a way to bridge the gap between science, management, and the public. People connect with each other through storytelling, so I am excited to tell the story of OHI.
+I am just three months into the job, but I am excited to enhance the voice of OHI by highlighting our success stories around the world and featuring members of our unique and diverse team. While my background is in marine science, I see communication as a way to bridge the gap between scientists, managers, and the public. People connect with each other through storytelling, so I am excited to tell the story of OHI.
 
 ## Life
 
