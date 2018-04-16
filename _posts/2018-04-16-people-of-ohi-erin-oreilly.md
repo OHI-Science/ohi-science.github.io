@@ -28,7 +28,7 @@ Working in science communication, I also spend a lot of time in the Adobe Suite 
 
 **What is your personal story behind why you do what you do?** 
 
-I fell in love with the ocean at a young age, spending a lot of time at Southern California beaches and aquariums. My path to become a marine scientist was solidified on a high school trip to Costa Rica where I worked with leatherback sea turtles. Once I held back the flipper of a sea turtle giving birth, I knew I wanted to devote my life to marine conservation and I haven’t looked back since. 
+I fell in love with the ocean at a young age, spending a lot of time at Southern California beaches and aquariums. My path to becoming a marine scientist was solidified on a high school trip to Costa Rica where I worked with leatherback sea turtles. Once I held back the flipper of a sea turtle giving birth, I knew I wanted to devote my life to marine conservation and I haven’t looked back since. 
 
 **What aspect of your work are you most proud of?**
 
@@ -54,7 +54,7 @@ While Costa Rica influenced me to become a marine scientist, one of the more ins
 
 **What are some of your favorite hobbies when you’re not traveling or working?**
 
-Going to the beach, yoga, hiking, scuba diving, cooking (excited to try out my new [dumpling book](https://www.amazon.com/Dumplings-All-Day-Wong-Cookbook/dp/1624140599)), relaxing in my hammock, swimming, exploring new cities (and their local food and drinks!)
+Going to the beach, yoga, hiking, scuba diving, cooking (excited to try out my new [dumpling cookbook](https://www.amazon.com/Dumplings-All-Day-Wong-Cookbook/dp/1624140599)), relaxing in my hammock, swimming, exploring new cities (and their local food and drinks!)
 
 **What’s the most interesting thing you have read or watched this week?**
 
