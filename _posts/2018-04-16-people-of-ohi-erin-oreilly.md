@@ -8,7 +8,7 @@ hidden : true
 tags : [news]
 ---
 <center><img src="../assets/blog_images/Erin_OReilly.JPG" width="550px"><br/>
-Erin O'Reilly is the new Communications Coordinator for the Ocean Health Index.</center>
+Erin O'Reilly is the new Communications Coordinator for the Ocean Health Index (OHI).</center>
 
 ## Work
 
