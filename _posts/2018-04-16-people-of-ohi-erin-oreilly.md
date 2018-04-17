@@ -4,7 +4,6 @@ self_contained: no
 title: "People of OHI: Erin O'Reilly"
 author: Erin O'Reilly
 category : news 
-hidden : true
 tags : [news]
 ---
 <center><img src="../assets/blog_images/Erin_OReilly.JPG" width="550px"><br/>
