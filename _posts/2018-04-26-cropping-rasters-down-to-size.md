@@ -55,7 +55,7 @@ Let's first take a look at the downloaded mangrove data. Since mangroves tend to
 Can you see the dots!?
 
 ``` r
-## I've saved this raster in a folder called `big` on my personal drive. You will need to replace this file path with where the file is located on your own computer.
+## You will need to replace this file path with where the file is located on your own computer.
 mangrove <- raster('/home/afflerbach/big/mangrove_2012_mw_km2.tif')
 
 ##setting plot margins
