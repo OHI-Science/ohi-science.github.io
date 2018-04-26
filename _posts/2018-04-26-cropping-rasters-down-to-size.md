@@ -1,7 +1,11 @@
-Cropping rasters down to size
-================
-Jamie Afflerbach
-2018-04-26
+---
+layout: post
+self_contained: no
+title: "Cropping rasters down to size"
+author: Jamie Afflerbach
+category : news 
+tags : [news]
+---
 
 A significant portion of my work on the Ocean Health Index (OHI) involves working with [raster data](http://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/what-is-raster-data.htm), a specific type of spatial data where values are held in grid cells. The data I work with varies from high resolution, remotely sensed data on [sea surface temperature](https://www.nodc.noaa.gov/sog/cortad/) to coarse, modeled data on global [fish catch](http://www.seaaroundus.org/data/#/spatial-catch). When I was working on the [global assessment](http://ohi-science.org/ohi-global/), I dealt with raster data at a global scale.
 
