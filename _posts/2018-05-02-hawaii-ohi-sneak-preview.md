@@ -9,7 +9,7 @@ tags : [news]
 
 Last week, Eva Schemmel, the lead of our [Hawaiʻi Ocean Health Index](http://ohi-science.org/mhi/) (OHI) assessment, presented a sneak peek of the assessment’s results at the [7th International Conference on Environmental Future](http://manoa.hawaii.edu/7ICEF/) in Honolulu, HI. This conference sought to advance global and multi-disciplinary conversations around environmental futures, with a specific focus on humans and island environments. 
 
-<center><img src="../assets/blog_images/EvaICEF.png" width="550px">
+<center><img src="../assets/blog_images/EvaICEF.png" width="550px"><br/>
 Eva Schemmel presenting at the International Conference on Environmental Future in Honolulu, HI.</center>
 <br/>
 
@@ -21,7 +21,7 @@ This strong sense of place and mālama ʻāina (care for the land and ocean) dri
 
 For this index to be truly representative of Hawaiʻi, it had to be tailored and modified from the global assessment. By engaging with a diverse group of stakeholders – community members, non-profit groups, private industries, and state and federal agencies – Eva was able to piece together local priorities to develop indicators for ocean health in Hawaiʻi.
 
-<center><img src="../assets/blog_images/FishermanSunset_Troy K Shinn.jpg" width="550px">
+<center><img src="../assets/blog_images/FishermanSunset_Troy K Shinn.jpg" width="550px"><br/>
 Photo Credit: Troy K. Shinn</center>
 <br/>
 
