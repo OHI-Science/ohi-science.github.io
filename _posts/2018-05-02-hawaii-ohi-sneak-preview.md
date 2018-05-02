@@ -11,7 +11,6 @@ Last week, Eva Schemmel, the lead of our [Hawaiʻi Ocean Health Index](http://oh
 
 <center><img src="../assets/blog_images/EvaICEF.png" width="550px"><br/>
 Eva Schemmel presenting at the International Conference on Environmental Future in Honolulu, HI.</center>
-<br/>
 
 In a talk titled *Intertwining social, economic, and ecological values to track ocean health*, Eva wove together a story of Hawaii’s past with a look towards a sustainable future. 
 
@@ -23,7 +22,6 @@ For this index to be truly representative of Hawaiʻi, it had to be tailored and
 
 <center><img src="../assets/blog_images/FishermanSunset_Troy K Shinn.jpg" width="550px"><br/>
 Photo Credit: Troy K. Shinn</center>
-<br/>
 
 The Hawaiʻi OHI tracks the benefits our oceans provide Hawaiʻi now and into the future by measuring the status of six goals: food provision, coastal protection, biodiversity, livelihoods & economies, sustainable tourism, and sense of place. These goals integrate community values, disparate data sets, management priorities, and ecosystem indicators, representing a more complete assessment of the benefits our ocean provides the people of Hawai’i. 
 
