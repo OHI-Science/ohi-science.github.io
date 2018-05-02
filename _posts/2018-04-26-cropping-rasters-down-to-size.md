@@ -63,7 +63,7 @@ par(mar = c(0.1, 0.1, 0.1, 0.3))
 plot(mangrove, col = "black", axes = FALSE)
 ```
 
-![](../assets/2018-04-26-cropping-rasters-down-to-size_files/mangrove-1.png)
+![](../assets/blog_images/2018-04-26-cropping-rasters-down-to-size_files/mangrove-1.png)
 
 Fortunately, R gives us some options to explore the data more closely. We can zoom in using `raster::select()` to make more sense of the speckles we see currently. The `select()` function allows you to select an area on the plot with your cursor. By saving your selection to a variable (in our case `s`) you can then plot just that piece of the raster.
 
@@ -120,7 +120,7 @@ Let's plot the object to make sure what we have is what we expect. With simple f
 plot(regions[3])
 ```
 
-![](../assets/2018-04-26-cropping-rasters-down-to-size_files/plot_rgns-1.png)
+![](../assets/blog_images/2018-04-26-cropping-rasters-down-to-size_files/plot_rgns-1.png)
 
 OK this looks like what we want!
 
@@ -137,7 +137,7 @@ bangladesh <- regions %>%
 plot(bangladesh[1], key.pos = 1)
 ```
 
-![](../assets/2018-04-26-cropping-rasters-down-to-size_files/plot_region-1.png)
+![](../assets/blog_images/2018-04-26-cropping-rasters-down-to-size_files/plot_region-1.png)
 
 This looks like what we want, so I recommend saving this object with `st_write()` to use in other parts of your analysis.
 
@@ -179,7 +179,7 @@ plot(bang_man, axes = FALSE)
 plot(bang_sp, add = TRUE, box = FALSE, axes = FALSE)
 ```
 
-![](../assets/2018-04-26-cropping-rasters-down-to-size_files/crop_mangrove_data-1.png)
+![](../assets/blog_images/2018-04-26-cropping-rasters-down-to-size_files/crop_mangrove_data-1.png)
 
 You can see that `bang_man` is a scaled down version of the mangrove data, only showing us what mangrove data exists within the *bounding box* of the Bangladesh polygon. To remove the data that falls outside of the country boundary, we now need to use `raster::mask()`. This function uses a `SpatialPolygonsDataFrame` as a "cookie cutter" and keeps only the raster data that falls within the polygon.
 
@@ -189,7 +189,7 @@ plot(bang_man_mask, axes = FALSE)
 plot(bang_sp, add = TRUE)
 ```
 
-![](../assets/2018-04-26-cropping-rasters-down-to-size_files/mask-1.png)
+![](../assets/blog_images/2018-04-26-cropping-rasters-down-to-size_files/mask-1.png)
 
 Now that we have the data we want, mangrove data for Bangladesh, we can save this data using `writeRaster()`.
 
