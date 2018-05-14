@@ -20,6 +20,7 @@ I am the liaison between the OHI global programme and Samoan Government, and I a
 Practical
 
 **What are your essential apps, software, or tools?**
+
 Google Calendar, [Colour Note](https://www.colornote.com/), Slack, [Canva](https://www.canva.com/), Facebook
 
 **What is your personal story behind why you do what you do? Is there a specific “a-ha” moment or experience to share?**
