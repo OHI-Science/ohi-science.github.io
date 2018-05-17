@@ -10,6 +10,9 @@ tags : [news]
 
 This week, Samoa will be localizing the Ocean Health Index (OHI) – a framework and tool for assessing the benefits people derive from the ocean – in partnership with Conservation International (CI), the National Center for Ecological Analysis and Synthesis, and the Ministry of Natural Resources and Environment.
 
+<center><img src="../assets/blog_images/Samoa_PalmsOcean.jpg" width="550px"><br/>
+Photo Credit: Andrew Moore/Flickr (CC by SA 2.0).</center>
+
 From May 23-25, 2018, OHI Lead Scientist [Dr. Julia Lowndes](http://ohi-science.org/news/people-of-ohi-julie-lowndes), together with technical officers from the Ministry of Natural Resources and Environment ([MNRE](https://www.mnre.gov.ws/)), Ministry of Agriculture and Fisheries ([MAF](http://www.maf.gov.ws/)), and the [Samoa Bureau of Statistics](http://www.sbs.gov.ws/), will identify Samoa’s opportunities for a localized OHI approach in a three-day workshop.
 
 The Officers will take a deep dive into seven years of data used to calculate [Samoa’s global OHI score](http://ohi-science.org/ohi-global/scores.html#samoa) and learn how to interpret and tailor them for Samoa. Through data exploration, they will be able to identify data gaps, opportunities to add locally relevant data, and management priorities.
