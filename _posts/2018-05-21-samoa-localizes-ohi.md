@@ -4,7 +4,6 @@ self_contained: no
 title: "Samoa localizes the Ocean Health Index to monitor progress on ocean targets"
 author: Erin O'Reilly
 category : news 
-hidden : true
 tags : [news]
 ---
 
