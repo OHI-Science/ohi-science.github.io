@@ -18,7 +18,7 @@ The Officers will take a deep dive into seven years of data used to calculate [S
 
 “This workshop builds on the work we have conducted with MNRE and MAF for the past two years on OHI, and provides some context to the value of oceans from a data perspective to Samoa,” said [Lagipoiva Cherelle Jackson](http://ohi-science.org/news/people-of-ohi-lagipoiva-cherelle-jackson), CI OHI lead for Samoa.
 
-Dr. Lowndes is excited by the week long engagement with Samoan technical officers: “This is a great opportunity to work with Samoan counterparts, who are managing large amounts of environmental data. We will use OHI not only as a tool for ocean management, but as an example of open data science, which is powerful well beyond OHI.” 
+Dr. Lowndes is excited by the week long engagement with Samoan technical officers: “This is a great opportunity to work with Samoan counterparts who are managing large amounts of environmental data. We will use OHI not only as a tool for ocean management, but as an example of open data science, which is powerful well beyond OHI.” 
 
 “By exploring the data used to calculate Samoa’s OHI global score, we can determine where improvements can be made to make their assessment more locally relevant,” says Dr. Lowndes. “This process will lead to a deepened understanding and narrative of ocean health in Samoa.”
 
