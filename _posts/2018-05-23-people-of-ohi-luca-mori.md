@@ -23,7 +23,7 @@ Supportively
 
 **What are your essential apps, software, or tools?**
 
-[Miradi](https://www.miradi.org/) (an adaptive management software for conservation projects), Skype, Powerpoint, and Word are essential for my work
+[Miradi](https://www.miradi.org/) (an adaptive management software for conservation projects), Skype, Powerpoint, and Word are essential for my work.
 
 **What is your personal story behind why you do what you do?** 
 
@@ -55,7 +55,7 @@ CI Pacific Oceanscape work in our main Pacific Islands geographies
 
 **What are 5 things you can’t live without?**
 
-The sight of the ocean, a good bottle of natural wine, music, friends and coffee
+The sight of the ocean, a good bottle of natural wine, music, friends, and coffee
 
 **What is one of the most inspiring places you’ve been?**
 
@@ -67,7 +67,7 @@ I like playing rugby, watching movies and documentaries, surfing, and hiking.
 
 **What’s the most interesting thing you have read or watched this week?**
 
-A film-documentary called “Fuocoammare” (fire in the sea) which shows the struggle, pain and suffering of the migrants who escaped war and poverty zones to cross the Mediterranean Sea in order to reach Italy for refuge.
+A film-documentary called “Fuocoammare” (fire in the sea) which shows the struggle, pain, and suffering of the migrants who escaped war and poverty zones to cross the Mediterranean Sea in order to reach Italy for refuge.
 
 **What is the best meal you have ever cooked?**
 
