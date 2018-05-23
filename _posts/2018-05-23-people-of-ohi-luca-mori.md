@@ -72,3 +72,13 @@ A film-documentary called “Fuocoammare” (fire in the sea) which shows the st
 **What is the best meal you have ever cooked?**
 
 Well, as an Italian, my main speciality is pasta and risotto, but I am also good cooking meat and fish dishes.
+
+<br/>
+
+**More People of OHI Profiles**
+
+- [Lagipoiva Cherelle Jackson](http://ohi-science.org/news/people-of-ohi-lagipoiva-cherelle-jackson): Samoa OHI+ Lead<br/>
+- [Melanie Frazier](http://ohi-science.org/news/people-of-ohi-melanie-frazier): OHI Project Analyst<br/>
+- [Julie Lowndes](http://ohi-science.org/news/people-of-ohi-julie-lowndes): OHI Science Program Lead<br/>
+- [Erich Pacheco](http://ohi-science.org/news/people-of-ohi-erich-pacheco): OHI Director at Conservation International<br/>
+- [Erin O'Reilly](http://ohi-science.org/news/people-of-ohi-erin-oreilly): OHI Communications Coordinator
