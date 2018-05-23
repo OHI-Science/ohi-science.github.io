@@ -4,7 +4,6 @@ self_contained: no
 title: "People of OHI: Luca Mori"
 author: Erin O'Reilly and Luca Mori
 category : news 
-hidden : true
 tags : [news]
 ---
 
