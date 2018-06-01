@@ -32,7 +32,11 @@ For future reference you can [download](https://GitHub.com/OHI-Science/ohi-scien
 
 The approach to reverting to previous versions of your Git files depends on knowing where you are in the Git workflow, which follows this sequence:
 
-**working directory (saved files) --> stage --> commit to history --> push to GitHub**
+<br>
+
+<center><img src="../assets/blog_images/workflow.jpg" width="700px"></center>
+
+<br>
 
 Below I provide more information about each step of this sequence. This information is specific to RStudio because I typically interact with Git through RStudio.
 
@@ -229,6 +233,18 @@ But, if you insist, you can alter the commit message (currently in yellow: Rever
 `git commit`
 
 This will rollback all the changes occurring *after* commit 979f8da.  The `--no-commit` is added to prevent having to deal with each commit.
+
+<br>
+
+## Summary
+
+Within coding it is easy to make mistakes, but version control systems like Git and GitHub make it possible for us to go back in time and fix these mistakes. This workflow diagram summarizes what I covered in the blog and is a helpful reference for understanding how to move forwards and backwards in Git/GitHub. 
+
+<br>
+
+<center><img src="../assets/blog_images/workflow_more_info.jpg" width="700px"></center>
+
+<br>
 
 
 <br>
