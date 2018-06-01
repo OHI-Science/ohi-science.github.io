@@ -10,6 +10,8 @@ hidden : true
 
 <!-- Note: I tried to remove "rollback" when I saw it because I don't think it's obvious what that means for non-native speakers-->
 
+<!-- add in ending figure as teaser for what we will cover?-->
+
 ## Background
 
 Git and GitHub are open source software programs we use for version control, which means tracking how files change over time. Git and GitHub work together, with Git tracking and versioning your files, and GitHub storing them online and helping you collaborate with others. With this software, you can see different versions of a file with information about who contributed it, and when, line-by-line. This makes collaboration easier, and it allows you to go back in time to different versions or contribute to others’ work. 
@@ -246,7 +248,7 @@ This will rollback all the changes occurring *after* commit 979f8da.  The `--no-
 
 ## Summary
 
-Within coding it is easy to make mistakes, but version control systems like Git and GitHub make it possible for us to go back in time and fix these mistakes. This workflow diagram summarizes what I covered in the blog and is a helpful reference for understanding how to move forwards and backwards in Git/GitHub. 
+This was a quick look into how you can go back in time with Git. There is a lot more to learn from these resources, but this covers most of what we do with the OHI. Here is a workflow diagram summarizes what I covered in the blog and is a helpful reference for understanding how to move forwards and backwards in Git/GitHub. 
 
 <br>
 
@@ -257,7 +259,6 @@ Within coding it is easy to make mistakes, but version control systems like Git 
 
 <br>
 
-<!-- I think there should be some kind of ending here. Even if it's that is a quick look into how you can go back in time with Git. There is a lot more to learn from these resources, but this covers most of what we do with the OHI... -->
 
 **Other Technical Blog Posts**
 
