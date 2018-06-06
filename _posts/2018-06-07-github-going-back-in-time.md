@@ -8,9 +8,15 @@ tags : [news]
 hidden : true
 ---
 
-<!-- Note: I tried to remove "rollback" when I saw it because I don't think it's obvious what that means for non-native speakers-->
+## What we will cover
 
-<!-- add in ending figure as teaser for what we will cover?-->
+In this blog, I will describe how to walk back changes in Git/GitHub. This image provides a quick reference to refer back to and a teaser for what is to come.
+
+<br>
+
+<center><img src="../assets/blog_images/workflow_more_info.jpg" width="700px"></center>
+
+<br>
 
 ## Background
 
@@ -18,7 +24,7 @@ Git and GitHub are open source software programs we use for version control, whi
 
 Version control also makes it possible to go back and fix mistakes you have made. The approach to fixing mistakes in Git/GitHub depends on where you are in the process of staging/committing/pushing your changes. If you are not familiar with this Git terminology that is OK: I first describe the Git/GitHub workflow and then describe how to use Git from the command line (also called the Git Shell) to walk back changes.
 
-I highly recommend practicing this Git super-power on a non-important repository to gain an understanding of what is going on. <!---Erin, do you think it would be useful to say "if you'd like a repository to practice on, you can [fork](link to what this means) this [OHI demo repository]()---> Speaking from experience, applying this information in a time sensitive situation on an important repository is... undesirable (to say the least).  
+I highly recommend practicing this Git super-power on a non-important repository to gain an understanding of what is going on. Speaking from experience, applying this information in a time sensitive situation on an important repository is... undesirable (to say the least). if you'd like a repository to practice on, you can [fork](https://help.github.com/articles/about-forks/) this [OHI demo repository](). <!-- do we already have a demo repo to link to? -->
 
 #### An aside
 
@@ -179,7 +185,7 @@ Once you have pushed your commits to GitHub, you will NOT want to rewrite histor
 
 `revert` is the safest way to rollback changes because it does not destroy history.  It lets you add onto a previous commit (as a new commit) while keeping all the commits that occurred in between. <!-- Mel: that last sentence wasn't super clear to me, I changed it but can you see if it is still true/accurate? -->For example, if you currently have 6 commits and you want to rollback all the changes from your previous commit, a revert will leave you with 7 commits (vs. 5 commits, which is what we would expect if history was being rewritten), with the last commit including all the rollback revisions. <!--Mel: We should make this example more clear but I'm having trouble thinking how! Maybe hadley's figure will help but let's talk about it?-->
 
-This is great because it is less risky, more honest, and will not mess up other people working in the repository. To use revert you will need to know the commit identifier number (called a [SHA] (<!--link to what is a shaw-->)) you want to alter. This is available from the RStudio/Git history:
+This is great because it is less risky, more honest, and will not mess up other people working in the repository. To use revert you will need to know the commit identifier number (called a [SHA] (https://stackoverflow.com/questions/29106996/git-what-is-a-git-commit-id)) you want to alter. This is available from the RStudio/Git history:
 
 <br>
 
