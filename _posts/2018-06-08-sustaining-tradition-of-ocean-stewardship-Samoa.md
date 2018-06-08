@@ -43,7 +43,7 @@ Through data exploration, workshop participants were able to identify two areas 
 
 <br>
 
-<center><img src="../assets/blog_images/SamoaWorkshop3.jpg" width="550px"><br>
+<center><img src="../assets/blog_images/SamoaWorkshop3.JPG" width="550px"><br>
 <i> Samoa OHI workshop participants © Rachel Oh</i></center>
 
 <br>
