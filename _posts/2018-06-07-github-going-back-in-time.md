@@ -10,19 +10,13 @@ hidden : true
 
 ## What we will cover
 
-In this blog, I will describe how to walk back changes in Git/GitHub. This image provides a quick reference to refer back to and a teaser for what is to come.
-
-<br>
-
-<center><img src="../assets/blog_images/workflow_more_info.jpg" width="700px"></center>
-
-<br>
+In this post I will describe how to walk back changes in Git/GitHub based on where you are in the Git workflow. 
 
 ## Background
 
-Git and GitHub are open source software programs we use for version control, which means tracking how files change over time. Git and GitHub work together, with Git tracking and versioning your files, and GitHub storing them online and helping you collaborate with others. With this software, you can see different versions of a file with information about who contributed it, and when, line-by-line. This makes collaboration easier, and it allows you to go back in time to different versions or contribute to others’ work. 
+Git and GitHub are open source software programs we use for version control, which means tracking how files change over time. Git and GitHub work together, with Git tracking and versioning your files, and GitHub making them available online and providing tools to collaborate with others. With this software, you can track a file over time including line by line changes, as well as who made them and when. 
 
-Version control also makes it possible to go back and fix mistakes you have made. The approach to fixing mistakes in Git/GitHub depends on where you are in the process of staging/committing/pushing your changes. If you are not familiar with this Git terminology that is OK: I first describe the Git/GitHub workflow and then describe how to use Git from the command line (also called the Git Shell) to walk back changes.
+Along with improving workflow, transparency, and collaboration efforts, version control makes it possible to go back and fix mistakes you have made. The approach to fixing mistakes in Git/GitHub depends on where you are in the process of staging/committing/pushing your changes. If you are not familiar with this Git terminology that is OK: I first describe the Git/GitHub workflow and then describe how to use Git from the command line (also called the Git Shell) to walk back changes.
 
 I highly recommend practicing this Git super-power on a non-important repository to gain an understanding of what is going on. Speaking from experience, applying this information in a time sensitive situation on an important repository is... undesirable (to say the least). if you'd like a repository to practice on, you can [fork](https://help.github.com/articles/about-forks/) this [OHI demo repository](). <!-- do we already have a demo repo to link to? -->
 
@@ -38,7 +32,7 @@ For future reference you can [download](https://GitHub.com/OHI-Science/ohi-scien
 
 ## Some terminology
 
-The approach to reverting to previous versions of your Git files depends on knowing where you are in the Git workflow, which follows this sequence:
+The approach to reverting to previous versions of your files depends on knowing where you are in the Git workflow, which follows this sequence:
 
 <br>
 
@@ -72,7 +66,7 @@ Prior to being committed, a file must be _staged_.  This is indicated by a check
 
 #### Committed to history
 
-Once a staged file is _committed_, it is incorporated into the Git history.
+Once a staged file is _committed_, it is incorporated into Git history.
 
 <br>
 
@@ -82,14 +76,14 @@ Once a staged file is _committed_, it is incorporated into the Git history.
 
 #### Pushed to GitHub
 
-Once a local file is _pushed_ to the remote (i.e. GitHub), it becomes available to collaborators and/or the public.
-
-<!-- for "to the remote" does to the remote server or remote site also make sense? I think it would help clarify what that means -->
+Once a local file is _pushed_ to the remote site (i.e., GitHub, in this case), it becomes available to collaborators and/or the public.
 
 <br>
 
 <center><img src="../assets/blog_images/push.jpg" width="600px"></center>
 
+<br>
+<br>
 <br>
 
 ## A beginner's guide to walking back changes!
@@ -100,8 +94,7 @@ The following commands are entered into the Git Shell, which you can access in R
 
 <br>
 
-<!-- Mel: do these have to be "Stage 1,2..."? That seems confusing bc git stages files. How about Step 1, 2...-->
-### Stage 1: Working directory 
+### Workflow step 1: Working directory 
 
 #### Changes saved, but not yet staged, committed, or pushed
 
@@ -125,7 +118,7 @@ The "Commit" button in the Git window in R provides the option to "Discard All" 
 
 <!--Mel: I didn't know you could do this, and by chunk! So cool. I click on "revert" instead of "discard". Do you know if there is a difference? Is it worth mentioning "revert"?-->
 
-### Stage 2: Staged files
+### Workflow step 2: Staged files
 
 Staged files can be unstaged with `reset`:
 
@@ -133,10 +126,6 @@ Staged files can be unstaged with `reset`:
 
 <br>
 
-<!-- Mel: I don't understand this figure. What does "typing a command in the GitHub window" mean? Is that a screenshot of what Git Shell looks like on a window? Maybe we could also show it on a Mac, I can take the screenshot-->
-<center><img src="../assets/blog_images/git_unstage.jpg" width="600px"></center>
-
-<br>
 
 #### *Low tech solution*
 
@@ -144,7 +133,7 @@ Files can also be unstaged by clicking on the check boxes in the Git tab, but th
 
 <br>
 
-### Stage 3: Committed files 
+### Workflow step 3: Committed files 
 
 #### Changes saved, staged, committed, but NOT pushed to GitHub (or other remote)
 
@@ -152,40 +141,60 @@ Files can also be unstaged by clicking on the check boxes in the Git tab, but th
 
 <!-- Mel: can you give a little more description here? I'm trying to think of what I would/not be deleting and where that would leave me? Is the first case "uncommit files but don't delete": does that take you back to staged? and does the "delete" case leave you where you started after your previous commit (ie before you started working right now)? or does it delete the actual file (and what is an example of why you would want that?) -->
 
-Uncommit files (but do not delete): `git reset --soft HEAD~1`
+There are two good options at this point: 
 
-Alternatively, <span style="color:red">Delete</span> most recent commit: `git reset --hard HEAD~1`
+1. `reset`: This option rewrites history (i.e., deletes commits).  I never ever do this after the commits have been pushed to a remote website or server (e.g., GitHub); but prior to that, I often just want the commit to fully dissapear. I discuss this option below.
+2. `revert`: This option preserves Git history.  This is super important after commits have been pushed, but can also be useful prior to pushing, especially if going back multiple commits.  I discuss this option in "Workflow step 4" below.
 
-[WARNING: the "hard" reset will permanently delete the files!!!]
+
+To uncommit files, use `reset --soft`. This will transfer the relevant files from Git History to the Git Working Directory (as staged files).  From there you can make revisions to the files and then stage and commit.  This is handy because nothing is automatically deleted.
+
+`git reset --soft HEAD~1`
+
+Alternatively, if you want to <span style="color:red">delete</span> all the changes saved in the previous commit:
+
+`git reset --hard HEAD~1`
+
+[WARNING: the "hard" reset is permanent and all changes saved in the previous commit will be lost forever!]
 
 <br>
 
-<center><img src="../assets/blog_images/head_definition.jpg" width="400px"></center>
+<center><img src="../assets/blog_images/Head_definition.jpg" width="400px"></center>
 
 <br>
+
+#### Another option
+The `rebase` option can also be used to rewrite history.  My advice: **Do NOT use rebase!!!** I think it just adds extra confusion because it is almost always easier to use `reset` (as discussed above).  And, it is often safer to use `revert` (which we will discuss below).  But if you are already comfortable using `rebase` then, by all means, continue on (just don't use if after the commits have been pushed!). 
+
 
 *Rolling back multiple commits*
 
-I rarely have more than 1 unpushed local commit because I almost always push immediately after committing.  But, you can uncommit multiple commits. For example, the following would undo the most recent 3 commits:
+I rarely have more than 1 unpushed local commit because I almost always push immediately after committing.  But, it is possible to uncommit multiple commits. For example, the following would undo the most recent 3 commits:
 
 `git reset --soft HEAD~3`
 
-All the relevant files in these three commits will move to the Working Directory where they can be deleted, modified, etc.
+All the relevant files in these three commits will move to the Working Directory where they can be deleted, modified, etc.  
 
-#### Rebase
+NOTE: When I want to go back in time more than 1 commit, I typically use `revert` (described below) because it does not rewrite history, and thus safer.
 
-The `rebase` function can be used to rewrite history.  My advice: **Do NOT use rebase!!!** This just adds extra confusion because it is almost always easier to use `reset`.  And, it is safer to use `revert`. <!-- Mel: can you add a bit about this? Even if it's "we will talk about `revert` next, and we've seen `reset` and will keep using it below... (I hadn't noticed that we'd used reset! haha)  -->
 
 <br>
 
-## Stage 4: Pushed commits to GitHub 
+## Workflow step 4: Pushed commits to GitHub (or other remote)
 
 #### Revert
-Once you have pushed your commits to GitHub, you will NOT want to rewrite history (which is what `reset` does).  Instead, you will want to <!-- Mel: jump back to a point in history (?), which means using--> use `revert`. <!-- Mel: hadley has a great figure on this in one of his webinars, I can find it for you it might be really helpful here -->
+Once you have pushed your commits to GitHub, you will NOT want use `reset` because this rewrites history.  Instead, you will want to use `revert` because it preserves the commit history.  In this case, a commit with the older (desired) version of the files will be created while maintaining the intermediate commits with the (undesired) files. 
 
-`revert` is the safest way to rollback changes because it does not destroy history.  It lets you add onto a previous commit (as a new commit) while keeping all the commits that occurred in between. <!-- Mel: that last sentence wasn't super clear to me, I changed it but can you see if it is still true/accurate? -->For example, if you currently have 6 commits and you want to rollback all the changes from your previous commit, a revert will leave you with 7 commits (vs. 5 commits, which is what we would expect if history was being rewritten), with the last commit including all the rollback revisions. <!--Mel: We should make this example more clear but I'm having trouble thinking how! Maybe hadley's figure will help but let's talk about it?-->
+In other words, lets say you decide that adding "and cat" (i.e., a file in commit 2) was a mistake and you want to go back to the commit (i.e., commit 1) without that particular edit.  If you delete history (using `reset` or `rebase`), you will lose commit 2. Alternatively, if you preserve history (using `revert`) a 3rd commit will be created with the file version in commit 1, but commit 2 (with the bad edit) will still remain in the history. The files at the head will look the same regardless of whether you rewrite or preserve the commit history, but the commit history will look different.  
 
-This is great because it is less risky, more honest, and will not mess up other people working in the repository. To use revert you will need to know the commit identifier number (called a [SHA] (https://stackoverflow.com/questions/29106996/git-what-is-a-git-commit-id)) you want to alter. This is available from the RStudio/Git history:
+<br>
+
+<center><img src="../assets/blog_images/preserve_history.jpg" width="400px"></center>
+
+<br>
+
+
+Preserving history is great because it is less risky, more honest, and will not mess up other people working in the repository. To use `revert` you will need to know the commit identifier number (called a [SHA](https://stackoverflow.com/questions/29106996/git-what-is-a-git-commit-id)) you want to alter. This is available from the RStudio/Git history:
 
 <br>
 
@@ -204,24 +213,32 @@ Or, if you prefer the Git Shell, you can use:
 <center><img src="../assets/blog_images/Git_commits.jpg" width="600px"></center>
 
 <br>
-
+<br>
 #### Delete an older commit while keeping subsequent commits
 ##### NOTE: This can cause merge issues, which will need to be fixed
 
-The first step is to examine the commit history to identify the relevant commit(s): `git log --pretty=format:"%h %s" HEAD~3..HEAD`
+The first step is to examine the commit history to identify the relevant commit(s): 
+
+`git log --pretty=format:"%h %s" HEAD~6..HEAD`
+
+<br>
+
+<center><img src="../assets/blog_images/revert_conflict_crop1.jpg" width="600px"></center>
+
+<br>
+
 
 In this case, I wanted to delete commit `a0f46e4 adding b stuff to test 1` , 
-<!-- Erin/Mel: I think we should break this screenshot into 2 pieces so the text I've split with this comment can help show what's being typed:-->
+
 so: `git revert a0f46e4`
 
 <br>
 
-<center><img src="../assets/blog_images/revert_conflict.jpg" width="600px"></center>
+<center><img src="../assets/blog_images/revert_conflict_crop2.jpg" width="600px"></center>
 
 <br>
 
-The error message indicates that I have a merge conflict. But it helpfully gives me hints of why this might be the case! At the same time, Git moves the file with the merge conflict to the working directory with an orange U so I can inspect it. From there, I can modify the merge conflict, save, and commit the file. <!--Mel: should we show how to do this or state that they should know how to do this or point them elsewhere (ie the section that addresses merge conflicts in ohi-science.org/data-science-training? --> 
-
+The error message indicates I have a merge conflict. But it helpfully hints at why this occurred! The files with conflicts will be moved to the Git Working Directory and identified with an orange U. The merge conflicts can be resolved, and the file/s can be saved, staged, and committed (see [here](http://ohi-science.org/data-science-training/collaborating.html#merge-conflicts) for help; fear not: merge conflicts seem intimidating when starting out on Git, but they are actually quite easy to deal with).
 <br>
 
 <center><img src="../assets/blog_images/merge_conflict.jpg" width="600px"></center>
@@ -236,11 +253,11 @@ If there are no merge conflicts, you may be directed to the dreaded VIM window! 
 
 <br>
  
-I recommend typing: `:q` as soon as possible to exit! And, your reverted files will be saved into a new commit with the message: "Revert 'add test 2'".  This is usually good enough for me.
+I recommend typing: `:q` as soon as possible to exit! Once you exit, your reverted files will be saved in a new commit with the message: "Revert 'add test 2'".  This commit message is usually good enough for me.
 
 <!-- the second sentence above doesn't make sense to me. exiting makes it seem like that screen doesn't run anything but then the next sentence says it saves the files. Maybe add: Even if you exit this window without making any changes, your reverted files will be saved... -->
 
-But, if you insist, you can alter the commit message (currently in yellow: Revert "add test 2"). To do this enter "insert" mode by typing an "i". Modify the yellow text. Exit insert mode with Ctrl+C.  Now enter `:q`! (this should display in the bottom region of the VIM window) and return. <!-- To learn more about VIM, see [these resources]()-->
+But, if you *really* want to edit the commit message (currently in yellow: Revert "add test 2") you can do this through the VIM interface (WARNING: This can be stressful).  First get into "insert" mode by typing an "i". Modify the yellow text in the VIM window. Exit insert mode with Ctrl+C.  Now enter `:q`! (this should display in the bottom region of the VIM window) and return. <!-- To learn more about VIM, see [these resources]()-->
 
 #### Rollback to a previous state (i.e. delete multiple commits)
 
@@ -254,7 +271,9 @@ This will rollback all the changes occurring *after* commit 979f8da.  The `--no-
 
 ## Summary
 
-This was a quick look into how you can go back in time with Git. There is a lot more to learn from these resources, but this covers most of what we do with the OHI. Here is a workflow diagram summarizes what I covered in the blog and is a helpful reference for understanding how to move forwards and backwards in Git/GitHub. 
+This was a quick look into how you can go back in time with Git and covers about 95% of the issues we encounter. 
+
+The following diagram summarizes what I covered in this post and is a helpful reference for understanding how to move forwards and backwards in Git/GitHub. 
 
 <br>
 
@@ -269,4 +288,4 @@ This was a quick look into how you can go back in time with Git. There is a lot 
 **Other Technical Blog Posts**
 
 - [Cropping rasters down to size](http://ohi-science.org/news/cropping-rasters-down-to-size)<br/>
-- [How to build a successful OHI technical team](http://ohi-science.org/news/how-to-build-successful-technical-team)
+- [How to build a successful Ocean Health Index technical team](http://ohi-science.org/news/how-to-build-successful-technical-team)
