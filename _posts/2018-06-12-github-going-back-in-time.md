@@ -12,8 +12,6 @@ hidden : true
 
 In this post I will describe how to walk back changes in Git/GitHub based on where you are in the Git workflow. 
 
-<br>
-
 ## Background
 
 Git and GitHub are open source software programs we use for version control, which means tracking how files change over time. Git and GitHub work together, with Git tracking and versioning your files, and GitHub making them available online and providing tools to collaborate with others. With this software, you can track a file over time including line by line changes, as well as who made them and when. 
