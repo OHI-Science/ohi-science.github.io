@@ -5,7 +5,6 @@ title: "GitHub: A beginner's guide to going back in time (aka fixing mistakes)"
 author: Melanie Frazier
 category : news 
 tags : [news]
-hidden : true
 ---
 
 ## What we will cover
