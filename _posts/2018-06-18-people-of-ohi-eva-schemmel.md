@@ -2,7 +2,7 @@
 layout: post
 self_contained: no
 title: "People of OHI: Eva Schemmel"
-author: Erin O'Reilly and Eva Schemmel
+author: Eva Schemmel and Erin O'Reilly
 category : news 
 tags : [news]
 hidden : true
