@@ -6,7 +6,9 @@ author: Eva Schemmel and Erin O'Reilly
 category : news 
 tags : [news]
 ---
-<center><img src="../assets/blog_images/EvaSchemmel.jpg" width="550px"><br/>
+<center><img src="../assets/blog_images/EvaSchemmel.jpg" width="550px">
+  
+<br>
   
 Dr. Eva Schemmel is the lead of our [Hawaiʻi OHI+ assessment](http://ohi-science.org/mhi/), which was released June 8, 2018.</center>
 
