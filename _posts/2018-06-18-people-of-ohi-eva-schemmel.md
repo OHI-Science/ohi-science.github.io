@@ -7,7 +7,8 @@ category : news
 tags : [news]
 ---
 <center><img src="../assets/blog_images/EvaSchemmel.jpg" width="550px"><br/>
-Dr. Eva Schemmel is the lead of our [Hawaiʻi OHI+ assessment](http://ohi-science.org/mhi/), which was release June 8, 2018.</center>
+  
+Dr. Eva Schemmel is the lead of our [Hawaiʻi OHI+ assessment](http://ohi-science.org/mhi/), which was released June 8, 2018.</center>
 
 ## Work 
 
@@ -35,7 +36,7 @@ I am most proud of translating data into ocean targets that can be communicated 
 
 The across sector discussions on setting goal indicators and targets for the OHI were very valuable. They helped increase understanding across private sectors, non-profit groups, and state and federal management agencies. Hopefully, the full impact of the Hawaiʻi OHI is yet to come with increased ocean management and priority setting, leading to increased future OHI scores and ocean sustainability. 
 
-**How do Hawaiian partners plan on using the OHI scores? **
+**How do Hawaiian partners plan on using the OHI scores?**
 
 Institutions are using the index to support their management and policy initiatives and the OHI scores are being used to communicate the combined status of our ocean sectors. Management agencies within each sector have incorporated their data along with their management and policy initiatives into the OHI to track progress towards achieving ocean sustainability targets. 
 
@@ -70,6 +71,8 @@ A [National Geographic article](https://news.nationalgeographic.com/2018/06/high
 I am not the best cook. For me simple is better. I think I was most proud of the salmon I smoked.
 
 <br>
+
+**More People of OHI Profiles**
 
 - [Julie Lowndes](http://ohi-science.org/news/people-of-ohi-julie-lowndes): OHI Science Program Lead<br/>
 - [Erich Pacheco](http://ohi-science.org/news/people-of-ohi-erich-pacheco): OHI Director at Conservation International<br/>
