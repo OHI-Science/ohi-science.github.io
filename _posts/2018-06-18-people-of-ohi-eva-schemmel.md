@@ -6,17 +6,14 @@ author: Eva Schemmel and Erin O'Reilly
 category : news 
 tags : [news]
 ---
-<center><img src="../assets/blog_images/EvaSchemmel.jpg" width="550px">
-  
-<br>
-  
-Dr. Eva Schemmel is the lead of our [Hawaiʻi OHI+ assessment](http://ohi-science.org/mhi/), which was released June 8, 2018.</center>
+<center><img src="../assets/blog_images/EvaSchemmel.jpg" width="550px"><br/>
+Dr. Eva Schemmel is the lead of our Hawaiʻi OHI+ assessment, which was released June 8, 2018.</center>
 
 ## Work 
 
 **Describe your role or involvement with OHI.**
 
-I am the lead for the Hawaiʻi OHI+ assessment working on the coordination of working groups, analysis, and communication for the assessment.
+I am the lead for the [Hawaiʻi OHI+ assessment](http://ohi-science.org/mhi/) working on the coordination of working groups, analysis, and communication for the assessment.
 
 **Give us a one-word description of how you work.**
 
