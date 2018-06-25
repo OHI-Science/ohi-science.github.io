@@ -57,9 +57,6 @@ The OHI Global Fellows Program is designed to fulfill our annual OHI assessment 
 
 We piloted the program in 2018 with three UCSB graduate students. Check out their website [ohi-science.org/globalfellows](http://ohi-science.org/globalfellows/)!
 
-{% assign position = 'top-right' %}
-{% include themes/OHI/diagonal %}
-
 
 ## Related news posts 
 
