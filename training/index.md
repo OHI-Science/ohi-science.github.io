@@ -7,46 +7,27 @@ header: jellyfish.jpg
 
 ## Open data science
 
-Here you will find information specific to OHI assessments and for open data science workflows in general. OHI assessments depend upon open data science tools and practices, as described in [Lowndes et al. 2017](https://www.nature.com/articles/s41559-017-0160). The following training materials can be used to lead workshops or for self-paced learning. All are under development, but are openly available for use as we work. 
+Open data science tools, practices, and workflows underpin our work and all OHI assessments, as we describe in [Lowndes et al. 2017](https://www.nature.com/articles/s41559-017-0160). 
 
-[**Introduction to Open Data Science**](http://ohi-science.org/data-science-training/) 
-
-- Open data science means that methods, data, and code are available so that others can access, reuse, and build from it without much fuss. This training is not specific to OHI, but provides foundational skills for how to do reproducible research with R, RStudio, Git, and GitHub, as we describe in Lowndes et al. 2017. 
-
-[**OHI Toobox Training**](http://ohi-science.org/toolbox-training/)
-
-- OHI scores are calculated using an open data science workflow and collaborative open software that we call the OHI Toolbox. This training will introduce you to the OHI Toolbox and how to use it to calculate OHI scores. There is also guidance for teams as they prepare to use the Toolbox.
+[**Introduction to Open Data Science**](http://ohi-science.org/data-science-training/) is a hands-on training book that can be used to lead trainings or self-paced learning. Open data science means that methods, data, and code are available so that others can access, reuse, and build from it without much fuss. This training is not specific to OHI, but provides foundational skills for how to do reproducible research with R, RStudio, Git, and GitHub. 
 
 
-## OHI Manual
+## OHI Toolbox 
 
-The [OHI Manual](/manual) is a guide for the Conduct phase of the OHI process. It focuses on preparation and use of the OHI Toolbox, which is used to calculate OHI scores. 
+The OHI Toolbox is really open data science software used in a collaborative workflow to calculate OHI scores. It is built off the open data science tools and practices above.
+
+[**OHI Toobox Training**](http://ohi-science.org/toolbox-training/) is a hands-on training book that can be used to lead trainings or self-paced learning. It will introduce you to the OHI Toolbox and how to use it to calculate OHI scores, and provide guidance as your team prepares to use the Toolbox. The training is accompanied by its predecesor, the OHI Manual.
+
+The [**OHI Manual**](/manual) is a guide for the Conduct phase of the OHI process, which includes the Toolbox. It is not written as a hands-on training, but is the most comprehensive handbook of information to guide OHI assessments. The manual is not updated as frequently as the Toolbox Training.  
 
 {% assign color = 'color-light-2' %}
 {% assign position = 'bottom-left' %}
 {% include themes/OHI/diagonal %}
 
 
-## OHI Goals
+## Eco-Data-Science trainings
 
-[OHI Goals](/goals) represent ocean-derived benefits to people. This page lists each goal and sub-goal, along with the philosophy of the goal and an ‘ideal’ approach to how it would be represented. There is also practical guidance for modelling, and examples from completed assessments, including global and OHI+ assessments.
-
-
-## Related news posts 
-
-These are some stories and references about open data science from our [News page](http://ohi-science.org/news). 
-
-- [Open data science for marine management](http://ohi-science.org/news/ohi-and-open-data-science)
-- [Better science faster — our Nature Ecology & Evolution pub
-](http://ohi-science.org/news/better-science-faster)
-- [The importance of open data science tools in science: a list of references](http://ohi-science.org/news/importance-of-open-data-science-tools)
-- [Resources for R and Data Science](http://ohi-science.org/news/Resources-for-R-and-Data-Science)
-
-
-
-## Data science training archive
-
-These are other tutorials our team has created that are useful for developing open data science skills and leading OHI assessments. Also see [our eco-data-science group](http://eco-data-science.github.io/).
+These are additional tutorials our team has created that are useful for developing open data science skills and leading OHI assessments. Most are from [our eco-data-science study group](http://eco-data-science.github.io/) at the University of California Santa Barbara.
 
 **Git and Github**  
 - <a href="https://github.com/eco-data-science/github-intro" target="_blank">Introduction to git and GitHub</a>  
@@ -66,6 +47,23 @@ These are other tutorials our team has created that are useful for developing op
 - [Data visualization using ggplot2 - cheatsheet](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/ggplot2%20cheatsheet%20v2.pdf)
 - [Dealing with color in R](https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/other/ColorDec82015.pdf)  
 
-**Additional resources**
+**Additional resources**  
+- <a href="http://ohi-science.org/news/Resources-for-R-and-Data-Science" target="_blank">Resources for R and Data Science</a>  
 
+
+## OHI Global Fellows
+
+The OHI Global Fellows Program is designed to fulfill our annual OHI assessment needs while providing opportunities for graduate students to learn cutting-edge data science skills and join the OHI Community of Practice. 
+
+We piloted the program in 2018 with three UCSB graduate students. Check out their website [ohi-science.org/globalfellows](http://ohi-science.org/globalfellows/)!
+
+## Related news posts 
+
+These are some stories and references about open data science from our [News page](http://ohi-science.org/news). 
+
+- [Open data science for marine management](http://ohi-science.org/news/ohi-and-open-data-science)
+- [Better science faster — our Nature Ecology & Evolution pub
+](http://ohi-science.org/news/better-science-faster)
+- [The importance of open data science tools in science: a list of references](http://ohi-science.org/news/importance-of-open-data-science-tools)
 - [Resources for R and Data Science](http://ohi-science.org/news/Resources-for-R-and-Data-Science)
+ 
