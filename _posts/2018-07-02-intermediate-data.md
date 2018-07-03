@@ -5,7 +5,6 @@ title: "The unseen data: A story of OHI intermediate data layers"
 author: Erin O'Reilly
 category : news 
 tags : [news]
-hidden : true
 ---
 When you first explore the Ocean Health Index (OHI), the thing that usually sticks most is the final score, a number ranging from 0-100. While there are a multitude of ways these scores can catalyze discussion and stakeholder engagement, another question is often what else can OHI be used for?
 
