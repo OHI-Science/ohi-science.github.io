@@ -103,4 +103,4 @@ You can value, promote, and enable the culture of open science – even if you d
 
 ## In summary
 
-So, when someone is “using the OHI Toolbox”, yes it means that they are calculating OHI scores for ocean management in a repeatable, transparent way. But, importantly, it also means they are coding openly and collaboratively, efficiently and deliberately with data, practicing and promoting open science, and building an open community of practice. 
+So, when someone is “using the OHI Toolbox”, yes it means they are calculating OHI scores for ocean management in a repeatable, transparent way. But, importantly, it also means they are coding openly and collaboratively, efficiently and deliberately with data, practicing and promoting open science, and building an open community of practice. 
