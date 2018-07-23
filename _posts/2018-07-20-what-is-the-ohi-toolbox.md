@@ -9,7 +9,8 @@ tags : [news]
 
 We get asked a lot whether the OHI Toolbox can be used for other projects besides the Ocean Health Index (OHI). And the answer is yes, absolutely. This is because the software and workflow we built the Toolbox with are not unique to OHI: we did not develop them, we are simply using them for our project. It’s like how we use  Gmail and Skype to effectively communicate within our team, but we did not develop these software programs. 
 
-The tools we use are the same ones that software developers use to *build software*. They are like building blocks that can be assembled together and adopted for your project, which is how we  built the OHI Toolbox. 
+But the tools we use for the Toolbox are the same ones that software developers use to *build software*. They are like building blocks that can be assembled together and adopted for your project, which is how we built the OHI Toolbox.  
+*Spoiler Alert*: there are four tools we use to build the OHI Toolbox: [R](https://cran.r-project.org/), [RStudio](https://www.rstudio.com/), [Git](https://git-scm.com/) and [GitHub](https://github.com/).
 
 To make this a bit more concrete, here are four questions I answered about the OHI Toolbox in a recent webinar [slides here](https://docs.google.com/presentation/d/1WKzbvF-XQl3lGzEc44fp8azssod9BcY2wMaAO0ZhFmk/edit).
 
@@ -38,13 +39,11 @@ This diagram shows our positive and negative experiences, and how we are much be
 
 ## What is the OHI Toolbox?
 
-Like the name implies, the Toolbox contains a suite of tools we use to conduct OHI assessments. These software and workflows are open, meaning that they are available for free online to download and learn how to use. 
+The Toolbox contains a suite of tools we use to conduct OHI assessments. These software and workflows are open, meaning that they are available for free online to download and learn how to use. 
 
-Most importantly, they are developed by the people who know the ins and outs of the software industry best: software developers. These tools are developed by software developers for software developers. And even though we are a team of marine scientists, we can work like software developers: efficiently and collaboratively with code and data.  
+Most importantly, they are developed by the people who know the ins and outs of the software industry best: software developers. These tools are developed by software developers for software developers. And even though we are a team of marine scientists, we can work like software developers: working efficiently and collaboratively with code and data.
 
-These tried-and-true tools are also used by the data folks at [AirBnB](https://medium.com/airbnb-engineering/using-r-packages-and-education-to-scale-data-science-at-airbnb-906faa58e12d) and [Google](http://blog.revolutionanalytics.com/2011/08/google-r-effective-ads.html). They are teams working with complex data that need the ability to effectively collaborate and communicate. Hey, that’s us too! So, although we are working with ocean science and management, we can leverage all of the tools and workflows other folks developed. 
-
-The Toolbox is essentially GitHub repositories filled with R code. We built it and work with it using four tools: R, RStudio, Git, and GitHub. Git and GitHub take care of the bookkeeping and version control and collaboration (goodbye files with names like _final_final_my_initials_and_date.xls!), while adding game-changing features like publishing and distributing data and code through websites. 
+The Toolbox is essentially GitHub repositories filled with R code. We built it and work with it using four tools: [R](https://cran.r-project.org/), [RStudio](https://www.rstudio.com/), [Git](https://git-scm.com/) and [GitHub](https://github.com/). Git and GitHub take care of the bookkeeping and version control and collaboration (goodbye files with names like _final_final_my_initials_and_date.xls!), while adding game-changing features like publishing and distributing data and code through websites. 
 
 R and RStudio enable us to *code everything, from data import to preparation, modeling, visualization, publications, and websites*, allowing us to be really streamlined, transparent, and reproducible. I think of RStudio as an airport and R is an airplane that you are piloting. As I wrote in a [blog post](http://jules32.github.io/resources/RStudio_intro/) from a few years ago: 
 
@@ -57,6 +56,9 @@ RStudio not only provides a user interface for making coding more enjoyable and 
 <center><img src="../assets/blog_images/OHI_Toolbox.png" width="600px"></center>
 
 <br>
+
+These tried-and-true tools are also used by the data folks at [AirBnB](https://medium.com/airbnb-engineering/using-r-packages-and-education-to-scale-data-science-at-airbnb-906faa58e12d) and [Google](http://blog.revolutionanalytics.com/2011/08/google-r-effective-ads.html). They are teams working with complex data that need the ability to effectively collaborate and communicate. Hey, that’s us too! So, although we are working with ocean science and management, we can leverage all of the tools and workflows other folks developed. 
+
 
 ## How does the OHI Toolbox work? 
 
