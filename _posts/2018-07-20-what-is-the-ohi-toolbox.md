@@ -10,6 +10,7 @@ tags : [news]
 We get asked a lot whether the OHI Toolbox can be used for other projects besides the Ocean Health Index (OHI). And the answer is yes, absolutely. This is because the software and workflow we built the Toolbox with are not unique to OHI: we did not develop them, we are simply using them for our project. It’s like how we use  Gmail and Skype to effectively communicate within our team, but we did not develop these software programs. 
 
 But the tools we use for the Toolbox are the same ones that software developers use to *build software*. They are like building blocks that can be assembled together and adopted for your project, which is how we built the OHI Toolbox.  
+
 *Spoiler Alert*: there are four tools we use to build the OHI Toolbox: [R](https://cran.r-project.org/), [RStudio](https://www.rstudio.com/), [Git](https://git-scm.com/) and [GitHub](https://github.com/).
 
 To make this a bit more concrete, here are four questions I answered about the OHI Toolbox in a recent webinar [slides here](https://docs.google.com/presentation/d/1WKzbvF-XQl3lGzEc44fp8azssod9BcY2wMaAO0ZhFmk/edit).
