@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to utilize other OHI+ projects for guidance"
+title: "How to use other OHI assessments for guidance"
 author: Ning Jiang
 category : news
 tags : [news]
@@ -18,5 +18,7 @@ As the Ocean Health Index is an open-science tool used by inspired scientists an
 
 - [Forum](http://ohi-science.org/forum/), where OHI+ practitioners connect and communicate directly. You can ask and answer conceptual and technical questions emerging from an OHI+ project. 
 
-- [@OHIScience](https://twitter.com/OHIscience) on Twitter! We tweet about OHI news, announce technical blog posts and share coding tips. Follow us to join the OHI+ community!
+- [Publications](http://ohi-science.org/publications/) page, where we list published work and documentation for OHI assessments.
+
+- [@OHIScience on Twitter](https://twitter.com/OHIscience)! We tweet about OHI news, announce technical blog posts and share coding tips. Follow us to join the OHI+ community!
 
