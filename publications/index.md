@@ -144,3 +144,12 @@ Local and regional experiences with assessing and fostering ocean health.
 ##### Spain
 
 - <a href="https://github.com/OHI-Science/ohi-science.github.io/blob/master/assets/downloads/pubs/OHI%2BRiadeVigoAO_2015.pdf" target="_blank">OHI+ Ria de Vigo Artisanal Opportunity Goal Masters Thesis 2016 (in Spanish with English abstract)</a> 
+
+##### New Caledonia
+
+- <a href="https://github.com/OHI-Science/ohi-science.github.io/blob/master/assets/downloads/pubs/OHI_New_Caledonia.pdf" target="_blank">OHI+ New Caledonia (in French)</a> 
+
+##### Hawaii — Main Hawaiian Islands
+
+- <a href="https://github.com/OHI-Science/ohi-science.github.io/blob/master/assets/downloads/pubs/OHI_Hawaii_report_2018_final_w_bleed_May30.pdf" target="_blank">OHI+ Main Hawaiian Islands</a> 
+
