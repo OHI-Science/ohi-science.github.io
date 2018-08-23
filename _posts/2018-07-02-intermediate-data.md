@@ -41,7 +41,7 @@ The process of preparing these maps for OHI includes many steps. First, we calcu
 
 <br>
 
-At any of these processing steps, we have created valuable “intermediate data” that can be useful to other projects. The raw data can be [downloaded here](http://ohi-science.org/ohi-global/layers#cc_acid) and then you can follow as much of our process as you would like. You can crop the global dataset to a smaller region, set a different biological threshold, resample to a different resolution, use our final data layer, and more. 
+At any of these processing steps, we have created valuable “intermediate data” that can be useful to other projects. The raw data can be [downloaded here](http://ohi-science.org/ohi-global/layers#cc_acid) (and [large spatial files here](https://rawgit.com/OHI-Science/ftp_data/master/data_list.html)) and then you can follow as much of our process as you would like. You can crop the global dataset to a smaller region, set a different biological threshold, resample to a different resolution, use our final data layer, and more. 
 
 ## Real world examples
 
