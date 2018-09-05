@@ -2,7 +2,7 @@
 layout: stripes
 title: Training
 description: Training
-header: jellyfish.jpg
+header: brain-coral-1669995_1280.jpg
 ---
 
 ## Open data science
