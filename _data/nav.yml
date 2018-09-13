@@ -14,12 +14,12 @@
 - text: Projects
   url: /projects/
   subitems:
-    - text: Global
-      url: http://ohi-science.org/ohi-global
-    - text: OHI Process
-      url: /projects/ohi-process/
+    - text: OHI Opportunities
+      url: /projects/ohi-opportunities/
     - text: OHI Assessments
       url: /projects/ohi-assessments/
+    - text: Global Assessment
+      url: http://ohi-science.org/ohi-global
 - text: Resources
   url: /resources/
   subitems:
