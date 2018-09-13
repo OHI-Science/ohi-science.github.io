@@ -4,17 +4,6 @@ title: OHI Opportunities
 header: fish-378286_1920.jpg
 ---
 
-<!---
-<!---From http://stackoverflow.com/questions/31753897/2-column-section-in-r-markdown:
-  Put in your css file or directly in rmarkdown--->
-<style>
-  .col2 {
-    columns: 2 200px;         /* number of columns and width in pixels*/
-      -webkit-columns: 2 200px; /* chrome, safari */
-      -moz-columns: 2 200px;    /* firefox */
-  }
-</style>
-
 <!--- https://www.w3schools.com/howto/howto_css_images_side_by_side.asp --->
 <!---/* Three image containers (use 25% for four, and 50% for two, etc) */ --->
 <style>
