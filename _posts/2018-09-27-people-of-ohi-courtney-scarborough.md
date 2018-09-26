@@ -8,7 +8,7 @@ tags : [news]
 hidden : true
 ---
 <center><img src="../assets/blog_images/CourtneyScarborough.jpg" width="550px"><br/>
-Courtney Scarborough is a Project Scientist and currently manages the [Northeast](http://www.ohi-northeast.org/) and [British Columbia](http://www.ohibc.org/team.html) Ocean Health Index assessments.</center>
+Courtney Scarborough is a Project Scientist and currently manages the <a href="http://www.ohi-northeast.org/">Northeast</a> and <a href="http://www.ohibc.org/team.html">British Columbia</a> Ocean Health Index assessments.</center>
 
 ## Work 
 
