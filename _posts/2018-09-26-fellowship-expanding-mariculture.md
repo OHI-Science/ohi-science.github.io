@@ -15,8 +15,8 @@ The growth of wild fisheries has remained relatively static since the 1980s, but
 
 <br>
 
-<center><img src="../assets/blog_images/" width="600px"><br>
-<i>Photo credit</i></center> INSERT JAMIE GIF
+<center><img src="../assets/blog_images/fao_aq_capture_fig.gif" width="600px"><br>
+<i>Seafood production from aquaculture and wild capture fisheries. Created by: Jamie Afflerbach.</i></center>
 
 <br>
 
@@ -30,7 +30,7 @@ Having just completed my [master’s project](https://sbmussels.weebly.com/) at 
 
 <br>
 
-<center><img src="../assets/blog_images/" width="600px"><br> INSERT MAP PICTURE
+<center><img src="../assets/blog_images/seaweedmap.png" width="600px"><br>
 <i>Seaweed mariculture production per coastal population in 2016. Countries that didn’t produce seafood from mariculture are in grey. The top four countries are China, North Korea, South Korea, and Russia. Created by: Iwen Su.</i></center> 
 
 <br>
@@ -57,7 +57,7 @@ Visitors to the dashboard may include a diverse range of ocean enthusiasts who a
 
 <br>
 
-<center><img src="../assets/blog_images/" width="600px"><br> INSERT TIMESERIES PICTURE
+<center><img src="../assets/blog_images/seaweedgraph.png" width="600px"><br>
 <i>China’s seaweed mariculture production from 1950 to 2016. Japanese kelp cultivation has been the primary mariculture industry in China. Created by: Iwen Su.</i></center> 
 
 <br>
