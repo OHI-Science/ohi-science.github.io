@@ -66,3 +66,8 @@ What is especially exciting about my Shiny independent project is that I templat
 ## 2018 OHI Global Fellowship comes to a close
 
 Along with Camila and Ellie, I completed the first OHI Global Fellowship. Through the process, I gained two lifelong mentors and a network of innovative and passionate data scientists. I developed a template of an interactive data dashboard for the OHI team, which did not exist before. I contributed to furthering the OHI Global Assessments through better documentation as well as improved methodology. I created a website and worked closely in a small group to improve the content and aesthetics of our product for future fellows. I now have a better understanding of mariculture data and fisheries stock assessments, which was an unexpected perk. I accomplished so much over this year with the OHI team that I will continue to foster the OHI workflow and concepts wherever I go.
+
+<br>
+
+*Related posts*
+[Training the next generation of ocean data scientists](http://ohi-science.org/news/training-the-next-generation-of-ocean-data-scientists)
