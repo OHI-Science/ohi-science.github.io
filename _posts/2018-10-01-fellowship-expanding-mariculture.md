@@ -70,4 +70,5 @@ Along with Camila and Ellie, I completed the first OHI Global Fellowship. Throug
 <br>
 
 *Related posts*
+
 [Training the next generation of ocean data scientists](http://ohi-science.org/news/training-the-next-generation-of-ocean-data-scientists)
