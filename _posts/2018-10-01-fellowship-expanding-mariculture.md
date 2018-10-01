@@ -5,9 +5,8 @@ title: "Fellowship Feature: Expanding mariculture"
 author: Iwen Su
 category : news 
 tags : [news]
-hidden : true
 ---
-## Mariculture as a Food Provision
+## Mariculture as a food provision
 
 With a rise in population comes a rise in protein demand. As of 2017, seafood consumption reached a new high of 20.3 kilograms of fish per person annually, which is double our consumption of the 1960s. In an increasingly crowded world, how do we continue to provide seafood for the global population? 
 
@@ -20,7 +19,7 @@ The growth of wild fisheries has remained relatively static since the 1980s, but
 
 <br>
 
-One of the OHI goals - food provision - measures the amount of seafood sustainably harvested within a country’s EEZ and is made up of two sub-goals: fisheries and mariculture, a type of aquaculture performed strictly in the marine environment. The mariculture sub-goal measures the ecological and social sustainability of food provision by marine farm systems using multiple criteria. On the ecological side, the OHI accounts for factors such as genetic escapes, endemic species, and water quality management. To assess the social component, we estimate whether countries are fully utilizing the ocean space suitable for mariculture. 
+One of the OHI goals - food provision - measures the amount of seafood sustainably harvested within a country’s EEZ and is made up of two sub-goals: fisheries and mariculture, a type of aquaculture performed strictly in the marine environment. The mariculture sub-goal measures the ecological and social sustainability of food provision by marine farm systems using multiple criteria. On the ecological side, OHI accounts for factors such as genetic escapes, endemic species, and water quality management. To assess the social component, we estimate whether countries are fully utilizing the ocean space suitable for mariculture. 
 
 ## Contributing to improvements in data preparation
 
@@ -41,15 +40,15 @@ After many discussions with the OHI team, I received the green light to start wo
 
 Reading about the different seaweeds cultivated throughout the world was actually quite interesting. One intriguing find was that Tonga, a mostly uninhabited archipelago in the South Pacific, produces around 400 to 500 tonnes per year of Mozuku almost exclusively for the Japanese food market when there are supply shortages abroad!
 
-## OHI Global Dashboard: Visualizing Mariculture Data
+## OHI Global Dashboard: Visualizing mariculture data
 
 The mariculture sub-goal is only a fraction of how OHI defines global ocean health. So much data goes into the final global assessment score. Users often are curious about how the scores are derived and want to explore the data that powers the scores themselves. 
 
-Here is where the [OHI Global Dashboard](https://iwensu.shinyapps.io/global-dashboard) idea came in. Given the increase in relevance of mariculture for food production in recent years, I thought it would be a great opportunity to provide a high level, global scale exploration tool that shows summary statistics of the OHI mariculture data. It provides just enough detail to engage people without diving too deep into specifics of mariculture.
+Here is where the [OHI Global Dashboard](https://iwensu.shinyapps.io/global-dashboard) idea came in. Given the increase in relevance of mariculture for food production in recent years, I thought it would be a great opportunity to provide a high-level, global-scale exploration tool that shows summary statistics of the OHI mariculture data. The goal was to provide just enough detail to engage people without diving too deep into specifics of mariculture.
 
 The dashboard allows users to answer questions such as how much seafood is China producing from mariculture relative to other coastal countries? Or what species does Spain cultivate and harvest?
 
-Among R users, Shiny apps have become an increasingly popular way to explore data and this was the platform I chose for the global data explorer. The main draw to creating a Shiny dashboard is for its interactive components and flexibility for visualizing data, text, and graphics. As with all things built with R and GitHub, Shiny inherently promotes accessibility and reproducibility. 
+Among R users, [Shiny apps](https://shiny.rstudio.com/) have become an increasingly popular way to explore data and this was the platform I selected for the global data dashboard. The main draw to creating a Shiny dashboard is its interactive components and flexibility for visualizing data, text, and graphics. As with all things built with R and GitHub, Shiny inherently promotes accessibility and reproducibility. 
 
 One of the main challenges was selecting what information to portray. A downside of Shiny apps is that sometimes people use it as a data dump and add too much information to the dashboard. This can muddle the overall message of the data and the creator can lose sight of what the user might want to see. Much of my design process involved thinking about the OHI Global audience and what kind of story to portray. 
 
