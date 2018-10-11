@@ -59,7 +59,8 @@ Ellie: It’s a lot more fun.
 Iwen: There’s so much you can learn, and you can’t learn it all. We did a good job of sharing things we found, whether it was a neat data visualization, new R package, or article about fisheries. It enhances our training and learning.
  
 Ellie: If each person spends the time to learn one thing, they can synthesize it and teach it to the group more quickly than if everyone learned it by themselves.  
-What was the most important lesson you learned about scientific reproducibility or collaboration?
+
+## What was the most important lesson you learned about scientific reproducibility or collaboration?
  
 Camila: For me, it’s something Julie Lowndes, [OHI project scientist], repeats a lot: “what will my future self think?” It’s preparing your documentation and scripts today for your future self and others who will read them.
  
