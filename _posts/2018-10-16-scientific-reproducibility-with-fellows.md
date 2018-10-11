@@ -91,3 +91,10 @@ Ellie: You want a consistent metric you can track across time so that you are re
 Camila: And to be able to compare and see changes, for better or worse, for a specific policy or management plan. I think being able to reproduce allows you to compare.
  
 Ellie: Yes, which allows you to determine whether or not your policies or mediation actions are having the effect you want.
+
+<br>
+
+*Related posts*
+
+[Training the next generation of ocean data scientists](http://ohi-science.org/news/training-the-next-generation-of-ocean-data-scientists)
+[Fellowship Feature: Expanding mariculture](http://ohi-science.org/news/fellowship-expanding-mariculture)
