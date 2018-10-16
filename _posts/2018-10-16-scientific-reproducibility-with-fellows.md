@@ -5,7 +5,6 @@ title: "What does scientific reproducibility look like?"
 author: Erin O'Reilly and Jenny Seifert
 category : news 
 tags : [news]
-hidden : true
 ---
 *This post is part of the NCEAS Portrait series and features the 2018 cohort of OHI Global Fellows.*
 
