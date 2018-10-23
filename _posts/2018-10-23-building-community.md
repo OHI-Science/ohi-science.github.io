@@ -23,15 +23,15 @@ Our first community started out small with just our core team and specific weekl
 
 Training is a large component of this community and a way for our core team to engage with members of our OHI+ teams. When training these groups on OHI methodology and our Toolbox, we soon recognized the groups needed to first learn how to code and use collaborative tools before trying to conduct their own independent OHI+ assessment.
 
-This, along with becoming a [Carpentries](https://carpentries.org/) instructor, sparked the creation of our [Intro to data science](http://ohi-science.org/data-science-training/) and [OHI Toolbox](http://ohi-science.org/toolbox-training/) training books, which provide hands-on learning opportunities with step-by-step instructions. These books served as great resources for the teams trained and also helped improve our teaching skills.
+This, along with becoming a [Carpentries](https://carpentries.org/) instructor, sparked the creation of our [Intro to data science](http://ohi-science.org/data-science-training/) and [OHI Toolbox](http://ohi-science.org/toolbox-training/) training books, which provide hands-on learning opportunities with step-by-step instructions. These books serve as great resources for the teams trained and also help improve our teaching skills.
 
-## … to expanding our horizons to University of California Santa Barbara (UCSB)
+## … to expanding our horizons to the University of California Santa Barbara (UCSB)
 
-While developing the Intro to data science book, we realized it was a resource that could be useful to more than just OHI teams. To reach a broader audience, we co-founded Eco-Data-Science, a Mozilla study group at UCSB. The goal of the group was to create a collective learning space for skill sharing as well as co-working and community building.
+While developing the Intro to data science book, we realized it was a resource that could be useful to more than just OHI teams. To reach a broader audience, we co-founded [Eco-Data-Science](https://eco-data-science.github.io/), a [Mozilla study group](https://science.mozilla.org/programs/studygroups) at UCSB. The goal of the group is to create a collective learning space for skill sharing as well as co-working and community building.
 
 For this community, participant feedback says it all. From “EcoDataSci is a wonderful resource and it is so nice to see that an active coding community has been built. It's a rare thing!” to "I'm so thankful EcoDataSci exists! It makes coding so much less scary" and "it was a great way to learn new skills or get code that I can use for my own projects.”
 
-Eco-Data-Science is designed as 1.5 hour sessions with topics ranging from Intro to R to visualization and text mining. These sessions welcome all skill levels and are open to all UCSB students and faculty. See the current schedule [here](https://eco-data-science.github.io/).
+Eco-Data-Science is designed as 1.5 hour sessions with topics ranging from Intro to R to visualization and text mining. These sessions welcome all skill levels and are open to all UCSB students and faculty. See the current schedule [here](https://eco-data-science.github.io/) and follow them on [Twitter](https://twitter.com/ecodatasci).
 
 ## … to engaging with our local community
 
@@ -49,7 +49,7 @@ During her work as a Mozilla Fellow, Julie will continue to bring practices deve
 
 “I am excited to amplify all of the work accomplished with OHI and get more scientists engaged with open data science,” says Julie. “I was drawn to Mozilla because their projects seem very community-driven and people-driven, which is the way I work and the way I think science should work at larger scales.”   
 
-Stay tuned to learn more about her Fellowship experience. 
+Stay tuned to learn more about her fellowship experience. 
 
 ## Major takeaway: Communities are important! 
 
