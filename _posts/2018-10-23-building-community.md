@@ -47,7 +47,7 @@ During her work as a Mozilla Fellow, Julie will continue to bring practices deve
 
 “I am excited to amplify all of the work accomplished with OHI and get more scientists engaged with open data science,” says Julie. “I was drawn to Mozilla because their projects seem very community-driven and people-driven, which is the way I work and the way I think science should work at larger scales.”   
 
-Stay tuned to learn more about her fellowship experience. 
+Stay tuned to learn more about her fellowship experience and the development of her program [Openscapes](https://twitter.com/openscapes). 
 
 ## Major takeaway: Communities are important! 
 
