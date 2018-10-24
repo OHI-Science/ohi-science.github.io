@@ -4,8 +4,6 @@ self_contained: no
 title: "Building community for OHI and beyond"
 author: Erin O'Reilly
 category : news 
-tags : [news]
-hidden : true 
 ---
 Recently, OHI team member Julie Stewart Lowndes was awarded a fellowship with Mozilla – yes, the same Mozilla that created the Firefox browser. That might seem like a leap from her duties on the OHI team but the aim of [Mozilla Fellowships](https://foundation.mozilla.org/fellowships/) is to keep the internet a force for good, which includes making scientific research more open. 
 
@@ -23,7 +21,7 @@ Our first community started out small with just our core team and specific weekl
 
 Training is a large component of this community and a way for our core team to engage with members of our OHI+ teams. When training these groups on OHI methodology and our Toolbox, we soon recognized the groups needed to first learn how to code and use collaborative tools before trying to conduct their own independent OHI+ assessment.
 
-This, along with becoming a [Carpentries](https://carpentries.org/) instructor, sparked the creation of our [Intro to data science](http://ohi-science.org/data-science-training/) and [OHI Toolbox](http://ohi-science.org/toolbox-training/) training books, which provide hands-on learning opportunities with step-by-step instructions. These books serve as great resources for the teams trained and also help improve our teaching skills.
+This, along with becoming a [Carpentries](https://carpentries.org/) instructor, sparked Julie's creation of our [Intro to data science](http://ohi-science.org/data-science-training/) and [OHI Toolbox](http://ohi-science.org/toolbox-training/) training books, which provide hands-on learning opportunities with step-by-step instructions. These books serve as great resources for the teams trained and also help improve our teaching skills.
 
 ## … to expanding our horizons to the University of California Santa Barbara (UCSB)
 
