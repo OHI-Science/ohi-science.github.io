@@ -49,8 +49,8 @@ Here is some sample code ([see full code on github](https://github.com/OHI-Scien
 
 <br>
 
-<img src="../assets/blog_images/code_chunk1.png" width="400px"><br>
-<img src="../assets/blog_images/code_chunk2.png" width="600px">
+<left><img src="../assets/blog_images/code_chunk1.png" width="400px"><br>
+<img src="../assets/blog_images/code_chunk2.png" width="600px"></left>
 
 <br>
 
