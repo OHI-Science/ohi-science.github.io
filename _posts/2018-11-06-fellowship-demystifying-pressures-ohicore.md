@@ -28,7 +28,7 @@ The UV radiation data is downloaded from NASA as large spatial files, called ras
 
 <br>
 
-<center><img src="../assets/blog_images/raster_stack.jpeg" width="600px"><br>
+<center><img src="../assets/blog_images/raster_stack.jpeg" width="300px"><br>
 <i>An example of overlaying raster files, where grid cells are lined up so summary statistics can be performed across the layers.</i></center>
 
 <br>
@@ -39,7 +39,7 @@ When downloading the data, first you specify the variable and spatial subset you
 
 <br>
 
-<center><img src="../assets/blog_images/uv.gif" width="600px"><br>
+<center><img src="../assets/blog_images/uv.gif" width="800px"><br>
 <i>GIF of the UV radiation pressure layer, from the 2018 global assessment. To quantify the impact of UV radiation on ocean-provided benefits, we take ‘Erythemal Daily Dose’ -- weighted UV irradiance (in W/m2) covering 290-400 nm spectral region at 1 degree resolution -- and calculate the number of anomalous weeks each year within each OHI region.</i></center>
 
 <br>
@@ -50,7 +50,7 @@ Here is some sample code ([see full code on github](https://github.com/OHI-Scien
 
 <br>
 
-<center><img src="../assets/blog_images/code_chunk1.png" width="600px"><br>
+<center><img src="../assets/blog_images/code_chunk1.png" width="400px"><br>
 <img src="../assets/blog_images/code_chunk2.png" width="600px"></center>
 
 <br>
