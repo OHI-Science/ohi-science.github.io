@@ -49,8 +49,8 @@ Here is some sample code ([see full code on github](https://github.com/OHI-Scien
 
 <br>
 
-<center><img src="../assets/blog_images/code_chunk1.png" width="400px"><br>
-<img src="../assets/blog_images/code_chunk2.png" width="600px"></center>
+<img src="../assets/blog_images/code_chunk1.png" width="400px"><br>
+<img src="../assets/blog_images/code_chunk2.png" width="600px">
 
 <br>
 
@@ -81,7 +81,7 @@ I created such a website for the core R package that we use for the OHI, `ohicor
 
 <br>
 
-<center><img src="../assets/blog_images/pkgdown_yml.png" width="600px"><br>
+<center><img src="../assets/blog_images/pkgdown_yml.png" width="800px"><br>
 <i>What’s in a _pkgdown.yml? The yml file contains information on how to structure the site, and additionally specifies a theme and links to the source code on GitHub.</i></center>
 
 <br>
@@ -90,7 +90,7 @@ I was not particularly happy with the free Bootswatch themes available and wante
 
 <br>
 
-<center><img src="../assets/blog_images/html_css.jpg" width="600px"><br>
+<center><img src="../assets/blog_images/html_css.jpg" width="800px"><br>
 <i>Side-panes showing HTML and CSS behind the page, with excerpt of the pkgdown extra.css file showing some CSS overwriting web design elements.</i></center>
 
 <br>
