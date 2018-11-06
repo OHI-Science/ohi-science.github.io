@@ -45,7 +45,7 @@ When downloading the data, first you specify the variable and spatial subset you
 
 One of the key steps in processing the UV data is aligning days within the weeks of the year, so January 1st 2005 matches up with January 1st, June 1st 2005 matches with June 1st, et cetera, of all the subsequent years. One problem was there were missing days of data at irregular intervals, so stacking them properly took an extra step. A full year would typically include 365 values, but if data are missing then there may be only, say, 305 values and you cannot depend on the data layers to properly align themselves with the correct day and week. The file naming convention of the raw data files is by date not by week of the year, but using the awesome R `lubridate` package we can extract the date and calculate week of the year (or day of the year) and also check how many or which dates are missing. 
 
-Here is some sample code ([see full code on github](https://github.com/OHI-Science/ohiprep_v2018/blob/master/globalprep/prs_uv/v2018/uv_dataprep.Rmd) showing how date information was extracted from file names and used to create a dataframe for check for missing dates and aligning data for summarizing UV radiation impact. 
+Here is some sample code [(see full code on GitHub)](https://github.com/OHI-Science/ohiprep_v2018/blob/master/globalprep/prs_uv/v2018/uv_dataprep.Rmd) showing how date information was extracted from file names and used to create a dataframe for check for missing dates and aligning data for summarizing UV radiation impact. 
 
 <br>
 
@@ -97,6 +97,6 @@ I was not particularly happy with the free Bootswatch themes available and wante
 
 Hopefully, this site will make the `ohicore` more accessible, since it exists outside of the R code itself, and explains the linkages in a bit more in depth. And though I know there are a lot of people here who do get a kick out of looking at code, I think it is overall a bit easier on the eyes. 
 
-## Part 3: Epilouge
+## Part 3: Epilogue
 
 I’d like to take the opportunity here to express my enthusiasm for the OHI Global Fellowship, and my gratitude for having had this opportunity. The Fellowship was not only a chance to hone programming skills and learn new data science tools, but the way it was structured, us Fellows had the opportunity to think deeply about the underlying theory, good enough vs. best practices, and dimensions of communication required for the analysis to be embraced by policymakers and planners and be practicably applied. These were all things the open, engaging, and innovative atmosphere at NCEAS helped foster, and our wonderful mentors adeptly facilitated -- Thank you!
