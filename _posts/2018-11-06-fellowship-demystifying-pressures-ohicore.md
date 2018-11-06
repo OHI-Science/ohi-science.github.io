@@ -4,21 +4,20 @@ self_contained: no
 title: "Fellowship Feature: Demystifying pressures and ohicore"
 author: Ellie Campbell
 category : news 
-hidden : true
 ---
 
 ## Part 1: Under pressure 
 
 There are twenty-two pressure data layers used in the global Ocean Health Index (OHI). Pressures are environmental or anthropogenic drivers that harm the ocean’s ability to provide benefits to people. A subset of these pressures are related to climate change. I prepared a number of these for the 2018 global assessment, including ultraviolet (UV) radiation and sea level rise. 
 
-Many of the pressures are based on high resolution spatial data. The raw data  for the UV layer is a set of rasters -- essentially photographs, each with 32,400 pixels -- one for each day since 2004. Processing of these raw data often incorporates computationally intensive temporal and spatial operations, so these processes can take a long time to run. Even though they collectively only account for one-quarter of a given goal, pressure layers can take a disproportionate amount of time to prepare. 
+Many of the pressures are based on high resolution spatial data. The raw data  for the UV layer is a set of rasters -- essentially photographs, each with 32,400 pixels, and one for each day since 2004. Processing these raw data often incorporates computationally intensive temporal and spatial operations, so these processes can take a long time to run. Even though they collectively only account for one-quarter of a given goal, pressure layers can take a disproportionate amount of time to prepare. 
 
 My contributions here were fairly subtle -- I did not overhaul any methods of calculation, but rather made small adjustments with the goal of decreasing the time that would be required to prepare the data the next go-round. 
 
 <br>
 
 <center><img src="../assets/blog_images/Network.png" width="600px"><br>
-<i>This network diagram shows the connections between the OHI goals or subgoals, and the data layers that are used to calculate the goal scores. Dark purple dots are data layers, lilac purple are goals and the others are subgoals. Darker, bolder lines indicate calculations of status, while lighter lines indicate the calculation is of trend, pressure or resilience dimensions.</i></center>
+<i>This network diagram shows the connections between the OHI goals or subgoals, and the data layers that are used to calculate the goal scores. Dark purple dots are data layers, lilac purple are goals, and the others are subgoals. Darker, bolder lines indicate calculations of status, while lighter lines indicate the calculation is of trend, pressure, or resilience dimensions.</i></center>
 
 <br>
 
@@ -44,9 +43,9 @@ When downloading the data, first you specify the variable and spatial subset you
 
 <br>
 
-One of the key steps in processing the UV data is aligning days within the weeks of the year, so January 1st 2005 matches up with January 1st, June 1st 2005 matches with June 1st, et cetera, of all the subsequent years. One problem was there were missing days of data at irregular intervals (the raw dataset was not gapfilled), so stacking them properly took an extra step. A full year would typically include 365 values, but if data are missing then there may be only, say, 305 values and you cannot depend on the ordering of the layer to properly align the days and weeks. The file naming convention of the raw data files is by date not by week of the year, but using the awesome R `lubridate` package we can extract the date and calculate week of the year (or day of the year) and also check how many or which dates are missing. 
+One of the key steps in processing the UV data is aligning days within the weeks of the year, so January 1st 2005 matches up with January 1st, June 1st 2005 matches with June 1st, et cetera, of all the subsequent years. One problem was there were missing days of data at irregular intervals, so stacking them properly took an extra step. A full year would typically include 365 values, but if data are missing then there may be only, say, 305 values and you cannot depend on the data layers to properly align themselves with the correct day and week. The file naming convention of the raw data files is by date not by week of the year, but using the awesome R `lubridate` package we can extract the date and calculate week of the year (or day of the year) and also check how many or which dates are missing. 
 
-Here is some sample code ([see full code on github](https://github.com/OHI-Science/ohiprep_v2018/blob/master/globalprep/prs_uv/v2018/uv_dataprep.Rmd) showing how date information was extracted from file names, and used to create a dataframe for check for missing dates and aligning data for summarizing UV radiation impact. 
+Here is some sample code ([see full code on github](https://github.com/OHI-Science/ohiprep_v2018/blob/master/globalprep/prs_uv/v2018/uv_dataprep.Rmd) showing how date information was extracted from file names and used to create a dataframe for check for missing dates and aligning data for summarizing UV radiation impact. 
 
 <br>
 
@@ -67,7 +66,7 @@ With a living index, we need to accommodate agencies updating previous years of 
 
 I created such a website for the core R package that we use for the OHI, `ohicore`, for the reasons outlined above -- to nicely present the function documentation -- and bring that together with some longer-form articles to “demystify” the way `ohicore` fits into the [OHI framework](http://ohi-science.org/toolbox-training/toolbox-ecosystem.html). This website was designed as a quick refresher on `ohicore` functions for future OHI fellows, scientists conducting regional ([OHI+](http://www.oceanhealthindex.org/ohi-plus)) assessments, and OHI team members. Before proceeding to the more nitty-gritty details of my process, let me step back and explain a bit what the `ohicore` is, what it does, and why it is so important to explain mechanisms inside that black box beyond the fact that OHI operates on principles of open science.
 
-`ohicore` was developed by the OHI team to streamline and make consistent the process of calculating OHI scores across different assessments. `ohicore` works in conjunction with the data preparation and assessment repositories. While models and data can be tailored to specific regional assessments to leverage the best available data or to accommodate different management priorities, the `ohicore` stays consistent across all OHI assessments. 
+`ohicore` was developed by the OHI team to streamline and make consistent the process of calculating OHI scores across different assessments. `ohicore` works in conjunction with the data preparation and assessment repositories. While models and data can be tailored to specific regional assessments to leverage the best available data or to accommodate different management priorities, the `ohicore` remains consistent across all OHI assessments. 
 
 <br>
 
@@ -78,7 +77,7 @@ I created such a website for the core R package that we use for the OHI, `ohicor
 
 `ohicore` is integral in taking the prepared data and turning it into OHI scores, and before the creation of the pkgdown site, constituted a bit of a blind-spot in the score-calculation pipeline. Much has been written about the [philosophy behind open (data) science](http://ohi-science.org/news/importance-of-open-data-science-tools), and I find that stuff fascinating, but that is another rabbit hole for another day. Suffice it to say, we had identified this as an opportunity to decrease energy and time required for folks new to the project to comprehend the calculation of OHI scores. So, back to the matter at hand: how did I create said website? 
 
-`pkgdown` makes is quite easy for you, assuming you’ve followed best-practices ([this article](https://www.r-bloggers.com/building-a-website-with-pkgdown-a-short-guide/) and [this one](https://enpiar.com/2017/12/18/integrating-pkgdown-with-your-personal-website/) are great guides to get started). All that’s required is a README, `roxygen` documentation that -- since you are of course following best-practices -- you have already have written into your R functions, and a few additional files including a yml file that tell `pkgdown` how to organize things. Calling pkgdown::build_site() draws on `roxygen` and `devtools` (so first confirm those packages are installed), and voila you have an off-the-shelf `pkgdown` site. It’s never as straightforward as just that though, and it took a little tinkering, documentation revision, etc. to get to the final version.
+`pkgdown` makes is quite easy for you, assuming you’ve followed best-practices. ([This article](https://www.r-bloggers.com/building-a-website-with-pkgdown-a-short-guide/) and [this one](https://enpiar.com/2017/12/18/integrating-pkgdown-with-your-personal-website/) are great guides to get started. All that’s required is a README, `roxygen` documentation that -- since you are of course following best-practices -- you have already have written into your R functions, and a few additional files including a yml file that tell `pkgdown` how to organize things. Calling pkgdown::build_site() draws on `roxygen` and `devtools` (so first confirm those packages are installed), and voila you have an off-the-shelf `pkgdown` site. It’s never as straightforward as just that though, and it took a little tinkering, documentation revision, etc. to get to the final version.
 
 <br>
 
@@ -87,7 +86,7 @@ I created such a website for the core R package that we use for the OHI, `ohicor
 
 <br>
 
-I was not particularly happy with the free Bootswatch themes available and wanted a look more similar to some of the other OHI products, with specific fonts and colors. To customize the appearance of a `pkgdown` site, one can add an extra.css file in a special `pkgdown` folder containing things specific to just the `pkgdown` site and not the R package itself. I am not a web developer, and didn’t really know what I was doing; the way I figured out how to make the adjustments I wanted was by right clicking and using the ‘inspect’ option on the browser window opened via pkgdown::preview_site(). The inspector pops open side-panes showing HTML and CSS behind the page, and one can interactively edit the CSS and observe what happens.  For changes I liked, I copied and pasted their code into the extra.css file that tells pkgdown what parts of the base template to overwrite.
+I was not particularly happy with the free Bootswatch themes available and wanted a look more similar to some of the other OHI products, with specific fonts and colors. To customize the appearance of a `pkgdown` site, one can add an extra.css file in a special `pkgdown` folder containing things specific to just the `pkgdown` site and not the R package itself. I am not a web developer, and didn’t really know what I was doing; the way I figured out how to make the adjustments I wanted was by right clicking and using the ‘inspect’ option on the browser window opened via pkgdown::preview_site(). The inspector pops open side-panes showing HTML and CSS behind the page, and one can interactively edit the CSS and observe what happens. For changes I liked, I copied and pasted their code into the extra.css file that tells `pkgdown` what parts of the base template to overwrite.
 
 <br>
 
@@ -100,4 +99,4 @@ Hopefully, this site will make the `ohicore` more accessible, since it exists ou
 
 ## Part 3: Epilouge
 
-I’d like to take the opportunity here to express my enthusiasm for the OHI Global Fellowship, and my gratitude for having had this opportunity. The Fellowship was not only a chance to hone programming skills and learn new data science tools, but the way it was structured, us Fellows had the opportunity to think deeply about the underlying theory, good enough vs best practices, and dimensions of communication required for the analysis to be embraced by policymakers and planners and be practicably applied. These were all things the open, engaging, and innovative atmosphere at NCEAS helped foster, and our wonderful mentors adeptly facilitated -- Thank you!
+I’d like to take the opportunity here to express my enthusiasm for the OHI Global Fellowship, and my gratitude for having had this opportunity. The Fellowship was not only a chance to hone programming skills and learn new data science tools, but the way it was structured, us Fellows had the opportunity to think deeply about the underlying theory, good enough vs. best practices, and dimensions of communication required for the analysis to be embraced by policymakers and planners and be practicably applied. These were all things the open, engaging, and innovative atmosphere at NCEAS helped foster, and our wonderful mentors adeptly facilitated -- Thank you!
