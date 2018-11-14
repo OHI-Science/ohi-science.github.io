@@ -4,7 +4,6 @@ self_contained: no
 title: "What makes OHI stand out in the sea of environmental indicators?"
 author: Jenny Seifert
 category : news 
-hidden : true
 ---
 The analogies for environmental indicators are endless. They are like the blood pressure of health, the stock values of investments, the GDP of economies. Their abundance may be rivaled only by that of indicators themselves – nutrient concentrations in water, fish biomass yields, sea surface temperature, species populations… and the list of ways we measure the status of our natural assets goes on.
 
