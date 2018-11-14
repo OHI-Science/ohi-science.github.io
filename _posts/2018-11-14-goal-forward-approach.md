@@ -13,6 +13,12 @@ The starting point of an OHI assessment is defining a set of goals for ocean hea
 
 “OHI starts from asking what you want to measure and then looks for the data, rather than starting from the data and seeing what it can tell you,” said Ben Halpern, lead scientist of the OHI and executive director of the National Center for Ecological Analysis and Synthesis (NCEAS).
 
+<br>
+
+<center><img src="../assets/blog_images/OHIinfographic1.png" width="600px"></center>
+
+<br>
+
 Indicators with consistent data and methods enable scientists and managers to track changes over time. This allows them to know whether management decisions are having the intended effect and, similarly, helps the public understand whether individual or collective actions are connected to meaningful change. 
 
 “The challenge is finding indicators that meaningfully give you that information,” said Halpern.
@@ -23,13 +29,13 @@ For example, when Halpern and his collaborators first developed the OHI framewor
 
 With its goal-forward approach, OHI positions scientists and managers to better determine the right data for understanding the current status of ocean benefits. For example, the number of marine-related jobs can inform the Livelihoods and Economies goal, or the extent and condition of mangroves can help indicate how well oceans are measuring up in Coastal Protection.
 
+Moreover, the approach uniquely forces scientists and managers to define the target status they want to strive for – many indicators offer merely the latest trend without defining a desired state. Target setting makes clearer whether management actions are enabling progress toward a sustainable use of ocean benefits, what would be a perfect score, thus enhancing OHI’s usefulness to real-world decision-making. 
+
 <br>
 
 <center><img src="../assets/blog_images/OHIinfographic2.png" width="600px"></center>
 
 <br>
-
-Moreover, the approach uniquely forces scientists and managers to define the target status they want to strive for – many indicators offer merely the latest trend without defining a desired state. Target setting makes clearer whether management actions are enabling progress toward a sustainable use of ocean benefits, what would be a perfect score, thus enhancing OHI’s usefulness to real-world decision-making. 
 
 By being goal-forward, the OHI framework has other big advantages. Its human-centered focus helps scientists and managers connect indicators to what people actually care about for oceans, and the goal-setting process provides a valuable opportunity for a variety of ocean stakeholders to sit at the same table, a critical step to facilitating both consensus and the uptake of OHI into decision-making.
 
