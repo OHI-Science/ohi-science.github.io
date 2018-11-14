@@ -23,6 +23,12 @@ For example, when Halpern and his collaborators first developed the OHI framewor
 
 With its goal-forward approach, OHI positions scientists and managers to better determine the right data for understanding the current status of ocean benefits. For example, the number of marine-related jobs can inform the Livelihoods and Economies goal, or the extent and condition of mangroves can help indicate how well oceans are measuring up in Coastal Protection.
 
+<br>
+
+<center><img src="../assets/blog_images/OHIinfographic2.png" width="600px"></center>
+
+<br>
+
 Moreover, the approach uniquely forces scientists and managers to define the target status they want to strive for – many indicators offer merely the latest trend without defining a desired state. Target setting makes clearer whether management actions are enabling progress toward a sustainable use of ocean benefits, what would be a perfect score, thus enhancing OHI’s usefulness to real-world decision-making. 
 
 By being goal-forward, the OHI framework has other big advantages. Its human-centered focus helps scientists and managers connect indicators to what people actually care about for oceans, and the goal-setting process provides a valuable opportunity for a variety of ocean stakeholders to sit at the same table, a critical step to facilitating both consensus and the uptake of OHI into decision-making.
