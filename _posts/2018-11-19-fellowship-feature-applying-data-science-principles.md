@@ -36,7 +36,7 @@ For me, this reflects how the OHI team works together. Every year, we question w
 
 #### 2. Changing our methods
 
-The OHI [Tourism and Recreation goal](http://ohi-science.org/goals/#tourism-and-recreation) measures the value people recieve experiencing and enjoying coastal areas and attractions. One of the components of this goal is assessing travel warning data from the U.S. Department of State that documents how dangerous it is to travel to each country. 
+The OHI [Tourism and Recreation goal](http://ohi-science.org/goals/#tourism-and-recreation) measures the value people receive experiencing and enjoying coastal areas and attractions. One of the components of this goal is assessing travel warning data from the U.S. Department of State that documents how dangerous it is to travel to each country. 
 
 Previously, the data was a ranked list of countries that were dangerous. This year, the State Department changed the data, and now they report every country on a scale of 1 to 4. So now the scaling for how they ranked them is different and we have data for all countries instead of a few. 
 
@@ -60,12 +60,12 @@ In our last week working at NCEAS, we presented to the NCEAS community what we a
 
 <br>
 
-<center><img src="../assets/blog_images/OHI_workflow.jpg" width="600px"><br>
+<center><img src="../assets/blog_images/OHI_workflow.jpg" width="800px"><br>
 <i>Ocean Health Index workflow. Created by: Ellie Campbell, Iwen Su, and Camila Vargas.</i></center>
 
 <br>
 
-We soon realized that for our independent projects, each of us contributed to one of these steps. Iwen worked developed a [Global Dashboard] (https://iwensu.shinyapps.io/global-dashboard/): a platform to explore the raw data that goes into the OHI (read more about Iwen’s project [here](http://ohi-science.org/news/fellowship-expanding-mariculture)). Ellie created a whole [pkgdown website for `ohicore`](http://ohi-science.org/ohicore/) with the aim of making the `ohicore` R package more transparent and user friendly (read more about Ellies project [here](http://ohi-science.org/news/fellowship-demystifying-pressures-ohicore)).
+We soon realized that for our independent projects, each of us contributed to one of these steps. Iwen worked developed a [Global Dashboard](https://iwensu.shinyapps.io/global-dashboard/): a platform to explore the raw data that goes into the OHI (read more about Iwen’s project [here](http://ohi-science.org/news/fellowship-expanding-mariculture)). Ellie created a whole [pkgdown website for `ohicore`](http://ohi-science.org/ohicore/) with the aim of making the `ohicore` R package more transparent and user friendly (read more about Ellies project [here](http://ohi-science.org/news/fellowship-demystifying-pressures-ohicore)).
 
 My independent project focused on improving the communication of OHI Global scores for the 220 coastal nations and territories we assess each year. The scores by region and goal are currently displayed [here](http://ohi-science.org/ohi-global/scores) in a flowerplot and table format. This website presents valuable information, but it is hard to visualize trend over time when data is presented in a table. 
 
@@ -75,7 +75,7 @@ My work was to think about and explore ways of improving our visualization of re
 
 <br>
 
-<center><img src="../assets/blog_images/interactive_plots.jpg" width="600px"><br>
+<center><img src="../assets/blog_images/interactive_plots.jpg" width="800px"><br>
 <i>This figure shows an example of the interactive plots created for one region (in this case Chile). On the left there is bar graph that highlights Chile’s ranking among the 220 OHI regions. In this plot you can hover over the bars and see the each region name, the overall regional score and their ranking. On the right you can see the example of scores through time for Chile for each goal. You can hover on each of the point and see the a short description of the goal you are looking at, the year and the score for that goal. Created by: Camila Vargas.</i></center>
 
 <br>
