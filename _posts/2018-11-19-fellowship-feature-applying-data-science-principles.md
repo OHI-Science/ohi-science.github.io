@@ -102,7 +102,7 @@ Here is the preliminary design of the cards including the map showing the region
 
 <br>
 
-This independant project was a great example of thinking about reproducibility. It was also an opportunity for me to practice and gain confidence with tools that I already was familiar with, such as R’s main plotting function `ggplot`. But it also allowed me to familiarize with so many others tools (such as LaTex) and packages (such as `ggmap`, `sf`, `plotly`, `cowplot`, etc.). Overall an amazing way to explore, play, and learn by doing. 
+This independent project was a great example of thinking about reproducibility. It was also an opportunity for me to practice and gain confidence with tools that I already was familiar with, such as R’s main plotting function `ggplot`. But it also allowed me to familiarize with so many others tools (such as LaTex) and packages (such as `ggmap`, `sf`, `plotly`, `cowplot`, etc.). Overall an amazing way to explore, play, and learn by doing. 
 
 ## The end of a chapter
 
