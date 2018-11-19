@@ -4,7 +4,6 @@ self_contained: no
 title: "Fellowship Feature: Applying data science principles"
 author: Camila Vargas
 category : news 
-hidden : true
 ---
 
 The Ocean Health index (OHI) is a framework that uses data science principles to measure how sustainably we are using ocean resources. This definition highlights two main points: data science principles and ocean resource management. As an OHI Global Fellow, we were trained on the data science tools and workflows OHI uses to conduct the annual global assessment. 
@@ -59,6 +58,13 @@ These examples show in part the dynamism of the OHI global assessment. It is alw
 
 In our last week working at NCEAS, we presented to the NCEAS community what we accomplished over the 9 month of fellowship. When putting up together the presentation we came up with the following diagram to represent the OHI workflow.
 
+<br>
+
+<center><img src="../assets/blog_images/OHI_workflow.jpg" width="600px"><br>
+<i>Ocean Health Index workflow. Created by: Ellie Campbell, Iwen Su, and Camila Vargas.</i></center>
+
+<br>
+
 We soon realized that for our independent projects, each of us contributed to one of these steps. Iwen worked developed a [Global Dashboard] (https://iwensu.shinyapps.io/global-dashboard/): a platform to explore the raw data that goes into the OHI (read more about Iwen’s project [here](http://ohi-science.org/news/fellowship-expanding-mariculture)). Ellie created a whole [pkgdown website for `ohicore`](http://ohi-science.org/ohicore/) with the aim of making the `ohicore` R package more transparent and user friendly (read more about Ellies project [here](http://ohi-science.org/news/fellowship-demystifying-pressures-ohicore)).
 
 My independent project focused on improving the communication of OHI Global scores for the 220 coastal nations and territories we assess each year. The scores by region and goal are currently displayed [here](http://ohi-science.org/ohi-global/scores) in a flowerplot and table format. This website presents valuable information, but it is hard to visualize trend over time when data is presented in a table. 
@@ -66,6 +72,14 @@ My independent project focused on improving the communication of OHI Global scor
 My work was to think about and explore ways of improving our visualization of results. Through conversations with the team, I learned that countries like seeing how their country’s score compares to all other countries assessed and also how their scores are changing through time. To meet the needs of our users, I created interactive plots using [`plotly`](https://plot.ly/r/#basic-charts) to display a country’s rank and show scores through time for each region. 
 
 `Plotly` is a visualization tool that can be used through RStudio. I chose to use this tool because it allows you to create interactive plots. Making results interactive has two major benefits. On the one hand it allows you to provide more information without cluttering the screen. With this feature you have the option to hover over the data points and see detailed information that not necessarily is displayed at the first glance. In my opinion, interactive plots make the data visualization clear and neat. I also think it engages users with what they are looking at and provides accurate information in a way that is more fun for them.
+
+<br>
+
+<center><img src="../assets/blog_images/interactive_plots.jpg" width="600px"><br>
+<i>This figure shows an example of the interactive plots created for one region (in this case Chile). On the left there is bar graph that highlights Chile’s ranking among the 220 OHI regions. In this plot you can hover over the bars and see the each region name, the overall regional score and their ranking. On the right you can see the example of scores through time for Chile for each goal. You can hover on each of the point and see the a short description of the goal you are looking at, the year and the score for that goal. Created by: Camila Vargas.</i></center>
+
+<br>
+
 
 I also designed Region Summary Cards, which like the name suggests, show the main results of each region on one page. I like to describe them as “key results in a nutshell.” Each card contains lots of different components, each with their own coding challenge. 
 
@@ -79,8 +93,14 @@ We decided to use [LaTeX](https://www.latex-project.org/about/), a document prep
 
 I had no previous knowledge using LaTeX. It was challenging to even understand what LaTeX is and how it works, so credits to Ellie for writing the initial code. Once the basic structure was there, I started playing around to figure out how include all the information and plots we wanted. A great resource for exploring LaTeX was using [OverLeaf](https://www.overleaf.com/), which is a LaTeX processor that allows you to see in real time how your document is going to be rendered.
 
-
 Here is the preliminary design of the cards including the map showing the regions EEZ, flowerplot with the global assessment scores of the region, the ranking plot, and the plot with the scores of each goal though time. I also included some general information about the OHI and the definition of each goal. 
+
+<br>
+
+<center><img src="../assets/blog_images/summary_card.jpg" width="600px"><br>
+<i> Created by: Camila Vargas.</i></center>
+
+<br>
 
 This independant project was a great example of thinking about reproducibility. It was also an opportunity for me to practice and gain confidence with tools that I already was familiar with, such as R’s main plotting function `ggplot`. But it also allowed me to familiarize with so many others tools (such as LaTex) and packages (such as `ggmap`, `sf`, `plotly`, `cowplot`, etc.). Overall an amazing way to explore, play, and learn by doing. 
 
