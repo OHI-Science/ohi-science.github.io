@@ -53,7 +53,7 @@ OHI+ assessments are often conducted at smaller, subnational spatial scales. An 
 
 Resulting scores can be used to identify policy priorities, maximize cost-effectiveness, and explore management scenarios. It is also possible to use the OHI framework as a planning tool even before final assessment scores have been calculated. The process of planning an OHI+ assessment is useful because it provides a framework to evaluate and understand current policy and requires creating an inventory of information and knowledge that spans disciplines, space and time.
 
-<a href="/phases" class="btn">View the Four Phases of the OHI Assessment</a>
+<a href="/projects/ohi-plus" class="btn">View the Four Phases of the OHI Assessment</a>
 
 
 **See also**:
@@ -81,9 +81,9 @@ Our current team is based at the **National Center for Ecological Analysis and S
 - Melanie Frazier, PhD   
 - Julie Stewart Lowndes, PhD  
 - Casey O'Hara, MSc 
-- Erin O'Reilly, MSc
-- Erich Pacheco, MSc  
+- Erin O'Reilly, MSc  
 - Courtney Scarborough, MSc
+- Eva Schemmel, PhD
 
 Learn more about us at <a href="http://www.oceanhealthindex.org/about" target="_blank">www.oceanhealthindex.org/about</a>.  
 
