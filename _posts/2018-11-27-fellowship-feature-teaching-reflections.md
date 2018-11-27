@@ -61,11 +61,10 @@ For example, for this year’s 2018 assessment, we compared the 2017 results (we
 
 ## Conclusions
 
-It was a honor working with the next generation of data scientists! They were incredibly talented, creative, and hard working. And, they brought new energy and ideas to the OHI global assessment. Along with the release of the 2018 global scores, we have created a new webpage to capture all the Fellows’ awesomeness in one place (will be live December 4th): [http://ohi-science.org/ohi-globalfellows]. 
+It was a honor working with the next generation of data scientists! They were incredibly talented, creative, and hard working. And, they brought new energy and ideas to the OHI global assessment. Along with the release of the 2018 global scores, we have created a new webpage to capture all the Fellows’ awesomeness in one place (will be live December 4th): [http://ohi-science.org/ohi-globalfellows](http://ohi-science.org/ohi-globalfellows). 
 
 We are looking forward to meeting next year’s fellows.  
 
-[http://ohi-science.org/news/fellowship-expanding-mariculture]
 <br>
 
 **More Fellowship Feature Posts**
