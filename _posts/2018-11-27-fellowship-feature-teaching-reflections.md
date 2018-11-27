@@ -35,7 +35,7 @@ Ellie, Camila, and Iwen began their fellowship in January 2018, and for the firs
 
 The program was successful because we achieved what we had set out to do: Fellows were trained and scores were calculated for 2018. But, it was successful for so many other reasons. It proved to be an enriching experience for us to step into a mentorship role for three smart, thoughtful students. And we learned a lot from them, from their questions, insights, and experiences they brought to the program and team.
 
-From the technical side, the most valuable aspect of the experience was having fresh eyes to review our code and processes. This will be key to OHI’s overall reproducibility because without noticing, over the past few years our team had created several workarounds for many processes, such as organizing and accessing data from the server, that were actually quite confusing and poorly documented because we “just knew what to do.” The Fellows’ perspective allowed them to improve the code and documentation in ways that wouldn’t have occurred to us. We discussed this a bit more formally in a recent [rOpenSci Community Call about code review in academic research](https://ropensci.org/blog/2018/11/29/codereview/) (will be published November 28, 2018). 
+From the technical side, the most valuable aspect of the experience was having fresh eyes to review our code and processes. This will be key to OHI’s overall reproducibility because without noticing, over the past few years our team had created several workarounds for many processes, such as organizing and accessing data from the server, that were actually quite confusing and poorly documented because we “just knew what to do.” The Fellows’ perspective allowed them to improve the code and documentation in ways that wouldn’t have occurred to us. We discussed this a bit more formally in a recent [rOpenSci Community Call about code review in academic research](https://ropensci.org/blog/2018/11/29/codereview/) (will be published November 29, 2018). 
 
 The Fellows also brought exciting ideas and creativity to the Ocean Health Index. They [created a website](http://ohi-science.org/globalfellows) to document their knowledge and experiences, which not only let them practice their open data science skills (since the website is created with RStudio and GitHub), but will be a valuable resource for future Fellows to use and expand upon. They also improved OHI communication through their independent projects. Ellie created a [`pkgdown` website](http://ohi-science.org/ohicore) that describes the `ohicore` R package we use to calculate OHI scores; Iwen developed an interactive website that allows people to dive into the data used to calculate OHI scores; and Camila created one page summaries of goal scores for each country as well as producing the YouTube training videos.   
 
@@ -65,6 +65,7 @@ It was a honor working with the next generation of data scientists! They were in
 
 We are looking forward to meeting next year’s fellows.  
 
+[http://ohi-science.org/news/fellowship-expanding-mariculture]
 <br>
 
 **More Fellowship Feature Posts**
