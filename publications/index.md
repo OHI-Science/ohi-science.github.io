@@ -53,6 +53,11 @@ Using the Ocean Health Index to Identify Opportunities and Challenges to Improvi
 - <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178044" target="_blank">Daigle et al. 2017</a>, *PLoS ONE*\*.
 Incorporating public priorities in the Ocean Health Index: Canada as a case study.
 
+##### Arctic
+
+- <a href="https://link.springer.com/article/10.1007/s10113-018-1395-6" target="_blank">Burgass et al. 2018</a>, *Regional Environmental Change*\*.
+A pan-Arctic assessment of the status of marine social-ecological systems.
+
 
 ## OHI supporting methods
 
