@@ -7,7 +7,11 @@ category : news
 hidden : true
 ---
 
-Ocean Health Index scores provide invaluable, comprehensive, and quantitative assessments of progress towards healthy and sustainable oceans. 2018 marks the seventh year of annual global OHI assessments, with scores representing ocean health for 220 coastal nations and territories. For detailed description of our up-to-date data and methods, see the [Supplemental Information](https://raw.githack.com/OHI-Science/ohi-global/published/global_supplement/Supplement.html).
+Ocean Health Index scores provide invaluable, comprehensive, and quantitative assessments of progress towards healthy and sustainable oceans. 2018 marks the seventh year of annual global OHI assessments, with scores representing [ocean health for 220 coastal nations and territories](http://ohi-science.org/ohi-global/scores.html). 
+
+This year our global assessment was conducted by the inaugural cohort of [OHI Fellows](http://ohi-science.org/ohi-global/fellows.html). Through the Fellows program, the OHI team trained graduate students from the Bren School of Environmental Science & Management in OHI methods and open data science tools, enabling the team to test the ease of use of their workflow and training materials. Over the summer, the Fellows then led this year’s global assessment, successfully calculating global OHI scores for 2018 while learning important skills that are valuable to the OHI community and beyond.
+
+For detailed description of our up-to-date data and methods, see the [Supplemental Information](https://raw.githack.com/OHI-Science/ohi-global/published/global_supplement/Supplement.html).
 
 <br>
 
