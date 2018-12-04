@@ -27,35 +27,37 @@ For detailed description of our up-to-date data and methods, see the [Supplement
 
 ### Score Summary
 
-Overall Index: 70 <br/>
-Artisanal Opportunities: 78 <br/>
-Biodiversity: 87 <br/>
+- Overall Index: 70 <br/>
+- Artisanal Opportunities: 78 <br/>
+- Biodiversity: 87 <br/>
 
    Habitat: 91 <br/>
    
    Species: 83 <br/>
    
-Carbon Storage: 79 <br/>
-Clean Waters: 71 <br/>
-Coastal Protection: 86 <br/>
-Food Provision: 51 <br/>
+- Carbon Storage: 79 <br/>
+- Clean Waters: 71 <br/>
+- Coastal Protection: 86 <br/>
+- Food Provision: 51 <br/>
 
    Fisheries: 51 <br/>
 
    Mariculture: 25 <br/>
    
-Livelihoods and Economies: 82 <br/>
+- Livelihoods and Economies: 82 <br/>
 
    Livelihoods: 77 <br/>
    
    Economies: 88 <br/>
-Natural Products: 45 <br/>
-Sense of Place: 64 <br/>
+   
+- Natural Products: 45 <br/>
+- Sense of Place: 64 <br/>
 	
    Lasting Special Places: 61 <br/>
    
    Iconic Species: 67 <br/>
-Tourism and Recreation: 54 <br/>
+   
+- Tourism and Recreation: 54 <br/>
 
 Amongst the highest scoring in 2018, at 80 or above, were island nations, such as Aruba in the Caribbean and New Caledonia in the south Pacific, or uninhabited islands. Germany was the only one of these 17 high scorers with a population exceeding one million people. On the other end of the spectrum, 10 regions scored 50 or below, including seven African, one Central American, and two Middle Eastern nations. 
 
