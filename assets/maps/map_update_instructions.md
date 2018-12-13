@@ -1,5 +1,5 @@
 ### STEP 1: Update Google Spreadsheet 
-*OHI_CountriesMaster* must be updated with the relevant information.
+*[OHI_CountriesMaster](https://docs.google.com/spreadsheets/d/1Xh8-36cLCEa_bppqLJu-nukVgPDT8xVEd9nxEaPYKKg/edit#gid=2018368498)* must be updated with the relevant information.
 
 ### STEP 2: regions_get_master_list.R 
 This reads in the OHI_CountriesMaster Google document and saves the data into two csv files that reflect differences in how the data will be displayed (polygons vs points).

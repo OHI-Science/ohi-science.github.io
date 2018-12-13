@@ -31,10 +31,10 @@ if (Sys.info()[['sysname']] != 'Linux' & !file.exists(dir_M)){
 
 ####################
 # uses leaflet and htmlwidgets to save html file <- 2 options for PC/Mac
-region_poly <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions',
-                       layer="allRegions")
-# region_poly <- readOGR(dsn=file.path(dir_M, 'git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions'),
+# region_poly <- readOGR(dsn='/var/data/ohi/git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions',
 #                        layer="allRegions")
+region_poly <- readOGR(dsn=file.path(dir_M, 'git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions'),
+                       layer="allRegions")
 
 
 region_poly_data <- read.csv('assets/maps/regions_shape.csv')

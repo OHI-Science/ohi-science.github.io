@@ -1,14 +1,12 @@
 _site/*
 _theme_packages/*
-
 Thumbs.db
 .DS_Store
-
 !.gitkeep
-
 .rbenv-version
 .rvmrc
 .Rproj.user
 .project
 /Gemfile.lock
 .sass-cache/*
+.httr-oauth
