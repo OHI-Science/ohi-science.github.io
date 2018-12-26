@@ -1,7 +1,7 @@
 ---
 layout: post
 self_contained: no
-title: "Year in Review 2018"
+title: "Year in review: 2018"
 author: OHI Team
 category : news 
 ---
@@ -45,4 +45,4 @@ OHI+ allows for customization by stakeholders to meet their local management nee
 
 With 2018 coming to a close, there are many new and exciting projects we are looking forward to in the new year. In 2019, we will welcome our second cohort of OHI Fellows, further expanding our OHI community and training program. We look forward to implementing a couple of changes to last year’s program (identified in [this blog](http://ohi-science.org/news/fellowship-feature-teaching-reflections)) and continuing to learn more each year from the Fellows.
 
-OHI+ assessments inBritish Colombia and the US Northeast will be finishing up, with Norway, [Cornwall](http://ohi-science.org/esw/), and the [Baltic](http://ohi-science.org/bhi/index.html) starting up. We look forward to hearing more about their progress throughout the year. The Baltic study will be our first OHI+ repeat assessment with Ellie Campbell, one of this year’s OHI Fellows, as the lead analyst. Congrats to Ellie on this new position!
+OHI+ assessments in British Colombia and the US Northeast will be finishing up, with Norway, [Cornwall](http://ohi-science.org/esw/), and the [Baltic](http://ohi-science.org/bhi/index.html) starting up. We look forward to hearing more about their progress throughout the year. The Baltic study will be our first OHI+ repeat assessment with Ellie Campbell, one of this year’s OHI Fellows, as the lead analyst. Congrats to Ellie on this new position!
