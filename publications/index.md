@@ -63,8 +63,7 @@ A pan-Arctic assessment of the status of marine social-ecological systems.
 
 #####  Fisheries
 
-- <a href="https://doi.org/10.1111/faf.12346" target="_blank">Afflerbach et al. 2019</a>, *Fish and Fisheries*.
-Quantifying uncertainty in the wild‐caught fisheries goal of the Ocean Health Index. 
+- <a href="https://doi.org/10.1111/faf.12346" target="_blank">Afflerbach et al. 2019</a>, *Fish and Fisheries*. Quantifying uncertainty in the wild‐caught fisheries goal of the Ocean Health Index. 
 
 - <a href="http://onlinelibrary.wiley.com/doi/10.1111/faf.12200/full" target="_blank">Anderson et al. 2017</a>, *Fish and Fisheries*.
 Improving estimates of population status and trend with superensemble models.  (<a href="https://github.com/datalimited/datalimited#stock-assessment-methods-for-data-limited-fisheries" target="_blank">datalimited R package</a> for catch only models)
