@@ -55,5 +55,5 @@ We have created a positive culture as a small lab team at the [Ocean Health Inde
 So looking forward, how can we replicate this RStudio::conf tone and culture at other events? Codes of Conduct and Pac-Man rules can do lot at conferences, especially when they come from leadership. They are also effective in courses, labs, departments, and events on campus. But we can also be leaders and start asking for and modeling the behavior we want to see within academia so it becomes more of the norm. I am definitely motivated to do my part.
 
 <br>
-<img src="../assets/blog_images/blog/hexes_laptop.jpg" width="300px">  
+<img src="../assets/blog_images/hexes_laptop.jpg" width="300px">  
 Community stickers
