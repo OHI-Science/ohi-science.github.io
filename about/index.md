@@ -13,7 +13,7 @@ search-terms: about contact email about us
 
 #### The Ocean Health Index (OHI) is a tailorable marine assessment framework to comprehensively and quantitatively evaluate ocean health.
 
-Determining how healthy oceans are and managing for the future requires an assesssment approach that evaluates current conditions comprehensively from social, economic, and environmental perspectives. The OHI defines a healthy ocean as one that sustainably delivers a range of benefits to people now and in the future.
+Determining how healthy oceans are and managing for the future requires an assessment approach that evaluates current conditions comprehensively from social, economic, and environmental perspectives. The OHI defines a healthy ocean as one that sustainably delivers a range of benefits to people now and in the future.
 
 **The OHI measures progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide**. By analyzing these goals together and scoring them from 0-100, OHI assessments provide an integrated picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
 
@@ -81,14 +81,20 @@ Our current team is based at the **National Center for Ecological Analysis and S
 - Melanie Frazier, PhD   
 - Julie Stewart Lowndes, PhD  
 - Casey O'Hara, MSc 
-- Erin O'Reilly, MSc  
 - Courtney Scarborough, MSc
 - Eva Schemmel, PhD
+
+Former contributors to ohi-science:
+
+- Erich Pacheco
+- Ning Jiang
+- Erin O'Reilly
+- Ben Best
 
 Learn more about us at <a href="http://www.oceanhealthindex.org/about" target="_blank">www.oceanhealthindex.org/about</a>.  
 
 
-**If you are interested in beginning an OHI+ assessment**, please contact Erich or Julie at info @ ohi-science.org.
+**If you are interested in beginning an OHI+ assessment**, please contact Julie at info @ ohi-science.org.
 
 
 {% assign color = 'teal' %}
