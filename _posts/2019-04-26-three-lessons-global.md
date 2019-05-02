@@ -7,7 +7,7 @@ category : news
 tags : [news]
 ---
 
-<!--- ***Cross-posted on [XXXXXX]()***  --->
+***Cross-posted at [NCEAS](https://www.nceas.ucsb.edu/news/three-lessons-using-global-ocean-health-index-assess-local-oceans)***
   
 It just made sense. That was a theme I drew from conversations with four people involved in separate efforts to use the Ocean Health Index’s global framework to zoom in on ocean health in their particular regions to support local ocean planning.
 
