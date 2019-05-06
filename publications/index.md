@@ -73,6 +73,8 @@ Exploring patterns of seafood provision revealed in the global Ocean Health Inde
 
 ##### Species
 
+- <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/conl.12651" target="_blank">O'Hara et al. 2019</a>, *Conservation Letters*\*. Mapping status and conservation of global at‐risk marine biodiversity.</a>
+
 - <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0175739" target="_blank">O'Hara et al. 2017</a>, *PLoS ONE*\*. Aligning marine species range data to better serve science and conservation. <a href="http://ohi-science.nceas.ucsb.edu/plos_marine_rangemaps/" target="_blank">(website with interactive figures and maps)</a>
 
 
