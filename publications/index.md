@@ -84,7 +84,7 @@ Exploring patterns of seafood provision revealed in the global Ocean Health Inde
 
 - <a href="https://www.nature.com/articles/s41598-019-47201-9">Halpern et al. 2019</a>, *Scientific Reports*\*.
 Recent pace of change in human impact on the world’s ocean.
-<a href="https://knb.ecoinformatics.org/view/doi:10.5063/F12B8WBS" target="_blank">(data);</a>
+<a href="https://knb.ecoinformatics.org/view/doi:10.5063/F12B8WBS" target="_blank">(data)</a>;
 <a href="https://github.com/OHI-Science/impact_acceleration" target="_blank"> (code)</a>
 
 - <a href="http://www.nature.com/ncomms/2015/150714/ncomms8615/full/ncomms8615.html">Halpern et al. 2015</a>, *Nature Communications*\*.
