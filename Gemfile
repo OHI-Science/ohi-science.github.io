@@ -2,7 +2,9 @@ source "https://rubygems.org"
 
 # see https://pages.github.com/versions/
 
-gem 'jekyll', '= 	3.4.3'
+
+
+gem "jekyll", ">= 3.6.3"
 gem 'jekyll-paginate', '= 1.1.0'
 gem 'jekyll-gist', '=1.4.0'
 gem 'liquid', '= 3.0.6'
