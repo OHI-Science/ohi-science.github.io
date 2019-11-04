@@ -43,6 +43,38 @@ We have developed several options that allow you to further explore and tailor t
 
 --->
 
+### OHI+: Tailor your assessment  
+
+**OHI+** is an assessment tool customized by stakeholders to meet their local management needs.
+
+With a tailored OHI+ assessment, you can:
+
+- Adapt the OHI framework to meet local needs and management priorities
+- Decide the scale of your assessment by modifying boundaries
+- Identify and substitute in local data sources 
+- Calculate a more locally relevant OHI score for your country
+
+See the [OHI+ page](https://ohi-science.org/projects/ohi-plus) for more details. 
+
+
+### OHI Go: Understand your country’s OHI score
+
+**OHI Go** is an in-depth data exploration report that examines the data powering OHI scores. 
+
+By interpreting global assessments at the national scale, OHI Focus allows you to:
+
+- Explore the data underlying OHI global scores for your nation
+- Identify better local data based on data gaps
+- Inform management based on OHI scores
+- Use the OHI framework as a planning tool 
+
+See the [OHI Go page](https://ohi-science.org/projects/ohi-go) for more details. 
+
+
+<!---
+Nov 4, 2019: tried to save locally to fix the footer problem, no help. So just switching to text. 
+https://docs.google.com/drawings/d/15E8JKeEiSBMlRDZtzq_uyS973NAqnMV9Yws6jc8hNz4/edit
+https://docs.google.com/drawings/d/1PWfrVzPYtsLSmG9d5YnjPEMFeXN1Tf2d9i-zeSILxC8/edit
 <div class="row">
   <div class="column">
     <a href="/projects/ohi-go">
@@ -58,6 +90,9 @@ We have developed several options that allow you to further explore and tailor t
 
 <br> 
 <br> 
+
+--->
+
 <br> 
 
 ----
