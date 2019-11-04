@@ -21,7 +21,7 @@ head(master_list)
 
 ### archive copy of the Google Sheet in PRIVATE ohidev repo (not here); will need to push that repo too. 
 write.csv(master_list, 
-          paste0('~/github/ohidev/OHI_CountriesMaster/OHI_CountriesMaster_', Sys.Date(), '.csv'))
+          paste0('~/github/ohi-science/ohidev/OHI_CountriesMaster/OHI_CountriesMaster_', Sys.Date(), '.csv'))
 
 
 #### parse information for display ----

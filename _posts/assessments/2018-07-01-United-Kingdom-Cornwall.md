@@ -7,7 +7,7 @@ tags : [Europe]
 ---
 
 **Status**: Active  
-**Leading group**: University of Exeter
+**Leading group**: University of Exeter  
 **Contact**: Dr. Matt Witt (M.J.Witt @ exeter.ac.uk)  
 **Description**: In English waters Marine Spatial Planning (MSP) is currently being implemented by the UK Marine Management Organisation (MMO) through a set of regional Marine Plans. The South West Marine Plan (SWMP) offers a regional approach for MSP in busy maritime areas such as the Western Approaches, English Channel and Celtic Sea.
 
