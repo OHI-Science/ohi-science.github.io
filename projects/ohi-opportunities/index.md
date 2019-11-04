@@ -46,12 +46,12 @@ We have developed several options that allow you to further explore and tailor t
 <div class="row">
   <div class="column">
     <a href="/projects/ohi-go">
-    <img src="https://docs.google.com/drawings/d/e/2PACX-1vRl7AVooqRwU_W6oTqCK8LKoJJ1u4DqFt2aEBzPS3F-1MAnOS2CvrSp2pisPwxN1wmScwJtoJMmGulQ/pub?w=450&h=280">
+    <img src="../../assets/blog_images/OHIgo.png">
   </a>
   </div>
   <div class="column">
     <a href="/projects/ohi-plus">
-    <img src="https://docs.google.com/drawings/d/e/2PACX-1vS_FGD9HhlrwipP6oJDlUd8F4cbm6ZwfZ3oOGgZua7SGChD2Bxiw-pafB4Ef405q82KvaKo_JBHmJME/pub?w=450&h=275">
+    <img src="../../assets/blog_images/OHIplus.png">
   </a>
   </div>
 </div>
