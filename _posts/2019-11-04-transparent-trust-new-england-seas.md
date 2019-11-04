@@ -8,7 +8,7 @@ tags : [news]
 ---
 
 
-*A case study about transparency in the Ocean Health Index*
+## A case study about transparency in the Ocean Health Index
 
 In a world of increasingly complex decision making, transparency has become paramount. This is no exception in science and, specifically, in science-based management of natural resources.
 
@@ -26,6 +26,7 @@ But the Dashboard is just one output of an entire process of transparency and op
 
 <center>
     <img src="../assets/blog_images/northeast-afflerbach-present.JPG" width="400px">
+        <figcaption>Project scientist Jamie Afflerbach presents about the Ocean Health Index at a stakeholder meeting in New Hampshire early in the process.</figcaption>
 </center>
 
 <br>
@@ -64,6 +65,7 @@ Moreover, several industries are either currently or have the potential to be ex
 
 <center>
     <img src="../assets/blog_images/northeast-wind-turbines.JPG" width="400px">
+    <figcaption>OHI's flexible framework will allow users to track how offshore wind energy, an emerging industry in the Northeast, affects the ocean benefits people receive into the future.</figcaption>
 </center>
 
 <br>
