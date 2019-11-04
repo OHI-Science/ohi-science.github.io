@@ -79,3 +79,11 @@ So, what does our experience in the Northeast mean for transparency in ocean sci
 
 We are certainly not the first to learn and share such lessons, but we feel our work serves as further evidence of what transparency in science can achieve for the benefit of people and oceans. We hope the OHI Northeast Dashboard can be a useful tool for current and future researchers and managers in their efforts to sustain ocean benefits and communities.
 
+<br>
+
+*Related posts*
+
+- [Three Lessons for Using the Global Ocean Health Index to Assess Local Oceans)](https://ohi-science.org/news/three-lessons-global)
+- [What makes OHI stand out in the sea of environmental indicators?](https://ohi-science.org/news/goal-forward-approach)
+- [What does scientific reproducibility look like?](https://ohi-science.org/news/scientific-reproducibility-with-fellows)
+- [Fellowship Feature: Applying data science principles](https://ohi-science.org/news/fellowship-feature-applying-data-science-principles)
