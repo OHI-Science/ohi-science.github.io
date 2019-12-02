@@ -14,7 +14,7 @@ This marks our eighth year of conducting the global assessment, and the second y
 
 <br>
 <center>
-    <img src="../assets/blog_images/fellows2019-crop.jpg" width="800px">
+    <img src="../assets/blog_images/fellows2019-crop.jpg" width="400px">
 </center>
 
 <br>
@@ -29,7 +29,7 @@ Here are the 2019 Ocean Health Index scores for 220 regions:
 <br>
 
 <center>
-    <img src="../assets/blog_images/global_map_Index_2019_mol.png" width="400px">
+    <img src="../assets/blog_images/global_map_Index_2019_mol.png" width="700px">
 </center>
 
 <br>
@@ -44,3 +44,5 @@ We are now beginning the 2020 Ocean Health Index assessment.  So stay tuned for 
 - [What makes OHI stand out in the sea of environmental indicators?](https://ohi-science.org/news/goal-forward-approach)
 - [Marine Research, Open Science, and the 2019 Ocean Health Index Fellows](https://ohi-science.org/news/fellows-2019)
 - [2018 global ocean health scores](https://ohi-science.org/news/2018-global-scores)
+
+<br>
