@@ -74,9 +74,9 @@ Here is an overview of the calculations: Raw stressor data -> rescaled stressor 
 
 All raster files are .tif format and coordinate reference system is mollweide wgs84. 
 
+Additionally, you can download data from the Mediterrean Sea cumulative human impacts assessment from an interactive website made by our collaborators [here](https://mermexregio.obs-vlfr.fr/).
 
 **Original Cumulative Human Impact Data**
 
 The original project for mapping the cumulative human impact to marine ecosystems ([Halpern et al. 2008](https://science.sciencemag.org/content/319/5865/948.abstract)) additionally has 4 packages of data, with the [main cumulative impact data](https://knb.ecoinformatics.org/view/doi%3A10.5063%2FF19C6VN5) available along with several nested datasets available within that page.
 
-Additionally, you can download data from the Mediterrean Sea cumulative human impacts assessment from an interactive website made by our collaborators [here](https://mermexregio.obs-vlfr.fr/).
