@@ -146,8 +146,10 @@ Local and regional experiences with assessing and fostering ocean health.
 
 ##### Ecuador
 
+- <a href="https://github.com/OHI-Science/mse/blob/master/INFORME_FINAL_IdSO_MANABI_SANTA_ELENA.pdf" target="_blank">OHI+ Santa Elena 2020 Final Report (in Spanish)</a>
 - <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_InformeFinal.pdf" target="_blank">OHI+ Gulf of Guayaquil 2015 Final Report (in Spanish)</a>
 - <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/3c6babb40348e62b322abadad086ece565411adf/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_Metas.zip" target="_blank">OHI+ Gulf of Guayaquil 2015 Goal details (in Spanish)</a>
+
 
 ##### Israel
 
