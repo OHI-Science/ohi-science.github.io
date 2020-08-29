@@ -50,6 +50,8 @@ Using the Ocean Health Index to Identify Opportunities and Challenges to Improvi
 
 ##### Canada
 
+- <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0227502" target="_blank">O'Hara et al. 2020</a>, *PLoS ONE*\*.
+Changes in ocean health in British Columbia from 2001 to 2016.
 - <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178044" target="_blank">Daigle et al. 2017</a>, *PLoS ONE*\*.
 Incorporating public priorities in the Ocean Health Index: Canada as a case study.
 
