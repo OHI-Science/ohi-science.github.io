@@ -50,6 +50,8 @@ Using the Ocean Health Index to Identify Opportunities and Challenges to Improvi
 
 ##### Canada
 
+- <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0227502" target="_blank">O'Hara et al. 2020</a>, *PLoS ONE*\*.
+Changes in ocean health in British Columbia from 2001 to 2016.
 - <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178044" target="_blank">Daigle et al. 2017</a>, *PLoS ONE*\*.
 Incorporating public priorities in the Ocean Health Index: Canada as a case study.
 
@@ -146,8 +148,10 @@ Local and regional experiences with assessing and fostering ocean health.
 
 ##### Ecuador
 
+- <a href="https://github.com/OHI-Science/mse/blob/master/INFORME_FINAL_IdSO_MANABI_SANTA_ELENA.pdf" target="_blank">OHI+ Santa Elena 2020 Final Report (in Spanish)</a>
 - <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/dev/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_InformeFinal.pdf" target="_blank">OHI+ Gulf of Guayaquil 2015 Final Report (in Spanish)</a>
 - <a href="https://github.com/OHI-Science/ohi-science.github.io/raw/3c6babb40348e62b322abadad086ece565411adf/assets/downloads/pubs/OHI%2BGulfodeGuayaquil_2015_Metas.zip" target="_blank">OHI+ Gulf of Guayaquil 2015 Goal details (in Spanish)</a>
+
 
 ##### Israel
 
