@@ -1,7 +1,7 @@
 ---
 layout: post
 self_contained: no
-title: "2019 Global Ocean Health Index Scores"
+title: "2020 Baltic Health Index (BHI)"
 author: Melanie Frazier
 category : news 
 tags : [news]
