@@ -53,6 +53,12 @@ Sense of Place |  68
    Lasting Special Places (protected areas) | 57
 Tourism | 76
 
+Figure 1: Index results for the goals of the Baltic Health Index. The overall value of 100 refers in part to management targets for example “good environmental status” by the EU Marine Strategy Framework Directive for 2020. It is important to note that the assumed reference value for a pristine Baltic Sea would be much higher than 100 !. All methods and calculations as well as original data are accessible at https://baltic-ohi.shinyapps.io/dashboard/
+
+<center>
+    <img src="../assets/blog_images/bhi_pie.png" width="700px">
+</center>
+
 ### About the Baltic Health Index
 
 The aim of the Baltic Health Index (BHI) is to scientifically explore, compare and combine key elements from all dimensions of the ocean’s health — biological, physical, economic, and social as well as pressures and resilience. The BHI is an open-science tool and transparently equips managers and policymakers with meaningful vital signs that can help them to manage the Baltic Sea sustainably. The BHI responds continuously to new data, with the aim to release an updated version every year to facilitate tracking management progress. The added value to existing assessment tools is that it shows the interdependence or trade-offs between goals, it provides future management priorities and it can be applied very locally, too. 
