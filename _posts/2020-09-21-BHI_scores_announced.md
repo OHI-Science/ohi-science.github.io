@@ -34,14 +34,15 @@ The overall score for the Baltic Sea is 76.
 Table 1: Same as Figure 1, gives full calculation results for the whole Baltic Sea.
 About the Baltic Health Index
 
+
 Goal | Score
 ------ | ---------------
 Artisanal Fishing Opportunity | 93
 Biodiversity  | 70
 Carbon Storage | 20
-   Clean Water:|  60
+Clean Water |  60
    Clean Water: Contaminants | 42
-   Clean Water: Eutrophication 72
+   Clean Water: Eutrophication | 72
 Trash | 84
 Food Provision | 83
    Food Provision: Fisheries | 82
