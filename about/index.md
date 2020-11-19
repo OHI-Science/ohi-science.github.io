@@ -127,7 +127,7 @@ Online at worldoceanobservatory.org.
 
 <img src="../img/pac-life-logo.jpg" width="200">
 <img src="../img/gbmf-logo.png" width="100">
-<img src="../img/world-ocean-ob-logo.jpg" width="50">
+<img src="../img/world-ocean-ob-logo.jpg" width="90">
 
 
 <h3 class="subtle">Photo credits</h3>
