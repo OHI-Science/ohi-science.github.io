@@ -17,7 +17,7 @@ Determining how healthy oceans are and managing for the future requires an asses
 
 **The OHI measures progress towards a suite of key societal ‘goals’ representing the benefits and services people expect healthy oceans to provide**. By analyzing these goals together and scoring them from 0-100, OHI assessments provide an integrated picture of the state of the ecosystem and can be communicated to a wide range of audiences.  
 
-Originally developed by an interdisciplinary team of scientists (Halpern *et al*., 2012, *Nature*), global assessments have been repeated every year since 2012 (Halpern *et al*., 2015, *PLOS One*; Halpern *et al. in review*).
+Originally developed by an interdisciplinary team of scientists (Halpern *et al*., 2012, *Nature*), global assessments have been repeated every year since 2012 (Halpern *et al*., 2015, *PLOS One*; Halpern *et al.*, 2017, *PLOS One*).
 
 The OHI framework is standardized yet tailorable to different contexts and spatial scales. This is possible because the core framework of how goals are scored does not change while the goal models themselves are developed with local information and local decisions specific to the context.
 
@@ -82,7 +82,6 @@ Our current team is based at the **National Center for Ecological Analysis and S
 - Julie Stewart Lowndes, PhD  
 - Casey O'Hara, MSc 
 - Courtney Scarborough, MSc
-- Eva Schemmel, PhD
 
 Former contributors to ohi-science:
 
@@ -90,11 +89,9 @@ Former contributors to ohi-science:
 - Ning Jiang
 - Erin O'Reilly
 - Ben Best
+- Eva Schemmel
 
 Learn more about us at <a href="http://www.oceanhealthindex.org/about" target="_blank">www.oceanhealthindex.org/about</a>.  
-
-
-**If you are interested in beginning an OHI+ assessment**, please contact Julie at info @ ohi-science.org.
 
 
 {% assign color = 'teal' %}
@@ -117,9 +114,20 @@ Open data science tools are important for reproducibility and transparency, but 
 - [The importance of open data science tools in science: a list of references](http://ohi-science.org/news/importance-of-open-data-science-tools)
 
 
-## Thanks to our supporters
+## Thanks to our supporters and partners
 
-We are grateful for the generous support from the Pacific Life Foundation to Conservation International and the Gordon and Betty Moore Foundation to NCEAS.  We also thank our <a href="http://www.oceanhealthindex.org/about/sustaining-partners" target="_blank">past supporters</a> for helping us build the Ocean Health Index over the past eight years.
+We are grateful for the generous support from the Pacific Life Foundation and the Gordon and Betty Moore Foundation, as well as our <a href="http://www.oceanhealthindex.org/about/sustaining-partners" target="_blank">sustaining partners</a> for helping us build the Ocean Health Index from the beginning.
+
+The Pacific Life Foundation has a strong tradition of creating positive societal change through its grant making program. Established in 1984 and headquartered in Newport Beach, CA, the Pacific Life Foundation is the charitable giving arm of Pacific Life Insurance Company and, during that time, has contributed over $84 million in donations to thousands of nonprofits.
+
+The Gordon and Betty Moore Foundataion enables lasting, meaningful change through sustained, scientifically sound philanthropy, seeking to achieve through philanthropy what Gordon Moore accomplished for the world of computing: to create an ever more powerful engine of progress in society.
+
+The World Ocean Observatory is a major utility for ocean communication as a means to advance public awareness and political will, dedicated to providing information and education about the health of the ocean.
+Online at worldoceanobservatory.org.
+
+<img src="../img/pac-life-logo.jpg" width="200">
+<img src="../img/gbmf-logo.png" width="100">
+<img src="../img/world-ocean-ob-logo.jpg" width="50">
 
 
 <h3 class="subtle">Photo credits</h3>
