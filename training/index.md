@@ -5,20 +5,17 @@ description: Training
 header: brain-coral-1669995_1280.jpg
 ---
 
-## Open data science
+## OHI Onboarding
 
-Open data science tools, practices, and workflows underpin our work and all OHI assessments, as we describe in [Lowndes et al. 2017](https://www.nature.com/articles/s41559-017-0160). 
-
-[**Introduction to Open Data Science**](http://ohi-science.org/data-science-training/) is a hands-on training book that can be used to lead trainings or self-paced learning. Open data science means that methods, data, and code are available so that others can access, reuse, and build from it without much fuss. This training is not specific to OHI, but provides foundational skills for how to do reproducible research with R, RStudio, Git, and GitHub. 
+[**OHI Onboarding**](http://ohi-science.org/onboarding/) aims to help you get "on board" with Ocean Health Index (OHI) methods and practices as you lead your own independent OHI assessment (OHI+). It helps orient you to open data science & OHI Toolbox training resources listed below, with chapters organized in the same way as we introduce [OHI+ assessments](https://ohi-science.org/projects/ohi-plus/). 
 
 
-## OHI Toolbox 
+## Open data science & the OHI Toolbox 
 
-The OHI Toolbox is really open data science software used in a collaborative workflow to calculate OHI scores. It is built off the open data science tools and practices above.
 
-[**OHI Toobox Training**](http://ohi-science.org/toolbox-training/) is a hands-on training book that can be used to lead trainings or self-paced learning. It will introduce you to the OHI Toolbox and how to use it to calculate OHI scores, and provide guidance as your team prepares to use the Toolbox. The training is accompanied by its predecesor, the OHI Manual.
+[**Introduction to Open Data Science**](http://ohi-science.org/data-science-training/) is a hands-on training book introducing the tools, practices, and workflows underpin our work and all OHI assessments, as we describe in [Lowndes et al. 2017](https://www.nature.com/articles/s41559-017-0160). Open data science means that methods, data, and code are available so that others can access, reuse, and build from it without much fuss. This training is not specific to OHI, but provides foundational skills for how to do reproducible research with R, RStudio, Git, and GitHub. 
 
-The [**OHI Manual**](/manual) is a guide for the Conduct phase of the OHI process, which includes the Toolbox. It is not written as a hands-on training, but is the most comprehensive handbook of information to guide OHI assessments. The manual is not updated as frequently as the Toolbox Training.  
+[**OHI Toobox Training**](http://ohi-science.org/toolbox-training/) is a hands-on training book  introducing you to the OHI Toolbox and how to use it to calculate OHI scores, and provide guidance as your team prepares to use the Toolbox. It is built off the open data science tools and practices above. The training is accompanied by its predecessor, the [**OHI Manual**](/manual), which is a guide for the Conduct phase of the OHI process, including the Toolbox. It is not written as a hands-on training, but is the most comprehensive handbook of information to guide OHI assessments. The manual is not updated as frequently as the Toolbox Training.  
 
 {% assign color = 'color-light-2' %}
 {% assign position = 'bottom-left' %}
