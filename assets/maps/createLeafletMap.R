@@ -97,3 +97,29 @@ unlink("projects/ohi-assessments/allRegions_files", recursive=TRUE) # delete old
 warning('Now move `/allRegions_files` to `/projects/ohi-assessments/allRegions_files`!')
 warning('Seriously, did you move `/allRegions_files` to `/projects/ohi-assessments/allRegions_files`!?')
 # we should script this someday but actually a pain to loop through subdirectories and copy
+
+### combined geojson
+
+polys <- readOGR(dsn =file.path(dir_M, 
+                                'git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions'), layer = 'allRegions')
+polys_sf <- st_as_sf(polys) %>%
+  left_join(region_poly_data, by="country") %>%
+  mutate(popup =paste0('<b>', region_poly@data$display, '</b>',
+                                      '<br/>', "status: ", region_poly@data$phase)) %>%
+  dplyr::select(-lat, -lon)
+
+mapview::mapview(polys_sf)
+
+points <- read.csv("assets/maps/regions_point.csv")
+points$popup <- paste0('<b>', points$display, '</b>',
+                       '<br/>', "status: ", points$phase) # use this for new line: , "<br/>")
+
+points_sf = st_as_sf(points, coords = c("lon", "lat"), crs = 4326)
+
+mapview::mapview(points_sf)
+
+all <- rbind(points_sf, polys_sf) %>%
+  left_join(colors, buy = "phase") 
+mapview::mapview(all)
+
+st_write(all, file.path(dir_M, 'git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions/ohi_plus_2021.geojson'), driver="GeoJSON")

@@ -11,6 +11,7 @@ library(htmlwidgets)
 library(jsonlite)
 library(RColorBrewer)
 library(rgeos)
+library(sf)
 
 source('../ohiprep/src/R/common.R')
 
@@ -103,4 +104,6 @@ regionAll <- rbind(map1, bhi, bci, USWC, gye)
 
 writeOGR(regionAll, dsn = file.path(dir_M, 'git-annex/Global/NCEAS-Regions_v2014/data/website_OHIplus_regions'), 
          layer="allRegions", driver = "ESRI Shapefile", overwrite=TRUE)
+
+
 
