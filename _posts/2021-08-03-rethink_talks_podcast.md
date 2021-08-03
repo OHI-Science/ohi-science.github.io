@@ -7,7 +7,7 @@ category : news
 tags : [news]
 ---
 
-## What does a healthy ocean really look like
+## What does a healthy ocean really look like?
 
 Susa Niiranen, in a [Rethink Talks podcast](https://rethink.earth/what-does-a-healthy-ocean-really-look-like/), explores what a healthy ocean really looks like and how the Ocean Health Index offers a comprehensive assessment of the social, economic, and environmental condition of the ocean.  
 
