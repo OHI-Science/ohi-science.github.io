@@ -1,3 +1,3 @@
 # ohi-science.github.io
 
-This is Ocean Health Index Science website: ohi-science.org.  
+The content in here is for the OHI-website pre-2021. This now redirects to oceanhealthindex.org. The content for oceanhealthindex is in repo: OHI-website.
